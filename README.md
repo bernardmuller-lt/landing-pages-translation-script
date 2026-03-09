@@ -100,6 +100,93 @@ Each JSON file contains:
 }
 ```
 
+## Translation Parsing
+
+After fetching a page, you can extract all translatable text strings into a key-value format for translation.
+
+### Usage
+
+```bash
+npm run parse -- <slug>
+```
+
+### Examples
+
+Parse the home page:
+```bash
+npm run parse -- home
+```
+
+Parse the support page:
+```bash
+npm run parse -- support
+```
+
+The script will:
+1. Read the fetched JSON file from `output/[slug]-en.json`
+2. Extract all user-facing text strings
+3. Generate path-based keys (e.g., `sections[0].title`, `seo.description`)
+4. Save the output to `output/translations/[slug].json`
+
+### Translation Output
+
+Each run creates a translation file in `output/translations/`:
+
+```
+output/
+├── translations/
+│   ├── home.json
+│   ├── support.json
+│   └── onboarding.json
+└── home-en.json
+```
+
+**Example translation file** (`output/translations/home.json`):
+
+```json
+{
+  "seo.description": "Get expert AI-driven answers, powered by GPT-4o",
+  "seo.title": "AI Chat - Get Real-Time AI Answers",
+  "sections[0].cta.aria_label": "Start using AI Chat now",
+  "sections[0].cta.text": "Get Started",
+  "sections[0].description": "Get expert AI-driven answers, powered by GPT-4o, instantly",
+  "sections[0].title": "Get Real-Time",
+  "sections[1].items[0].author": "Tech Professional",
+  "sections[1].items[0].description": "This platform seamlessly integrates...",
+  "sections[1].items[0].title": "Smart Writing Tool",
+  "sections[1].title": "Your gateway to smarter conversations"
+}
+```
+
+### Path-Based Keys
+
+Keys use JSON path notation to indicate exactly where each string appears in the data:
+
+- `seo.title` - Title in the SEO object
+- `sections[0].title` - Title of the first section
+- `sections[1].items[3].description` - Description of the 4th item in the 2nd section
+- `sections[2].cta.text` - Button text in the 3rd section
+
+This approach:
+- Avoids key collisions when the same text appears multiple times
+- Makes it clear where translations should be applied
+- Enables programmatic re-injection of translations
+
+### What Gets Extracted
+
+The parser extracts user-facing text from these fields:
+- `title`, `description`, `text`, `content`
+- `heading`, `subtitle`, `author`
+- `alt`, `aria_label` (accessibility text)
+- `pricePerDay`, `duration`, `fullPrice` (pricing text)
+
+**Excluded fields** (not extracted):
+- Technical fields (IDs, timestamps, component names)
+- URLs and file paths
+- Icon identifiers
+- Boolean and numeric values
+- Tracking/analytics fields
+
 ## Configuration
 
 You can modify the configuration in `src/config.ts`:
@@ -192,6 +279,29 @@ Make sure:
 - Your API token is valid
 - You have internet connectivity
 - The Strapi server is running
+
+### Parse Error: Input file not found
+
+When running `npm run parse -- <slug>`, if you get an error that the input file is not found:
+```bash
+npm run parse -- home
+# Error: Input file not found: output/home-en.json
+```
+
+This means you need to fetch the page first:
+```bash
+npm run fetch -- home
+npm run parse -- home
+```
+
+### Parse Warning: No translatable strings found
+
+If the parser completes but reports 0 strings extracted, this could mean:
+- The page data structure is different than expected
+- All text fields are empty
+- The page only contains non-translatable content (images, videos, etc.)
+
+Check the source JSON file to verify it contains text content.
 
 ## Related Projects
 

@@ -22,4 +22,7 @@ export const config = {
 
   // Output directory for JSON files (relative to project root)
   outputDir: resolve(process.cwd(), 'output'),
+
+  // Output directory for translation files
+  translationsOutputDir: resolve(process.cwd(), 'output/translations'),
 } as const;

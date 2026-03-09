@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "fetch": "tsx src/index.ts",
-    "fetch:watch": "tsx watch src/index.ts"
+    "fetch:watch": "tsx watch src/index.ts",
+    "parse": "tsx src/parse.ts"
   },
   "keywords": [
     "strapi",
