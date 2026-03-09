@@ -25,4 +25,7 @@ export const config = {
 
   // Output directory for translation files
   translationsOutputDir: resolve(process.cwd(), 'output/translations'),
+
+  // Output directory for prepared (API-ready) files
+  preparedOutputDir: resolve(process.cwd(), 'output/prepared'),
 } as const;

@@ -187,6 +187,121 @@ The parser extracts user-facing text from these fields:
 - Boolean and numeric values
 - Tracking/analytics fields
 
+## Applying Translations
+
+Once you have translated the key-value file, you can apply the translations back to the original structure and prepare it for API submission.
+
+### Usage
+
+```bash
+npm run apply -- <locale> <path/to/kv-file>
+```
+
+### Examples
+
+Apply German translations:
+```bash
+npm run apply -- de output/translations/home_de.json
+```
+
+Apply French translations:
+```bash
+npm run apply -- fr output/translations/support_fr.json
+```
+
+The script will:
+1. Extract the slug from the KV filename (e.g., `home_de.json` → `home`)
+2. Read the source page from `output/[slug]-en.json`
+3. Apply all translations from the KV file
+4. Update the locale to the target locale
+5. Format in API-ready structure (matches `post-data.json` format)
+6. Save to `output/prepared/[slug]-[locale].json`
+
+### Prepared Output
+
+Files are saved in `output/prepared/` ready for API submission:
+
+```
+output/
+├── prepared/
+│   ├── home-de.json      # German version
+│   ├── home-fr.json      # French version
+│   └── support-es.json   # Spanish version
+├── translations/
+│   ├── home.json
+│   ├── home_de.json
+│   └── support_es.json
+└── home-en.json
+```
+
+**Example prepared file** (`output/prepared/home-de.json`):
+
+```json
+{
+  "data": {
+    "environment": "production",
+    "identifier": "ai-chat",
+    "slug": "home",
+    "locale": "de",
+    "seo": {
+      "title": "KI-Chat - Erhalten Sie KI-Antworten in Echtzeit",
+      "description": "Erleben Sie KI-gestützte Gespräche..."
+    },
+    "events": {
+      "viewPageEventName": "view_landing",
+      "landing_folder": "/",
+      "landing_parameter": null
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.hero-section",
+        "fe_component": "Hero",
+        "title": "Erhalten Sie Echtzeit-Antworten",
+        "description": "Sofortige KI-Antworten mit GPT-4o",
+        "cta": {
+          "href": "https://...",
+          "text": "Jetzt starten",
+          "aria_label": "Jetzt starten",
+          "icon": "arrow-right"
+        },
+        "media": {...}
+      }
+    ]
+  }
+}
+```
+
+### Complete Workflow
+
+Here's the full workflow from fetching to API-ready translation:
+
+```bash
+# Step 1: Fetch the English page
+npm run fetch -- home
+
+# Step 2: Extract translatable strings
+npm run parse -- home
+
+# Step 3: Translate the JSON file
+# Copy output/translations/home.json → home_de.json
+# Translate all values to German
+
+# Step 4: Apply translations and prepare for API
+npm run apply -- de output/translations/home_de.json
+
+# Result: output/prepared/home-de.json is ready for API submission!
+```
+
+### API Structure
+
+The prepared files match the structure expected by the Strapi API (see `src/lib/data/post-data.json` for reference):
+
+- Outer `"data"` wrapper
+- Top-level fields: `environment`, `identifier`, `slug`, `locale`
+- Content fields: `seo`, `events`, `sections`
+- All media, CTAs, and nested structures preserved
+- Only text fields are translated
+
 ## Configuration
 
 You can modify the configuration in `src/config.ts`:
