@@ -6,7 +6,8 @@
   "scripts": {
     "fetch": "tsx src/index.ts",
     "fetch:watch": "tsx watch src/index.ts",
-    "parse": "tsx src/parse.ts"
+    "parse": "tsx src/parse.ts",
+    "translate": "tsx src/translate.ts"
   },
   "keywords": [
     "strapi",
@@ -18,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "openai": "^6.27.0",
     "qs": "^6.13.0"
   },
   "devDependencies": {
