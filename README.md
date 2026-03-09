@@ -45,28 +45,44 @@ CMS_API_TOKEN=your_api_token_here
 
 ## Usage
 
-Run the script to fetch all pages and save them as JSON files:
+Run the script with a page slug to fetch and save that specific page as a JSON file:
 
 ```bash
-npm run fetch
+npm run fetch -- <slug>
+```
+
+### Examples
+
+Fetch the home page:
+```bash
+npm run fetch -- home
+```
+
+Fetch the support page:
+```bash
+npm run fetch -- support
+```
+
+Fetch the onboarding page:
+```bash
+npm run fetch -- onboarding
 ```
 
 The script will:
 1. Connect to the Strapi CMS API
-2. Fetch all published pages for the `ai-chat` project
+2. Fetch the specified page for the `ai-chat` project
 3. Filter by `production` environment and `en` locale
-4. Save each page as a JSON file in the `output/` directory
+4. Save the page as `[slug]-en.json` in the `output/` directory
+
+**Note:** The `--` after `npm run fetch` is required to pass the slug argument to the script.
 
 ### Output
 
-JSON files are saved in the `output/` directory with the naming convention:
+Each run of the script saves one JSON file in the `output/` directory:
 
 ```
 output/
-├── home-en.json
-├── support-en.json
-├── onboarding-en.json
-└── [other-pages]-en.json
+└── [slug]-en.json  (e.g., home-en.json, support-en.json)
 ```
 
 Each JSON file contains:
@@ -92,19 +108,6 @@ You can modify the configuration in `src/config.ts`:
 - `locale`: Locale to fetch (default: 'en')
 - `environment`: Environment filter (default: 'production')
 - `outputDir`: Output directory path (default: './output')
-
-### Fetching Specific Pages
-
-To fetch only specific pages, edit `src/index.ts` and uncomment the `slugs` option:
-
-```typescript
-const pages = await fetchPages({
-  identifier: config.identifier,
-  locale: config.locale,
-  environment: config.environment,
-  slugs: ['home', 'support'], // Fetch only these pages
-});
-```
 
 ## Project Structure
 
@@ -161,17 +164,26 @@ To create an API token in Strapi:
 
 ## Troubleshooting
 
+### Error: Missing required argument <slug>
+
+You need to provide a slug argument when running the script. Use:
+```bash
+npm run fetch -- <slug>
+```
+See the Usage section for examples.
+
 ### Error: CMS_API_URL environment variable is not set
 
 Make sure you have created a `.env` file with the required variables. See the Installation section.
 
-### Error: No published content found
+### Warning: Page "[slug]" not found in Strapi CMS
 
-This means there are no published pages in Strapi for the specified filters. Check:
-- Pages are published (not draft)
-- Environment filter matches your pages
-- Locale matches your pages
-- Identifier matches your project
+This means the specified page slug doesn't exist or isn't published in Strapi. Check:
+- The page exists in Strapi with the exact slug name
+- The page is published (not draft)
+- The environment filter matches (default: production)
+- The locale matches (default: en)
+- The identifier matches (default: ai-chat)
 
 ### Network errors
 
