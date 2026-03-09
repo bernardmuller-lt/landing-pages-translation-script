@@ -15,7 +15,6 @@ build/
 
 # Output files
 output/
-*.json
 
 # Logs
 logs/
