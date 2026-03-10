@@ -1,0 +1,578 @@
+{
+  "slug": "home",
+  "locale": "en",
+  "seo": {
+    "id": 203,
+    "title": "AI Chat Web App",
+    "description": "A sophisticated AI chat assistant designed to provide intelligent responses, engage in meaningful dialogues, and deliver a seamless conversational experience."
+  },
+  "sections": [
+    {
+      "__component": "ai-chat.hero-section",
+      "id": 99,
+      "fe_component": "Hero",
+      "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Multiple AI</strong><br><strong class=\"font-black\">Models, </strong>One Powerful Platform</h1>",
+      "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chat with different AI models to find yours</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Discover a world of AI in one place. Chat with different models, compare their strengths, and get the most out of AI technology. Whether you need accurate research, content creation, language translation, image generation or coding assistance, we have the right model for you.</p>",
+      "cta": {
+        "id": 381,
+        "href": "https://chat.aichatapp.ai/login",
+        "text": "Start for free",
+        "aria_label": "Start for free",
+        "icon": "arrow-right",
+        "wide": null
+      },
+      "media": {
+        "id": 990,
+        "dark": {
+          "id": 9,
+          "documentId": "j7srfe6c3xe6vbisz6i1wc97",
+          "name": "homepage-hero-dark-mode-en.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 900,
+          "height": 540,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_homepage_hero_dark_mode_en_3548385e55.png",
+              "hash": "small_homepage_hero_dark_mode_en_3548385e55",
+              "mime": "image/png",
+              "name": "small_homepage-hero-dark-mode-en.png",
+              "path": null,
+              "size": 56.8,
+              "width": 500,
+              "height": 300,
+              "sizeInBytes": 56804
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_homepage_hero_dark_mode_en_3548385e55.png",
+              "hash": "medium_homepage_hero_dark_mode_en_3548385e55",
+              "mime": "image/png",
+              "name": "medium_homepage-hero-dark-mode-en.png",
+              "path": null,
+              "size": 109.08,
+              "width": 750,
+              "height": 450,
+              "sizeInBytes": 109080
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_homepage_hero_dark_mode_en_3548385e55.png",
+              "hash": "thumbnail_homepage_hero_dark_mode_en_3548385e55",
+              "mime": "image/png",
+              "name": "thumbnail_homepage-hero-dark-mode-en.png",
+              "path": null,
+              "size": 20.08,
+              "width": 245,
+              "height": 147,
+              "sizeInBytes": 20075
+            }
+          },
+          "hash": "homepage_hero_dark_mode_en_3548385e55",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 31.09,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/homepage_hero_dark_mode_en_3548385e55.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2026-02-16T12:19:48.876Z",
+          "updatedAt": "2026-02-16T12:19:48.876Z",
+          "publishedAt": "2026-02-16T12:19:48.878Z"
+        },
+        "light": {
+          "id": 8,
+          "documentId": "a3mimklwjzml0q592j0x9yut",
+          "name": "homepage-hero-light-mode-en.webp",
+          "alternativeText": null,
+          "caption": null,
+          "width": 800,
+          "height": 479,
+          "formats": {
+            "small": {
+              "ext": ".webp",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_homepage_hero_light_mode_en_736293ae43.webp",
+              "hash": "small_homepage_hero_light_mode_en_736293ae43",
+              "mime": "image/webp",
+              "name": "small_homepage-hero-light-mode-en.webp",
+              "path": null,
+              "size": 11.47,
+              "width": 500,
+              "height": 299,
+              "sizeInBytes": 11468
+            },
+            "medium": {
+              "ext": ".webp",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_homepage_hero_light_mode_en_736293ae43.webp",
+              "hash": "medium_homepage_hero_light_mode_en_736293ae43",
+              "mime": "image/webp",
+              "name": "medium_homepage-hero-light-mode-en.webp",
+              "path": null,
+              "size": 19.79,
+              "width": 750,
+              "height": 449,
+              "sizeInBytes": 19788
+            },
+            "thumbnail": {
+              "ext": ".webp",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_homepage_hero_light_mode_en_736293ae43.webp",
+              "hash": "thumbnail_homepage_hero_light_mode_en_736293ae43",
+              "mime": "image/webp",
+              "name": "thumbnail_homepage-hero-light-mode-en.webp",
+              "path": null,
+              "size": 3.7,
+              "width": 245,
+              "height": 147,
+              "sizeInBytes": 3698
+            }
+          },
+          "hash": "homepage_hero_light_mode_en_736293ae43",
+          "ext": ".webp",
+          "mime": "image/webp",
+          "size": 23.34,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/homepage_hero_light_mode_en_736293ae43.webp",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2026-02-16T12:19:15.087Z",
+          "updatedAt": "2026-02-16T12:19:15.087Z",
+          "publishedAt": "2026-02-16T12:19:15.088Z"
+        }
+      }
+    },
+    {
+      "__component": "ai-chat.carousel-section",
+      "id": 69,
+      "fe_component": "Carousel",
+      "title": "Creative <strong class='text-primary'>Reviews</strong>",
+      "items": [
+        {
+          "id": 341,
+          "title": "Smart Writing Tool",
+          "description": "“This platform seamlessly integrates into my daily workflow as a tech professional, offering impressive flexibility and customization that enhances my creative problem-solving.”",
+          "rating": 5,
+          "author": "Matthias Engelhardt"
+        },
+        {
+          "id": 342,
+          "title": "Brilliant Text Assistant",
+          "description": "“As a daily user in the creative tech space, I’m impressed by the platform’s adaptability. It empowers me to tailor interactions precisely to my project needs.”",
+          "rating": 5,
+          "author": "Sofia Valenti"
+        },
+        {
+          "id": 343,
+          "title": "Effortless Writing Companion",
+          "description": "“A highly reliable tool for tech professionals, offering dynamic customization options that fit perfectly into the fast-paced demands of the creative industry.”",
+          "rating": 5,
+          "author": "Heinrich Schreiber"
+        },
+        {
+          "id": 344,
+          "title": "Advanced Scribe",
+          "description": "“The platform’s innovative design and user-centric approach make it an essential part of my daily toolkit, especially when managing complex tech projects.”",
+          "rating": 5,
+          "author": "Elisabeth van der Meer"
+        },
+        {
+          "id": 345,
+          "title": "Creative Wordsmith",
+          "description": "“It’s a game-changer for my creative work, with its ability to customize and adjust to evolving requirements effortlessly—an ideal solution for daily tech use.”",
+          "rating": 5,
+          "author": "Andreas Sorensen"
+        }
+      ]
+    },
+    {
+      "__component": "ai-chat.plan-section",
+      "id": 43,
+      "fe_component": "Plans",
+      "title": "Go <strong class='text-primary'>Pro</strong> for Unlimited Use",
+      "items": [
+        {
+          "id": 125,
+          "isPopular": null,
+          "cta": {
+            "id": 385,
+            "href": "https://chat.aichatapp.ai/register",
+            "text": "Get Started",
+            "aria_label": "Get Started",
+            "icon": null,
+            "wide": null
+          },
+          "description": [
+            {
+              "id": 373,
+              "icon": "svgonly/bullseye",
+              "title": "100% Ad free",
+              "subtitle": "No distractions"
+            },
+            {
+              "id": 374,
+              "icon": "svgonly/chat",
+              "title": "Best AI Models in One Platform",
+              "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
+            },
+            {
+              "id": 375,
+              "icon": "svgonly/infinite",
+              "title": "Forget limits",
+              "subtitle": "No worries, use it all you need."
+            }
+          ],
+          "priceDetails": {
+            "id": 125,
+            "pricePerDay": "$0.67 Per Day",
+            "duration": "1 Month Access",
+            "fullPrice": "$19.99"
+          }
+        },
+        {
+          "id": 126,
+          "isPopular": true,
+          "cta": {
+            "id": 386,
+            "href": "https://chat.aichatapp.ai/register",
+            "text": "Get Started",
+            "aria_label": "Get Started",
+            "icon": null,
+            "wide": null
+          },
+          "description": [
+            {
+              "id": 376,
+              "icon": "svgonly/bullseye",
+              "title": "100% Ad free",
+              "subtitle": "No distractions"
+            },
+            {
+              "id": 377,
+              "icon": "svgonly/chat",
+              "title": "Best AI Models in One Platform",
+              "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
+            },
+            {
+              "id": 378,
+              "icon": "svgonly/infinite",
+              "title": "Forget limits",
+              "subtitle": "No worries, use it all you need."
+            }
+          ],
+          "priceDetails": {
+            "id": 126,
+            "pricePerDay": "$0.44 Per Day",
+            "duration": "3 Months Access",
+            "fullPrice": "$39.99"
+          }
+        },
+        {
+          "id": 127,
+          "isPopular": null,
+          "cta": {
+            "id": 387,
+            "href": "https://chat.aichatapp.ai/register",
+            "text": "Get Started",
+            "aria_label": "Get Started",
+            "icon": null,
+            "wide": null
+          },
+          "description": [
+            {
+              "id": 379,
+              "icon": "svgonly/bullseye",
+              "title": "100% Ad free",
+              "subtitle": "No distractions"
+            },
+            {
+              "id": 380,
+              "icon": "svgonly/chat",
+              "title": "Best AI Models in One Platform",
+              "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
+            },
+            {
+              "id": 381,
+              "icon": "svgonly/infinite",
+              "title": "Forget limits",
+              "subtitle": "No worries, use it all you need."
+            }
+          ],
+          "priceDetails": {
+            "id": 127,
+            "pricePerDay": "$0.19 Per Day",
+            "duration": "12 Months Access",
+            "fullPrice": "$69.99"
+          }
+        }
+      ]
+    },
+    {
+      "__component": "ai-chat.feature-section",
+      "id": 36,
+      "fe_component": "Features",
+      "client": true,
+      "title": "WebbApp <strong class='text-primary'>Features</strong>",
+      "logo": {
+        "id": 995,
+        "dark": null,
+        "light": {
+          "id": 15,
+          "documentId": "rmg4uq4l86qqa0u68gy7gi2t",
+          "name": "features.webp",
+          "alternativeText": null,
+          "caption": null,
+          "width": 58,
+          "height": 60,
+          "formats": null,
+          "hash": "features_5ab56b1025",
+          "ext": ".webp",
+          "mime": "image/webp",
+          "size": 0.77,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/features_5ab56b1025.webp",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2026-02-17T10:26:53.326Z",
+          "updatedAt": "2026-02-17T10:26:53.326Z",
+          "publishedAt": "2026-02-17T10:26:53.326Z"
+        }
+      },
+      "tabs": [
+        {
+          "id": 106,
+          "title": "AI Chat: Your Ultimate AI Conversational Ally",
+          "text": "AI Chat uses cutting-edge AI with natural dialogue flow, delivering a chat experience that’s as intuitive as it is engaging. Whether it’s casual conversations or tackling challenges, AI Chat is your reliable AI for meaningful, dynamic, and human-like interactions.",
+          "cta": {
+            "id": 382,
+            "href": "https://chat.aichatapp.ai/register",
+            "text": "Get Started",
+            "aria_label": "Get Started",
+            "icon": "arrow-right",
+            "wide": null
+          },
+          "icon": {
+            "id": 991,
+            "dark": null,
+            "light": {
+              "id": 11,
+              "documentId": "wjqlt4695wkngf4pgqv2yzn6",
+              "name": "feature-tab-2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 28,
+              "height": 28,
+              "formats": null,
+              "hash": "feature_tab_2_3872268088",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.18,
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/feature_tab_2_3872268088.svg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2026-02-17T10:21:45.509Z",
+              "updatedAt": "2026-02-17T10:21:45.509Z",
+              "publishedAt": "2026-02-17T10:21:45.509Z"
+            }
+          }
+        },
+        {
+          "id": 107,
+          "title": "AI Chat: Your Intelligent Chat buddy",
+          "text": "AI Chat is your go-to AI for dynamic conversations. It blends cutting-edge language processing with a user-friendly interface, transforming each interaction into a seamless, personalized experience. Dive into engaging, intuitive chats that evolve with your unique preferences.",
+          "cta": {
+            "id": 383,
+            "href": "https://chat.aichatapp.ai/register",
+            "text": "Get Started",
+            "aria_label": "Get Started",
+            "icon": "arrow-right",
+            "wide": null
+          },
+          "icon": {
+            "id": 992,
+            "dark": null,
+            "light": {
+              "id": 10,
+              "documentId": "sj1kxsbmhfdnltnxezy2et85",
+              "name": "feature-tab-1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 28,
+              "height": 28,
+              "formats": null,
+              "hash": "feature_tab_1_56347a3035",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.01,
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/feature_tab_1_56347a3035.svg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2026-02-17T10:17:36.385Z",
+              "updatedAt": "2026-02-17T10:17:36.385Z",
+              "publishedAt": "2026-02-17T10:17:36.386Z"
+            }
+          }
+        },
+        {
+          "id": 108,
+          "title": "AI Chat: Your AI-Powered Conversational Genius",
+          "text": "AI Chat enhance your conversations with an advanced AI crafted with chat GPT 4o to deliver fast, insightful responses, inspire engaging interactions, and provide a seamless experience. It continuously learns and adapts, offering valuable insights with every exchange.",
+          "cta": {
+            "id": 384,
+            "href": "https://chat.aichatapp.ai/register",
+            "text": "Get Started",
+            "aria_label": "Get Started",
+            "icon": "arrow-right",
+            "wide": null
+          },
+          "icon": {
+            "id": 993,
+            "dark": null,
+            "light": {
+              "id": 12,
+              "documentId": "li4ywvzyjlnhq6g4dschs0n3",
+              "name": "feature-tab-3.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 27,
+              "height": 28,
+              "formats": null,
+              "hash": "feature_tab_3_6c515327e2",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 4.08,
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/feature_tab_3_6c515327e2.svg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2026-02-17T10:22:28.053Z",
+              "updatedAt": "2026-02-17T10:22:28.053Z",
+              "publishedAt": "2026-02-17T10:22:28.053Z"
+            }
+          }
+        }
+      ],
+      "media": {
+        "id": 994,
+        "dark": {
+          "id": 14,
+          "documentId": "cl8cc0nt2n0q4lpse557bm8y",
+          "name": "features-video-dark-en.mp4",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "features_video_dark_en_d81c549598",
+          "ext": ".mp4",
+          "mime": "video/mp4",
+          "size": 197.38,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/features_video_dark_en_d81c549598.mp4",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2026-02-17T10:23:36.421Z",
+          "updatedAt": "2026-02-17T10:23:36.421Z",
+          "publishedAt": "2026-02-17T10:23:36.422Z"
+        },
+        "light": {
+          "id": 13,
+          "documentId": "bn1g2w3noga2c1l4khtfdeb9",
+          "name": "features-video-light-en.mp4",
+          "alternativeText": null,
+          "caption": null,
+          "width": null,
+          "height": null,
+          "formats": null,
+          "hash": "features_video_light_en_9e02ef3a11",
+          "ext": ".mp4",
+          "mime": "video/mp4",
+          "size": 272.32,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/features_video_light_en_9e02ef3a11.mp4",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2026-02-17T10:23:15.480Z",
+          "updatedAt": "2026-02-17T10:23:15.480Z",
+          "publishedAt": "2026-02-17T10:23:15.482Z"
+        }
+      },
+      "headingsBackground": {
+        "id": 996,
+        "dark": null,
+        "light": {
+          "id": 16,
+          "documentId": "lv20ilestaqvzc63tfczpcky",
+          "name": "features.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 437,
+          "height": 437,
+          "formats": null,
+          "hash": "features_46ea64491d",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 0.19,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/features_46ea64491d.svg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2026-02-17T10:27:23.643Z",
+          "updatedAt": "2026-02-17T10:27:23.643Z",
+          "publishedAt": "2026-02-17T10:27:23.643Z"
+        }
+      }
+    },
+    {
+      "__component": "ai-chat.faq-section",
+      "id": 33,
+      "fe_component": "FAQ",
+      "client": true,
+      "title": "<p><strong>Frequently Asked </strong><span style=\"color:#01b78d;\"><strong>Questions</strong></span></p>",
+      "items": [
+        {
+          "id": 225,
+          "title": "What exactly is AI Chat and What advantages does it offer me?",
+          "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat is a powerful AI chatbot that integrates multiple advanced AI models, including OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek and Flux to provide fast and intelligent responses for all your needs.</li><li>The benefits of using AI Chat include:<ul style=\"list-style-type:square;\"><li>Personalization: Tailor your AI experience by choosing from various models to suit your preferences and requirements.</li><li>Speed &amp; Time-Saving: AI Chat delivers quick, accurate answers from multiple cutting-edge AI models, streamlining your tasks and saving you time.</li><li>Boundless Accessibility: Access top-tier AI support anytime, anywhere, with a range of models at your fingertips.</li><li>Continuous Updates: We are always adding the latest AI models and updates, ensuring you have access to the most advanced and up-to-date technologies.</li></ul></li></ul>"
+        },
+        {
+          "id": 226,
+          "title": "Why subscribe? Here’s what you get",
+          "content": "<ul><li>Unlock exclusive features, faster access, and personalized support designed to enhance your experience. These include<ul><li>Get precise, in-depth answers to every query.</li><li>Enjoy extended message limits for more detailed conversations.</li><li>Unlimited chats and messages—Chat as long as you need.</li><li>Experience fast response times, every time.</li><li>No interruptions—just pure, ad-free conversations.</li></ul></li></ul>"
+        },
+        {
+          "id": 227,
+          "title": "How do I cancel my subscription?",
+          "content": "<p>To cancel your subscription, please access the ‘Account’ section in the Settings page and click on the ‘Cancel Subscription’ button. Your subscription will be canceled at the end of the current subscription period, leading to the termination of your premium membership. You will not be charged any further payments after the cancellation.</p>"
+        },
+        {
+          "id": 228,
+          "title": "Can I upgrade or downgrade my subscription plan?",
+          "content": "<p>Yes, you can easily upgrade or downgrade your plan at any time through the account settings. Changes will be applied at the start of the next billing cycle.</p>"
+        },
+        {
+          "id": 229,
+          "title": "Is the platform suitable for both tech professionals and creative users?",
+          "content": "<p>Absolutely! The platform is designed to cater to a wide range of users, from technical experts to creative professionals, offering tools that enhance productivity and innovation.</p>"
+        },
+        {
+          "id": 230,
+          "title": "How secure is my data on the platform?",
+          "content": "<p>The platform follows stringent security protocols, ensuring that user data and interactions are encrypted and protected at all times.</p><p>&nbsp;</p>"
+        },
+        {
+          "id": 231,
+          "title": "What kind of AI model customization options are available to enhance user experience?",
+          "content": "<p>Users can adjust response behavior, output format, language style, and much more, allowing the platform to align with specific operational needs or creative workflows.</p><p>&nbsp;</p>"
+        }
+      ]
+    }
+  ],
+  "events": {
+    "id": 39,
+    "viewPageEventName": "view_landing",
+    "landing_folder": "/",
+    "landing_parameter": null
+  }
+}

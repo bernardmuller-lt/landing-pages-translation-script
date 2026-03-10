@@ -1,0 +1,8 @@
+{
+  "sections[0].cta.aria_label": "Tilbage til chat",
+  "sections[0].cta.text": "Tilbage til chat",
+  "sections[0].description": "<div><h2 class=\\\"freshdesk-contact-form__title\\\">Har du brug for hjælp eller har du et spørgsmål? Vi er her for dig!</h2><p>Vores dedikerede supportteam står klar til at hjælpe dig med eventuelle forespørgsler om vores AI-drevne værktøjer, chatbot-integrationer eller funktioner til billedgenerering. Uanset om du har brug for teknisk support, faktureringshjælp, eller har feedback, vi står gerne til rådighed.</p><p>Udfyld venligst nedenstående formular, så vender vi tilbage så hurtigt som muligt.</p><p>Lad os gøre din AI-oplevelse problemfri og effektiv!</p></div>",
+  "sections[0].title": "Kundeservice",
+  "seo.description": "AI-chat",
+  "seo.title": "Support - AI-chat"
+}

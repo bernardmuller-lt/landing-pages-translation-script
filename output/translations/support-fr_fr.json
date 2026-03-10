@@ -1,0 +1,8 @@
+{
+  "sections[0].cta.aria_label": "Retour au chat",
+  "sections[0].cta.text": "Retour au chat",
+  "sections[0].description": "<div><h2 class=\\\"freshdesk-contact-form__title\\\">Besoin d'aide ou vous avez une question ? Nous sommes là pour vous !</h2><p>Notre équipe d'assistance dédiée est prête à vous aider pour toute demande concernant nos outils propulsés par l'IA, les intégrations de chatbots ou les fonctionnalités de génération d'images. Que vous ayez besoin d'une assistance technique, d'une aide pour la facturation, ou que vous ayez des retours à partager, nous serons ravis de vous aider.</p><p>Veuillez remplir le formulaire ci-dessous, et nous vous répondrons dans les plus brefs délais.</p><p>Faisons en sorte que votre expérience avec l'IA soit fluide et efficace !</p></div>",
+  "sections[0].title": "Support client",
+  "seo.description": "Chat IA",
+  "seo.title": "Support - Chat IA"
+}

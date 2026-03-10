@@ -1,0 +1,8 @@
+{
+  "sections[0].cta.aria_label": "返回聊天",
+  "sections[0].cta.text": "返回聊天",
+  "sections[0].description": "<div><h2 class=\\\"freshdesk-contact-form__title\\\">需要帮助或有问题吗？我们在这里为您服务！</h2><p>我们专门的支持团队已准备好帮助您解决关于我们基于 AI 的工具、聊天机器人集成或图像生成功能的任何疑问。无论您需要技术支持、账单协助，还是有反馈要分享，我们很乐意为您提供帮助。</p><p>请填写下方表单，我们会尽快与您联系。</p><p>让您的 AI 体验变得无缝高效！</p></div>",
+  "sections[0].title": "客户支持",
+  "seo.description": "AI 聊天",
+  "seo.title": "支持 - AI 聊天"
+}
