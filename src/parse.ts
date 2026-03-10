@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import "dotenv/config";
-import { readFile, writeFile, mkdir } from "fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "fs/promises";
 import { existsSync } from "fs";
 import { join } from "path";
 import { config } from "./config.js";
@@ -11,14 +11,32 @@ import {
   sortTranslations,
 } from "./lib/translations/extractor.js";
 
-function showUsage() {
-  console.log("\nUsage: npm run parse -- <slug>");
-  console.log("\nExamples:");
-  console.log("  npm run parse -- home");
-  console.log("  npm run parse -- support");
-  console.log("  npm run parse -- onboarding");
-  console.log("\nThe script will read output/[slug]-en.json and extract all");
-  console.log("translatable strings to output/translations/[slug].json\n");
+async function parseSingleSlug(slug: string): Promise<number> {
+  const inputPath = join(config.outputDir, `${slug}-${config.locale}.json`);
+  const outputPath = join(config.translationsOutputDir, `${slug}.json`);
+
+  if (!existsSync(inputPath)) {
+    console.error(`  ❌ ${slug} — input not found: ${inputPath}`);
+    return 0;
+  }
+
+  const fileContent = await readFile(inputPath, "utf-8");
+  const pageData: PageData = JSON.parse(fileContent);
+  const result = extractTranslations(pageData);
+
+  if (result.stats.totalStrings === 0) {
+    console.warn(`  ⚠️  ${slug} — no translatable strings found, skipping`);
+    return 0;
+  }
+
+  if (!existsSync(config.translationsOutputDir)) {
+    await mkdir(config.translationsOutputDir, { recursive: true });
+  }
+
+  const sortedTranslations = sortTranslations(result.translations);
+  await writeFile(outputPath, JSON.stringify(sortedTranslations, null, 2), "utf-8");
+  console.log(`  ✅  ${slug} — ${result.stats.totalStrings} strings → ${outputPath}`);
+  return result.stats.totalStrings;
 }
 
 async function main() {
@@ -28,73 +46,35 @@ async function main() {
 
   const slug = process.argv[2];
 
-  if (!slug) {
-    console.error("\n❌ Error: Missing required argument <slug>\n");
-    showUsage();
-    process.exit(1);
-  }
-
-  console.log(`\n📄 Parsing page: ${slug}`);
-
-  const inputPath = join(config.outputDir, `${slug}-${config.locale}.json`);
-  const outputPath = join(config.translationsOutputDir, `${slug}.json`);
-
-  if (!existsSync(inputPath)) {
-    console.error(`\n❌ Error: Input file not found: ${inputPath}`);
-    console.error(
-      "Run the fetch command first: npm run fetch -- " + slug + "\n",
-    );
-    process.exit(1);
-  }
-
-  console.log(`📂 Reading: ${inputPath}\n`);
-
   try {
-    const fileContent = await readFile(inputPath, "utf-8");
-    const pageData: PageData = JSON.parse(fileContent);
-
-    console.log("Extracting translations...");
-    const result = extractTranslations(pageData);
-
-    if (result.stats.seoStrings > 0) {
-      console.log(`  ✓ SEO fields: ${result.stats.seoStrings} strings`);
-    }
-
-    let sectionIndex = 0;
-    for (const [sectionType, count] of Object.entries(
-      result.stats.sectionCounts,
-    )) {
-      if (count > 0) {
-        console.log(
-          `  ✓ Section ${sectionIndex} (${sectionType}): ${count} strings`,
-        );
-        sectionIndex++;
+    if (slug) {
+      // Single slug
+      console.log(`\n📄 Parsing: ${slug}`);
+      const count = await parseSingleSlug(slug);
+      if (count > 0) console.log("\n✅ Done!\n");
+    } else {
+      // All: find every {slug}-en.json in outputDir
+      if (!existsSync(config.outputDir)) {
+        console.error(`\n❌ ${config.outputDir} not found. Run: npm run fetch first.\n`);
+        process.exit(1);
       }
+      const suffix = `-${config.locale}.json`;
+      const allFiles = await readdir(config.outputDir);
+      const slugs = allFiles
+        .filter((f) => f.endsWith(suffix))
+        .map((f) => f.slice(0, -suffix.length));
+
+      if (slugs.length === 0) {
+        console.error(`\n❌ No *${suffix} files found. Run: npm run fetch first.\n`);
+        process.exit(1);
+      }
+
+      console.log(`\n📄 Parsing ${slugs.length} page(s): ${slugs.join(", ")}\n`);
+      let total = 0;
+      for (const s of slugs) total += await parseSingleSlug(s);
+      console.log(`\n📊 Done — ${total} total strings extracted across ${slugs.length} page(s).\n`);
+      console.log("👉  Next: npm run translate\n");
     }
-
-    if (result.stats.totalStrings === 0) {
-      console.warn("\n⚠️  No translatable strings found in the page data.\n");
-      process.exit(0);
-    }
-
-    const sortedTranslations = sortTranslations(result.translations);
-
-    if (!existsSync(config.translationsOutputDir)) {
-      await mkdir(config.translationsOutputDir, { recursive: true });
-      console.log(`\n✓ Created directory: ${config.translationsOutputDir}`);
-    }
-
-    console.log("\nWriting translations...");
-    const jsonContent = JSON.stringify(sortedTranslations, null, 2);
-    await writeFile(outputPath, jsonContent, "utf-8");
-    console.log(`  ✓ ${outputPath}`);
-
-    console.log("\n╔════════════════════════════════════════════════════════╗");
-    console.log("║   Summary                                              ║");
-    console.log("╚════════════════════════════════════════════════════════╝");
-    console.log(`  Total strings extracted: ${result.stats.totalStrings}`);
-    console.log(`  Output file: ${outputPath}`);
-    console.log("\n✅ Done!\n");
   } catch (error) {
     console.error("\n❌ Fatal error:", error);
     process.exit(1);

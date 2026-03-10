@@ -1,43 +1,66 @@
 #!/usr/bin/env node
 
 import "dotenv/config";
-import { readFile, writeFile, mkdir } from "fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "fs/promises";
 import { existsSync } from "fs";
 import { join, basename } from "path";
-import { config } from "./config.js";
+import { config, TARGET_LOCALES } from "./config.js";
 import type { PageData } from "./lib/strapi/http/fetchPages.js";
 import { applyTranslations } from "./lib/translations/applier.js";
 import { formatForAPI } from "./lib/translations/apiFormatter.js";
 import { stripNonMediaIds } from "./lib/translations/idStripper.js";
 
-function showUsage() {
-  console.log("\nUsage: npm run apply -- <locale> <path/to/kv-file>");
-  console.log("\nExamples:");
-  console.log("  npm run apply -- de output/translations/home_de.json");
-  console.log("  npm run apply -- fr output/translations/support_fr.json");
-  console.log("  npm run apply -- es /path/to/translations/onboarding_es.json");
-  console.log("\nThe script will:");
-  console.log("  1. Extract slug from KV filename (e.g., home_de.json → home)");
-  console.log("  2. Read source page: output/[slug]-en.json");
-  console.log("  3. Apply translations from KV file");
-  console.log("  4. Format for API (post-data.json structure)");
-  console.log("  5. Save to: output/prepared/[slug]-[locale].json\n");
+/**
+ * Given a translation filename like "home-de_de.json", derive slug and locale.
+ * Uses the known locale list so slugs with hyphens are handled correctly.
+ */
+function parseTranslationFilename(
+  filename: string,
+): { slug: string; locale: string } | null {
+  const name = basename(filename, ".json");
+  const locale = Object.keys(TARGET_LOCALES).find((l) =>
+    name.endsWith(`-${l}`),
+  );
+  if (!locale) return null;
+  const slug = name.slice(0, -(locale.length + 1)); // strip "-{locale}"
+  return { slug, locale };
 }
 
-function extractSlugFromFilename(filePath: string): string {
-  const filename = basename(filePath, ".json");
+async function prepareSingleFile(
+  slug: string,
+  locale: string,
+  kvFilePath: string,
+): Promise<boolean> {
+  const sourcePath = join(config.outputDir, `${slug}-${config.locale}.json`);
+  const outputPath = join(config.preparedOutputDir, `${slug}-${locale}.json`);
 
-  // Split by underscore and take first part
-  const parts = filename.split("-");
-
-  if (parts.length < 2) {
-    throw new Error(
-      `Invalid KV filename format: ${filename}\n` +
-        "Expected format: [slug]_[locale].json (e.g., home_de.json)",
-    );
+  if (!existsSync(kvFilePath)) {
+    console.error(`  ❌ ${slug}/${locale} — KV file not found: ${kvFilePath}`);
+    return false;
+  }
+  if (!existsSync(sourcePath)) {
+    console.error(`  ❌ ${slug}/${locale} — source not found: ${sourcePath}`);
+    return false;
   }
 
-  return parts[0];
+  const sourceData: PageData = JSON.parse(await readFile(sourcePath, "utf-8"));
+  const translations: Record<string, string> = JSON.parse(
+    await readFile(kvFilePath, "utf-8"),
+  );
+
+  const translatedData = applyTranslations(sourceData, translations);
+  const cleanedData = stripNonMediaIds(translatedData);
+  const apiPayload = formatForAPI(cleanedData, locale);
+
+  if (!existsSync(config.preparedOutputDir)) {
+    await mkdir(config.preparedOutputDir, { recursive: true });
+  }
+
+  await writeFile(outputPath, JSON.stringify(apiPayload, null, 2), "utf-8");
+  console.log(
+    `  ✅  ${slug}/${locale} — ${Object.keys(translations).length} strings → ${outputPath}`,
+  );
+  return true;
 }
 
 async function main() {
@@ -45,78 +68,72 @@ async function main() {
   console.log("║   Translation Prepare                                  ║");
   console.log("╚════════════════════════════════════════════════════════╝");
 
-  const locale = process.argv[2];
-  const kvFilePath = process.argv[3];
-
-  if (!locale || !kvFilePath) {
-    console.error("\n❌ Error: Missing required arguments\n");
-    showUsage();
-    process.exit(1);
-  }
+  // Single file: npm run apply -- output/translations/home-de_de.json
+  const singleFilePath = process.argv[2];
 
   try {
-    const slug = extractSlugFromFilename(kvFilePath);
-    console.log(`\n📄 Slug: ${slug}`);
-    console.log(`🌍 Target locale: ${locale}`);
-
-    const sourcePath = join(config.outputDir, `${slug}-${config.locale}.json`);
-    const outputPath = join(config.preparedOutputDir, `${slug}_${locale}.json`);
-
-    if (!existsSync(kvFilePath)) {
-      console.error(`\n❌ Error: KV file not found: ${kvFilePath}\n`);
-      process.exit(1);
-    }
-
-    if (!existsSync(sourcePath)) {
-      console.error(`\n❌ Error: Source file not found: ${sourcePath}`);
-      console.error(
-        "Run the fetch command first: npm run fetch -- " + slug + "\n",
+    if (singleFilePath) {
+      const parsed = parseTranslationFilename(singleFilePath);
+      if (!parsed) {
+        console.error(
+          `\n❌ Cannot determine slug/locale from filename: ${singleFilePath}`,
+        );
+        console.error(
+          "   Expected format: output/translations/{slug}-{locale}.json\n",
+        );
+        process.exit(1);
+      }
+      console.log(`\n📄 ${parsed.slug} / ${parsed.locale}`);
+      const ok = await prepareSingleFile(
+        parsed.slug,
+        parsed.locale,
+        singleFilePath,
       );
-      process.exit(1);
+      if (ok) console.log("\n✅ Done!\n");
+      else process.exit(1);
+    } else {
+      // All: find every {slug}-{locale}.json in translationsOutputDir
+      if (!existsSync(config.translationsOutputDir)) {
+        console.error(
+          `\n❌ ${config.translationsOutputDir} not found. Run: npm run parse first.\n`,
+        );
+        process.exit(1);
+      }
+
+      const allFiles = await readdir(config.translationsOutputDir);
+      const pairs = allFiles
+        .map((f) =>
+          parseTranslationFilename(
+            join(config.translationsOutputDir, f),
+          ),
+        )
+        .filter((p): p is { slug: string; locale: string } => p !== null);
+
+      if (pairs.length === 0) {
+        console.error(
+          "\n❌ No translation files found. Run: npm run translate first.\n",
+        );
+        process.exit(1);
+      }
+
+      console.log(`\n📄 Preparing ${pairs.length} file(s)...\n`);
+      let ok = 0;
+      let failed = 0;
+      for (const { slug, locale } of pairs) {
+        const kvPath = join(
+          config.translationsOutputDir,
+          `${slug}-${locale}.json`,
+        );
+        const success = await prepareSingleFile(slug, locale, kvPath);
+        success ? ok++ : failed++;
+      }
+
+      console.log(
+        `\n📊 Done — ${ok} prepared, ${failed} failed.`,
+      );
+      if (failed > 0) process.exit(1);
+      console.log("\n👉  Next: npm run upload\n");
     }
-
-    console.log(`📂 Source: ${sourcePath}`);
-    console.log(`📝 Translations: ${kvFilePath}\n`);
-
-    const sourceContent = await readFile(sourcePath, "utf-8");
-    const sourceData: PageData = JSON.parse(sourceContent);
-
-    const kvContent = await readFile(kvFilePath, "utf-8");
-    const translations: Record<string, string> = JSON.parse(kvContent);
-
-    const translationCount = Object.keys(translations).length;
-    console.log(`Applying translations...`);
-    console.log(`  📊 ${translationCount} translation(s) to apply`);
-
-    const translatedData = applyTranslations(sourceData, translations);
-    console.log(`  ✓ Applied translations`);
-
-    // Strip IDs from non-media objects
-    console.log(`  ✓ Removing non-media IDs`);
-    const cleanedData = stripNonMediaIds(translatedData);
-
-    console.log("\nFormatting for API...");
-    const apiPayload = formatForAPI(cleanedData, locale);
-    console.log(`  ✓ Wrapped in API structure`);
-    console.log(`  ✓ Updated locale to: ${locale}`);
-
-    if (!existsSync(config.preparedOutputDir)) {
-      await mkdir(config.preparedOutputDir, { recursive: true });
-      console.log(`  ✓ Created directory: ${config.preparedOutputDir}`);
-    }
-
-    console.log("\nWriting output...");
-    const jsonContent = JSON.stringify(apiPayload, null, 2);
-    await writeFile(outputPath, jsonContent, "utf-8");
-    console.log(`  ✓ ${outputPath}`);
-
-    console.log("\n╔════════════════════════════════════════════════════════╗");
-    console.log("║   Summary                                              ║");
-    console.log("╚════════════════════════════════════════════════════════╝");
-    console.log(`  Translations applied: ${translationCount}`);
-    console.log(`  Output file: ${outputPath}`);
-    console.log(`  Ready for API submission!`);
-    console.log("\n✅ Done!\n");
   } catch (error) {
     console.error("\n❌ Fatal error:", error);
     process.exit(1);

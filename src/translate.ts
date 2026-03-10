@@ -1,140 +1,138 @@
 #!/usr/bin/env node
 
+/**
+ * Batch translate — fires all 12 locales in parallel for every slug.
+ *
+ * Env vars:
+ *   LLM_MODEL        Required. e.g. gpt-4o-mini
+ *   LLM_BASE_URL     Optional. Defaults to OpenAI.
+ *   LLM_API_KEY      Required for cloud providers.
+ *   TRANSLATE_SLUGS  Optional. Comma-separated list to re-run specific slugs only.
+ *
+ * Run: npm run translate
+ */
+
 import "dotenv/config";
-import { readFile, writeFile, mkdir } from "fs/promises";
+import { readFile, writeFile, readdir } from "fs/promises";
 import { existsSync } from "fs";
 import { join } from "path";
-import { config } from "./config.js";
+import { config, TARGET_LOCALES } from "./config.js";
 import { translateToLocale } from "./lib/ai/llm.js";
-
-function showUsage() {
-  console.log("\nUsage: npm run translate -- <slug> <locale> [model]");
-  console.log("\nExamples:");
-  console.log("  npm run translate -- home de_de gpt-4o-mini");
-  console.log("  npm run translate -- support es_419 llama3.2:1b");
-  console.log("  npm run translate -- onboarding fr_fr");
-  console.log("\nSupported locales:");
-  console.log(
-    "  de_de (German), es_419 (Spanish, Latin America), ko_kr (Korean)",
-  );
-  console.log("  pt_br (Portuguese, Brazil), fr_fr (French), nl_nl (Dutch)");
-  console.log("  it_it (Italian), ja_jp (Japanese), pl_pl (Polish)");
-  console.log(
-    "  da_dk (Danish), no_no (Norwegian), zh_cn (Chinese, Simplified)",
-  );
-  console.log("\nModel:");
-  console.log(
-    "  - Optional: can be passed as third argument or set via LLM_MODEL env var",
-  );
-  console.log("  - Examples: gpt-4o-mini, gpt-4o, llama3.2:1b, etc.");
-  console.log(
-    "\nThe script will read output/translations/[slug].json and translate",
-  );
-  console.log("all strings to the target locale using the configured LLM.\n");
-}
 
 async function main() {
   console.log("╔════════════════════════════════════════════════════════╗");
-  console.log("║   AI Translation (LLM)                                 ║");
+  console.log("║   AI Translation — Batch (all locales × all slugs)     ║");
   console.log("╚════════════════════════════════════════════════════════╝");
 
-  const slug = process.argv[2];
-  const targetLocale = process.argv[3];
-  const modelArg = process.argv[4];
-
-  if (!slug || !targetLocale) {
-    console.error("\n❌ Error: Missing required arguments\n");
-    showUsage();
-    process.exit(1);
-  }
-
-  const model = modelArg || process.env.LLM_MODEL;
+  const model = process.env.LLM_MODEL;
   if (!model) {
-    console.error("\n❌ Error: Model not specified\n");
-    console.error("Please either:");
-    console.error(
-      "  1. Pass model as third argument: npm run translate -- home de_de gpt-4o-mini",
-    );
-    console.error("  2. Set LLM_MODEL in your .env file\n");
+    console.error("\n❌ LLM_MODEL is not set in .env\n");
     process.exit(1);
   }
 
-  console.log(`\n📄 Translating page: ${slug}`);
-  console.log(`🌍 Target locale: ${targetLocale}`);
-  console.log(`🤖 Model: ${model}`);
+  const dir = config.translationsOutputDir;
+  if (!existsSync(dir)) {
+    console.error(`\n❌ ${dir} not found. Run: npm run parse -- <slug> first.\n`);
+    process.exit(1);
+  }
 
-  const inputPath = join(config.translationsOutputDir, `${slug}.json`);
-  const outputPath = join(
-    config.translationsOutputDir,
-    `${slug}-${targetLocale}.json`,
-  );
+  const locales = Object.keys(TARGET_LOCALES);
 
-  if (!existsSync(inputPath)) {
-    console.error(`\n❌ Error: Input file not found: ${inputPath}`);
+  // Find English source files by excluding known locale-suffixed files
+  const allFiles = await readdir(dir);
+  const sourceFiles = allFiles
+    .filter((f) => f.endsWith(".json"))
+    .filter((f) => {
+      const name = f.slice(0, -5); // strip .json
+      return !locales.some((l) => name.endsWith(`-${l}`));
+    });
+
+  if (sourceFiles.length === 0) {
+    console.error("\n❌ No source files found. Run: npm run parse -- <slug> first.\n");
+    process.exit(1);
+  }
+
+  // Optional filter: TRANSLATE_SLUGS=home,support
+  const slugFilter = process.env.TRANSLATE_SLUGS
+    ? new Set(process.env.TRANSLATE_SLUGS.split(",").map((s) => s.trim()))
+    : null;
+
+  const slugs = sourceFiles
+    .map((f) => f.slice(0, -5))
+    .filter((s) => !slugFilter || slugFilter.has(s));
+
+  if (slugs.length === 0) {
     console.error(
-      "Run the parse command first: npm run parse -- " + slug + "\n",
+      `\n❌ No matching slugs. TRANSLATE_SLUGS=${process.env.TRANSLATE_SLUGS}\n`,
     );
     process.exit(1);
   }
 
-  console.log(`📂 Reading: ${inputPath}`);
+  console.log(`\n🤖 Model:   ${model}`);
+  console.log(`📁 Locales: ${locales.length} (fired in parallel per slug)`);
+  console.log(`📄 Slugs:   ${slugs.join(", ")}\n`);
 
-  try {
+  const failedEntries: Array<{ slug: string; locale: string }> = [];
+  let totalKeys = 0;
+
+  for (let i = 0; i < slugs.length; i++) {
+    const slug = slugs[i];
+    const inputPath = join(dir, `${slug}.json`);
     const fileContent = await readFile(inputPath, "utf-8");
-    const englishTranslations: Record<string, string> = JSON.parse(fileContent);
+    const englishStrings: Record<string, string> = JSON.parse(fileContent);
+    const keyCount = Object.keys(englishStrings).length;
 
-    const stringCount = Object.keys(englishTranslations).length;
-    console.log(`  ✓ Found ${stringCount} strings to translate\n`);
+    console.log(`\n📄  [${i + 1}/${slugs.length}] ${slug}  (${keyCount} strings)`);
+    console.log(`     Firing ${locales.length} locale calls in parallel...`);
 
-    console.log(`🤖 Calling LLM (${model})...`);
-    console.log("⏳ This may take a moment for large translation sets...\n");
-
-    const translatedStrings = await translateToLocale(
-      englishTranslations,
-      targetLocale,
-      model,
+    const results = await Promise.allSettled(
+      locales.map((locale) =>
+        translateToLocale(englishStrings, locale, model).then((translated) => ({
+          locale,
+          translated,
+        }))
+      )
     );
 
-    const translatedCount = Object.keys(translatedStrings).length;
-    if (translatedCount !== stringCount) {
-      console.warn(
-        `\n⚠️  Warning: Expected ${stringCount} translations but got ${translatedCount}`,
-      );
+    for (let j = 0; j < results.length; j++) {
+      const locale = locales[j];
+      const result = results[j];
+
+      if (result.status === "fulfilled") {
+        const { translated } = result.value;
+        const outputPath = join(dir, `${slug}-${locale}.json`);
+        await writeFile(outputPath, JSON.stringify(translated, null, 2), "utf-8");
+        const count = Object.keys(translated).length;
+        console.log(`     ✅  ${locale.padEnd(8)} — ${count} keys`);
+        totalKeys += count;
+      } else {
+        const msg =
+          result.reason instanceof Error
+            ? result.reason.message
+            : String(result.reason);
+        console.error(`     ❌  ${locale.padEnd(8)} — ${msg}`);
+        failedEntries.push({ slug, locale });
+      }
     }
+  }
 
-    if (!existsSync(config.translationsOutputDir)) {
-      await mkdir(config.translationsOutputDir, { recursive: true });
-      console.log(`✓ Created directory: ${config.translationsOutputDir}`);
-    }
+  console.log(`\n📊  Done — ${totalKeys} total keys written`);
 
-    console.log("Writing translations...");
-    const jsonContent = JSON.stringify(translatedStrings, null, 2);
-    await writeFile(outputPath, jsonContent, "utf-8");
-    console.log(`  ✓ ${outputPath}`);
-
-    console.log("\n╔════════════════════════════════════════════════════════╗");
-    console.log("║   Summary                                              ║");
-    console.log("╚════════════════════════════════════════════════════════╝");
-    console.log(`  Source strings: ${stringCount}`);
-    console.log(`  Translated strings: ${translatedCount}`);
-    console.log(`  Target locale: ${targetLocale}`);
-    console.log(`  Model: ${model}`);
-    console.log(`  Output file: ${outputPath}`);
-    console.log("\n✅ Done!\n");
-  } catch (error) {
-    console.error("\n❌ Fatal error:", error);
-    console.error("\nTroubleshooting:");
-    console.error(
-      "  1. Check LLM_BASE_URL in .env file (e.g., https://api.openai.com/v1)",
+  if (failedEntries.length > 0) {
+    console.warn(`\n⚠️  ${failedEntries.length} call(s) failed:`);
+    failedEntries.forEach(({ slug, locale }) =>
+      console.warn(`     - ${slug} / ${locale}`)
     );
-    console.error("  2. Check LLM_API_KEY in .env file");
-    console.error("  3. Verify the model is available at your endpoint");
-    console.error("  4. Verify the input JSON file is valid");
-    console.error(
-      "  5. For local models (Ollama): ensure service is running\n",
+    console.warn(
+      "\n   For manual fallback: npm run parse -- <slug>  (after saving Copilot Chat output)",
     );
     process.exit(1);
   }
+
+  console.log("\n👉  Next: npm run validate");
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

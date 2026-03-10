@@ -4,10 +4,11 @@
   "description": "Script to fetch and save Strapi CMS content from chatai-www project",
   "type": "module",
   "scripts": {
-    "fetch": "tsx src/index.ts",
-    "fetch:watch": "tsx watch src/index.ts",
+    "fetch": "tsx src/fetch.ts",
+    "fetch:watch": "tsx watch src/fetch.ts",
     "parse": "tsx src/parse.ts",
     "translate": "tsx src/translate.ts",
+    "validate": "tsx src/validate.ts",
     "apply": "tsx src/prepare.ts",
     "upload": "tsx src/upload.ts"
   },
@@ -21,6 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "openai": "^6.27.0",
     "qs": "^6.13.0"
   },
   "devDependencies": {

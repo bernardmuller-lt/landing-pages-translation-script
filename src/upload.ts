@@ -1,19 +1,43 @@
 #!/usr/bin/env node
 
 import "dotenv/config";
-import { readFile } from "fs/promises";
+import { readFile, readdir } from "fs/promises";
 import { existsSync } from "fs";
+import { join } from "path";
 import type { APIPayload } from "./lib/translations/apiFormatter.js";
 import { validateUploadPayload } from "./lib/strapi/schemas/uploadSchema.js";
 import { uploadPage } from "./lib/strapi/http/uploadPage.js";
+import { config } from "./config.js";
 
-function showUsage() {
-  console.log("\nUsage: npm run upload -- <path/to/prepared-file>");
-  console.log("\nExamples:");
-  console.log("  npm run upload -- output/prepared/home-de.json");
-  console.log("  npm run upload -- output/prepared/support-fr.json");
-  console.log("  npm run upload -- output/prepared/onboarding-es.json");
-  console.log("\nThe script will upload the prepared file to the CMS.\n");
+async function uploadSingleFile(filePath: string): Promise<boolean> {
+  if (!existsSync(filePath)) {
+    console.error(`  ❌ File not found: ${filePath}`);
+    return false;
+  }
+
+  const fileContent = await readFile(filePath, "utf-8");
+  const payload: APIPayload = JSON.parse(fileContent);
+
+  if (!validateUploadPayload(payload)) {
+    console.error(`  ❌ Invalid payload in: ${filePath}`);
+    return false;
+  }
+
+  process.stdout.write(
+    `  ⏳ ${payload.data.slug}/${payload.data.locale} ... `,
+  );
+  const result = await uploadPage(payload);
+
+  if (result.success) {
+    process.stdout.write("✅\n");
+    return true;
+  } else {
+    process.stdout.write(`❌ ${result.message}\n`);
+    if (result.error?.body) {
+      console.error("    ", JSON.stringify(result.error.body));
+    }
+    return false;
+  }
 }
 
 async function main() {
@@ -22,12 +46,6 @@ async function main() {
   console.log("╚════════════════════════════════════════════════════════╝");
 
   const filePath = process.argv[2];
-
-  if (!filePath) {
-    console.error("\n❌ Error: Missing required argument\n");
-    showUsage();
-    process.exit(1);
-  }
 
   try {
     if (!process.env.UPLOAD_API_URL) {
@@ -41,116 +59,41 @@ async function main() {
       );
     }
 
-    if (!existsSync(filePath)) {
-      console.error(`\n❌ Error: File not found: ${filePath}\n`);
-      process.exit(1);
-    }
-
-    console.log(`\n📂 Reading: ${filePath}`);
-
-    const fileContent = await readFile(filePath, "utf-8");
-    const payload: APIPayload = JSON.parse(fileContent);
-
-    console.log("\nValidating payload...");
-    if (!validateUploadPayload(payload)) {
-      throw new Error(
-        "Invalid payload format. Expected APIPayload structure matching post-data.json.",
-      );
-    }
-
-    console.log(`  ✓ Valid payload structure`);
-    console.log(`  ✓ Slug: ${payload.data.slug}`);
-    console.log(`  ✓ Locale: ${payload.data.locale}`);
-    console.log(`  ✓ Environment: ${payload.data.environment}`);
-    console.log(`  ✓ Sections: ${payload.data.sections.length}`);
-
-    console.log("\nUploading to CMS...");
-    const result = await uploadPage(payload);
-
-    if (result.success) {
-      console.log("  ✓ Upload successful!");
-
-      console.log(
-        "\n╔════════════════════════════════════════════════════════╗",
-      );
-      console.log("║   Summary                                              ║");
-      console.log("╚════════════════════════════════════════════════════════╝");
-      console.log(`  Page: ${payload.data.slug}`);
-      console.log(`  Locale: ${payload.data.locale}`);
-      console.log(`  Identifier: ${payload.data.identifier}`);
-      console.log(`  Status: ✅ Uploaded`);
-
-      if (result.data) {
-        console.log("\nResponse data:");
-        console.log(JSON.stringify(result.data, null, 2));
-      }
-
+    if (filePath) {
+      // Single file
+      console.log(`\n📂 Uploading: ${filePath}`);
+      const ok = await uploadSingleFile(filePath);
+      if (!ok) process.exit(1);
       console.log("\n✅ Done!\n");
     } else {
-      console.error("  ❌ Upload failed");
-      console.error(`\n${result.message}`);
-
-      if (result.error) {
-        console.error("\n📋 Error Details:");
-
-        // Show HTTP status if available
-        if (result.error.status) {
-          console.error(
-            `  Status: ${result.error.status} ${result.error.statusText}`,
-          );
-          console.error(`  Endpoint: ${result.error.url}`);
-          console.error(`  Content-Type: ${result.error.contentType}`);
-        }
-
-        // Show response body
-        if (result.error.body) {
-          console.error("  Response:");
-          if (typeof result.error.body === "object") {
-            console.error(JSON.stringify(result.error.body, null, 2));
-          } else {
-            console.error(`  ${result.error.body}`);
-          }
-        }
-
-        // Show network error details
-        if (result.error.type === "network") {
-          console.error(`  Network error accessing: ${result.error.url}`);
-          if (result.error.details) {
-            console.error(
-              "  Details:",
-              result.error.details instanceof Error
-                ? result.error.details.message
-                : result.error.details,
-            );
-          }
-        }
-
-        // Provide troubleshooting hints based on status code
-        if (result.error.status === 405) {
-          console.error("\n💡 Troubleshooting 405 Method Not Allowed:");
-          console.error("  1. The endpoint might not accept POST requests");
-          console.error("  2. Check if the UPLOAD_API_URL is correct");
-          console.error(`     Current: ${process.env.UPLOAD_API_URL}`);
-          console.error(
-            "  3. Verify the API documentation for the correct endpoint",
-          );
-          console.error(
-            "  4. The endpoint might require different authentication",
-          );
-        } else if (result.error.status === 401 || result.error.status === 403) {
-          console.error("\n💡 Troubleshooting Authentication:");
-          console.error("  1. Check if UPLOAD_API_KEY is correct");
-          console.error("  2. Verify the API key has write permissions");
-          console.error("  3. The API might require a different auth header");
-        } else if (result.error.status === 404) {
-          console.error("\n💡 Troubleshooting 404 Not Found:");
-          console.error("  1. Check the endpoint URL in UPLOAD_API_URL");
-          console.error(`     Current: ${process.env.UPLOAD_API_URL}/pages`);
-          console.error("  2. The endpoint path might be different");
-        }
+      // All files in prepared dir
+      if (!existsSync(config.preparedOutputDir)) {
+        console.error(
+          `\n❌ ${config.preparedOutputDir} not found. Run: npm run apply first.\n`,
+        );
+        process.exit(1);
       }
-
-      process.exit(1);
+      const files = (await readdir(config.preparedOutputDir)).filter((f) =>
+        f.endsWith(".json"),
+      );
+      if (files.length === 0) {
+        console.error(
+          "\n❌ No prepared files found. Run: npm run apply first.\n",
+        );
+        process.exit(1);
+      }
+      console.log(`\n📂 Uploading ${files.length} file(s)...\n`);
+      let ok = 0;
+      let failed = 0;
+      for (const f of files) {
+        const success = await uploadSingleFile(
+          join(config.preparedOutputDir, f),
+        );
+        success ? ok++ : failed++;
+      }
+      console.log(`\n📊 Done — ${ok} uploaded, ${failed} failed.`);
+      if (failed > 0) process.exit(1);
+      console.log("\n✅ All done!\n");
     }
   } catch (error) {
     console.error("\n❌ Fatal error:", error);
@@ -158,5 +101,4 @@ async function main() {
   }
 }
 
-// Run the script
 main();

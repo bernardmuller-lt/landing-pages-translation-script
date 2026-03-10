@@ -115,6 +115,45 @@ ${jsonString}`;
   ];
 }
 
+/**
+ * Attempts to parse the LLM response as JSON, applying several fixups to
+ * handle common model quirks: markdown fences, escaped quotes, stray trailing
+ * braces, and leading comment lines.
+ */
+function parseJsonResponse(raw: string): Record<string, string> {
+  let text = raw.trim();
+
+  // Strip markdown fences: ```json ... ``` or ``` ... ```
+  const fenceMatch = text.match(/^```(?:json)?\s*([\s\S]*?)```\s*$/i);
+  if (fenceMatch) {
+    text = fenceMatch[1].trim();
+  }
+
+  // Remove a leading comment line (e.g. // de_de - German)
+  text = text.replace(/^\/\/[^\n]*\n/, "").trim();
+
+  // First attempt: parse as-is
+  try {
+    return JSON.parse(text);
+  } catch {
+    // Fixup 1: normalise escaped quotes artifact from some models
+    const fixed1 = text.replace(/\\"/g, '"');
+    try {
+      return JSON.parse(fixed1);
+    } catch {
+      // Fixup 2: remove duplicate trailing brace }} → }
+      const fixed2 = text.replace(/\}\s*\}(\s*)$/, "}$1");
+      try {
+        return JSON.parse(fixed2);
+      } catch {
+        throw new Error(
+          `Failed to parse LLM response as JSON. Raw response:\n${raw}`,
+        );
+      }
+    }
+  }
+}
+
 export async function translateToLocale(
   translations: Record<string, string>,
   targetLocale: string,
@@ -122,13 +161,5 @@ export async function translateToLocale(
 ): Promise<Record<string, string>> {
   const messages = buildTranslationMessages(translations, targetLocale);
   const response = await chatCompletion(messages, model);
-
-  try {
-    const translatedJson = JSON.parse(response);
-    return translatedJson;
-  } catch (error) {
-    throw new Error(
-      `Failed to parse LLM response as JSON. Response was: ${response}`,
-    );
-  }
+  return parseJsonResponse(response);
 }
