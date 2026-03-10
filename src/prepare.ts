@@ -27,7 +27,7 @@ function extractSlugFromFilename(filePath: string): string {
   const filename = basename(filePath, ".json");
 
   // Split by underscore and take first part
-  const parts = filename.split("_");
+  const parts = filename.split("-");
 
   if (parts.length < 2) {
     throw new Error(
@@ -59,7 +59,7 @@ async function main() {
     console.log(`🌍 Target locale: ${locale}`);
 
     const sourcePath = join(config.outputDir, `${slug}-${config.locale}.json`);
-    const outputPath = join(config.preparedOutputDir, `${slug}-${locale}.json`);
+    const outputPath = join(config.preparedOutputDir, `${slug}_${locale}.json`);
 
     if (!existsSync(kvFilePath)) {
       console.error(`\n❌ Error: KV file not found: ${kvFilePath}\n`);
