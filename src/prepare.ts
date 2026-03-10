@@ -8,6 +8,7 @@ import { config } from "./config.js";
 import type { PageData } from "./lib/strapi/http/fetchPages.js";
 import { applyTranslations } from "./lib/translations/applier.js";
 import { formatForAPI } from "./lib/translations/apiFormatter.js";
+import { stripNonMediaIds } from "./lib/translations/idStripper.js";
 
 function showUsage() {
   console.log("\nUsage: npm run apply -- <locale> <path/to/kv-file>");
@@ -90,8 +91,12 @@ async function main() {
     const translatedData = applyTranslations(sourceData, translations);
     console.log(`  ✓ Applied translations`);
 
+    // Strip IDs from non-media objects
+    console.log(`  ✓ Removing non-media IDs`);
+    const cleanedData = stripNonMediaIds(translatedData);
+
     console.log("\nFormatting for API...");
-    const apiPayload = formatForAPI(translatedData, locale);
+    const apiPayload = formatForAPI(cleanedData, locale);
     console.log(`  ✓ Wrapped in API structure`);
     console.log(`  ✓ Updated locale to: ${locale}`);
 

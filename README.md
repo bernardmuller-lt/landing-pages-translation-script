@@ -213,9 +213,10 @@ The script will:
 1. Extract the slug from the KV filename (e.g., `home_de.json` → `home`)
 2. Read the source page from `output/[slug]-en.json`
 3. Apply all translations from the KV file
-4. Update the locale to the target locale
-5. Format in API-ready structure (matches `post-data.json` format)
-6. Save to `output/prepared/[slug]-[locale].json`
+4. Strip IDs from non-media objects (keeps only media asset IDs)
+5. Update the locale to the target locale
+6. Format in API-ready structure (matches `post-data.json` format)
+7. Save to `output/prepared/[slug]-[locale].json`
 
 ### Prepared Output
 
@@ -301,6 +302,145 @@ The prepared files match the structure expected by the Strapi API (see `src/lib/
 - Content fields: `seo`, `events`, `sections`
 - All media, CTAs, and nested structures preserved
 - Only text fields are translated
+
+### Data Cleanup
+
+When preparing translations for upload, the script automatically cleans the data to prevent conflicts with existing content in the CMS.
+
+**IDs that get stripped:**
+- Section IDs (`sections[0].id`)
+- SEO object IDs (`seo.id`)
+- CTA IDs (`sections[0].cta.id`)
+- Component IDs in nested structures
+
+**IDs that get preserved:**
+- Media object IDs (`media.id`, `media.dark.id`, `media.light.id`)
+- Any IDs within objects that have media characteristics (hash, ext, mime, formats fields)
+
+**Fields that get removed:**
+- `wide` - Removed from all objects throughout the structure
+
+**Why this matters:**
+- **Component IDs** should NOT be included - Strapi will generate new IDs for the new locale
+- **Media IDs** SHOULD be included - they reference existing media assets that are shared across locales
+- **Excluded fields** like `wide` should not be sent in the API payload
+
+This ensures that when you POST a new locale, Strapi creates new content entries while correctly referencing existing media assets.
+
+## Uploading Translations
+
+After preparing the translated file, you can upload it to the CMS.
+
+### Setup
+
+First, add your upload API credentials to the `.env` file:
+
+```env
+# Upload API Configuration
+UPLOAD_API_URL=https://your-upload-endpoint.com/api
+UPLOAD_API_KEY=your_upload_api_key_here
+```
+
+### Usage
+
+```bash
+npm run upload -- <path/to/prepared-file>
+```
+
+### Examples
+
+Upload German translation:
+```bash
+npm run upload -- output/prepared/home-de.json
+```
+
+Upload French translation:
+```bash
+npm run upload -- output/prepared/support-fr.json
+```
+
+The script will:
+1. Validate the upload API credentials are set
+2. Read and validate the prepared file
+3. Upload the content to the CMS via POST request
+4. Report success or display error details
+
+### Upload Output
+
+```
+╔════════════════════════════════════════════════════════╗
+║   CMS Upload                                           ║
+╚════════════════════════════════════════════════════════╝
+
+📂 Reading: output/prepared/home-de.json
+
+Validating payload...
+  ✓ Valid payload structure
+  ✓ Slug: home
+  ✓ Locale: de
+  ✓ Environment: production
+  ✓ Sections: 6
+
+Uploading to CMS...
+  ✓ Upload successful!
+
+╔════════════════════════════════════════════════════════╗
+║   Summary                                              ║
+╚════════════════════════════════════════════════════════╝
+  Page: home
+  Locale: de
+  Identifier: ai-chat
+  Status: ✅ Uploaded
+
+✅ Done!
+```
+
+### Complete End-to-End Workflow
+
+Here's the full workflow from English content to live translated page:
+
+```bash
+# 1. Fetch the English page from CMS
+npm run fetch -- home
+# → output/home-en.json
+
+# 2. Extract translatable strings to KV format
+npm run parse -- home
+# → output/translations/home.json
+
+# 3. Translate the strings
+# Copy home.json to home_de.json and translate all values
+# (manually or using a translation API/service)
+
+# 4. Apply translations and prepare API payload
+npm run apply -- de output/translations/home_de.json
+# → output/prepared/home-de.json
+
+# 5. Upload to CMS
+npm run upload -- output/prepared/home-de.json
+# → German page now live in CMS!
+```
+
+### Validation
+
+The upload script validates the payload before sending:
+- Checks required fields exist (`environment`, `identifier`, `slug`, `locale`)
+- Validates structure matches API schema
+- Ensures `seo`, `events`, and `sections` are present
+- Reports which validations fail if payload is invalid
+
+### Error Handling
+
+If upload fails, the script will:
+- Display the error message
+- Show full error details from the API
+- Exit with error code 1
+
+Common errors:
+- **Missing credentials**: Set `UPLOAD_API_URL` and `UPLOAD_API_KEY` in `.env`
+- **File not found**: Check the path to the prepared file
+- **Invalid payload**: Re-run `npm run apply` to regenerate
+- **API errors**: Check API key permissions and endpoint URL
 
 ## Configuration
 
