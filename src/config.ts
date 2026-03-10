@@ -11,7 +11,7 @@ export const config = {
   locale: "en",
 
   // Environment to fetch from
-  environment: "production",
+  environment: "test",
 
   // Known page slugs from chatai-www project
   pagesSlugs: {
