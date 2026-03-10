@@ -1,31 +1,31 @@
-import { resolve } from 'path';
+import { resolve } from "path";
 
 /**
  * Application configuration constants
  */
 export const config = {
   // Strapi identifiers
-  identifier: 'ai-chat',
+  identifier: "ai-chat",
 
   // Locale to fetch (English only as per requirements)
-  locale: 'en',
+  locale: "en",
 
   // Environment to fetch from
-  environment: 'production',
+  environment: "production",
 
   // Known page slugs from chatai-www project
   pagesSlugs: {
-    home: 'home',
-    onboarding: 'onboarding',
-    support: 'support',
+    home: "home",
+    onboarding: "onboarding",
+    support: "support",
   },
 
   // Output directory for JSON files (relative to project root)
-  outputDir: resolve(process.cwd(), 'output'),
+  outputDir: resolve(process.cwd(), "output"),
 
   // Output directory for translation files
-  translationsOutputDir: resolve(process.cwd(), 'output/translations'),
+  translationsOutputDir: resolve(process.cwd(), "output/translations"),
 
   // Output directory for prepared (API-ready) files
-  preparedOutputDir: resolve(process.cwd(), 'output/prepared'),
+  preparedOutputDir: resolve(process.cwd(), "output/prepared"),
 } as const;

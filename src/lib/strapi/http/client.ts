@@ -1,4 +1,4 @@
-import qs from 'qs';
+import qs from "qs";
 
 export interface StrapiFilterOperator<T> {
   $eq?: T;
@@ -18,7 +18,10 @@ export interface StrapiFilterOperator<T> {
 }
 
 export interface StrapiFilters {
-  [key: string]: StrapiFilterOperator<string> | StrapiFilterOperator<number> | StrapiFilterOperator<boolean>;
+  [key: string]:
+    | StrapiFilterOperator<string>
+    | StrapiFilterOperator<number>
+    | StrapiFilterOperator<boolean>;
 }
 
 export interface StrapiQueryParams {
@@ -28,52 +31,42 @@ export interface StrapiQueryParams {
   filters?: StrapiFilters;
 }
 
-/**
- * Get CMS API Token from environment variables
- */
 function getCMSApiToken(): string {
   const token = process.env.CMS_API_TOKEN;
   if (!token) {
-    throw new Error('CMS_API_TOKEN environment variable is not set');
+    throw new Error("CMS_API_TOKEN environment variable is not set");
   }
   return token;
 }
 
-/**
- * Get CMS API URL from environment variables
- */
 function getCMSApiUrl(): string {
   const url = process.env.CMS_API_URL;
   if (!url) {
-    throw new Error('CMS_API_URL environment variable is not set');
+    throw new Error("CMS_API_URL environment variable is not set");
   }
   return url;
 }
 
-/**
- * Fetches data from Strapi CMS API
- */
 export async function fetchFromStrapi<T>(
   endpoint: string,
-  params?: StrapiQueryParams
+  params?: StrapiQueryParams,
 ): Promise<T> {
   const baseUrl = getCMSApiUrl();
   const token = getCMSApiToken();
 
-  // Build query string using qs library (same as chatai-www)
   const queryString = params
     ? qs.stringify(params, {
         encodeValuesOnly: true,
-        arrayFormat: 'brackets',
+        arrayFormat: "brackets",
       })
-    : '';
+    : "";
 
-  const url = `${baseUrl}${endpoint}${queryString ? `?${queryString}` : ''}`;
+  const url = `${baseUrl}${endpoint}${queryString ? `?${queryString}` : ""}`;
 
   const response = await fetch(url, {
-    method: 'GET',
+    method: "GET",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json",
       Authorization: `Bearer ${token}`,
     },
   });
@@ -81,7 +74,7 @@ export async function fetchFromStrapi<T>(
   if (!response.ok) {
     const errorText = await response.text();
     throw new Error(
-      `Strapi API error: ${response.status} ${response.statusText}\n${errorText}`
+      `Strapi API error: ${response.status} ${response.statusText}\n${errorText}`,
     );
   }
 

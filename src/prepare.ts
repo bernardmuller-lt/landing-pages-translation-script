@@ -9,9 +9,6 @@ import type { PageData } from "./lib/strapi/http/fetchPages.js";
 import { applyTranslations } from "./lib/translations/applier.js";
 import { formatForAPI } from "./lib/translations/apiFormatter.js";
 
-/**
- * Show usage instructions
- */
 function showUsage() {
   console.log("\nUsage: npm run apply -- <locale> <path/to/kv-file>");
   console.log("\nExamples:");
@@ -26,13 +23,6 @@ function showUsage() {
   console.log("  5. Save to: output/prepared/[slug]-[locale].json\n");
 }
 
-/**
- * Extracts slug from KV filename
- * Examples:
- *   "home_de.json" → "home"
- *   "/path/to/support_fr.json" → "support"
- *   "onboarding_es.json" → "onboarding"
- */
 function extractSlugFromFilename(filePath: string): string {
   const filename = basename(filePath, ".json");
 
@@ -49,15 +39,11 @@ function extractSlugFromFilename(filePath: string): string {
   return parts[0];
 }
 
-/**
- * Main prepare script
- */
 async function main() {
   console.log("╔════════════════════════════════════════════════════════╗");
   console.log("║   Translation Prepare                                  ║");
   console.log("╚════════════════════════════════════════════════════════╝");
 
-  // Parse arguments
   const locale = process.argv[2];
   const kvFilePath = process.argv[3];
 
@@ -68,16 +54,13 @@ async function main() {
   }
 
   try {
-    // Extract slug from KV filename
     const slug = extractSlugFromFilename(kvFilePath);
     console.log(`\n📄 Slug: ${slug}`);
     console.log(`🌍 Target locale: ${locale}`);
 
-    // Build paths
     const sourcePath = join(config.outputDir, `${slug}-${config.locale}.json`);
     const outputPath = join(config.preparedOutputDir, `${slug}-${locale}.json`);
 
-    // Validate files exist
     if (!existsSync(kvFilePath)) {
       console.error(`\n❌ Error: KV file not found: ${kvFilePath}\n`);
       process.exit(1);
@@ -94,11 +77,9 @@ async function main() {
     console.log(`📂 Source: ${sourcePath}`);
     console.log(`📝 Translations: ${kvFilePath}\n`);
 
-    // Read source page data
     const sourceContent = await readFile(sourcePath, "utf-8");
     const sourceData: PageData = JSON.parse(sourceContent);
 
-    // Read translated KV pairs
     const kvContent = await readFile(kvFilePath, "utf-8");
     const translations: Record<string, string> = JSON.parse(kvContent);
 
@@ -106,29 +87,24 @@ async function main() {
     console.log(`Applying translations...`);
     console.log(`  📊 ${translationCount} translation(s) to apply`);
 
-    // Apply translations
     const translatedData = applyTranslations(sourceData, translations);
     console.log(`  ✓ Applied translations`);
 
-    // Format for API
     console.log("\nFormatting for API...");
     const apiPayload = formatForAPI(translatedData, locale);
     console.log(`  ✓ Wrapped in API structure`);
     console.log(`  ✓ Updated locale to: ${locale}`);
 
-    // Create output directory if needed
     if (!existsSync(config.preparedOutputDir)) {
       await mkdir(config.preparedOutputDir, { recursive: true });
       console.log(`  ✓ Created directory: ${config.preparedOutputDir}`);
     }
 
-    // Write output
     console.log("\nWriting output...");
     const jsonContent = JSON.stringify(apiPayload, null, 2);
     await writeFile(outputPath, jsonContent, "utf-8");
     console.log(`  ✓ ${outputPath}`);
 
-    // Summary
     console.log("\n╔════════════════════════════════════════════════════════╗");
     console.log("║   Summary                                              ║");
     console.log("╚════════════════════════════════════════════════════════╝");
@@ -142,5 +118,4 @@ async function main() {
   }
 }
 
-// Run the script
 main();
