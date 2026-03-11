@@ -4,8 +4,8 @@ import "dotenv/config";
 import { readFile, readdir } from "fs/promises";
 import { existsSync } from "fs";
 import { join } from "path";
-import type { APIPayload } from "./lib/translations/apiFormatter.js";
-import { validateUploadPayload } from "./lib/strapi/schemas/uploadSchema.js";
+import { ZodError } from "zod";
+import { validateAPIPayload } from "./lib/strapi/schemas/pageDataSchema.js";
 import { uploadPage } from "./lib/strapi/http/uploadPage.js";
 import { config } from "./config.js";
 
@@ -15,26 +15,41 @@ async function uploadSingleFile(filePath: string): Promise<boolean> {
     return false;
   }
 
-  const fileContent = await readFile(filePath, "utf-8");
-  const payload: APIPayload = JSON.parse(fileContent);
+  try {
+    const fileContent = await readFile(filePath, "utf-8");
+    const parsedJSON = JSON.parse(fileContent);
 
-  if (!validateUploadPayload(payload)) {
-    console.error(`  ❌ Invalid payload in: ${filePath}`);
-    return false;
-  }
+    // Validate with Zod
+    const payload = validateAPIPayload(parsedJSON);
 
-  process.stdout.write(
-    `  ⏳ ${payload.data.slug}/${payload.data.locale} ... `,
-  );
-  const result = await uploadPage(payload);
+    process.stdout.write(
+      `  ⏳ ${payload.data.slug}/${payload.data.locale} ... `,
+    );
+    const result = await uploadPage(payload);
 
-  if (result.success) {
-    process.stdout.write("✅\n");
-    return true;
-  } else {
-    process.stdout.write(`❌ ${result.message}\n`);
-    if (result.error?.body) {
-      console.error("    ", JSON.stringify(result.error.body));
+    if (result.success) {
+      process.stdout.write("✅\n");
+      return true;
+    } else {
+      process.stdout.write(`❌ ${result.message}\n`);
+      if (result.error?.body) {
+        console.error("    ", JSON.stringify(result.error.body));
+      }
+      return false;
+    }
+  } catch (error) {
+    if (error instanceof ZodError) {
+      console.error(`  ❌ Invalid payload in: ${filePath}`);
+      console.error("    Validation errors:");
+      error.issues.forEach((issue) => {
+        console.error(`      - ${issue.path.join(".")}: ${issue.message}`);
+      });
+    } else if (error instanceof SyntaxError) {
+      console.error(`  ❌ Invalid JSON in: ${filePath}`);
+      console.error(`    ${error.message}`);
+    } else {
+      console.error(`  ❌ Error processing: ${filePath}`);
+      console.error(`    ${error}`);
     }
     return false;
   }

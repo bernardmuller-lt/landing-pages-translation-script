@@ -5,7 +5,7 @@ import { config, TARGET_LOCALES } from "./config.js";
 import type { PageData } from "./lib/strapi/http/fetchPages.js";
 import { applyTranslations } from "./lib/translations/applier.js";
 import { formatForAPI } from "./lib/translations/apiFormatter.js";
-import { stripNonMediaIds } from "./lib/translations/idStripper.js";
+import { transformPageData } from "./lib/strapi/schemas/pageDataSchema.js";
 
 export interface PrepareOptions {
   /** Only prepare these slugs. Undefined = all discovered slugs. */
@@ -55,8 +55,8 @@ async function prepareSingleFile(
   );
 
   const translatedData = applyTranslations(sourceData, translations);
-  const cleanedData = stripNonMediaIds(translatedData);
-  const apiPayload = formatForAPI(cleanedData, locale, environment);
+  const cleanedData = transformPageData(translatedData);
+  const apiPayload = formatForAPI(cleanedData, locale);
 
   if (!existsSync(config.preparedOutputDir)) {
     await mkdir(config.preparedOutputDir, { recursive: true });

@@ -1,4 +1,4 @@
-import type { APIPayload } from "../../translations/apiFormatter.js";
+import type { APIPayload } from "../schemas/pageDataSchema.js";
 
 export interface UploadResponse {
   success: boolean;

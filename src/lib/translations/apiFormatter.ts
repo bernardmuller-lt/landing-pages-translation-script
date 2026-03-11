@@ -1,19 +1,18 @@
-import type { PageData } from "../strapi/http/fetchPages.js";
+import type {
+  CleanPageData,
+  APIPayload,
+} from "../strapi/schemas/pageDataSchema.js";
 import { config } from "../../config.js";
 
-export interface APIPayload {
-  data: {
-    environment: string;
-    identifier: string;
-    slug: string;
-    locale: string;
-    seo: PageData["seo"];
-    events: PageData["events"];
-    sections: PageData["sections"];
-  };
-}
+/**
+ * @deprecated Import APIPayload from pageDataSchema.ts instead
+ */
+export type { APIPayload } from "../strapi/schemas/pageDataSchema.js";
 
-export function formatForAPI(pageData: PageData, locale: string, environment?: string): APIPayload {
+export function formatForAPI(
+  pageData: CleanPageData,
+  locale: string,
+): APIPayload {
   return {
     data: {
       environment: environment ?? config.environment,
