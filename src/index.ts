@@ -180,11 +180,21 @@ program
     `target locale(s) to prepare, comma separated (valid: ${Object.keys(TARGET_LOCALES).join(", ")})`,
     commaSeparatedList,
   )
+  .option(
+    "-e, --env <environment>",
+    "target environment for the API payload: test or production (default: test)",
+    "test",
+  )
   .action(async (options) => {
+    if (options.env !== "test" && options.env !== "production") {
+      console.error(`\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`);
+      process.exit(1);
+    }
     try {
       await runPrepare({
         slugs: options.slug,
         locales: options.locale,
+        environment: options.env,
       });
     } catch (error) {
       console.error("\n❌ Fatal error:", error);
@@ -245,16 +255,26 @@ program
     "max parallel LLM requests (default: 5)",
     (v) => parseInt(v, 10),
   )
+  .option(
+    "-e, --env <environment>",
+    "target environment for the prepared API payload: test or production (default: test)",
+    "test",
+  )
   .action(async (options) => {
     const model: string | undefined = options.model;
     if (!model) {
       console.error("\n❌ LLM model is required. Use --model <model> or set LLM_MODEL in .env\n");
       process.exit(1);
     }
+    if (options.env !== "test" && options.env !== "production") {
+      console.error(`\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`);
+      process.exit(1);
+    }
 
     console.log(`\n   Slugs:       ${options.slug ? options.slug.join(", ") : "all"}`);
     console.log(`   Locales:     ${options.locale ? options.locale.join(", ") : "all"}`);
-    console.log(`   Model:       ${model}\n`);
+    console.log(`   Model:       ${model}`);
+    console.log(`   Environment: ${options.env}\n`);
 
     try {
       // ── Step 1: Fetch ──────────────────────────────────────────────────────
@@ -300,7 +320,7 @@ program
       console.log("✅  Step 4/5 — Validation passed\n");
 
       // ── Step 5: Prepare ────────────────────────────────────────────────────
-      await runPrepare({ slugs: options.slug, locales: options.locale });
+      await runPrepare({ slugs: options.slug, locales: options.locale, environment: options.env });
       console.log("✅  Step 5/5 — Prepare complete\n");
 
       // ── Upload ─────────────────────────────────────────────────────────────

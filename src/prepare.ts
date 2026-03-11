@@ -12,6 +12,7 @@ export interface PrepareOptions {
   slugs?: string[];
   /** Only prepare these locale codes. Undefined = all locales found in translationsOutputDir. */
   locales?: string[];
+  environment?: "test" | "production";
 }
 
 /**
@@ -34,6 +35,7 @@ async function prepareSingleFile(
   slug: string,
   locale: string,
   kvFilePath: string,
+  environment?: string,
 ): Promise<boolean> {
   const sourcePath = join(config.outputDir, `${slug}-${config.locale}.json`);
   const outputPath = join(config.preparedOutputDir, `${slug}-${locale}.json`);
@@ -54,7 +56,7 @@ async function prepareSingleFile(
 
   const translatedData = applyTranslations(sourceData, translations);
   const cleanedData = stripNonMediaIds(translatedData);
-  const apiPayload = formatForAPI(cleanedData, locale);
+  const apiPayload = formatForAPI(cleanedData, locale, environment);
 
   if (!existsSync(config.preparedOutputDir)) {
     await mkdir(config.preparedOutputDir, { recursive: true });
@@ -68,9 +70,12 @@ async function prepareSingleFile(
 }
 
 export async function runPrepare(options: PrepareOptions = {}): Promise<void> {
+  const environment = options.environment ?? (config.environment as "test" | "production");
+
   console.log("╔════════════════════════════════════════════════════════╗");
   console.log("║   Translation Prepare                                  ║");
   console.log("╚════════════════════════════════════════════════════════╝");
+  console.log(`\n   Environment: ${environment}`);
 
   if (!existsSync(config.translationsOutputDir)) {
     console.error(
@@ -111,7 +116,7 @@ export async function runPrepare(options: PrepareOptions = {}): Promise<void> {
 
   for (const { slug, locale } of pairs) {
     const kvPath = join(config.translationsOutputDir, `${slug}-${locale}.json`);
-    const success = await prepareSingleFile(slug, locale, kvPath);
+    const success = await prepareSingleFile(slug, locale, kvPath, environment);
     success ? ok++ : failed++;
   }
 

@@ -13,10 +13,10 @@ export interface APIPayload {
   };
 }
 
-export function formatForAPI(pageData: PageData, locale: string): APIPayload {
+export function formatForAPI(pageData: PageData, locale: string, environment?: string): APIPayload {
   return {
     data: {
-      environment: config.environment,
+      environment: environment ?? config.environment,
       identifier: config.identifier,
       slug: pageData.slug,
       locale: locale, // Target locale
