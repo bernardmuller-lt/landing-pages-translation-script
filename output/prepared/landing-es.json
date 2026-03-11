@@ -1,0 +1,239 @@
+{
+  "data": {
+    "environment": "test",
+    "identifier": "ai-chat",
+    "slug": "landing",
+    "locale": "es",
+    "seo": {
+      "title": "Aplicaciones web de ChatAI",
+      "description": "Un asistente de IA sofisticado diseñado para proporcionar respuestas inteligentes, entablar diálogos significativos y ofrecer una experiencia conversacional fluida."
+    },
+    "events": null,
+    "sections": [
+      {
+        "__component": "ai-chat.hero-section",
+        "fe_component": "Hero",
+        "title": "<h1 class=\"text-left leading-[1.1] font-bold text-main text-[4.25rem] dark:text-white mb-2.5\">Chats de IA</h1>",
+        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">Impulsa tu día con IA, una conversación a la vez</p>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/register",
+          "text": "Comienza gratis",
+          "aria_label": "Comienza gratis",
+          "icon": null
+        },
+        "media": {
+          "dark": 18,
+          "light": 17
+        }
+      },
+      {
+        "__component": "ai-chat.milestone-section",
+        "fe_component": "Milestones",
+        "title": "",
+        "items": [
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> reseñas de 5 estrellas</p>",
+            "media": {
+              "dark": 20,
+              "light": 19
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">1.º</strong> Chatbot de IA</p>",
+            "media": {
+              "dark": 22,
+              "light": 21
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30M+</strong> usuarios en todo el mundo</p>",
+            "media": {
+              "dark": 24,
+              "light": 23
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Potenciado por</strong> modelos de IA avanzados</p>",
+            "media": {
+              "dark": 26,
+              "light": 25
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.carousel-section",
+        "fe_component": "Carousel",
+        "title": "Con la confianza de millones de usuarios",
+        "items": [
+          {
+            "title": "Herramienta de escritura inteligente",
+            "description": "“Esta plataforma se integra de forma fluida en mi flujo de trabajo diario como profesional de la tecnología, ofreciendo una flexibilidad y personalización impresionantes que mejoran mi capacidad para resolver problemas de forma creativa.”",
+            "rating": 5,
+            "author": "Matthias Engelhardt"
+          },
+          {
+            "title": "Asistente de texto brillante",
+            "description": "“Como usuario diario en el espacio tecnológico creativo, me impresiona la adaptabilidad de la plataforma. Me permite adaptar las interacciones precisamente a las necesidades de mi proyecto.”",
+            "rating": 5,
+            "author": "Sofia Valenti"
+          },
+          {
+            "title": "Compañero de escritura sin esfuerzo",
+            "description": "“Una herramienta altamente confiable para profesionales de la tecnología, que ofrece opciones de personalización dinámicas que encajan perfectamente con las exigentes demandas de la industria creativa.”",
+            "rating": 5,
+            "author": "Heinrich Schreiber"
+          },
+          {
+            "title": "Escritor avanzado",
+            "description": "“El diseño innovador de la plataforma y su enfoque centrado en el usuario la convierten en una parte esencial de mi conjunto de herramientas diario, especialmente al gestionar proyectos tecnológicos complejos.”",
+            "rating": 5,
+            "author": "Elisabeth van der Meer"
+          },
+          {
+            "title": "Maestro de palabras creativo",
+            "description": "“Es un cambio de juego para mi trabajo creativo, con su capacidad de personalizar y adaptarse a requisitos en evolución sin esfuerzo—una solución ideal para el uso diario en tecnología.”",
+            "rating": 5,
+            "author": "Andreas Sorensen"
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.perk-comparison-table",
+        "fe_component": "ComparisonTable",
+        "rows": [
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Respuestas de ChatGPT</p>",
+            "tier": "both",
+            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">Tu puerta de entrada a conversaciones más inteligentes</p>",
+            "icon": {
+              "dark": 28,
+              "light": 27
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Acceso a GPT-5</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Respuestas de nivel superior con IA avanzada</p>",
+            "icon": {
+              "dark": 30,
+              "light": 29
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Generación de imágenes</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Convierte ideas en imágenes impresionantes con los mejores modelos de IA disponibles, como Nano Banana</p>",
+            "icon": {
+              "dark": 32,
+              "light": 31
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Acceso a modelos avanzados</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT, DeepSeek, Gemini Pro, Claude Sonnet, Grok y muchos más!</p>",
+            "icon": {
+              "dark": 34,
+              "light": 33
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Accede a herramientas avanzadas</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Chatea con PDF, Documentos, Excel y más</p>",
+            "icon": {
+              "dark": 36,
+              "light": 35
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Sin anuncios</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Asistencia puramente de IA, sin distracciones</p>",
+            "icon": {
+              "dark": 38,
+              "light": 37
+            }
+          }
+        ],
+        "header": [
+          {
+            "heading": null
+          },
+          {
+            "heading": "<p><span style=\"font-size:20px;\">GRATIS</span></p>"
+          },
+          {
+            "heading": "<p class=\"pl-8\"><span style=\"font-size:20px;\">PRO</span></p>"
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.high-light-section",
+        "fe_component": "Highlights",
+        "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AI Chat</strong> Funciones</p>",
+        "items": [
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Conversaciones inteligentes, al instante</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat es tu compañero imprescindible para conversaciones dinámicas</strong>. Combina modelos de lenguaje avanzados con una interfaz fácil de usar para crear interacciones fluidas y personalizadas. Disfruta de chats inteligentes y atractivos—sin copiar y pegar ni cambiar de pestañas. Simplemente respuestas más rápidas y adaptadas en un solo lugar.</p></div>",
+            "icon": null,
+            "media": {
+              "dark": null,
+              "light": 39
+            }
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Convierte tus ideas en imágenes increíbles con 🍌 Nano Banana</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Tu creatividad no tiene límites. Simplemente describe tu idea y AI Chat la convertirá en imágenes impresionantes—no se requieren habilidades de diseño. De la imaginación a la imagen en segundos, lista para inspirar, compartir o ampliar. Solo tus palabras. Pura creación.</p></div>",
+            "icon": {
+              "dark": null,
+              "light": 41
+            },
+            "media": {
+              "dark": null,
+              "light": 40
+            }
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Domina tus PDFs en segundos</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Obtén más de tus PDFs en segundos. Resume, traduce y analiza documentos al instante. ¿Tienes preguntas? AI Chat ofrece respuestas rápidas y precisas, ahorrándote tiempo y ayudándote a centrarte en lo que es más importante. Es inteligente, rápido y está diseñado para la productividad.</p></div>",
+            "icon": {
+              "dark": null,
+              "light": 43
+            },
+            "media": {
+              "dark": null,
+              "light": 42
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.topics-section",
+        "fe_component": "Topics",
+        "title": "<p><strong class=\"text-primary\">AI Chat</strong> es útil para</p>",
+        "items": [
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">💼</span>Mercadotecnia</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">✈️</span>Viajes</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">📚</span>Educación</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🚀</span>Carrera</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">‍‍👩🏻‍💻</span>Programación</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🗞</span>Noticias</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">📊</span>Presentación</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

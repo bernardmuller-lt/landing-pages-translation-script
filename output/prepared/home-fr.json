@@ -1,0 +1,270 @@
+{
+  "data": {
+    "environment": "test",
+    "identifier": "ai-chat",
+    "slug": "home",
+    "locale": "fr",
+    "seo": {
+      "title": "Application Web AI Chat",
+      "description": "Un assistant de chat IA sophistiqué conçu pour fournir des réponses intelligentes, engager des dialogues significatifs et offrir une expérience conversationnelle fluide."
+    },
+    "events": {
+      "viewPageEventName": "view_landing",
+      "landing_folder": "/",
+      "landing_parameter": null
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.hero-section",
+        "fe_component": "Hero",
+        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Plusieurs IA</strong><br><strong class=\"font-black\">Modèles, </strong>Une plateforme puissante</h1>",
+        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Discutez avec différents modèles d'IA pour trouver le vôtre</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Découvrez un monde de l'IA en un seul endroit. Discutez avec différents modèles, comparez leurs points forts et tirez le meilleur parti de la technologie IA. Que vous ayez besoin de recherches précises, de création de contenu, de traduction linguistique, de génération d'images ou d'aide à la programmation, nous avons le modèle qui vous convient.</p>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/login",
+          "text": "Commencer gratuitement",
+          "aria_label": "Commencer gratuitement",
+          "icon": "arrow-right"
+        },
+        "media": {
+          "dark": 9,
+          "light": 8
+        }
+      },
+      {
+        "__component": "ai-chat.carousel-section",
+        "fe_component": "Carousel",
+        "title": "Avis <strong class='text-primary'>Créatifs</strong>",
+        "items": [
+          {
+            "title": "Outil d’écriture intelligent",
+            "description": "« Cette plateforme s’intègre parfaitement à mon flux de travail quotidien en tant que professionnel de la tech, offrant une flexibilité et une personnalisation impressionnantes qui renforcent ma capacité à résoudre des problèmes créatifs. »",
+            "rating": 5,
+            "author": "Matthias Engelhardt"
+          },
+          {
+            "title": "Assistant rédactionnel brillant",
+            "description": "« En tant qu’utilisatrice quotidienne dans l’espace technologique créatif, je suis impressionnée par l’adaptabilité de la plateforme. Elle me permet d’adapter les interactions précisément aux besoins de mes projets. »",
+            "rating": 5,
+            "author": "Sofia Valenti"
+          },
+          {
+            "title": "Rédacteur avancé",
+            "description": "« Un outil extrêmement fiable pour les professionnels de la tech, offrant des options de personnalisation dynamiques qui s’intègrent parfaitement aux exigences rapides de l’industrie créative. »",
+            "rating": 5,
+            "author": "Heinrich Schreiber"
+          },
+          {
+            "title": "Rédacteur avancé",
+            "description": "« Le design innovant de la plateforme et son approche centrée sur l’utilisateur en font un élément essentiel de ma boîte à outils quotidienne, notamment lors de la gestion de projets techniques complexes. »",
+            "rating": 5,
+            "author": "Elisabeth van der Meer"
+          },
+          {
+            "title": "Écrivain créatif",
+            "description": "« C’est une vraie révolution pour mon travail créatif, grâce à sa capacité à se personnaliser et à s’adapter sans effort à des exigences évolutives — une solution idéale pour une utilisation quotidienne dans le domaine de la tech. »",
+            "rating": 5,
+            "author": "Andreas Sorensen"
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.plan-section",
+        "fe_component": "Plans",
+        "title": "Passez en <strong class='text-primary'>Pro</strong> pour une utilisation illimitée",
+        "items": [
+          {
+            "isPopular": null,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Commencer",
+              "aria_label": "Commencer",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100 % sans publicité",
+                "subtitle": "Aucune distraction"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Meilleurs modèles d’IA sur une plateforme unique",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux et bien d’autres !"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Oubliez les limites",
+                "subtitle": "Aucun souci, utilisez-le autant que vous le souhaitez."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0,67 par jour",
+              "duration": "Accès 1 mois",
+              "fullPrice": "$19,99"
+            }
+          },
+          {
+            "isPopular": true,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Commencer",
+              "aria_label": "Commencer",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100 % sans publicité",
+                "subtitle": "Aucune distraction"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Meilleurs modèles d’IA sur une plateforme unique",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux et bien d’autres !"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Oubliez les limites",
+                "subtitle": "Pas de souci, utilisez-le autant que vous le souhaitez."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0,44 par jour",
+              "duration": "Accès 3 mois",
+              "fullPrice": "$39,99"
+            }
+          },
+          {
+            "isPopular": null,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Commencer",
+              "aria_label": "Commencer",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100 % sans publicité",
+                "subtitle": "Aucune distraction"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Meilleurs modèles d’IA sur une plateforme unique",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux et bien d’autres !"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Oubliez les limites",
+                "subtitle": "Pas de souci, utilisez-le autant que vous le souhaitez."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0,19 par jour",
+              "duration": "Accès 12 mois",
+              "fullPrice": "$69,99"
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.feature-section",
+        "fe_component": "Features",
+        "client": true,
+        "title": "WebbApp <strong class='text-primary'>Fonctionnalités</strong>",
+        "logo": {
+          "dark": null,
+          "light": 15
+        },
+        "tabs": [
+          {
+            "title": "AI Chat : Votre allié conversationnel IA ultime",
+            "text": "AI Chat utilise une IA de pointe avec un flux de dialogue naturel, offrant une expérience de chat aussi intuitive qu’engageante. Qu’il s’agisse de conversations informelles ou de défis à relever, AI Chat est votre IA fiable pour des interactions significatives, dynamiques et humaines.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Commencer",
+              "aria_label": "Commencer",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 11
+            }
+          },
+          {
+            "title": "AI Chat : Votre compagnon de chat intelligent",
+            "text": "AI Chat est votre IA de référence pour des conversations dynamiques. Elle combine un traitement du langage de pointe avec une interface conviviale, transformant chaque interaction en une expérience fluide et personnalisée. Plongez dans des conversations engageantes et intuitives qui évoluent avec vos préférences uniques.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Commencer",
+              "aria_label": "Commencer",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 10
+            }
+          },
+          {
+            "title": "AI Chat : Votre génie conversationnel propulsé par l’IA",
+            "text": "AI Chat améliore vos conversations grâce à une IA avancée conçue avec le GPT-4o pour offrir des réponses rapides et pertinentes, inspirer des interactions engageantes et offrir une expérience fluide. Elle apprend et s’adapte continuellement, fournissant des informations précieuses à chaque échange.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Commencer",
+              "aria_label": "Commencer",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 12
+            }
+          }
+        ],
+        "media": {
+          "dark": 14,
+          "light": 13
+        },
+        "headingsBackground": {
+          "dark": null,
+          "light": 16
+        }
+      },
+      {
+        "__component": "ai-chat.faq-section",
+        "fe_component": "FAQ",
+        "client": true,
+        "title": "<p><strong>Questions fréquemment posées</strong><span style=\"color:#01b78d;\"><strong>Questions</strong></span></p>",
+        "items": [
+          {
+            "title": "Qu’est-ce que AI Chat exactement et quels avantages cela m’offre-t-il ?",
+            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat est un puissant chatbot IA qui intègre plusieurs modèles IA avancés, dont OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek et Flux pour fournir des réponses rapides et intelligentes à tous vos besoins.</li><li>Les avantages de l’utilisation d’AI Chat incluent:<ul style=\"list-style-type:square;\"><li>Personnalisation : Adaptez votre expérience d’IA en choisissant parmi divers modèles pour répondre à vos préférences et exigences.</li><li>Vitesse et gain de temps : AI Chat fournit des réponses rapides et exactes issues de plusieurs modèles IA de pointe, rationalisant vos tâches et vous faisant gagner du temps.</li><li>Accessibilité sans limites : Accédez à un support IA de haut niveau à tout moment et en tout lieu, avec une gamme de modèles à portée de main.</li><li>Mises à jour continues : Nous ajoutons constamment les derniers modèles d’IA et mises à jour, vous assurant d’avoir accès aux technologies les plus avancées et à jour.</li></ul></li></ul>"
+          },
+          {
+            "title": "Pourquoi s’abonner ? Voici ce que vous obtenez",
+            "content": "<ul><li>Déverrouillez des fonctionnalités exclusives, un accès plus rapide, et un support personnalisé conçu pour améliorer votre expérience. Ceux-ci incluent<ul><li>Obtenez des réponses précises et approfondies à chaque requête.</li><li>Profitez de limites de messages étendues pour des conversations plus détaillées.</li><li>Chats et messages illimités—Chattez aussi longtemps que vous en avez besoin.</li><li>Profitez de temps de réponse rapides, à chaque fois.</li><li>Aucune interruption—des conversations pures et sans publicité.</li></ul></li></ul>"
+          },
+          {
+            "title": "Comment annuler mon abonnement ?",
+            "content": "<p>Pour annuler votre abonnement, accédez à la section « Compte » dans la page Paramètres et cliquez sur le bouton « Annuler l’abonnement ». Votre abonnement sera annulé à la fin de la période d’abonnement en cours, ce qui entraînera la résiliation de votre abonnement premium. Vous ne serez plus facturé après l’annulation.</p>"
+          },
+          {
+            "title": "Puis-je mettre à niveau ou diminuer mon forfait d’abonnement ?",
+            "content": "<p>Oui, vous pouvez facilement passer à un plan supérieur ou inférieur à tout moment via les paramètres du compte. Les changements seront appliqués au début du prochain cycle de facturation.</p>"
+          },
+          {
+            "title": "La plateforme convient-elle aussi bien aux professionnels de la tech qu’aux utilisateurs créatifs ?",
+            "content": "<p>Tout à fait ! La plateforme est conçue pour répondre à une large gamme d’utilisateurs, des experts techniques aux professionnels créatifs, en proposant des outils qui améliorent la productivité et l’innovation.</p>"
+          },
+          {
+            "title": "À quel point mes données sont-elles sécurisées sur la plateforme ?",
+            "content": "<p>La plateforme suit des protocoles de sécurité stricts, garantissant que les données et les interactions des utilisateurs sont chiffrées et protégées en tout temps.</p><p>&nbsp;</p>"
+          },
+          {
+            "title": "Quelles options de personnalisation des modèles IA sont disponibles pour améliorer l’expérience utilisateur ?",
+            "content": "<p>Les utilisateurs peuvent ajuster le comportement des réponses, le format de sortie, le style de langue et bien plus encore, permettant à la plateforme de s’adapter à des besoins opérationnels spécifiques ou à des flux de travail créatifs.</p><p>&nbsp;</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

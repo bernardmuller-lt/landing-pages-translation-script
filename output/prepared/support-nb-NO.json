@@ -1,0 +1,32 @@
+{
+  "data": {
+    "environment": "test",
+    "identifier": "ai-chat",
+    "slug": "support",
+    "locale": "nb-NO",
+    "seo": {
+      "title": "Kundesupport - AI-samtale",
+      "description": "AI-samtale"
+    },
+    "events": {
+      "viewPageEventName": "Contact_Support",
+      "landing_folder": null,
+      "landing_parameter": null
+    },
+    "sections": [
+      {
+        "__component": "shared.support",
+        "fe_component": "Support",
+        "title": "Kundesupport",
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Trenger du hjelp eller har spørsmål? Vi er her for deg!</h2><p>Vårt dedikerte supportteam står klart til å hjelpe deg med eventuelle spørsmål om våre AI-drevne verktøy, chatbot-integrasjoner eller bildegenereringsegenskaper. Enten du trenger teknisk støtte, hjelp med fakturering, eller har tilbakemeldinger du ønsker å dele, vi er glade for å kunne hjelpe.</p><p>Fyll ut skjemaet nedenfor, så tar vi kontakt så raskt som mulig.</p><p>La oss gjøre AI-opplevelsen din sømløs og effektiv!</p></div>",
+        "event": null,
+        "cta": {
+          "href": "https://chat.aichatapp.ai/app/ai-chat",
+          "text": "Tilbake til Chat",
+          "aria_label": "Tilbake til Chat",
+          "icon": "arrow-left"
+        }
+      }
+    ]
+  }
+}

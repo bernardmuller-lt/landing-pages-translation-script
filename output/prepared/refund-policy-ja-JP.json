@@ -1,0 +1,25 @@
+{
+  "data": {
+    "environment": "test",
+    "identifier": "ai-chat",
+    "slug": "refund-policy",
+    "locale": "ja-JP",
+    "seo": {
+      "title": "返金ポリシー",
+      "description": "返金ポリシー"
+    },
+    "events": {
+      "viewPageEventName": "Refund_and_cancelations",
+      "landing_folder": null,
+      "landing_parameter": null
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "Legal",
+        "title": "返金ポリシー",
+        "content": "<p>適用開始日: 2025年9月</p><p>Palatine Global Capital LLC（“Company”）が提供する aichatapp.ai（“Product”）を通じて当社の製品をご購入いただき、ありがとうございます。</p><p>当社は、www.aichatapp.ai（“Website”）上で直接購入された場合の払い戻しを、 本 Refund Policy の条項が満たされることに加え、適用法により認められる権利とともに提供します。</p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><div class=\"wp-block-spacer\" style=\"height:40px;\" aria-hidden=\"true\">&nbsp;</div><h4 class=\"wp-block-heading\"><strong>I. SUBSCRIPTION</strong></h4><p>当社は<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.chatbotapp.ai/\"> </a>www.aichatapp.ai（“Website”）を、AIチャットアプリケーションのブラウザ版へのアクセスを含む基本機能を備えた無料サービスとして提供します。無制限の機能を解放するには有料サブスクリプションが必要です。Websiteは機能と価格の完全なリストを提供します。サブスクリプションに適用される価格と通貨は、価格ページに表示され、チェックアウト時に確認されます。最終価格は、地理的位置により異なる場合があります。サブスクリプションは現在の期間が終了する24時間前までに自動的に更新されます。解約の詳細は第IV節「キャンセル」をご参照ください。</p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><h3 class=\"wp-block-heading\">&nbsp;</h3><div class=\"wp-block-spacer\" style=\"height:40px;\" aria-hidden=\"true\">&nbsp;</div><h4 class=\"wp-block-heading\"><strong>II. 無料プラン</strong></h4><p>新規ユーザーは最初のメッセージリクエストのために無料プランをお試しいただけます。継続してご利用いただくには有料サブスクリプションの選択が必要です。</p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><h3 class=\"wp-block-heading\">&nbsp;</h3><div class=\"wp-block-spacer\" style=\"height:40px;\" aria-hidden=\"true\">&nbsp;</div><h4 class=\"wp-block-heading\"><strong>III. お支払い方法</strong></h4><p>サブスクリプションはデビットカードまたはクレジットカードを使用してご購入いただけます。お支払いはチェックアウト時にご提供いただいた方法に請求され、当社がサブスクリプションに適用される料金を処理することを承認します。</p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><h3 class=\"wp-block-heading\">&nbsp;</h3><div class=\"wp-block-spacer\" style=\"height:40px;\" aria-hidden=\"true\">&nbsp;</div><h4 class=\"wp-block-heading\"><strong>IV. キャンセル</strong></h4><p>解約すると自動更新は無効になりますが、現在の期間が終了するまでサブスクリプション機能へのアクセスは保持されます。</p><p>サブスクリプションの管理は support@aichatapp.ai までご連絡ください。更新料金を回避するには、次回の請求サイクルの少なくとも72時間前に解約してください。サブスクリプション料金は返金されません。</p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><h3 class=\"wp-block-heading\">&nbsp;</h3><div class=\"wp-block-spacer\" style=\"height:40px;\" aria-hidden=\"true\">&nbsp;</div><h4 class=\"wp-block-heading\"><strong>V. 返金</strong></h4><p>適用法令に基づく返金権利に加え、以下の要件を満たす場合は返金の対象となります。</p><p><strong>返金期間</strong><br>購入後<strong> 30日以内</strong>、かつ<strong>サブスクリプションの有効期限が切れる前</strong>に返金を申請してください。</p><p><strong>申請方法</strong><br>返金の申請は、オンラインサポートフォームを提出するか、購入時と同じアドレスから <a href=\"https://aichatapp.ai/support/\" target=\"_blank\" rel=\"noopener noreferrer\">オンラインサポートフォーム</a> から、または <a href=\"mailto:support@aichatapp.ai\">support@aichatapp.ai</a> 宛に連絡してください。購入時と同じメールアドレスを使用してください。以下を含めてください：</p><ul class=\"wp-block-list\"><li><strong>ご注文番号</strong>（確認メールに記載されたもの）<br>&nbsp;</li><li><strong>返金を希望する理由</strong>の簡潔な説明<br>&nbsp;</li></ul><p>お申し込みを確認後、<strong>72時間以内</strong>にメールでご連絡します。</p><p>承認された場合、返金は処理され、承認日から<strong>10日以内</strong>に元の支払い方法へクレジットされます。</p><p><strong>除外事項</strong><br>以下については返金はお受けできません：</p><ul class=\"wp-block-list\"><li>購入後30日を超える返金申請</li><li>すでに有効期限が切れているサブスクリプション</li><li>サブスクリプションの更新またはその後の請求サイクル</li><li>不正行為または乱用の兆候が合理的に示されている場合。</li><li>気が変わった場合</li><li>技術的な問題が原因で使用不能であることを示す証拠がない場合の製品への不満<br>&nbsp;</li></ul><p>市場で最高品質の製品を提供することを目指しています。ご購入に完全にご満足いただけない場合は、フィードバックを大切にしており、それが提供内容の継続的な改善につながります。</p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><h3 class=\"wp-block-heading\">&nbsp;</h3><div class=\"wp-block-spacer\" style=\"height:40px;\" aria-hidden=\"true\">&nbsp;</div><h4 class=\"wp-block-heading\"><strong>VI. チャージバック/紛争</strong></h4><p>チャージバックを開始したり支払いを取り消したりすると、直ちにアカウントの停止または終了につながる可能性があります。当社は、承認済みの支払いの証拠を提示することによりチャージバックに異議を唱える権利を有します。</p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><h3 class=\"wp-block-heading\">&nbsp;</h3><div class=\"wp-block-spacer\" style=\"height:40px;\" aria-hidden=\"true\">&nbsp;</div><h4 class=\"wp-block-heading\"><strong>VII. ポリシー変更</strong></h4><p>当社は、サブスクリプションプランまたは返金ポリシーをいつでも変更することがあります。変更のお知らせはWebサイトに掲載されるか、メールで通知されます。利用者は、新しい条件に同意しない場合、変更が有効となる前にサブスクリプションを解約することができます。</p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><h3 class=\"wp-block-heading\">&nbsp;</h3><div class=\"wp-block-spacer\" style=\"height:40px;\" aria-hidden=\"true\">&nbsp;</div><h4 class=\"wp-block-heading\"><strong>連絡先</strong></h4><p>この返金ポリシーについてのご質問やご提案がある場合は、support@aichatapp.ai 宛てにメールでお送りください。</p><p><i>今後のサブスクリプションの管理に役立つよう、この情報を参照のため保存してください。</i></p><p>&nbsp;</p>"
+      }
+    ]
+  }
+}

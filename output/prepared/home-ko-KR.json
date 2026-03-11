@@ -1,0 +1,270 @@
+{
+  "data": {
+    "environment": "test",
+    "identifier": "ai-chat",
+    "slug": "home",
+    "locale": "ko-KR",
+    "seo": {
+      "title": "AI 채팅 웹 앱",
+      "description": "지능적인 응답을 제공하고 의미 있는 대화를 유도하며 매끄러운 대화 경험을 제공하도록 설계된 정교한 AI 채팅 어시스턴트입니다."
+    },
+    "events": {
+      "viewPageEventName": "view_landing",
+      "landing_folder": "/",
+      "landing_parameter": null
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.hero-section",
+        "fe_component": "Hero",
+        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">다중 AI</strong><br><strong class=\"font-black\">모델, </strong>하나의 강력한 플랫폼</h1>",
+        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">다양한 AI 모델과 대화하여 적합한 모델을 찾아보세요</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">한 곳에서 다양한 AI의 세계를 발견하세요. 여러 모델과 대화하고 그들의 강점을 비교하며 AI 기술을 최대한 활용해 보세요. 정확한 연구, 콘텐츠 제작, 번역, 이미지 생성 또는 코딩 지원이 필요하든, 필요한 모델을 제공합니다.</p>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/login",
+          "text": "무료로 시작하기",
+          "aria_label": "무료로 시작하기",
+          "icon": "arrow-right"
+        },
+        "media": {
+          "dark": 9,
+          "light": 8
+        }
+      },
+      {
+        "__component": "ai-chat.carousel-section",
+        "fe_component": "Carousel",
+        "title": "Creative <strong class='text-primary'>Reviews</strong>",
+        "items": [
+          {
+            "title": "스마트 작문 도구",
+            "description": "“이 플랫폼은 기술 전문가로서 제 일상 작업 흐름에 매끄럽게 통합되어 인상적인 유연성과 맞춤화를 제공하며 제 창의적 문제 해결 능력을 향상시킵니다.”",
+            "rating": 5,
+            "author": "Matthias Engelhardt"
+          },
+          {
+            "title": "뛰어난 텍스트 어시스턴트",
+            "description": "“크리에이티브 기술 분야의 일상 사용자로서 이 플랫폼의 적응성에 감명받았습니다. 제 프로젝트 요구에 정확히 맞춰 상호 작용을 조정할 수 있게 해줍니다.”",
+            "rating": 5,
+            "author": "Sofia Valenti"
+          },
+          {
+            "title": "수월한 작문 동반자",
+            "description": "“창의적 산업의 빠르게 변화하는 요구에 완벽히 부합하는 동적 맞춤 옵션을 제공하는 기술 전문가를 위한 매우 신뢰할 수 있는 도구입니다.”",
+            "rating": 5,
+            "author": "Heinrich Schreiber"
+          },
+          {
+            "title": "고급 필기 도우미",
+            "description": "“플랫폼의 혁신적 디자인과 사용자 중심 접근 방식은 특히 복잡한 기술 프로젝트를 관리할 때 제 데일리 도구 키트의 필수 요소가 됩니다.”",
+            "rating": 5,
+            "author": "Elisabeth van der Meer"
+          },
+          {
+            "title": "창의적 작문가",
+            "description": "“제 창의적 작업에 혁신을 가져다주는 기능으로, 변화하는 요구사항에 손쉽게 맞춤화하고 조정할 수 있습니다—일상적인 기술 활용에 이상적인 솔루션입니다.”",
+            "rating": 5,
+            "author": "Andreas Sorensen"
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.plan-section",
+        "fe_component": "Plans",
+        "title": "무제한 사용을 위한 <strong class='text-primary'>Pro</strong>",
+        "items": [
+          {
+            "isPopular": null,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "시작하기",
+              "aria_label": "시작하기",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "광고 전혀 없음",
+                "subtitle": "방해 요소 없음"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "한 플랫폼에서 만나는 최고의 AI 모델들",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux 등 더 많은 모델!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "제한 없이 사용하기",
+                "subtitle": "걱정 없이 필요하신 만큼 모두 사용하세요."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0.67/일",
+              "duration": "1개월 이용",
+              "fullPrice": "$19.99"
+            }
+          },
+          {
+            "isPopular": true,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "시작하기",
+              "aria_label": "시작하기",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "광고 전혀 없음",
+                "subtitle": "방해 요소 없음"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "한 플랫폼에서 만나는 최고의 AI 모델들",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux 등 더 많은 모델!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "제한을 잊고",
+                "subtitle": "걱정 없이 필요하신 만큼 모두 사용하세요."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0.44/일",
+              "duration": "3개월 이용",
+              "fullPrice": "$39.99"
+            }
+          },
+          {
+            "isPopular": null,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "시작하기",
+              "aria_label": "시작하기",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "광고 전혀 없음",
+                "subtitle": "방해 요소 없음"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "한 플랫폼에서 만나는 최고의 AI 모델들",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux 등 더 많은 모델!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "제한을 잊고",
+                "subtitle": "걱정 없이 필요하신 만큼 모두 사용하세요."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0.19/일",
+              "duration": "12개월 이용",
+              "fullPrice": "$69.99"
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.feature-section",
+        "fe_component": "Features",
+        "client": true,
+        "title": "WebbApp <strong class='text-primary'>Features</strong>",
+        "logo": {
+          "dark": null,
+          "light": 15
+        },
+        "tabs": [
+          {
+            "title": "AI 채팅: 궁극적인 AI 대화 동료",
+            "text": "AI 채팅은 최첨단 AI를 자연스러운 대화 흐름으로 사용하여 직관적이고 매력적인 채팅 경험을 제공합니다. 가벼운 대화이든 도전 과제 해결이든, AI 채팅은 의미 있고 동적이며 인간에 가까운 상호 작용을 위한 신뢰할 수 있는 AI입니다.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "시작하기",
+              "aria_label": "시작하기",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 11
+            }
+          },
+          {
+            "title": "AI 채팅: 당신의 지능형 채팅 동료",
+            "text": "AI 채팅은 동적인 대화를 위한 당신의 기본 AI입니다. 최첨단 언어 처리와 사용하기 쉬운 인터페이스를 결합하여 각 상호 작용을 원활하고 개인화된 경험으로 바꿉니다. 고유한 선호도에 따라 진화하는 매력적이고 직관적인 대화에 빠져보세요.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "시작하기",
+              "aria_label": "시작하기",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 10
+            }
+          },
+          {
+            "title": "AI 채팅: 당신의 AI 기반 대화 천재",
+            "text": "AI 채팅은 챗GPT-4o로 제작된 고급 AI로 대화를 향상시켜 빠르고 통찰력 있는 응답을 제공하고, 매력적인 상호 작용을 이끌며 매끄러운 사용 경험을 제공합니다. 지속적으로 학습하고 적응하여 교환마다 가치 있는 인사이트를 제공합니다.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "시작하기",
+              "aria_label": "시작하기",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 12
+            }
+          }
+        ],
+        "media": {
+          "dark": 14,
+          "light": 13
+        },
+        "headingsBackground": {
+          "dark": null,
+          "light": 16
+        }
+      },
+      {
+        "__component": "ai-chat.faq-section",
+        "fe_component": "FAQ",
+        "client": true,
+        "title": "<p><strong>자주 묻는 </strong><span style=\"color:#01b78d;\"><strong>질문</strong></span></p>",
+        "items": [
+          {
+            "title": "AI 채팅이 정확히 무엇이며 어떤 이점을 제공하나요?",
+            "content": "<ul style=\"list-style-type:circle;\"><li>AI 채팅은 OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek 및 Flux를 포함한 다수의 고급 AI 모델을 통합하여 모든 필요에 대해 빠르고 지능적인 응답을 제공하는 강력한 AI 챗봇입니다.</li><li>AI 채팅 사용의 이점은 다음과 같습니다:<ul style=\"list-style-type:square;\"><li>개인화: 다양한 모델 중에서 선택하여 선호도와 필요에 맞게 AI 경험을 조정하세요.</li><li>속도 및 시간 절약: 여러 최첨단 AI 모델의 빠르고 정확한 답변으로 작업을 간소화하고 시간을 절약합니다.</li><li>제한 없는 접근성: 언제 어디서나 최상급 AI 지원에 접근할 수 있으며, 다양한 모델이 손끝에 있습니다.</li><li>계속되는 업데이트: 최신 AI 모델과 업데이트를 지속적으로 추가하여 가장 진보된 최신 기술에 접근할 수 있도록 합니다.</li></ul></li></ul>"
+          },
+          {
+            "title": "구독의 이유? 아래 혜택을 확인하세요",
+            "content": "<ul><li>독점 기능, 더 빠른 접근 및 맞춤형 지원으로 사용 경험을 향상시키십시오. 여기에는<ul><li>모든 질의에 대해 정확하고 심층적인 답변을 얻으세요.</li><li>더 자세한 대화를 위한 확장된 메시지 한도를 누리세요.</li><li>무제한 채팅과 메시지—필요하신 만큼 대화를 이어나가세요.</li><li>항상 빠른 응답 시간을 경험하세요.</li><li>중단 없이 광고 없는 순수한 대화를 제공합니다.</li></ul></li></ul>"
+          },
+          {
+            "title": "구독을 어떻게 취소하나요?",
+            "content": "<p>구독을 취소하려면 설정 페이지의 '계정' 섹션으로 이동하여 '구독 취소' 버튼을 클릭하십시오. 현재 구독 기간의 종료 시 구독이 취소되며 프리미엄 멤버십이 종료됩니다. 취소 후에는 추가 요금이 청구되지 않습니다.</p>"
+          },
+          {
+            "title": "구독 플랜을 업그레이드하거나 다운그레이드할 수 있나요?",
+            "content": "<p>네, 계정 설정을 통해 언제든지 요금제를 상향 조정하거나 하향 조정할 수 있습니다. 변경은 다음 청구 주기의 시작 시점에 적용됩니다.</p>"
+          },
+          {
+            "title": "플랫폼은 기술 전문가와 창의적 사용자가 모두 이용하기에 적합한가요?",
+            "content": "<p>물론입니다! 이 플랫폼은 기술 전문가부터 창의적 전문가까지 다양한 사용자층을 대상으로 생산성과 혁신을 향상시키는 도구를 제공합니다.</p>"
+          },
+          {
+            "title": "플랫폼에서 내 데이터의 보안은 얼마나 확실한가요?",
+            "content": "<p>플랫폼은 엄격한 보안 프로토콜을 준수하여 사용자 데이터와 상호 작용이 항상 암호화되고 보호되도록 합니다.</p><p>&nbsp;</p>"
+          },
+          {
+            "title": "사용자 경험을 향상시키기 위해 어떤 종류의 AI 모델 커스터마이즈 옵션이 있나요?",
+            "content": "<p>사용자는 응답 동작, 출력 형식, 언어 스타일 등 다양한 설정을 조정할 수 있어 플랫폼이 특정 운영 필요나 창의적 작업 흐름에 맞게 맞춤화됩니다.</p><p>&nbsp;</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

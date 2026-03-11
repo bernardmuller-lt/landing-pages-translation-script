@@ -1,0 +1,270 @@
+{
+  "data": {
+    "environment": "test",
+    "identifier": "ai-chat",
+    "slug": "home",
+    "locale": "es",
+    "seo": {
+      "title": "Aplicación Web de AI Chat",
+      "description": "Un asistente de chat IA sofisticado diseñado para proporcionar respuestas inteligentes, entablar diálogos significativos y brindar una experiencia de conversación fluida."
+    },
+    "events": {
+      "viewPageEventName": "view_landing",
+      "landing_folder": "/",
+      "landing_parameter": null
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.hero-section",
+        "fe_component": "Hero",
+        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Múltiples IA</strong><br><strong class=\"font-black\">Modelos, </strong>Una Plataforma Poderosa</h1>",
+        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chatee con diferentes modelos de IA para encontrar el adecuado.</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Descubra un mundo de IA en un solo lugar. Chatee con diferentes modelos, compare sus fortalezas y aproveche al máximo la tecnología de IA. Ya sea que necesite investigaciones precisas, creación de contenido, traducción de idiomas, generación de imágenes o asistencia en programación, tenemos el modelo adecuado para usted.</p>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/login",
+          "text": "Comienza gratis",
+          "aria_label": "Comienza gratis",
+          "icon": "arrow-right"
+        },
+        "media": {
+          "dark": 9,
+          "light": 8
+        }
+      },
+      {
+        "__component": "ai-chat.carousel-section",
+        "fe_component": "Carousel",
+        "title": "Reseñas <strong class='text-primary'>Creativas</strong>",
+        "items": [
+          {
+            "title": "Herramienta de escritura inteligente",
+            "description": "“Esta plataforma se integra sin problemas en mi flujo de trabajo diario como profesional de la tecnología, ofreciendo una flexibilidad y personalización impresionantes que mejoran mi resolución de problemas creativos.”",
+            "rating": 5,
+            "author": "Matthias Engelhardt"
+          },
+          {
+            "title": "Asistente de texto brillante",
+            "description": "“Como usuaria diaria en el ámbito de la tecnología creativa, me impresiona la adaptabilidad de la plataforma. Me permite adaptar las interacciones exactamente a las necesidades de mi proyecto.”",
+            "rating": 5,
+            "author": "Sofia Valenti"
+          },
+          {
+            "title": "Compañero de escritura sin esfuerzo",
+            "description": "“Una herramienta altamente confiable para profesionales de la tecnología, que ofrece opciones de personalización dinámicas que encajan perfectamente con las exigentes demandas de la industria creativa.”",
+            "rating": 5,
+            "author": "Heinrich Schreiber"
+          },
+          {
+            "title": "Redactor Avanzado",
+            "description": "“El diseño innovador de la plataforma y su enfoque centrado en el usuario la convierten en una parte esencial de mi kit de herramientas diario, especialmente al gestionar proyectos tecnológicos complejos.”",
+            "rating": 5,
+            "author": "Elisabeth van der Meer"
+          },
+          {
+            "title": "Maestro de palabras creativo",
+            "description": "“Es un cambio radical para mi trabajo creativo, con su capacidad para personalizar y adaptarse a requisitos en evolución sin esfuerzo, una solución ideal para el uso diario en tecnología.”",
+            "rating": 5,
+            "author": "Andreas Sorensen"
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.plan-section",
+        "fe_component": "Plans",
+        "title": "Ve <strong class='text-primary'>Pro</strong> para uso ilimitado",
+        "items": [
+          {
+            "isPopular": null,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Comenzar",
+              "aria_label": "Comenzar",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100% sin anuncios",
+                "subtitle": "Sin distracciones"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Los mejores modelos de IA en una sola plataforma",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux y más!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Olvida los límites",
+                "subtitle": "Sin preocupaciones, úsalo todo lo que necesites."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0.67 por día",
+              "duration": "Acceso de 1 mes",
+              "fullPrice": "$19.99"
+            }
+          },
+          {
+            "isPopular": true,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Comenzar",
+              "aria_label": "Comenzar",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100% sin anuncios",
+                "subtitle": "Sin distracciones"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Los mejores modelos de IA en una sola plataforma",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux y más!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Olvida los límites",
+                "subtitle": "Sin preocupaciones, úsalo todo lo que necesites."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0.44 por día",
+              "duration": "Acceso de 3 meses",
+              "fullPrice": "$39.99"
+            }
+          },
+          {
+            "isPopular": null,
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Comenzar",
+              "aria_label": "Comenzar",
+              "icon": null
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100% sin anuncios",
+                "subtitle": "Sin distracciones"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Los mejores modelos de IA en una sola plataforma",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux y más!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Olvida los límites",
+                "subtitle": "Sin preocupaciones, úsalo todo lo que necesites."
+              }
+            ],
+            "priceDetails": {
+              "pricePerDay": "$0.19 por día",
+              "duration": "Acceso de 12 meses",
+              "fullPrice": "$69.99"
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.feature-section",
+        "fe_component": "Features",
+        "client": true,
+        "title": "WebbApp <strong class='text-primary'>Funciones</strong>",
+        "logo": {
+          "dark": null,
+          "light": 15
+        },
+        "tabs": [
+          {
+            "title": "AI Chat: Su aliado definitivo de conversación con IA",
+            "text": "AI Chat utiliza IA de vanguardia con un flujo de diálogo natural, brindando una experiencia de chat tan intuitiva como atractiva. Ya sean conversaciones informales o desafíos por resolver, AI Chat es su IA confiable para interacciones significativas, dinámicas y con un toque humano.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Comenzar",
+              "aria_label": "Comenzar",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 11
+            }
+          },
+          {
+            "title": "AI Chat: Su compañero de chat inteligente",
+            "text": "AI Chat es su IA para conversaciones dinámicas. Combina procesamiento de lenguaje de vanguardia con una interfaz fácil de usar, transformando cada interacción en una experiencia fluida y personalizada. Sumérjase en chats atractivos e intuitivos que evolucionan con sus preferencias únicas.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Comenzar",
+              "aria_label": "Comenzar",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 10
+            }
+          },
+          {
+            "title": "AI Chat: Su genio conversacional impulsado por IA",
+            "text": "AI Chat mejora sus conversaciones con una IA avanzada creada con GPT-4o para ofrecer respuestas rápidas e perspicaces, inspirar interacciones atractivas y proporcionar una experiencia fluida. Aprende y se adapta de forma continua, ofreciendo ideas valiosas en cada intercambio.",
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Comenzar",
+              "aria_label": "Comenzar",
+              "icon": "arrow-right"
+            },
+            "icon": {
+              "dark": null,
+              "light": 12
+            }
+          }
+        ],
+        "media": {
+          "dark": 14,
+          "light": 13
+        },
+        "headingsBackground": {
+          "dark": null,
+          "light": 16
+        }
+      },
+      {
+        "__component": "ai-chat.faq-section",
+        "fe_component": "FAQ",
+        "client": true,
+        "title": "<p><strong>Preguntas </strong><span style=\"color:#01b78d;\"><strong>Frecuentes</strong></span></p>",
+        "items": [
+          {
+            "title": "¿Qué exactamente es AI Chat y qué ventajas ofrece?",
+            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat es un potente chatbot de IA que integra múltiples modelos de IA avanzados, incluidos OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek y Flux para proporcionar respuestas rápidas e inteligentes para todas sus necesidades.</li><li>Los beneficios de usar AI Chat incluyen:<ul style=\"list-style-type:square;\"><li>Personalización: adapte su experiencia de IA eligiendo entre varios modelos para adecuarse a sus preferencias y requisitos.</li><li>Velocidad y ahorro de tiempo: AI Chat ofrece respuestas rápidas y precisas de múltiples modelos de IA de vanguardia, optimizando sus tareas y ahorrándole tiempo.</li><li>Accesibilidad sin límites: acceda a soporte de IA de primer nivel en cualquier momento y lugar, con una gama de modelos a su alcance.</li><li>Actualizaciones continuas: siempre estamos añadiendo los últimos modelos de IA y actualizaciones, asegurando que tenga acceso a las tecnologías más avanzadas y actualizadas.</li></ul></li></ul>"
+          },
+          {
+            "title": "¿Por qué suscribirse? Esto es lo que obtienes",
+            "content": "<ul><li>Desbloquee características exclusivas, acceso más rápido y soporte personalizado diseñado para mejorar su experiencia. Estos incluyen<ul><li>Obtenga respuestas precisas y en profundidad a cada consulta.</li><li>Disfrute de límites de mensajes ampliados para conversaciones más detalladas.</li><li>Chats y mensajes ilimitados—Chat tanto como necesite.</li><li>Experimentar tiempos de respuesta rápidos, en cada ocasión.</li><li>Sin interrupciones—conversaciones puras y sin anuncios.</li></ul></li></ul>"
+          },
+          {
+            "title": "¿Cómo cancelo mi suscripción?",
+            "content": "<p>Para cancelar su suscripción, acceda a la sección ‘Cuenta’ en la página de Configuración y haga clic en el botón ‘Cancelar suscripción’. Su suscripción será cancelada al final del periodo de suscripción actual, lo que da lugar a la terminación de su membresía premium. No se le cobrarán pagos adicionales después de la cancelación.</p>"
+          },
+          {
+            "title": "¿Puedo actualizar o degradar mi plan de suscripción?",
+            "content": "<p>Sí, puede actualizar o degradar su plan en cualquier momento a través de la configuración de la cuenta. Los cambios se aplicarán al inicio del próximo ciclo de facturación.</p>"
+          },
+          {
+            "title": "¿La plataforma es adecuada tanto para profesionales de la tecnología como para usuarios creativos?",
+            "content": "<p>¡Absolutamente! La plataforma está diseñada para atender a una amplia gama de usuarios, desde expertos técnicos hasta profesionales creativos, ofreciendo herramientas que mejoran la productividad y la innovación.</p>"
+          },
+          {
+            "title": "¿Qué tan seguras están mis datos en la plataforma?",
+            "content": "<p>La plataforma sigue protocolos de seguridad estrictos, asegurando que los datos del usuario e interacciones estén cifrados y protegidos en todo momento.</p><p>&nbsp;</p>"
+          },
+          {
+            "title": "¿Qué tipo de opciones de personalización de modelos de IA están disponibles para mejorar la experiencia del usuario?",
+            "content": "<p>Los usuarios pueden ajustar el comportamiento de las respuestas, el formato de salida, el estilo de lenguaje y mucho más, lo que permite que la plataforma se alinee con necesidades operativas específicas o flujos de trabajo creativos.</p><p>&nbsp;</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

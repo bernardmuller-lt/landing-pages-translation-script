@@ -1,0 +1,32 @@
+{
+  "data": {
+    "environment": "test",
+    "identifier": "ai-chat",
+    "slug": "support",
+    "locale": "pt-BR",
+    "seo": {
+      "title": "Suporte - Chat de IA",
+      "description": "Chat de IA"
+    },
+    "events": {
+      "viewPageEventName": "Contact_Support",
+      "landing_folder": null,
+      "landing_parameter": null
+    },
+    "sections": [
+      {
+        "__component": "shared.support",
+        "fe_component": "Support",
+        "title": "Suporte ao Cliente",
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Precisa de ajuda ou tem alguma dúvida? Estamos aqui para ajudar!</h2><p>Nossa equipe de suporte dedicada está pronta para ajudar você com quaisquer dúvidas sobre nossas ferramentas alimentadas por IA, integrações de chatbot ou recursos de geração de imagens. Se você precisar de suporte técnico, assistência com faturamento ou tiver algum feedback para compartilhar, ficaremos felizes em ajudar.</p><p>Preencha o formulário abaixo e entraremos em contato o mais breve possível.</p><p>Vamos tornar sua experiência com IA mais fluida e eficiente!</p></div>",
+        "event": null,
+        "cta": {
+          "href": "https://chat.aichatapp.ai/app/ai-chat",
+          "text": "Voltar ao Chat",
+          "aria_label": "Voltar ao Chat",
+          "icon": "arrow-left"
+        }
+      }
+    ]
+  }
+}
