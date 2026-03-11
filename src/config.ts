@@ -35,16 +35,15 @@ export const config = {
  * Keys are Strapi locale codes; values are human-readable names.
  */
 export const TARGET_LOCALES: Record<string, string> = {
-  de_de: "German",
-  es_419: "Spanish (Latin America)",
-  ko_kr: "Korean",
-  pt_br: "Portuguese (Brazil)",
-  fr_fr: "French",
-  nl_nl: "Dutch",
-  it_it: "Italian",
-  ja_jp: "Japanese",
-  pl_pl: "Polish",
-  da_dk: "Danish",
-  no_no: "Norwegian",
-  zh_cn: "Chinese (Simplified)",
+  "de": "German",
+  "es": "Spanish",
+  "ko-KR": "Korean (South Korea)",
+  "pt-BR": "Portuguese (Brazil)",
+  "fr": "French",
+  "nl": "Dutch",
+  "it": "Italian",
+  "ja-JP": "Japanese (Japan)",
+  "pl": "Polish",
+  "da-DK": "Danish (Denmark)",
+  "nb-NO": "Norwegian Bokmål",
 };

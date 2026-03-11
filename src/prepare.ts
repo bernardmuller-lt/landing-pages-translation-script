@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-import "dotenv/config";
 import { readFile, writeFile, mkdir, readdir } from "fs/promises";
 import { existsSync } from "fs";
 import { join, basename } from "path";
@@ -10,8 +7,15 @@ import { applyTranslations } from "./lib/translations/applier.js";
 import { formatForAPI } from "./lib/translations/apiFormatter.js";
 import { stripNonMediaIds } from "./lib/translations/idStripper.js";
 
+export interface PrepareOptions {
+  /** Only prepare these slugs. Undefined = all discovered slugs. */
+  slugs?: string[];
+  /** Only prepare these locale codes. Undefined = all locales found in translationsOutputDir. */
+  locales?: string[];
+}
+
 /**
- * Given a translation filename like "home-de_de.json", derive slug and locale.
+ * Given a translation filename like "home-ko-KR.json", derive slug and locale.
  * Uses the known locale list so slugs with hyphens are handled correctly.
  */
 function parseTranslationFilename(
@@ -63,81 +67,55 @@ async function prepareSingleFile(
   return true;
 }
 
-async function main() {
+export async function runPrepare(options: PrepareOptions = {}): Promise<void> {
   console.log("╔════════════════════════════════════════════════════════╗");
   console.log("║   Translation Prepare                                  ║");
   console.log("╚════════════════════════════════════════════════════════╝");
 
-  // Single file: npm run apply -- output/translations/home-de_de.json
-  const singleFilePath = process.argv[2];
-
-  try {
-    if (singleFilePath) {
-      const parsed = parseTranslationFilename(singleFilePath);
-      if (!parsed) {
-        console.error(
-          `\n❌ Cannot determine slug/locale from filename: ${singleFilePath}`,
-        );
-        console.error(
-          "   Expected format: output/translations/{slug}-{locale}.json\n",
-        );
-        process.exit(1);
-      }
-      console.log(`\n📄 ${parsed.slug} / ${parsed.locale}`);
-      const ok = await prepareSingleFile(
-        parsed.slug,
-        parsed.locale,
-        singleFilePath,
-      );
-      if (ok) console.log("\n✅ Done!\n");
-      else process.exit(1);
-    } else {
-      // All: find every {slug}-{locale}.json in translationsOutputDir
-      if (!existsSync(config.translationsOutputDir)) {
-        console.error(
-          `\n❌ ${config.translationsOutputDir} not found. Run: npm run parse first.\n`,
-        );
-        process.exit(1);
-      }
-
-      const allFiles = await readdir(config.translationsOutputDir);
-      const pairs = allFiles
-        .map((f) =>
-          parseTranslationFilename(
-            join(config.translationsOutputDir, f),
-          ),
-        )
-        .filter((p): p is { slug: string; locale: string } => p !== null);
-
-      if (pairs.length === 0) {
-        console.error(
-          "\n❌ No translation files found. Run: npm run translate first.\n",
-        );
-        process.exit(1);
-      }
-
-      console.log(`\n📄 Preparing ${pairs.length} file(s)...\n`);
-      let ok = 0;
-      let failed = 0;
-      for (const { slug, locale } of pairs) {
-        const kvPath = join(
-          config.translationsOutputDir,
-          `${slug}-${locale}.json`,
-        );
-        const success = await prepareSingleFile(slug, locale, kvPath);
-        success ? ok++ : failed++;
-      }
-
-      console.log(
-        `\n📊 Done — ${ok} prepared, ${failed} failed.`,
-      );
-      if (failed > 0) process.exit(1);
-      console.log("\n👉  Next: npm run upload\n");
-    }
-  } catch (error) {
-    console.error("\n❌ Fatal error:", error);
+  if (!existsSync(config.translationsOutputDir)) {
+    console.error(
+      `\n❌ ${config.translationsOutputDir} not found. Run the parse command first.\n`,
+    );
     process.exit(1);
   }
-}
 
-main();
+  const allFiles = await readdir(config.translationsOutputDir);
+  let pairs = allFiles
+    .map((f) =>
+      parseTranslationFilename(join(config.translationsOutputDir, f)),
+    )
+    .filter((p): p is { slug: string; locale: string } => p !== null);
+
+  // Apply optional slug filter
+  if (options.slugs) {
+    const slugSet = new Set(options.slugs);
+    pairs = pairs.filter((p) => slugSet.has(p.slug));
+  }
+
+  // Apply optional locale filter
+  if (options.locales) {
+    const localeSet = new Set(options.locales);
+    pairs = pairs.filter((p) => localeSet.has(p.locale));
+  }
+
+  if (pairs.length === 0) {
+    console.error(
+      "\n❌ No matching translation files found. Run the translate command first.\n",
+    );
+    process.exit(1);
+  }
+
+  console.log(`\n📄 Preparing ${pairs.length} file(s)...\n`);
+  let ok = 0;
+  let failed = 0;
+
+  for (const { slug, locale } of pairs) {
+    const kvPath = join(config.translationsOutputDir, `${slug}-${locale}.json`);
+    const success = await prepareSingleFile(slug, locale, kvPath);
+    success ? ok++ : failed++;
+  }
+
+  console.log(`\n📊 Done — ${ok} prepared, ${failed} failed.`);
+  if (failed > 0) process.exit(1);
+  console.log("\n👉  Next: chatai-script upload\n");
+}

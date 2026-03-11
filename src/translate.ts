@@ -1,120 +1,143 @@
-#!/usr/bin/env node
-
-/**
- * Batch translate — fires all 12 locales in parallel for every slug.
- *
- * Env vars:
- *   LLM_MODEL        Required. e.g. gpt-4o-mini
- *   LLM_BASE_URL     Optional. Defaults to OpenAI.
- *   LLM_API_KEY      Required for cloud providers.
- *   TRANSLATE_SLUGS  Optional. Comma-separated list to re-run specific slugs only.
- *
- * Run: npm run translate
- */
-
-import "dotenv/config";
 import { readFile, writeFile, readdir } from "fs/promises";
 import { existsSync } from "fs";
 import { join } from "path";
 import { config, TARGET_LOCALES } from "./config.js";
 import { translateToLocale } from "./lib/ai/llm.js";
 
-async function main() {
+export interface TranslateOptions {
+  /** LLM model name, e.g. "gpt-4o-mini" */
+  model: string;
+  slugs?: string[];
+  locales?: string[];
+  concurrency?: number;
+}
+
+class Semaphore {
+  private readonly queue: Array<() => void> = [];
+  private running = 0;
+
+  constructor(private readonly max: number) {}
+
+  acquire(): Promise<void> {
+    if (this.running < this.max) {
+      this.running++;
+      return Promise.resolve();
+    }
+    return new Promise((resolve) => this.queue.push(resolve));
+  }
+
+  release(): void {
+    this.running--;
+    const next = this.queue.shift();
+    if (next) {
+      this.running++;
+      next();
+    }
+  }
+}
+
+export async function runTranslate(options: TranslateOptions): Promise<void> {
+  const { model } = options;
+  const concurrency = options.concurrency ?? 5;
+
   console.log("╔════════════════════════════════════════════════════════╗");
   console.log("║   AI Translation — Batch (all locales × all slugs)     ║");
   console.log("╚════════════════════════════════════════════════════════╝");
 
-  const model = process.env.LLM_MODEL;
-  if (!model) {
-    console.error("\n❌ LLM_MODEL is not set in .env\n");
-    process.exit(1);
-  }
-
   const dir = config.translationsOutputDir;
   if (!existsSync(dir)) {
-    console.error(`\n❌ ${dir} not found. Run: npm run parse -- <slug> first.\n`);
+    console.error(`\n❌ ${dir} not found. Run the parse command first.\n`);
     process.exit(1);
   }
 
-  const locales = Object.keys(TARGET_LOCALES);
+  const allLocaleKeys = Object.keys(TARGET_LOCALES);
 
-  // Find English source files by excluding known locale-suffixed files
+  const locales = options.locales ?? allLocaleKeys;
+  if (options.locales) {
+    const unknown = options.locales.filter((l) => !TARGET_LOCALES[l]);
+    if (unknown.length > 0) {
+      console.error(
+        `\n❌ Unknown locale(s): ${unknown.join(", ")}\n   Valid locales: ${allLocaleKeys.join(", ")}\n`,
+      );
+      process.exit(1);
+    }
+  }
+
   const allFiles = await readdir(dir);
   const sourceFiles = allFiles
     .filter((f) => f.endsWith(".json"))
     .filter((f) => {
-      const name = f.slice(0, -5); // strip .json
-      return !locales.some((l) => name.endsWith(`-${l}`));
+      const name = f.slice(0, -5);
+      return !allLocaleKeys.some((l) => name.endsWith(`-${l}`));
     });
 
   if (sourceFiles.length === 0) {
-    console.error("\n❌ No source files found. Run: npm run parse -- <slug> first.\n");
+    console.error("\n❌ No source files found. Run the parse command first.\n");
     process.exit(1);
   }
 
-  // Optional filter: TRANSLATE_SLUGS=home,support
-  const slugFilter = process.env.TRANSLATE_SLUGS
-    ? new Set(process.env.TRANSLATE_SLUGS.split(",").map((s) => s.trim()))
-    : null;
-
+  const slugFilter = options.slugs ? new Set(options.slugs) : null;
   const slugs = sourceFiles
     .map((f) => f.slice(0, -5))
     .filter((s) => !slugFilter || slugFilter.has(s));
 
   if (slugs.length === 0) {
     console.error(
-      `\n❌ No matching slugs. TRANSLATE_SLUGS=${process.env.TRANSLATE_SLUGS}\n`,
+      `\n❌ No matching slugs for filter: ${options.slugs?.join(", ")}\n`,
     );
     process.exit(1);
   }
 
-  console.log(`\n🤖 Model:   ${model}`);
-  console.log(`📁 Locales: ${locales.length} (fired in parallel per slug)`);
-  console.log(`📄 Slugs:   ${slugs.join(", ")}\n`);
+  const sourceMap = new Map<string, Record<string, string>>();
+  for (const slug of slugs) {
+    const content = await readFile(join(dir, `${slug}.json`), "utf-8");
+    sourceMap.set(slug, JSON.parse(content));
+  }
 
+  const totalTasks = slugs.length * locales.length;
+  console.log(`\n🤖 Model:       ${model}`);
+  console.log(`🗨️  Concurrency: ${concurrency} parallel requests`);
+  console.log(`📁 Locales:     ${locales.length}`);
+  console.log(`📄 Slugs:       ${slugs.join(", ")}`);
+  console.log(`📊 Tasks:       ${totalTasks} total\n`);
+
+  const sem = new Semaphore(concurrency);
   const failedEntries: Array<{ slug: string; locale: string }> = [];
   let totalKeys = 0;
+  let completed = 0;
 
-  for (let i = 0; i < slugs.length; i++) {
-    const slug = slugs[i];
-    const inputPath = join(dir, `${slug}.json`);
-    const fileContent = await readFile(inputPath, "utf-8");
-    const englishStrings: Record<string, string> = JSON.parse(fileContent);
-    const keyCount = Object.keys(englishStrings).length;
+  const tasks = slugs.flatMap((slug) =>
+    locales.map((locale) => ({ slug, locale }))
+  );
 
-    console.log(`\n📄  [${i + 1}/${slugs.length}] ${slug}  (${keyCount} strings)`);
-    console.log(`     Firing ${locales.length} locale calls in parallel...`);
-
-    const results = await Promise.allSettled(
-      locales.map((locale) =>
-        translateToLocale(englishStrings, locale, model).then((translated) => ({
-          locale,
-          translated,
-        }))
-      )
-    );
-
-    for (let j = 0; j < results.length; j++) {
-      const locale = locales[j];
-      const result = results[j];
-
-      if (result.status === "fulfilled") {
-        const { translated } = result.value;
-        const outputPath = join(dir, `${slug}-${locale}.json`);
-        await writeFile(outputPath, JSON.stringify(translated, null, 2), "utf-8");
-        const count = Object.keys(translated).length;
-        console.log(`     ✅  ${locale.padEnd(8)} — ${count} keys`);
-        totalKeys += count;
-      } else {
-        const msg =
-          result.reason instanceof Error
-            ? result.reason.message
-            : String(result.reason);
-        console.error(`     ❌  ${locale.padEnd(8)} — ${msg}`);
-        failedEntries.push({ slug, locale });
-      }
-    }
-  }
+  await Promise.allSettled(
+    tasks.map(({ slug, locale }) =>
+      (async () => {
+        const englishStrings = sourceMap.get(slug)!;
+        await sem.acquire();
+        try {
+          const translated = await translateToLocale(englishStrings, locale, model);
+          const outputPath = join(dir, `${slug}-${locale}.json`);
+          await writeFile(outputPath, JSON.stringify(translated, null, 2), "utf-8");
+          const count = Object.keys(translated).length;
+          completed++;
+          console.log(
+            `  ✅  [${String(completed).padStart(String(totalTasks).length)}/${totalTasks}]  ${slug.padEnd(12)} / ${locale.padEnd(8)} — ${count} keys`,
+          );
+          totalKeys += count;
+        } catch (err) {
+          completed++;
+          const msg = err instanceof Error ? err.message : String(err);
+          console.error(
+            `  ❌  [${String(completed).padStart(String(totalTasks).length)}/${totalTasks}]  ${slug.padEnd(12)} / ${locale.padEnd(8)} — ${msg}`,
+          );
+          failedEntries.push({ slug, locale });
+        } finally {
+          sem.release();
+        }
+      })()
+    )
+  );
 
   console.log(`\n📊  Done — ${totalKeys} total keys written`);
 
@@ -123,16 +146,8 @@ async function main() {
     failedEntries.forEach(({ slug, locale }) =>
       console.warn(`     - ${slug} / ${locale}`)
     );
-    console.warn(
-      "\n   For manual fallback: npm run parse -- <slug>  (after saving Copilot Chat output)",
-    );
     process.exit(1);
   }
 
-  console.log("\n👉  Next: npm run validate");
+  console.log("\n👉  Next: chatai-script validate\n");
 }
-
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});

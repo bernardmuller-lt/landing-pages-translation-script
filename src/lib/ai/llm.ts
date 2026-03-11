@@ -35,18 +35,17 @@ const TRANSLATION_SYSTEM_PROMPT = `
   - Consider cultural nuances and regional preferences
 
   LANGUAGE-SPECIFIC GUIDELINES
-  - de_de (German): Use formal register (Sie)
-  - es_419 (Spanish, Latin America): Use neutral Latin American Spanish
-  - ko_kr (Korean): Use polite/formal register
-  - pt_br (Portuguese, Brazil): Use Brazilian Portuguese conventions
-  - fr_fr (French): Use standard metropolitan French
-  - nl_nl (Dutch): Use standard Dutch
-  - it_it (Italian): Use standard Italian
-  - ja_jp (Japanese): Use polite register (です/ます)
-  - pl_pl (Polish): Use standard Polish
-  - da_dk (Danish): Use standard Danish
-  - no_no (Norwegian): Use Bokmål
-  - zh_cn (Chinese, Simplified): Use Simplified Chinese characters
+  - de (German): Use formal register (Sie)
+  - es (Spanish): Use standard, broadly neutral Spanish
+  - ko-KR (Korean): Use polite/formal register
+  - pt-BR (Portuguese, Brazil): Use Brazilian Portuguese conventions
+  - fr (French): Use standard metropolitan French
+  - nl (Dutch): Use standard Dutch
+  - it (Italian): Use standard Italian
+  - ja-JP (Japanese): Use polite register (です/ます)
+  - pl (Polish): Use standard Polish
+  - da-DK (Danish): Use standard Danish
+  - nb-NO (Norwegian): Use Bokmål
 
   OUTPUT FORMAT
   Return ONLY a single JSON object — the translated version of the input. No markdown fences, no comments, no labels, no explanation. Just the raw JSON. NO MISTAKES!

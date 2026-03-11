@@ -7,10 +7,6 @@
     "app": "tsx src/index.ts",
     "fetch": "tsx src/fetch.ts",
     "fetch:watch": "tsx watch src/fetch.ts",
-    "parse": "tsx src/parse.ts",
-    "translate": "tsx src/translate.ts",
-    "validate": "tsx src/validate.ts",
-    "apply": "tsx src/prepare.ts",
     "upload": "tsx src/upload.ts"
   },
   "keywords": [

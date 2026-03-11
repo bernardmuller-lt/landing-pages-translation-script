@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-import "dotenv/config";
 import { readFile, writeFile, mkdir, readdir } from "fs/promises";
 import { existsSync } from "fs";
 import { join } from "path";
@@ -10,6 +7,10 @@ import {
   extractTranslations,
   sortTranslations,
 } from "./lib/translations/extractor.js";
+
+export interface ParseOptions {
+  slugs?: string[];
+}
 
 async function parseSingleSlug(slug: string): Promise<number> {
   const inputPath = join(config.outputDir, `${slug}-${config.locale}.json`);
@@ -39,46 +40,36 @@ async function parseSingleSlug(slug: string): Promise<number> {
   return result.stats.totalStrings;
 }
 
-async function main() {
+export async function runParse(options: ParseOptions = {}): Promise<void> {
   console.log("╔════════════════════════════════════════════════════════╗");
   console.log("║   Translation Parser                                   ║");
   console.log("╚════════════════════════════════════════════════════════╝");
 
-  const slug = process.argv[2];
-
-  try {
-    if (slug) {
-      // Single slug
-      console.log(`\n📄 Parsing: ${slug}`);
-      const count = await parseSingleSlug(slug);
-      if (count > 0) console.log("\n✅ Done!\n");
-    } else {
-      // All: find every {slug}-en.json in outputDir
-      if (!existsSync(config.outputDir)) {
-        console.error(`\n❌ ${config.outputDir} not found. Run: npm run fetch first.\n`);
-        process.exit(1);
-      }
-      const suffix = `-${config.locale}.json`;
-      const allFiles = await readdir(config.outputDir);
-      const slugs = allFiles
-        .filter((f) => f.endsWith(suffix))
-        .map((f) => f.slice(0, -suffix.length));
-
-      if (slugs.length === 0) {
-        console.error(`\n❌ No *${suffix} files found. Run: npm run fetch first.\n`);
-        process.exit(1);
-      }
-
-      console.log(`\n📄 Parsing ${slugs.length} page(s): ${slugs.join(", ")}\n`);
-      let total = 0;
-      for (const s of slugs) total += await parseSingleSlug(s);
-      console.log(`\n📊 Done — ${total} total strings extracted across ${slugs.length} page(s).\n`);
-      console.log("👉  Next: npm run translate\n");
-    }
-  } catch (error) {
-    console.error("\n❌ Fatal error:", error);
+  if (!existsSync(config.outputDir)) {
+    console.error(`\n❌ ${config.outputDir} not found. Run the fetch command first.\n`);
     process.exit(1);
   }
-}
 
-main();
+  let slugs: string[];
+
+  if (options.slugs && options.slugs.length > 0) {
+    slugs = options.slugs;
+  } else {
+    const suffix = `-${config.locale}.json`;
+    const allFiles = await readdir(config.outputDir);
+    slugs = allFiles
+      .filter((f) => f.endsWith(suffix))
+      .map((f) => f.slice(0, -suffix.length));
+
+    if (slugs.length === 0) {
+      console.error(`\n❌ No *${suffix} files found. Run the fetch command first.\n`);
+      process.exit(1);
+    }
+  }
+
+  console.log(`\n📄 Parsing ${slugs.length} page(s): ${slugs.join(", ")}\n`);
+  let total = 0;
+  for (const s of slugs) total += await parseSingleSlug(s);
+  console.log(`\n📊 Done — ${total} total strings extracted across ${slugs.length} page(s).\n`);
+  console.log("👉  Next: chatai-script translate\n");
+}

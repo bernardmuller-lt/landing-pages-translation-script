@@ -1,55 +1,55 @@
-#!/usr/bin/env node
-
-/**
- * validate — checks that every locale translation file for every slug
- * contains all the same keys as the English source file.
- *
- * Source files  : output/translations/{slug}.json
- * Locale files  : output/translations/{slug}-{locale}.json
- *
- * Exits with code 1 if any file is missing or has missing keys.
- *
- * Run: npm run validate
- */
-
-import "dotenv/config";
 import { readdir, readFile } from "fs/promises";
 import { existsSync } from "fs";
 import { join } from "path";
 import { config, TARGET_LOCALES } from "./config.js";
 
-async function main(): Promise<void> {
+export interface ValidateOptions {
+  slugs?: string[];
+  locales?: string[];
+}
+
+export async function runValidate(options: ValidateOptions = {}): Promise<void> {
   console.log("╔════════════════════════════════════════════════════════╗");
   console.log("║   Translation Validation                               ║");
   console.log("╚════════════════════════════════════════════════════════╝");
 
   const dir = config.translationsOutputDir;
   if (!existsSync(dir)) {
-    console.error(`\n❌ ${dir} not found. Run: npm run parse -- <slug> first.\n`);
+    console.error(`\n❌ ${dir} not found. Run the parse command first.\n`);
     process.exit(1);
   }
 
-  const locales = Object.keys(TARGET_LOCALES);
+  const allLocaleKeys = Object.keys(TARGET_LOCALES);
+  const locales = options.locales ?? allLocaleKeys;
 
   // Identify English source files: {slug}.json, excluding {slug}-{locale}.json
   const allFiles = await readdir(dir);
-  const sourceFiles = allFiles
+  let sourceFiles = allFiles
     .filter((f) => f.endsWith(".json"))
     .filter((f) => {
       const name = f.slice(0, -5);
-      return !locales.some((l) => name.endsWith(`-${l}`));
+      return !allLocaleKeys.some((l) => name.endsWith(`-${l}`));
     });
 
   if (sourceFiles.length === 0) {
-    console.error("\n❌ No source files found. Run: npm run parse -- <slug> first.\n");
+    console.error("\n❌ No source files found. Run the parse command first.\n");
     process.exit(1);
   }
 
-  const slugs = sourceFiles.map((f) => f.slice(0, -5));
+  let slugs = sourceFiles.map((f) => f.slice(0, -5));
 
-  console.log(
-    `\n📋 Validating ${slugs.length} slug(s) × ${locales.length} locales...\n`,
-  );
+  // Apply optional slug filter
+  if (options.slugs && options.slugs.length > 0) {
+    const slugSet = new Set(options.slugs);
+    slugs = slugs.filter((s) => slugSet.has(s));
+  }
+
+  if (slugs.length === 0) {
+    console.error(`\n❌ No matching slugs for filter: ${options.slugs?.join(", ")}\n`);
+    process.exit(1);
+  }
+
+  console.log(`\n📋 Validating ${slugs.length} slug(s) × ${locales.length} locale(s)...\n`);
 
   let hasErrors = false;
 
@@ -100,18 +100,11 @@ async function main(): Promise<void> {
   }
 
   if (hasErrors) {
-    console.error("❌  Validation failed. Fix missing keys before running apply/upload.");
-    console.error(
-      "    Tip: re-run npm run translate (or npm run translate with TRANSLATE_SLUGS=<slug>)",
-    );
+    console.error("❌  Validation failed. Fix missing keys before running prepare/upload.");
+    console.error("    Tip: re-run the translate command, optionally with --slug and --locale filters.");
     process.exit(1);
   }
 
   console.log("✅  All locale files are complete.");
-  console.log("\n👉  Next: npm run apply -- output/translations/<slug>-<locale>.json");
+  console.log("\n👉  Next: chatai-script prepare\n");
 }
-
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});

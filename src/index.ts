@@ -2,8 +2,12 @@ import { Command } from "commander";
 import "dotenv/config";
 import { fetchPages } from "./lib/strapi/http/fetchPages.js";
 import { writePagesToFiles } from "./lib/utils/fileWriter.js";
-import { config } from "./config.js";
+import { config, TARGET_LOCALES } from "./config.js";
 import { prompt, updateShellConfig } from "./lib/utils/shell.js";
+import { runTranslate } from "./translate.js";
+import { runPrepare } from "./prepare.js";
+import { runParse } from "./parse.js";
+import { runValidate } from "./validate.js";
 
 const program = new Command();
 
@@ -103,34 +107,114 @@ program
 
 program
   .command("parse")
-  .description("Parse fetched content")
-  .action(() => {
-    console.log("Parsing fetched content...");
-    // TODO: Implement parse logic
+  .description("Parse fetched content into translatable strings")
+  .option(
+    "-s, --slug <slugs...>",
+    "specific slug(s) to parse, comma separated",
+    commaSeparatedList,
+  )
+  .action(async (options) => {
+    try {
+      await runParse({ slugs: options.slug });
+    } catch (error) {
+      console.error("\n❌ Fatal error:", error);
+      process.exit(1);
+    }
   });
 
 program
   .command("translate")
-  .description("Translate content")
-  .action(() => {
-    console.log("Translating content...");
-    // TODO: Implement translate logic
+  .description("Translate parsed content using an LLM")
+  .option(
+    "-m, --model <model>",
+    "LLM model to use (e.g. gpt-4o-mini)",
+    process.env.LLM_MODEL,
+  )
+  .option(
+    "-s, --slug <slugs...>",
+    "specific slug(s) to translate, comma separated",
+    commaSeparatedList,
+  )
+  .option(
+    "-l, --locale <locales...>",
+    `target locale(s) to translate, comma separated (valid: ${Object.keys(TARGET_LOCALES).join(", ")})`,
+    commaSeparatedList,
+  )
+  .option(
+    "-c, --concurrency <number>",
+    "max parallel LLM requests (default: 5)",
+    (v) => parseInt(v, 10),
+  )
+  .action(async (options) => {
+    const model: string | undefined = options.model;
+    if (!model) {
+      console.error(
+        "\n❌ LLM model is required. Use --model <model> or set LLM_MODEL in .env\n",
+      );
+      process.exit(1);
+    }
+
+    try {
+      await runTranslate({
+        model,
+        slugs: options.slug,
+        locales: options.locale,
+        concurrency: options.concurrency,
+      });
+    } catch (error) {
+      console.error("\n❌ Fatal error:", error);
+      process.exit(1);
+    }
   });
 
 program
   .command("prepare")
-  .description("Prepare content for upload")
-  .action(() => {
-    console.log("Preparing content for upload...");
-    // TODO: Implement prepare logic
+  .description("Prepare translated content for CMS upload")
+  .option(
+    "-s, --slug <slugs...>",
+    "specific slug(s) to prepare, comma separated",
+    commaSeparatedList,
+  )
+  .option(
+    "-l, --locale <locales...>",
+    `target locale(s) to prepare, comma separated (valid: ${Object.keys(TARGET_LOCALES).join(", ")})`,
+    commaSeparatedList,
+  )
+  .action(async (options) => {
+    try {
+      await runPrepare({
+        slugs: options.slug,
+        locales: options.locale,
+      });
+    } catch (error) {
+      console.error("\n❌ Fatal error:", error);
+      process.exit(1);
+    }
   });
 
 program
   .command("validate")
-  .description("Validate content")
-  .action(() => {
-    console.log("Validating content...");
-    // TODO: Implement validate logic
+  .description("Validate translated files have all required keys")
+  .option(
+    "-s, --slug <slugs...>",
+    "specific slug(s) to validate, comma separated",
+    commaSeparatedList,
+  )
+  .option(
+    "-l, --locale <locales...>",
+    `target locale(s) to validate, comma separated (valid: ${Object.keys(TARGET_LOCALES).join(", ")})`,
+    commaSeparatedList,
+  )
+  .action(async (options) => {
+    try {
+      await runValidate({
+        slugs: options.slug,
+        locales: options.locale,
+      });
+    } catch (error) {
+      console.error("\n❌ Fatal error:", error);
+      process.exit(1);
+    }
   });
 
 program
