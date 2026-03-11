@@ -3,9 +3,13 @@ import { existsSync } from "fs";
 import { join, basename } from "path";
 import { config, TARGET_LOCALES } from "./config.js";
 import type { PageData } from "./lib/strapi/http/fetchPages.js";
+import type { HeaderData } from "./lib/strapi/types/header.js";
+import type { FooterData } from "./lib/strapi/types/footer.js";
 import { applyTranslations } from "./lib/translations/applier.js";
 import { formatForAPI } from "./lib/translations/apiFormatter.js";
 import { transformPageData } from "./lib/strapi/schemas/pageDataSchema.js";
+import { transformHeaderData } from "./lib/strapi/schemas/headerDataSchema.js";
+import { transformFooterData } from "./lib/strapi/schemas/footerDataSchema.js";
 
 export interface PrepareOptions {
   /** Only prepare these slugs. Undefined = all discovered slugs. */
@@ -16,22 +20,31 @@ export interface PrepareOptions {
 }
 
 /**
- * Given a translation filename like "home-ko-KR.json", derive slug and locale.
+ * Given a translation filename like "home-ko-KR.json", "header-ai-chat-header-de.json", derive type, slug and locale.
  * Uses the known locale list so slugs with hyphens are handled correctly.
  */
 function parseTranslationFilename(
   filename: string,
-): { slug: string; locale: string } | null {
+): { type: "page" | "header" | "footer"; slug: string; locale: string } | null {
   const name = basename(filename, ".json");
   const locale = Object.keys(TARGET_LOCALES).find((l) =>
     name.endsWith(`-${l}`),
   );
   if (!locale) return null;
   const slug = name.slice(0, -(locale.length + 1)); // strip "-{locale}"
-  return { slug, locale };
+
+  // Detect content type from prefix
+  if (slug.startsWith("header-")) {
+    return { type: "header", slug, locale };
+  } else if (slug.startsWith("footer-")) {
+    return { type: "footer", slug, locale };
+  } else {
+    return { type: "page", slug, locale };
+  }
 }
 
 async function prepareSingleFile(
+  type: "page" | "header" | "footer",
   slug: string,
   locale: string,
   kvFilePath: string,
@@ -49,14 +62,42 @@ async function prepareSingleFile(
     return false;
   }
 
-  const sourceData: PageData = JSON.parse(await readFile(sourcePath, "utf-8"));
   const translations: Record<string, string> = JSON.parse(
     await readFile(kvFilePath, "utf-8"),
   );
 
-  const translatedData = applyTranslations(sourceData, translations);
-  const cleanedData = transformPageData(translatedData);
-  const apiPayload = formatForAPI(cleanedData, locale, environment);
+  let apiPayload: any;
+
+  if (type === "page") {
+    const sourceData: PageData = JSON.parse(await readFile(sourcePath, "utf-8"));
+    const translatedData = applyTranslations(sourceData, translations);
+    const cleanedData = transformPageData(translatedData);
+    apiPayload = formatForAPI(cleanedData, locale, environment);
+  } else if (type === "header") {
+    const sourceData: HeaderData = JSON.parse(await readFile(sourcePath, "utf-8"));
+    const translatedData = applyTranslations(sourceData, translations);
+    const cleanedData = transformHeaderData(translatedData);
+    // Format for header API
+    apiPayload = {
+      data: {
+        ...cleanedData,
+        locale: locale,
+        environment: environment || config.environment,
+      },
+    };
+  } else if (type === "footer") {
+    const sourceData: FooterData = JSON.parse(await readFile(sourcePath, "utf-8"));
+    const translatedData = applyTranslations(sourceData, translations);
+    const cleanedData = transformFooterData(translatedData);
+    // Format for footer API
+    apiPayload = {
+      data: {
+        ...cleanedData,
+        locale: locale,
+        environment: environment || config.environment,
+      },
+    };
+  }
 
   if (!existsSync(config.preparedOutputDir)) {
     await mkdir(config.preparedOutputDir, { recursive: true });
@@ -64,7 +105,7 @@ async function prepareSingleFile(
 
   await writeFile(outputPath, JSON.stringify(apiPayload, null, 2), "utf-8");
   console.log(
-    `  ✅  ${slug}/${locale} — ${Object.keys(translations).length} strings → ${outputPath}`,
+    `  ✅  ${type}:${slug}/${locale} — ${Object.keys(translations).length} strings → ${outputPath}`,
   );
   return true;
 }
@@ -89,7 +130,7 @@ export async function runPrepare(options: PrepareOptions = {}): Promise<void> {
     .map((f) =>
       parseTranslationFilename(join(config.translationsOutputDir, f)),
     )
-    .filter((p): p is { slug: string; locale: string } => p !== null);
+    .filter((p): p is { type: "page" | "header" | "footer"; slug: string; locale: string } => p !== null);
 
   // Apply optional slug filter
   if (options.slugs) {
@@ -114,9 +155,9 @@ export async function runPrepare(options: PrepareOptions = {}): Promise<void> {
   let ok = 0;
   let failed = 0;
 
-  for (const { slug, locale } of pairs) {
+  for (const { type, slug, locale } of pairs) {
     const kvPath = join(config.translationsOutputDir, `${slug}-${locale}.json`);
-    const success = await prepareSingleFile(slug, locale, kvPath, environment);
+    const success = await prepareSingleFile(type, slug, locale, kvPath, environment);
     success ? ok++ : failed++;
   }
 

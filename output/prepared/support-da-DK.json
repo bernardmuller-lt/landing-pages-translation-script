@@ -1,25 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "support",
     "locale": "da-DK",
     "seo": {
-      "title": "Support - AI-chat",
-      "description": "AI-chat"
+      "title": "Kundesupport - AI Chat",
+      "description": "AI Chat"
     },
-    "events": {
-      "viewPageEventName": "Contact_Support",
-      "landing_folder": null,
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "shared.support",
         "fe_component": "Support",
-        "title": "Kundeservice",
-        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Har du brug for hjælp eller har et spørgsmål? Vi er her for dig!</h2><p>Vores dedikerede supportteam står klar til at hjælpe dig med alle henvendelser om vores AI-drevne værktøjer, chatbot-integrationer eller billedgenereringsfunktioner. Uanset om du har brug for teknisk support, faktureringshjælp eller har feedback at dele, står vi gerne til rådighed.</p><p>Udfyld venligst nedenstående formular, så vender vi tilbage til dig så hurtigt som muligt.</p><p>Lad os gøre din AI-oplevelse gnidningsfri og effektiv!</p></div>",
-        "event": null,
+        "title": "Kundesupport",
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Har du brug for hjælp eller har du et spørgsmål? Vi er her for dig!</h2><p>Vores dedikerede supportteam står klar til at hjælpe dig med eventuelle henvendelser om vores AI-drevne værktøjer, chatbot-integrationer eller billedgenereringsfunktioner.</p><p>Uanset om du har brug for teknisk support, faktureringshjælp, eller har feedback at dele, hjælper vi dig gerne.</p><p>Udfyld venligst nedenstående formular, så vender vi tilbage hurtigst muligt.</p><p>Lad os gøre din AI-oplevelse sømløs og effektiv!</p></div>",
         "cta": {
           "href": "https://chat.aichatapp.ai/app/ai-chat",
           "text": "Tilbage til chat",

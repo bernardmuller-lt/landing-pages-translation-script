@@ -1,0 +1,35 @@
+{
+  "data": {
+    "slug": "ai-chat-footer",
+    "locale": "nb-NO",
+    "environment": "production",
+    "copyright": "@2026 AI Chat",
+    "href": "/",
+    "items": [
+      {
+        "text": "Kundeservice",
+        "href": "/support/"
+      },
+      {
+        "text": "Personvernerklæring",
+        "href": "/privacy-policy-and-cookie-policy/"
+      },
+      {
+        "text": "Bruksvilkår",
+        "href": "/terms-of-use/"
+      },
+      {
+        "text": "Vilkår og betingelser",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "text": "Refusjonspolitikk",
+        "href": "/refund-policy/"
+      }
+    ],
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "data": {
+    "slug": "ai-chat-footer",
+    "locale": "ja-JP",
+    "environment": "production",
+    "copyright": "@2026 AI Chat",
+    "href": "/",
+    "items": [
+      {
+        "text": "サポート",
+        "href": "/support/"
+      },
+      {
+        "text": "プライバシーポリシー",
+        "href": "/privacy-policy-and-cookie-policy/"
+      },
+      {
+        "text": "利用規約",
+        "href": "/terms-of-use/"
+      },
+      {
+        "text": "利用規約と条件",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "text": "返金ポリシー",
+        "href": "/refund-policy/"
+      }
+    ],
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

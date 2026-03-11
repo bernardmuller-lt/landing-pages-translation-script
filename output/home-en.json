@@ -2,19 +2,19 @@
   "slug": "home",
   "locale": "en",
   "seo": {
-    "id": 203,
+    "id": 105,
     "title": "AI Chat Web App",
     "description": "A sophisticated AI chat assistant designed to provide intelligent responses, engage in meaningful dialogues, and deliver a seamless conversational experience."
   },
   "sections": [
     {
       "__component": "ai-chat.hero-section",
-      "id": 99,
+      "id": 56,
       "fe_component": "Hero",
       "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Multiple AI</strong><br><strong class=\"font-black\">Models, </strong>One Powerful Platform</h1>",
       "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chat with different AI models to find yours</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Discover a world of AI in one place. Chat with different models, compare their strengths, and get the most out of AI technology. Whether you need accurate research, content creation, language translation, image generation or coding assistance, we have the right model for you.</p>",
       "cta": {
-        "id": 381,
+        "id": 217,
         "href": "https://chat.aichatapp.ai/login",
         "text": "Start for free",
         "aria_label": "Start for free",
@@ -22,7 +22,7 @@
         "wide": null
       },
       "media": {
-        "id": 990,
+        "id": 601,
         "dark": {
           "id": 9,
           "documentId": "j7srfe6c3xe6vbisz6i1wc97",
@@ -143,40 +143,40 @@
     },
     {
       "__component": "ai-chat.carousel-section",
-      "id": 69,
+      "id": 51,
       "fe_component": "Carousel",
       "title": "Creative <strong class='text-primary'>Reviews</strong>",
       "items": [
         {
-          "id": 341,
+          "id": 251,
           "title": "Smart Writing Tool",
           "description": "“This platform seamlessly integrates into my daily workflow as a tech professional, offering impressive flexibility and customization that enhances my creative problem-solving.”",
           "rating": 5,
           "author": "Matthias Engelhardt"
         },
         {
-          "id": 342,
+          "id": 252,
           "title": "Brilliant Text Assistant",
           "description": "“As a daily user in the creative tech space, I’m impressed by the platform’s adaptability. It empowers me to tailor interactions precisely to my project needs.”",
           "rating": 5,
           "author": "Sofia Valenti"
         },
         {
-          "id": 343,
+          "id": 253,
           "title": "Effortless Writing Companion",
           "description": "“A highly reliable tool for tech professionals, offering dynamic customization options that fit perfectly into the fast-paced demands of the creative industry.”",
           "rating": 5,
           "author": "Heinrich Schreiber"
         },
         {
-          "id": 344,
+          "id": 254,
           "title": "Advanced Scribe",
           "description": "“The platform’s innovative design and user-centric approach make it an essential part of my daily toolkit, especially when managing complex tech projects.”",
           "rating": 5,
           "author": "Elisabeth van der Meer"
         },
         {
-          "id": 345,
+          "id": 255,
           "title": "Creative Wordsmith",
           "description": "“It’s a game-changer for my creative work, with its ability to customize and adjust to evolving requirements effortlessly—an ideal solution for daily tech use.”",
           "rating": 5,
@@ -186,15 +186,15 @@
     },
     {
       "__component": "ai-chat.plan-section",
-      "id": 43,
+      "id": 24,
       "fe_component": "Plans",
       "title": "Go <strong class='text-primary'>Pro</strong> for Unlimited Use",
       "items": [
         {
-          "id": 125,
+          "id": 68,
           "isPopular": null,
           "cta": {
-            "id": 385,
+            "id": 221,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -203,36 +203,36 @@
           },
           "description": [
             {
-              "id": 373,
+              "id": 202,
               "icon": "svgonly/bullseye",
               "title": "100% Ad free",
               "subtitle": "No distractions"
             },
             {
-              "id": 374,
+              "id": 203,
               "icon": "svgonly/chat",
               "title": "Best AI Models in One Platform",
               "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
             },
             {
-              "id": 375,
+              "id": 204,
               "icon": "svgonly/infinite",
               "title": "Forget limits",
               "subtitle": "No worries, use it all you need."
             }
           ],
           "priceDetails": {
-            "id": 125,
+            "id": 68,
             "pricePerDay": "$0.67 Per Day",
             "duration": "1 Month Access",
             "fullPrice": "$19.99"
           }
         },
         {
-          "id": 126,
+          "id": 69,
           "isPopular": true,
           "cta": {
-            "id": 386,
+            "id": 222,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -241,36 +241,36 @@
           },
           "description": [
             {
-              "id": 376,
+              "id": 205,
               "icon": "svgonly/bullseye",
               "title": "100% Ad free",
               "subtitle": "No distractions"
             },
             {
-              "id": 377,
+              "id": 206,
               "icon": "svgonly/chat",
               "title": "Best AI Models in One Platform",
               "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
             },
             {
-              "id": 378,
+              "id": 207,
               "icon": "svgonly/infinite",
               "title": "Forget limits",
               "subtitle": "No worries, use it all you need."
             }
           ],
           "priceDetails": {
-            "id": 126,
+            "id": 69,
             "pricePerDay": "$0.44 Per Day",
             "duration": "3 Months Access",
             "fullPrice": "$39.99"
           }
         },
         {
-          "id": 127,
+          "id": 70,
           "isPopular": null,
           "cta": {
-            "id": 387,
+            "id": 223,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -279,26 +279,26 @@
           },
           "description": [
             {
-              "id": 379,
+              "id": 208,
               "icon": "svgonly/bullseye",
               "title": "100% Ad free",
               "subtitle": "No distractions"
             },
             {
-              "id": 380,
+              "id": 209,
               "icon": "svgonly/chat",
               "title": "Best AI Models in One Platform",
               "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
             },
             {
-              "id": 381,
+              "id": 210,
               "icon": "svgonly/infinite",
               "title": "Forget limits",
               "subtitle": "No worries, use it all you need."
             }
           ],
           "priceDetails": {
-            "id": 127,
+            "id": 70,
             "pricePerDay": "$0.19 Per Day",
             "duration": "12 Months Access",
             "fullPrice": "$69.99"
@@ -308,12 +308,12 @@
     },
     {
       "__component": "ai-chat.feature-section",
-      "id": 36,
+      "id": 22,
       "fe_component": "Features",
       "client": true,
       "title": "WebbApp <strong class='text-primary'>Features</strong>",
       "logo": {
-        "id": 995,
+        "id": 606,
         "dark": null,
         "light": {
           "id": 15,
@@ -339,11 +339,11 @@
       },
       "tabs": [
         {
-          "id": 106,
+          "id": 64,
           "title": "AI Chat: Your Ultimate AI Conversational Ally",
           "text": "AI Chat uses cutting-edge AI with natural dialogue flow, delivering a chat experience that’s as intuitive as it is engaging. Whether it’s casual conversations or tackling challenges, AI Chat is your reliable AI for meaningful, dynamic, and human-like interactions.",
           "cta": {
-            "id": 382,
+            "id": 218,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -351,7 +351,7 @@
             "wide": null
           },
           "icon": {
-            "id": 991,
+            "id": 602,
             "dark": null,
             "light": {
               "id": 11,
@@ -377,11 +377,11 @@
           }
         },
         {
-          "id": 107,
+          "id": 65,
           "title": "AI Chat: Your Intelligent Chat buddy",
           "text": "AI Chat is your go-to AI for dynamic conversations. It blends cutting-edge language processing with a user-friendly interface, transforming each interaction into a seamless, personalized experience. Dive into engaging, intuitive chats that evolve with your unique preferences.",
           "cta": {
-            "id": 383,
+            "id": 219,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -389,7 +389,7 @@
             "wide": null
           },
           "icon": {
-            "id": 992,
+            "id": 603,
             "dark": null,
             "light": {
               "id": 10,
@@ -415,11 +415,11 @@
           }
         },
         {
-          "id": 108,
-          "title": "AI Chat: Your AI-Powered Conversational Genius",
-          "text": "AI Chat enhance your conversations with an advanced AI crafted with chat GPT 4o to deliver fast, insightful responses, inspire engaging interactions, and provide a seamless experience. It continuously learns and adapts, offering valuable insights with every exchange.",
+          "id": 66,
+          "title": "AI Chat: Your Ultimate AI Conversational Ally",
+          "text": "AI Chat uses cutting-edge AI with natural dialogue flow, delivering a chat experience that’s as intuitive as it is engaging. Whether it’s casual conversations or tackling challenges, AI Chat is your reliable AI for meaningful, dynamic, and human-like interactions.",
           "cta": {
-            "id": 384,
+            "id": 220,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -427,7 +427,7 @@
             "wide": null
           },
           "icon": {
-            "id": 993,
+            "id": 604,
             "dark": null,
             "light": {
               "id": 12,
@@ -454,7 +454,7 @@
         }
       ],
       "media": {
-        "id": 994,
+        "id": 605,
         "dark": {
           "id": 14,
           "documentId": "cl8cc0nt2n0q4lpse557bm8y",
@@ -499,7 +499,7 @@
         }
       },
       "headingsBackground": {
-        "id": 996,
+        "id": 607,
         "dark": null,
         "light": {
           "id": 16,
@@ -526,53 +526,48 @@
     },
     {
       "__component": "ai-chat.faq-section",
-      "id": 33,
+      "id": 21,
       "fe_component": "FAQ",
       "client": true,
       "title": "<p><strong>Frequently Asked </strong><span style=\"color:#01b78d;\"><strong>Questions</strong></span></p>",
       "items": [
         {
-          "id": 225,
+          "id": 141,
           "title": "What exactly is AI Chat and What advantages does it offer me?",
           "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat is a powerful AI chatbot that integrates multiple advanced AI models, including OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek and Flux to provide fast and intelligent responses for all your needs.</li><li>The benefits of using AI Chat include:<ul style=\"list-style-type:square;\"><li>Personalization: Tailor your AI experience by choosing from various models to suit your preferences and requirements.</li><li>Speed &amp; Time-Saving: AI Chat delivers quick, accurate answers from multiple cutting-edge AI models, streamlining your tasks and saving you time.</li><li>Boundless Accessibility: Access top-tier AI support anytime, anywhere, with a range of models at your fingertips.</li><li>Continuous Updates: We are always adding the latest AI models and updates, ensuring you have access to the most advanced and up-to-date technologies.</li></ul></li></ul>"
         },
         {
-          "id": 226,
+          "id": 142,
           "title": "Why subscribe? Here’s what you get",
           "content": "<ul><li>Unlock exclusive features, faster access, and personalized support designed to enhance your experience. These include<ul><li>Get precise, in-depth answers to every query.</li><li>Enjoy extended message limits for more detailed conversations.</li><li>Unlimited chats and messages—Chat as long as you need.</li><li>Experience fast response times, every time.</li><li>No interruptions—just pure, ad-free conversations.</li></ul></li></ul>"
         },
         {
-          "id": 227,
+          "id": 143,
           "title": "How do I cancel my subscription?",
           "content": "<p>To cancel your subscription, please access the ‘Account’ section in the Settings page and click on the ‘Cancel Subscription’ button. Your subscription will be canceled at the end of the current subscription period, leading to the termination of your premium membership. You will not be charged any further payments after the cancellation.</p>"
         },
         {
-          "id": 228,
+          "id": 144,
           "title": "Can I upgrade or downgrade my subscription plan?",
           "content": "<p>Yes, you can easily upgrade or downgrade your plan at any time through the account settings. Changes will be applied at the start of the next billing cycle.</p>"
         },
         {
-          "id": 229,
+          "id": 145,
           "title": "Is the platform suitable for both tech professionals and creative users?",
           "content": "<p>Absolutely! The platform is designed to cater to a wide range of users, from technical experts to creative professionals, offering tools that enhance productivity and innovation.</p>"
         },
         {
-          "id": 230,
+          "id": 146,
           "title": "How secure is my data on the platform?",
           "content": "<p>The platform follows stringent security protocols, ensuring that user data and interactions are encrypted and protected at all times.</p><p>&nbsp;</p>"
         },
         {
-          "id": 231,
+          "id": 147,
           "title": "What kind of AI model customization options are available to enhance user experience?",
           "content": "<p>Users can adjust response behavior, output format, language style, and much more, allowing the platform to align with specific operational needs or creative workflows.</p><p>&nbsp;</p>"
         }
       ]
     }
   ],
-  "events": {
-    "id": 39,
-    "viewPageEventName": "view_landing",
-    "landing_folder": "/",
-    "landing_parameter": null
-  }
+  "events": null
 }

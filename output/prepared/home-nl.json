@@ -1,67 +1,63 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "home",
     "locale": "nl",
     "seo": {
-      "title": "AI Chat Webapp",
-      "description": "Een verfijnde AI-chatassistent ontworpen om intelligente antwoorden te geven, zinvolle dialogen aan te gaan en een naadloze conversatie-ervaring te bieden."
+      "title": "AI Chat Web-app",
+      "description": "Een geavanceerde AI-chatassistent die slimme antwoorden levert, betekenisvolle dialogen aangaat en een naadloze gesprekservaring biedt."
     },
-    "events": {
-      "viewPageEventName": "view_landing",
-      "landing_folder": "/",
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "ai-chat.hero-section",
         "fe_component": "Hero",
-        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Meerdere AI</strong><br><strong class=\"font-black\">Modellen, </strong>Één krachtig platform</h1>",
-        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chat met verschillende AI-modellen om degene die bij jou past te vinden</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Ontdek een wereld van AI op één plek. Chat met verschillende modellen, vergelijk hun sterke punten en haal het meeste uit AI-technologie. Of je nu nauwkeurig onderzoek, contentcreatie, taalvertaling, beeldgeneratie of codeerhulp nodig hebt, wij hebben het juiste model voor jou.</p>",
+        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Meerdere AI</strong><br><strong class=\"font-black\">Modellen, </strong>Eén krachtig platform</h1>",
+        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chat met verschillende AI-modellen om de jouwe te vinden</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Ontdek een wereld van AI op één plek. Chat met verschillende modellen, vergelijk hun sterke punten en haal het meeste uit AI-technologie. Of je nu nauwkeurig onderzoek, contentcreatie, taalvertaling, beeldgeneratie of programmeerhulp nodig hebt, wij hebben het juiste model voor jou.</p>",
         "cta": {
           "href": "https://chat.aichatapp.ai/login",
-          "text": "Begin gratis",
-          "aria_label": "Begin gratis",
+          "text": "Start gratis",
+          "aria_label": "Start gratis",
           "icon": "arrow-right"
         },
         "media": {
-          "dark": 9,
-          "light": 8
+          "light": 8,
+          "dark": 9
         }
       },
       {
         "__component": "ai-chat.carousel-section",
         "fe_component": "Carousel",
-        "title": "Creative <strong class='text-primary'>Reviews</strong>",
+        "title": "Creatieve <strong class='text-primary'>Beoordelingen</strong>",
         "items": [
           {
-            "title": "Slimme Schrijfhulpmiddel",
-            "description": "“Dit platform integreert naadloos in mijn dagelijkse workflow als technisch professional, en biedt indrukwekkende flexibiliteit en maatwerk die mijn creatieve probleemoplossing verbeteren.”",
+            "title": "Slimme Schrijfhulp",
+            "description": "“Dit platform integreert naadloos in mijn dagelijkse workflow als tech-professional, biedt indrukwekkende flexibiliteit en maatwerk die mijn creatieve probleemoplossing verbeteren.”",
             "rating": 5,
             "author": "Matthias Engelhardt"
           },
           {
-            "title": "Briljante Tekstassistent",
-            "description": "“Als dagelijkse gebruiker in de creatieve tech-sector ben ik onder de indruk van de aanpasbaarheid van het platform. Het stelt me in staat interacties precies af te stemmen op mijn projectbehoeften.”",
+            "title": "Prachtige Tekstassistent",
+            "description": "“Als dagelijkse gebruiker in de creatieve tech-ruimte ben ik onder de indruk van de aanpasbaarheid van het platform. Het stelt me in staat interacties precies af te stemmen op de behoeften van mijn project.”",
             "rating": 5,
             "author": "Sofia Valenti"
           },
           {
-            "title": "Moeiteloze Schrijfpartner",
-            "description": "“Een zeer betrouwbaar hulpmiddel voor tech-professionals, met dynamische aanpassingsopties die perfect aansluiten bij de snelle eisen van de creatieve industrie.”",
+            "title": "Moeiteloze Schrijfgenoot",
+            "description": "“Een uiterst betrouwbare tool voor tech-professionals, die dynamische aanpassingsmogelijkheden biedt die perfect passen bij de snelle eisen van de creatieve industrie.”",
             "rating": 5,
             "author": "Heinrich Schreiber"
           },
           {
             "title": "Geavanceerde Schrijfassistent",
-            "description": "“Het innovatieve ontwerp en de gebruikersgerichte aanpak maken van het platform een essentieel onderdeel van mijn dagelijkse toolkit, vooral bij het beheren van complexe tech-projecten.”",
+            "description": "“Het innovatieve ontwerp van het platform en de gebruikersgerichte aanpak maken het een essentieel onderdeel van mijn dagelijkse toolkit, vooral bij het beheren van complexe tech-projecten.”",
             "rating": 5,
             "author": "Elisabeth van der Meer"
           },
           {
             "title": "Creatieve Woordkunstenaar",
-            "description": "“Het is een gamechanger voor mijn creatieve werk, met het vermogen moeiteloos aan te passen aan veranderende vereisten—een ideale oplossing voor dagelijks tech-gebruik.”",
+            "description": "“Het is een echte gamechanger voor mijn creatieve werk, met zijn vermogen om moeiteloos aan te passen aan veranderende vereisten — een ideale oplossing voor dagelijks technisch gebruik.”",
             "rating": 5,
             "author": "Andreas Sorensen"
           }
@@ -74,95 +70,95 @@
         "items": [
           {
             "isPopular": null,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Aan de slag",
-              "aria_label": "Aan de slag",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "$0,67 per dag",
+              "duration": "1 Maand Toegang",
+              "fullPrice": "$19.99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% Advertentievrij",
+                "title": "100% advertentiesvrij",
                 "subtitle": "Geen afleiding"
               },
               {
                 "icon": "svgonly/chat",
-                "title": "Beste AI-modellen op één platform",
+                "title": "De beste AI-modellen op één platform",
                 "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux en meer!"
               },
               {
                 "icon": "svgonly/infinite",
                 "title": "Vergeet limieten",
-                "subtitle": "Maak je geen zorgen, gebruik het zo vaak als je nodig hebt."
+                "subtitle": "Maak je geen zorgen, gebruik het zo veel als je nodig hebt."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0,67 per dag",
-              "duration": "1 Maand Toegang",
-              "fullPrice": "$19,99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Aan de slag",
+              "aria_label": "Aan de slag",
+              "icon": null
             }
           },
           {
             "isPopular": true,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Aan de slag",
-              "aria_label": "Aan de slag",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "$0,44 per dag",
+              "duration": "3 Maanden Toegang",
+              "fullPrice": "$39.99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% Advertentievrij",
+                "title": "100% Advertentiesvrij",
                 "subtitle": "Geen afleiding"
               },
               {
                 "icon": "svgonly/chat",
-                "title": "Beste AI-modellen op één platform",
+                "title": "De beste AI-modellen op één platform",
                 "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux en meer!"
               },
               {
                 "icon": "svgonly/infinite",
                 "title": "Vergeet limieten",
-                "subtitle": "Maak je geen zorgen, gebruik het zo vaak als je nodig hebt."
+                "subtitle": "Maak je geen zorgen, gebruik het zo veel als je nodig hebt."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0,44 per dag",
-              "duration": "3 Maanden Toegang",
-              "fullPrice": "$39,99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Aan de slag",
+              "aria_label": "Aan de slag",
+              "icon": null
             }
           },
           {
             "isPopular": null,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Aan de slag",
-              "aria_label": "Aan de slag",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "$0,19 per dag",
+              "duration": "12 Maanden Toegang",
+              "fullPrice": "$69.99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% Advertentievrij",
+                "title": "100% Advertentiesvrij",
                 "subtitle": "Geen afleiding"
               },
               {
                 "icon": "svgonly/chat",
-                "title": "Beste AI-modellen op één platform",
+                "title": "De beste AI-modellen op één platform",
                 "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux en meer!"
               },
               {
                 "icon": "svgonly/infinite",
                 "title": "Vergeet limieten",
-                "subtitle": "Maak je geen zorgen, gebruik het zo vaak als je nodig hebt."
+                "subtitle": "Maak je geen zorgen, gebruik het zo veel als je nodig hebt."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0,19 per dag",
-              "duration": "12 Maanden Toegang",
-              "fullPrice": "$69,99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Aan de slag",
+              "aria_label": "Aan de slag",
+              "icon": null
             }
           }
         ]
@@ -171,63 +167,55 @@
         "__component": "ai-chat.feature-section",
         "fe_component": "Features",
         "client": true,
-        "title": "Webapp <strong class='text-primary'>Functies</strong>",
-        "logo": {
-          "dark": null,
-          "light": 15
+        "title": "WebbApp <strong class='text-primary'>Functies</strong>",
+        "media": {
+          "light": 13,
+          "dark": 14
         },
         "tabs": [
           {
-            "title": "AI Chat: Jouw Ultieme AI-Chatpartner",
-            "text": "AI Chat maakt gebruik van geavanceerde AI met een natuurlijke dialoogstroom, waardoor een chatervaring ontstaat die net zo intuïtief als boeiend is. Of het nu gaat om informele gesprekken of het aangaan van uitdagingen, AI Chat is jouw betrouwbare AI voor betekenisvolle, dynamische en mensachtige interacties.",
+            "title": "AI Chat: Jouw Ultieme AI-Conversatiepartner",
+            "text": "AI Chat maakt gebruik van geavanceerde AI met een natuurlijke dialoogstroom, wat een chatervaring oplevert die net zo intuïtief als boeiend is. Of het nu gaat om informele gesprekken of het aangaan van uitdagingen, AI Chat is jouw betrouwbare AI voor betekenisvolle, dynamische en menselijke interacties.",
+            "icon": {
+              "light": 11,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Aan de slag",
               "aria_label": "Aan de slag",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 11
             }
           },
           {
-            "title": "AI Chat: Jouw slimme chatpartner",
-            "text": "AI Chat is jouw AI voor dynamische gesprekken. Het combineert geavanceerde taalverwerking met een gebruiksvriendelijke interface, waardoor elke interactie een naadloze, persoonlijke ervaring wordt. Duik in boeiende, intuïtieve chats die evolueren met jouw unieke voorkeuren.",
+            "title": "AI Chat: Jouw Intelligente Chatvriend",
+            "text": "AI Chat is jouw go-to AI voor dynamische gesprekken. Het combineert geavanceerde taalverwerking met een gebruiksvriendelijke interface, waardoor elke interactie verandert in een naadloze, gepersonaliseerde ervaring. Duik in boeiende, intuïtieve chats die evolueren met jouw unieke voorkeuren.",
+            "icon": {
+              "light": 10,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Aan de slag",
               "aria_label": "Aan de slag",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 10
             }
           },
           {
-            "title": "AI Chat: Jouw AI-aangedreven Conversatiegenie",
-            "text": "AI Chat verrijkt je gesprekken met een geavanceerde AI, ontwikkeld met GPT-4o, die snelle, inzichtelijke reacties levert, boeiende interacties stimuleert en een naadloze ervaring biedt. Het leert voortdurend en past zich aan, waardoor bij elke uitwisseling waardevolle inzichten ontstaan.",
+            "title": "AI Chat: Jouw Ultieme AI-Conversatiepartner",
+            "text": "AI Chat maakt gebruik van geavanceerde AI met een natuurlijke dialoogstroom, wat een chatervaring oplevert die net zo intuïtief als boeiend is. Of het nu gaat om informele gesprekken of het aangaan van uitdagingen, AI Chat is jouw betrouwbare AI voor betekenisvolle, dynamische en menselijke interacties.",
+            "icon": {
+              "light": 12,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Aan de slag",
               "aria_label": "Aan de slag",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 12
             }
           }
-        ],
-        "media": {
-          "dark": 14,
-          "light": 13
-        },
-        "headingsBackground": {
-          "dark": null,
-          "light": 16
-        }
+        ]
       },
       {
         "__component": "ai-chat.faq-section",
@@ -236,32 +224,32 @@
         "title": "<p><strong>Veelgestelde </strong><span style=\"color:#01b78d;\"><strong>Vragen</strong></span></p>",
         "items": [
           {
-            "title": "Wat precies is AI Chat en welke voordelen biedt het mij?",
-            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat is een krachtige AI-chatbot die meerdere geavanceerde AI-modellen integreert, waaronder OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek en Flux, om snelle en intelligente reacties voor al jouw behoeften te bieden.</li><li>De voordelen van het gebruik van AI Chat zijn:<ul style=\"list-style-type:square;\"><li>Personalisatie: Pas je AI-ervaring aan door te kiezen uit verschillende modellen die passen bij jouw voorkeuren en vereisten.</li><li>Snelheid en tijdbesparing: AI Chat levert snelle, nauwkeurige antwoorden uit meerdere geavanceerde AI-modellen, waardoor je taken worden gestroomlijnd en tijd wordt bespaard.</li><li>Grenzeloze toegankelijkheid: Toegang tot top AI-ondersteuning altijd, overal, met een reeks modellen binnen handbereik.</li><li>Continue updates: We blijven altijd de nieuwste AI-modellen en updates toevoegen, zodat je toegang hebt tot de meest geavanceerde en up-to-date technologieën.</li></ul></li></ul>"
+            "title": "Wat is AI Chat precies en welke voordelen biedt het mij?",
+            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat is een krachtige AI-chatbot die meerdere geavanceerde AI-modellen integreert, waaronder OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek en Flux om snelle en intelligente antwoorden te bieden voor al uw behoeften.</li><li>De voordelen van het gebruik van AI Chat zijn:<ul style=\"list-style-type:square;\"><li>Personalisatie: Pas uw AI-ervaring aan door uit verschillende modellen te kiezen die passen bij uw voorkeuren en vereisten.</li><li>Snelheid en tijdbesparing: AI Chat levert snelle, nauwkeurige antwoorden uit meerdere geavanceerde AI-modellen, waardoor uw taken worden gestroomlijnd en tijd wordt bespaard.</li><li>Grenzeloze toegankelijkheid: Toegang tot eersteklas AI-ondersteuning altijd en overal, met een reeks modellen binnen handbereik.</li><li>Continue updates: We voegen voortdurend de nieuwste AI-modellen en updates toe, zodat u toegang heeft tot de meest geavanceerde en up-to-date technologieën.</li></ul></li></ul>"
           },
           {
             "title": "Waarom abonneren? Dit krijg je",
-            "content": "<ul><li>Ontgrendel exclusieve functies, snellere toegang en persoonlijke ondersteuning die zijn ontworpen om je ervaring te verbeteren. Deze omvatten<ul><li>Precieze, diepgaande antwoorden op elke vraag.</li><li>Geniet van langere berichtlimieten voor gedetailleerdere gesprekken.</li><li>Eindeloze chats en berichten — Chat zo lang als je wilt.</li><li>Snelle reactietijden, elke keer.</li><li>Geen onderbrekingen—geheel advertentievrije gesprekken.</li></ul></li></ul>"
+            "content": "<ul><li>Ontgrendel exclusieve functies, snellere toegang en persoonlijke ondersteuning die zijn ontworpen om uw ervaring te verbeteren. Deze omvatten<ul><li>Krijg nauwkeurige, diepgaande antwoorden op elke vraag.</li><li>Geniet van verlengde berichtlimieten voor gedetailleerdere gesprekken.</li><li>Oneindige chats en berichten—Chat zo lang als u wilt.</li><li>Ervaar snelle reactietijden, telkens.</li><li>Geen onderbrekingen—gewoon pure, advertentiesvrije gesprekken.</li></ul></li></ul>"
           },
           {
-            "title": "Hoe annuleer ik mijn abonnement?",
-            "content": "<p>Om je abonnement te annuleren, ga naar de sectie ‘Account’ op de Instellingen-pagina en klik op de knop ‘Abonnement annuleren’. Je abonnement wordt aan het einde van de huidige abonnementsperiode beëindigd, wat leidt tot beëindiging van je premiumlidmaatschap. Na de annulering worden geen verdere betalingen in rekening gebracht.</p>"
+            "title": "Hoe kan ik mijn abonnement annuleren?",
+            "content": "<p>Om uw abonnement te annuleren, opent u de sectie 'Account' op de Instellingen-pagina en klikt u op de knop 'Abonnement annuleren'. Uw abonnement wordt aan het eind van de huidige abonnementsperiode beëindigd, waardoor uw premium lidmaatschap eindigt. Na annulering worden er geen verdere betalingen meer ontvangen.</p>"
           },
           {
             "title": "Kan ik mijn abonnementsplan upgraden of downgraden?",
-            "content": "<p>Ja, je kunt je plan op elk moment eenvoudig upgraden of downgraden via de accountinstellingen. Wijzigingen worden toegepast bij het begin van de volgende factureringscyclus.</p>"
+            "content": "<p>Ja, u kunt uw abonnement op elk moment eenvoudig upgraden of downgraden via de accountinstellingen. Wijzigingen worden toegepast aan het begin van de volgende factureringscyclus.</p>"
           },
           {
             "title": "Is het platform geschikt voor zowel tech-professionals als creatieve gebruikers?",
-            "content": "<p>Zeker! Het platform is ontworpen om tegemoet te komen aan een breed scala aan gebruikers, van technische experts tot creatieve professionals, en biedt hulpmiddelen die productiviteit en innovatie bevorderen.</p>"
+            "content": "<p>Zeker! Het platform is ontworpen om te voldoen aan een breed scala aan gebruikers, van technische experts tot creatieve professionals, en biedt tools die productiviteit en innovatie vergroten.</p>"
           },
           {
             "title": "Hoe veilig zijn mijn gegevens op het platform?",
-            "content": "<p>Het platform volgt strikte beveiligingsprotocollen en zorgt ervoor dat gebruikersgegevens en interacties te allen tijde versleuteld en beschermd zijn.</p><p>&nbsp;</p>"
+            "content": "<p>Het platform volgt strenge beveiligingsprotocollen, waardoor gebruikersgegevens en interacties te allen tijde versleuteld en beschermd zijn.</p><p>&nbsp;</p>"
           },
           {
-            "title": "Welke AI-modelaanpassingsopties zijn beschikbaar om de gebruikerservaring te verbeteren?",
-            "content": "<p>Gebruikers kunnen het gedrag van de reacties, het uitvoerformaat, de taalstijl en nog veel meer aanpassen, zodat het platform aansluit bij specifieke operationele behoeften of creatieve workflows.</p><p>&nbsp;</p>"
+            "title": "Welke soorten AI-modelaanpassingsopties zijn er om de gebruikerservaring te verbeteren?",
+            "content": "<p>Gebruikers kunnen het antwoordgedrag, het uitvoerformaat, de taalstijl en nog veel meer aanpassen, zodat het platform aansluit bij specifieke operationele behoeften of creatieve workflows.</p><p>&nbsp;</p>"
           }
         ]
       }

@@ -1,17 +1,12 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "terms-and-conditions",
     "locale": "pl",
     "seo": {
       "title": "Warunki korzystania",
       "description": "Warunki korzystania"
-    },
-    "events": {
-      "viewPageEventName": "Terms_of_services_button",
-      "landing_folder": null,
-      "landing_parameter": null
     },
     "sections": [
       {

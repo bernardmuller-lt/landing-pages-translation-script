@@ -1,25 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "support",
     "locale": "de",
     "seo": {
-      "title": "Support - KI-Chat",
-      "description": "KI-Chat"
+      "title": "Unterstützung - AI Chat",
+      "description": "AI Chat"
     },
-    "events": {
-      "viewPageEventName": "Contact_Support",
-      "landing_folder": null,
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "shared.support",
         "fe_component": "Support",
         "title": "Kundensupport",
-        "description": "<div><h2 class='freshdesk-contact-form__title'>Brauchen Sie Hilfe oder haben Sie eine Frage? Wir sind für Sie da!</h2><p>Unser engagiertes Support-Team steht Ihnen bei allen Anfragen zu unseren KI-gestützten Tools, Chatbot-Integrationen oder Funktionen zur Bildgenerierung zur Verfügung. Ob Sie technischen Support, Abrechnungsunterstützung benötigen oder Feedback mitteilen möchten – wir helfen Ihnen gerne.</p><p>Füllen Sie bitte das untenstehende Formular aus, und wir melden uns so schnell wie möglich bei Ihnen.</p><p>Lassen Sie uns Ihre KI-Erfahrung nahtlos und effizient gestalten!</p></div>",
-        "event": null,
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Brauchen Sie Unterstützung oder haben Sie eine Frage? Wir sind für Sie da!</h2><p>Unser engagiertes Support-Team steht Ihnen gerne bei allen Anfragen zu unseren KI-basierten Tools, Chatbot-Integrationen oder Funktionen zur Bildgenerierung zur Verfügung. Ob Sie technischen Support, Abrechnungsunterstützung benötigen oder Feedback haben – wir helfen Ihnen gerne weiter.</p><p>Füllen Sie das untenstehende Formular aus, und wir melden uns so schnell wie möglich bei Ihnen.</p><p>Lassen Sie Ihre KI-Erfahrung nahtlos und effizient gestalten!</p></div>",
         "cta": {
           "href": "https://chat.aichatapp.ai/app/ai-chat",
           "text": "Zurück zum Chat",

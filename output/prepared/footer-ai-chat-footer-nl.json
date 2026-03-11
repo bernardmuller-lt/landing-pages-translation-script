@@ -1,0 +1,35 @@
+{
+  "data": {
+    "slug": "ai-chat-footer",
+    "locale": "nl",
+    "environment": "production",
+    "copyright": "@2026 AI Chat",
+    "href": "/",
+    "items": [
+      {
+        "text": "Ondersteuning",
+        "href": "/support/"
+      },
+      {
+        "text": "Privacybeleid",
+        "href": "/privacy-policy-and-cookie-policy/"
+      },
+      {
+        "text": "Gebruiksvoorwaarden",
+        "href": "/terms-of-use/"
+      },
+      {
+        "text": "Algemene Voorwaarden",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "text": "Retourbeleid",
+        "href": "/refund-policy/"
+      }
+    ],
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

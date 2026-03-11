@@ -1,0 +1,238 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "ai-chat",
+    "slug": "landing",
+    "locale": "sv-SE",
+    "seo": {
+      "title": "ChatAI Webbappar",
+      "description": "En sofistikerad AI-chattassistent som är utformad för att ge intelligenta svar, delta i meningsfulla samtal och leverera en sömlös konversationsupplevelse."
+    },
+    "events": null,
+    "sections": [
+      {
+        "__component": "ai-chat.hero-section",
+        "fe_component": "Hero",
+        "title": "<h1 class=\"font-bold\"><span style=\"font-size:72px;\">AI Chats</span></h1>",
+        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">Förbättra din dag med AI, ett samtal i taget</p>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/register",
+          "text": "Kom igång gratis",
+          "aria_label": "Kom igång gratis",
+          "icon": null
+        },
+        "media": {
+          "light": 17,
+          "dark": 18
+        }
+      },
+      {
+        "__component": "ai-chat.milestone-section",
+        "fe_component": "Milestones",
+        "title": "",
+        "items": [
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> 5-stjärniga recensioner</p>",
+            "media": {
+              "light": 19,
+              "dark": 20
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Första</strong> AI Chatbot</p>",
+            "media": {
+              "light": 21,
+              "dark": 22
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30M+</strong> användare över hela världen</p>",
+            "media": {
+              "light": 23,
+              "dark": 24
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Drivs av</strong> avancerade AI-modeller</p>",
+            "media": {
+              "light": 25,
+              "dark": 26
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.carousel-section",
+        "fe_component": "Carousel",
+        "title": "Förtroende bland miljontals användare",
+        "items": [
+          {
+            "title": " Smart skrivverktyg ",
+            "description": " “Den här plattformen integreras sömlöst i mitt dagliga arbetsflöde som teknisk yrkesperson, och erbjuder imponerande flexibilitet och anpassning som förbättrar min kreativa problemlösning.” ",
+            "rating": 5,
+            "author": " Matthias Engelhardt "
+          },
+          {
+            "title": " Briljant textassistent ",
+            "description": " “Som en daglig användare inom det kreativa teknikområdet är jag imponerad av plattformens anpassningsförmåga. Den gör det möjligt för mig att skräddarsy interaktioner exakt efter mina projektbehov.” ",
+            "rating": 5,
+            "author": " Sofia Valenti "
+          },
+          {
+            "title": " Enkel skrivassistent",
+            "description": "“Ett mycket pålitligt verktyg för tekniska yrkesverksamma, som erbjuder dynamiska anpassningsalternativ som passar perfekt in i den snabbrörliga efterfrågan i den kreativa industrin.”",
+            "rating": 5,
+            "author": " Heinrich Schreiber "
+          },
+          {
+            "title": " Avancerad skrivassistent ",
+            "description": "“Plattformens innovativa design och användarcentrerade tillvägagångssätt gör den till en väsentlig del av min dagliga verktygslåda, särskilt när jag hanterar komplexa teknikprojekt.”",
+            "rating": 5,
+            "author": "Elisabeth van der Meer "
+          },
+          {
+            "title": " Kreativ Ordkonstnär ",
+            "description": " “Det förändrar spelet för mitt kreativa arbete, tack vare dess förmåga att anpassa och justera efter skiftande krav utan problem — en ideal lösning för daglig teknikanvändning.”",
+            "rating": 5,
+            "author": " Andreas Sorensen "
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.perk-comparison-table",
+        "header": [
+          {
+            "heading": null
+          },
+          {
+            "heading": "<p><span style=\"font-size:20px;\">GRATIS</span></p>"
+          },
+          {
+            "heading": "<p class=\"pl-8\"><span style=\"font-size:20px;\">PRO</span></p>"
+          }
+        ],
+        "rows": [
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPTsvar</p>",
+            "tier": "both",
+            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">Din väg till smartare samtal</p>",
+            "icon": {
+              "light": 27,
+              "dark": 28
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Tillgång till GPT-5</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Nästa nivå av svar med avancerad AI</p>",
+            "icon": {
+              "light": 29,
+              "dark": 30
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Bildgenerering</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Gör idéer till otroliga bilder med de bästa AI-modellerna som finns tillgängliga, såsom Nano Banana</p>",
+            "icon": {
+              "light": 31,
+              "dark": 32
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Tillgång till avancerade modeller</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT, DeepSeek, Gemini Pro, Claude Sonnet, Grok och många fler!</p>",
+            "icon": {
+              "light": 33,
+              "dark": 34
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Lås upp avancerade verktyg</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Chatta med PDF, Dokument, Excel och mer</p>",
+            "icon": {
+              "light": 35,
+              "dark": 36
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Inga annonser</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Ren AI-assistans, utan distraktioner</p>",
+            "icon": {
+              "light": 37,
+              "dark": 38
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.high-light-section",
+        "fe_component": "Highlights",
+        "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AI Chat</strong> Funktioner</p>",
+        "items": [
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Smarta konversationer, direkt</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat är din självklara följeslagare för dynamiska samtal</strong>. Den kombinerar avancerade språkmodeller med ett användarvänligt gränssnitt för sömlösa, personliga interaktioner. Njut av smarta, engagerande chattar—ingen kopiering och inget växlande mellan flikar. Bara snabbare, skräddarsydda svar på ett ställe.</p></div>",
+            "media": {
+              "light": 39,
+              "dark": null
+            },
+            "icon": null
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Gör dina idéer till otroliga bilder med 🍌 Nano Banana</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Din kreativitet har inga gränser. Beskriv bara din idé så förvandlar AI Chat den till fantastiska bilder—ingen designkompetens behövs. Från fantasi till bild på några sekunder, redo att inspirera, dela eller bygga vidare. Endast dina ord. Ren skapelse.</p></div>",
+            "media": {
+              "light": 40,
+              "dark": null
+            },
+            "icon": {
+              "light": 41,
+              "dark": null
+            }
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Behärska dina PDFs på några sekunder</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Få ut mer av din PDF på några sekunder. Sammanfatta, översätt och analysera dokument direkt. Har du frågor? AI Chat ger snabba, träffsäkra svar—sparar tid och hjälper dig att fokusera på det som är viktigast. Den är smart, snabb och byggd för produktivitet.</p></div>",
+            "media": {
+              "light": 42,
+              "dark": null
+            },
+            "icon": {
+              "light": 43,
+              "dark": null
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.topics-section",
+        "fe_component": "Topics",
+        "title": "<p><strong class=\"text-primary\">AI Chat</strong> är användbart för</p>",
+        "items": [
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">💼</span>Marknadsföring</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">✈️</span>Resor</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">📚</span>Utbildning</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🚀</span>Karriär</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">‍‍👩🏻‍💻</span>Programmering</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🗞</span>Nyheter</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">📊</span>Presentation</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

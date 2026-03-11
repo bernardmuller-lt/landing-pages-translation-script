@@ -1,0 +1,35 @@
+{
+  "data": {
+    "slug": "ai-chat-footer",
+    "locale": "th-TH",
+    "environment": "production",
+    "copyright": "@2026 AI Chat",
+    "href": "/",
+    "items": [
+      {
+        "text": "การสนับสนุน",
+        "href": "/support/"
+      },
+      {
+        "text": "นโยบายความเป็นส่วนตัว",
+        "href": "/privacy-policy-and-cookie-policy/"
+      },
+      {
+        "text": "ข้อกำหนดการใช้งาน",
+        "href": "/terms-of-use/"
+      },
+      {
+        "text": "ข้อกำหนดและเงื่อนไข",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "text": "นโยบายการคืนเงิน",
+        "href": "/refund-policy/"
+      }
+    ],
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

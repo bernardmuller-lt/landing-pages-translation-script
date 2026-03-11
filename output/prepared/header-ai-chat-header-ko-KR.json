@@ -1,0 +1,24 @@
+{
+  "data": {
+    "slug": "ai-chat-header",
+    "locale": "ko-KR",
+    "environment": "production",
+    "href": "/",
+    "loginBtn": {
+      "href": "https://chat.aichatapp.ai/login",
+      "text": "로그인",
+      "aria_label": "로그인",
+      "icon": null
+    },
+    "registerBtn": {
+      "href": "https://chat.aichatapp.ai/register",
+      "text": "회원가입",
+      "aria_label": "회원가입",
+      "icon": null
+    },
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

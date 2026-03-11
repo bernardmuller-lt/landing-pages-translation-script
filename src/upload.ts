@@ -6,7 +6,11 @@ import { existsSync } from "fs";
 import { join, basename } from "path";
 import { ZodError } from "zod";
 import { validateAPIPayload } from "./lib/strapi/schemas/pageDataSchema.js";
+import { validateHeaderAPIPayload } from "./lib/strapi/schemas/headerDataSchema.js";
+import { validateFooterAPIPayload } from "./lib/strapi/schemas/footerDataSchema.js";
 import { uploadPage } from "./lib/strapi/http/uploadPage.js";
+import { uploadHeader } from "./lib/strapi/http/uploadHeader.js";
+import { uploadFooter } from "./lib/strapi/http/uploadFooter.js";
 import { config, TARGET_LOCALES } from "./config.js";
 
 export interface UploadOptions {
@@ -19,19 +23,27 @@ export interface UploadOptions {
 }
 
 /**
- * Given a prepared filename like "home-ko-KR.json", derive slug and locale.
+ * Given a prepared filename like "home-ko-KR.json", "header-ai-chat-header-de.json", derive type, slug and locale.
  * Uses the known locale list so slugs with hyphens are handled correctly.
  */
 function parsePreparedFilename(
   filename: string,
-): { slug: string; locale: string } | null {
+): { type: "page" | "header" | "footer"; slug: string; locale: string } | null {
   const name = basename(filename, ".json");
   const locale = Object.keys(TARGET_LOCALES).find((l) =>
     name.endsWith(`-${l}`),
   );
   if (!locale) return null;
   const slug = name.slice(0, -(locale.length + 1)); // strip "-{locale}"
-  return { slug, locale };
+
+  // Detect content type from prefix
+  if (slug.startsWith("header-")) {
+    return { type: "header", slug, locale };
+  } else if (slug.startsWith("footer-")) {
+    return { type: "footer", slug, locale };
+  } else {
+    return { type: "page", slug, locale };
+  }
 }
 
 async function uploadSingleFile(filePath: string): Promise<boolean> {
@@ -44,13 +56,35 @@ async function uploadSingleFile(filePath: string): Promise<boolean> {
     const fileContent = await readFile(filePath, "utf-8");
     const parsedJSON = JSON.parse(fileContent);
 
-    // Validate with Zod
-    const payload = validateAPIPayload(parsedJSON);
+    // Detect content type from filename
+    const parsed = parsePreparedFilename(basename(filePath));
+    const contentType = parsed?.type || "page";
 
-    process.stdout.write(
-      `  ⏳ ${payload.data.slug}/${payload.data.locale} ... `,
-    );
-    const result = await uploadPage(payload);
+    let payload: any;
+    let result: any;
+
+    if (contentType === "header") {
+      // Validate and upload header
+      payload = validateHeaderAPIPayload(parsedJSON);
+      process.stdout.write(
+        `  ⏳ header:${payload.data.slug}/${payload.data.locale} ... `,
+      );
+      result = await uploadHeader(payload);
+    } else if (contentType === "footer") {
+      // Validate and upload footer
+      payload = validateFooterAPIPayload(parsedJSON);
+      process.stdout.write(
+        `  ⏳ footer:${payload.data.slug}/${payload.data.locale} ... `,
+      );
+      result = await uploadFooter(payload);
+    } else {
+      // Validate and upload page
+      payload = validateAPIPayload(parsedJSON);
+      process.stdout.write(
+        `  ⏳ page:${payload.data.slug}/${payload.data.locale} ... `,
+      );
+      result = await uploadPage(payload);
+    }
 
     if (result.success) {
       process.stdout.write("✅\n");
@@ -123,7 +157,7 @@ export async function runUpload(options: UploadOptions = {}): Promise<void> {
       filename: f,
       parsed: parsePreparedFilename(f),
     }))
-    .filter((item): item is { filename: string; parsed: { slug: string; locale: string } } =>
+    .filter((item): item is { filename: string; parsed: { type: "page" | "header" | "footer"; slug: string; locale: string } } =>
       item.parsed !== null
     );
 

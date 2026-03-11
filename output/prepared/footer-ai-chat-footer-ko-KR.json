@@ -1,0 +1,35 @@
+{
+  "data": {
+    "slug": "ai-chat-footer",
+    "locale": "ko-KR",
+    "environment": "production",
+    "copyright": "@2026 AI Chat",
+    "href": "/",
+    "items": [
+      {
+        "text": "고객 지원",
+        "href": "/support/"
+      },
+      {
+        "text": "개인정보 처리방침",
+        "href": "/privacy-policy-and-cookie-policy/"
+      },
+      {
+        "text": "이용 약관",
+        "href": "/terms-of-use/"
+      },
+      {
+        "text": "약관 및 조건",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "text": "환불 정책",
+        "href": "/refund-policy/"
+      }
+    ],
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

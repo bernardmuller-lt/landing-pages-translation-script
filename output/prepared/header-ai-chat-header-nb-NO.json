@@ -1,0 +1,24 @@
+{
+  "data": {
+    "slug": "ai-chat-header",
+    "locale": "nb-NO",
+    "environment": "production",
+    "href": "/",
+    "loginBtn": {
+      "href": "https://chat.aichatapp.ai/login",
+      "text": "Logg inn",
+      "aria_label": "Logg inn",
+      "icon": null
+    },
+    "registerBtn": {
+      "href": "https://chat.aichatapp.ai/register",
+      "text": "Registrer",
+      "aria_label": "Registrer",
+      "icon": null
+    },
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

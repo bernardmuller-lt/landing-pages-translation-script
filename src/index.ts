@@ -9,6 +9,7 @@ import { runPrepare } from "./prepare.js";
 import { runParse } from "./parse.js";
 import { runValidate } from "./validate.js";
 import { runUpload } from "./upload.js";
+import { runMetadata } from "./metadata.js";
 
 const program = new Command();
 
@@ -201,7 +202,9 @@ program
   )
   .action(async (options) => {
     if (options.env !== "test" && options.env !== "production") {
-      console.error(`\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`);
+      console.error(
+        `\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`,
+      );
       process.exit(1);
     }
     try {
@@ -274,7 +277,9 @@ program
 
 program
   .command("run")
-  .description("Run the full pipeline: fetch → parse → translate → validate → prepare → upload")
+  .description(
+    "Run the full pipeline: fetch → parse → translate → validate → prepare → upload",
+  )
   .option(
     "-s, --slug <slugs...>",
     "slug(s) to process, comma separated",
@@ -285,7 +290,11 @@ program
     `locale(s) to process, comma separated (valid: ${Object.keys(TARGET_LOCALES).join(", ")})`,
     commaSeparatedList,
   )
-  .option("-m, --model <model>", "LLM model to use (e.g. gpt-4o-mini)", process.env.LLM_MODEL)
+  .option(
+    "-m, --model <model>",
+    "LLM model to use (e.g. gpt-4o-mini)",
+    process.env.LLM_MODEL,
+  )
   .option(
     "-c, --concurrency <number>",
     "max parallel LLM requests (default: 5)",
@@ -299,64 +308,88 @@ program
   .action(async (options) => {
     const model: string | undefined = options.model;
     if (!model) {
-      console.error("\n❌ LLM model is required. Use --model <model> or set LLM_MODEL in .env\n");
+      console.error(
+        "\n❌ LLM model is required. Use --model <model> or set LLM_MODEL in .env\n",
+      );
       process.exit(1);
     }
     if (options.env !== "test" && options.env !== "production") {
-      console.error(`\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`);
+      console.error(
+        `\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`,
+      );
       process.exit(1);
     }
 
-    console.log(`\n   Slugs:       ${options.slug ? options.slug.join(", ") : "all"}`);
-    console.log(`   Locales:     ${options.locale ? options.locale.join(", ") : "all"}`);
+    console.log(
+      `\n   Slugs:       ${options.slug ? options.slug.join(", ") : "all"}`,
+    );
+    console.log(
+      `   Locales:     ${options.locale ? options.locale.join(", ") : "all"}`,
+    );
     console.log(`   Model:       ${model}`);
     console.log(`   Environment: ${options.env}\n`);
 
     try {
       // ── Step 1: Fetch ──────────────────────────────────────────────────────
       const apiUrl = process.env.AI_CHAT_CMS_API_URL || process.env.CMS_API_URL;
-      const apiToken = process.env.AI_CHAT_CMS_API_TOKEN || process.env.CMS_API_TOKEN;
-      if (!apiUrl) throw new Error("API URL not configured. Run 'init' or set CMS_API_URL.");
-      if (!apiToken) throw new Error("API Token not configured. Run 'init' or set CMS_API_TOKEN.");
+      const apiToken =
+        process.env.AI_CHAT_CMS_API_TOKEN || process.env.CMS_API_TOKEN;
+      if (!apiUrl)
+        throw new Error(
+          "API URL not configured. Run 'init' or set CMS_API_URL.",
+        );
+      if (!apiToken)
+        throw new Error(
+          "API Token not configured. Run 'init' or set CMS_API_TOKEN.",
+        );
       process.env.CMS_API_URL = apiUrl;
       process.env.CMS_API_TOKEN = apiToken;
 
-      const pages = await fetchPages({
-        identifier: config.identifier,
-        locale: config.locale,
-        environment: config.environment,
-        slugs: options.slug,
-      });
-      if (pages.length === 0) {
-        console.warn("\n⚠️  No pages found in Strapi CMS.\n");
-        process.exit(0);
-      }
-      await writePagesToFiles(pages, config.outputDir);
-      console.log(`\n✅  Step 1/6 — Fetched ${pages.length} page(s)\n`);
+      // const pages = await fetchPages({
+      //   identifier: config.identifier,
+      //   locale: config.locale,
+      //   environment: config.environment,
+      //   slugs: options.slug,
+      // });
+      // if (pages.length === 0) {
+      //   console.warn("\n⚠️  No pages found in Strapi CMS.\n");
+      //   process.exit(0);
+      // }
+      // await writePagesToFiles(pages, config.outputDir);
+      // console.log(`\n✅  Step 1/6 — Fetched ${pages.length} page(s)\n`);
 
       // ── Step 2: Parse ──────────────────────────────────────────────────────
-      await runParse({ slugs: options.slug });
+      // await runParse({ slugs: options.slug });
       console.log("✅  Step 2/6 — Parse complete\n");
 
       // ── Step 3: Translate ──────────────────────────────────────────────────
-      await runTranslate({
-        model,
-        slugs: options.slug,
-        locales: options.locale,
-        concurrency: options.concurrency,
-      });
+      // await runTranslate({
+      //   model,
+      //   slugs: options.slug,
+      //   locales: options.locale,
+      //   concurrency: options.concurrency,
+      // });
       console.log("✅  Step 3/6 — Translate complete\n");
 
       // ── Step 4: Validate ───────────────────────────────────────────────────
-      const valid = await runValidate({ slugs: options.slug, locales: options.locale });
+      const valid = await runValidate({
+        slugs: options.slug,
+        locales: options.locale,
+      });
       if (!valid) {
-        console.error("\n❌  Pipeline aborted at validation. Fix missing keys then run prepare manually.\n");
+        console.error(
+          "\n❌  Pipeline aborted at validation. Fix missing keys then run prepare manually.\n",
+        );
         process.exit(1);
       }
       console.log("✅  Step 4/6 — Validation passed\n");
 
       // ── Step 5: Prepare ────────────────────────────────────────────────────
-      await runPrepare({ slugs: options.slug, locales: options.locale, environment: options.env });
+      await runPrepare({
+        slugs: options.slug,
+        locales: options.locale,
+        environment: options.env,
+      });
       console.log("✅  Step 5/6 — Prepare complete\n");
 
       // ── Step 6: Upload ─────────────────────────────────────────────────────
@@ -366,6 +399,59 @@ program
       console.log("🏁  Pipeline complete!\n");
     } catch (error) {
       console.error("\n❌ Pipeline failed:", error);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("metadata")
+  .description(
+    "Run the full pipeline for headers and footers: fetch → parse → translate → validate → prepare → upload",
+  )
+  .option(
+    "-m, --model <model>",
+    "LLM model to use (e.g. gpt-4o-mini)",
+    process.env.LLM_MODEL,
+  )
+  .option(
+    "-l, --locale <locales...>",
+    `locale(s) to process, comma separated (valid: ${Object.keys(TARGET_LOCALES).join(", ")})`,
+    commaSeparatedList,
+  )
+  .option(
+    "-c, --concurrency <number>",
+    "max parallel LLM requests (default: 5)",
+    (v) => parseInt(v, 10),
+  )
+  .option(
+    "-e, --env <environment>",
+    "target environment for the prepared API payload: test or production (default: test)",
+    "test",
+  )
+  .action(async (options) => {
+    const model: string | undefined = options.model;
+    if (!model) {
+      console.error(
+        "\n❌ LLM model is required. Use --model <model> or set LLM_MODEL in .env\n",
+      );
+      process.exit(1);
+    }
+    if (options.env !== "test" && options.env !== "production") {
+      console.error(
+        `\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`,
+      );
+      process.exit(1);
+    }
+
+    try {
+      await runMetadata({
+        model,
+        locales: options.locale,
+        concurrency: options.concurrency,
+        environment: options.env,
+      });
+    } catch (error) {
+      console.error("\n❌ Metadata pipeline failed:", error);
       process.exit(1);
     }
   });

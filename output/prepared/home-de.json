@@ -1,24 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "home",
     "locale": "de",
     "seo": {
-      "title": "KI-Chat Web-App",
-      "description": "Ein anspruchsvoller KI-Chat-Assistent, der darauf ausgelegt ist, intelligente Antworten zu liefern, sinnvolle Dialoge zu führen und ein nahtloses Konversationserlebnis zu bieten."
+      "title": "AI Chat Web-App",
+      "description": "Ein anspruchsvoller KI-Chat-Assistent, der intelligente Antworten liefert, sinnvoll in Dialoge eintaucht und eine nahtlose Konversationserfahrung bietet."
     },
-    "events": {
-      "viewPageEventName": "view_landing",
-      "landing_folder": "/",
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "ai-chat.hero-section",
         "fe_component": "Hero",
-        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">KI-Chat: <strong class=\"font-black\">Mehrere KI</strong><br><strong class=\"font-black\">Modelle, </strong>Eine leistungsstarke Plattform</h1>",
-        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chatten Sie mit verschiedenen KI-Modellen, um das passende Modell für Sie zu finden</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Entdecken Sie eine Welt der KI an einem Ort. Chatten Sie mit verschiedenen Modellen, vergleichen Sie deren Stärken und nutzen Sie KI-Technologie optimal. Ganz gleich, ob Sie präzise Recherchen, Content-Erstellung, Sprachübersetzung, Bildgenerierung oder Programmierhilfe benötigen — wir haben das passende Modell für Sie.</p>",
+        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Mehrere KI-Modelle</strong><br><strong class=\"font-black\">Eine leistungsstarke Plattform</strong></h1>",
+        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chatten Sie mit verschiedenen KI-Modellen, um Ihr passendes Modell zu finden.</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Entdecken Sie eine Welt der KI an einem Ort. Chatten Sie mit verschiedenen Modellen, vergleichen Sie deren Stärken und holen Sie das Maximum aus der KI-Technologie heraus. Ob Sie präzise Recherchen, Content-Erstellung, Sprachübersetzung, Bildgenerierung oder Programmierhilfe benötigen, wir haben das passende Modell für Sie.</p>",
         "cta": {
           "href": "https://chat.aichatapp.ai/login",
           "text": "Kostenlos starten",
@@ -26,42 +22,42 @@
           "icon": "arrow-right"
         },
         "media": {
-          "dark": 9,
-          "light": 8
+          "light": 8,
+          "dark": 9
         }
       },
       {
         "__component": "ai-chat.carousel-section",
         "fe_component": "Carousel",
-        "title": "Creative <strong class='text-primary'>Reviews</strong>",
+        "title": "Kreative <strong class='text-primary'>Bewertungen</strong>",
         "items": [
           {
             "title": "Intelligentes Schreibwerkzeug",
-            "description": "“Diese Plattform integriert sich nahtlos in meinen täglichen Arbeitsablauf als Technikprofi und bietet beeindruckende Flexibilität und Anpassungsmöglichkeiten, die mein kreatives Problemlösen verbessern.”",
+            "description": "„Diese Plattform fügt sich nahtlos in meinen täglichen Arbeitsablauf als Tech-Profi ein und bietet eine beeindruckende Flexibilität und Anpassungsmöglichkeiten, die meine kreative Problemlösung verbessern.“",
             "rating": 5,
             "author": "Matthias Engelhardt"
           },
           {
-            "title": "Intelligenter Textassistent",
-            "description": "“Als täglicher Nutzer im kreativen Tech-Bereich bin ich von der Anpassungsfähigkeit der Plattform beeindruckt. Sie befähigt mich, Interaktionen genau auf die Anforderungen meines Projekts zuzuschneiden.”",
+            "title": "Brillanter Textassistent",
+            "description": "„Als tägliche Nutzerin im kreativen Tech-Bereich bin ich von der Anpassungsfähigkeit der Plattform beeindruckt. Sie befähigt mich, Interaktionen genau auf die Anforderungen meines Projekts abzustimmen.“",
             "rating": 5,
             "author": "Sofia Valenti"
           },
           {
-            "title": "Müheloser Schreibbegleiter",
-            "description": "“Ein äußerst zuverlässiges Werkzeug für Technikprofis, das dynamische Anpassungsoptionen bietet, die sich perfekt in die schnelllebigen Anforderungen der kreativen Branche integrieren.”",
+            "title": "Leichte Schreibassistenz",
+            "description": "„Ein äußerst zuverlässiges Werkzeug für Tech-Profis, das dynamische Anpassungsoptionen bietet, die perfekt zu den anspruchsvollen, schnelllebigen Anforderungen der Kreativbranche passen.“",
             "rating": 5,
             "author": "Heinrich Schreiber"
           },
           {
-            "title": "Fortschrittlicher Schreiber",
-            "description": "“Das innovative Design der Plattform und der nutzerorientierte Ansatz machen sie zu einem unverzichtbaren Bestandteil meines täglichen Werkzeugkastens, insbesondere bei der Bewältigung komplexer Technikprojekte.”",
+            "title": "Fortgeschrittene Schreibassistenz",
+            "description": "„Das innovative Design der Plattform und der nutzerzentrierte Ansatz machen sie zu einem unverzichtbaren Bestandteil meines täglichen Werkzeugkastens, insbesondere bei der Verwaltung komplexer Tech-Projekte.“",
             "rating": 5,
             "author": "Elisabeth van der Meer"
           },
           {
-            "title": "Kreativer Wortkünstler",
-            "description": "“Es ist ein echter Wendepunkt für meine kreative Arbeit, da es sich mühelos an wandelnde Anforderungen anpasst – eine ideale Lösung für den täglichen Tech-Einsatz.”",
+            "title": "Kreativer Wortschmied",
+            "description": "„Es ist ein echter Wendepunkt für meine kreative Arbeit, da es sich mühelos an fortlaufend ändernde Anforderungen anpassen lässt – eine ideale Lösung für den täglichen Tech-Einsatz.“",
             "rating": 5,
             "author": "Andreas Sorensen"
           }
@@ -70,20 +66,19 @@
       {
         "__component": "ai-chat.plan-section",
         "fe_component": "Plans",
-        "title": "Go <strong class='text-primary'>Pro</strong> für unbegrenzte Nutzung",
+        "title": "Wechseln Sie zu <strong class='text-primary'>Pro</strong> für unbegrenzte Nutzung",
         "items": [
           {
             "isPopular": null,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Jetzt starten",
-              "aria_label": "Jetzt starten",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "€0,67 pro Tag",
+              "duration": "Zugriff für 1 Monat",
+              "fullPrice": "€19,99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% werbefrei",
+                "title": "100 % werbefrei",
                 "subtitle": "Keine Ablenkungen"
               },
               {
@@ -93,28 +88,28 @@
               },
               {
                 "icon": "svgonly/infinite",
-                "title": "Grenzen vergessen",
-                "subtitle": "Keine Sorge, verwenden Sie es so viel Sie benötigen."
+                "title": "Begrenzungen vergessen",
+                "subtitle": "Keine Sorge, verwenden Sie es nach Belieben."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0.67 pro Tag",
-              "duration": "1 Monat Zugriff",
-              "fullPrice": "$19.99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Jetzt starten",
+              "aria_label": "Jetzt starten",
+              "icon": null
             }
           },
           {
             "isPopular": true,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Jetzt starten",
-              "aria_label": "Jetzt starten",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "€0,44 pro Tag",
+              "duration": "Zugriff für 3 Monate",
+              "fullPrice": "€39,99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% werbefrei",
+                "title": "100 % werbefrei",
                 "subtitle": "Keine Ablenkungen"
               },
               {
@@ -124,28 +119,28 @@
               },
               {
                 "icon": "svgonly/infinite",
-                "title": "Grenzen vergessen",
-                "subtitle": "Keine Sorge, verwenden Sie es so viel Sie benötigen."
+                "title": "Begrenzungen vergessen",
+                "subtitle": "Keine Sorge, verwenden Sie es nach Belieben."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0.44 pro Tag",
-              "duration": "3 Monate Zugriff",
-              "fullPrice": "$39.99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Jetzt starten",
+              "aria_label": "Jetzt starten",
+              "icon": null
             }
           },
           {
             "isPopular": null,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Jetzt starten",
-              "aria_label": "Jetzt starten",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "€0,19 pro Tag",
+              "duration": "Zugriff für 12 Monate",
+              "fullPrice": "€69,99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% werbefrei",
+                "title": "100 % werbefrei",
                 "subtitle": "Keine Ablenkungen"
               },
               {
@@ -155,14 +150,15 @@
               },
               {
                 "icon": "svgonly/infinite",
-                "title": "Grenzen vergessen",
-                "subtitle": "Keine Sorge, verwenden Sie es so viel Sie benötigen."
+                "title": "Begrenzungen vergessen",
+                "subtitle": "Keine Sorge, verwenden Sie es nach Belieben."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0.19 pro Tag",
-              "duration": "12 Monate Zugriff",
-              "fullPrice": "$69.99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Jetzt starten",
+              "aria_label": "Jetzt starten",
+              "icon": null
             }
           }
         ]
@@ -172,96 +168,88 @@
         "fe_component": "Features",
         "client": true,
         "title": "WebbApp <strong class='text-primary'>Funktionen</strong>",
-        "logo": {
-          "dark": null,
-          "light": 15
+        "media": {
+          "light": 13,
+          "dark": 14
         },
         "tabs": [
           {
-            "title": "AI Chat: Ihr ultimativer KI-Chat-Begleiter",
-            "text": "AI Chat setzt modernste KI mit einem natürlichen Dialogfluss ein und bietet ein Chat-Erlebnis, das sowohl intuitiv als auch ansprechend ist. Ob zwanglose Gespräche oder das Bewältigen von Herausforderungen – AI Chat ist Ihre zuverlässige KI für sinnvolle, dynamische und menschenähnliche Interaktionen.",
+            "title": "AI Chat: Ihr ultimativer KI-Konversationspartner",
+            "text": "AI Chat verwendet fortschrittliche KI mit natürlichem Dialogfluss und bietet ein Chat-Erlebnis, das so intuitiv wie fesselnd ist. Ob es um zwanglose Gespräche oder das Lösen von Herausforderungen geht, AI Chat ist Ihre zuverlässige KI für sinnvolle, dynamische und menschenähnliche Interaktionen.",
+            "icon": {
+              "light": 11,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Jetzt starten",
               "aria_label": "Jetzt starten",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 11
             }
           },
           {
-            "title": "AI Chat: Ihr intelligenter Chat-Begleiter",
-            "text": "AI Chat ist Ihre Anlaufstelle für dynamische Gespräche. Es verbindet modernste Sprachverarbeitung mit einer benutzerfreundlichen Oberfläche und verwandelt jede Interaktion in ein nahtloses, personalisiertes Erlebnis. Tauchen Sie ein in fesselnde, intuitive Chats, die sich mit Ihren einzigartigen Vorlieben weiterentwickeln.",
+            "title": "AI Chat: Ihr intelligenter Chat-Partner",
+            "text": "AI Chat ist Ihre Go-to-KI für dynamische Gespräche. Sie verbindet modernste Sprachverarbeitung mit einer benutzerfreundlichen Oberfläche und verwandelt jede Interaktion in eine nahtlose, personalisierte Erfahrung. Tauchen Sie in ansprechende, intuitive Chats ein, die sich mit Ihren einzigartigen Vorlieben weiterentwickeln.",
+            "icon": {
+              "light": 10,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Jetzt starten",
               "aria_label": "Jetzt starten",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 10
             }
           },
           {
-            "title": "AI Chat: Ihr KI-gesteuertes Gesprächsgenie",
-            "text": "AI Chat verbessert Ihre Gespräche mit einer fortschrittlichen KI, die mit Chat GPT 4o entwickelt wurde, um schnelle, aufschlussreiche Antworten zu liefern, ansprechende Interaktionen zu inspirieren und ein nahtloses Erlebnis zu bieten. Sie lernt und passt sich kontinuierlich an und liefert bei jedem Austausch wertvolle Erkenntnisse.",
+            "title": "AI Chat: Ihr ultimativer KI-Konversationspartner",
+            "text": "AI Chat verwendet fortschrittliche KI mit natürlichem Dialogfluss und bietet ein Chat-Erlebnis, das so intuitiv wie ansprechend ist. Ob es um zwanglose Gespräche oder das Lösen von Herausforderungen geht, AI Chat ist Ihre zuverlässige KI für sinnvolle, dynamische und menschenähnliche Interaktionen.",
+            "icon": {
+              "light": 12,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Jetzt starten",
               "aria_label": "Jetzt starten",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 12
             }
           }
-        ],
-        "media": {
-          "dark": 14,
-          "light": 13
-        },
-        "headingsBackground": {
-          "dark": null,
-          "light": 16
-        }
+        ]
       },
       {
         "__component": "ai-chat.faq-section",
         "fe_component": "FAQ",
         "client": true,
-        "title": "<p><strong>Häufige </strong><span style=\"color:#01b78d;\"><strong>Fragen</strong></span></p>",
+        "title": "<p><strong>Häufig gestellte </strong><span style=\"color:#01b78d;\"><strong>Fragen</strong></span></p>",
         "items": [
           {
-            "title": "Was genau ist AI Chat und welche Vorteile bietet es mir?",
-            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat ist ein leistungsstarker KI-Chatbot, der mehrere fortschrittliche KI-Modelle integriert, darunter OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek und Flux, um schnelle und intelligente Antworten für alle Ihre Bedürfnisse zu liefern.</li><li>Die Vorteile der Nutzung von AI Chat umfassen:<ul style=\"list-style-type:square;\"><li>Personalisierung: Passen Sie Ihre KI-Erfahrung an, indem Sie aus verschiedenen Modellen wählen, um Ihren Vorlieben und Anforderungen gerecht zu werden.</li><li>Geschwindigkeit &amp; Zeitersparnis: AI Chat liefert schnelle, präzise Antworten aus mehreren fortschrittlichen KI-Modellen, erleichtert Ihre Aufgaben und spart Zeit.</li><li>Unbegrenzter Zugriff: Greifen Sie jederzeit und überall auf erstklassigen KI-Support zu – mit einer Vielzahl von Modellen direkt zur Hand.</li><li>Kontinuierliche Updates: Wir ergänzen ständig die neuesten KI-Modelle und Updates, damit Sie Zugriff auf fortschrittlichste Technologien haben.</li></ul></li></ul>"
+            "title": "Was genau ist AI Chat und welche Vorteile bietet es Ihnen?",
+            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat ist ein leistungsstarker KI-Chatbot, der mehrere fortschrittliche KI-Modelle integriert, darunter OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek und Flux, um schnelle und intelligente Antworten für alle Ihre Bedürfnisse zu liefern.</li><li>Zu den Vorteilen von AI Chat gehören:<ul style=\"list-style-type:square;\"><li>Anpassung: Passen Sie Ihre KI-Erfahrung an, indem Sie aus verschiedenen Modellen wählen, die Ihren Vorlieben und Anforderungen entsprechen.</li><li>Geschwindigkeit und Zeitersparnis: AI Chat liefert schnelle, präzise Antworten aus mehreren fortschrittlichen KI-Modellen und rationalisiert Ihre Aufgaben, spart Zeit.</li><li>Unbegrenzter Zugriff: Greifen Sie jederzeit und überall auf erstklassigen KI-Support zu – mit einer Vielzahl von Modellen direkt zur Hand.</li><li>Kontinuierliche Updates: Wir fügen ständig die neuesten KI-Modelle und Updates hinzu, damit Sie Zugriff auf die fortschrittlichsten und aktuellsten Technologien haben.</li></ul></li></ul>"
           },
           {
-            "title": "Warum abonnieren? Das erhalten Sie",
-            "content": "<ul><li>Entsperren Sie exklusive Funktionen, schnelleren Zugriff und personalisierten Support, der darauf ausgelegt ist, Ihr Erlebnis zu verbessern. Dazu gehören<ul><li>Erhalten Sie präzise, ausführliche Antworten auf jede Anfrage.</li><li>Genießen Sie längere Nachrichtenlimits für detailliertere Gespräche.</li><li>Unbegrenzte Chats und Nachrichten—Chat so lange Sie benötigen.</li><li>Erleben Sie schnelle Reaktionszeiten, jedes Mal.</li><li>Keine Unterbrechungen—nur reine, werbefreie Gespräche.</li></ul></li></ul>"
+            "title": "Warum abonnieren? So profitieren Sie",
+            "content": "<ul><li>Entsperren Sie exklusive Funktionen, schnelleren Zugriff und personalisierten Support, der darauf ausgelegt ist, Ihre Erfahrung zu verbessern. Dazu gehören<ul><li>Präzise, tiefgehende Antworten auf jede Anfrage.</li><li>Erweiterte Nachrichtenlimits für detailliertere Unterhaltungen.</li><li>Unbegrenzte Chats und Nachrichten—Chatten Sie so lange Sie möchten.</li><li>Schnelle Reaktionszeiten, jedes Mal.</li><li>Keine Unterbrechungen—nur reine, werbefreie Gespräche.</li></ul></li></ul>"
           },
           {
             "title": "Wie kündige ich mein Abonnement?",
-            "content": "<p>Um Ihr Abonnement zu kündigen, öffnen Sie bitte den Bereich 'Konto' in den Einstellungen und klicken Sie auf die Schaltfläche 'Abonnement kündigen'. Ihr Abonnement wird am Ende des aktuellen Abrechnungszeitraums gekündigt, was zum Ende Ihrer Premium-Mitgliedschaft führt. Nach der Kündigung fallen keine weiteren Zahlungen an.</p>"
+            "content": "<p>Um Ihr Abonnement zu kündigen, öffnen Sie bitte den Bereich ‚Konto‘ in den Einstellungen und klicken Sie auf die Schaltfläche ‚Abonnement kündigen‘. Ihr Abonnement wird am Ende des aktuellen Abrechnungszeitraums gekündigt, wodurch Ihre Premium-Mitgliedschaft beendet wird. Nach der Kündigung fallen keine weiteren Zahlungen an.</p>"
           },
           {
-            "title": "Kann ich meinen Abonnementplan upgraden oder downgraden?",
-            "content": "<p>Ja, Sie können Ihren Plan jederzeit einfach über die Kontoeinstellungen upgraden oder downgraden. Änderungen werden zu Beginn des nächsten Abrechnungszeitraums wirksam.</p>"
+            "title": "Kann ich meinen Abonnementsplan upgraden oder downgraden?",
+            "content": "<p>Ja, Sie können Ihren Tarif jederzeit über die Kontoeinstellungen problemlos upgraden oder downgraden. Änderungen werden zum Beginn des nächsten Abrechnungszeitraums übernommen.</p>"
           },
           {
-            "title": "Ist die Plattform für Tech-Profis und kreative Nutzer geeignet?",
-            "content": "<p>Absolut! Die Plattform ist darauf ausgelegt, eine breite Nutzerschaft zu bedienen – von technischen Experten bis hin zu kreativen Fachleuten – und bietet Werkzeuge, die Produktivität und Innovation fördern.</p>"
+            "title": "Ist die Plattform sowohl für Tech-Profis als auch für kreative Nutzer geeignet?",
+            "content": "<p>Auf jeden Fall! Die Plattform ist darauf ausgelegt, eine breite Palette von Nutzern zu bedienen – von technischen Experten bis hin zu kreativen Profis – und bietet Werkzeuge, die Produktivität und Innovation fördern.</p>"
           },
           {
             "title": "Wie sicher sind meine Daten auf der Plattform?",
-            "content": "<p>Die Plattform folgt strengen Sicherheitsprotokollen, die sicherstellen, dass Benutzerdaten und Interaktionen jederzeit verschlüsselt und geschützt sind.</p><p>&nbsp;</p>"
+            "content": "<p>Die Plattform folgt strengen Sicherheitsprotokollen und stellt sicher, dass Benutzerdaten und Interaktionen jederzeit verschlüsselt und geschützt sind.</p><p>&nbsp;</p>"
           },
           {
-            "title": "Welche Anpassungsoptionen für KI-Modelle stehen zur Verfügung, um die Benutzererfahrung zu verbessern?",
-            "content": "<p>Benutzer können Reaktionsverhalten, Ausgabeformat, Sprachstil und vieles mehr anpassen, sodass die Plattform sich an spezifische operative Bedürfnisse oder kreative Arbeitsabläufe anpasst.</p><p>&nbsp;</p>"
+            "title": "Welche KI-Modell-Anpassungsoptionen gibt es, um die Benutzererfahrung zu verbessern?",
+            "content": "<p>Nutzer können das Reaktionsverhalten, das Ausgabformat, den Sprachstil und vieles mehr anpassen, damit die Plattform sich an spezifische betriebliche Anforderungen oder kreative Arbeitsabläufe anpasst.</p><p>&nbsp;</p>"
           }
         ]
       }

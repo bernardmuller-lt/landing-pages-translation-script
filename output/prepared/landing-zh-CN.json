@@ -1,0 +1,238 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "ai-chat",
+    "slug": "landing",
+    "locale": "zh-CN",
+    "seo": {
+      "title": "ChatAI 网络应用",
+      "description": "一款先进的 AI 聊天助手，旨在提供智能响应、进行有意义的对话并带来无缝的对话体验。"
+    },
+    "events": null,
+    "sections": [
+      {
+        "__component": "ai-chat.hero-section",
+        "fe_component": "Hero",
+        "title": "<h1 class=\"font-bold\"><span style=\"font-size:72px;\">AI Chats</span></h1>",
+        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">通过 AI 提升你的日常体验，一次一个对话。</p>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/register",
+          "text": "免费试用",
+          "aria_label": "免费试用",
+          "icon": null
+        },
+        "media": {
+          "light": 17,
+          "dark": 18
+        }
+      },
+      {
+        "__component": "ai-chat.milestone-section",
+        "fe_component": "Milestones",
+        "title": "",
+        "items": [
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> 条五星好评</p>",
+            "media": {
+              "light": 19,
+              "dark": 20
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">首个</strong> AI Chat机器人</p>",
+            "media": {
+              "light": 21,
+              "dark": 22
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30M+</strong> 全球用户</p>",
+            "media": {
+              "light": 23,
+              "dark": 24
+            }
+          },
+          {
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">由</strong> 先进的 AI 模型驱动</p>",
+            "media": {
+              "light": 25,
+              "dark": 26
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.carousel-section",
+        "fe_component": "Carousel",
+        "title": "数百万用户信赖",
+        "items": [
+          {
+            "title": "智能写作工具",
+            "description": "该平台能无缝融入我作为科技专业人员的日常工作流程，提供令人印象深刻的灵活性和定制选项，提升我的创造性问题解决能力。",
+            "rating": 5,
+            "author": "Matthias Engelhardt"
+          },
+          {
+            "title": "杰出文本助手",
+            "description": "作为创意技术领域的日常用户，我对该平台的适应性印象深刻。它使我能够将互动精准地定制以满足我的项目需求。",
+            "rating": 5,
+            "author": "Sofia Valenti"
+          },
+          {
+            "title": "高级撰写助手",
+            "description": "一款高度可靠的工具，面向技术专业人士，提供动态定制选项，能够完美适应创意行业的快节奏需求。",
+            "rating": 5,
+            "author": "Heinrich Schreiber"
+          },
+          {
+            "title": "高级撰写助手",
+            "description": "该平台的创新设计和以用户为中心的方法使其成为我日常工具包的关键组成部分，特别是在管理复杂技术项目时。",
+            "rating": 5,
+            "author": "Elisabeth van der Meer"
+          },
+          {
+            "title": "创意文案大师",
+            "description": "它对我的创作工作来说是一个颠覆性的改变，能够轻松进行定制和调整以适应不断变化的需求——是日常科技使用的理想解决方案。",
+            "rating": 5,
+            "author": "Andreas Sorensen"
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.perk-comparison-table",
+        "header": [
+          {
+            "heading": null
+          },
+          {
+            "heading": "<p><span style=\"font-size:20px;\">免费</span></p>"
+          },
+          {
+            "heading": "<p class=\"pl-8\"><span style=\"font-size:20px;\">专业版</span></p>"
+          }
+        ],
+        "rows": [
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPT 解答</p>",
+            "tier": "both",
+            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">通往更智能对话的入口</p>",
+            "icon": {
+              "light": 27,
+              "dark": 28
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">访问 GPT-5</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">使用先进的 AI 提供更高层次的解答</p>",
+            "icon": {
+              "light": 29,
+              "dark": 30
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">图像生成</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">使用可用的最佳 AI 模型（如 Nano Banana）将想法转化为惊艳的图像</p>",
+            "icon": {
+              "light": 31,
+              "dark": 32
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">访问高级模型</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT、DeepSeek、Gemini Pro、Claude Sonnet、Grok 等等！</p>",
+            "icon": {
+              "light": 33,
+              "dark": 34
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">解锁高级工具</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">与 PDF、Docs、Excel 等等聊天</p>",
+            "icon": {
+              "light": 35,
+              "dark": 36
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">无广告</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">纯粹的 AI 助手，无干扰</p>",
+            "icon": {
+              "light": 37,
+              "dark": 38
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.high-light-section",
+        "fe_component": "Highlights",
+        "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AI Chat</strong> 功能</p>",
+        "items": [
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">即时智能对话</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat 是您进行动态对话的首选伙伴</strong>。它将先进的语言模型与易用界面结合，创造无缝、个性化的互动。享受智能、富有互动性的聊天体验——无需复制粘贴或切换标签页。只在一个地方即可获得更快、量身定制的回答。</p></div>",
+            "media": {
+              "light": 39,
+              "dark": null
+            },
+            "icon": null
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">将您的创意通过 🍌 Nano Banana 转化为惊艳的图像</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>您的创造力没有界限。只需描述您的想法，AI Chat 就会把它转化为惊艳的视觉效果——不需要设计技能。从想象到图像在几秒内完成，随时激发灵感、分享或继续创作。只需您的话语。纯粹的创作。</p></div>",
+            "media": {
+              "light": 40,
+              "dark": null
+            },
+            "icon": {
+              "light": 41,
+              "dark": null
+            }
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">在数秒内掌握您的 PDFs</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>在几秒内从您的 PDF 获取更多。对文档进行摘要、翻译和分析，瞬间完成。有疑问？AI Chat 提供快速、准确的答案，帮助您节省时间并专注于最重要的事情。它智能、快速，专为提高生产力而生。</p></div>",
+            "media": {
+              "light": 42,
+              "dark": null
+            },
+            "icon": {
+              "light": 43,
+              "dark": null
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.topics-section",
+        "fe_component": "Topics",
+        "title": "<p><strong class=\"text-primary\">AI Chat</strong> 对以下方面很有帮助</p>",
+        "items": [
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">💼</span>营销</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">✈️</span>旅行</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">📚</span>教育</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🚀</span>职业</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">‍‍👩🏻‍💻</span>编码</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🗞</span>新闻</p>"
+          },
+          {
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">📊</span>演示</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,29 +1,24 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "support",
     "locale": "pl",
     "seo": {
-      "title": "Wsparcie - Czat AI",
-      "description": "Czat AI"
+      "title": "Wsparcie - AI Chat",
+      "description": "AI Chat"
     },
-    "events": {
-      "viewPageEventName": "Contact_Support",
-      "landing_folder": null,
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "shared.support",
         "fe_component": "Support",
-        "title": "Wsparcie klienta",
-        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Potrzebujesz pomocy lub masz pytanie? Jesteśmy do Twojej dyspozycji.</h2><p>Nasz dedykowany zespół wsparcia jest gotowy, aby pomóc w wszelkich pytaniach dotyczących naszych narzędzi zasilanych sztuczną inteligencją, integracji z chatbotami oraz funkcji generowania obrazów. Niezależnie od tego, czy potrzebujesz wsparcia technicznego, pomocy w rozliczeniach, czy masz opinię do przekazania, z przyjemnością pomożemy.</p><p>Wypełnij poniższy formularz, a skontaktujemy się z Tobą tak szybko, jak to będzie możliwe.</p><p>Sprawmy, aby Twoje doświadczenie z AI było płynne i wydajne!</p></div>",
-        "event": null,
+        "title": "Obsługa klienta",
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Potrzebujesz pomocy lub masz pytanie? Jesteśmy do dyspozycji!</h2><p>Nasz zespół wsparcia jest gotowy, aby pomóc w razie pytań dotyczących naszych narzędzi opartych na sztucznej inteligencji, integracji chatbotów lub funkcji generowania obrazów. Niezależnie od tego, czy potrzebujesz wsparcia technicznego, pomocy w rozliczeniach, czy chcesz podzielić się opinią, chętnie pomożemy.</p><p>Wypełnij poniższy formularz, a skontaktujemy się z Tobą tak szybko, jak to możliwe.</p><p>Sprawmy, aby Twoje doświadczenie z AI było płynne i efektywne!</p></div>",
         "cta": {
           "href": "https://chat.aichatapp.ai/app/ai-chat",
-          "text": "Powrót do czatu",
-          "aria_label": "Powrót do czatu",
+          "text": "Wróć do czatu",
+          "aria_label": "Wróć do czatu",
           "icon": "arrow-left"
         }
       }

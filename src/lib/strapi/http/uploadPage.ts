@@ -29,7 +29,7 @@ export async function uploadPage(payload: APIPayload): Promise<UploadResponse> {
 
   try {
     const response = await fetch(
-      endpoint.concat(`?locale=${payload.data.locale}`),
+      endpoint.concat(`/pages?locale=${payload.data.locale}`),
       {
         method: "POST",
         headers: {

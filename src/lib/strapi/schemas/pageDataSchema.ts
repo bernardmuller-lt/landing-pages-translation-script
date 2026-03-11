@@ -234,7 +234,7 @@ const OnBoardingContentItemSchema = z.object({
   title2: z.string(),
   title2Highlight: z.boolean(),
   description: z.string(),
-  isContinue: z.boolean(),
+  isContinue: z.boolean().nullable().optional(),
 });
 
 const OnBoardingContentSectionSchema = z.object({
@@ -283,7 +283,7 @@ export const CleanPageDataSchema = z.object({
   locale: z.string(),
   seo: SEOSchema,
   sections: z.array(SectionSchema),
-  events: TrackingEventsSchema.nullable(),
+  events: TrackingEventsSchema.nullable().optional(),
 });
 
 /**
@@ -296,7 +296,7 @@ export const APIPayloadSchema = z.object({
     slug: z.string(),
     locale: z.string(),
     seo: SEOSchema,
-    events: TrackingEventsSchema.nullable(),
+    events: TrackingEventsSchema.nullable().optional(),
     sections: z.array(SectionSchema),
   }),
 });

@@ -1,0 +1,258 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "ai-chat",
+    "slug": "home",
+    "locale": "sv-SE",
+    "seo": {
+      "title": "AI Chat Webbapplikation",
+      "description": "En sofistikerad AI-chattassistent som är utformad för att ge intelligenta svar, delta i meningsfulla dialoger och leverera en sömlös konversationserfarenhet."
+    },
+    "events": null,
+    "sections": [
+      {
+        "__component": "ai-chat.hero-section",
+        "fe_component": "Hero",
+        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Flera AI-modeller</strong><br><strong class=\"font-black\">Modeller, </strong>En kraftfull plattform</h1>",
+        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chatta med olika AI-modeller för att hitta din modell</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Upptäck en värld av AI på ett och samma ställe. Chatta med olika modeller, jämför deras styrkor och ta AI-teknologin till nästa nivå. Oavsett om du behöver noggrann forskning, innehållsskapande, översättning av språk, bildgenerering eller kodhjälp, har vi rätt modell för dig.</p>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/login",
+          "text": "Starta gratis",
+          "aria_label": "Starta gratis",
+          "icon": "arrow-right"
+        },
+        "media": {
+          "light": 8,
+          "dark": 9
+        }
+      },
+      {
+        "__component": "ai-chat.carousel-section",
+        "fe_component": "Carousel",
+        "title": "Kreativa <strong class='text-primary'>Recensioner</strong>",
+        "items": [
+          {
+            "title": "Smart skrivverktyg",
+            "description": "Denna plattform integreras sömlöst i mitt dagliga arbetsflöde som teknikproffs och erbjuder imponerande flexibilitet och anpassningsmöjligheter som förbättrar min kreativa problemlösning.",
+            "rating": 5,
+            "author": "Matthias Engelhardt"
+          },
+          {
+            "title": "Strålande textassistent",
+            "description": "Som daglig användare inom kreativa teknikområden är jag imponerad av plattformens anpassningsbarhet. Den gör det möjligt för mig att skräddarsy interaktionerna exakt efter mina projektbehov.",
+            "rating": 5,
+            "author": "Sofia Valenti"
+          },
+          {
+            "title": "Enkel skrivassistent",
+            "description": "Ett mycket pålitligt verktyg för teknikproffs som erbjuder dynamiska anpassningsalternativ som passar perfekt in i den snabba takten i den kreativa branschen.",
+            "rating": 5,
+            "author": "Heinrich Schreiber"
+          },
+          {
+            "title": "Avancerad Skrivassistent",
+            "description": "Det är en riktig spelväxlare för mitt kreativa arbete, tack vare dess förmåga att anpassa och justera efter föränderliga krav utan ansträngning—en idealisk lösning för daglig teknikanvändning.",
+            "rating": 5,
+            "author": "Elisabeth van der Meer"
+          },
+          {
+            "title": "Kreativ ordkonstnär",
+            "description": "Det är en riktig spelväxlare för mitt kreativa arbete, tack vare dess förmåga att anpassa och justera efter föränderliga krav utan ansträngning—en idealisk lösning för daglig teknikanvändning.",
+            "rating": 5,
+            "author": "Andreas Sorensen"
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.plan-section",
+        "fe_component": "Plans",
+        "title": "Gå <strong class='text-primary'>Pro</strong> för obegränsad användning",
+        "items": [
+          {
+            "isPopular": null,
+            "priceDetails": {
+              "pricePerDay": "$0.67 per dag",
+              "duration": "1 månads åtkomst",
+              "fullPrice": "$19.99"
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100% reklamfri",
+                "subtitle": "Inga distraktioner"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Bästa AI-modeller på en enda plattform",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux och fler!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Glöm begränsningar",
+                "subtitle": "Ingen oro, använd det så mycket du behöver."
+              }
+            ],
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom igång",
+              "aria_label": "Kom igång",
+              "icon": null
+            }
+          },
+          {
+            "isPopular": true,
+            "priceDetails": {
+              "pricePerDay": "$0.44 per dag",
+              "duration": "3 månaders åtkomst",
+              "fullPrice": "$39.99"
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100% reklamfri",
+                "subtitle": "Inga distraktioner"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Bästa AI-modeller på en enda plattform",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux och fler!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Glöm begränsningar",
+                "subtitle": "Ingen oro, använd det så mycket du behöver."
+              }
+            ],
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom igång",
+              "aria_label": "Kom igång",
+              "icon": null
+            }
+          },
+          {
+            "isPopular": null,
+            "priceDetails": {
+              "pricePerDay": "$0.19 per dag",
+              "duration": "12 månaders åtkomst",
+              "fullPrice": "$69.99"
+            },
+            "description": [
+              {
+                "icon": "svgonly/bullseye",
+                "title": "100% reklamfri",
+                "subtitle": "Inga distraktioner"
+              },
+              {
+                "icon": "svgonly/chat",
+                "title": "Bästa AI-modeller på en enda plattform",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux och fler!"
+              },
+              {
+                "icon": "svgonly/infinite",
+                "title": "Glöm begränsningar",
+                "subtitle": "Ingen oro, använd det så mycket du behöver."
+              }
+            ],
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom igång",
+              "aria_label": "Kom igång",
+              "icon": null
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.feature-section",
+        "fe_component": "Features",
+        "client": true,
+        "title": "WebbApp <strong class='text-primary'>Funktioner</strong>",
+        "media": {
+          "light": 13,
+          "dark": 14
+        },
+        "tabs": [
+          {
+            "title": "AI Chat: Din ultimata AI-samtalsallierade",
+            "text": "AI Chat använder banbrytande AI med naturlig dialogflöde och levererar en chat-upplevelse som är lika intuitiv som engagerande. Oavsett om det handlar om vardagliga samtal eller att ta itu med utmaningar är AI Chat din pålitliga AI för meningsfulla, dynamiska och människoliknande interaktioner.",
+            "icon": {
+              "light": 11,
+              "dark": null
+            },
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom igång",
+              "aria_label": "Kom igång",
+              "icon": "arrow-right"
+            }
+          },
+          {
+            "title": "AI Chat: Din intelligenta chat-kompis",
+            "text": "AI Chat är din främsta AI för dynamiska konversationer. Den blandar banbrytande språkbehandling med ett användarvänligt gränssnitt och gör varje interaktion till en sömlös, personlig upplevelse. Fördjupa dig i engagerande, intuitiva chattar som utvecklas i takt med dina unika preferenser.",
+            "icon": {
+              "light": 10,
+              "dark": null
+            },
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom igång",
+              "aria_label": "Kom igång",
+              "icon": "arrow-right"
+            }
+          },
+          {
+            "title": "AI Chat: Din ultimata AI-samtalsallierade",
+            "text": "AI Chat använder banbrytande AI med naturlig dialogflöde och levererar en chat-upplevelse som är lika intuitiv som engagerande. Oavsett om det handlar om vardagliga samtal eller att ta itu med utmaningar är AI Chat din pålitliga AI för meningsfulla, dynamiska och människoliknande interaktioner.",
+            "icon": {
+              "light": 12,
+              "dark": null
+            },
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom igång",
+              "aria_label": "Kom igång",
+              "icon": "arrow-right"
+            }
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.faq-section",
+        "fe_component": "FAQ",
+        "client": true,
+        "title": "<p><strong>Vanliga </strong><span style=\"color:#01b78d;\"><strong>Frågor</strong></span></p>",
+        "items": [
+          {
+            "title": "Vad exakt är AI Chat och vilka fördelar erbjuder den mig?",
+            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat är en kraftfull AI-chattbot som integrerar flera avancerade AI-modeller, inklusive OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek och Flux för att ge snabba och intelligenta svar på alla dina behov.</li><li>Fördelarna med att använda AI Chat inkluderar:<ul style=\"list-style-type:square;\"><li>Personalisering: Anpassa din AI-upplevelse genom att välja bland olika modeller som passar dina preferenser och krav.</li><li>Snabbhet och tidsbesparing: AI Chat levererar snabba, träffsäkra svar från flera banbrytande AI-modeller, vilket effektiviserar dina uppgifter och sparar tid.</li><li>Gränslös tillgänglighet: Få tillgång till förstklassigt AI-stöd när som helst, var som helst, med en rad modeller till hands.</li><li>Kontinuerliga uppdateringar: Vi lägger alltid till de senaste AI-modellerna och uppdateringarna så att du har tillgång till de mest avancerade och uppdaterade teknologierna.</li></ul></li></ul>"
+          },
+          {
+            "title": "Varför prenumerera? Det här är vad du får",
+            "content": "<ul><li>Frigör exklusiva funktioner, snabbare åtkomst och personlig support som syftar till att förbättra din upplevelse. Dessa inkluderar<ul><li>Få precisa, djupgående svar på varje fråga.</li><li>Njut av utökade meddelandebegränsningar för mer detaljerade konversationer.</li><li>Obegränsat antal samtal och meddelanden—Chatta så länge du behöver.</li><li>Upplev snabba svarstider, varje gång.</li><li>Inga avbrott—bara rena reklamfria samtal.</li></ul></li></ul>"
+          },
+          {
+            "title": "Hur avbryter jag min prenumeration?",
+            "content": "<p>För att avbryta din prenumeration, gå till fliken Konto i Inställningar och klicka på knappen Avbryt prenumeration. Din prenumeration kommer att avbrytas i slutet av den aktuella prenumerationsperioden, vilket leder till upphörandet av ditt premium-medlemskap. Du kommer inte att debiteras några ytterligare betalningar efter avbokningen.</p>"
+          },
+          {
+            "title": "Kan jag uppgradera eller nedgradera min prenumerationsplan?",
+            "content": "<p>Ja, du kan enkelt uppgradera eller nedgradera din plan när som helst via kontoinställningarna. Ändringarna tillämpas i början av nästa faktureringscykel.</p>"
+          },
+          {
+            "title": "Är plattformen lämplig för både teknikproffs och kreativa användare?",
+            "content": "<p>Självklart! Plattformen är utformad för att tillgodose ett brett spektrum av användare, från tekniska experter till kreativa yrkesverksamma, och erbjuder verktyg som ökar produktiviteten och innovationen.</p>"
+          },
+          {
+            "title": "Hur säkert är mina uppgifter på plattformen?",
+            "content": "<p>Plattformen följer strikta säkerhetsprotokoll och ser till att användardata och interaktioner är krypterade och skyddade när som helst.</p><p>&nbsp;</p>"
+          },
+          {
+            "title": "Vilka AI-modellanpassningar finns tillgängliga för att förbättra användarupplevelsen?",
+            "content": "<p>Användare kan justera responsbeteende, utdataformat, språkstil och mycket mer, vilket gör att plattformen kan anpassas efter specifika operativa behov eller kreativa arbetsflöden.</p><p>&nbsp;</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

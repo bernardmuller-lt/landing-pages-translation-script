@@ -1,0 +1,73 @@
+{
+  "id": 53,
+  "documentId": "silgqasltv7u4ofrxnrkhdjj",
+  "slug": "ai-chat-header",
+  "environment": "production",
+  "href": "/",
+  "createdAt": "2026-03-11T14:10:21.126Z",
+  "updatedAt": "2026-03-11T14:10:25.966Z",
+  "publishedAt": "2026-03-11T14:10:26.132Z",
+  "locale": "en",
+  "localizations": [],
+  "loginBtn": {
+    "id": 1699,
+    "href": "https://chat.aichatapp.ai/login",
+    "text": "Login",
+    "aria_label": "Login",
+    "icon": null,
+    "wide": null
+  },
+  "registerBtn": {
+    "id": 1700,
+    "href": "https://chat.aichatapp.ai/register",
+    "text": "Register",
+    "aria_label": "Register",
+    "icon": null,
+    "wide": null
+  },
+  "logo": {
+    "id": 3695,
+    "light": {
+      "id": 54,
+      "documentId": "xh218pr4t5dpgj8ugg4k6amz",
+      "name": "Logo-Light.svg",
+      "alternativeText": null,
+      "caption": null,
+      "width": 931,
+      "height": 500,
+      "formats": null,
+      "hash": "Logo_Light_07b7677d1b",
+      "ext": ".svg",
+      "mime": "image/svg+xml",
+      "size": 3.83,
+      "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Logo_Light_07b7677d1b.svg",
+      "previewUrl": null,
+      "provider": "strapi-provider-upload-strapi-cloud",
+      "provider_metadata": null,
+      "createdAt": "2026-03-10T11:22:43.342Z",
+      "updatedAt": "2026-03-10T11:22:43.342Z",
+      "publishedAt": "2026-03-10T11:22:43.342Z"
+    },
+    "dark": {
+      "id": 55,
+      "documentId": "a3vxgtd0sbgnd0onqnjm8gbu",
+      "name": "white-branding-logo.svg",
+      "alternativeText": null,
+      "caption": null,
+      "width": 931,
+      "height": 500,
+      "formats": null,
+      "hash": "white_branding_logo_b13eb6a416",
+      "ext": ".svg",
+      "mime": "image/svg+xml",
+      "size": 3.79,
+      "url": "https://big-dog-9e75d2515f.media.strapiapp.com/white_branding_logo_b13eb6a416.svg",
+      "previewUrl": null,
+      "provider": "strapi-provider-upload-strapi-cloud",
+      "provider_metadata": null,
+      "createdAt": "2026-03-10T11:22:57.485Z",
+      "updatedAt": "2026-03-10T11:22:57.485Z",
+      "publishedAt": "2026-03-10T11:22:57.486Z"
+    }
+  }
+}

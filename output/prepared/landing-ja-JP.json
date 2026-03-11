@@ -1,20 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "ja-JP",
     "seo": {
       "title": "ChatAI ウェブアプリ",
-      "description": "知的な回答を提供し、有意義な対話を行い、シームレスな会話体験を提供する高度なAIチャットアシスタントです。"
+      "description": "高度なAIチャットアシスタントは、知的な応答を提供し、有意義な対話を促進し、シームレスな会話体験を実現します。"
     },
     "events": null,
     "sections": [
       {
         "__component": "ai-chat.hero-section",
         "fe_component": "Hero",
-        "title": "<h1 class=\"text-left leading-[1.1] font-bold text-main text-[4.25rem] dark:text-white mb-2.5\">AIチャット</h1>",
-        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">AIで日々を高める、1回ずつのチャットで</p>",
+        "title": "<h1 class=\"font-bold\"><span style=\"font-size:72px;\">AI Chats</span></h1>",
+        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">AI で日々を前進させる。1回のチャットずつ、あなたの日常を高めます。</p>",
         "cta": {
           "href": "https://chat.aichatapp.ai/register",
           "text": "無料で開始",
@@ -22,8 +22,8 @@
           "icon": null
         },
         "media": {
-          "dark": 18,
-          "light": 17
+          "light": 17,
+          "dark": 18
         }
       },
       {
@@ -32,31 +32,31 @@
         "title": "",
         "items": [
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> の高評価レビュー</p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> の5つ星レビュー</p>",
             "media": {
-              "dark": 20,
-              "light": 19
+              "light": 19,
+              "dark": 20
             }
           },
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">初のAIチャットボット</strong></p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">第1</strong> AI Chatボット</p>",
             "media": {
-              "dark": 22,
-              "light": 21
+              "light": 21,
+              "dark": 22
             }
           },
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30M+</strong> 世界中で3,000万以上のユーザー</p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30M+</strong> 世界中に3,000万人以上のユーザー</p>",
             "media": {
-              "dark": 24,
-              "light": 23
+              "light": 23,
+              "dark": 24
             }
           },
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">高度なAIモデル</strong> により実現</p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">高度な AI モデルを搭載</strong></p>",
             "media": {
-              "dark": 26,
-              "light": 25
+              "light": 25,
+              "dark": 26
             }
           }
         ]
@@ -68,95 +68,38 @@
         "items": [
           {
             "title": "スマートライティングツール",
-            "description": "「このプラットフォームは私の日常のワークフローにシームレスに統合され、テック系プロフェッショナルとしての作業を柔軟性とカスタマイズ性で高め、創造的な問題解決を強化します。」",
+            "description": "「このプラットフォームは、技術専門家としての日常的なワークフローにシームレスに統合され、印象的な柔軟性とカスタマイズ性を提供して、私の創造的な問題解決能力を高めます。」",
             "rating": 5,
-            "author": "Matthias Engelhardt"
+            "author": " Matthias Engelhardt "
           },
           {
             "title": "卓越したテキストアシスタント",
-            "description": "「クリエイティブ技術の分野で日常的に使う者として、プラットフォームの適応性に感銘を受けています。対話をプロジェクトのニーズに正確に合わせて調整できる力を私に与えてくれます。」",
+            "description": "「クリエイティブ技術分野の日常的な利用者として、プラットフォームの適応性には感銘を受けています。プロジェクトのニーズに正確に合わせて、対話をカスタマイズできる力を与えてくれます。」",
             "rating": 5,
-            "author": "Sofia Valenti"
+            "author": " Sofia Valenti "
           },
           {
             "title": "高度なライティング支援",
-            "description": "「技術系プロフェッショナルにとって非常に信頼性の高いツールで、クリエイティブ業界の急速な要求にぴったり合うダイナミックなカスタマイズ機能を提供します。」",
+            "description": "「技術専門家にとって極めて信頼性の高いツールで、創造的な業界の高速要求にぴったり合う動的なカスタマイズオプションを提供します。」",
             "rating": 5,
-            "author": "Heinrich Schreiber"
+            "author": " Heinrich Schreiber "
           },
           {
-            "title": "高度なライティング支援",
-            "description": "「プラットフォームの革新的なデザインとユーザー中心のアプローチは、日常のツールキットの必須要素です。特に複雑な技術プロジェクトを管理する際に役立ちます。」",
+            "title": "高度なライティング補助",
+            "description": "「プラットフォームの革新的な設計とユーザー中心のアプローチは、日常のツールキットの重要な一部となっています。特に複雑な技術プロジェクトを管理する際にそうです。」",
             "rating": 5,
-            "author": "Elisabeth van der Meer"
+            "author": "Elisabeth van der Meer "
           },
           {
             "title": "クリエイティブ・ワードスミス",
-            "description": "「私の創造的な作業にとって画期的な変化です。進化する要件に合わせて、容易にカスタマイズや調整ができる点が、日常の技術利用に理想的な解決策です。」",
+            "description": " 「創造的な作業に革命をもたらします。進化する要件に合わせて、容易にカスタマイズ・適応できる能力は、日常の技術利用に最適なソリューションです。」",
             "rating": 5,
-            "author": "Andreas Sorensen"
+            "author": " Andreas Sorensen "
           }
         ]
       },
       {
         "__component": "ai-chat.perk-comparison-table",
-        "fe_component": "ComparisonTable",
-        "rows": [
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPT Answers</p>",
-            "tier": "both",
-            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">よりスマートな会話への入口</p>",
-            "icon": {
-              "dark": 28,
-              "light": 27
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">GPT-5 へのアクセス</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">高度なAIによる次世代の回答</p>",
-            "icon": {
-              "dark": 30,
-              "light": 29
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">画像生成</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Nano Banana など、利用可能な最高クラスのAIモデルを使って、アイデアを素晴らしい画像へ変換します。</p>",
-            "icon": {
-              "dark": 32,
-              "light": 31
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">高度なモデルへのアクセス</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT、DeepSeek、Gemini Pro、Claude Sonnet、Grok ほか多数！</p>",
-            "icon": {
-              "dark": 34,
-              "light": 33
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">高度なツールを解放する</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">PDF、ドキュメント、Excel などとチャット</p>",
-            "icon": {
-              "dark": 36,
-              "light": 35
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">広告なし</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">邪魔のない純粋なAIサポート</p>",
-            "icon": {
-              "dark": 38,
-              "light": 37
-            }
-          }
-        ],
         "header": [
           {
             "heading": null
@@ -167,41 +110,97 @@
           {
             "heading": "<p class=\"pl-8\"><span style=\"font-size:20px;\">プロ</span></p>"
           }
+        ],
+        "rows": [
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPT 回答</p>",
+            "tier": "both",
+            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">よりスマートな対話への入口</p>",
+            "icon": {
+              "light": 27,
+              "dark": 28
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">GPT-5 へのアクセス</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">高度な AI で次のレベルの回答</p>",
+            "icon": {
+              "light": 29,
+              "dark": 30
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">画像生成</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Nano Banana のような最高クラスの AI モデルを使って、アイデアを見事な画像へ変換します</p>",
+            "icon": {
+              "light": 31,
+              "dark": 32
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">高度なモデルへのアクセス</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT、DeepSeek、Gemini Pro、Claude Sonnet、Grok など、他にも多数！</p>",
+            "icon": {
+              "light": 33,
+              "dark": 34
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">高度なツールを解放</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">PDF、Docs、Excel などとチャット</p>",
+            "icon": {
+              "light": 35,
+              "dark": 36
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">広告なし</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">邪魔のない純粋な AI アシスタント</p>",
+            "icon": {
+              "light": 37,
+              "dark": 38
+            }
+          }
         ]
       },
       {
         "__component": "ai-chat.high-light-section",
         "fe_component": "Highlights",
-        "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AIチャット</strong>の機能</p>",
+        "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AI Chat</strong> の機能</p>",
         "items": [
           {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">瞬時にスマートな会話</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AIチャットは、ダイナミックな会話の頼りになる相棒です</strong>。高度な言語モデルと使いやすいインターフェースを組み合わせ、シームレスでパーソナライズされた対話を実現します。コピーを貼り付けたりタブを切替えたりせず、賢く魅力的なチャットをお楽しみください。すべて1つの場所で、より速く、あなた仕様の回答をお届けします。</p></div>",
-            "icon": null,
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">瞬時に実現するスマートな会話</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat は、ダイナミックな会話の頼れる相棒です</strong>。高度な言語モデルと使いやすいインターフェースを組み合わせて、シームレスで個別化された対話を生み出します。スマートで魅力的なチャットをお楽しみください—コピー＆ペーストやタブの切り替えは不要です。1つの場所で、より速く、あなたに合わせた応答を提供します。</p></div>",
             "media": {
-              "dark": null,
-              "light": 39
+              "light": 39,
+              "dark": null
+            },
+            "icon": null
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">アイデアを驚くべき画像へ。🍌 Nano Banana</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>アイデアを説明するだけで、AI Chat がそれを見事なビジュアルへと変えます—デザインスキルは不要。想像力を形にするまでの速度は速く、インスピレーションを与え、共有し、または発展させることができます。言葉だけ。純粋な創造です。</p></div>",
+            "media": {
+              "light": 40,
+              "dark": null
+            },
+            "icon": {
+              "light": 41,
+              "dark": null
             }
           },
           {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">アイデアを驚くべき画像へ変える、🍌 Nano Bananaで</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>創造力には限界はありません。アイデアを説明するだけで、AIチャットがそれを見事なビジュアルへ変えます—デザインスキルは不要です。想像力から画像へ、数秒で。インスピレーションを与え、共有し、または基に構築してください。言葉だけ。純粋な創造です。</p></div>",
-            "icon": {
-              "dark": null,
-              "light": 41
-            },
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">PDF を数秒でマスター</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>PDF を数秒で最大限活用。文書を要約、翻訳、分析します。質問がありますか？ AI Chat が迅速で正確な回答を提供します—時間を節約し、最も大切なことに集中できます。スマートで高速、効率的な作業を実現します。</p></div>",
             "media": {
-              "dark": null,
-              "light": 40
-            }
-          },
-          {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">数秒でPDFをマスター</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>数秒でPDFをさらに活用しましょう。文書をすぐに要約・翻訳・分析します。質問がありますか？ AIチャットは迅速かつ正確な回答を提供し、時間を節約し、最も重要なことに集中できるようにします。賢く、速く、生産性のために設計されています。</p></div>",
-            "icon": {
-              "dark": null,
-              "light": 43
+              "light": 42,
+              "dark": null
             },
-            "media": {
-              "dark": null,
-              "light": 42
+            "icon": {
+              "light": 43,
+              "dark": null
             }
           }
         ]
@@ -209,7 +208,7 @@
       {
         "__component": "ai-chat.topics-section",
         "fe_component": "Topics",
-        "title": "<p><strong class=\"text-primary\">AIチャット</strong> は、以下の用途に役立ちます</p>",
+        "title": "<p><strong class=\"text-primary\">AI Chat</strong> は次の用途に役立ちます</p>",
         "items": [
           {
             "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">💼</span>マーケティング</p>"

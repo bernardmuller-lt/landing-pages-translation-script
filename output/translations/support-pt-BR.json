@@ -1,8 +1,8 @@
 {
   "sections[0].cta.aria_label": "Voltar ao Chat",
   "sections[0].cta.text": "Voltar ao Chat",
-  "sections[0].description": "<div><h2 class=\"freshdesk-contact-form__title\">Precisa de ajuda ou tem alguma dúvida? Estamos aqui para ajudar!</h2><p>Nossa equipe de suporte dedicada está pronta para ajudar você com quaisquer dúvidas sobre nossas ferramentas alimentadas por IA, integrações de chatbot ou recursos de geração de imagens. Se você precisar de suporte técnico, assistência com faturamento ou tiver algum feedback para compartilhar, ficaremos felizes em ajudar.</p><p>Preencha o formulário abaixo e entraremos em contato o mais breve possível.</p><p>Vamos tornar sua experiência com IA mais fluida e eficiente!</p></div>",
+  "sections[0].description": "<div><h2 class=\"freshdesk-contact-form__title\">Precisa de ajuda ou tem alguma dúvida? Estamos aqui para ajudar!</h2><p>Nossa equipe de suporte dedicada está pronta para ajudar com qualquer dúvida sobre nossas ferramentas alimentadas por IA, integrações de chatbot ou recursos de geração de imagens.</p><p>Se você precisa de suporte técnico, ajuda com faturamento ou tem algum feedback para compartilhar, ficaremos felizes em ajudar.</p><p>Preencha o formulário abaixo, e retornaremos o mais breve possível.</p><p>Vamos tornar sua experiência com IA tranquila e eficiente!</p></div>",
   "sections[0].title": "Suporte ao Cliente",
-  "seo.description": "Chat de IA",
-  "seo.title": "Suporte - Chat de IA"
+  "seo.description": "AI Chat",
+  "seo.title": "Suporte - AI Chat"
 }

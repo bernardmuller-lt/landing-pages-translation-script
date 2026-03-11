@@ -1,20 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "nl",
     "seo": {
-      "title": "ChatAI Web-apps",
-      "description": "Een verfijnde AI-chatassistent ontworpen om intelligente antwoorden te geven, zinvolle dialogen te voeren en een naadloze conversatie-ervaring te bieden."
+      "title": "ChatAI Web Apps",
+      "description": "Een verfijnde AI-chatassistent die slimme antwoorden biedt, zinvolle dialogen aangaat en een naadloze conversatie-ervaring levert."
     },
     "events": null,
     "sections": [
       {
         "__component": "ai-chat.hero-section",
         "fe_component": "Hero",
-        "title": "<h1 class=\"text-left leading-[1.1] font-bold text-main text-[4.25rem] dark:text-white mb-2.5\">AI-chats</h1>",
-        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">Verhoog je dag met AI, één gesprek tegelijk</p>",
+        "title": "<h1 class=\"font-bold\"><span style=\"font-size:72px;\">AI Chats</span></h1>",
+        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">Verbeter je dag met AI, één gesprek tegelijk.</p>",
         "cta": {
           "href": "https://chat.aichatapp.ai/register",
           "text": "Probeer gratis",
@@ -22,8 +22,8 @@
           "icon": null
         },
         "media": {
-          "dark": 18,
-          "light": 17
+          "light": 17,
+          "dark": 18
         }
       },
       {
@@ -32,31 +32,31 @@
         "title": "",
         "items": [
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> beoordelingen met 5 sterren</p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> 5-sterrenreviews</p>",
             "media": {
-              "dark": 20,
-              "light": 19
+              "light": 19,
+              "dark": 20
             }
           },
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">1e</strong> AI-chatbot</p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">1e</strong> AI Chatbot</p>",
             "media": {
-              "dark": 22,
-              "light": 21
+              "light": 21,
+              "dark": 22
             }
           },
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30 miljoen+</strong> gebruikers wereldwijd</p>",
             "media": {
-              "dark": 24,
-              "light": 23
+              "light": 23,
+              "dark": 24
             }
           },
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Powered by</strong> geavanceerde AI-modellen</p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Aangedreven door</strong> geavanceerde AI-modellen</p>",
             "media": {
-              "dark": 26,
-              "light": 25
+              "light": 25,
+              "dark": 26
             }
           }
         ]
@@ -64,35 +64,35 @@
       {
         "__component": "ai-chat.carousel-section",
         "fe_component": "Carousel",
-        "title": "Geprezen door miljoenen gebruikers",
+        "title": "Vertrouwd door miljoenen gebruikers",
         "items": [
           {
-            "title": " Slimme Schrijfassistent ",
-            "description": " “Dit platform integreert naadloos in mijn dagelijkse workflow als tech-professional en biedt indrukwekkende flexibiliteit en aanpassingsmogelijkheden die mijn creatieve probleemoplossing verbeteren.” ",
+            "title": " Slim schrijfhulpmiddel ",
+            "description": " “Dit platform integreert naadloos in mijn dagelijkse workflow als tech-professional, biedt indrukwekkende flexibiliteit en aanpassingsmogelijkheden die mijn creatieve probleemoplossing verbeteren.” ",
             "rating": 5,
             "author": " Matthias Engelhardt "
           },
           {
-            "title": " Prachtige Tekstassistent ",
-            "description": " “Als dagelijkse gebruiker in de creatieve tech-ruimte ben ik onder de indruk van de aanpasbaarheid van het platform. Het stelt me in staat interacties nauwkeurig af te stemmen op de behoeften van mijn project.” ",
+            "title": " Briljante Tekstassistent ",
+            "description": " “Als dagelijkse gebruiker in de creatieve tech-ruimte ben ik onder de indruk van de flexibiliteit van het platform. Het stelt me in staat interacties precies af te stemmen op mijn projectbehoeften.” ",
             "rating": 5,
             "author": " Sofia Valenti "
           },
           {
-            "title": " Moeiteloze Schrijfassistent ",
-            "description": "“Een uiterst betrouwbaar hulpmiddel voor tech-professionals, met dynamische aanpassingsopties die perfect passen bij de snelle eisen van de creatieve industrie.”",
+            "title": " Geavanceerde Schriftassistent ",
+            "description": "“Een uiterst betrouwbaar hulpmiddel voor tech-professionals, met dynamische aanpassingsmogelijkheden die perfect passen bij de snelle eisen van de creatieve industrie.”",
             "rating": 5,
             "author": " Heinrich Schreiber "
           },
           {
             "title": " Geavanceerde Schrijfassistent ",
-            "description": "“Het innovatieve ontwerp en de gebruiksvriendelijke aanpak van het platform maken het een essentieel onderdeel van mijn dagelijkse toolkit, vooral bij het beheren van complexe tech-projecten。”",
+            "description": "“Het innovatieve ontwerp van het platform en de gebruikersgerichte aanpak maken het een essential onderdeel van mijn dagelijkse toolkit, met name bij het beheren van complexe technische projecten.”",
             "rating": 5,
             "author": "Elisabeth van der Meer "
           },
           {
             "title": " Creatieve Woordkunstenaar ",
-            "description": " “Het is een gamechanger voor mijn creatieve werk, met zijn vermogen om te personaliseren en aan te passen aan evoluerende vereisten moeiteloos—een ideale oplossing voor dagelijks tech-gebruik.”",
+            "description": " “Het verandert spel voor mijn creatieve werk, met het vermogen om moeiteloos aan evoluerende vereisten aan te passen — een ideale oplossing voor dagelijks technisch gebruik.”",
             "rating": 5,
             "author": " Andreas Sorensen "
           }
@@ -100,63 +100,6 @@
       },
       {
         "__component": "ai-chat.perk-comparison-table",
-        "fe_component": "ComparisonTable",
-        "rows": [
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPT-antwoorden</p>",
-            "tier": "both",
-            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">Uw toegang tot slimmere gesprekken</p>",
-            "icon": {
-              "dark": 28,
-              "light": 27
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Toegang tot GPT-5</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Antwoorden op het volgende niveau met geavanceerde AI</p>",
-            "icon": {
-              "dark": 30,
-              "light": 29
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Beeldgeneratie</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Zet ideeën om in verbluffende beelden met de beste beschikbare AI-modellen, zoals Nano Banana</p>",
-            "icon": {
-              "dark": 32,
-              "light": 31
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Toegang tot geavanceerde modellen</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT, DeepSeek, Gemini Pro, Claude Sonnet, Grok en nog veel meer!</p>",
-            "icon": {
-              "dark": 34,
-              "light": 33
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Ontgrendel geavanceerde tools</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Chat met PDF's, Documenten, Excel en meer</p>",
-            "icon": {
-              "dark": 36,
-              "light": 35
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Geen advertenties</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Pure AI-assistentie, geen afleiding</p>",
-            "icon": {
-              "dark": 38,
-              "light": 37
-            }
-          }
-        ],
         "header": [
           {
             "heading": null
@@ -167,41 +110,97 @@
           {
             "heading": "<p class=\"pl-8\"><span style=\"font-size:20px;\">PRO</span></p>"
           }
+        ],
+        "rows": [
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPT Antwoorden</p>",
+            "tier": "both",
+            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">Uw toegang tot slimmere gesprekken</p>",
+            "icon": {
+              "light": 27,
+              "dark": 28
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Toegang tot GPT-5</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Antwoorden van een hoger niveau met geavanceerde AI</p>",
+            "icon": {
+              "light": 29,
+              "dark": 30
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Afbeeldingsgeneratie</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Zet ideeën om in schitterende beelden met de beste beschikbare AI-modellen, zoals Nano Banana</p>",
+            "icon": {
+              "light": 31,
+              "dark": 32
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Toegang tot geavanceerde modellen</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT, DeepSeek, Gemini Pro, Claude Sonnet, Grok en nog veel meer!</p>",
+            "icon": {
+              "light": 33,
+              "dark": 34
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Geavanceerde tools ontgrendelen</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Chat met PDF, Docs, Excel en meer</p>",
+            "icon": {
+              "light": 35,
+              "dark": 36
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Geen advertenties</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Pure AI-assistentie, geen afleidingen</p>",
+            "icon": {
+              "light": 37,
+              "dark": 38
+            }
+          }
         ]
       },
       {
         "__component": "ai-chat.high-light-section",
         "fe_component": "Highlights",
-        "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AI Chat</strong> Functies</p>",
+        "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AI Chat</strong> Kenmerken</p>",
         "items": [
           {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Slimme gesprekken, direct</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat is uw betrouwbare metgezel voor dynamische gesprekken</strong>. Het combineert geavanceerde taalmodellen met een gebruiksvriendelijke interface om naadloze, persoonlijke interacties te creëren. Geniet van slimme, boeiende chats—geen kopiëren/plakken of tabbladen wisselen. Gewoon sneller, op maat gemaakte antwoorden op één plek.</p></div>",
-            "icon": null,
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Slimme gesprekken, direct</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat is jouw onmisbare metgezel voor dynamische gesprekken</strong>. Het combineert geavanceerde taalmodellen met een gebruiksvriendelijke interface om naadloze, gepersonaliseerde interacties te creëren. Geniet van slimme, boeiende chats—geen kopieer-plakwerk of tabbladen wisselen. Gewoon snellere, op maat gemaakte reacties op één plek.</p></div>",
             "media": {
-              "dark": null,
-              "light": 39
+              "light": 39,
+              "dark": null
+            },
+            "icon": null
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Zet je ideeën om in ongelooflijke beelden met 🍌 Nano Banana</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Je creativiteit kent geen grenzen. Beschrijf gewoon je idee en AI Chat zet het om in verbluffende visuals—geen ontwerpvaardigheden nodig. Van verbeelding tot beeld in seconden, klaar om te inspireren, te delen of verder op te bouwen. Alleen jouw woorden. Pure creatie.</p></div>",
+            "media": {
+              "light": 40,
+              "dark": null
+            },
+            "icon": {
+              "light": 41,
+              "dark": null
             }
           },
           {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Zet uw ideeën om in verbluffende beelden met 🍌 Nano Banana</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Uw creativiteit kent geen grenzen. Beschrijf gewoon uw idee en AI Chat zet het om in verbluffende visuals—geen ontwerpvaardigheden nodig. Van verbeelding tot afbeelding in enkele seconden, klaar om te inspireren, te delen of verder te bouwen. Alleen uw woorden. Pure creatie.</p></div>",
-            "icon": {
-              "dark": null,
-              "light": 41
-            },
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Beheers je PDFs in seconden</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Krijg meer uit je PDF in seconden. Samenvatten, vertalen en documenten analyseren in één adem. Heb je vragen? AI Chat geeft snelle, nauwkeurige antwoorden—je tijd bespaart en je kunt je richten op wat het belangrijkst is. Het is slim, snel en gebouwd voor productiviteit.</p></div>",
             "media": {
-              "dark": null,
-              "light": 40
-            }
-          },
-          {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Beheer uw PDF's in enkele seconden</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Haal in enkele seconden meer uit uw PDF. Vat documenten direct samen, vertaal ze en analyseer ze. Heeft u vragen? AI Chat geeft snelle en nauwkeurige antwoorden—u bespaart tijd en kunt u concentreren op wat het meest telt. Het is slim, snel en gericht op productiviteit.</p></div>",
-            "icon": {
-              "dark": null,
-              "light": 43
+              "light": 42,
+              "dark": null
             },
-            "media": {
-              "dark": null,
-              "light": 42
+            "icon": {
+              "light": 43,
+              "dark": null
             }
           }
         ]
@@ -209,7 +208,7 @@
       {
         "__component": "ai-chat.topics-section",
         "fe_component": "Topics",
-        "title": "<p><strong class=\"text-primary\">AI Chat</strong> is handig voor</p>",
+        "title": "<p><strong class=\"text-primary\">AI Chat</strong> is nuttig voor</p>",
         "items": [
           {
             "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">💼</span>Marketing</p>"
@@ -224,7 +223,7 @@
             "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🚀</span>Carrière</p>"
           },
           {
-            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">‍‍👩🏻‍💻</span>Programmeren</p>"
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">‍‍👩🏻‍💻</span>Coderen</p>"
           },
           {
             "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🗞</span>Nieuws</p>"

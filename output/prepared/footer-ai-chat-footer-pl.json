@@ -1,0 +1,35 @@
+{
+  "data": {
+    "slug": "ai-chat-footer",
+    "locale": "pl",
+    "environment": "production",
+    "copyright": "@2026 AI Chat",
+    "href": "/",
+    "items": [
+      {
+        "text": "Wsparcie",
+        "href": "/support/"
+      },
+      {
+        "text": "Polityka prywatności",
+        "href": "/privacy-policy-and-cookie-policy/"
+      },
+      {
+        "text": "Warunki użytkowania",
+        "href": "/terms-of-use/"
+      },
+      {
+        "text": "Warunki i zasady",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "text": "Polityka zwrotów",
+        "href": "/refund-policy/"
+      }
+    ],
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

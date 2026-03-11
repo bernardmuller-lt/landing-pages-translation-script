@@ -1,0 +1,27 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "ai-chat",
+    "slug": "support",
+    "locale": "sv-SE",
+    "seo": {
+      "title": "Support - AI Chat",
+      "description": "AI Chat"
+    },
+    "events": null,
+    "sections": [
+      {
+        "__component": "shared.support",
+        "fe_component": "Support",
+        "title": "Kundsupport",
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Behöver du hjälp eller har du en fråga? Vi finns här för dig!</h2><p>Vårt dedikerade supportteam står redo att hjälpa dig med frågor om våra AI-drivna verktyg, chatbot-integrationer eller funktioner för bildgenerering. Oavsett om du behöver teknisk support, hjälp med fakturering eller har feedback att dela, så hjälper vi gärna till.</p><p>Fyll i formuläret nedan, så återkommer vi så snart som möjligt.</p><p>Låt oss göra din AI-upplevelse smidig och effektiv!</p></div>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/app/ai-chat",
+          "text": "Tillbaka till chatten",
+          "aria_label": "Tillbaka till chatten",
+          "icon": "arrow-left"
+        }
+      }
+    ]
+  }
+}

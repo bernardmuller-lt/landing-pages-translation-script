@@ -1,0 +1,27 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "ai-chat",
+    "slug": "support",
+    "locale": "zh-CN",
+    "seo": {
+      "title": "支持 - AI Chat",
+      "description": "AI Chat"
+    },
+    "events": null,
+    "sections": [
+      {
+        "__component": "shared.support",
+        "fe_component": "Support",
+        "title": "客户支持",
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">需要帮助或有问题？我们在这里为您服务！</h2><p>我们专门的支持团队随时准备协助您解答关于我们基于 AI 的工具、聊天机器人集成或图像生成功能的任何问题。无论您需要技术支持、计费协助，还是有反馈想要分享，我们都很乐意为您提供帮助。</p><p>请填写下方表格，我们会尽快与您联系。</p><p>让您的 AI 体验更加顺畅高效！</p></div>",
+        "cta": {
+          "href": "https://chat.aichatapp.ai/app/ai-chat",
+          "text": "返回聊天",
+          "aria_label": "返回聊天",
+          "icon": "arrow-left"
+        }
+      }
+    ]
+  }
+}

@@ -1,67 +1,63 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "home",
     "locale": "ja-JP",
     "seo": {
-      "title": "AIチャット ウェブアプリ",
-      "description": "洗練されたAIチャットアシスタントで、知的な応答を提供し、意味のある対話を展開し、シームレスな会話体験を実現します。"
+      "title": "AI Chat Webアプリ",
+      "description": "知的な回答を提供し、有意義な対話を行い、シームレスな会話体験を提供する高度なAIチャットアシスタント。"
     },
-    "events": {
-      "viewPageEventName": "view_landing",
-      "landing_folder": "/",
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "ai-chat.hero-section",
         "fe_component": "Hero",
-        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI チャット: <strong class=\"font-black\">複数の AI</strong><br><strong class=\"font-black\">モデル、</strong>ひとつの強力なプラットフォーム</h1>",
-        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">自分に合う AI モデルを見つけるために、さまざまな AI モデルとチャットしましょう。</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">AIの世界を1か所で体験してください。さまざまなモデルとチャットして、それぞれの強みを比較し、AI技術を最大限に活用しましょう。正確なリサーチ、コンテンツ作成、言語翻訳、画像生成、またはコーディング支援が必要な場合でも、あなたのニーズに合ったモデルをご用意しています。</p>",
+        "title": "<h1 class='text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]'>AI Chat: <strong class='font-black'>複数のAI</strong><br><strong class='font-black'>モデル、</strong>1つの強力なプラットフォーム</h1>",
+        "description": "<p class='text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold'>自分に合った AI モデルを見つけるには、さまざまな AI モデルとチャットしましょう</p><p class='mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white'>1つの場所でAIの世界を発見。さまざまなモデルとチャットし、それぞれの強みを比較して、AI技術を最大限に活用しましょう。正確なリサーチ、コンテンツ作成、言語翻訳、画像生成、コーディング支援など、ニーズに合った適切なモデルをお届けします。</p>",
         "cta": {
           "href": "https://chat.aichatapp.ai/login",
-          "text": "無料で始める",
+          "text": "無料で開始",
           "aria_label": "無料で開始",
           "icon": "arrow-right"
         },
         "media": {
-          "dark": 9,
-          "light": 8
+          "light": 8,
+          "dark": 9
         }
       },
       {
         "__component": "ai-chat.carousel-section",
         "fe_component": "Carousel",
-        "title": "Creative <strong class='text-primary'>Reviews</strong>",
+        "title": "クリエイティブ <strong class='text-primary'>Reviews</strong>",
         "items": [
           {
             "title": "スマートライティングツール",
-            "description": "“このプラットフォームは日々のワークフローにスムーズに統合され、テック系プロフェッショナルとしての高い柔軟性とカスタマイズ性が創造的な問題解決を高めます。”",
+            "description": "「このプラットフォームは、技術専門家としての日常のワークフローにシームレスに統合され、印象的な柔軟性とカスタマイズ性を提供し、私の創造的な問題解決力を高めます。」",
             "rating": 5,
             "author": "Matthias Engelhardt"
           },
           {
-            "title": "優れたテキストアシスタント",
-            "description": "“クリエイティブ技術領域で日常的に使用する中で、プラットフォームの適応性には感銘を受けています。プロジェクトのニーズに対して対話を正確に調整できる力を与えてくれます。”",
+            "title": "卓越したテキストアシスタント",
+            "description": "「クリエイティブ技術分野の毎日ユーザーとして、プラットフォームの適応性に感心しています。それは私のプロジェクトのニーズに合わせて対話を正確に調整する力を私に与えてくれます。」",
             "rating": 5,
             "author": "Sofia Valenti"
           },
           {
-            "title": "手軽なライティング・パートナー",
-            "description": "“テック系専門家にとって信頼性の高いツールで、ダイナミックなカスタマイズオプションを提供し、クリエイティブ業界の速いペースの要求にぴったり適合します。”",
+            "title": "手間いらずのライティング・パートナー",
+            "description": "「技術職のプロフェッショナルにとって非常に信頼性の高いツールで、ダイナミックなカスタマイズオプションが提供され、創造産業の急速な要求にぴったり適合します。」",
             "rating": 5,
             "author": "Heinrich Schreiber"
           },
           {
-            "title": "高度なライター",
-            "description": "“プラットフォームの革新的なデザインとユーザー中心のアプローチは、日々のツールキットになくてはならない存在です。特に複雑な技術プロジェクトを管理する際に役立っています。”",
+            "title": "高度なライティング・サポート",
+            "description": "「プラットフォームの革新的なデザインとユーザー中心のアプローチは、日常のツールキットの必須要素となっており、特に複雑な技術プロジェクトを管理する際には重要です。」",
             "rating": 5,
             "author": "Elisabeth van der Meer"
           },
           {
-            "title": "クリエイティブな語彙職人",
-            "description": "“クリエイティブ作業における要件の変化に合わせて、容易にカスタマイズ・適応できる点が画期的です。日常の技術利用に最適なソリューションです。”",
+            "title": "クリエイティブ・ライティングの名手",
+            "description": "「創造的な作業に対するゲームチェンジャーです。進化する要件に合わせたカスタマイズと調整が手軽にできる点が、日常の技術利用に最適なソリューションです。」",
             "rating": 5,
             "author": "Andreas Sorensen"
           }
@@ -70,99 +66,99 @@
       {
         "__component": "ai-chat.plan-section",
         "fe_component": "Plans",
-        "title": "Go <strong class='text-primary'>Pro</strong> for Unlimited Use",
+        "title": "無制限の利用のために <strong class='text-primary'>Pro</strong> をご利用ください",
         "items": [
           {
             "isPopular": null,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Get Started",
-              "aria_label": "Get Started",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "1日あたり0.67ドル",
+              "duration": "1か月アクセス",
+              "fullPrice": "19.99ドル"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% Ad free",
-                "subtitle": "No distractions"
+                "title": "100% 広告なし",
+                "subtitle": "気が散らない"
               },
               {
                 "icon": "svgonly/chat",
                 "title": "Best AI Models in One Platform",
-                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux など！"
               },
               {
                 "icon": "svgonly/infinite",
                 "title": "Forget limits",
-                "subtitle": "No worries, use it all you need."
+                "subtitle": "心配いりません。必要な分だけご利用ください。"
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0.67 Per Day",
-              "duration": "1 Month Access",
-              "fullPrice": "$19.99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "はじめる",
+              "aria_label": "はじめる",
+              "icon": null
             }
           },
           {
             "isPopular": true,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Get Started",
-              "aria_label": "Get Started",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "1日あたり0.44ドル",
+              "duration": "3か月アクセス",
+              "fullPrice": "39.99ドル"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% Ad free",
-                "subtitle": "No distractions"
+                "title": "100% 広告なし",
+                "subtitle": "気が散らない"
               },
               {
                 "icon": "svgonly/chat",
-                "title": "Best AI Models in One Platform",
-                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
+                "title": "1つのプラットフォームで最高のAIモデル",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux など！"
               },
               {
                 "icon": "svgonly/infinite",
-                "title": "Forget limits",
-                "subtitle": "No worries, use it all you need."
+                "title": "制限を忘れる",
+                "subtitle": "心配いりません。必要な分だけお使いください。"
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0.44 Per Day",
-              "duration": "3 Months Access",
-              "fullPrice": "$39.99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "はじめる",
+              "aria_label": "はじめる",
+              "icon": null
             }
           },
           {
             "isPopular": null,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Get Started",
-              "aria_label": "Get Started",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "1日あたり0.19ドル",
+              "duration": "12か月アクセス",
+              "fullPrice": "69.99ドル"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% Ad free",
-                "subtitle": "No distractions"
+                "title": "100% 広告なし",
+                "subtitle": "気が散らない"
               },
               {
                 "icon": "svgonly/chat",
-                "title": "Best AI Models in One Platform",
-                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
+                "title": "1つのプラットフォームで最高のAIモデル",
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux など！"
               },
               {
                 "icon": "svgonly/infinite",
-                "title": "Forget limits",
-                "subtitle": "No worries, use it all you need."
+                "title": "制限を忘れる",
+                "subtitle": "心配いりません。必要な分だけお使いください。"
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0.19 Per Day",
-              "duration": "12 Months Access",
-              "fullPrice": "$69.99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "はじめる",
+              "aria_label": "はじめる",
+              "icon": null
             }
           }
         ]
@@ -172,96 +168,88 @@
         "fe_component": "Features",
         "client": true,
         "title": "WebbApp <strong class='text-primary'>機能</strong>",
-        "logo": {
-          "dark": null,
-          "light": 15
+        "media": {
+          "light": 13,
+          "dark": 14
         },
         "tabs": [
           {
-            "title": "AI チャット: あなたの究極のAI対話の味方",
-            "text": "AI チャットは最先端のAIを使い、自然な対話の流れで、直感的かつ魅力的なチャット体験を提供します。カジュアルな会話から課題解決まで、AI チャットは意味のある、ダイナミックで人間のような対話を実現する信頼できるAIです。",
+            "title": "AI Chat: あなたの究極のAI対話の味方",
+            "text": "AI Chat は、最先端のAIを自然な対話フローで活用し、直感的で魅力的なチャット体験を提供します。カジュアルな会話でも課題解決でも、AI Chat は意味のある、ダイナミックで人間らしい対話の頼れるAI です。",
+            "icon": {
+              "light": 11,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
-              "text": "Get Started",
-              "aria_label": "Get Started",
+              "text": "はじめる",
+              "aria_label": "はじめる",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 11
             }
           },
           {
-            "title": "AI チャット: あなたの知的なチャット仲間",
-            "text": "AI チャットはダイナミックな会話の必須AIです。最先端の言語処理と使いやすいインターフェースを組み合わせ、各対話をシームレスでパーソナルな体験へと変換します。あなたの独自の嗜好に合わせて進化する、魅力的で直感的なチャットを体験しましょう。",
+            "title": "AI Chat: あなたのインテリジェントなチャット仲間",
+            "text": "AI Chat は、ダイナミックな会話の頼りになるAIです。最新の言語処理技術と使いやすいインターフェースを組み合わせることで、各対話をシームレスで個別化された体験に変えます。あなたのユニークな嗜好に合わせて進化する、魅力的で直感的なチャットに飛び込みましょう。",
+            "icon": {
+              "light": 10,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
-              "text": "Get Started",
-              "aria_label": "Get Started",
+              "text": "はじめる",
+              "aria_label": "はじめる",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 10
             }
           },
           {
-            "title": "AI チャット: あなたのAI搭載対話の天才",
-            "text": "AI チャットは、GPT 4o を搭載した高度なAIで会話を強化し、迅速で洞察に満ちた回答を提供し、魅力的な対話を促進し、シームレスな体験を提供します。継続的に学習・適応し、対話のたびに貴重な洞察を提供します。",
+            "title": "AI Chat: あなたの究極のAI対話の味方",
+            "text": "AI Chat は、最先端のAIを自然な対話フローで活用し、直感的で魅力的なチャット体験を提供します。カジュアルな会話でも課題解決でも、AI Chat は意味のある、ダイナミックで人間らしい対話の頼れるAI です。",
+            "icon": {
+              "light": 12,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
-              "text": "Get Started",
-              "aria_label": "Get Started",
+              "text": "はじめる",
+              "aria_label": "はじめる",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 12
             }
           }
-        ],
-        "media": {
-          "dark": 14,
-          "light": 13
-        },
-        "headingsBackground": {
-          "dark": null,
-          "light": 16
-        }
+        ]
       },
       {
         "__component": "ai-chat.faq-section",
         "fe_component": "FAQ",
         "client": true,
-        "title": "<p><strong>よくある</strong><span style=\"color:#01b78d;\"><strong>質問</strong></span></p>",
+        "title": "<p><strong>よくある </strong><span style='color:#01b78d;'><strong>ご質問</strong></span></p>",
         "items": [
           {
-            "title": "What exactly is AI Chat and What advantages does it offer me?",
-            "content": "<ul style=\"list-style-type:circle;\"><li>AI チャットは、OpenAI GPT-4、Gemini、Claude、Grok、DeepSeek、Flux などを統合した強力なAIチャットボットで、すべてのニーズに対して迅速で知的な応答を提供します。</li><li>AI チャットを使用する利点は以下のとおりです：<ul style=\"list-style-type:square;\"><li>パーソナライゼーション：さまざまなモデルの中から選択して、好みと要件に合わせてAI体験を調整できます。</li><li>速度と時間の節約：AI チャットは、複数の最先端AIモデルから迅速で正確な回答を提供し、作業を効率化して時間を節約します。</li><li>境界のないアクセス：指先でさまざまなモデルにアクセスし、いつでもトップレベルのAIサポートを利用できます。</li><li>継続的なアップデート：最新のAIモデルとアップデートを常に追加しており、最も高度で最新の技術へアクセスできます。</li></ul></li></ul>"
+            "title": "正確には AI Chat とは何か、どんな利点があるのか？",
+            "content": "<ul style='list-style-type:circle;'><li>AI Chat は、OpenAI GPT-4、Gemini、Claude、Grok、DeepSeek、および Flux を統合した強力なAIチャットボットで、あらゆるニーズに対して迅速で知的な回答を提供します。</li><li>AI Chat を使用する利点は次のとおりです：<ul style='list-style-type:square;'><li>個別化: ご自身の好みと要件に合わせて、さまざまなモデルから選択してAI体験をカスタマイズします。</li><li>速度と時間の節約: AI Chat は、最新鋭のAIモデルから迅速かつ正確な回答を提供し、タスクを効率化して時間を節約します。</li><li>無限のアクセス性: 指先ですぐに、いつでもどこでも、複数のモデルを活用して最高レベルのAIサポートにアクセスできます。</li><li>継続的な更新: 最新のAIモデルとアップデートを常に追加しており、最も高度で最新の技術にアクセスできます。</li></ul></li></ul>"
           },
           {
-            "title": "なぜ購読するのですか？ここで得られるもの",
-            "content": "<ul><li>エクスクルーシブ機能へのアクセス、より速いアクセス、そして体験を向上させるパーソナライズドサポートを提供します。これには<ul><li>あらゆる問いに対して正確で詳しい回答を得られます。</li><li>より詳しい会話のための長文メッセージ制限を拡張。</li><li>無制限のチャットとメッセージ—必要なだけチャットできます。</li><li>毎回迅速な応答時間を体験。</li><li>中断なし—広告なしのクリーンな対話。</li></ul></li></ul>"
+            "title": "購読する理由と得られるもの",
+            "content": "<ul><li>エクスクルーシブ機能、より高速なアクセス、そして体験を向上させるパーソナライズドサポートを提供します。これには<ul><li>すべての質問に対して正確で詳細な回答を得られます。</li><li>より詳細な会話のためのメッセージ制限が拡張されます。</li><li>無制限のチャットとメッセージ—必要なだけ会話を続けてください。</li><li>毎回高速な応答を体験できます。</li><li>中断なし—広告のない純粋な会話のみ。</li></ul></li></ul>"
           },
           {
-            "title": "購読をキャンセルするにはどうすればよいですか？",
-            "content": "<p>購読をキャンセルするには、設定ページの『アカウント』セクションにアクセスし、『購読をキャンセル』ボタンをクリックしてください。現在の購読期間の終了時に購読がキャンセルされ、プレミアムメンバーシップが終了します。キャンセル後は追加の料金は発生しません。</p>"
+            "title": "購読をキャンセルするには？",
+            "content": "<p>購読をキャンセルするには、設定ページの「アカウント」セクションにアクセスし、「購読をキャンセル」ボタンをクリックしてください。現在の購読期間の終了時に購読がキャンセルされ、プレミアム会員が終了します。キャンセル後、追加の支払いは発生しません。</p>"
           },
           {
             "title": "購読プランをアップグレードまたはダウングレードできますか？",
-            "content": "<p>はい。アカウント設定からいつでもプランのアップグレードまたはダウングレードが可能です。変更は次の請求サイクルの開始時に適用されます。</p>"
+            "content": "<p>はい、設定からいつでもプランをアップグレードまたはダウングレードすることができます。変更は次の請求サイクルの開始時に適用されます。</p>"
           },
           {
-            "title": "このプラットフォームは技術専門家とクリエイティブユーザーの両方に適していますか？",
-            "content": "<p>もちろんです！このプラットフォームは技術専門家からクリエイティブなプロフェッショナルまで、幅広いユーザーに対応できるよう設計されており、生産性とイノベーションを高めるツールを提供します。</p>"
+            "title": "このプラットフォームは技術系専門家とクリエイティブなユーザーの両方に適していますか？",
+            "content": "<p>当然です！このプラットフォームは技術専門家からクリエイティブなプロフェッショナルまで、幅広いユーザーに対応するよう設計されており、生産性と革新を高めるツールを提供します。</p>"
           },
           {
             "title": "プラットフォーム上のデータはどれくらい安全ですか？",
-            "content": "<p>プラットフォームは厳格なセキュリティプロトコルに従い、ユーザーデータとやり取りを常に暗号化して保護します。</p><p>&nbsp;</p>"
+            "content": "<p>プラットフォームは厳格なセキュリティプロトコルに従い、ユーザーデータと対話が常に暗号化され、保護されていることを保証します。</p><p>&nbsp;</p>"
           },
           {
-            "title": "ユーザー体験を高めるAIモデルのカスタマイズオプションにはどんなものがありますか？",
-            "content": "<p>ユーザーは応答の挙動、出力形式、言語スタイルなどを調整でき、特定の運用ニーズやクリエイティブなワークフローに合わせてプラットフォームを調整できます。</p><p>&nbsp;</p>"
+            "title": "ユーザー体験を向上させるためのAIモデルカスタマイズオプションにはどのようなものがありますか？",
+            "content": "<p>ユーザーは、応答の振る舞い、出力形式、言語スタイル、その他多くの設定を調整でき、特定の運用ニーズや創造的なワークフローにプラットフォームを合わせることができます。</p><p>&nbsp;</p>"
           }
         ]
       }

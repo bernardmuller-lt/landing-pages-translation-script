@@ -1,0 +1,20 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "ai-chat",
+    "slug": "terms-of-use",
+    "locale": "pt-PT",
+    "seo": {
+      "title": "Termos de Utilização",
+      "description": "Termos de Utilização"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "Legal",
+        "title": "Termos de Utilização",
+        "content": ""
+      }
+    ]
+  }
+}

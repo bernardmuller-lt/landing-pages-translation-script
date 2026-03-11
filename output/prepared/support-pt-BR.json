@@ -1,25 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "support",
     "locale": "pt-BR",
     "seo": {
-      "title": "Suporte - Chat de IA",
-      "description": "Chat de IA"
+      "title": "Suporte - AI Chat",
+      "description": "AI Chat"
     },
-    "events": {
-      "viewPageEventName": "Contact_Support",
-      "landing_folder": null,
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "shared.support",
         "fe_component": "Support",
         "title": "Suporte ao Cliente",
-        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Precisa de ajuda ou tem alguma dúvida? Estamos aqui para ajudar!</h2><p>Nossa equipe de suporte dedicada está pronta para ajudar você com quaisquer dúvidas sobre nossas ferramentas alimentadas por IA, integrações de chatbot ou recursos de geração de imagens. Se você precisar de suporte técnico, assistência com faturamento ou tiver algum feedback para compartilhar, ficaremos felizes em ajudar.</p><p>Preencha o formulário abaixo e entraremos em contato o mais breve possível.</p><p>Vamos tornar sua experiência com IA mais fluida e eficiente!</p></div>",
-        "event": null,
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Precisa de ajuda ou tem alguma dúvida? Estamos aqui para ajudar!</h2><p>Nossa equipe de suporte dedicada está pronta para ajudar com qualquer dúvida sobre nossas ferramentas alimentadas por IA, integrações de chatbot ou recursos de geração de imagens.</p><p>Se você precisa de suporte técnico, ajuda com faturamento ou tem algum feedback para compartilhar, ficaremos felizes em ajudar.</p><p>Preencha o formulário abaixo, e retornaremos o mais breve possível.</p><p>Vamos tornar sua experiência com IA tranquila e eficiente!</p></div>",
         "cta": {
           "href": "https://chat.aichatapp.ai/app/ai-chat",
           "text": "Voltar ao Chat",

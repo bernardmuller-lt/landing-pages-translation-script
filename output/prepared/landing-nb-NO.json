@@ -1,20 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "nb-NO",
     "seo": {
-      "title": "ChatAI Nettsapper",
-      "description": "En sofistikert AI-chatassistent designet for å gi intelligente svar, delta i meningsfulle dialoger og levere en sømløs samtaleopplevelse."
+      "title": "ChatAI Nettapplikasjoner",
+      "description": "En sofistikert AI-chatassistent designet for å gi intelligente svar, delta i meningsfulle samtaler og levere en sømløs samtaleopplevelse."
     },
     "events": null,
     "sections": [
       {
         "__component": "ai-chat.hero-section",
         "fe_component": "Hero",
-        "title": "<h1 class=\"text-left leading-[1.1] font-bold text-main text-[4.25rem] dark:text:white mb-2.5\">AI-samtaler</h1>",
-        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">Gjør dagen din bedre med AI, én chat av gangen</p>",
+        "title": "<h1 class=\"font-bold\"><span style=\"font-size:72px;\">AI Chats</span></h1>",
+        "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">Forbedre dagen din med AI, én chat av gangen</p>",
         "cta": {
           "href": "https://chat.aichatapp.ai/register",
           "text": "Kom i gang gratis",
@@ -22,8 +22,8 @@
           "icon": null
         },
         "media": {
-          "dark": 18,
-          "light": 17
+          "light": 17,
+          "dark": 18
         }
       },
       {
@@ -34,29 +34,29 @@
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> 5-stjerners anmeldelser</p>",
             "media": {
-              "dark": 20,
-              "light": 19
+              "light": 19,
+              "dark": 20
             }
           },
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Første</strong> AI-chatbot</p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Første</strong> AI Chatbot</p>",
             "media": {
-              "dark": 22,
-              "light": 21
+              "light": 21,
+              "dark": 22
             }
           },
           {
-            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30 millioner+</strong> brukere verden over</p>",
+            "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30M+</strong> brukere verden over</p>",
             "media": {
-              "dark": 24,
-              "light": 23
+              "light": 23,
+              "dark": 24
             }
           },
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Drevet av</strong> avanserte AI-modeller</p>",
             "media": {
-              "dark": 26,
-              "light": 25
+              "light": 25,
+              "dark": 26
             }
           }
         ]
@@ -64,35 +64,35 @@
       {
         "__component": "ai-chat.carousel-section",
         "fe_component": "Carousel",
-        "title": "Tillit fra millioner av brukere",
+        "title": "Millioner av brukere stoler på oss",
         "items": [
           {
-            "title": " Smart skriveverktøy ",
-            "description": " “Denne plattformen integreres sømløst i min daglige arbeidsflyt som teknologiekspert, og tilbyr imponerende fleksibilitet og tilpasning som forbedrer min kreative problemløsning.” ",
+            "title": "Smart skriveverktøy",
+            "description": " “Denne plattformen integreres sømløst i min daglige arbeidsflyt som teknisk fagperson, og tilbyr imponerende fleksibilitet og tilpasning som forbedrer min kreative problemløsning.” ",
             "rating": 5,
             "author": "Matthias Engelhardt"
           },
           {
-            "title": " Strålende tekstassistent ",
-            "description": " “Som daglig bruker i det kreative teknologifeltet er jeg imponert over plattformens tilpasningsevne. Den gir meg mulighet til å skreddersy interaksjoner nøyaktig etter prosjektbehovene mine.” ",
+            "title": "Strålende Tekstassistent",
+            "description": " “Som daglig bruker i det kreative teknologifeltet er jeg imponert over plattformens tilpasningsevne. Den gir meg mulighet til å skreddersy interaksjoner nøyaktig til prosjektbehovene mine.” ",
             "rating": 5,
             "author": "Sofia Valenti"
           },
           {
-            "title": " Avansert skriveassistent ",
-            "description": "“Et svært pålitelig verktøy for teknologiprofesjonelle, som tilbyr dynamiske tilpasningsalternativer som passer perfekt til de raske kravene i den kreative industrien.”",
+            "title": "Enkel skriveassistent",
+            "description": "“Et svært pålitelig verktøy for tekniske fagfolk, som tilbyr dynamiske tilpasningsalternativer som passer perfekt til de raske kravene i den kreative industrien.”",
             "rating": 5,
             "author": "Heinrich Schreiber"
           },
           {
-            "title": " Avansert skriveassistent ",
-            "description": "“Plattformens innovative design og brukersentriske tilnærming gjør den til en essensiell del av mitt daglige verktøysett, spesielt når jeg håndterer komplekse teknologiprojekter.”",
+            "title": "Avansert skriveassistent",
+            "description": "“Den innovative utformingen og brukervennlige tilnærmingen gjør den til en essensiell del av mitt daglige verktøysett, spesielt når jeg håndterer komplekse teknologiprosjekter.”",
             "rating": 5,
             "author": "Elisabeth van der Meer"
           },
           {
-            "title": " Kreativ ordskaper ",
-            "description": " “Dette er en virkelig nyvinning for mitt kreative arbeid, med evnen til å tilpasse og justere seg etter utviklende krav uten anstrengelse—en ideell løsning for daglig teknologibruk.”",
+            "title": "Kreativ ordkunstner",
+            "description": " “Det er banebrytende for det kreative arbeidet mitt, med evnen til å tilpasse og justere etter skiftende krav uten problemer—en ideell løsning for daglig teknologibruk.”",
             "rating": 5,
             "author": "Andreas Sorensen"
           }
@@ -100,63 +100,6 @@
       },
       {
         "__component": "ai-chat.perk-comparison-table",
-        "fe_component": "ComparisonTable",
-        "rows": [
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPT-svar</p>",
-            "tier": "both",
-            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">Din inngang til smartere samtaler</p>",
-            "icon": {
-              "dark": 28,
-              "light": 27
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Tilgang til GPT-5</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Svar på neste nivå med avansert AI</p>",
-            "icon": {
-              "dark": 30,
-              "light": 29
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Bildegenerering</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Omformer ideer til fantastiske bilder med de beste tilgjengelige AI-modellene, som Nano Banana</p>",
-            "icon": {
-              "dark": 32,
-              "light": 31
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Tilgang til avanserte modeller</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT, DeepSeek, Gemini Pro, Claude Sonnet, Grok og mange fler!</p>",
-            "icon": {
-              "dark": 34,
-              "light": 33
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Lås opp avanserte verktøy</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Chat med PDF, dokumenter, Excel og mer</p>",
-            "icon": {
-              "dark": 36,
-              "light": 35
-            }
-          },
-          {
-            "title": "<p class=\"font-bold text-[1.25rem]\">Ingen annonser</p>",
-            "tier": "pro",
-            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Ren AI-assistanse, ingen distraksjoner</p>",
-            "icon": {
-              "dark": 38,
-              "light": 37
-            }
-          }
-        ],
         "header": [
           {
             "heading": null
@@ -167,6 +110,62 @@
           {
             "heading": "<p class=\"pl-8\"><span style=\"font-size:20px;\">PRO</span></p>"
           }
+        ],
+        "rows": [
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPT Svar</p>",
+            "tier": "both",
+            "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">Din inngangsport til smartere samtaler</p>",
+            "icon": {
+              "light": 27,
+              "dark": 28
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Tilgang til GPT-5</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Neste nivå svar med avansert AI</p>",
+            "icon": {
+              "light": 29,
+              "dark": 30
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Bildegenerering</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Gjør ideer om til fantastiske bilder med de beste tilgjengelige AI-modellene, som Nano Banana</p>",
+            "icon": {
+              "light": 31,
+              "dark": 32
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Tilgang til avanserte modeller</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT, DeepSeek, Gemini Pro, Claude Sonnet, Grok og mange flere!</p>",
+            "icon": {
+              "light": 33,
+              "dark": 34
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Lås opp avanserte verktøy</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Chat med PDF, Docs, Excel, og mer</p>",
+            "icon": {
+              "light": 35,
+              "dark": 36
+            }
+          },
+          {
+            "title": "<p class=\"font-bold text-[1.25rem]\">Ingen annonser</p>",
+            "tier": "pro",
+            "subtitle": "<p class=\"text-gray-500 dark:text-white\">Ren AI-assistanse, ingen distraksjoner</p>",
+            "icon": {
+              "light": 37,
+              "dark": 38
+            }
+          }
         ]
       },
       {
@@ -175,33 +174,33 @@
         "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AI Chat</strong> Funksjoner</p>",
         "items": [
           {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Smarte samtaler, umiddelbart</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat er din pålitelige følgesvenn for dynamiske samtaler</strong>. Den kombinerer avanserte språkmodeller med et brukervennlig grensesnitt for å skape sømløse, personlige interaksjoner. Nyt smarte, engasjerende samtaler—ingen kopiering eller bytting av faner. Bare raskere, skreddersydde svar samlet på ett sted.</p></div>",
-            "icon": null,
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Smarte samtaler, umiddelbart</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat er din pålitelige følgesvenn for dynamiske samtaler</strong>. Den kombinerer avanserte språkmodeller med et brukervennlig grensesnitt for å skape sømløse, personlige interaksjoner. Nyt smarte, engasjerende samtaler—ingen kopiering eller bytting av faner. Raskere, skreddersydde svar på ett sted.</p></div>",
             "media": {
-              "dark": null,
-              "light": 39
+              "light": 39,
+              "dark": null
+            },
+            "icon": null
+          },
+          {
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Gjør ideene dine om til utrolige bilder med 🍌 Nano Banana</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Din kreativitet har ingen grenser. Beskriv bare ideen din, og AI Chat gjør den til fantastiske visuelle uttrykk—ingen designferdigheter trengs. Fra fantasi til bilde på få sekunder, klar til å inspirere, dele eller bygge videre på. Bare ordene dine. Ren skapelse.</p></div>",
+            "media": {
+              "light": 40,
+              "dark": null
+            },
+            "icon": {
+              "light": 41,
+              "dark": null
             }
           },
           {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Gjør ideene dine til fantastiske bilder med 🍌 Nano Banana</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Din kreativitet har ingen grenser. Bare beskriv ideen din, så gjør AI Chat den om til fantastiske bilder — ingen designferdigheter trengs. Fra idé til bilde på sekunder, klar til å inspirere, dele eller bygge videre. Bare dine ord. Ren skapelse.</p></div>",
-            "icon": {
-              "dark": null,
-              "light": 41
-            },
+            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Lås opp dine PDFer på få sekunder</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Få mer ut av dine PDF på få sekunder. Oppsummer, oversett og analyser dokumenter umiddelbart. Har du spørsmål? AI Chat gir raske, nøyaktige svar—som sparer deg tid og hjelper deg å fokusere på det som betyr mest. Det er smart, raskt, og bygget for produktivitet.</p></div>",
             "media": {
-              "dark": null,
-              "light": 40
-            }
-          },
-          {
-            "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Mestre PDF-er på sekunder</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Få mer ut av PDF-en din i løpet av sekunder. Oppsummer, oversett og analyser dokumenter umiddelbart. Har du spørsmål? AI Chat gir raske, nøyaktige svar—og hjelper deg å spare tid og fokusere på det som er viktigst. Den er smart, rask og bygget for produktivitet.</p></div>",
-            "icon": {
-              "dark": null,
-              "light": 43
+              "light": 42,
+              "dark": null
             },
-            "media": {
-              "dark": null,
-              "light": 42
+            "icon": {
+              "light": 43,
+              "dark": null
             }
           }
         ]
@@ -212,7 +211,7 @@
         "title": "<p><strong class=\"text-primary\">AI Chat</strong> er nyttig for</p>",
         "items": [
           {
-            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem] w-8 h-8\" aria-hidden=\"true\">💼</span>Markedsføring</p>"
+            "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">💼</span>Markedsføring</p>"
           },
           {
             "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">✈️</span>Reise</p>"

@@ -1,25 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "support",
     "locale": "ko-KR",
     "seo": {
-      "title": "지원 - AI 채팅",
-      "description": "AI 채팅"
+      "title": "지원 - AI Chat",
+      "description": "AI Chat"
     },
-    "events": {
-      "viewPageEventName": "Contact_Support",
-      "landing_folder": null,
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "shared.support",
         "fe_component": "Support",
         "title": "고객 지원",
-        "description": "<div><h2 class='freshdesk-contact-form__title'>도움이 필요하시거나 궁금하신 점이 있으신가요? 저희가 도와드리겠습니다!</h2><p>저희 전담 지원 팀은 AI 기반 도구, 챗봇 연동 또는 이미지 생성 기능에 관한 모든 문의에 도움을 드릴 준비가 되어 있습니다. 기술 지원이 필요하시거나 결제 관련 도움을 받으시거나 피드백을 공유하고 싶으시다면, 저희가 기꺼이 도와드리겠습니다.</p><p>아래 양식을 작성해 주시면 최대한 빨리 회신드리겠습니다.</p><p>AI 사용 경험을 원활하고 효율적으로 만들어 드리겠습니다!</p></div>",
-        "event": null,
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">도움이 필요하시거나 질문이 있으신가요? 저희가 도와드리겠습니다!</h2><p>저희 전담 지원 팀은 AI 기반 도구, 챗봇 통합 또는 이미지 생성 기능에 대한 모든 문의에 대해 도와드릴 준비가 되어 있습니다. 기술 지원이 필요하시거나 청구 관련 도움, 또는 공유하고 싶은 피드백이 있으시더라도 기꺼이 도와드리겠습니다.</p><p>아래 양식을 작성해 주시면 최대한 빨리 연락드리겠습니다.</p><p>귀하의 AI 사용 경험을 매끄럽고 효율적으로 만들어 드리겠습니다!</p></div>",
         "cta": {
           "href": "https://chat.aichatapp.ai/app/ai-chat",
           "text": "채팅으로 돌아가기",

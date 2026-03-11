@@ -1,0 +1,35 @@
+{
+  "data": {
+    "slug": "ai-chat-footer",
+    "locale": "zh-CN",
+    "environment": "production",
+    "copyright": "@2026 AI Chat",
+    "href": "/",
+    "items": [
+      {
+        "text": "支持",
+        "href": "/support/"
+      },
+      {
+        "text": "隐私政策",
+        "href": "/privacy-policy-and-cookie-policy/"
+      },
+      {
+        "text": "使用条款",
+        "href": "/terms-of-use/"
+      },
+      {
+        "text": "条款与条件",
+        "href": "/terms-and-conditions/"
+      },
+      {
+        "text": "退款政策",
+        "href": "/refund-policy/"
+      }
+    ],
+    "logo": {
+      "light": 54,
+      "dark": 55
+    }
+  }
+}

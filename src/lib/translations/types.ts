@@ -11,6 +11,7 @@ export const TRANSLATABLE_FIELD_NAMES = new Set([
   "pricePerDay",
   "duration",
   "fullPrice",
+  "copyright",
 ]);
 
 export const EXCLUDED_FIELD_NAMES = new Set([

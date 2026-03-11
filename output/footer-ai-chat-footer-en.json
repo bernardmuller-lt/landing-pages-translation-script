@@ -1,0 +1,90 @@
+{
+  "id": 32,
+  "documentId": "d19qprfvuwk871tyrsk9enaf",
+  "slug": "ai-chat-footer",
+  "environment": "production",
+  "copyright": "@2026 AI Chat",
+  "href": "/",
+  "createdAt": "2026-03-11T14:03:07.349Z",
+  "updatedAt": "2026-03-11T14:03:07.349Z",
+  "publishedAt": "2026-03-11T14:03:07.377Z",
+  "locale": "en",
+  "logo": {
+    "id": 3639,
+    "dark": {
+      "id": 55,
+      "documentId": "a3vxgtd0sbgnd0onqnjm8gbu",
+      "name": "white-branding-logo.svg",
+      "alternativeText": null,
+      "caption": null,
+      "width": 931,
+      "height": 500,
+      "formats": null,
+      "hash": "white_branding_logo_b13eb6a416",
+      "ext": ".svg",
+      "mime": "image/svg+xml",
+      "size": 3.79,
+      "url": "https://big-dog-9e75d2515f.media.strapiapp.com/white_branding_logo_b13eb6a416.svg",
+      "previewUrl": null,
+      "provider": "strapi-provider-upload-strapi-cloud",
+      "provider_metadata": null,
+      "createdAt": "2026-03-10T11:22:57.485Z",
+      "updatedAt": "2026-03-10T11:22:57.485Z",
+      "publishedAt": "2026-03-10T11:22:57.486Z"
+    },
+    "light": {
+      "id": 54,
+      "documentId": "xh218pr4t5dpgj8ugg4k6amz",
+      "name": "Logo-Light.svg",
+      "alternativeText": null,
+      "caption": null,
+      "width": 931,
+      "height": 500,
+      "formats": null,
+      "hash": "Logo_Light_07b7677d1b",
+      "ext": ".svg",
+      "mime": "image/svg+xml",
+      "size": 3.83,
+      "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Logo_Light_07b7677d1b.svg",
+      "previewUrl": null,
+      "provider": "strapi-provider-upload-strapi-cloud",
+      "provider_metadata": null,
+      "createdAt": "2026-03-10T11:22:43.342Z",
+      "updatedAt": "2026-03-10T11:22:43.342Z",
+      "publishedAt": "2026-03-10T11:22:43.342Z"
+    }
+  },
+  "items": [
+    {
+      "id": 152,
+      "text": "Soporte",
+      "href": "/support/",
+      "eventName": null
+    },
+    {
+      "id": 153,
+      "text": "Política de Privacidad",
+      "href": "/privacy-policy-and-cookie-policy/",
+      "eventName": null
+    },
+    {
+      "id": 154,
+      "text": "Términos de uso",
+      "href": "/terms-of-use/",
+      "eventName": null
+    },
+    {
+      "id": 155,
+      "text": "Términos y Condiciones",
+      "href": "/terms-and-conditions/",
+      "eventName": null
+    },
+    {
+      "id": 156,
+      "text": "Política de reembolsos",
+      "href": "/refund-policy/",
+      "eventName": null
+    }
+  ],
+  "localizations": []
+}

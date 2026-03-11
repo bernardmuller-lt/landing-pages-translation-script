@@ -11,13 +11,19 @@ export const config = {
   locale: "en",
 
   // Environment to fetch from
-  environment: "test",
+  environment: "production",
 
   // Known page slugs from chatai-www project
   pagesSlugs: {
     home: "home",
     onboarding: "onboarding",
     support: "support",
+  },
+
+  // Metadata slugs for header and footer
+  metadataSlugs: {
+    header: "ai-chat-header",
+    footer: "ai-chat-footer",
   },
 
   // Output directory for JSON files (relative to project root)
@@ -35,15 +41,15 @@ export const config = {
  * Keys are Strapi locale codes; values are human-readable names.
  */
 export const TARGET_LOCALES: Record<string, string> = {
-  "de": "German",
+  de: "German",
   "es-419": "Spanish (Latin America)",
   "ko-KR": "Korean (South Korea)",
   "pt-BR": "Portuguese (Brazil)",
-  "fr": "French",
-  "nl": "Dutch",
-  "it": "Italian",
+  fr: "French",
+  nl: "Dutch",
+  it: "Italian",
   "ja-JP": "Japanese (Japan)",
-  "pl": "Polish",
+  pl: "Polish",
   "da-DK": "Danish (Denmark)",
   "nb-NO": "Norwegian Bokmål",
   "pt-PT": "Portuguese (Portugal)",

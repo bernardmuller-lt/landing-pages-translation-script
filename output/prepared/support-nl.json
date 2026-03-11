@@ -1,25 +1,20 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "support",
     "locale": "nl",
     "seo": {
-      "title": "Ondersteuning - AI-chat",
-      "description": "AI-chat"
+      "title": "Ondersteuning - AI Chat",
+      "description": "AI Chat"
     },
-    "events": {
-      "viewPageEventName": "Contact_Support",
-      "landing_folder": null,
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "shared.support",
         "fe_component": "Support",
         "title": "Klantenondersteuning",
-        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Hulp nodig of een vraag? Wij staan voor u klaar!</h2><p>Ons toegewijde supportteam staat klaar om u te helpen met vragen over onze AI-gedreven tools, chatbot-integraties of beeldgeneratiefuncties. Of u nu technische ondersteuning, hulp bij facturering of feedback wilt geven, helpen wij u graag.</p><p>Vul hieronder het formulier in, dan nemen wij zo snel mogelijk contact met u op.</p><p>Laten we uw AI-ervaring naadloos en efficiënt maken!</p></div>",
-        "event": null,
+        "description": "<div><h2 class=\"freshdesk-contact-form__title\">Hulp nodig of een vraag? Wij staan voor u klaar!</h2><p>Ons toegewijde ondersteuningsteam staat klaar om u te helpen met vragen over onze AI-gedreven tools, chatbot-integraties of beeldgeneratiefuncties. Of u nu technische ondersteuning, betalingshulp nodig heeft, of feedback wilt delen, helpen wij u graag.</p><p>Vul hieronder het formulier in, en we nemen zo snel mogelijk contact met u op.</p><p>Laten we uw AI-ervaring naadloos en efficiënt maken!</p></div>",
         "cta": {
           "href": "https://chat.aichatapp.ai/app/ai-chat",
           "text": "Terug naar chat",

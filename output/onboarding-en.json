@@ -1,0 +1,127 @@
+{
+  "slug": "onboarding",
+  "locale": "en",
+  "seo": {
+    "id": 90,
+    "title": "AI Chat",
+    "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+  },
+  "sections": [
+    {
+      "__component": "ai-chat.onboarding-slides-section",
+      "id": 7,
+      "fe_component": "OnBoardingSlides",
+      "items": [
+        {
+          "id": 438,
+          "dark": null,
+          "light": {
+            "id": 8,
+            "documentId": "a3mimklwjzml0q592j0x9yut",
+            "name": "homepage-hero-light-mode-en.webp",
+            "alternativeText": null,
+            "caption": null,
+            "width": 800,
+            "height": 479,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_homepage_hero_light_mode_en_736293ae43.webp",
+                "hash": "small_homepage_hero_light_mode_en_736293ae43",
+                "mime": "image/webp",
+                "name": "small_homepage-hero-light-mode-en.webp",
+                "path": null,
+                "size": 11.47,
+                "width": 500,
+                "height": 299,
+                "sizeInBytes": 11468
+              },
+              "medium": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_homepage_hero_light_mode_en_736293ae43.webp",
+                "hash": "medium_homepage_hero_light_mode_en_736293ae43",
+                "mime": "image/webp",
+                "name": "medium_homepage-hero-light-mode-en.webp",
+                "path": null,
+                "size": 19.79,
+                "width": 750,
+                "height": 449,
+                "sizeInBytes": 19788
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_homepage_hero_light_mode_en_736293ae43.webp",
+                "hash": "thumbnail_homepage_hero_light_mode_en_736293ae43",
+                "mime": "image/webp",
+                "name": "thumbnail_homepage-hero-light-mode-en.webp",
+                "path": null,
+                "size": 3.7,
+                "width": 245,
+                "height": 147,
+                "sizeInBytes": 3698
+              }
+            },
+            "hash": "homepage_hero_light_mode_en_736293ae43",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 23.34,
+            "url": "https://big-dog-9e75d2515f.media.strapiapp.com/homepage_hero_light_mode_en_736293ae43.webp",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2026-02-16T12:19:15.087Z",
+            "updatedAt": "2026-02-16T12:19:15.087Z",
+            "publishedAt": "2026-02-16T12:19:15.088Z"
+          }
+        }
+      ]
+    },
+    {
+      "__component": "ai-chat.onboarding-content-section",
+      "id": 7,
+      "fe_component": "OnBoardingContent",
+      "logo": {
+        "id": 439,
+        "dark": null,
+        "light": {
+          "id": 43,
+          "documentId": "wpsbnz4jccz7rjlj10i7h5nj",
+          "name": "PDF_Icon.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 36,
+          "height": 43,
+          "formats": null,
+          "hash": "PDF_Icon_8230898f30",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 0.56,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/PDF_Icon_8230898f30.svg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2026-02-17T13:32:05.059Z",
+          "updatedAt": "2026-02-17T13:32:05.059Z",
+          "publishedAt": "2026-02-17T13:32:05.059Z"
+        }
+      },
+      "items": [
+        {
+          "id": 7,
+          "title1": "testing",
+          "title1Highlight": false,
+          "title2": "testing again",
+          "title2Highlight": false,
+          "description": "more testing",
+          "cta": {
+            "id": 4,
+            "href": "testing",
+            "text": "testing",
+            "aria_label": "testing",
+            "icon": null
+          }
+        }
+      ]
+    }
+  ]
+}

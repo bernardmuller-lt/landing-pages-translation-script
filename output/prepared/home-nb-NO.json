@@ -1,33 +1,29 @@
 {
   "data": {
-    "environment": "test",
+    "environment": "production",
     "identifier": "ai-chat",
     "slug": "home",
     "locale": "nb-NO",
     "seo": {
-      "title": "AI Chat Nettapp",
-      "description": "En sofistikert AI-chat-assistent designet for å gi intelligens svar, delta i meningsfulle dialoger og levere en sømløs samtaleopplevelse."
+      "title": "AI Chat Nettapplikasjon",
+      "description": "En sofistikert AI-chatassistent designet for å gi intelligente svar, delta i meningsfulle dialoger og levere en sømløs samtaleopplevelse."
     },
-    "events": {
-      "viewPageEventName": "view_landing",
-      "landing_folder": "/",
-      "landing_parameter": null
-    },
+    "events": null,
     "sections": [
       {
         "__component": "ai-chat.hero-section",
         "fe_component": "Hero",
-        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Flere AI</strong><br><strong class=\"font-black\">Modeller, </strong>En kraftig plattform</h1>",
-        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chat med forskjellige AI-modeller for å finne den som passer deg</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Oppdag en verden av AI på ett sted. Chat med forskjellige modeller, sammenlign deres styrker og få mest mulig ut av AI-teknologi. Enten du trenger nøyaktig forskning, innholdsskaping, språkoversettelse, bildegenerering eller programmeringshjelp, har vi riktig modell for deg.</p>",
+        "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Flere AI</strong><br><strong class=\"font-black\">Modeller,</strong> En kraftig plattform</h1>",
+        "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chat med ulike AI-modeller for å finne den som passer deg</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Oppdag en verden av AI på ett sted. Skriv med ulike modeller, sammenlign deres styrker, og få mest mulig ut av AI-teknologi. Enten du trenger nøyaktig forskning, innholdsproduksjon, språkoversettelse, bildegenerering eller kodingassistanse, har vi riktig modell for deg.</p>",
         "cta": {
           "href": "https://chat.aichatapp.ai/login",
-          "text": "Start gratis",
-          "aria_label": "Start gratis",
+          "text": "Kom i gang gratis",
+          "aria_label": "Kom i gang gratis",
           "icon": "arrow-right"
         },
         "media": {
-          "dark": 9,
-          "light": 8
+          "light": 8,
+          "dark": 9
         }
       },
       {
@@ -37,31 +33,31 @@
         "items": [
           {
             "title": "Smart skriveverktøy",
-            "description": "“Denne plattformen integreres sømløst i arbeidsflyten min som teknisk fagperson, og tilbyr imponerende fleksibilitet og tilpasningsmuligheter som forbedrer min kreative problemløsning.”",
+            "description": "«Denne plattformen integreres sømløst i min daglige arbeidsflyt som teknisk fagperson, og tilbyr imponerende fleksibilitet og tilpasningsmuligheter som forbedrer min kreative problemløsning.»",
             "rating": 5,
             "author": "Matthias Engelhardt"
           },
           {
-            "title": "Fremragende tekstassistent",
-            "description": "“Som daglig bruker i det kreative teknologifeltet er jeg imponert over plattformens tilpasningsevne. Den gjør det mulig for meg å skreddersy interaksjoner nøyaktig etter mine prosjektbehov.”",
+            "title": "Strålende tekstassistent",
+            "description": "«Som en daglig bruker i det kreative teknologifeltet er jeg imponert over plattformens tilpasningsevne. Den gir meg mulighet til å skreddersy interaksjonene presist til prosjektbehovene mine.»",
             "rating": 5,
             "author": "Sofia Valenti"
           },
           {
-            "title": "Problemfri skrivehjelpemiddel",
-            "description": "“Et svært pålitelig verktøy for teknologiprofesjonelle, som tilbyr dynamiske tilpasningsalternativer som passer perfekt til de raske kravene i den kreative industrien.”",
+            "title": "Enkelt skriveverktøy",
+            "description": "«Et svært pålitelig verktøy for tekniske fagfolk, som tilbyr dynamiske tilpasningsalternativer som passer perfekt til de raske kravene i den kreative industrien.»",
             "rating": 5,
             "author": "Heinrich Schreiber"
           },
           {
             "title": "Avansert skriveassistent",
-            "description": "“Plattformens innovative design og brukersentriske tilnærming gjør den til en essensiell del av mitt daglige verktøykit, spesielt når jeg håndterer komplekse teknologiprosjekter.”",
+            "description": "« Plattformens innovative design og brukerorienterte tilnærming gjør den til en essensiell del av mitt daglige verktøyssett, spesielt når jeg håndterer komplekse teknologiprojekter.»",
             "rating": 5,
             "author": "Elisabeth van der Meer"
           },
           {
             "title": "Kreativ ordkunstner",
-            "description": "“Det er en banebrytende løsning for mitt kreative arbeid, med evnen til å tilpasse og justere etter stadig skiftende krav uten unødvendig arbeid—en ideell løsning for daglig teknologibruk.”",
+            "description": "«Dette endrer spillet for mitt kreative arbeid, med evnen til å tilpasse og justere etter utviklende krav uten problemer—en ideell løsning for daglig teknologibruk.»",
             "rating": 5,
             "author": "Andreas Sorensen"
           }
@@ -70,21 +66,20 @@
       {
         "__component": "ai-chat.plan-section",
         "fe_component": "Plans",
-        "title": "Gå Pro for ubegrenset bruk",
+        "title": "Gå <strong class='text-primary'>Pro</strong> for ubegrenset bruk",
         "items": [
           {
             "isPopular": null,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Kom i gang",
-              "aria_label": "Kom i gang",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "$0.67 per dag",
+              "duration": "1 måned tilgang",
+              "fullPrice": "$19.99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% annonsefri",
-                "subtitle": "Ingen distraksjoner"
+                "title": "100 % annonsefri",
+                "subtitle": "Uten distraksjoner"
               },
               {
                 "icon": "svgonly/chat",
@@ -93,34 +88,34 @@
               },
               {
                 "icon": "svgonly/infinite",
-                "title": "Glem begrensninger",
+                "title": "Glem grenser",
                 "subtitle": "Ikke bekymre deg, bruk alt du trenger."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0,67 per dag",
-              "duration": "1 måned tilgang",
-              "fullPrice": "$19,99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom i gang",
+              "aria_label": "Kom i gang",
+              "icon": null
             }
           },
           {
             "isPopular": true,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Kom i gang",
-              "aria_label": "Kom i gang",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "$0.44 per dag",
+              "duration": "3 måneder tilgang",
+              "fullPrice": "$39.99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% annonsefri",
-                "subtitle": "Ingen distraksjoner"
+                "title": "100 % annonsefri",
+                "subtitle": "Uten distraksjoner"
               },
               {
                 "icon": "svgonly/chat",
                 "title": "Beste AI-modeller på én plattform",
-                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux og mer!"
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux og flere!"
               },
               {
                 "icon": "svgonly/infinite",
@@ -128,30 +123,30 @@
                 "subtitle": "Ikke bekymre deg, bruk alt du trenger."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0,44 per dag",
-              "duration": "3 måneder tilgang",
-              "fullPrice": "$39,99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom i gang",
+              "aria_label": "Kom i gang",
+              "icon": null
             }
           },
           {
             "isPopular": null,
-            "cta": {
-              "href": "https://chat.aichatapp.ai/register",
-              "text": "Kom i gang",
-              "aria_label": "Kom i gang",
-              "icon": null
+            "priceDetails": {
+              "pricePerDay": "$0.19 per dag",
+              "duration": "12 måneder tilgang",
+              "fullPrice": "$69.99"
             },
             "description": [
               {
                 "icon": "svgonly/bullseye",
-                "title": "100% annonsefri",
-                "subtitle": "Ingen distraksjoner"
+                "title": "100 % annonsefri",
+                "subtitle": "Uten distraksjoner"
               },
               {
                 "icon": "svgonly/chat",
                 "title": "Beste AI-modeller på én plattform",
-                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux og mer!"
+                "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux og flere!"
               },
               {
                 "icon": "svgonly/infinite",
@@ -159,10 +154,11 @@
                 "subtitle": "Ikke bekymre deg, bruk alt du trenger."
               }
             ],
-            "priceDetails": {
-              "pricePerDay": "$0,19 per dag",
-              "duration": "12 måneders tilgang",
-              "fullPrice": "$69,99"
+            "cta": {
+              "href": "https://chat.aichatapp.ai/register",
+              "text": "Kom i gang",
+              "aria_label": "Kom i gang",
+              "icon": null
             }
           }
         ]
@@ -172,96 +168,88 @@
         "fe_component": "Features",
         "client": true,
         "title": "WebbApp <strong class='text-primary'>Funksjoner</strong>",
-        "logo": {
-          "dark": null,
-          "light": 15
+        "media": {
+          "light": 13,
+          "dark": 14
         },
         "tabs": [
           {
-            "title": "AI Chat: Din ultimate AI-samtalevenn",
-            "text": "AI Chat bruker banebrytende AI med en naturlig dialogflyt, og leverer en chat-opplevelse som er like intuitiv som engasjerende. Enten det er uformelle samtaler eller å takle utfordringer, er AI Chat din pålitelige AI for meningsfulle, dynamiske og menneskelignende interaksjoner.",
+            "title": "AI Chat: Din ultimate AI-samtalepartner",
+            "text": "AI Chat bruker banebrytende AI med naturlig dialogflyt, og leverer en chatteopplevelse som er like intuitiv som engasjerende. Enten det er uformelle samtaler eller å takle utfordringer, AI Chat er din pålitelige AI for meningsfulle, dynamiske og menneskelignende interaksjoner.",
+            "icon": {
+              "light": 11,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Kom i gang",
               "aria_label": "Kom i gang",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 11
             }
           },
           {
-            "title": "AI Chat: Din intelligente chatpartner",
-            "text": "AI Chat er din foretrukne AI for dynamiske samtaler. Den kombinerer banebrytende språkbehandling med et brukervennlig grensesnitt, og gjør hver interaksjon til en sømløs, personlig opplevelse. Utforsk engasjerende, intuitive samtaler som utvikler seg i takt med dine unike preferanser.",
+            "title": "AI Chat: Din intelligens chat-venn",
+            "text": "AI Chat er din foretrukne AI for dynamiske samtaler. Den kombinerer banebrytende språkbehandling med et brukervennlig grensesnitt, og gjør hver interaksjon til en sømløs, personlig opplevelse. Dykk inn i engasjerende, intuitive samtaler som utvikler seg i takt med dine unike preferanser.",
+            "icon": {
+              "light": 10,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Kom i gang",
               "aria_label": "Kom i gang",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 10
             }
           },
           {
-            "title": "AI Chat: Din AI-drevne samtalegeni",
-            "text": "AI Chat forbedrer samtalene dine med en avansert AI basert på GPT-4o som leverer raske, innsiktsfulle svar, inspirerer til engasjerende interaksjoner og gir en sømløs opplevelse. Den lærer kontinuerlig og tilpasser seg, og gir verdifulle innsikter ved hver interaksjon.",
+            "title": "AI Chat: Din ultimate AI-samtalepartner",
+            "text": "AI Chat bruker banebrytende AI med naturlig dialogflyt, og leverer en chatteopplevelse som er like intuitiv som engasjerende. Enten det er uformelle samtaler eller å takle utfordringer, AI Chat er din pålitelige AI for meningsfulle, dynamiske og menneskelignende interaksjoner.",
+            "icon": {
+              "light": 12,
+              "dark": null
+            },
             "cta": {
               "href": "https://chat.aichatapp.ai/register",
               "text": "Kom i gang",
               "aria_label": "Kom i gang",
               "icon": "arrow-right"
-            },
-            "icon": {
-              "dark": null,
-              "light": 12
             }
           }
-        ],
-        "media": {
-          "dark": 14,
-          "light": 13
-        },
-        "headingsBackground": {
-          "dark": null,
-          "light": 16
-        }
+        ]
       },
       {
         "__component": "ai-chat.faq-section",
         "fe_component": "FAQ",
         "client": true,
-        "title": "<p><strong>Ofte stilte </strong><span style=\"color:#01b78d;\"><strong>Spørsmål</strong></span></p>",
+        "title": "<p><strong>Vanlige</strong> <span style=\"color:#01b78d;\"><strong>Spørsmål</strong></span></p>",
         "items": [
           {
-            "title": "Hva er AI Chat egentlig, og hvilke fordeler gir det meg?",
-            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat er en kraftig AI-chatbot som integrerer flere avanserte AI-modeller, inkludert OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek og Flux for å gi raske og intelligente svar på alle dine behov.</li><li>Fordelene med å bruke AI Chat inkluderer:<ul style=\"list-style-type:square;\"><li>Tilpasning: Tilpass AI-opplevelsen ved å velge mellom ulike modeller som passer dine preferanser og krav.</li><li>Hastighet og tidsbesparelse: AI Chat gir raske, nøyaktige svar fra flere banebrytende AI-modeller, noe som effektiviserer oppgavene dine og sparer deg tid.</li><li>Grenseløs tilgjengelighet: Få tilgang til førsteklasses AI-støtte når som helst, hvor som helst, med en rekke modeller til fingerspissene.</li><li>Kontinuerlige oppdateringer: Vi legger alltid til de nyeste AI-modellene og oppdateringene, slik at du har tilgang til de mest avanserte og oppdaterte teknologiene.</li></ul></li></ul>"
+            "title": "Hva exactly er AI Chat og hvilke fordeler tilbyr den meg?",
+            "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat er en kraftig AI-chatbot som integrerer flere avanserte AI-modeller, inkludert OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek og Flux for å gi raske og intelligente svar på alle dine behov.</li><li>Fordelene ved å bruke AI Chat inkluderer:<ul style=\"list-style-type:square;\"><li>Personalisering: Tilpass AI-opplevelsen ved å velge mellom ulike modeller som passer dine preferanser og krav.</li><li>Hastighet og tidsbesparelse: AI Chat leverer raske, nøyaktige svar fra flere banebrytende AI-modeller, noe som effektiviserer oppgavene dine og sparer deg tid.</li><li>Grenseløs tilgjengelighet: Få tilgang til AI-støtte på toppnivå når som helst og hvor som helst, med et bredt utvalg av modeller ved fingertuppene.</li><li>Kontinuerlige oppdateringer: Vi legger stadig til de nyeste AI-modellene og oppdateringene, slik at du har tilgang til de mest avanserte og oppdaterte teknologiene.</li></ul></li></ul>"
           },
           {
             "title": "Hvorfor abonnere? Dette får du",
-            "content": "<ul><li>Lås opp eksklusive funksjoner, raskere tilgang og personlig støtte som er utformet for å forbedre opplevelsen din. Dette inkluderer<ul><li>Få presise, grundige svar på hvert spørsmål.</li><li>Nyt utvidede meldingsgrenser for mer detaljerte samtaler.</li><li>Ubegrensede samtaler og meldinger—Chat så lenge du trenger.</li><li>Opplev raske responstider, hver gang.</li><li>Ingen avbrudd—bare rene, reklamefrie samtaler.</li></ul></li></ul>"
+            "content": "<ul><li>Få tilgang til eksklusive funksjoner, raskere tilgang og personlig støtte som er utformet for å forbedre opplevelsen din. Dette inkluderer<ul><li>Få presise, detaljerte svar på hvert spørsmål.</li><li>Nyt lengre meldingsgrenser for mer detaljerte samtaler.</li><li>Ubegrensede samtaler og meldinger—Chat så mye du trenger.</li><li>Opplev rask responstid, hver gang.</li><li>Ingen avbrudd—kun rene, reklamefrie samtaler.</li></ul></li></ul>"
           },
           {
-            "title": "Hvordan kansellerer jeg abonnementet?",
-            "content": "<p>For å avbryte abonnementet, åpne 'Konto' -seksjonen i Innstillinger-siden og klikk på 'Avbryt abonnement' knappen. Ditt abonnement vil bli avbrutt ved slutten av gjeldende abonnementsperiode, noe som fører til avslutning av premium-medlemskapet. Du vil ikke bli belastet ytterligere betalinger etter kanselleringen.</p>"
+            "title": "Hvordan avbryter jeg abonnementet?",
+            "content": "<p>For å avbryte abonnementet ditt, gå til ‘Konto’-delen i Innstillinger-siden og klikk på knappen ‘Avbryt abonnement’. Abonnementet ditt vil bli terminert ved slutten av den nåværende abonnementsperioden, noe som fører til avslutning av premium-medlemskapet. Du vil ikke bli belastet noen ytterligere betalinger etter avregistreringen.</p>"
           },
           {
             "title": "Kan jeg oppgradere eller nedgradere abonnementet mitt?",
-            "content": "<p>Ja, du kan enkelt oppgradere eller nedgradere planen når som helst via kontoinnstillingene. Endringene vil tre i kraft ved starten av neste faktureringssyklus.</p>"
+            "content": "<p>Ja, du kan enkelt oppgradere eller nedgradere planen når som helst via kontoinnstillingene. Endringer vil tre i kraft ved starten av neste betalingssyklus.</p>"
           },
           {
-            "title": "Er plattformen egnet for både tekniske fagpersoner og kreative brukere?",
-            "content": "<p>Absolutt! Plattformen er utformet for å imøtekomme et bredt spekter av brukere, fra tekniske eksperter til kreative fagpersoner, og tilbyr verktøy som øker produktiviteten og innovasjonen.</p>"
+            "title": "Er plattformen egnet for både tekniske fagfolk og kreative brukere?",
+            "content": "<p>Absolutt! Plattformen er utformet for å imøtekomme et bredt spekter av brukere, fra tekniske eksperter til kreative fagfolk, og tilbyr verktøy som øker produktivitet og innovasjon.</p>"
           },
           {
-            "title": "Hvor sikre er mine data på plattformen?",
-            "content": "<p>Plattformen følger strenge sikkerhetsprotokoller og sørger for at brukerdata og interaksjoner er kryptert og beskyttet til enhver tid.</p><p>&nbsp;</p>"
+            "title": "Hvor trygt er mine data på plattformen?",
+            "content": "<p>Plattformen følger strenge sikkerhetsprotokoller, som sikrer at brukerdata og interaksjoner er kryptert og beskyttet til enhver tid.</p><p>&nbsp;</p>"
           },
           {
-            "title": "Hvilke AI-modelltilpasningsalternativer er tilgjengelige for å forbedre brukeropplevelsen?",
-            "content": "<p>Brukere kan justere responspreferanser, utskriftsformat, språkstil og mye mer, slik at plattformen kan tilpasses spesifikke operasjonelle behov eller kreative arbeidsflyter.</p><p>&nbsp;</p>"
+            "title": "Hvilke typer AI-modell tilpasningsalternativer finnes for å forbedre brukeropplevelsen?",
+            "content": "<p>Brukere kan justere responsatferd, utdataformat, språklig stil og mye mer, slik at plattformen kan tilpasses spesifikke operasjonelle behov eller kreative arbeidsflyter.</p><p>&nbsp;</p>"
           }
         ]
       }
