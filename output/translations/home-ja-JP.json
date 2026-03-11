@@ -1,8 +1,8 @@
 {
   "sections[0].cta.aria_label": "無料で開始",
   "sections[0].cta.text": "無料で始める",
-  "sections[0].description": "<p class=\\\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\\\">自分に合う AI モデルを見つけるために、さまざまな AI モデルとチャットしましょう。</p><p class=\\\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\\\">AIの世界を1か所で体験してください。さまざまなモデルとチャットして、それぞれの強みを比較し、AI技術を最大限に活用しましょう。正確なリサーチ、コンテンツ作成、言語翻訳、画像生成、またはコーディング支援が必要な場合でも、あなたのニーズに合ったモデルをご用意しています。</p>",
-  "sections[0].title": "<h1 class=\\\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\\\">AI チャット: <strong class=\\\"font-black\\\">複数の AI</strong><br><strong class=\\\"font-black\\\">モデル、</strong>ひとつの強力なプラットフォーム</h1>",
+  "sections[0].description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">自分に合う AI モデルを見つけるために、さまざまな AI モデルとチャットしましょう。</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">AIの世界を1か所で体験してください。さまざまなモデルとチャットして、それぞれの強みを比較し、AI技術を最大限に活用しましょう。正確なリサーチ、コンテンツ作成、言語翻訳、画像生成、またはコーディング支援が必要な場合でも、あなたのニーズに合ったモデルをご用意しています。</p>",
+  "sections[0].title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI チャット: <strong class=\"font-black\">複数の AI</strong><br><strong class=\"font-black\">モデル、</strong>ひとつの強力なプラットフォーム</h1>",
   "sections[1].items[0].author": "Matthias Engelhardt",
   "sections[1].items[0].description": "“このプラットフォームは日々のワークフローにスムーズに統合され、テック系プロフェッショナルとしての高い柔軟性とカスタマイズ性が創造的な問題解決を高めます。”",
   "sections[1].items[0].title": "スマートライティングツール",
@@ -66,7 +66,7 @@
   "sections[3].tabs[2].text": "AI チャットは、GPT 4o を搭載した高度なAIで会話を強化し、迅速で洞察に満ちた回答を提供し、魅力的な対話を促進し、シームレスな体験を提供します。継続的に学習・適応し、対話のたびに貴重な洞察を提供します。",
   "sections[3].tabs[2].title": "AI チャット: あなたのAI搭載対話の天才",
   "sections[3].title": "WebbApp <strong class='text-primary'>機能</strong>",
-  "sections[4].items[0].content": "<ul style=\\\"list-style-type:circle;\\\"><li>AI チャットは、OpenAI GPT-4、Gemini、Claude、Grok、DeepSeek、Flux などを統合した強力なAIチャットボットで、すべてのニーズに対して迅速で知的な応答を提供します。</li><li>AI チャットを使用する利点は以下のとおりです：<ul style=\\\"list-style-type:square;\\\"><li>パーソナライゼーション：さまざまなモデルの中から選択して、好みと要件に合わせてAI体験を調整できます。</li><li>速度と時間の節約：AI チャットは、複数の最先端AIモデルから迅速で正確な回答を提供し、作業を効率化して時間を節約します。</li><li>境界のないアクセス：指先でさまざまなモデルにアクセスし、いつでもトップレベルのAIサポートを利用できます。</li><li>継続的なアップデート：最新のAIモデルとアップデートを常に追加しており、最も高度で最新の技術へアクセスできます。</li></ul></li></ul>",
+  "sections[4].items[0].content": "<ul style=\"list-style-type:circle;\"><li>AI チャットは、OpenAI GPT-4、Gemini、Claude、Grok、DeepSeek、Flux などを統合した強力なAIチャットボットで、すべてのニーズに対して迅速で知的な応答を提供します。</li><li>AI チャットを使用する利点は以下のとおりです：<ul style=\"list-style-type:square;\"><li>パーソナライゼーション：さまざまなモデルの中から選択して、好みと要件に合わせてAI体験を調整できます。</li><li>速度と時間の節約：AI チャットは、複数の最先端AIモデルから迅速で正確な回答を提供し、作業を効率化して時間を節約します。</li><li>境界のないアクセス：指先でさまざまなモデルにアクセスし、いつでもトップレベルのAIサポートを利用できます。</li><li>継続的なアップデート：最新のAIモデルとアップデートを常に追加しており、最も高度で最新の技術へアクセスできます。</li></ul></li></ul>",
   "sections[4].items[0].title": "What exactly is AI Chat and What advantages does it offer me?",
   "sections[4].items[1].content": "<ul><li>エクスクルーシブ機能へのアクセス、より速いアクセス、そして体験を向上させるパーソナライズドサポートを提供します。これには<ul><li>あらゆる問いに対して正確で詳しい回答を得られます。</li><li>より詳しい会話のための長文メッセージ制限を拡張。</li><li>無制限のチャットとメッセージ—必要なだけチャットできます。</li><li>毎回迅速な応答時間を体験。</li><li>中断なし—広告なしのクリーンな対話。</li></ul></li></ul>",
   "sections[4].items[1].title": "なぜ購読するのですか？ここで得られるもの",
@@ -80,7 +80,7 @@
   "sections[4].items[5].title": "プラットフォーム上のデータはどれくらい安全ですか？",
   "sections[4].items[6].content": "<p>ユーザーは応答の挙動、出力形式、言語スタイルなどを調整でき、特定の運用ニーズやクリエイティブなワークフローに合わせてプラットフォームを調整できます。</p><p>&nbsp;</p>",
   "sections[4].items[6].title": "ユーザー体験を高めるAIモデルのカスタマイズオプションにはどんなものがありますか？",
-  "sections[4].title": "<p><strong>よくある</strong><span style=\\\"color:#01b78d;\\\"><strong>質問</strong></span></p>",
+  "sections[4].title": "<p><strong>よくある</strong><span style=\"color:#01b78d;\"><strong>質問</strong></span></p>",
   "seo.description": "洗練されたAIチャットアシスタントで、知的な応答を提供し、意味のある対話を展開し、シームレスな会話体験を実現します。",
   "seo.title": "AIチャット ウェブアプリ"
 }

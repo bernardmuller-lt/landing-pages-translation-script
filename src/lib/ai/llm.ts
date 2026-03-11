@@ -160,5 +160,12 @@ export async function translateToLocale(
 ): Promise<Record<string, string>> {
   const messages = buildTranslationMessages(translations, targetLocale);
   const response = await chatCompletion(messages, model);
-  return parseJsonResponse(response);
+  const parsed = parseJsonResponse(response);
+
+  // LLMs sometimes copy the JSON-encoding of HTML attribute quotes from the
+  // prompt (e.g. \" instead of ") into their response values. Unescape those
+  // so the stored strings match the clean originals from Strapi.
+  return Object.fromEntries(
+    Object.entries(parsed).map(([k, v]) => [k, v.replace(/\\"/g, '"')]),
+  );
 }

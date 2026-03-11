@@ -1,8 +1,8 @@
 {
   "sections[0].cta.aria_label": "무료로 시작하기",
   "sections[0].cta.text": "무료로 시작하기",
-  "sections[0].description": "<p class=\\\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\\\">다양한 AI 모델과 대화하여 적합한 모델을 찾아보세요</p><p class=\\\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\\\">한 곳에서 다양한 AI의 세계를 발견하세요. 여러 모델과 대화하고 그들의 강점을 비교하며 AI 기술을 최대한 활용해 보세요. 정확한 연구, 콘텐츠 제작, 번역, 이미지 생성 또는 코딩 지원이 필요하든, 필요한 모델을 제공합니다.</p>",
-  "sections[0].title": "<h1 class=\\\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\\\">AI Chat: <strong class=\\\"font-black\\\">다중 AI</strong><br><strong class=\\\"font-black\\\">모델, </strong>하나의 강력한 플랫폼</h1>",
+  "sections[0].description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">다양한 AI 모델과 대화하여 적합한 모델을 찾아보세요</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">한 곳에서 다양한 AI의 세계를 발견하세요. 여러 모델과 대화하고 그들의 강점을 비교하며 AI 기술을 최대한 활용해 보세요. 정확한 연구, 콘텐츠 제작, 번역, 이미지 생성 또는 코딩 지원이 필요하든, 필요한 모델을 제공합니다.</p>",
+  "sections[0].title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">다중 AI</strong><br><strong class=\"font-black\">모델, </strong>하나의 강력한 플랫폼</h1>",
   "sections[1].items[0].author": "Matthias Engelhardt",
   "sections[1].items[0].description": "“이 플랫폼은 기술 전문가로서 제 일상 작업 흐름에 매끄럽게 통합되어 인상적인 유연성과 맞춤화를 제공하며 제 창의적 문제 해결 능력을 향상시킵니다.”",
   "sections[1].items[0].title": "스마트 작문 도구",
@@ -66,7 +66,7 @@
   "sections[3].tabs[2].text": "AI 채팅은 챗GPT-4o로 제작된 고급 AI로 대화를 향상시켜 빠르고 통찰력 있는 응답을 제공하고, 매력적인 상호 작용을 이끌며 매끄러운 사용 경험을 제공합니다. 지속적으로 학습하고 적응하여 교환마다 가치 있는 인사이트를 제공합니다.",
   "sections[3].tabs[2].title": "AI 채팅: 당신의 AI 기반 대화 천재",
   "sections[3].title": "WebbApp <strong class='text-primary'>Features</strong>",
-  "sections[4].items[0].content": "<ul style=\\\"list-style-type:circle;\\\"><li>AI 채팅은 OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek 및 Flux를 포함한 다수의 고급 AI 모델을 통합하여 모든 필요에 대해 빠르고 지능적인 응답을 제공하는 강력한 AI 챗봇입니다.</li><li>AI 채팅 사용의 이점은 다음과 같습니다:<ul style=\\\"list-style-type:square;\\\"><li>개인화: 다양한 모델 중에서 선택하여 선호도와 필요에 맞게 AI 경험을 조정하세요.</li><li>속도 및 시간 절약: 여러 최첨단 AI 모델의 빠르고 정확한 답변으로 작업을 간소화하고 시간을 절약합니다.</li><li>제한 없는 접근성: 언제 어디서나 최상급 AI 지원에 접근할 수 있으며, 다양한 모델이 손끝에 있습니다.</li><li>계속되는 업데이트: 최신 AI 모델과 업데이트를 지속적으로 추가하여 가장 진보된 최신 기술에 접근할 수 있도록 합니다.</li></ul></li></ul>",
+  "sections[4].items[0].content": "<ul style=\"list-style-type:circle;\"><li>AI 채팅은 OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek 및 Flux를 포함한 다수의 고급 AI 모델을 통합하여 모든 필요에 대해 빠르고 지능적인 응답을 제공하는 강력한 AI 챗봇입니다.</li><li>AI 채팅 사용의 이점은 다음과 같습니다:<ul style=\"list-style-type:square;\"><li>개인화: 다양한 모델 중에서 선택하여 선호도와 필요에 맞게 AI 경험을 조정하세요.</li><li>속도 및 시간 절약: 여러 최첨단 AI 모델의 빠르고 정확한 답변으로 작업을 간소화하고 시간을 절약합니다.</li><li>제한 없는 접근성: 언제 어디서나 최상급 AI 지원에 접근할 수 있으며, 다양한 모델이 손끝에 있습니다.</li><li>계속되는 업데이트: 최신 AI 모델과 업데이트를 지속적으로 추가하여 가장 진보된 최신 기술에 접근할 수 있도록 합니다.</li></ul></li></ul>",
   "sections[4].items[0].title": "AI 채팅이 정확히 무엇이며 어떤 이점을 제공하나요?",
   "sections[4].items[1].content": "<ul><li>독점 기능, 더 빠른 접근 및 맞춤형 지원으로 사용 경험을 향상시키십시오. 여기에는<ul><li>모든 질의에 대해 정확하고 심층적인 답변을 얻으세요.</li><li>더 자세한 대화를 위한 확장된 메시지 한도를 누리세요.</li><li>무제한 채팅과 메시지—필요하신 만큼 대화를 이어나가세요.</li><li>항상 빠른 응답 시간을 경험하세요.</li><li>중단 없이 광고 없는 순수한 대화를 제공합니다.</li></ul></li></ul>",
   "sections[4].items[1].title": "구독의 이유? 아래 혜택을 확인하세요",
@@ -80,7 +80,7 @@
   "sections[4].items[5].title": "플랫폼에서 내 데이터의 보안은 얼마나 확실한가요?",
   "sections[4].items[6].content": "<p>사용자는 응답 동작, 출력 형식, 언어 스타일 등 다양한 설정을 조정할 수 있어 플랫폼이 특정 운영 필요나 창의적 작업 흐름에 맞게 맞춤화됩니다.</p><p>&nbsp;</p>",
   "sections[4].items[6].title": "사용자 경험을 향상시키기 위해 어떤 종류의 AI 모델 커스터마이즈 옵션이 있나요?",
-  "sections[4].title": "<p><strong>자주 묻는 </strong><span style=\\\"color:#01b78d;\\\"><strong>질문</strong></span></p>",
+  "sections[4].title": "<p><strong>자주 묻는 </strong><span style=\"color:#01b78d;\"><strong>질문</strong></span></p>",
   "seo.description": "지능적인 응답을 제공하고 의미 있는 대화를 유도하며 매끄러운 대화 경험을 제공하도록 설계된 정교한 AI 채팅 어시스턴트입니다.",
   "seo.title": "AI 채팅 웹 앱"
 }

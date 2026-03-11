@@ -1,0 +1,8 @@
+{
+  "sections[0].cta.aria_label": "Powrót do czatu",
+  "sections[0].cta.text": "Powrót do czatu",
+  "sections[0].description": "<div><h2 class=\"freshdesk-contact-form__title\">Potrzebujesz pomocy lub masz pytanie? Jesteśmy do Twojej dyspozycji.</h2><p>Nasz dedykowany zespół wsparcia jest gotowy, aby pomóc w wszelkich pytaniach dotyczących naszych narzędzi zasilanych sztuczną inteligencją, integracji z chatbotami oraz funkcji generowania obrazów. Niezależnie od tego, czy potrzebujesz wsparcia technicznego, pomocy w rozliczeniach, czy masz opinię do przekazania, z przyjemnością pomożemy.</p><p>Wypełnij poniższy formularz, a skontaktujemy się z Tobą tak szybko, jak to będzie możliwe.</p><p>Sprawmy, aby Twoje doświadczenie z AI było płynne i wydajne!</p></div>",
+  "sections[0].title": "Wsparcie klienta",
+  "seo.description": "Czat AI",
+  "seo.title": "Wsparcie - Czat AI"
+}
