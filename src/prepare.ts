@@ -56,7 +56,7 @@ async function prepareSingleFile(
 
   const translatedData = applyTranslations(sourceData, translations);
   const cleanedData = transformPageData(translatedData);
-  const apiPayload = formatForAPI(cleanedData, locale);
+  const apiPayload = formatForAPI(cleanedData, locale, environment);
 
   if (!existsSync(config.preparedOutputDir)) {
     await mkdir(config.preparedOutputDir, { recursive: true });

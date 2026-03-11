@@ -12,6 +12,7 @@ export type { APIPayload } from "../strapi/schemas/pageDataSchema.js";
 export function formatForAPI(
   pageData: CleanPageData,
   locale: string,
+  environment?: string,
 ): APIPayload {
   return {
     data: {
