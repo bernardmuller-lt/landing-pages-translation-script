@@ -36,7 +36,7 @@ export const config = {
  */
 export const TARGET_LOCALES: Record<string, string> = {
   "de": "German",
-  "es": "Spanish",
+  "es-419": "Spanish (Latin America)",
   "ko-KR": "Korean (South Korea)",
   "pt-BR": "Portuguese (Brazil)",
   "fr": "French",
@@ -46,4 +46,8 @@ export const TARGET_LOCALES: Record<string, string> = {
   "pl": "Polish",
   "da-DK": "Danish (Denmark)",
   "nb-NO": "Norwegian Bokmål",
+  "pt-PT": "Portuguese (Portugal)",
+  "sv-SE": "Swedish (Sweden)",
+  "th-TH": "Thai (Thailand)",
+  "zh-CN": "Chinese (Simplified)",
 };
