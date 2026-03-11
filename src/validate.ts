@@ -8,7 +8,7 @@ export interface ValidateOptions {
   locales?: string[];
 }
 
-export async function runValidate(options: ValidateOptions = {}): Promise<void> {
+export async function runValidate(options: ValidateOptions = {}): Promise<boolean> {
   console.log("╔════════════════════════════════════════════════════════╗");
   console.log("║   Translation Validation                               ║");
   console.log("╚════════════════════════════════════════════════════════╝");
@@ -102,9 +102,10 @@ export async function runValidate(options: ValidateOptions = {}): Promise<void> 
   if (hasErrors) {
     console.error("❌  Validation failed. Fix missing keys before running prepare/upload.");
     console.error("    Tip: re-run the translate command, optionally with --slug and --locale filters.");
-    process.exit(1);
+    return false;
   }
 
   console.log("✅  All locale files are complete.");
   console.log("\n👉  Next: chatai-script prepare\n");
+  return true;
 }

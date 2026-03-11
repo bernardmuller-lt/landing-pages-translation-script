@@ -119,6 +119,13 @@ ${jsonString}`;
  * handle common model quirks: markdown fences, escaped quotes, stray trailing
  * braces, and leading comment lines.
  */
+
+function unescapeValues(obj: Record<string, string>): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(obj).map(([k, v]) => [k, v.replace(/\\"/g, '"')])
+  );
+}
+
 function parseJsonResponse(raw: string): Record<string, string> {
   let text = raw.trim();
 
@@ -133,17 +140,18 @@ function parseJsonResponse(raw: string): Record<string, string> {
 
   // First attempt: parse as-is
   try {
-    return JSON.parse(text);
+    return unescapeValues(JSON.parse(text));
   } catch {
-    // Fixup 1: normalise escaped quotes artifact from some models
+    // Fixup 1: some models output {\"key\": \"value\"} with literal backslash-quotes
+    // instead of valid JSON. Strip those before re-attempting.
     const fixed1 = text.replace(/\\"/g, '"');
     try {
-      return JSON.parse(fixed1);
+      return unescapeValues(JSON.parse(fixed1));
     } catch {
       // Fixup 2: remove duplicate trailing brace }} → }
       const fixed2 = text.replace(/\}\s*\}(\s*)$/, "}$1");
       try {
-        return JSON.parse(fixed2);
+        return unescapeValues(JSON.parse(fixed2));
       } catch {
         throw new Error(
           `Failed to parse LLM response as JSON. Raw response:\n${raw}`,
@@ -160,12 +168,5 @@ export async function translateToLocale(
 ): Promise<Record<string, string>> {
   const messages = buildTranslationMessages(translations, targetLocale);
   const response = await chatCompletion(messages, model);
-  const parsed = parseJsonResponse(response);
-
-  // LLMs sometimes copy the JSON-encoding of HTML attribute quotes from the
-  // prompt (e.g. \" instead of ") into their response values. Unescape those
-  // so the stored strings match the clean originals from Strapi.
-  return Object.fromEntries(
-    Object.entries(parsed).map(([k, v]) => [k, v.replace(/\\"/g, '"')]),
-  );
+  return parseJsonResponse(response);
 }

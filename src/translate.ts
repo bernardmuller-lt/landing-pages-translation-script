@@ -110,13 +110,30 @@ export async function runTranslate(options: TranslateOptions): Promise<void> {
     locales.map((locale) => ({ slug, locale }))
   );
 
+  // One retry with 2-second back-off for transient LLM failures (rate limits, timeouts)
+  const withRetry = async (
+    slug: string,
+    locale: string,
+    strings: Record<string, string>,
+  ): Promise<Record<string, string>> => {
+    try {
+      return await translateToLocale(strings, locale, model);
+    } catch {
+      await new Promise((r) => setTimeout(r, 2000));
+      console.warn(
+        `  ⚠️  Retrying ${slug.padEnd(12)} / ${locale.padEnd(8)} after transient failure...`,
+      );
+      return translateToLocale(strings, locale, model);
+    }
+  };
+
   await Promise.allSettled(
     tasks.map(({ slug, locale }) =>
       (async () => {
         const englishStrings = sourceMap.get(slug)!;
         await sem.acquire();
         try {
-          const translated = await translateToLocale(englishStrings, locale, model);
+          const translated = await withRetry(slug, locale, englishStrings);
           const outputPath = join(dir, `${slug}-${locale}.json`);
           await writeFile(outputPath, JSON.stringify(translated, null, 2), "utf-8");
           const count = Object.keys(translated).length;
