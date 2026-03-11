@@ -8,6 +8,7 @@ import { runTranslate } from "./translate.js";
 import { runPrepare } from "./prepare.js";
 import { runParse } from "./parse.js";
 import { runValidate } from "./validate.js";
+import { runUpload } from "./upload.js";
 
 const program = new Command();
 
@@ -244,14 +245,36 @@ program
 program
   .command("upload")
   .description("Upload content to Strapi CMS")
-  .action(() => {
-    console.log("Uploading content to Strapi CMS...");
-    // TODO: Implement upload logic
+  .option(
+    "-s, --slug <slugs...>",
+    "specific slug(s) to upload, comma separated",
+    commaSeparatedList,
+  )
+  .option(
+    "-l, --locale <locales...>",
+    `target locale(s) to upload, comma separated (valid: ${Object.keys(TARGET_LOCALES).join(", ")})`,
+    commaSeparatedList,
+  )
+  .option(
+    "-f, --file <path>",
+    "upload a specific file instead of filtering from prepared directory",
+  )
+  .action(async (options) => {
+    try {
+      await runUpload({
+        slugs: options.slug,
+        locales: options.locale,
+        filePath: options.file,
+      });
+    } catch (error) {
+      console.error("\n❌ Fatal error:", error);
+      process.exit(1);
+    }
   });
 
 program
   .command("run")
-  .description("Run the full pipeline: fetch → parse → translate → validate → prepare")
+  .description("Run the full pipeline: fetch → parse → translate → validate → prepare → upload")
   .option(
     "-s, --slug <slugs...>",
     "slug(s) to process, comma separated",
@@ -309,11 +332,11 @@ program
         process.exit(0);
       }
       await writePagesToFiles(pages, config.outputDir);
-      console.log(`\n✅  Step 1/5 — Fetched ${pages.length} page(s)\n`);
+      console.log(`\n✅  Step 1/6 — Fetched ${pages.length} page(s)\n`);
 
       // ── Step 2: Parse ──────────────────────────────────────────────────────
       await runParse({ slugs: options.slug });
-      console.log("✅  Step 2/5 — Parse complete\n");
+      console.log("✅  Step 2/6 — Parse complete\n");
 
       // ── Step 3: Translate ──────────────────────────────────────────────────
       await runTranslate({
@@ -322,7 +345,7 @@ program
         locales: options.locale,
         concurrency: options.concurrency,
       });
-      console.log("✅  Step 3/5 — Translate complete\n");
+      console.log("✅  Step 3/6 — Translate complete\n");
 
       // ── Step 4: Validate ───────────────────────────────────────────────────
       const valid = await runValidate({ slugs: options.slug, locales: options.locale });
@@ -330,15 +353,17 @@ program
         console.error("\n❌  Pipeline aborted at validation. Fix missing keys then run prepare manually.\n");
         process.exit(1);
       }
-      console.log("✅  Step 4/5 — Validation passed\n");
+      console.log("✅  Step 4/6 — Validation passed\n");
 
       // ── Step 5: Prepare ────────────────────────────────────────────────────
       await runPrepare({ slugs: options.slug, locales: options.locale, environment: options.env });
-      console.log("✅  Step 5/5 — Prepare complete\n");
+      console.log("✅  Step 5/6 — Prepare complete\n");
 
-      // ── Upload ─────────────────────────────────────────────────────────────
-      // TODO: call runUpload() here once upload.ts is refactored (Phase 1)
-      console.log("🏁  Pipeline complete! Run 'upload' to push prepared files to Strapi.\n");
+      // ── Step 6: Upload ─────────────────────────────────────────────────────
+      await runUpload({ slugs: options.slug, locales: options.locale });
+      console.log("✅  Step 6/6 — Upload complete\n");
+
+      console.log("🏁  Pipeline complete!\n");
     } catch (error) {
       console.error("\n❌ Pipeline failed:", error);
       process.exit(1);
