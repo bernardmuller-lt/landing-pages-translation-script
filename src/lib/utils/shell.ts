@@ -74,7 +74,11 @@ export function sourceShellConfig(configFile: string): void {
         encoding: "utf-8",
       });
       output.split("\n").forEach((line) => {
-        if (line.includes("AI_CHAT_CMS_")) {
+        if (
+          line.includes("AI_CHAT_CMS_") ||
+          line.includes("LLM_") ||
+          line.includes("UPLOAD_API_")
+        ) {
           const [key, ...valueParts] = line.split("=");
           const value = valueParts.join("=");
           if (key && value) {
@@ -88,7 +92,11 @@ export function sourceShellConfig(configFile: string): void {
         encoding: "utf-8",
       });
       output.split("\n").forEach((line) => {
-        if (line.includes("AI_CHAT_CMS_")) {
+        if (
+          line.includes("AI_CHAT_CMS_") ||
+          line.includes("LLM_") ||
+          line.includes("UPLOAD_API_")
+        ) {
           const [key, ...valueParts] = line.split("=");
           const value = valueParts.join("=");
           if (key && value) {
@@ -106,7 +114,7 @@ export function sourceShellConfig(configFile: string): void {
   }
 }
 
-export function updateShellConfig(apiUrl: string, apiToken: string): void {
+export function updateShellConfig(vars: Record<string, string>): void {
   const configFile = getShellConfigFile();
   let content = "";
 
@@ -114,29 +122,25 @@ export function updateShellConfig(apiUrl: string, apiToken: string): void {
     content = fs.readFileSync(configFile, "utf-8");
   }
 
-  const urlPattern = /export AI_CHAT_CMS_API_URL=.*/;
-  const tokenPattern = /export AI_CHAT_CMS_API_TOKEN=.*/;
-
-  const newUrlLine = `export AI_CHAT_CMS_API_URL="${apiUrl}"`;
-  const newTokenLine = `export AI_CHAT_CMS_API_TOKEN="${apiToken}"`;
-
-  if (urlPattern.test(content)) {
-    content = content.replace(urlPattern, newUrlLine);
-  } else {
-    content += `\n# AI Chat CMS Configuration\n${newUrlLine}\n`;
+  if (!content.includes("# AI Chat CMS Configuration")) {
+    content += "\n# AI Chat CMS Configuration\n";
   }
 
-  if (tokenPattern.test(content)) {
-    content = content.replace(tokenPattern, newTokenLine);
-  } else {
-    content += `${newTokenLine}\n`;
+  for (const [key, value] of Object.entries(vars)) {
+    const pattern = new RegExp(`export ${key}=.*`);
+    const line = `export ${key}="${value}"`;
+    if (pattern.test(content)) {
+      content = content.replace(pattern, line);
+    } else {
+      content += `${line}\n`;
+    }
   }
 
   fs.writeFileSync(configFile, content, "utf-8");
 
-  console.log(`\n Configuration saved to: ${configFile}`);
+  console.log(`\n  Configuration saved to: ${configFile}`);
 
   sourceShellConfig(configFile);
 
-  console.log("\n=� You're all set! Run: chatai-script fetch\n");
+  console.log("\n  You're all set! Run: chatai-script fetch\n");
 }

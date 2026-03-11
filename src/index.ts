@@ -22,7 +22,7 @@ program
 
 program
   .command("init")
-  .description("Configure CMS API credentials")
+  .description("Configure CMS API credentials and LLM settings")
   .action(async () => {
     try {
       const apiUrl = await prompt("Enter CMS API URL: ");
@@ -33,7 +33,20 @@ program
         process.exit(1);
       }
 
-      updateShellConfig(apiUrl.trim(), apiToken.trim());
+      const llmApiKey = await prompt("Enter LLM API Key (hidden): ", true);
+      const llmModel = await prompt("Enter LLM Model (e.g. gpt-4o-mini): ");
+
+      if (!llmApiKey || !llmModel) {
+        console.error("\n❌ Both LLM API Key and Model are required.");
+        process.exit(1);
+      }
+
+      updateShellConfig({
+        AI_CHAT_CMS_API_URL: apiUrl.trim(),
+        AI_CHAT_CMS_API_TOKEN: apiToken.trim(),
+        LLM_API_KEY: llmApiKey.trim(),
+        LLM_MODEL: llmModel.trim(),
+      });
     } catch (error) {
       console.error("\n❌ Configuration failed:", error);
       process.exit(1);

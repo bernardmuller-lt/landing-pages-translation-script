@@ -38,7 +38,6 @@ export async function runValidate(options: ValidateOptions = {}): Promise<boolea
 
   let slugs = sourceFiles.map((f) => f.slice(0, -5));
 
-  // Apply optional slug filter
   if (options.slugs && options.slugs.length > 0) {
     const slugSet = new Set(options.slugs);
     slugs = slugs.filter((s) => slugSet.has(s));

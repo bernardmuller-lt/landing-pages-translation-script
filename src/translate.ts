@@ -5,7 +5,6 @@ import { config, TARGET_LOCALES } from "./config.js";
 import { translateToLocale } from "./lib/ai/llm.js";
 
 export interface TranslateOptions {
-  /** LLM model name, e.g. "gpt-4o-mini" */
   model: string;
   slugs?: string[];
   locales?: string[];
@@ -110,7 +109,6 @@ export async function runTranslate(options: TranslateOptions): Promise<void> {
     locales.map((locale) => ({ slug, locale }))
   );
 
-  // One retry with 2-second back-off for transient LLM failures (rate limits, timeouts)
   const withRetry = async (
     slug: string,
     locale: string,
