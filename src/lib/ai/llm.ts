@@ -94,7 +94,8 @@ export function buildTranslationMessages(
   translations: Record<string, string>,
   targetLocale: string,
 ): ChatMessage[] {
-  const jsonString = JSON.stringify(translations, null, 2);
+  const protectedTranslations = protectTerms(translations);
+  const jsonString = JSON.stringify(protectedTranslations, null, 2);
 
   const userPrompt = `Target language: ${targetLocale}
 
@@ -114,11 +115,48 @@ ${jsonString}`;
   ];
 }
 
-/**
- * Attempts to parse the LLM response as JSON, applying several fixups to
- * handle common model quirks: markdown fences, escaped quotes, stray trailing
- * braces, and leading comment lines.
- */
+export const PROTECTED_TERMS: readonly string[] = [
+  "Palatine Global Capital LLC",
+  "Claude Sonnet",
+  "Gemini Pro",
+  "ChatGPT",
+  "GPT-4o",
+  "GPT-5",
+  "GPT-4",
+  "DeepSeek",
+  "AI Chat",
+  "aichatapp.ai",
+  "OpenAI",
+  "Anthropic",
+  "Gemini",
+  "Claude",
+  "Google",
+  "Grok",
+  "Flux",
+  "PDF",
+  "VAT",
+];
+
+
+function protectTerms(obj: Record<string, string>): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(obj).map(([k, v]) => [
+      k,
+      PROTECTED_TERMS.reduce((s, term, i) => s.split(term).join(`{{__PT${i}__}}`), v),
+    ]),
+  );
+}
+
+
+function restoreTerms(obj: Record<string, string>): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(obj).map(([k, v]) => [
+      k,
+      PROTECTED_TERMS.reduce((s, term, i) => s.split(`{{__PT${i}__}}`).join(term), v),
+    ]),
+  );
+}
+
 
 function unescapeValues(obj: Record<string, string>): Record<string, string> {
   return Object.fromEntries(
@@ -140,18 +178,18 @@ function parseJsonResponse(raw: string): Record<string, string> {
 
   // First attempt: parse as-is
   try {
-    return unescapeValues(JSON.parse(text));
+    return restoreTerms(unescapeValues(JSON.parse(text)));
   } catch {
     // Fixup 1: some models output {\"key\": \"value\"} with literal backslash-quotes
     // instead of valid JSON. Strip those before re-attempting.
     const fixed1 = text.replace(/\\"/g, '"');
     try {
-      return unescapeValues(JSON.parse(fixed1));
+      return restoreTerms(unescapeValues(JSON.parse(fixed1)));
     } catch {
       // Fixup 2: remove duplicate trailing brace }} → }
       const fixed2 = text.replace(/\}\s*\}(\s*)$/, "}$1");
       try {
-        return unescapeValues(JSON.parse(fixed2));
+        return restoreTerms(unescapeValues(JSON.parse(fixed2)));
       } catch {
         throw new Error(
           `Failed to parse LLM response as JSON. Raw response:\n${raw}`,
