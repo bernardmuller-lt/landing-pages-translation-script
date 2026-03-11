@@ -74,7 +74,7 @@ const SEOSchema = z.object({
 const TrackingEventsSchema = z.object({
   viewPageEventName: z.string(),
   landing_folder: z.string(),
-  landing_parameter: z.string(),
+  landing_parameter: z.string().nullable(),
 });
 
 const CTASchema = z.object({
@@ -116,7 +116,7 @@ const CarouselSectionSchema = z.object({
 
 const MilestoneItemSchema = z.object({
   text: z.string(),
-  media: z.number(), // Transformed from StrapiMedia
+  media: z.union([z.number(), MediaSourceSchema]),
 });
 
 const MilestoneSectionSchema = z.object({
@@ -201,7 +201,7 @@ const FAQSectionSchema = z.object({
 const HighlightItemSchema = z.object({
   title: z.string(),
   media: MediaSourceSchema,
-  icon: MediaSourceSchema,
+  icon: MediaSourceSchema.nullable(),
 });
 
 const HighLightSectionSchema = z.object({
@@ -283,7 +283,7 @@ export const CleanPageDataSchema = z.object({
   locale: z.string(),
   seo: SEOSchema,
   sections: z.array(SectionSchema),
-  events: TrackingEventsSchema,
+  events: TrackingEventsSchema.nullable(),
 });
 
 /**
@@ -296,7 +296,7 @@ export const APIPayloadSchema = z.object({
     slug: z.string(),
     locale: z.string(),
     seo: SEOSchema,
-    events: TrackingEventsSchema,
+    events: TrackingEventsSchema.nullable(),
     sections: z.array(SectionSchema),
   }),
 });
