@@ -90,6 +90,46 @@ export async function chatCompletion(
   return response.choices[0].message.content || "";
 }
 
+export const PROTECTED_TERMS: readonly string[] = [
+  "Palatine Global Capital LLC",
+  "Claude Sonnet",
+  "Gemini Pro",
+  "ChatGPT",
+  "GPT-4o",
+  "GPT-5",
+  "GPT-4",
+  "DeepSeek",
+  "AI Chat",
+  "aichatapp.ai",
+  "OpenAI",
+  "Anthropic",
+  "Gemini",
+  "Claude",
+  "Google",
+  "Grok",
+  "Flux",
+  "PDF",
+  "VAT",
+];
+
+function protectTerms(obj: Record<string, string>): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(obj).map(([k, v]) => [
+      k,
+      PROTECTED_TERMS.reduce((s, term, i) => s.split(term).join(`{{__PT${i}__}}`), v),
+    ]),
+  );
+}
+
+function restoreTerms(obj: Record<string, string>): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(obj).map(([k, v]) => [
+      k,
+      PROTECTED_TERMS.reduce((s, term, i) => s.split(`{{__PT${i}__}}`).join(term), v),
+    ]),
+  );
+}
+
 export function buildTranslationMessages(
   translations: Record<string, string>,
   targetLocale: string,
@@ -114,49 +154,6 @@ ${jsonString}`;
     },
   ];
 }
-
-export const PROTECTED_TERMS: readonly string[] = [
-  "Palatine Global Capital LLC",
-  "Claude Sonnet",
-  "Gemini Pro",
-  "ChatGPT",
-  "GPT-4o",
-  "GPT-5",
-  "GPT-4",
-  "DeepSeek",
-  "AI Chat",
-  "aichatapp.ai",
-  "OpenAI",
-  "Anthropic",
-  "Gemini",
-  "Claude",
-  "Google",
-  "Grok",
-  "Flux",
-  "PDF",
-  "VAT",
-];
-
-
-function protectTerms(obj: Record<string, string>): Record<string, string> {
-  return Object.fromEntries(
-    Object.entries(obj).map(([k, v]) => [
-      k,
-      PROTECTED_TERMS.reduce((s, term, i) => s.split(term).join(`{{__PT${i}__}}`), v),
-    ]),
-  );
-}
-
-
-function restoreTerms(obj: Record<string, string>): Record<string, string> {
-  return Object.fromEntries(
-    Object.entries(obj).map(([k, v]) => [
-      k,
-      PROTECTED_TERMS.reduce((s, term, i) => s.split(`{{__PT${i}__}}`).join(term), v),
-    ]),
-  );
-}
-
 
 function unescapeValues(obj: Record<string, string>): Record<string, string> {
   return Object.fromEntries(
