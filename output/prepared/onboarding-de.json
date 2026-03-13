@@ -1,0 +1,38 @@
+{
+  "data": {
+    "environment": "staging",
+    "identifier": "ai-chat",
+    "slug": "onboarding",
+    "locale": "de",
+    "locale_display": "de",
+    "seo": {
+      "title": "AI Chat",
+      "description": "Ein fortschrittlicher plattformübergreifender KI-Chat, der OpenAi ChatGPT, Gemini, Claude und weitere KI-Systeme bietet und darauf ausgelegt ist, prägnante Antworten zu liefern und eine nahtlose Benutzererfahrung zu ermöglichen."
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.onboarding-slides-section",
+        "fe_component": "OnBoardingSlides",
+        "items": [
+          {
+            "light": 8,
+            "dark": null
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.onboarding-content-section",
+        "fe_component": "OnBoardingContent",
+        "items": [
+          {
+            "title1": "testing",
+            "title1Highlight": false,
+            "title2": "testing again",
+            "title2Highlight": false,
+            "description": "Mehr Tests"
+          }
+        ]
+      }
+    ]
+  }
+}

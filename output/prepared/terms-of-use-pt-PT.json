@@ -1,12 +1,18 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "terms-of-use",
     "locale": "pt-PT",
+    "locale_display": "pt",
     "seo": {
       "title": "Termos de Utilização",
       "description": "Termos de Utilização"
+    },
+    "events": {
+      "viewPageEventName": "Terms_of_use_button",
+      "landing_folder": null,
+      "landing_parameter": null
     },
     "sections": [
       {

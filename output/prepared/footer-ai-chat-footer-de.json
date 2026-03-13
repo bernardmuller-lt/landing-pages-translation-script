@@ -2,7 +2,7 @@
   "data": {
     "slug": "ai-chat-footer",
     "locale": "de",
-    "environment": "production",
+    "environment": "staging",
     "copyright": "@2026 AI Chat",
     "href": "/",
     "items": [
@@ -11,7 +11,7 @@
         "href": "/support/"
       },
       {
-        "text": "Datenschutz",
+        "text": "Datenschutzrichtlinie",
         "href": "/privacy-policy-and-cookie-policy/"
       },
       {
@@ -19,7 +19,7 @@
         "href": "/terms-of-use/"
       },
       {
-        "text": "Allgemeine Geschäftsbedingungen",
+        "text": "Allgemeine Geschäftsbedingungen (AGB)",
         "href": "/terms-and-conditions/"
       },
       {

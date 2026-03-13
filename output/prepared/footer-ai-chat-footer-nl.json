@@ -2,7 +2,7 @@
   "data": {
     "slug": "ai-chat-footer",
     "locale": "nl",
-    "environment": "production",
+    "environment": "staging",
     "copyright": "@2026 AI Chat",
     "href": "/",
     "items": [
@@ -19,7 +19,7 @@
         "href": "/terms-of-use/"
       },
       {
-        "text": "Algemene Voorwaarden",
+        "text": "Algemene voorwaarden",
         "href": "/terms-and-conditions/"
       },
       {

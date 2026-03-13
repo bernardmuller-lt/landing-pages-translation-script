@@ -10,6 +10,7 @@ import { runParse } from "./parse.js";
 import { runValidate } from "./validate.js";
 import { runUpload } from "./upload.js";
 import { runMetadata } from "./metadata.js";
+import { runUpdateLocaleDisplay } from "./updateLocaleDisplay.js";
 
 const program = new Command();
 
@@ -276,6 +277,43 @@ program
   });
 
 program
+  .command("update-locale-display")
+  .description("Update locale_display field for pages in Strapi CMS")
+  .option("-s, --slug <slug>", "specific slug to update")
+  .option("-e, --env <environment>", "environment to filter by")
+  .option("-l, --locale <locale>", "specific locale to update")
+  .action(async (options) => {
+    try {
+      const apiUrl = process.env.AI_CHAT_CMS_API_URL || process.env.CMS_API_URL;
+      const apiToken =
+        process.env.AI_CHAT_CMS_API_TOKEN || process.env.CMS_API_TOKEN;
+
+      if (!apiUrl) {
+        throw new Error(
+          "API URL is not configured. Please run 'chatai-script init' first or set CMS_API_URL in .env file.",
+        );
+      }
+      if (!apiToken) {
+        throw new Error(
+          "API Token is not configured. Please run 'chatai-script init' first or set CMS_API_TOKEN in .env file.",
+        );
+      }
+
+      process.env.CMS_API_URL = apiUrl;
+      process.env.CMS_API_TOKEN = apiToken;
+
+      await runUpdateLocaleDisplay({
+        slug: options.slug,
+        env: options.env,
+        locale: options.locale,
+      });
+    } catch (error) {
+      console.error("\n❌ Fatal error:", error);
+      process.exit(1);
+    }
+  });
+
+program
   .command("run")
   .description(
     "Run the full pipeline: fetch → parse → translate → validate → prepare → upload",
@@ -313,7 +351,11 @@ program
       );
       process.exit(1);
     }
-    if (options.env !== "test" && options.env !== "production") {
+    if (
+      options.env !== "test" &&
+      options.env !== "production" &&
+      options.env !== "staging"
+    ) {
       console.error(
         `\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`,
       );
@@ -436,7 +478,11 @@ program
       );
       process.exit(1);
     }
-    if (options.env !== "test" && options.env !== "production") {
+    if (
+      options.env !== "test" &&
+      options.env !== "production" &&
+      options.env !== "staging"
+    ) {
       console.error(
         `\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`,
       );

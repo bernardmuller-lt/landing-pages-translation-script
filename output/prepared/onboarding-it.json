@@ -1,0 +1,38 @@
+{
+  "data": {
+    "environment": "staging",
+    "identifier": "ai-chat",
+    "slug": "onboarding",
+    "locale": "it",
+    "locale_display": "it",
+    "seo": {
+      "title": "AI Chat",
+      "description": "Una chat AI multi-piattaforma avanzata che offre OpenAi ChatGPT, Gemini, Claude e altre IA progettate per fornire risposte incisive e offrire un'esperienza utente fluida."
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.onboarding-slides-section",
+        "fe_component": "OnBoardingSlides",
+        "items": [
+          {
+            "light": 8,
+            "dark": null
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.onboarding-content-section",
+        "fe_component": "OnBoardingContent",
+        "items": [
+          {
+            "title1": "testing",
+            "title1Highlight": false,
+            "title2": "testing again",
+            "title2Highlight": false,
+            "description": "ulteriori test"
+          }
+        ]
+      }
+    ]
+  }
+}

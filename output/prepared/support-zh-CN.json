@@ -1,14 +1,19 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "support",
     "locale": "zh-CN",
+    "locale_display": "cn",
     "seo": {
       "title": "支持 - AI Chat",
       "description": "AI Chat"
     },
-    "events": null,
+    "events": {
+      "viewPageEventName": "Contact_Support",
+      "landing_folder": null,
+      "landing_parameter": null
+    },
     "sections": [
       {
         "__component": "shared.support",

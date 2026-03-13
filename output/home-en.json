@@ -2,19 +2,19 @@
   "slug": "home",
   "locale": "en",
   "seo": {
-    "id": 105,
+    "id": 298,
     "title": "AI Chat Web App",
     "description": "A sophisticated AI chat assistant designed to provide intelligent responses, engage in meaningful dialogues, and deliver a seamless conversational experience."
   },
   "sections": [
     {
       "__component": "ai-chat.hero-section",
-      "id": 56,
+      "id": 194,
       "fe_component": "Hero",
       "title": "<h1 class=\"text-[30px] lg:text-[40px] font-bold mb-2.5 leading-[1.1]\">AI Chat: <strong class=\"font-black\">Multiple AI</strong><br><strong class=\"font-black\">Models, </strong>One Powerful Platform</h1>",
       "description": "<p class=\"text-highlight mt-6.5 leading-[1.167] text-[22px] md:text-2xl font-bold\">Chat with different AI models to find yours</p><p class=\"mt-5 mb-8 leading-[1.286] text-sm text-variant dark:text-white\">Discover a world of AI in one place. Chat with different models, compare their strengths, and get the most out of AI technology. Whether you need accurate research, content creation, language translation, image generation or coding assistance, we have the right model for you.</p>",
       "cta": {
-        "id": 217,
+        "id": 806,
         "href": "https://chat.aichatapp.ai/login",
         "text": "Start for free",
         "aria_label": "Start for free",
@@ -22,161 +22,185 @@
         "wide": null
       },
       "media": {
-        "id": 601,
+        "id": 1637,
         "dark": {
-          "id": 9,
-          "documentId": "j7srfe6c3xe6vbisz6i1wc97",
-          "name": "homepage-hero-dark-mode-en.png",
+          "id": 58,
+          "documentId": "nrkdxpy6ufqc6geeeg32q21t",
+          "name": "onboarding1-1-3.webp",
           "alternativeText": null,
           "caption": null,
-          "width": 900,
-          "height": 540,
+          "width": 1763,
+          "height": 1056,
           "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_homepage_hero_dark_mode_en_3548385e55.png",
-              "hash": "small_homepage_hero_dark_mode_en_3548385e55",
-              "mime": "image/png",
-              "name": "small_homepage-hero-dark-mode-en.png",
+            "large": {
+              "ext": ".webp",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/large_onboarding1_1_3_b7a04e867c.webp",
+              "hash": "large_onboarding1_1_3_b7a04e867c",
+              "mime": "image/webp",
+              "name": "large_onboarding1-1-3.webp",
               "path": null,
-              "size": 56.8,
-              "width": 500,
-              "height": 300,
-              "sizeInBytes": 56804
+              "size": 32.51,
+              "width": 1000,
+              "height": 599,
+              "sizeInBytes": 32506
             },
-            "medium": {
-              "ext": ".png",
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_homepage_hero_dark_mode_en_3548385e55.png",
-              "hash": "medium_homepage_hero_dark_mode_en_3548385e55",
-              "mime": "image/png",
-              "name": "medium_homepage-hero-dark-mode-en.png",
-              "path": null,
-              "size": 109.08,
-              "width": 750,
-              "height": 450,
-              "sizeInBytes": 109080
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_homepage_hero_dark_mode_en_3548385e55.png",
-              "hash": "thumbnail_homepage_hero_dark_mode_en_3548385e55",
-              "mime": "image/png",
-              "name": "thumbnail_homepage-hero-dark-mode-en.png",
-              "path": null,
-              "size": 20.08,
-              "width": 245,
-              "height": 147,
-              "sizeInBytes": 20075
-            }
-          },
-          "hash": "homepage_hero_dark_mode_en_3548385e55",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 31.09,
-          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/homepage_hero_dark_mode_en_3548385e55.png",
-          "previewUrl": null,
-          "provider": "strapi-provider-upload-strapi-cloud",
-          "provider_metadata": null,
-          "createdAt": "2026-02-16T12:19:48.876Z",
-          "updatedAt": "2026-02-16T12:19:48.876Z",
-          "publishedAt": "2026-02-16T12:19:48.878Z"
-        },
-        "light": {
-          "id": 8,
-          "documentId": "a3mimklwjzml0q592j0x9yut",
-          "name": "homepage-hero-light-mode-en.webp",
-          "alternativeText": null,
-          "caption": null,
-          "width": 800,
-          "height": 479,
-          "formats": {
             "small": {
               "ext": ".webp",
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_homepage_hero_light_mode_en_736293ae43.webp",
-              "hash": "small_homepage_hero_light_mode_en_736293ae43",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_onboarding1_1_3_b7a04e867c.webp",
+              "hash": "small_onboarding1_1_3_b7a04e867c",
               "mime": "image/webp",
-              "name": "small_homepage-hero-light-mode-en.webp",
+              "name": "small_onboarding1-1-3.webp",
               "path": null,
-              "size": 11.47,
+              "size": 12.39,
               "width": 500,
               "height": 299,
-              "sizeInBytes": 11468
+              "sizeInBytes": 12388
             },
             "medium": {
               "ext": ".webp",
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_homepage_hero_light_mode_en_736293ae43.webp",
-              "hash": "medium_homepage_hero_light_mode_en_736293ae43",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_onboarding1_1_3_b7a04e867c.webp",
+              "hash": "medium_onboarding1_1_3_b7a04e867c",
               "mime": "image/webp",
-              "name": "medium_homepage-hero-light-mode-en.webp",
+              "name": "medium_onboarding1-1-3.webp",
               "path": null,
-              "size": 19.79,
+              "size": 22.84,
               "width": 750,
               "height": 449,
-              "sizeInBytes": 19788
+              "sizeInBytes": 22838
             },
             "thumbnail": {
               "ext": ".webp",
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_homepage_hero_light_mode_en_736293ae43.webp",
-              "hash": "thumbnail_homepage_hero_light_mode_en_736293ae43",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_onboarding1_1_3_b7a04e867c.webp",
+              "hash": "thumbnail_onboarding1_1_3_b7a04e867c",
               "mime": "image/webp",
-              "name": "thumbnail_homepage-hero-light-mode-en.webp",
+              "name": "thumbnail_onboarding1-1-3.webp",
               "path": null,
-              "size": 3.7,
+              "size": 3.93,
               "width": 245,
               "height": 147,
-              "sizeInBytes": 3698
+              "sizeInBytes": 3932
             }
           },
-          "hash": "homepage_hero_light_mode_en_736293ae43",
+          "hash": "onboarding1_1_3_b7a04e867c",
           "ext": ".webp",
           "mime": "image/webp",
-          "size": 23.34,
-          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/homepage_hero_light_mode_en_736293ae43.webp",
+          "size": 72.15,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding1_1_3_b7a04e867c.webp",
           "previewUrl": null,
           "provider": "strapi-provider-upload-strapi-cloud",
           "provider_metadata": null,
-          "createdAt": "2026-02-16T12:19:15.087Z",
-          "updatedAt": "2026-02-16T12:19:15.087Z",
-          "publishedAt": "2026-02-16T12:19:15.088Z"
+          "createdAt": "2026-03-10T14:36:35.224Z",
+          "updatedAt": "2026-03-10T14:36:35.224Z",
+          "publishedAt": "2026-03-10T14:36:35.224Z"
+        },
+        "light": {
+          "id": 57,
+          "documentId": "ho22d3ak8yt3irsd4d3k248x",
+          "name": "onboarding1-4.webp",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1763,
+          "height": 1056,
+          "formats": {
+            "large": {
+              "ext": ".webp",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/large_onboarding1_4_e431cdfa1f.webp",
+              "hash": "large_onboarding1_4_e431cdfa1f",
+              "mime": "image/webp",
+              "name": "large_onboarding1-4.webp",
+              "path": null,
+              "size": 31.16,
+              "width": 1000,
+              "height": 599,
+              "sizeInBytes": 31156
+            },
+            "small": {
+              "ext": ".webp",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_onboarding1_4_e431cdfa1f.webp",
+              "hash": "small_onboarding1_4_e431cdfa1f",
+              "mime": "image/webp",
+              "name": "small_onboarding1-4.webp",
+              "path": null,
+              "size": 11.6,
+              "width": 500,
+              "height": 299,
+              "sizeInBytes": 11604
+            },
+            "medium": {
+              "ext": ".webp",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_onboarding1_4_e431cdfa1f.webp",
+              "hash": "medium_onboarding1_4_e431cdfa1f",
+              "mime": "image/webp",
+              "name": "medium_onboarding1-4.webp",
+              "path": null,
+              "size": 21.75,
+              "width": 750,
+              "height": 449,
+              "sizeInBytes": 21754
+            },
+            "thumbnail": {
+              "ext": ".webp",
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_onboarding1_4_e431cdfa1f.webp",
+              "hash": "thumbnail_onboarding1_4_e431cdfa1f",
+              "mime": "image/webp",
+              "name": "thumbnail_onboarding1-4.webp",
+              "path": null,
+              "size": 3.58,
+              "width": 245,
+              "height": 147,
+              "sizeInBytes": 3578
+            }
+          },
+          "hash": "onboarding1_4_e431cdfa1f",
+          "ext": ".webp",
+          "mime": "image/webp",
+          "size": 69.86,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding1_4_e431cdfa1f.webp",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2026-03-10T14:36:17.555Z",
+          "updatedAt": "2026-03-10T14:36:17.555Z",
+          "publishedAt": "2026-03-10T14:36:17.555Z"
         }
       }
     },
     {
       "__component": "ai-chat.carousel-section",
-      "id": 51,
+      "id": 134,
       "fe_component": "Carousel",
       "title": "Creative <strong class='text-primary'>Reviews</strong>",
       "items": [
         {
-          "id": 251,
+          "id": 656,
           "title": "Smart Writing Tool",
           "description": "“This platform seamlessly integrates into my daily workflow as a tech professional, offering impressive flexibility and customization that enhances my creative problem-solving.”",
           "rating": 5,
           "author": "Matthias Engelhardt"
         },
         {
-          "id": 252,
+          "id": 657,
           "title": "Brilliant Text Assistant",
           "description": "“As a daily user in the creative tech space, I’m impressed by the platform’s adaptability. It empowers me to tailor interactions precisely to my project needs.”",
           "rating": 5,
           "author": "Sofia Valenti"
         },
         {
-          "id": 253,
+          "id": 658,
           "title": "Effortless Writing Companion",
           "description": "“A highly reliable tool for tech professionals, offering dynamic customization options that fit perfectly into the fast-paced demands of the creative industry.”",
           "rating": 5,
           "author": "Heinrich Schreiber"
         },
         {
-          "id": 254,
+          "id": 659,
           "title": "Advanced Scribe",
           "description": "“The platform’s innovative design and user-centric approach make it an essential part of my daily toolkit, especially when managing complex tech projects.”",
           "rating": 5,
           "author": "Elisabeth van der Meer"
         },
         {
-          "id": 255,
+          "id": 660,
           "title": "Creative Wordsmith",
           "description": "“It’s a game-changer for my creative work, with its ability to customize and adjust to evolving requirements effortlessly—an ideal solution for daily tech use.”",
           "rating": 5,
@@ -186,15 +210,15 @@
     },
     {
       "__component": "ai-chat.plan-section",
-      "id": 24,
+      "id": 96,
       "fe_component": "Plans",
       "title": "Go <strong class='text-primary'>Pro</strong> for Unlimited Use",
       "items": [
         {
-          "id": 68,
+          "id": 284,
           "isPopular": null,
           "cta": {
-            "id": 221,
+            "id": 810,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -203,36 +227,36 @@
           },
           "description": [
             {
-              "id": 202,
+              "id": 850,
               "icon": "svgonly/bullseye",
               "title": "100% Ad free",
               "subtitle": "No distractions"
             },
             {
-              "id": 203,
+              "id": 851,
               "icon": "svgonly/chat",
               "title": "Best AI Models in One Platform",
               "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
             },
             {
-              "id": 204,
+              "id": 852,
               "icon": "svgonly/infinite",
               "title": "Forget limits",
               "subtitle": "No worries, use it all you need."
             }
           ],
           "priceDetails": {
-            "id": 68,
+            "id": 284,
             "pricePerDay": "$0.67 Per Day",
             "duration": "1 Month Access",
             "fullPrice": "$19.99"
           }
         },
         {
-          "id": 69,
+          "id": 285,
           "isPopular": true,
           "cta": {
-            "id": 222,
+            "id": 811,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -241,36 +265,36 @@
           },
           "description": [
             {
-              "id": 205,
+              "id": 853,
               "icon": "svgonly/bullseye",
               "title": "100% Ad free",
               "subtitle": "No distractions"
             },
             {
-              "id": 206,
+              "id": 854,
               "icon": "svgonly/chat",
               "title": "Best AI Models in One Platform",
               "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
             },
             {
-              "id": 207,
+              "id": 855,
               "icon": "svgonly/infinite",
               "title": "Forget limits",
               "subtitle": "No worries, use it all you need."
             }
           ],
           "priceDetails": {
-            "id": 69,
+            "id": 285,
             "pricePerDay": "$0.44 Per Day",
             "duration": "3 Months Access",
             "fullPrice": "$39.99"
           }
         },
         {
-          "id": 70,
+          "id": 286,
           "isPopular": null,
           "cta": {
-            "id": 223,
+            "id": 812,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -279,26 +303,26 @@
           },
           "description": [
             {
-              "id": 208,
+              "id": 856,
               "icon": "svgonly/bullseye",
               "title": "100% Ad free",
               "subtitle": "No distractions"
             },
             {
-              "id": 209,
+              "id": 857,
               "icon": "svgonly/chat",
               "title": "Best AI Models in One Platform",
               "subtitle": "OpenAI GPT-4o, Gemini, Claude, Grok, DeepSeek, Flux and more!"
             },
             {
-              "id": 210,
+              "id": 858,
               "icon": "svgonly/infinite",
               "title": "Forget limits",
               "subtitle": "No worries, use it all you need."
             }
           ],
           "priceDetails": {
-            "id": 70,
+            "id": 286,
             "pricePerDay": "$0.19 Per Day",
             "duration": "12 Months Access",
             "fullPrice": "$69.99"
@@ -308,42 +332,42 @@
     },
     {
       "__component": "ai-chat.feature-section",
-      "id": 22,
+      "id": 91,
       "fe_component": "Features",
       "client": true,
       "title": "WebbApp <strong class='text-primary'>Features</strong>",
       "logo": {
-        "id": 606,
+        "id": 1642,
         "dark": null,
         "light": {
-          "id": 15,
-          "documentId": "rmg4uq4l86qqa0u68gy7gi2t",
-          "name": "features.webp",
+          "id": 59,
+          "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+          "name": "onboarding-logo.svg",
           "alternativeText": null,
           "caption": null,
-          "width": 58,
-          "height": 60,
+          "width": 356,
+          "height": 372,
           "formats": null,
-          "hash": "features_5ab56b1025",
-          "ext": ".webp",
-          "mime": "image/webp",
-          "size": 0.77,
-          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/features_5ab56b1025.webp",
+          "hash": "onboarding_logo_2d2babe0e4",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 4.26,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
           "previewUrl": null,
           "provider": "strapi-provider-upload-strapi-cloud",
           "provider_metadata": null,
-          "createdAt": "2026-02-17T10:26:53.326Z",
-          "updatedAt": "2026-02-17T10:26:53.326Z",
-          "publishedAt": "2026-02-17T10:26:53.326Z"
+          "createdAt": "2026-03-10T14:37:47.050Z",
+          "updatedAt": "2026-03-10T14:37:47.050Z",
+          "publishedAt": "2026-03-10T14:37:47.050Z"
         }
       },
       "tabs": [
         {
-          "id": 64,
+          "id": 271,
           "title": "AI Chat: Your Ultimate AI Conversational Ally",
           "text": "AI Chat uses cutting-edge AI with natural dialogue flow, delivering a chat experience that’s as intuitive as it is engaging. Whether it’s casual conversations or tackling challenges, AI Chat is your reliable AI for meaningful, dynamic, and human-like interactions.",
           "cta": {
-            "id": 218,
+            "id": 807,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -351,7 +375,7 @@
             "wide": null
           },
           "icon": {
-            "id": 602,
+            "id": 1638,
             "dark": null,
             "light": {
               "id": 11,
@@ -377,11 +401,11 @@
           }
         },
         {
-          "id": 65,
+          "id": 272,
           "title": "AI Chat: Your Intelligent Chat buddy",
           "text": "AI Chat is your go-to AI for dynamic conversations. It blends cutting-edge language processing with a user-friendly interface, transforming each interaction into a seamless, personalized experience. Dive into engaging, intuitive chats that evolve with your unique preferences.",
           "cta": {
-            "id": 219,
+            "id": 808,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -389,7 +413,7 @@
             "wide": null
           },
           "icon": {
-            "id": 603,
+            "id": 1639,
             "dark": null,
             "light": {
               "id": 10,
@@ -415,11 +439,11 @@
           }
         },
         {
-          "id": 66,
-          "title": "AI Chat: Your Ultimate AI Conversational Ally",
-          "text": "AI Chat uses cutting-edge AI with natural dialogue flow, delivering a chat experience that’s as intuitive as it is engaging. Whether it’s casual conversations or tackling challenges, AI Chat is your reliable AI for meaningful, dynamic, and human-like interactions.",
+          "id": 273,
+          "title": "AI Chat: Your AI-Powered Conversational Genius",
+          "text": "AI Chat enhance your conversations with an advanced AI crafted with chat GPT 4o to deliver fast, insightful responses, inspire engaging interactions, and provide a seamless experience. It continuously learns and adapts, offering valuable insights with every exchange.",
           "cta": {
-            "id": 220,
+            "id": 809,
             "href": "https://chat.aichatapp.ai/register",
             "text": "Get Started",
             "aria_label": "Get Started",
@@ -427,7 +451,7 @@
             "wide": null
           },
           "icon": {
-            "id": 604,
+            "id": 1640,
             "dark": null,
             "light": {
               "id": 12,
@@ -454,52 +478,52 @@
         }
       ],
       "media": {
-        "id": 605,
+        "id": 1641,
         "dark": {
-          "id": 14,
-          "documentId": "cl8cc0nt2n0q4lpse557bm8y",
-          "name": "features-video-dark-en.mp4",
+          "id": 60,
+          "documentId": "pbu2lshvq8laq19ro3tgq5hp",
+          "name": "EN Chat AI GIF 1 R2.webm",
           "alternativeText": null,
           "caption": null,
           "width": null,
           "height": null,
           "formats": null,
-          "hash": "features_video_dark_en_d81c549598",
-          "ext": ".mp4",
-          "mime": "video/mp4",
-          "size": 197.38,
-          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/features_video_dark_en_d81c549598.mp4",
+          "hash": "EN_Chat_AI_GIF_1_R2_4ae056b619",
+          "ext": ".webm",
+          "mime": "video/webm",
+          "size": 502.85,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/EN_Chat_AI_GIF_1_R2_4ae056b619.webm",
           "previewUrl": null,
           "provider": "strapi-provider-upload-strapi-cloud",
           "provider_metadata": null,
-          "createdAt": "2026-02-17T10:23:36.421Z",
-          "updatedAt": "2026-02-17T10:23:36.421Z",
-          "publishedAt": "2026-02-17T10:23:36.422Z"
+          "createdAt": "2026-03-10T14:41:37.629Z",
+          "updatedAt": "2026-03-10T14:41:37.629Z",
+          "publishedAt": "2026-03-10T14:41:37.629Z"
         },
         "light": {
-          "id": 13,
-          "documentId": "bn1g2w3noga2c1l4khtfdeb9",
-          "name": "features-video-light-en.mp4",
+          "id": 72,
+          "documentId": "mvg412cx7b7ynv0a92f39jx8",
+          "name": "EN LI Chat AI GIF 1 R2.webm",
           "alternativeText": null,
           "caption": null,
           "width": null,
           "height": null,
           "formats": null,
-          "hash": "features_video_light_en_9e02ef3a11",
-          "ext": ".mp4",
-          "mime": "video/mp4",
-          "size": 272.32,
-          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/features_video_light_en_9e02ef3a11.mp4",
+          "hash": "EN_LI_Chat_AI_GIF_1_R2_410d3ef6d8",
+          "ext": ".webm",
+          "mime": "video/webm",
+          "size": 226.49,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/EN_LI_Chat_AI_GIF_1_R2_410d3ef6d8.webm",
           "previewUrl": null,
           "provider": "strapi-provider-upload-strapi-cloud",
           "provider_metadata": null,
-          "createdAt": "2026-02-17T10:23:15.480Z",
-          "updatedAt": "2026-02-17T10:23:15.480Z",
-          "publishedAt": "2026-02-17T10:23:15.482Z"
+          "createdAt": "2026-03-11T11:20:42.970Z",
+          "updatedAt": "2026-03-11T11:20:42.970Z",
+          "publishedAt": "2026-03-11T11:20:42.970Z"
         }
       },
       "headingsBackground": {
-        "id": 607,
+        "id": 1643,
         "dark": null,
         "light": {
           "id": 16,
@@ -526,48 +550,53 @@
     },
     {
       "__component": "ai-chat.faq-section",
-      "id": 21,
+      "id": 88,
       "fe_component": "FAQ",
       "client": true,
       "title": "<p><strong>Frequently Asked </strong><span style=\"color:#01b78d;\"><strong>Questions</strong></span></p>",
       "items": [
         {
-          "id": 141,
+          "id": 600,
           "title": "What exactly is AI Chat and What advantages does it offer me?",
           "content": "<ul style=\"list-style-type:circle;\"><li>AI Chat is a powerful AI chatbot that integrates multiple advanced AI models, including OpenAI GPT-4, Gemini, Claude, Grok, DeepSeek and Flux to provide fast and intelligent responses for all your needs.</li><li>The benefits of using AI Chat include:<ul style=\"list-style-type:square;\"><li>Personalization: Tailor your AI experience by choosing from various models to suit your preferences and requirements.</li><li>Speed &amp; Time-Saving: AI Chat delivers quick, accurate answers from multiple cutting-edge AI models, streamlining your tasks and saving you time.</li><li>Boundless Accessibility: Access top-tier AI support anytime, anywhere, with a range of models at your fingertips.</li><li>Continuous Updates: We are always adding the latest AI models and updates, ensuring you have access to the most advanced and up-to-date technologies.</li></ul></li></ul>"
         },
         {
-          "id": 142,
+          "id": 601,
           "title": "Why subscribe? Here’s what you get",
           "content": "<ul><li>Unlock exclusive features, faster access, and personalized support designed to enhance your experience. These include<ul><li>Get precise, in-depth answers to every query.</li><li>Enjoy extended message limits for more detailed conversations.</li><li>Unlimited chats and messages—Chat as long as you need.</li><li>Experience fast response times, every time.</li><li>No interruptions—just pure, ad-free conversations.</li></ul></li></ul>"
         },
         {
-          "id": 143,
+          "id": 602,
           "title": "How do I cancel my subscription?",
           "content": "<p>To cancel your subscription, please access the ‘Account’ section in the Settings page and click on the ‘Cancel Subscription’ button. Your subscription will be canceled at the end of the current subscription period, leading to the termination of your premium membership. You will not be charged any further payments after the cancellation.</p>"
         },
         {
-          "id": 144,
+          "id": 603,
           "title": "Can I upgrade or downgrade my subscription plan?",
           "content": "<p>Yes, you can easily upgrade or downgrade your plan at any time through the account settings. Changes will be applied at the start of the next billing cycle.</p>"
         },
         {
-          "id": 145,
+          "id": 604,
           "title": "Is the platform suitable for both tech professionals and creative users?",
           "content": "<p>Absolutely! The platform is designed to cater to a wide range of users, from technical experts to creative professionals, offering tools that enhance productivity and innovation.</p>"
         },
         {
-          "id": 146,
+          "id": 605,
           "title": "How secure is my data on the platform?",
           "content": "<p>The platform follows stringent security protocols, ensuring that user data and interactions are encrypted and protected at all times.</p><p>&nbsp;</p>"
         },
         {
-          "id": 147,
+          "id": 606,
           "title": "What kind of AI model customization options are available to enhance user experience?",
           "content": "<p>Users can adjust response behavior, output format, language style, and much more, allowing the platform to align with specific operational needs or creative workflows.</p><p>&nbsp;</p>"
         }
       ]
     }
   ],
-  "events": null
+  "events": {
+    "id": 126,
+    "viewPageEventName": "view_landing",
+    "landing_folder": "/",
+    "landing_parameter": null
+  }
 }

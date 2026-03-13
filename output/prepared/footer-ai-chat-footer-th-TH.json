@@ -2,12 +2,12 @@
   "data": {
     "slug": "ai-chat-footer",
     "locale": "th-TH",
-    "environment": "production",
+    "environment": "staging",
     "copyright": "@2026 AI Chat",
     "href": "/",
     "items": [
       {
-        "text": "การสนับสนุน",
+        "text": "สนับสนุน",
         "href": "/support/"
       },
       {

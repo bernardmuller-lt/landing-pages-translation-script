@@ -1,12 +1,18 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "refund-policy",
     "locale": "da-DK",
+    "locale_display": "dk",
     "seo": {
       "title": "Tilbagebetalingspolitik",
       "description": "Tilbagebetalingspolitik"
+    },
+    "events": {
+      "viewPageEventName": "Refund_and_cancelations",
+      "landing_folder": null,
+      "landing_parameter": null
     },
     "sections": [
       {

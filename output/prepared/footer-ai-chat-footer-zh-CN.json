@@ -2,12 +2,12 @@
   "data": {
     "slug": "ai-chat-footer",
     "locale": "zh-CN",
-    "environment": "production",
+    "environment": "staging",
     "copyright": "@2026 AI Chat",
     "href": "/",
     "items": [
       {
-        "text": "支持",
+        "text": "客户支持",
         "href": "/support/"
       },
       {
@@ -19,7 +19,7 @@
         "href": "/terms-of-use/"
       },
       {
-        "text": "条款与条件",
+        "text": "条款和条件",
         "href": "/terms-and-conditions/"
       },
       {

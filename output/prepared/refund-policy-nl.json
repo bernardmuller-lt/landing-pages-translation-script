@@ -1,12 +1,18 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "refund-policy",
     "locale": "nl",
+    "locale_display": "nl",
     "seo": {
       "title": "Restitutiebeleid",
       "description": "Restitutiebeleid"
+    },
+    "events": {
+      "viewPageEventName": "Refund_and_cancelations",
+      "landing_folder": null,
+      "landing_parameter": null
     },
     "sections": [
       {

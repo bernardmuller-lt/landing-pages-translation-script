@@ -1,9 +1,10 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "nl",
+    "locale_display": "nl",
     "seo": {
       "title": "ChatAI Web Apps",
       "description": "Een verfijnde AI-chatassistent die slimme antwoorden biedt, zinvolle dialogen aangaat en een naadloze conversatie-ervaring levert."
@@ -22,8 +23,8 @@
           "icon": null
         },
         "media": {
-          "light": 17,
-          "dark": 18
+          "light": 61,
+          "dark": 62
         }
       },
       {
@@ -55,8 +56,8 @@
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Aangedreven door</strong> geavanceerde AI-modellen</p>",
             "media": {
-              "light": 25,
-              "dark": 26
+              "light": 63,
+              "dark": 59
             }
           }
         ]
@@ -126,8 +127,8 @@
             "tier": "pro",
             "subtitle": "<p class=\"text-gray-500 dark:text-white\">Antwoorden van een hoger niveau met geavanceerde AI</p>",
             "icon": {
-              "light": 29,
-              "dark": 30
+              "light": 63,
+              "dark": 59
             }
           },
           {
@@ -176,7 +177,7 @@
           {
             "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Slimme gesprekken, direct</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat is jouw onmisbare metgezel voor dynamische gesprekken</strong>. Het combineert geavanceerde taalmodellen met een gebruiksvriendelijke interface om naadloze, gepersonaliseerde interacties te creëren. Geniet van slimme, boeiende chats—geen kopieer-plakwerk of tabbladen wisselen. Gewoon snellere, op maat gemaakte reacties op één plek.</p></div>",
             "media": {
-              "light": 39,
+              "light": 64,
               "dark": null
             },
             "icon": null

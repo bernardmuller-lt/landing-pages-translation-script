@@ -2,7 +2,7 @@
   "data": {
     "slug": "ai-chat-header",
     "locale": "ko-KR",
-    "environment": "production",
+    "environment": "staging",
     "href": "/",
     "loginBtn": {
       "href": "https://chat.aichatapp.ai/login",
@@ -12,8 +12,8 @@
     },
     "registerBtn": {
       "href": "https://chat.aichatapp.ai/register",
-      "text": "회원가입",
-      "aria_label": "회원가입",
+      "text": "회원 가입",
+      "aria_label": "회원 가입",
       "icon": null
     },
     "logo": {

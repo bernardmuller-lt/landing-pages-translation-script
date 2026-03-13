@@ -1,12 +1,18 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "refund-policy",
     "locale": "th-TH",
+    "locale_display": "th",
     "seo": {
       "title": "นโยบายการคืนเงิน",
       "description": "นโยบายการคืนเงิน"
+    },
+    "events": {
+      "viewPageEventName": "Refund_and_cancelations",
+      "landing_folder": null,
+      "landing_parameter": null
     },
     "sections": [
       {

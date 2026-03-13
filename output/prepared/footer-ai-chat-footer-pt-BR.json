@@ -2,7 +2,7 @@
   "data": {
     "slug": "ai-chat-footer",
     "locale": "pt-BR",
-    "environment": "production",
+    "environment": "staging",
     "copyright": "@2026 AI Chat",
     "href": "/",
     "items": [
@@ -15,7 +15,7 @@
         "href": "/privacy-policy-and-cookie-policy/"
       },
       {
-        "text": "Termos de Uso",
+        "text": "Termos de uso",
         "href": "/terms-of-use/"
       },
       {

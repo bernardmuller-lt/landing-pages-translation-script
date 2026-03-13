@@ -1,0 +1,38 @@
+{
+  "data": {
+    "environment": "staging",
+    "identifier": "ai-chat",
+    "slug": "onboarding",
+    "locale": "ja-JP",
+    "locale_display": "jp",
+    "seo": {
+      "title": "AI Chat",
+      "description": "高度なマルチプラットフォームAIチャットで、OpenAi ChatGPT、Gemini、Claude などのAIを提供し、鋭い回答を実現するとともに、シームレスなユーザー体験を可能にします。"
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.onboarding-slides-section",
+        "fe_component": "OnBoardingSlides",
+        "items": [
+          {
+            "light": 8,
+            "dark": null
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.onboarding-content-section",
+        "fe_component": "OnBoardingContent",
+        "items": [
+          {
+            "title1": "testing",
+            "title1Highlight": false,
+            "title2": "testing again",
+            "title2Highlight": false,
+            "description": "さらなるテスト"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,9 +1,10 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "th-TH",
+    "locale_display": "th",
     "seo": {
       "title": "เว็บแอป ChatAI",
       "description": "ผู้ช่วยแชท AI ที่มีความซับซ้อน ออกแบบมาเพื่อมอบคำตอบอัจฉริยะ สนทนาอย่างมีความหมาย และมอบประสบการณ์การสนทนาที่ราบรื่น"
@@ -22,8 +23,8 @@
           "icon": null
         },
         "media": {
-          "light": 17,
-          "dark": 18
+          "light": 61,
+          "dark": 62
         }
       },
       {
@@ -55,8 +56,8 @@
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">ขับเคลื่อนด้วย</strong> โมเดล AI ขั้นสูง</p>",
             "media": {
-              "light": 25,
-              "dark": 26
+              "light": 63,
+              "dark": 59
             }
           }
         ]
@@ -126,8 +127,8 @@
             "tier": "pro",
             "subtitle": "<p class=\"text-gray-500 dark:text-white\">คำตอบระดับถัดไปด้วย AI</p>",
             "icon": {
-              "light": 29,
-              "dark": 30
+              "light": 63,
+              "dark": 59
             }
           },
           {
@@ -176,7 +177,7 @@
           {
             "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">การสนทนาอัจฉริยะ ทันที</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat เป็นคู่หูที่คุณไว้วางใจสำหรับการสนทนาที่เปลี่ยนแปลงได้</strong>. มันผสานโมเดลภาษาอันล้ำสมัยเข้ากับอินเทอร์เฟซที่ใช้งานง่าย เพื่อสร้างปฏิสัมพันธ์ที่ราบรื่นและปรับให้เหมาะกับผู้ใช้ เพลิดเพลินกับการแชทที่ชาญฉลาดและน่าดึงดูด—ไม่ต้องคัดลอกวางหรือตั้งแท็บใหม่ เพียงตอบสนองได้เร็วขึ้นและปรับให้ตรงกับคุณในที่เดียว</p></div>",
             "media": {
-              "light": 39,
+              "light": 64,
               "dark": null
             },
             "icon": null

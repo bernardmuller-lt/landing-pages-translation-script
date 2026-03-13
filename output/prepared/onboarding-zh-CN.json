@@ -1,0 +1,38 @@
+{
+  "data": {
+    "environment": "staging",
+    "identifier": "ai-chat",
+    "slug": "onboarding",
+    "locale": "zh-CN",
+    "locale_display": "cn",
+    "seo": {
+      "title": "AI Chat",
+      "description": "一个先进的多平台人工智能聊天工具，提供 OpenAi ChatGPT、Gemini、Claude 等 AI，旨在提供清晰且精准的回答并实现无缝的用户体验。"
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.onboarding-slides-section",
+        "fe_component": "OnBoardingSlides",
+        "items": [
+          {
+            "light": 8,
+            "dark": null
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.onboarding-content-section",
+        "fe_component": "OnBoardingContent",
+        "items": [
+          {
+            "title1": "testing",
+            "title1Highlight": false,
+            "title2": "testing again",
+            "title2Highlight": false,
+            "description": "更多测试"
+          }
+        ]
+      }
+    ]
+  }
+}

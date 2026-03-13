@@ -1,12 +1,18 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "refund-policy",
     "locale": "de",
+    "locale_display": "de",
     "seo": {
       "title": "Rückerstattungsrichtlinie",
       "description": "Rückerstattungsrichtlinie"
+    },
+    "events": {
+      "viewPageEventName": "Refund_and_cancelations",
+      "landing_folder": null,
+      "landing_parameter": null
     },
     "sections": [
       {

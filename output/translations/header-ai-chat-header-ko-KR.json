@@ -1,6 +1,6 @@
 {
   "loginBtn.aria_label": "로그인",
   "loginBtn.text": "로그인",
-  "registerBtn.aria_label": "회원가입",
-  "registerBtn.text": "회원가입"
+  "registerBtn.aria_label": "회원 가입",
+  "registerBtn.text": "회원 가입"
 }

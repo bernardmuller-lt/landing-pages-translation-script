@@ -2,12 +2,12 @@
   "data": {
     "slug": "ai-chat-footer",
     "locale": "fr",
-    "environment": "production",
+    "environment": "staging",
     "copyright": "@2026 AI Chat",
     "href": "/",
     "items": [
       {
-        "text": "Assistance",
+        "text": "Support",
         "href": "/support/"
       },
       {
@@ -15,11 +15,11 @@
         "href": "/privacy-policy-and-cookie-policy/"
       },
       {
-        "text": "Conditions d'utilisation",
+        "text": "Conditions d’utilisation",
         "href": "/terms-of-use/"
       },
       {
-        "text": "Conditions générales d'utilisation",
+        "text": "Termes et Conditions",
         "href": "/terms-and-conditions/"
       },
       {

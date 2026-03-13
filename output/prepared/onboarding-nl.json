@@ -1,0 +1,38 @@
+{
+  "data": {
+    "environment": "staging",
+    "identifier": "ai-chat",
+    "slug": "onboarding",
+    "locale": "nl",
+    "locale_display": "nl",
+    "seo": {
+      "title": "AI Chat",
+      "description": "Een geavanceerde multiplatform AI-chat die OpenAi ChatGPT, Gemini, Claude en andere AI's aanbiedt en is ontworpen om scherpe reacties te leveren en een naadloze gebruikerservaring mogelijk te maken."
+    },
+    "sections": [
+      {
+        "__component": "ai-chat.onboarding-slides-section",
+        "fe_component": "OnBoardingSlides",
+        "items": [
+          {
+            "light": 8,
+            "dark": null
+          }
+        ]
+      },
+      {
+        "__component": "ai-chat.onboarding-content-section",
+        "fe_component": "OnBoardingContent",
+        "items": [
+          {
+            "title1": "testing",
+            "title1Highlight": false,
+            "title2": "testing again",
+            "title2Highlight": false,
+            "description": "meer testen"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,12 +1,18 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "refund-policy",
     "locale": "pt-BR",
+    "locale_display": "br",
     "seo": {
       "title": "Política de Reembolso",
       "description": "Política de Reembolso"
+    },
+    "events": {
+      "viewPageEventName": "Refund_and_cancelations",
+      "landing_folder": null,
+      "landing_parameter": null
     },
     "sections": [
       {

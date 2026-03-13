@@ -42,7 +42,7 @@ export const config = {
  */
 export const TARGET_LOCALES: Record<string, string> = {
   de: "German",
-  "es-419": "Spanish (Latin America)",
+  es: "Spanish",
   "ko-KR": "Korean (South Korea)",
   "pt-BR": "Portuguese (Brazil)",
   fr: "French",
@@ -56,4 +56,21 @@ export const TARGET_LOCALES: Record<string, string> = {
   "sv-SE": "Swedish (Sweden)",
   "th-TH": "Thai (Thailand)",
   "zh-CN": "Chinese (Simplified)",
+};
+
+/**
+ * Mapping of Strapi locale codes to short display codes.
+ * For locales not in this map, the original locale code is used.
+ */
+export const LOCALE_SHORT_MAP: Record<string, string> = {
+  "es-419": "es",
+  "pt-BR": "br",
+  "ko-KR": "kr",
+  "ja-JP": "jp",
+  "zh-CN": "cn",
+  "da-DK": "dk",
+  "nb-NO": "no",
+  "sv-SE": "sv",
+  "pt-PT": "pt",
+  "th-TH": "th",
 };

@@ -1,9 +1,10 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "da-DK",
+    "locale_display": "dk",
     "seo": {
       "title": "ChatAI Web Apps",
       "description": "En sofistikeret AI-chatassistent designet til at give intelligente svar, føre meningsfulde dialoger og levere en problemfri konversationsoplevelse."
@@ -22,8 +23,8 @@
           "icon": null
         },
         "media": {
-          "light": 17,
-          "dark": 18
+          "light": 61,
+          "dark": 62
         }
       },
       {
@@ -55,8 +56,8 @@
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Drevet af</strong> avancerede AI-modeller</p>",
             "media": {
-              "light": 25,
-              "dark": 26
+              "light": 63,
+              "dark": 59
             }
           }
         ]
@@ -126,8 +127,8 @@
             "tier": "pro",
             "subtitle": "<p class=\"text-gray-500 dark:text-white\">Næste niveau af svar med avanceret AI</p>",
             "icon": {
-              "light": 29,
-              "dark": 30
+              "light": 63,
+              "dark": 59
             }
           },
           {
@@ -176,7 +177,7 @@
           {
             "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Smarte samtaler, med det samme</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat er din foretrukne følgesvend til dynamiske samtaler</strong>. Det kombinerer avancerede sprogmodeller med en brugervenlig grænseflade for at skabe sømløse, personlige interaktioner. Nyd smarte, engagerende chats—ingen kopier-indsæt eller skift af faner. Bare hurtigere, skræddersyede svar ét sted.</p></div>",
             "media": {
-              "light": 39,
+              "light": 64,
               "dark": null
             },
             "icon": null

@@ -2,7 +2,7 @@
   "data": {
     "slug": "ai-chat-header",
     "locale": "zh-CN",
-    "environment": "production",
+    "environment": "staging",
     "href": "/",
     "loginBtn": {
       "href": "https://chat.aichatapp.ai/login",

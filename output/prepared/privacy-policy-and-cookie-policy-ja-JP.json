@@ -1,14 +1,19 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "privacy-policy-and-cookie-policy",
     "locale": "ja-JP",
+    "locale_display": "jp",
     "seo": {
       "title": "プライバシーポリシー",
       "description": "プライバシーポリシー"
     },
-    "events": null,
+    "events": {
+      "viewPageEventName": "Privacy_button",
+      "landing_folder": null,
+      "landing_parameter": null
+    },
     "sections": [
       {
         "__component": "shared.legal",

@@ -1,9 +1,10 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "pl",
+    "locale_display": "pl",
     "seo": {
       "title": "Aplikacje internetowe ChatAI",
       "description": "Wyrafinowany asystent czatu AI zaprojektowany, aby zapewniać inteligentne odpowiedzi, prowadzić znaczące dialogi i zapewnić płynne, naturalne doświadczenie konwersacyjne."
@@ -22,8 +23,8 @@
           "icon": null
         },
         "media": {
-          "light": 17,
-          "dark": 18
+          "light": 61,
+          "dark": 62
         }
       },
       {
@@ -55,8 +56,8 @@
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Zasilane przez</strong> zaawansowane modele AI</p>",
             "media": {
-              "light": 25,
-              "dark": 26
+              "light": 63,
+              "dark": 59
             }
           }
         ]
@@ -126,8 +127,8 @@
             "tier": "pro",
             "subtitle": "<p class=\"text-gray-500 dark:text-white\">Odpowiedzi na wyższym poziomie dzięki zaawansowanej sztucznej inteligencji</p>",
             "icon": {
-              "light": 29,
-              "dark": 30
+              "light": 63,
+              "dark": 59
             }
           },
           {
@@ -176,7 +177,7 @@
           {
             "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Inteligentne rozmowy, natychmiast</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat jest twoim niezawodnym towarzyszem do dynamicznych rozmów</strong>. Łączy zaawansowane modele językowe z przyjaznym interfejsem, aby tworzyć płynne, spersonalizowane interakcje. Ciesz się inteligentnymi, angażującymi rozmowami — bez kopiowania i przełączania kart. Szybsze, dopasowane odpowiedzi w jednym miejscu.</p></div>",
             "media": {
-              "light": 39,
+              "light": 64,
               "dark": null
             },
             "icon": null

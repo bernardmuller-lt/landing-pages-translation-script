@@ -1,9 +1,10 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "ko-KR",
+    "locale_display": "kr",
     "seo": {
       "title": "ChatAI 웹 앱",
       "description": "지능적인 응답을 제공하고, 의미 있는 대화를 이끌며, 매끄러운 대화 경험을 선사하는 정교한 AI 채팅 어시스턴트입니다."
@@ -22,8 +23,8 @@
           "icon": null
         },
         "media": {
-          "light": 17,
-          "dark": 18
+          "light": 61,
+          "dark": 62
         }
       },
       {
@@ -55,8 +56,8 @@
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">다음의 첨단 AI 모델로</strong> 구동됩니다</p>",
             "media": {
-              "light": 25,
-              "dark": 26
+              "light": 63,
+              "dark": 59
             }
           }
         ]
@@ -126,8 +127,8 @@
             "tier": "pro",
             "subtitle": "<p class=\"text-gray-500 dark:text-white\">첨단 AI로 한층 더 높은 수준의 답변</p>",
             "icon": {
-              "light": 29,
-              "dark": 30
+              "light": 63,
+              "dark": 59
             }
           },
           {
@@ -176,7 +177,7 @@
           {
             "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">스마트 대화, 즉시</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat 은 동적 대화를 위한 핵심 동반자입니다</strong>. 높은 수준의 언어 모델과 사용자 친화적인 인터페이스를 결합해 매끄럽고 개인화된 상호작용을 만들어냅니다. 복사-붙여넣기 없이 스마트하고 매력적인 대화를 즐기세요. 한 곳에서 더 빠르고 맞춤형 응답을 받으실 수 있습니다.</p></div>",
             "media": {
-              "light": 39,
+              "light": 64,
               "dark": null
             },
             "icon": null

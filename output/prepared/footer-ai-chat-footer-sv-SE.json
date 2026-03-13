@@ -2,12 +2,12 @@
   "data": {
     "slug": "ai-chat-footer",
     "locale": "sv-SE",
-    "environment": "production",
+    "environment": "staging",
     "copyright": "@2026 AI Chat",
     "href": "/",
     "items": [
       {
-        "text": "Support",
+        "text": "Kundtjänst",
         "href": "/support/"
       },
       {

@@ -1,14 +1,19 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "support",
     "locale": "nl",
+    "locale_display": "nl",
     "seo": {
       "title": "Ondersteuning - AI Chat",
       "description": "AI Chat"
     },
-    "events": null,
+    "events": {
+      "viewPageEventName": "Contact_Support",
+      "landing_folder": null,
+      "landing_parameter": null
+    },
     "sections": [
       {
         "__component": "shared.support",

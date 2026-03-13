@@ -1,14 +1,19 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "home",
     "locale": "ja-JP",
+    "locale_display": "jp",
     "seo": {
       "title": "AI Chat Webアプリ",
       "description": "知的な回答を提供し、有意義な対話を行い、シームレスな会話体験を提供する高度なAIチャットアシスタント。"
     },
-    "events": null,
+    "events": {
+      "viewPageEventName": "view_landing",
+      "landing_folder": "/",
+      "landing_parameter": null
+    },
     "sections": [
       {
         "__component": "ai-chat.hero-section",
@@ -22,8 +27,8 @@
           "icon": "arrow-right"
         },
         "media": {
-          "light": 8,
-          "dark": 9
+          "light": 57,
+          "dark": 58
         }
       },
       {
@@ -169,8 +174,8 @@
         "client": true,
         "title": "WebbApp <strong class='text-primary'>機能</strong>",
         "media": {
-          "light": 13,
-          "dark": 14
+          "light": 72,
+          "dark": 60
         },
         "tabs": [
           {

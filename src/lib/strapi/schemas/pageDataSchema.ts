@@ -73,7 +73,7 @@ const SEOSchema = z.object({
 
 const TrackingEventsSchema = z.object({
   viewPageEventName: z.string(),
-  landing_folder: z.string(),
+  landing_folder: z.string().nullable(),
   landing_parameter: z.string().nullable(),
 });
 
@@ -295,6 +295,7 @@ export const APIPayloadSchema = z.object({
     identifier: z.string(),
     slug: z.string(),
     locale: z.string(),
+    locale_display: z.string().optional(),
     seo: SEOSchema,
     events: TrackingEventsSchema.nullable().optional(),
     sections: z.array(SectionSchema),

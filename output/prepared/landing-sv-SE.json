@@ -1,9 +1,10 @@
 {
   "data": {
-    "environment": "production",
+    "environment": "staging",
     "identifier": "ai-chat",
     "slug": "landing",
     "locale": "sv-SE",
+    "locale_display": "sv",
     "seo": {
       "title": "ChatAI Webbappar",
       "description": "En sofistikerad AI-chattassistent som är utformad för att ge intelligenta svar, delta i meningsfulla samtal och leverera en sömlös konversationsupplevelse."
@@ -22,8 +23,8 @@
           "icon": null
         },
         "media": {
-          "light": 17,
-          "dark": 18
+          "light": 61,
+          "dark": 62
         }
       },
       {
@@ -55,8 +56,8 @@
           {
             "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Drivs av</strong> avancerade AI-modeller</p>",
             "media": {
-              "light": 25,
-              "dark": 26
+              "light": 63,
+              "dark": 59
             }
           }
         ]
@@ -126,8 +127,8 @@
             "tier": "pro",
             "subtitle": "<p class=\"text-gray-500 dark:text-white\">Nästa nivå av svar med avancerad AI</p>",
             "icon": {
-              "light": 29,
-              "dark": 30
+              "light": 63,
+              "dark": 59
             }
           },
           {
@@ -176,7 +177,7 @@
           {
             "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Smarta konversationer, direkt</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat är din självklara följeslagare för dynamiska samtal</strong>. Den kombinerar avancerade språkmodeller med ett användarvänligt gränssnitt för sömlösa, personliga interaktioner. Njut av smarta, engagerande chattar—ingen kopiering och inget växlande mellan flikar. Bara snabbare, skräddarsydda svar på ett ställe.</p></div>",
             "media": {
-              "light": 39,
+              "light": 64,
               "dark": null
             },
             "icon": null

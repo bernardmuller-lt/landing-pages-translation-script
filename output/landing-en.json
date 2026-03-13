@@ -2,19 +2,19 @@
   "slug": "landing",
   "locale": "en",
   "seo": {
-    "id": 95,
+    "id": 295,
     "title": "ChatAI Web Apps",
     "description": "A sophisticated AI chat assistant designed to provide intelligent responses, engage in meaningful dialogues, and deliver a seamless conversational experience."
   },
   "sections": [
     {
       "__component": "ai-chat.hero-section",
-      "id": 46,
+      "id": 191,
       "fe_component": "Hero",
-      "title": "<h1 class=\"font-bold\"><span style=\"font-size:72px;\">AI Chats</span></h1>",
+      "title": "<h1 class=\"text-left leading-[1.1] font-bold text-main text-[4.25rem] dark:text-white mb-2.5\">AI Chats</h1>",
       "description": "<p class=\"text-[26px] md:text-[28px] lg:text-[32px] max-w-[19ch] leading-[1.125] text-variant dark:text-gray-400 mt-2 mb-7\">Boost your day with AI, one chat at a time</p>",
       "cta": {
-        "id": 165,
+        "id": 789,
         "href": "https://chat.aichatapp.ai/register",
         "text": "Start for free",
         "aria_label": "Start for free",
@@ -22,62 +22,62 @@
         "wide": null
       },
       "media": {
-        "id": 511,
+        "id": 1612,
         "dark": {
-          "id": 18,
-          "documentId": "oa6wbz9dpgbspmwhjvboue3f",
-          "name": "landing-dark-en.webm",
+          "id": 62,
+          "documentId": "rnqeqatscu3b5xwl3a0hqxcg",
+          "name": "EN-Video-2-Dark.webm",
           "alternativeText": null,
           "caption": null,
           "width": null,
           "height": null,
           "formats": null,
-          "hash": "landing_dark_en_02b0a4cd62",
+          "hash": "EN_Video_2_Dark_bdfdc14bea",
           "ext": ".webm",
           "mime": "video/webm",
-          "size": 418.19,
-          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/landing_dark_en_02b0a4cd62.webm",
+          "size": 251.15,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/EN_Video_2_Dark_bdfdc14bea.webm",
           "previewUrl": null,
           "provider": "strapi-provider-upload-strapi-cloud",
           "provider_metadata": null,
-          "createdAt": "2026-02-17T11:37:49.830Z",
-          "updatedAt": "2026-02-17T11:37:49.830Z",
-          "publishedAt": "2026-02-17T11:37:49.831Z"
+          "createdAt": "2026-03-10T14:52:31.490Z",
+          "updatedAt": "2026-03-10T14:52:31.490Z",
+          "publishedAt": "2026-03-10T14:52:31.490Z"
         },
         "light": {
-          "id": 17,
-          "documentId": "juvhhxwqsfov327v5uge8bkg",
-          "name": "landing-light-en.webm",
+          "id": 61,
+          "documentId": "hwttf9s25figuktzkjtukme0",
+          "name": "EN-Video-2-Light.webm",
           "alternativeText": null,
           "caption": null,
           "width": null,
           "height": null,
           "formats": null,
-          "hash": "landing_light_en_3e38ad6893",
+          "hash": "EN_Video_2_Light_fd97bda759",
           "ext": ".webm",
           "mime": "video/webm",
-          "size": 411.54,
-          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/landing_light_en_3e38ad6893.webm",
+          "size": 245.04,
+          "url": "https://big-dog-9e75d2515f.media.strapiapp.com/EN_Video_2_Light_fd97bda759.webm",
           "previewUrl": null,
           "provider": "strapi-provider-upload-strapi-cloud",
           "provider_metadata": null,
-          "createdAt": "2026-02-17T11:37:37.305Z",
-          "updatedAt": "2026-02-17T11:37:37.305Z",
-          "publishedAt": "2026-02-17T11:37:37.305Z"
+          "createdAt": "2026-03-10T14:52:17.185Z",
+          "updatedAt": "2026-03-10T14:52:17.185Z",
+          "publishedAt": "2026-03-10T14:52:17.186Z"
         }
       }
     },
     {
       "__component": "ai-chat.milestone-section",
-      "id": 27,
+      "id": 72,
       "fe_component": "Milestones",
       "title": "",
       "items": [
         {
-          "id": 100,
+          "id": 277,
           "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">100K+</strong> 5 stars reviews</p>",
           "media": {
-            "id": 504,
+            "id": 1605,
             "dark": {
               "id": 20,
               "documentId": "dm5fubjjkyqzgd3n4q97pvu0",
@@ -123,10 +123,10 @@
           }
         },
         {
-          "id": 101,
+          "id": 278,
           "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">1st</strong> AI Chatbot</p>",
           "media": {
-            "id": 505,
+            "id": 1606,
             "dark": {
               "id": 22,
               "documentId": "vabyn8566o2tvmw17ryo5tdc",
@@ -172,10 +172,10 @@
           }
         },
         {
-          "id": 102,
+          "id": 279,
           "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">30M+</strong> user worldwide</p>",
           "media": {
-            "id": 506,
+            "id": 1607,
             "dark": {
               "id": 24,
               "documentId": "jhpcz3yy02pdolwpdqfv66ia",
@@ -221,51 +221,51 @@
           }
         },
         {
-          "id": 103,
+          "id": 280,
           "text": "<p class=\"text-center text-2xl mt-6 gap-1\"><strong class=\"block\">Powered by</strong> advanced AI models</p>",
           "media": {
-            "id": 507,
+            "id": 1608,
             "dark": {
-              "id": 26,
-              "documentId": "f2equii9olagbz6wkeql6v8s",
-              "name": "AI_Chat_Icon_Light.svg",
+              "id": 59,
+              "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+              "name": "onboarding-logo.svg",
               "alternativeText": null,
               "caption": null,
-              "width": 79,
-              "height": 83,
+              "width": 356,
+              "height": 372,
               "formats": null,
-              "hash": "AI_Chat_Icon_Light_5571b44c7a",
+              "hash": "onboarding_logo_2d2babe0e4",
               "ext": ".svg",
               "mime": "image/svg+xml",
-              "size": 1.6,
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/AI_Chat_Icon_Light_5571b44c7a.svg",
+              "size": 4.26,
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
               "previewUrl": null,
               "provider": "strapi-provider-upload-strapi-cloud",
               "provider_metadata": null,
-              "createdAt": "2026-02-17T11:54:09.378Z",
-              "updatedAt": "2026-02-17T11:54:09.378Z",
-              "publishedAt": "2026-02-17T11:54:09.378Z"
+              "createdAt": "2026-03-10T14:37:47.050Z",
+              "updatedAt": "2026-03-10T14:37:47.050Z",
+              "publishedAt": "2026-03-10T14:37:47.050Z"
             },
             "light": {
-              "id": 25,
-              "documentId": "i8yg53mfq0m15hqlmbfx6w36",
-              "name": "AI_Chat_Icon.svg",
+              "id": 63,
+              "documentId": "qcr7qcq10j4ks8q1wkd9gerg",
+              "name": "Group-469304-1.svg",
               "alternativeText": null,
               "caption": null,
-              "width": 79,
-              "height": 83,
-              "formats": {},
-              "hash": "AI_Chat_Icon_1576e77850",
+              "width": 246,
+              "height": 259,
+              "formats": null,
+              "hash": "Group_469304_1_65621c9ea5",
               "ext": ".svg",
               "mime": "image/svg+xml",
-              "size": 1.02,
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/AI_Chat_Icon_1576e77850.svg",
+              "size": 2.26,
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Group_469304_1_65621c9ea5.svg",
               "previewUrl": null,
               "provider": "strapi-provider-upload-strapi-cloud",
               "provider_metadata": null,
-              "createdAt": "2026-02-17T11:53:57.686Z",
-              "updatedAt": "2026-03-04T14:45:36.085Z",
-              "publishedAt": "2026-02-17T11:53:57.686Z"
+              "createdAt": "2026-03-10T14:53:57.152Z",
+              "updatedAt": "2026-03-10T14:53:57.152Z",
+              "publishedAt": "2026-03-10T14:53:57.152Z"
             }
           }
         }
@@ -273,40 +273,40 @@
     },
     {
       "__component": "ai-chat.carousel-section",
-      "id": 41,
+      "id": 131,
       "fe_component": "Carousel",
       "title": "Trusted by millions of users",
       "items": [
         {
-          "id": 201,
+          "id": 641,
           "title": " Smart Writing Tool ",
           "description": " “This platform seamlessly integrates into my daily workflow as a tech professional, offering impressive flexibility and customization that enhances my creative problem-solving.” ",
           "rating": 5,
           "author": " Matthias Engelhardt "
         },
         {
-          "id": 202,
+          "id": 642,
           "title": " Brilliant Text Assistant ",
           "description": " “As a daily user in the creative tech space, I’m impressed by the platform’s adaptability. It empowers me to tailor interactions precisely to my project needs.” ",
           "rating": 5,
           "author": " Sofia Valenti "
         },
         {
-          "id": 203,
+          "id": 643,
           "title": " Effortless Writing Companion ",
           "description": "“A highly reliable tool for tech professionals, offering dynamic customization options that fit perfectly into the fast-paced demands of the creative industry.”",
           "rating": 5,
           "author": " Heinrich Schreiber "
         },
         {
-          "id": 204,
+          "id": 644,
           "title": " Advanced Scribe ",
           "description": "“The platform’s innovative design and user-centric approach make it an essential part of my daily toolkit, especially when managing complex tech projects.”",
           "rating": 5,
           "author": "Elisabeth van der Meer "
         },
         {
-          "id": 205,
+          "id": 645,
           "title": " Creative Wordsmith ",
           "description": " “It’s a game-changer for my creative work, with its ability to customize and adjust to evolving requirements effortlessly—an ideal solution for daily tech use.”",
           "rating": 5,
@@ -316,16 +316,16 @@
     },
     {
       "__component": "ai-chat.perk-comparison-table",
-      "id": 23,
+      "id": 50,
       "fe_component": "ComparisonTable",
       "rows": [
         {
-          "id": 134,
-          "title": "<p class=\"font-bold text-[1.25rem]\">ChatGPT Answers</p>",
+          "id": 296,
+          "title": "<p class=\"font-bold text-[1.25rem]\">Open AI Answers</p>",
           "tier": "both",
           "subtitle": "<p class=\"mt-2 text-[1.125rem] text-gray-500 dark:text-white\">Your gateway to smarter conversations</p>",
           "icon": {
-            "id": 512,
+            "id": 1613,
             "dark": {
               "id": 28,
               "documentId": "jx0ahipzymqgqbwp21x80yvr",
@@ -371,63 +371,63 @@
           }
         },
         {
-          "id": 135,
+          "id": 297,
           "title": "<p class=\"font-bold text-[1.25rem]\">Access to GPT-5</p>",
           "tier": "pro",
           "subtitle": "<p class=\"text-gray-500 dark:text-white\">Next-level answers with advanced AI</p>",
           "icon": {
-            "id": 513,
+            "id": 1614,
             "dark": {
-              "id": 30,
-              "documentId": "f5j2op6c7dkzpad24arb4icd",
-              "name": "GPT_4o_light.svg",
+              "id": 59,
+              "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+              "name": "onboarding-logo.svg",
               "alternativeText": null,
               "caption": null,
-              "width": 41,
-              "height": 40,
+              "width": 356,
+              "height": 372,
               "formats": null,
-              "hash": "GPT_4o_light_553b923717",
+              "hash": "onboarding_logo_2d2babe0e4",
               "ext": ".svg",
               "mime": "image/svg+xml",
-              "size": 2.35,
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/GPT_4o_light_553b923717.svg",
+              "size": 4.26,
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
               "previewUrl": null,
               "provider": "strapi-provider-upload-strapi-cloud",
               "provider_metadata": null,
-              "createdAt": "2026-02-17T12:22:01.434Z",
-              "updatedAt": "2026-02-17T12:22:01.434Z",
-              "publishedAt": "2026-02-17T12:22:01.434Z"
+              "createdAt": "2026-03-10T14:37:47.050Z",
+              "updatedAt": "2026-03-10T14:37:47.050Z",
+              "publishedAt": "2026-03-10T14:37:47.050Z"
             },
             "light": {
-              "id": 29,
-              "documentId": "oxc32h01zp1cr6dj1of0hqok",
-              "name": "GPT_4o.svg",
+              "id": 63,
+              "documentId": "qcr7qcq10j4ks8q1wkd9gerg",
+              "name": "Group-469304-1.svg",
               "alternativeText": null,
               "caption": null,
-              "width": 41,
-              "height": 40,
+              "width": 246,
+              "height": 259,
               "formats": null,
-              "hash": "GPT_4o_3634ebee80",
+              "hash": "Group_469304_1_65621c9ea5",
               "ext": ".svg",
               "mime": "image/svg+xml",
-              "size": 2.36,
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/GPT_4o_3634ebee80.svg",
+              "size": 2.26,
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Group_469304_1_65621c9ea5.svg",
               "previewUrl": null,
               "provider": "strapi-provider-upload-strapi-cloud",
               "provider_metadata": null,
-              "createdAt": "2026-02-17T12:21:46.256Z",
-              "updatedAt": "2026-02-17T12:21:46.256Z",
-              "publishedAt": "2026-02-17T12:21:46.256Z"
+              "createdAt": "2026-03-10T14:53:57.152Z",
+              "updatedAt": "2026-03-10T14:53:57.152Z",
+              "publishedAt": "2026-03-10T14:53:57.152Z"
             }
           }
         },
         {
-          "id": 136,
+          "id": 298,
           "title": "<p class=\"font-bold text-[1.25rem]\">Image Generation</p>",
           "tier": "pro",
           "subtitle": "<p class=\"text-gray-500 dark:text-white\">Turn ideas into stunning images with the best AI models available, such as Nano Banana</p>",
           "icon": {
-            "id": 514,
+            "id": 1615,
             "dark": {
               "id": 32,
               "documentId": "w3xyd28sl7dusy9aw9b3ows9",
@@ -473,12 +473,12 @@
           }
         },
         {
-          "id": 137,
+          "id": 299,
           "title": "<p class=\"font-bold text-[1.25rem]\">Access to advanced models</p>",
           "tier": "pro",
           "subtitle": "<p class=\"text-gray-500 dark:text-white\">OpenAI GPT, DeepSeek, Gemini Pro, Claude Sonnet, Grok and many more!</p>",
           "icon": {
-            "id": 515,
+            "id": 1616,
             "dark": {
               "id": 34,
               "documentId": "nv0bdf355dwscp36wzsqp9g2",
@@ -524,12 +524,12 @@
           }
         },
         {
-          "id": 138,
+          "id": 300,
           "title": "<p class=\"font-bold text-[1.25rem]\">Unlock Advanced Tools</p>",
           "tier": "pro",
           "subtitle": "<p class=\"text-gray-500 dark:text-white\">Chat with PDF, Docs, Excel, and more</p>",
           "icon": {
-            "id": 516,
+            "id": 1617,
             "dark": {
               "id": 36,
               "documentId": "yh7jo4o22z7uyz0k6e6v6hxs",
@@ -575,12 +575,12 @@
           }
         },
         {
-          "id": 139,
+          "id": 301,
           "title": "<p class=\"font-bold text-[1.25rem]\">No Ads</p>",
           "tier": "pro",
           "subtitle": "<p class=\"text-gray-500 dark:text-white\">Pure AI assistance, no distractions</p>",
           "icon": {
-            "id": 517,
+            "id": 1618,
             "dark": {
               "id": 38,
               "documentId": "k08gshy1z5cw0d8dlcery0rq",
@@ -628,85 +628,85 @@
       ],
       "header": [
         {
-          "id": 159,
+          "id": 505,
           "heading": null
         },
         {
-          "id": 160,
+          "id": 506,
           "heading": "<p><span style=\"font-size:20px;\">FREE</span></p>"
         },
         {
-          "id": 161,
+          "id": 507,
           "heading": "<p class=\"pl-8\"><span style=\"font-size:20px;\">PRO</span></p>"
         }
       ]
     },
     {
       "__component": "ai-chat.high-light-section",
-      "id": 22,
+      "id": 60,
       "fe_component": "Highlights",
       "title": "<p class=\"text-main mb-8 text-center text-[30px] leading-[1.1] font-bold md:mb-10 lg:text-[40px] dark:text-gray-100\"><strong class=\"text-primary\">AI Chat</strong> Features</p>",
       "items": [
         {
-          "id": 64,
+          "id": 173,
           "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Smart Conversations, Instantly</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p><strong>AI Chat is your go-to companion for dynamic conversations</strong>. It combines advanced language models with a user-friendly interface to create seamless, personalized interactions. Enjoy smart, engaging chats—no copy-pasting or switching tabs. Just faster, tailored responses in one place.</p></div>",
           "icon": null,
           "media": {
-            "id": 508,
+            "id": 1609,
             "dark": null,
             "light": {
-              "id": 39,
-              "documentId": "bi667gj0jipkealee4e9qgl0",
-              "name": "1_Chat_Feature.webp",
+              "id": 64,
+              "documentId": "sz8lk9i1cm6iffve871ix4cj",
+              "name": "1 Chat Feature_EN.webp",
               "alternativeText": null,
               "caption": null,
               "width": 545,
-              "height": 546,
+              "height": 545,
               "formats": {
                 "small": {
                   "ext": ".webp",
-                  "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_1_Chat_Feature_1f160b9dbd.webp",
-                  "hash": "small_1_Chat_Feature_1f160b9dbd",
+                  "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_1_Chat_Feature_EN_19012954ce.webp",
+                  "hash": "small_1_Chat_Feature_EN_19012954ce",
                   "mime": "image/webp",
-                  "name": "small_1_Chat_Feature.webp",
+                  "name": "small_1 Chat Feature_EN.webp",
                   "path": null,
-                  "size": 11.91,
-                  "width": 499,
+                  "size": 11.81,
+                  "width": 500,
                   "height": 500,
-                  "sizeInBytes": 11912
+                  "sizeInBytes": 11810
                 },
                 "thumbnail": {
                   "ext": ".webp",
-                  "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_1_Chat_Feature_1f160b9dbd.webp",
-                  "hash": "thumbnail_1_Chat_Feature_1f160b9dbd",
+                  "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_1_Chat_Feature_EN_19012954ce.webp",
+                  "hash": "thumbnail_1_Chat_Feature_EN_19012954ce",
                   "mime": "image/webp",
-                  "name": "thumbnail_1_Chat_Feature.webp",
+                  "name": "thumbnail_1 Chat Feature_EN.webp",
                   "path": null,
-                  "size": 2.2,
+                  "size": 2.26,
                   "width": 156,
                   "height": 156,
-                  "sizeInBytes": 2202
+                  "sizeInBytes": 2256
                 }
               },
-              "hash": "1_Chat_Feature_1f160b9dbd",
+              "hash": "1_Chat_Feature_EN_19012954ce",
               "ext": ".webp",
               "mime": "image/webp",
-              "size": 15.03,
-              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/1_Chat_Feature_1f160b9dbd.webp",
+              "size": 14.27,
+              "url": "https://big-dog-9e75d2515f.media.strapiapp.com/1_Chat_Feature_EN_19012954ce.webp",
               "previewUrl": null,
               "provider": "strapi-provider-upload-strapi-cloud",
               "provider_metadata": null,
-              "createdAt": "2026-02-17T13:28:26.589Z",
-              "updatedAt": "2026-02-17T13:28:26.589Z",
-              "publishedAt": "2026-02-17T13:28:26.590Z"
+              "createdAt": "2026-03-10T14:58:27.243Z",
+              "updatedAt": "2026-03-10T14:58:53.318Z",
+              "publishedAt": "2026-03-10T14:58:27.244Z"
             }
           }
         },
         {
-          "id": 65,
+          "id": 174,
           "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Turn Your Ideas into Incredible Images with 🍌 Nano Banana</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Your creativity has no limits. Just describe your idea and AI Chat turns it into stunning visuals—no design skills needed. From imagination to image in seconds, ready to inspire, share, or build upon. Just your words. Pure creation.</p></div>",
           "icon": {
-            "id": 518,
+            "id": 1619,
             "dark": null,
             "light": {
               "id": 41,
@@ -731,7 +731,7 @@
             }
           },
           "media": {
-            "id": 509,
+            "id": 1610,
             "dark": null,
             "light": {
               "id": 40,
@@ -782,10 +782,10 @@
           }
         },
         {
-          "id": 66,
+          "id": 175,
           "title": "<h3 class=\"text-[26px] leading-[1.125] font-bold md:text-[28px] lg:text-[32px]\">Master Your PDFs in Seconds</h3><p>&nbsp;</p><div class=\"mt-4 text-sm leading-[1.286] dark:text-gray-400 text-variant\"><p>Get more from your PDF in seconds. Summarize, translate, and analyze documents instantly. Have questions? AI Chat gives quick, accurate answers—saving you time and helping you focus on what matters most. It’s smart, fast, and built for productivity.</p></div>",
           "icon": {
-            "id": 519,
+            "id": 1620,
             "dark": null,
             "light": {
               "id": 43,
@@ -810,7 +810,7 @@
             }
           },
           "media": {
-            "id": 510,
+            "id": 1611,
             "dark": null,
             "light": {
               "id": 42,
@@ -864,36 +864,36 @@
     },
     {
       "__component": "ai-chat.topics-section",
-      "id": 21,
+      "id": 60,
       "fe_component": "Topics",
       "title": "<p><strong class=\"text-primary\">AI Chat</strong> is helpful for</p>",
       "items": [
         {
-          "id": 162,
-          "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">💼</span>Marketing</p>"
+          "id": 508,
+          "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem] w-8 h-8\" aria-hidden=\"true\">💼</span>Marketing</p>"
         },
         {
-          "id": 163,
+          "id": 509,
           "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">✈️</span>Travel</p>"
         },
         {
-          "id": 164,
+          "id": 510,
           "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">📚</span>Education</p>"
         },
         {
-          "id": 165,
+          "id": 511,
           "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🚀</span>Career</p>"
         },
         {
-          "id": 166,
+          "id": 512,
           "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">‍‍👩🏻‍💻</span>Coding</p>"
         },
         {
-          "id": 167,
+          "id": 513,
           "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">🗞</span>News</p>"
         },
         {
-          "id": 168,
+          "id": 514,
           "heading": "<p><span class=\"p-2 bg-gray-300 dark:bg-gray-600 rounded-full mr-2 md:text-[1.25rem]\" aria-hidden=\"true\">📊</span>Presentation</p>"
         }
       ]
