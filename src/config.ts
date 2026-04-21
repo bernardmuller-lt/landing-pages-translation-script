@@ -26,6 +26,11 @@ export const config = {
     footer: "ai-chat-footer",
   },
 
+  // Onboarding page slugs
+  onboardingSlugs: {
+    onboardingPage: "onboarding",
+  },
+
   // Output directory for JSON files (relative to project root)
   outputDir: resolve(process.cwd(), "output"),
 

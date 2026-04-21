@@ -8,9 +8,11 @@ import { ZodError } from "zod";
 import { validateAPIPayload } from "./lib/strapi/schemas/pageDataSchema.js";
 import { validateHeaderAPIPayload } from "./lib/strapi/schemas/headerDataSchema.js";
 import { validateFooterAPIPayload } from "./lib/strapi/schemas/footerDataSchema.js";
+import { validateOnboardingPageAPIPayload } from "./lib/strapi/schemas/onboardingPageDataSchema.js";
 import { uploadPage } from "./lib/strapi/http/uploadPage.js";
 import { uploadHeader } from "./lib/strapi/http/uploadHeader.js";
 import { uploadFooter } from "./lib/strapi/http/uploadFooter.js";
+import { uploadOnboardingPage } from "./lib/strapi/http/uploadOnboardingPage.js";
 import { config, TARGET_LOCALES } from "./config.js";
 
 export interface UploadOptions {
@@ -26,9 +28,11 @@ export interface UploadOptions {
  * Given a prepared filename like "home-ko-KR.json", "header-ai-chat-header-de.json", derive type, slug and locale.
  * Uses the known locale list so slugs with hyphens are handled correctly.
  */
+type ContentType = "page" | "header" | "footer" | "onboarding-page";
+
 function parsePreparedFilename(
   filename: string,
-): { type: "page" | "header" | "footer"; slug: string; locale: string } | null {
+): { type: ContentType; slug: string; locale: string } | null {
   const name = basename(filename, ".json");
   const locale = Object.keys(TARGET_LOCALES).find((l) =>
     name.endsWith(`-${l}`),
@@ -37,7 +41,9 @@ function parsePreparedFilename(
   const slug = name.slice(0, -(locale.length + 1)); // strip "-{locale}"
 
   // Detect content type from prefix
-  if (slug.startsWith("header-")) {
+  if (slug.startsWith("onboarding-page-")) {
+    return { type: "onboarding-page", slug, locale };
+  } else if (slug.startsWith("header-")) {
     return { type: "header", slug, locale };
   } else if (slug.startsWith("footer-")) {
     return { type: "footer", slug, locale };
@@ -77,6 +83,13 @@ async function uploadSingleFile(filePath: string): Promise<boolean> {
         `  ⏳ footer:${payload.data.slug}/${payload.data.locale} ... `,
       );
       result = await uploadFooter(payload);
+    } else if (contentType === "onboarding-page") {
+      // Validate and upload onboarding page
+      payload = validateOnboardingPageAPIPayload(parsedJSON);
+      process.stdout.write(
+        `  ⏳ onboarding-page:${payload.data.default_slug}/${payload.data.locale} ... `,
+      );
+      result = await uploadOnboardingPage(payload);
     } else {
       // Validate and upload page
       payload = validateAPIPayload(parsedJSON);
@@ -157,7 +170,7 @@ export async function runUpload(options: UploadOptions = {}): Promise<void> {
       filename: f,
       parsed: parsePreparedFilename(f),
     }))
-    .filter((item): item is { filename: string; parsed: { type: "page" | "header" | "footer"; slug: string; locale: string } } =>
+    .filter((item): item is { filename: string; parsed: { type: ContentType; slug: string; locale: string } } =>
       item.parsed !== null
     );
 

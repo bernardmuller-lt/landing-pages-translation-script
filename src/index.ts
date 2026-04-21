@@ -10,6 +10,7 @@ import { runParse } from "./parse.js";
 import { runValidate } from "./validate.js";
 import { runUpload } from "./upload.js";
 import { runMetadata } from "./metadata.js";
+import { runOnboarding } from "./onboarding.js";
 import { runUpdateLocaleDisplay } from "./updateLocaleDisplay.js";
 
 const program = new Command();
@@ -441,6 +442,63 @@ program
       console.log("🏁  Pipeline complete!\n");
     } catch (error) {
       console.error("\n❌ Pipeline failed:", error);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("onboarding")
+  .description(
+    "Run the full pipeline for onboarding pages: fetch → parse → translate → validate → prepare → upload",
+  )
+  .option(
+    "-m, --model <model>",
+    "LLM model to use (e.g. gpt-4o-mini)",
+    process.env.LLM_MODEL,
+  )
+  .option(
+    "-l, --locale <locales...>",
+    `locale(s) to process, comma separated (valid: ${Object.keys(TARGET_LOCALES).join(", ")})`,
+    commaSeparatedList,
+  )
+  .option(
+    "-c, --concurrency <number>",
+    "max parallel LLM requests (default: 5)",
+    (v: string) => parseInt(v, 10),
+  )
+  .option(
+    "-e, --env <environment>",
+    "target environment for the prepared API payload: test or production (default: test)",
+    "test",
+  )
+  .action(async (options) => {
+    const model: string | undefined = options.model;
+    if (!model) {
+      console.error(
+        "\n❌ LLM model is required. Use --model <model> or set LLM_MODEL in .env\n",
+      );
+      process.exit(1);
+    }
+    if (
+      options.env !== "test" &&
+      options.env !== "production" &&
+      options.env !== "staging"
+    ) {
+      console.error(
+        `\n❌ Invalid environment "${options.env}". Must be "test" or "production".\n`,
+      );
+      process.exit(1);
+    }
+
+    try {
+      await runOnboarding({
+        model,
+        locales: options.locale,
+        concurrency: options.concurrency,
+        environment: options.env,
+      });
+    } catch (error) {
+      console.error("\n❌ Onboarding pipeline failed:", error);
       process.exit(1);
     }
   });

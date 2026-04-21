@@ -3,7 +3,7 @@
 import "dotenv/config";
 import { fetchPages } from "./lib/strapi/http/fetchPages.js";
 import { writePagesToFiles } from "./lib/utils/fileWriter.js";
-import { config } from "./config.js";
+import { config, TARGET_LOCALES } from "./config.js";
 
 async function main() {
   console.log("╔════════════════════════════════════════════════════════╗");
@@ -31,33 +31,37 @@ async function main() {
       );
     }
 
-    const pages = await fetchPages({
-      identifier: config.identifier,
-      locale: config.locale,
-      environment: config.environment,
-      slugs: fetchAll ? undefined : [slug],
-    });
+    for (const locale of Object.keys(TARGET_LOCALES)) {
+      const pages = await fetchPages({
+        identifier: config.identifier,
+        locale: locale,
+        environment: config.environment,
+        slugs: fetchAll ? undefined : [slug],
+      });
 
-    if (pages.length === 0) {
-      if (fetchAll) {
-        console.log("\n⚠️  No pages found in Strapi CMS.");
-      } else {
-        console.log(`\n⚠️  Page "${slug}" not found in Strapi CMS.`);
-        console.log("Make sure the page exists and is published.");
+      if (pages.length === 0) {
+        if (fetchAll) {
+          console.log("\n⚠️  No pages found in Strapi CMS.");
+        } else {
+          console.log(`\n⚠️  Page "${slug}" not found in Strapi CMS.`);
+          console.log("Make sure the page exists and is published.");
+        }
+        console.log("");
+        process.exit(0);
       }
-      console.log("");
-      process.exit(0);
+
+      const filePaths = await writePagesToFiles(pages, config.outputDir);
+
+      console.log(
+        "\n╔════════════════════════════════════════════════════════╗",
+      );
+      console.log("║   Summary                                              ║");
+      console.log("╚════════════════════════════════════════════════════════╝");
+      console.log(`  Pages fetched: ${filePaths.length}`);
+      filePaths.forEach((p) => console.log(`  ✓ ${p}`));
+      console.log(`  Output directory: ${config.outputDir}`);
+      console.log("\n✅ Done!\n");
     }
-
-    const filePaths = await writePagesToFiles(pages, config.outputDir);
-
-    console.log("\n╔════════════════════════════════════════════════════════╗");
-    console.log("║   Summary                                              ║");
-    console.log("╚════════════════════════════════════════════════════════╝");
-    console.log(`  Pages fetched: ${filePaths.length}`);
-    filePaths.forEach((p) => console.log(`  ✓ ${p}`));
-    console.log(`  Output directory: ${config.outputDir}`);
-    console.log("\n✅ Done!\n");
   } catch (error) {
     console.error("\n❌ Fatal error:", error);
     process.exit(1);

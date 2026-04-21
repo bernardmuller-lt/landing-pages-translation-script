@@ -5,11 +5,13 @@ import { config, TARGET_LOCALES } from "./config.js";
 import type { PageData } from "./lib/strapi/http/fetchPages.js";
 import type { HeaderData } from "./lib/strapi/types/header.js";
 import type { FooterData } from "./lib/strapi/types/footer.js";
+import type { OnboardingPageData } from "./lib/strapi/types/onboardingPage.js";
 import { applyTranslations } from "./lib/translations/applier.js";
 import { formatForAPI } from "./lib/translations/apiFormatter.js";
 import { transformPageData } from "./lib/strapi/schemas/pageDataSchema.js";
 import { transformHeaderData } from "./lib/strapi/schemas/headerDataSchema.js";
 import { transformFooterData } from "./lib/strapi/schemas/footerDataSchema.js";
+import { transformOnboardingPageData } from "./lib/strapi/schemas/onboardingPageDataSchema.js";
 
 export interface PrepareOptions {
   /** Only prepare these slugs. Undefined = all discovered slugs. */
@@ -23,9 +25,11 @@ export interface PrepareOptions {
  * Given a translation filename like "home-ko-KR.json", "header-ai-chat-header-de.json", derive type, slug and locale.
  * Uses the known locale list so slugs with hyphens are handled correctly.
  */
+type ContentType = "page" | "header" | "footer" | "onboarding-page";
+
 function parseTranslationFilename(
   filename: string,
-): { type: "page" | "header" | "footer"; slug: string; locale: string } | null {
+): { type: ContentType; slug: string; locale: string } | null {
   const name = basename(filename, ".json");
   const locale = Object.keys(TARGET_LOCALES).find((l) =>
     name.endsWith(`-${l}`),
@@ -34,7 +38,9 @@ function parseTranslationFilename(
   const slug = name.slice(0, -(locale.length + 1)); // strip "-{locale}"
 
   // Detect content type from prefix
-  if (slug.startsWith("header-")) {
+  if (slug.startsWith("onboarding-page-")) {
+    return { type: "onboarding-page", slug, locale };
+  } else if (slug.startsWith("header-")) {
     return { type: "header", slug, locale };
   } else if (slug.startsWith("footer-")) {
     return { type: "footer", slug, locale };
@@ -44,7 +50,7 @@ function parseTranslationFilename(
 }
 
 async function prepareSingleFile(
-  type: "page" | "header" | "footer",
+  type: ContentType,
   slug: string,
   locale: string,
   kvFilePath: string,
@@ -97,6 +103,17 @@ async function prepareSingleFile(
         environment: environment || config.environment,
       },
     };
+  } else if (type === "onboarding-page") {
+    const sourceData: OnboardingPageData = JSON.parse(await readFile(sourcePath, "utf-8"));
+    const translatedData = applyTranslations(sourceData, translations);
+    const cleanedData = transformOnboardingPageData(translatedData);
+    apiPayload = {
+      data: {
+        ...cleanedData,
+        locale: locale,
+        environment: environment || config.environment,
+      },
+    };
   }
 
   if (!existsSync(config.preparedOutputDir)) {
@@ -130,7 +147,7 @@ export async function runPrepare(options: PrepareOptions = {}): Promise<void> {
     .map((f) =>
       parseTranslationFilename(join(config.translationsOutputDir, f)),
     )
-    .filter((p): p is { type: "page" | "header" | "footer"; slug: string; locale: string } => p !== null);
+    .filter((p): p is { type: ContentType; slug: string; locale: string } => p !== null);
 
   // Apply optional slug filter
   if (options.slugs) {

@@ -1,10 +1,8 @@
-import type { PageData } from "../strapi/http/fetchPages.js";
-
-export function applyTranslations(
-  sourceData: PageData,
+export function applyTranslations<T = any>(
+  sourceData: T,
   translations: Record<string, string>,
-): PageData {
-  const result = JSON.parse(JSON.stringify(sourceData)) as PageData;
+): T {
+  const result = JSON.parse(JSON.stringify(sourceData)) as T;
 
   let appliedCount = 0;
   let failedPaths: string[] = [];

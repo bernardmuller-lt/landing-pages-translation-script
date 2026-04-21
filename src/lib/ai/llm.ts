@@ -34,19 +34,6 @@ const TRANSLATION_SYSTEM_PROMPT = `
   - Use natural, idiomatic language for the target language
   - Consider cultural nuances and regional preferences
 
-  LANGUAGE-SPECIFIC GUIDELINES
-  - de (German): Use formal register (Sie)
-  - es (Spanish): Use standard, broadly neutral Spanish
-  - ko-KR (Korean): Use polite/formal register
-  - pt-BR (Portuguese, Brazil): Use Brazilian Portuguese conventions
-  - fr (French): Use standard metropolitan French
-  - nl (Dutch): Use standard Dutch
-  - it (Italian): Use standard Italian
-  - ja-JP (Japanese): Use polite register (です/ます)
-  - pl (Polish): Use standard Polish
-  - da-DK (Danish): Use standard Danish
-  - nb-NO (Norwegian): Use Bokmål
-
   OUTPUT FORMAT
   Return ONLY a single JSON object — the translated version of the input. No markdown fences, no comments, no labels, no explanation. Just the raw JSON. NO MISTAKES!
 `.trim();
@@ -116,7 +103,10 @@ function protectTerms(obj: Record<string, string>): Record<string, string> {
   return Object.fromEntries(
     Object.entries(obj).map(([k, v]) => [
       k,
-      PROTECTED_TERMS.reduce((s, term, i) => s.split(term).join(`{{__PT${i}__}}`), v),
+      PROTECTED_TERMS.reduce(
+        (s, term, i) => s.split(term).join(`{{__PT${i}__}}`),
+        v,
+      ),
     ]),
   );
 }
@@ -125,7 +115,10 @@ function restoreTerms(obj: Record<string, string>): Record<string, string> {
   return Object.fromEntries(
     Object.entries(obj).map(([k, v]) => [
       k,
-      PROTECTED_TERMS.reduce((s, term, i) => s.split(`{{__PT${i}__}}`).join(term), v),
+      PROTECTED_TERMS.reduce(
+        (s, term, i) => s.split(`{{__PT${i}__}}`).join(term),
+        v,
+      ),
     ]),
   );
 }
@@ -157,7 +150,7 @@ ${jsonString}`;
 
 function unescapeValues(obj: Record<string, string>): Record<string, string> {
   return Object.fromEntries(
-    Object.entries(obj).map(([k, v]) => [k, v.replace(/\\"/g, '"')])
+    Object.entries(obj).map(([k, v]) => [k, v.replace(/\\"/g, '"')]),
   );
 }
 

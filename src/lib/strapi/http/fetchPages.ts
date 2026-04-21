@@ -2,74 +2,74 @@ import { fetchFromStrapi } from "./client.js";
 import type { APIResponse, AIChatDocument } from "../types.js";
 
 export interface PageData {
-  slug: string;
-  locale: string;
-  seo: AIChatDocument["seo"];
-  sections: AIChatDocument["sections"];
-  events: AIChatDocument["events"];
+	slug: string;
+	locale: string;
+	seo: AIChatDocument["seo"];
+	sections: AIChatDocument["sections"];
+	events: AIChatDocument["events"];
 }
 
 export interface FetchPagesOptions {
-  identifier: string;
-  locale: string;
-  environment: string;
-  slugs?: string[]; // Optional: fetch specific slugs only
+	identifier: string;
+	locale: string;
+	environment: string;
+	slugs?: string[]; // Optional: fetch specific slugs only
 }
 
 export async function fetchPages(
-  options: FetchPagesOptions,
+	options: FetchPagesOptions,
 ): Promise<PageData[]> {
-  const { identifier, locale, environment, slugs } = options;
+	const { identifier, locale, environment, slugs } = options;
 
-  console.log(`\nFetching pages from Strapi CMS...`);
-  console.log(`  Identifier: ${identifier}`);
-  console.log(`  Locale: ${locale}`);
-  console.log(`  Environment: ${environment}`);
-  if (slugs && slugs.length > 0) {
-    console.log(`  Slugs: ${slugs.join(", ")}`);
-  }
+	console.log(`\nFetching pages from Strapi CMS...`);
+	console.log(`  Identifier: ${identifier}`);
+	console.log(`  Locale: ${locale}`);
+	console.log(`  Environment: ${environment}`);
+	if (slugs && slugs.length > 0) {
+		console.log(`  Slugs: ${slugs.join(", ")}`);
+	}
 
-  const filters: any = {
-    environment: {
-      $eq: environment,
-    },
-    identifier: {
-      $eq: identifier,
-    },
-  };
+	const filters: any = {
+		environment: {
+			$eq: environment,
+		},
+		identifier: {
+			$eq: identifier,
+		},
+	};
 
-  if (slugs && slugs.length > 0) {
-    filters.slug = {
-      $in: slugs,
-    };
-  }
+	if (slugs && slugs.length > 0) {
+		filters.slug = {
+			$in: slugs,
+		};
+	}
 
-  try {
-    const response = await fetchFromStrapi<APIResponse>("/pages", {
-      locale,
-      populate: "*",
-      status: "published",
-      filters,
-    });
+	try {
+		const response = await fetchFromStrapi<APIResponse>("/pages", {
+			locale,
+			populate: "*",
+			status: "published",
+			filters,
+		});
 
-    if (!response?.data || response.data.length === 0) {
-      console.warn(`\n⚠️  No published content found for locale: ${locale}`);
-      return [];
-    }
+		if (!response?.data || response.data.length === 0) {
+			console.warn(`\n⚠️  No published content found for locale: ${locale}`);
+			return [];
+		}
 
-    console.log(`\n✓ Found ${response.data.length} page(s)\n`);
+		console.log(`\n✓ Found ${response.data.length} page(s)\n`);
 
-    const pages: PageData[] = response.data.map((pageData: AIChatDocument) => ({
-      slug: pageData.slug,
-      locale: pageData.locale,
-      seo: pageData.seo,
-      sections: pageData.sections,
-      events: pageData.events,
-    }));
+		const pages: PageData[] = response.data.map((pageData: AIChatDocument) => ({
+			slug: pageData.slug,
+			locale: pageData.locale,
+			seo: pageData.seo,
+			sections: pageData.sections,
+			events: pageData.events,
+		}));
 
-    return pages;
-  } catch (error) {
-    console.error(`\n❌ Error fetching pages:`, error);
-    throw error;
-  }
+		return pages;
+	} catch (error) {
+		console.error(`\n❌ Error fetching pages:`, error);
+		throw error;
+	}
 }
