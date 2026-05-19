@@ -1,0 +1,120 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "it",
+    "locale_display": "it",
+    "seo": {
+      "title": "Prezzi · CosmicPDF",
+      "description": "Scegli il piano perfetto per le tue esigenze."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "PricingHero",
+        "badge": null,
+        "title": "Prezzi semplici e trasparenti",
+        "subtitle": "Scegli il piano perfetto per le tue esigenze.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanPro",
+        "title": "Pro",
+        "subtitle": "Per i professionisti che necessitano di un accesso illimitato",
+        "items": [
+          {
+            "icon": null,
+            "title": "Modifiche PDF illimitate",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Tutti i 32 strumenti basati sull'intelligenza artificiale",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Limite della dimensione del file di 100 MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Elaborazione prioritaria",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Funzionalità IA avanzate",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Supporto e-mail prioritario",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Nessuna filigrana",
+            "description": null
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanBusiness",
+        "title": "Attività commerciale",
+        "subtitle": "Collabora con il tuo team senza problemi",
+        "items": [
+          {
+            "icon": null,
+            "title": "Tutto nel professionista",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Fino a 5 membri del team",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Spazio di lavoro condiviso",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Analisi del gruppo",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Limite della dimensione del file di 500 MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Supporto dedicato",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Controlli di amministrazione",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Accesso all'API",
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+}

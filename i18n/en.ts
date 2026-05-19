@@ -1,0 +1,591 @@
+import { enTooling } from './tools/en.ts';
+
+export const en = {
+	meta: {
+		siteName: 'CosmicPDF',
+		defaultDescription: 'CosmicPDF — AI-powered PDF editing, conversion, and secure sharing.',
+		titleSuffix: 'CosmicPDF',
+		redirecting: 'Redirecting to CosmicPDF',
+		redirectingBody: 'Redirecting to the CosmicPDF app…',
+		continue: 'Continue',
+	},
+	nav: {
+		features: 'Features',
+		pricing: 'Pricing',
+		forms: 'Forms',
+		about: 'About',
+		getStarted: 'Get Started',
+		openMenu: 'Open menu',
+		closeMenu: 'Close menu',
+		mobileNote: 'All tools live under /tools/… on this site.',
+		selectLanguage: 'Select language',
+	},
+	...enTooling,
+	home: {
+		pageTitle: 'CosmicPDF — AI PDF editing for modern teams',
+		hero: {
+			badge: 'Powered by Advanced AI',
+			title1: 'The Future of',
+			title2: 'PDF Editing',
+			subtitle:
+				'Transform your document workflow with intelligent AI technology. Edit, sign, convert, and merge PDFs with unprecedented ease and speed.',
+			cta: 'Start Editing',
+			noCard: 'No credit card required',
+			trial: 'Free 14-day trial',
+			dropHere: 'Drop your PDF here',
+			orBrowse: 'or click to browse • Maximum 50MB',
+			pdfOnly: 'Please select a PDF file',
+			tooBig: 'File size must be less than 50MB',
+		},
+		trustedBy: {
+			label: 'Trusted by industry leaders',
+		},
+		quickTools: {
+			title: 'AI-Powered Tools',
+			subtitle: 'Everything you need for professional document management',
+			explore: 'Explore feature',
+			items: {
+				summarize: {
+					title: 'AI Summarize',
+					description: 'Extract key insights from lengthy documents instantly with advanced AI',
+				},
+				extract: {
+					title: 'AI Extract',
+					description: 'Automatically identify and extract tables, forms, and data structures',
+				},
+				translate: {
+					title: 'AI Translate',
+					description: 'Translate documents to 100+ languages while preserving formatting',
+				},
+				ocr: {
+					title: 'AI OCR',
+					description: 'Convert scanned documents into editable text with high accuracy',
+				},
+			},
+		},
+		featureShowcase: {
+			title: 'Built for modern teams',
+			subtitle: 'Powerful features that scale with your business needs',
+			items: {
+				intelligence: {
+					title: 'AI Intelligence',
+					body: 'Advanced machine learning algorithms understand your documents and automate complex tasks',
+				},
+				fast: {
+					title: 'Lightning Fast',
+					body: 'Process documents faster than traditional tools with optimized cloud infrastructure',
+				},
+				security: {
+					title: 'Enterprise Security',
+					body: 'Bank-level encryption and compliance with GDPR, SOC 2, and ISO 27001 standards',
+				},
+				access: {
+					title: 'Universal Access',
+					body: 'Work from anywhere with seamless sync across your devices and platforms',
+				},
+			},
+		},
+		dashboard: {
+			badge: 'Dashboard Overview',
+			title1: 'Powerful Dashboard for',
+			title2: 'Complete File Management',
+			subtitle:
+				'Access all your PDF files in one centralized hub with advanced organization, search capabilities, and smart file management tools.',
+			features: {
+				centralized: {
+					title: 'Centralized Hub',
+					body: 'Manage all your PDF files in one organized dashboard',
+				},
+				trash: {
+					title: 'Trash System',
+					body: '30-day trash retention with restore and permanent delete options',
+				},
+				quickActions: {
+					title: 'Quick Actions',
+					body: 'Preview, download, edit, and delete with one click',
+				},
+			},
+			cta: 'Access Your Dashboard',
+			ctaNote: 'Sign in to start managing your PDF files',
+			alt: 'Dashboard interface',
+		},
+		cta: {
+			title1: 'Start editing smarter,',
+			title2: 'not harder',
+			subtitle:
+				'Join thousands of professionals who have transformed their document workflow with AI-powered tools.',
+			bullets: {
+				trial: 'Free 14-day trial, no credit card required',
+				cancel: 'Cancel anytime, keep your data',
+				unlimited: 'Unlimited document processing',
+			},
+			button: 'Get Started',
+			stats: {
+				users: { value: '50K+', label: 'Active users' },
+				pdfs: { value: '1M+', label: 'PDFs processed' },
+				uptime: { value: '99.9%', label: 'Uptime' },
+				rating: { value: '4.9/5', label: 'User rating' },
+			},
+			quote:
+				'This tool has completely transformed how we handle documents. The AI features save us hours every week.',
+			quoteAuthor: '— Sarah Chen, Product Manager at TechCorp',
+		},
+		testimonials: {
+			title: 'Loved by Thousands of Users',
+			subtitle: 'See what professionals are saying about CosmicPDF',
+			ratingLabel: '5 star rating',
+			items: {
+				sarah: {
+					name: 'Sarah Mitchell',
+					role: 'Marketing Director',
+					company: 'TechFlow Inc.',
+					initials: 'SM',
+					content:
+						'CosmicPDF has transformed how our team handles documents. The AI-powered tools save us hours every week, and the interface is incredibly intuitive.',
+				},
+				michael: {
+					name: 'Michael Chen',
+					role: 'Product Manager',
+					company: 'StartupLabs',
+					initials: 'MC',
+					content:
+						'The best PDF tool I have ever used. Converting, merging, and editing PDFs has never been this easy. The AI features are a game-changer for productivity.',
+				},
+				emily: {
+					name: 'Emily Rodriguez',
+					role: 'Legal Consultant',
+					company: 'Law & Partners',
+					initials: 'ER',
+					content:
+						'Security and reliability are crucial for our legal documents. This platform delivers on both fronts while making complex PDF tasks simple and fast.',
+				},
+			},
+			roleAtCompany: '{role} at {company}',
+		},
+		allTools: {
+			title: 'All Tools',
+			subtitle: 'Comprehensive suite of PDF tools for every need',
+		},
+		faq: {
+			title: 'Frequently Asked Questions',
+			subtitle: 'Everything you need to know about CosmicPDF',
+			stillHave: 'Still have questions?',
+			contactSupport: 'Contact our support team',
+			items: {
+				ai: {
+					q: 'How does the AI-powered editing work?',
+					a: 'Our advanced AI technology uses machine learning to understand document structure, detect text and images, and intelligently suggest edits. It can automatically recognize forms, extract data, and help you make changes faster than traditional PDF editors.',
+				},
+				security: {
+					q: 'Is my data secure and private?',
+					a: 'We use strong encryption for data transfers and storage. Your documents are processed securely. We design CosmicPDF to meet common compliance expectations; review our Privacy Policy and your organization’s requirements before uploading sensitive data.',
+				},
+				formats: {
+					q: 'What file formats do you support?',
+					a: 'We support PDF as the primary format, with conversion capabilities to and from Word (DOCX), Excel (XLSX), PowerPoint (PPTX), images (JPG, PNG), and more. You can also merge different file types into a single PDF where supported.',
+				},
+				offline: {
+					q: 'Can I use this tool offline?',
+					a: 'The marketing site is static; the product experience is cloud-based to leverage powerful AI processing. Some workflows may offer desktop experiences—see the app for details.',
+				},
+				trial: {
+					q: 'What happens after my free trial ends?',
+					a: 'After your trial, you can choose a paid plan or continue on a free tier where available. Your documents and work are saved according to the product’s retention rules.',
+				},
+				enterprise: {
+					q: 'Do you offer team or enterprise plans?',
+					a: 'Yes. We offer team plans with shared workspaces and enterprise options with advanced security and support. Contact sales for custom pricing.',
+				},
+			},
+		},
+	},
+	pricing: {
+		pageTitle: 'Pricing · CosmicPDF',
+		title: 'Simple, Transparent Pricing',
+		subtitle: 'Choose the perfect plan for your needs.',
+		popular: 'Most Popular',
+		perPeriod: '/',
+		enterpriseNote: 'Need a custom plan for your organization?',
+		enterpriseCta: 'Contact sales for enterprise pricing',
+		plans: {
+			pro: {
+				name: 'Pro',
+				price: '$1,95',
+				period: '7-day trial',
+				description: 'For professionals who need unlimited access',
+				cta: 'Start Now',
+				features: {
+					unlimited: 'Unlimited PDF edits',
+					allTools: 'All 32 AI-powered tools',
+					fileSize: '100 MB file size limit',
+					priority: 'Priority processing',
+					ai: 'Advanced AI features',
+					support: 'Priority email support',
+					noWatermark: 'No watermarks',
+				},
+				billingNote: 'then {amount} will be billed every 4 weeks',
+				billingAmount: '39,95$',
+			},
+			business: {
+				name: 'Business',
+				price: '$59,95',
+				period: 'month',
+				description: 'Collaborate with your team seamlessly',
+				cta: 'Start Now',
+				features: {
+					everything: 'Everything in Pro',
+					team: 'Up to 5 team members',
+					workspace: 'Shared workspace',
+					analytics: 'Team analytics',
+					fileSize: '500 MB file size limit',
+					support: 'Dedicated support',
+					admin: 'Admin controls',
+					api: 'API access',
+				},
+				billingNote: '{amount} billed annually',
+				billingAmount: '$495,95',
+				discount: '15% discount',
+			},
+		},
+	},
+	about: {
+		pageTitle: 'About CosmicPDF',
+		badge: 'About Us',
+		title1: 'Redefining Document',
+		title2: 'Intelligence',
+		subtitle:
+			"We're on a mission to transform how the world works with documents. Through cutting-edge AI, we make PDF editing effortless, intelligent, and accessible to everyone.",
+		stats: {
+			users: { label: 'Active Users', value: '2M+' },
+			pdfs: { label: 'PDFs Processed', value: '500M+' },
+			countries: { label: 'Countries', value: '150+' },
+			uptime: { label: 'Uptime', value: '99.9%' },
+		},
+		mission: {
+			title1: 'Our',
+			title2: 'Mission',
+			body1:
+				'We believe that working with documents should be intuitive, fast, and powerful. CosmicPDF eliminates friction from PDF workflows so you can focus on outcomes.',
+			body2:
+				"From startups to enterprises, teams trust CosmicPDF for important documents. We're committed to continuous innovation.",
+		},
+		values: {
+			title1: 'Our',
+			title2: 'Values',
+			subtitle: 'The principles that guide everything we do',
+			items: {
+				innovation: {
+					title: 'Innovation First',
+					body: 'We push the boundaries of what is possible with AI and document technology.',
+				},
+				user: {
+					title: 'User-Centric',
+					body: 'Every feature is designed with your workflow and productivity in mind.',
+				},
+				precision: {
+					title: 'Precision',
+					body: 'We believe in delivering accurate, reliable results every single time.',
+				},
+				simplicity: {
+					title: 'Simplicity',
+					body: 'Complex technology, simple experience. That is our promise to you.',
+				},
+			},
+		},
+		faq: {
+			title1: 'Frequently Asked',
+			title2: 'Questions',
+			subtitle: 'Answers to common questions about our company',
+			items: {
+				founded: {
+					q: 'When was the company founded?',
+					a: 'We were founded in 2020 with a simple mission: to make document editing as intuitive as having a conversation. Since then, we have grown to serve millions of users across many countries.',
+				},
+				location: {
+					q: 'Where is your company located?',
+					a: 'We are headquartered in San Francisco, California, with remote team members distributed across North America, Europe, and Asia.',
+				},
+				security: {
+					q: 'How do you ensure data security?',
+					a: 'Security is at the core of everything we build. We use strong encryption, follow common compliance frameworks, and design retention policies to reduce risk. Always review our Privacy Policy for details.',
+				},
+				enterprise: {
+					q: 'Do you offer enterprise solutions?',
+					a: 'Yes. We provide enterprise solutions with dedicated support, integrations, SSO capabilities, advanced security features, and flexible deployment options.',
+				},
+				ai: {
+					q: 'What makes your AI technology different?',
+					a: 'Our models are trained for document understanding and editing tasks, focused on making PDF workflows faster and more accurate.',
+				},
+				team: {
+					q: 'How can I join your team?',
+					a: 'We are always looking for talented individuals. Check our careers page for open roles across engineering, design, and product.',
+				},
+			},
+		},
+	},
+	contact: {
+		pageTitle: 'Contact CosmicPDF',
+		badge: 'Get in Touch',
+		title1: "Let's Start a",
+		title2: 'Conversation',
+		subtitle:
+			"Have questions about CosmicPDF? We're here to help. Reach out and we'll get back to you as soon as possible.",
+		send: {
+			title1: 'Send us a',
+			title2: 'message',
+			subtitle: 'Fill out the form below and our team will get back to you within 24 hours.',
+		},
+		info: {
+			title1: 'Contact',
+			title2: 'Information',
+			subtitle: 'Prefer to reach out directly? Here are the channels we monitor.',
+			items: {
+				email: {
+					title: 'Email Us',
+					details: 'support@cosmicpdf.com',
+					description: 'We typically respond within 24 hours',
+				},
+				sales: {
+					title: 'Sales',
+					details: 'sales@cosmicpdf.com',
+					description: 'Pricing, pilots, and procurement questions',
+				},
+				security: {
+					title: 'Security',
+					details: 'security@cosmicpdf.com',
+					description: 'Responsible disclosure and security reviews',
+				},
+				hours: {
+					title: 'Business Hours',
+					details: 'Monday - Friday: 9:00 AM - 6:00 PM PST',
+					description: 'Weekend support varies by plan',
+				},
+			},
+		},
+		form: {
+			name: 'Full Name',
+			namePlaceholder: 'John Doe',
+			email: 'Email Address',
+			emailPlaceholder: 'john@example.com',
+			subject: 'Subject',
+			subjectPlaceholder: 'Select a subject',
+			subjectOptions: {
+				general: 'General Inquiry',
+				support: 'Technical Support',
+				sales: 'Sales Question',
+				partnership: 'Partnership Opportunity',
+				feedback: 'Feedback',
+			},
+			message: 'Message',
+			messagePlaceholder: 'Tell us how we can help you...',
+			required: '*',
+			submit: 'Send Message',
+			demoAlert:
+				'Thanks — this static demo does not submit anywhere. Wire this form to your app endpoint when ready.',
+		},
+	},
+	privacy: {
+		pageTitle: 'Privacy Policy · CosmicPDF',
+		title: 'Privacy Policy',
+		lastUpdated: 'Last updated: April 30, 2026',
+		sections: {
+			introduction: {
+				title: 'Introduction',
+				body: 'Welcome to CosmicPDF. We respect your privacy and are committed to protecting your personal data. This policy describes how we handle information when you visit our marketing site and when you use the CosmicPDF product.',
+			},
+			collected: {
+				title: 'Information We Collect',
+				intro: 'We may collect and process categories of information such as:',
+				identity: { label: 'Identity Data:', body: 'name and similar identifiers.' },
+				contact: { label: 'Contact Data:', body: 'email address and phone numbers where provided.' },
+				technical: {
+					label: 'Technical Data:',
+					body: 'IP address, browser type, device and diagnostic data.',
+				},
+				usage: {
+					label: 'Usage Data:',
+					body: 'information about how you use our website and services.',
+				},
+				document: {
+					label: 'Document Data:',
+					body: 'files you upload for processing in the product.',
+				},
+			},
+			marketing: {
+				title: 'Marketing Site',
+				body: 'This repository hosts a static marketing site. It does not execute server-side processing for uploads. Any file handoff should be implemented in the product application according to your security review.',
+			},
+			contact: {
+				title: 'Contact',
+				body: 'Questions about privacy:',
+				email: 'privacy@cosmicpdf.com',
+			},
+		},
+	},
+	terms: {
+		pageTitle: 'Terms of Service · CosmicPDF',
+		title: 'Terms of Service',
+		lastUpdated: 'Last updated: April 30, 2026',
+		sections: {
+			introduction: {
+				title: 'Introduction',
+				body: 'These Terms govern your use of CosmicPDF websites and services. By accessing or using our services, you agree to these Terms.',
+			},
+			accounts: {
+				title: 'Accounts',
+				body: 'When you create an account, you agree to provide accurate information and keep credentials secure. You are responsible for activity under your account.',
+			},
+			content: {
+				title: 'User Content',
+				body: 'You retain rights to documents you upload. You must have the right to process the content you submit.',
+			},
+			liability: {
+				title: 'Limitation of Liability',
+				body: 'To the maximum extent permitted by law, CosmicPDF is not liable for indirect or consequential damages arising from your use of the services.',
+			},
+			contact: {
+				title: 'Contact',
+				body: 'Questions about these Terms:',
+				email: 'legal@cosmicpdf.com',
+			},
+		},
+	},
+	forms: {
+		pageTitle: 'Most used forms · CosmicPDF',
+		title: 'Most Used Forms',
+		subtitle:
+			'Access and edit the most commonly used forms. All forms are fully editable with our AI-powered PDF editor.',
+		bullets: {
+			templates: 'Official-style templates for common workflows',
+			editable: 'Fully editable with AI assistance',
+			upload: 'Upload your own forms for editing',
+		},
+		categories: {
+			all: 'All',
+			tax: 'Tax Forms',
+			employment: 'Employment',
+			business: 'Business',
+			government: 'Government',
+			immigration: 'Immigration',
+		},
+		editForm: 'Edit Form',
+		editAlert: 'Continue in the CosmicPDF app to edit this form.',
+		uploadTitle: 'Upload Your Own Form',
+		uploadSubtitle: 'Have a different form? Upload it and start editing with AI assistance',
+		dropHere: 'Drop your PDF here',
+		orBrowse: 'or click to browse • Maximum 50MB',
+		items: {
+			'w-9': {
+				name: 'Form W-9',
+				title: 'Request for Taxpayer Identification Number',
+				category: 'tax',
+				description:
+					'Used by freelancers and contractors to provide their taxpayer identification number to clients.',
+			},
+			'w-4': {
+				name: 'Form W-4',
+				title: "Employee's Withholding Certificate",
+				category: 'tax',
+				description:
+					'Completed by employees to indicate their tax situation to employers for proper withholding.',
+			},
+			'1040': {
+				name: 'Form 1040',
+				title: 'U.S. Individual Income Tax Return',
+				category: 'tax',
+				description:
+					'The standard federal income tax form used to report annual income and calculate taxes owed.',
+			},
+			'i-9': {
+				name: 'Form I-9',
+				title: 'Employment Eligibility Verification',
+				category: 'employment',
+				description:
+					'Required for all U.S. employers to verify the identity and employment authorization of new hires.',
+			},
+			'ss-4': {
+				name: 'Form SS-4',
+				title: 'Application for Employer Identification Number',
+				category: 'business',
+				description:
+					'Used by businesses to apply for an EIN (Employer Identification Number) from the IRS.',
+			},
+			'1099-nec': {
+				name: 'Form 1099-NEC',
+				title: 'Nonemployee Compensation',
+				category: 'tax',
+				description: 'Used to report payments made to independent contractors and freelancers.',
+			},
+			'w-2': {
+				name: 'Form W-2',
+				title: 'Wage and Tax Statement',
+				category: 'tax',
+				description:
+					"Reports an employee's annual wages and the amount of taxes withheld from their paycheck.",
+			},
+			'941': {
+				name: 'Form 941',
+				title: "Employer's Quarterly Federal Tax Return",
+				category: 'business',
+				description:
+					'Used by employers to report income taxes and payroll taxes withheld from employee wages.',
+			},
+			'1065': {
+				name: 'Form 1065',
+				title: 'U.S. Return of Partnership Income',
+				category: 'business',
+				description:
+					'Information return used by partnerships to report income, deductions, and credits.',
+			},
+			'ds-11': {
+				name: 'DS-11',
+				title: 'Application for a U.S. Passport',
+				category: 'government',
+				description:
+					'Used by first-time passport applicants and those renewing expired passports.',
+			},
+			'i-130': {
+				name: 'Form I-130',
+				title: 'Petition for Alien Relative',
+				category: 'immigration',
+				description:
+					'Used by U.S. citizens and permanent residents to establish a relationship to a foreign national.',
+			},
+			'n-400': {
+				name: 'Form N-400',
+				title: 'Application for Naturalization',
+				category: 'immigration',
+				description: 'Used by permanent residents to apply for U.S. citizenship.',
+			},
+		},
+	},
+	footer: {
+		rights: 'All rights reserved.',
+		privacy: 'Privacy',
+		terms: 'Terms',
+		contact: 'Contact',
+		copyright: '© {year} CosmicPDF. All rights reserved.',
+	},
+	notFound: {
+		pageTitle: 'Page not found · CosmicPDF',
+		title: '404',
+		message: 'We could not find that page.',
+		back: 'Back to home',
+	},
+} as const;
+
+/**
+ * Recursively replaces string-literal leaves with `string` so that any
+ * translation containing the same keys (with localized values) still
+ * satisfies the dictionary type.
+ */
+type DeepLooseStrings<T> = T extends string
+	? string
+	: T extends readonly unknown[]
+		? { [K in keyof T]: DeepLooseStrings<T[K]> }
+		: T extends object
+			? { [K in keyof T]: DeepLooseStrings<T[K]> }
+			: T;
+
+export type Dictionary = DeepLooseStrings<typeof en>;

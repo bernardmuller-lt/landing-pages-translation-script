@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "ko-KR",
+    "locale_display": "kr",
+    "seo": {
+      "title": "CosmicPDF에 문의하세요",
+      "description": "CosmicPDF에 대해 질문이 있나요? 우리가 도와드리겠습니다. 연락주시면 최대한 빨리 연락드리겠습니다."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "연락하세요",
+        "title": "<h1>시작하자 <strong>대화</strong></h1>",
+        "subtitle": "CosmicPDF에 대해 질문이 있나요? 우리가 도와드리겠습니다. 연락주시면 최대한 빨리 연락드리겠습니다.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "연락하다 정보",
+        "subtitle": "직접 연락하고 싶으신가요? 우리가 모니터링하는 채널은 다음과 같습니다.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "이메일을 보내주세요",
+            "description": "support@cosmicpdf.com\n우리는 일반적으로 24시간 이내에 응답합니다."
+          },
+          {
+            "icon": "DollarSign",
+            "title": "매상",
+            "description": "sales@cosmicpdf.com\n가격, 파일럿 및 조달 질문"
+          },
+          {
+            "icon": "Shield",
+            "title": "보안",
+            "description": "security@cosmicpdf.com\n책임 있는 공개 및 보안 검토"
+          },
+          {
+            "icon": "Clock",
+            "title": "영업시간",
+            "description": "월요일~금요일: 오전 9시~오후 6시(PST)\n주말 지원은 요금제에 따라 다릅니다."
+          }
+        ]
+      }
+    ]
+  }
+}

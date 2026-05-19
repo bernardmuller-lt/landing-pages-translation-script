@@ -1,0 +1,103 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "about",
+    "locale": "nl",
+    "locale_display": "nl",
+    "seo": {
+      "title": "Over CosmicPDF",
+      "description": "We zijn op een missie om de manier waarop de wereld met documenten werkt te transformeren. Via de allernieuwste AI maken we PDF-bewerking moeiteloos, intelligent en voor iedereen toegankelijk."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "AboutHero",
+        "badge": "Over ons",
+        "title": "<h1>Document opnieuw definiëren <strong>Intelligentie</strong></h1>",
+        "subtitle": "We zijn op een missie om de manier waarop de wereld met documenten werkt te transformeren. Via de allernieuwste AI maken we PDF-bewerking moeiteloos, intelligent en voor iedereen toegankelijk.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Mission",
+        "badge": null,
+        "title": "<h2>Ons <strong>Missie</strong></h2>",
+        "subtitle": "Wij zijn van mening dat het werken met documenten intuïtief, snel en krachtig moet zijn. CosmicPDF elimineert wrijving bij PDF-workflows, zodat u zich kunt concentreren op de resultaten.",
+        "features": [],
+        "cta": null,
+        "cta_note": null,
+        "media": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "Values",
+        "title": "Ons Waarden",
+        "subtitle": "De principes die leidend zijn bij alles wat we doen",
+        "items": [
+          {
+            "icon": "Lightbulb",
+            "title": "Innovatie eerst",
+            "description": "We verleggen de grenzen van wat mogelijk is met AI en documenttechnologie."
+          },
+          {
+            "icon": "Heart",
+            "title": "Gebruikersgericht",
+            "description": "Elke functie is ontworpen met uw workflow en productiviteit in gedachten."
+          },
+          {
+            "icon": "Target",
+            "title": "Precisie",
+            "description": "Wij geloven in het leveren van nauwkeurige, betrouwbare resultaten, elke keer opnieuw."
+          },
+          {
+            "icon": "Minimize2",
+            "title": "Eenvoud",
+            "description": "Complexe technologie, eenvoudige ervaring. Dat is onze belofte aan u."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "AboutFAQ",
+        "title": "<h2>Veelgestelde vragen <strong>Vragen</strong></h2>",
+        "subtitle": "Antwoorden op veelgestelde vragen over ons bedrijf",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Wanneer werd het bedrijf opgericht?",
+            "content": "We zijn in 2020 opgericht met een simpele missie: het bewerken van documenten net zo intuïtief maken als het voeren van een gesprek. Sindsdien zijn we gegroeid en kunnen we miljoenen gebruikers in vele landen bedienen."
+          },
+          {
+            "title": "Waar is uw bedrijf gevestigd?",
+            "content": "We hebben ons hoofdkantoor in San Francisco, Californië, met externe teamleden verspreid over Noord-Amerika, Europa en Azië."
+          },
+          {
+            "title": "Hoe zorg je voor gegevensbeveiliging?",
+            "content": "Beveiliging vormt de kern van alles wat we bouwen. We gebruiken sterke encryptie, volgen gemeenschappelijke compliance-frameworks en ontwerpen retentiebeleid om risico's te verminderen. Lees altijd ons privacybeleid voor meer informatie."
+          },
+          {
+            "title": "Biedt u bedrijfsoplossingen?",
+            "content": "Ja. Wij bieden bedrijfsoplossingen met speciale ondersteuning, integraties, SSO-mogelijkheden, geavanceerde beveiligingsfuncties en flexibele implementatieopties."
+          },
+          {
+            "title": "Wat maakt uw AI-technologie anders?",
+            "content": "Onze modellen zijn getraind voor het begrijpen van documenten en het bewerken van taken, gericht op het sneller en nauwkeuriger maken van PDF-workflows."
+          },
+          {
+            "title": "Hoe kan ik lid worden van uw team?",
+            "content": "Wij zijn altijd op zoek naar getalenteerde individuen. Bekijk onze carrièrepagina voor openstaande functies op het gebied van techniek, ontwerp en product."
+          }
+        ]
+      }
+    ]
+  }
+}

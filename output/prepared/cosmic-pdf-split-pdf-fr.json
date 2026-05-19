@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "split-pdf",
+    "locale": "fr",
+    "locale_display": "fr",
+    "seo": {
+      "title": "Fractionner un PDF · CosmicPDF",
+      "description": "Fractionner un PDF en ligne avec CosmicPDF — rapide, clair et conçu pour de vrais documents."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>Fractionner un PDF</h1>",
+        "subtitle": "<p>Fractionner un PDF en ligne avec CosmicPDF — rapide, clair et conçu pour de vrais documents.</p><p>Utilisez CosmicPDF vers fractionner un pdf avec des étapes guidées, des aperçus si disponibles et des options d'exportation adaptées à la manière dont les équipes expédient les PDF aujourd'hui.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Commencer",
+          "aria_label": "Commencer"
+        },
+        "upload_hint_text": "Déposez votre fichier ici",
+        "upload_browse_text": "ou cliquez pour parcourir • Continuer dans l'application CosmicPDF",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Fonctionnalités puissantes",
+        "subtitle": "Tout ce dont vous avez besoin pour Fractionner un PDF",
+        "items": [
+          {
+            "icon": null,
+            "title": "Traitement rapide",
+            "description": "Exécutez Fractionner un PDF avec des pipelines optimisés et une progression claire."
+          },
+          {
+            "icon": null,
+            "title": "Préservation de la qualité",
+            "description": "Conservez la fidélité des polices, des vecteurs et de la mise en page là où le format le permet."
+          },
+          {
+            "icon": null,
+            "title": "Sécurisé dès la conception",
+            "description": "Chiffrement en transit et valeurs par défaut raisonnables pour la gestion des documents."
+          },
+          {
+            "icon": null,
+            "title": "Fonctionne dans l'application",
+            "description": "Ouvrez dans CosmicPDF sur le Web pour terminer le travail avec l'éditeur complet."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "Comment ça marche",
+        "subtitle": "Processus simple et efficace en 4 étapes",
+        "items": [
+          {
+            "icon": null,
+            "title": "Télécharger",
+            "description": "Ajoutez le fichier que vous souhaitez utiliser avec Fractionner un PDF."
+          },
+          {
+            "icon": null,
+            "title": "Choisissez les options",
+            "description": "Choisissez les paramètres qui correspondent à votre document."
+          },
+          {
+            "icon": null,
+            "title": "Processus",
+            "description": "Laissez CosmicPDF exécuter l'opération sur votre fichier."
+          },
+          {
+            "icon": null,
+            "title": "Télécharger",
+            "description": "Enregistrez le résultat ou poursuivez l'édition dans l'application."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Foire aux questions",
+        "subtitle": "Questions courantes sur Fractionner un PDF",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Est-ce que Fractionner un PDF est gratuit pour essayer ?",
+            "content": "Vous pouvez partir du site marketing et continuer dans le produit. Les plans et les limites sont affichés dans l'application."
+          },
+          {
+            "title": "Où sont traités les dossiers ?",
+            "content": "Un traitement lourd s'exécute dans l'application CosmicPDF après avoir continué depuis cosmicpdf.com."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "edit-pdf",
+    "locale": "ar",
+    "locale_display": "ar",
+    "seo": {
+      "title": "تحرير PDF · الكونيةPDF",
+      "description": "تحرير PDF عبر الإنترنت باستخدام CosmicPDF - سريع وواضح ومصمم للمستندات الحقيقية."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>تحرير PDF</h1>",
+        "subtitle": "<p>تحرير PDF عبر الإنترنت باستخدام CosmicPDF - سريع وواضح ومصمم للمستندات الحقيقية.</p><p>استخدم CosmicPDF إلى تحرير pdf من خلال الخطوات الإرشادية والمعاينات حيثما كان ذلك متاحًا وخيارات التصدير التي تتوافق مع كيفية قيام الفرق بشحن ملفات PDF اليوم.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "ابدأ",
+          "aria_label": "ابدأ"
+        },
+        "upload_hint_text": "قم بإسقاط الملف الخاص بك هنا",
+        "upload_browse_text": "أو انقر للتصفح • تابع في تطبيق CosmicPDF",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "ميزات قوية",
+        "subtitle": "كل ما تحتاجه لـ تحرير PDF",
+        "items": [
+          {
+            "icon": null,
+            "title": "معالجة سريعة",
+            "description": "قم بتشغيل تحرير PDF باستخدام خطوط الأنابيب المحسنة والتقدم الواضح."
+          },
+          {
+            "icon": null,
+            "title": "الحفاظ على الجودة",
+            "description": "احتفظ بالخطوط والمتجهات ودقة التخطيط حيثما يسمح التنسيق بذلك."
+          },
+          {
+            "icon": null,
+            "title": "آمن حسب التصميم",
+            "description": "التشفير أثناء النقل والإعدادات الافتراضية المعقولة للتعامل مع المستندات."
+          },
+          {
+            "icon": null,
+            "title": "يعمل في التطبيق",
+            "description": "افتح في CosmicPDF على الويب لإنهاء المهمة باستخدام المحرر الكامل."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "كيف يعمل",
+        "subtitle": "عملية بسيطة وفعالة في 4 خطوات",
+        "items": [
+          {
+            "icon": null,
+            "title": "رفع",
+            "description": "أضف الملف الذي تريد استخدامه مع تحرير PDF."
+          },
+          {
+            "icon": null,
+            "title": "اختر الخيارات",
+            "description": "اختر الإعدادات التي تطابق مستندك."
+          },
+          {
+            "icon": null,
+            "title": "عملية",
+            "description": "اسمح لـ CosmicPDF بتشغيل العملية على ملفك."
+          },
+          {
+            "icon": null,
+            "title": "تحميل",
+            "description": "احفظ النتيجة أو تابع التحرير في التطبيق."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "الأسئلة المتداولة",
+        "subtitle": "أسئلة شائعة حول تحرير PDF",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "هل تحرير PDF مجاني للتجربة؟",
+            "content": "يمكنك البدء من موقع التسويق والاستمرار في المنتج. وتظهر الخطط والحدود في التطبيق."
+          },
+          {
+            "title": "أين تتم معالجة الملفات؟",
+            "content": "يتم تشغيل المعالجة الثقيلة في تطبيق CosmicPDF بعد المتابعة من cosmicpdf.com."
+          }
+        ]
+      }
+    ]
+  }
+}

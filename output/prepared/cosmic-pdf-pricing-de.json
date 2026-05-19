@@ -1,0 +1,120 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "de",
+    "locale_display": "de",
+    "seo": {
+      "title": "Preise · CosmicPDF",
+      "description": "Wählen Sie den perfekten Plan für Ihre Bedürfnisse."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "PricingHero",
+        "badge": null,
+        "title": "Einfache, transparente Preisgestaltung",
+        "subtitle": "Wählen Sie den perfekten Plan für Ihre Bedürfnisse.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanPro",
+        "title": "Profi",
+        "subtitle": "Für Profis, die uneingeschränkten Zugang benötigen",
+        "items": [
+          {
+            "icon": null,
+            "title": "Unbegrenzte PDF-Bearbeitungen",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Alle 32 KI-gestützten Tools",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Beschränkung der Dateigröße auf 100 MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Vorrangige Bearbeitung",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Erweiterte KI-Funktionen",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Vorrangiger E-Mail-Support",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Keine Wasserzeichen",
+            "description": null
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanBusiness",
+        "title": "Geschäft",
+        "subtitle": "Arbeiten Sie nahtlos mit Ihrem Team zusammen",
+        "items": [
+          {
+            "icon": null,
+            "title": "Alles in Pro",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Bis zu 5 Teammitglieder",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Gemeinsamer Arbeitsbereich",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Teamanalyse",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Beschränkung der Dateigröße auf 500 MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Engagierte Unterstützung",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Admin-Steuerelemente",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "API-Zugriff",
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+}

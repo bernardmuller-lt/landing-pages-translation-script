@@ -1,0 +1,120 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "tr",
+    "locale_display": "tr",
+    "seo": {
+      "title": "Fiyatlandırma · CosmicPDF",
+      "description": "İhtiyaçlarınıza uygun mükemmel planı seçin."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "PricingHero",
+        "badge": null,
+        "title": "Basit, Şeffaf Fiyatlandırma",
+        "subtitle": "İhtiyaçlarınıza uygun mükemmel planı seçin.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanPro",
+        "title": "Profesyonel",
+        "subtitle": "Sınırsız erişime ihtiyaç duyan profesyoneller için",
+        "items": [
+          {
+            "icon": null,
+            "title": "Sınırsız PDF düzenlemesi",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Yapay zeka destekli 32 aracın tümü",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "100 MB dosya boyutu sınırı",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Öncelikli işleme",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Gelişmiş yapay zeka özellikleri",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Öncelikli e-posta desteği",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Filigran yok",
+            "description": null
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanBusiness",
+        "title": "İşletme",
+        "subtitle": "Ekibinizle sorunsuz bir şekilde işbirliği yapın",
+        "items": [
+          {
+            "icon": null,
+            "title": "Pro'daki her şey",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "En fazla 5 ekip üyesi",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Paylaşılan çalışma alanı",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Ekip analitiği",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "500 MB dosya boyutu sınırı",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Özel destek",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Yönetici kontrolleri",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "API erişimi",
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+}

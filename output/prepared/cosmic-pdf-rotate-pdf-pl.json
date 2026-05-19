@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "rotate-pdf",
+    "locale": "pl",
+    "locale_display": "pl",
+    "seo": {
+      "title": "Obróć plik PDF · KosmicznyPDF",
+      "description": "Obróć plik PDF online w CosmicPDF — szybki, przejrzysty i stworzony z myślą o prawdziwych dokumentach."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>Obróć plik PDF</h1>",
+        "subtitle": "<p>Obróć plik PDF online w CosmicPDF — szybki, przejrzysty i stworzony z myślą o prawdziwych dokumentach.</p><p>Użyj CosmicPDF do obróć plik pdf, korzystając z instrukcji, podglądów, jeśli są dostępne, i opcji eksportu dostosowanych do dzisiejszego sposobu, w jaki zespoły wysyłają pliki PDF.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Rozpocznij",
+          "aria_label": "Rozpocznij"
+        },
+        "upload_hint_text": "Upuść tutaj swój plik",
+        "upload_browse_text": "lub kliknij, aby przeglądać • Kontynuuj w aplikacji CosmicPDF",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Potężne funkcje",
+        "subtitle": "Wszystko, czego potrzebujesz dla Obróć plik PDF",
+        "items": [
+          {
+            "icon": null,
+            "title": "Szybkie przetwarzanie",
+            "description": "Uruchom Obróć plik PDF ze zoptymalizowanymi potokami i wyraźnym postępem."
+          },
+          {
+            "icon": null,
+            "title": "Zachowanie jakości",
+            "description": "Zachowaj wierność czcionek, wektorów i układu, jeśli pozwala na to format."
+          },
+          {
+            "icon": null,
+            "title": "Bezpieczne zgodnie z projektem",
+            "description": "Szyfrowanie podczas przesyłania i rozsądne ustawienia domyślne dotyczące obsługi dokumentów."
+          },
+          {
+            "icon": null,
+            "title": "Działa w aplikacji",
+            "description": "Otwórz w CosmicPDF w Internecie, aby dokończyć pracę w pełnym edytorze."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "Jak to działa",
+        "subtitle": "Prosty i skuteczny proces w 4 krokach",
+        "items": [
+          {
+            "icon": null,
+            "title": "Wgrywać",
+            "description": "Dodaj plik, którego chcesz używać z Obróć plik PDF."
+          },
+          {
+            "icon": null,
+            "title": "Wybierz opcje",
+            "description": "Wybierz ustawienia pasujące do Twojego dokumentu."
+          },
+          {
+            "icon": null,
+            "title": "Proces",
+            "description": "Pozwól CosmicPDF uruchomić operację na Twoim pliku."
+          },
+          {
+            "icon": null,
+            "title": "Pobierać",
+            "description": "Zapisz wynik lub kontynuuj edycję w aplikacji."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Często zadawane pytania",
+        "subtitle": "Często zadawane pytania na temat: Obróć plik PDF",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Czy Obróć plik PDF może wypróbować bezpłatnie?",
+            "content": "Możesz zacząć od witryny marketingowej i kontynuować w produkcie. Plany i limity są wyświetlane w aplikacji."
+          },
+          {
+            "title": "Gdzie przetwarzane są pliki?",
+            "content": "Po przejściu na stronę cosmicpdf.com w aplikacji CosmicPDF uruchamiane jest intensywne przetwarzanie."
+          }
+        ]
+      }
+    ]
+  }
+}

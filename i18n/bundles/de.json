@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "siteName": "CosmicPDF",
+    "defaultDescription": "CosmicPDF – KI-gestützte PDF-Bearbeitung, Konvertierung und sicheres Teilen.",
+    "titleSuffix": "CosmicPDF",
+    "redirecting": "Weiterleitung zu CosmicPDF",
+    "redirectingBody": "Weiterleitung zur CosmicPDF-App…",
+    "continue": "Weitermachen"
+  },
+  "nav": {
+    "features": "Merkmale",
+    "pricing": "Preise",
+    "forms": "Formulare",
+    "about": "Um",
+    "getStarted": "Legen Sie los",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "mobileNote": "Alle Tools befinden sich unter /tools/… auf dieser Site.",
+    "selectLanguage": "Sprache auswählen"
+  },
+  "toolCategories": {
+    "security": "Sicherheits-PDF",
+    "splitMerge": "Teilen und zusammenführen",
+    "editPdf": "PDF bearbeiten",
+    "convertFromPdf": "Aus PDF konvertieren",
+    "convertToPdf": "In PDF konvertieren",
+    "compress": "Kompresse"
+  },
+  "toolNames": {
+    "sign-pdf": "PDF signieren",
+    "password-protect": "Passwortschutz",
+    "share-pdf": "PDF teilen",
+    "share-files": "Dateien teilen",
+    "split-pdf": "PDF teilen",
+    "merge-pdf": "PDF zusammenführen",
+    "combine-pdf": "PDF kombinieren",
+    "reorder-pdf": "PDF neu anordnen",
+    "extract-pages": "Seiten extrahieren",
+    "edit-pdf": "PDF bearbeiten",
+    "edit-fill-pdf": "PDF bearbeiten und ausfüllen",
+    "edit-scanned-pdf": "Gescannte PDF bearbeiten",
+    "add-image-to-pdf": "Bild zu PDF hinzufügen",
+    "watermark": "Wasserzeichen",
+    "rotate-pdf": "PDF drehen",
+    "delete-pages": "Seiten löschen",
+    "pages-numbering": "Seitennummerierung",
+    "pdf-reader": "PDF-Reader",
+    "pdf-to-word": "PDF zu Word",
+    "pdf-to-jpg": "PDF zu JPG",
+    "pdf-to-png": "PDF zu PNG",
+    "pdf-to-powerpoint": "PDF zu Power Point",
+    "pdf-to-excel": "PDF nach Excel",
+    "pdf-to-pdfa": "PDF zu PDF/A",
+    "word-to-pdf": "Word zu PDF",
+    "jpg-to-pdf": "JPG zu PDF",
+    "png-to-pdf": "PNG zu PDF",
+    "powerpoint-to-pdf": "Power Point als PDF",
+    "excel-to-pdf": "Excel zu PDF",
+    "pdfa-to-pdf": "PDF/A zu PDF",
+    "compress-pdf": "PDF komprimieren",
+    "compress-image": "Bild komprimieren"
+  },
+  "tools": {
+    "pageTitleSuffix": "· CosmicPDF",
+    "categoryLabel": "Kategorie",
+    "featuresTitle": "Leistungsstarke Funktionen",
+    "featuresSubtitle": "Alles, was Sie für {Name} brauchen",
+    "howItWorksTitle": "Wie es funktioniert",
+    "howItWorksSubtitle": "Einfacher und effizienter Prozess in 4 Schritten",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqSubtitle": "Häufige Fragen zu {name}",
+    "ctaTitle": "Bereit, loszulegen?",
+    "ctaButton": "Legen Sie los",
+    "dropFile": "Legen Sie Ihre Datei hier ab",
+    "orBrowse": "oder klicken Sie zum Durchsuchen. • Fahren Sie in der CosmicPDF-App fort",
+    "templates": {
+      "tagline": "{name} online mit CosmicPDF – schnell, klar und für echte Dokumente konzipiert.",
+      "description": "Verwenden Sie CosmicPDF für {nameLower} mit geführten Schritten, Vorschauen (sofern verfügbar) und Exportoptionen, die der heutigen Art und Weise entsprechen, wie Teams PDFs versenden.",
+      "features": {
+        "fast": {
+          "title": "Schnelle Bearbeitung",
+          "description": "Führen Sie {name} mit optimierten Pipelines und klarem Fortschritt aus."
+        },
+        "quality": {
+          "title": "Qualitätserhaltung",
+          "description": "Behalten Sie Schriftarten, Vektoren und Layouttreue bei, sofern das Format dies zulässt."
+        },
+        "secure": {
+          "title": "Sicher durch Design",
+          "description": "Verschlüsselung bei der Übertragung und sinnvolle Standardeinstellungen für die Dokumentenverarbeitung."
+        },
+        "app": {
+          "title": "Funktioniert in der App",
+          "description": "Öffnen Sie CosmicPDF im Internet, um den Job mit dem vollständigen Editor abzuschließen."
+        }
+      },
+      "howItWorks": {
+        "upload": {
+          "title": "Hochladen",
+          "description": "Fügen Sie die Datei, die Sie verwenden möchten, mit {name} hinzu."
+        },
+        "choose": {
+          "title": "Wählen Sie Optionen",
+          "description": "Wählen Sie die Einstellungen aus, die zu Ihrem Dokument passen."
+        },
+        "process": {
+          "title": "Verfahren",
+          "description": "Lassen Sie CosmicPDF den Vorgang für Ihre Datei ausführen."
+        },
+        "download": {
+          "title": "Herunterladen",
+          "description": "Speichern Sie das Ergebnis oder setzen Sie die Bearbeitung in der App fort."
+        }
+      },
+      "faqs": {
+        "free": {
+          "question": "Kann {name} kostenlos getestet werden?",
+          "answer": "Sie können auf der Marketingseite beginnen und im Produkt fortfahren. Pläne und Limits werden in der App angezeigt."
+        },
+        "where": {
+          "question": "Wo werden Dateien verarbeitet?",
+          "answer": "Nachdem Sie von cosmicpdf.com aus fortfahren, wird in der CosmicPDF-Anwendung eine umfangreiche Verarbeitung ausgeführt."
+        }
+      }
+    }
+  },
+  "home": {
+    "pageTitle": "CosmicPDF – KI-PDF-Bearbeitung für moderne Teams",
+    "hero": {
+      "badge": "Unterstützt durch fortschrittliche KI",
+      "title1": "Die Zukunft von",
+      "title2": "PDF-Bearbeitung",
+      "subtitle": "Transformieren Sie Ihren Dokumentenworkflow mit intelligenter KI-Technologie. Bearbeiten, signieren, konvertieren und führen Sie PDFs mit beispielloser Leichtigkeit und Geschwindigkeit zusammen.",
+      "cta": "Beginnen Sie mit der Bearbeitung",
+      "noCard": "Keine Kreditkarte erforderlich",
+      "trial": "Kostenlose 14-tägige Testversion",
+      "dropHere": "Legen Sie Ihr PDF hier ab",
+      "orBrowse": "oder klicken Sie zum Durchsuchen. • Maximal 50 MB",
+      "pdfOnly": "Bitte wählen Sie eine PDF-Datei aus",
+      "tooBig": "Die Dateigröße muss weniger als 50 MB betragen"
+    },
+    "trustedBy": {
+      "label": "Branchenführer vertrauen darauf"
+    },
+    "quickTools": {
+      "title": "KI-gestützte Werkzeuge",
+      "subtitle": "Alles, was Sie für ein professionelles Dokumentenmanagement benötigen",
+      "explore": "Erkunden-Funktion",
+      "items": {
+        "summarize": {
+          "title": "KI zusammenfassen",
+          "description": "Extrahieren Sie mit fortschrittlicher KI sofort wichtige Erkenntnisse aus umfangreichen Dokumenten"
+        },
+        "extract": {
+          "title": "KI-Extrakt",
+          "description": "Identifizieren und extrahieren Sie Tabellen, Formulare und Datenstrukturen automatisch"
+        },
+        "translate": {
+          "title": "KI-Übersetzung",
+          "description": "Übersetzen Sie Dokumente in über 100 Sprachen und behalten Sie dabei die Formatierung bei"
+        },
+        "ocr": {
+          "title": "Ich habe OCR",
+          "description": "Konvertieren Sie gescannte Dokumente mit hoher Genauigkeit in bearbeitbaren Text"
+        }
+      }
+    },
+    "featureShowcase": {
+      "title": "Gebaut für moderne Teams",
+      "subtitle": "Leistungsstarke Funktionen, die sich an Ihre Geschäftsanforderungen anpassen",
+      "items": {
+        "intelligence": {
+          "title": "KI-Intelligenz",
+          "body": "Fortschrittliche Algorithmen für maschinelles Lernen verstehen Ihre Dokumente und automatisieren komplexe Aufgaben"
+        },
+        "fast": {
+          "title": "Blitzschnell",
+          "body": "Verarbeiten Sie Dokumente schneller als mit herkömmlichen Tools mit optimierter Cloud-Infrastruktur"
+        },
+        "security": {
+          "title": "Unternehmenssicherheit",
+          "body": "Verschlüsselung auf Bankebene und Einhaltung der Standards DSGVO, SOC 2 und ISO 27001"
+        },
+        "access": {
+          "title": "Universeller Zugang",
+          "body": "Arbeiten Sie von überall aus mit nahtloser Synchronisierung zwischen Ihren Geräten und Plattformen"
+        }
+      }
+    },
+    "dashboard": {
+      "badge": "Dashboard-Übersicht",
+      "title1": "Leistungsstarkes Dashboard für",
+      "title2": "Vollständige Dateiverwaltung",
+      "subtitle": "Greifen Sie auf alle Ihre PDF-Dateien in einem zentralen Hub mit erweiterter Organisation, Suchfunktionen und intelligenten Dateiverwaltungstools zu.",
+      "features": {
+        "centralized": {
+          "title": "Zentralisierter Hub",
+          "body": "Verwalten Sie alle Ihre PDF-Dateien in einem organisierten Dashboard"
+        },
+        "trash": {
+          "title": "Papierkorbsystem",
+          "body": "30-tägige Aufbewahrung des Papierkorbs mit Optionen zur Wiederherstellung und dauerhaften Löschung"
+        },
+        "quickActions": {
+          "title": "Schnelle Aktionen",
+          "body": "Vorschau, Herunterladen, Bearbeiten und Löschen mit einem Klick"
+        }
+      },
+      "cta": "Greifen Sie auf Ihr Dashboard zu",
+      "ctaNote": "Melden Sie sich an, um mit der Verwaltung Ihrer PDF-Dateien zu beginnen",
+      "alt": "Dashboard-Schnittstelle"
+    },
+    "cta": {
+      "title1": "Beginnen Sie mit der intelligenteren Bearbeitung,",
+      "title2": "nicht schwerer",
+      "subtitle": "Schließen Sie sich Tausenden von Fachleuten an, die ihren Dokumenten-Workflow mit KI-gestützten Tools transformiert haben.",
+      "bullets": {
+        "trial": "Kostenlose 14-tägige Testversion, keine Kreditkarte erforderlich",
+        "cancel": "Jederzeit kündigen, Ihre Daten behalten",
+        "unlimited": "Unbegrenzte Dokumentenverarbeitung"
+      },
+      "button": "Legen Sie los",
+      "stats": {
+        "users": {
+          "value": "50K+",
+          "label": "Aktive Benutzer"
+        },
+        "pdfs": {
+          "value": "1M+",
+          "label": "PDFs verarbeitet"
+        },
+        "uptime": {
+          "value": "99,9 %",
+          "label": "Betriebszeit"
+        },
+        "rating": {
+          "value": "4,9/5",
+          "label": "Benutzerbewertung"
+        }
+      },
+      "quote": "Dieses Tool hat die Art und Weise, wie wir mit Dokumenten umgehen, völlig verändert. Die KI-Funktionen sparen uns jede Woche Stunden.",
+      "quoteAuthor": "— Sarah Chen, Produktmanagerin bei TechCorp"
+    },
+    "testimonials": {
+      "title": "Von Tausenden von Benutzern geliebt",
+      "subtitle": "Sehen Sie, was Fachleute über CosmicPDF sagen",
+      "ratingLabel": "5-Sterne-Bewertung",
+      "items": {
+        "sarah": {
+          "name": "Sarah Mitchell",
+          "role": "Marketingdirektor",
+          "company": "TechFlow Inc.",
+          "initials": "SM",
+          "content": "CosmicPDF hat die Art und Weise verändert, wie unser Team mit Dokumenten umgeht. Die KI-gestützten Tools sparen uns jede Woche Stunden und die Benutzeroberfläche ist unglaublich intuitiv."
+        },
+        "michael": {
+          "name": "Michael Chen",
+          "role": "Produktmanager",
+          "company": "StartupLabs",
+          "initials": "MC",
+          "content": "Das beste PDF-Tool, das ich je verwendet habe. Das Konvertieren, Zusammenführen und Bearbeiten von PDFs war noch nie so einfach. Die KI-Funktionen sind ein entscheidender Faktor für die Produktivität."
+        },
+        "emily": {
+          "name": "Emily Rodriguez",
+          "role": "Rechtsberater",
+          "company": "Recht & Partner",
+          "initials": "IST",
+          "content": "Sicherheit und Zuverlässigkeit sind für unsere juristischen Dokumente von entscheidender Bedeutung. Diese Plattform bietet beides und macht komplexe PDF-Aufgaben einfach und schnell."
+        }
+      },
+      "roleAtCompany": "{role} bei {company}"
+    },
+    "allTools": {
+      "title": "Alle Werkzeuge",
+      "subtitle": "Umfassende Suite von PDF-Tools für jeden Bedarf"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Alles, was Sie über CosmicPDF wissen müssen",
+      "stillHave": "Sie haben noch Fragen?",
+      "contactSupport": "Kontaktieren Sie unser Support-Team",
+      "items": {
+        "ai": {
+          "q": "Wie funktioniert die KI-gestützte Bearbeitung?",
+          "a": "Unsere fortschrittliche KI-Technologie nutzt maschinelles Lernen, um die Dokumentstruktur zu verstehen, Text und Bilder zu erkennen und auf intelligente Weise Änderungen vorzuschlagen. Es kann Formulare automatisch erkennen, Daten extrahieren und Ihnen helfen, Änderungen schneller vorzunehmen als herkömmliche PDF-Editoren."
+        },
+        "security": {
+          "q": "Sind meine Daten sicher und privat?",
+          "a": "Wir verwenden eine starke Verschlüsselung für die Datenübertragung und -speicherung. Ihre Dokumente werden sicher verarbeitet. Wir entwerfen CosmicPDF so, dass es allgemeine Compliance-Anforderungen erfüllt. Lesen Sie unsere Datenschutzrichtlinie und die Anforderungen Ihrer Organisation, bevor Sie sensible Daten hochladen."
+        },
+        "formats": {
+          "q": "Welche Dateiformate unterstützen Sie?",
+          "a": "Wir unterstützen PDF als primäres Format mit Konvertierungsfunktionen in und aus Word (DOCX), Excel (XLSX), PowerPoint (PPTX), Bildern (JPG, PNG) und mehr. Sie können auch verschiedene Dateitypen in einer einzigen PDF-Datei zusammenführen, sofern dies unterstützt wird."
+        },
+        "offline": {
+          "q": "Kann ich dieses Tool offline verwenden?",
+          "a": "Die Marketingseite ist statisch; Das Produkterlebnis ist cloudbasiert, um leistungsstarke KI-Verarbeitung zu nutzen. Einige Workflows bieten möglicherweise Desktop-Erlebnisse – Einzelheiten finden Sie in der App."
+        },
+        "trial": {
+          "q": "Was passiert nach Ablauf meiner kostenlosen Testversion?",
+          "a": "Nach der Testversion können Sie einen kostenpflichtigen Plan wählen oder mit einem kostenlosen Tarif fortfahren, sofern verfügbar. Ihre Dokumente und Arbeiten werden gemäß den Aufbewahrungsregeln des Produkts gespeichert."
+        },
+        "enterprise": {
+          "q": "Bieten Sie Team- oder Unternehmenspläne an?",
+          "a": "Ja. Wir bieten Teampläne mit gemeinsamen Arbeitsbereichen und Unternehmensoptionen mit erweiterter Sicherheit und Support. Kontaktieren Sie den Vertrieb für individuelle Preise."
+        }
+      }
+    }
+  },
+  "pricing": {
+    "pageTitle": "Preise · CosmicPDF",
+    "title": "Einfache, transparente Preisgestaltung",
+    "subtitle": "Wählen Sie den perfekten Plan für Ihre Bedürfnisse.",
+    "popular": "Am beliebtesten",
+    "perPeriod": "/",
+    "enterpriseNote": "Benötigen Sie einen maßgeschneiderten Plan für Ihre Organisation?",
+    "enterpriseCta": "Wenden Sie sich für Unternehmenspreise an den Vertrieb",
+    "plans": {
+      "pro": {
+        "name": "Profi",
+        "price": "1,95 $",
+        "period": "7-Tage-Testversion",
+        "description": "Für Profis, die uneingeschränkten Zugang benötigen",
+        "cta": "Beginnen Sie jetzt",
+        "features": {
+          "unlimited": "Unbegrenzte PDF-Bearbeitungen",
+          "allTools": "Alle 32 KI-gestützten Tools",
+          "fileSize": "Beschränkung der Dateigröße auf 100 MB",
+          "priority": "Vorrangige Bearbeitung",
+          "ai": "Erweiterte KI-Funktionen",
+          "support": "Vorrangiger E-Mail-Support",
+          "noWatermark": "Keine Wasserzeichen"
+        },
+        "billingNote": "dann wird alle 4 Wochen {Betrag} in Rechnung gestellt",
+        "billingAmount": "39,95$"
+      },
+      "business": {
+        "name": "Geschäft",
+        "price": "59,95 $",
+        "period": "Monat",
+        "description": "Arbeiten Sie nahtlos mit Ihrem Team zusammen",
+        "cta": "Beginnen Sie jetzt",
+        "features": {
+          "everything": "Alles in Pro",
+          "team": "Bis zu 5 Teammitglieder",
+          "workspace": "Gemeinsamer Arbeitsbereich",
+          "analytics": "Teamanalyse",
+          "fileSize": "Beschränkung der Dateigröße auf 500 MB",
+          "support": "Engagierte Unterstützung",
+          "admin": "Admin-Steuerelemente",
+          "api": "API-Zugriff"
+        },
+        "billingNote": "{Betrag} wird jährlich in Rechnung gestellt",
+        "billingAmount": "495,95 $",
+        "discount": "15 % Rabatt"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "Über CosmicPDF",
+    "badge": "Über uns",
+    "title1": "Dokument neu definieren",
+    "title2": "Intelligenz",
+    "subtitle": "Wir haben es uns zur Aufgabe gemacht, die Art und Weise zu verändern, wie die Welt mit Dokumenten arbeitet. Durch modernste KI machen wir die PDF-Bearbeitung mühelos, intelligent und für jedermann zugänglich.",
+    "stats": {
+      "users": {
+        "label": "Aktive Benutzer",
+        "value": "2M+"
+      },
+      "pdfs": {
+        "label": "PDFs verarbeitet",
+        "value": "500M+"
+      },
+      "countries": {
+        "label": "Länder",
+        "value": "150+"
+      },
+      "uptime": {
+        "label": "Betriebszeit",
+        "value": "99,9 %"
+      }
+    },
+    "mission": {
+      "title1": "Unser",
+      "title2": "Mission",
+      "body1": "Wir glauben, dass die Arbeit mit Dokumenten intuitiv, schnell und leistungsstark sein sollte. CosmicPDF beseitigt Reibungsverluste bei PDF-Workflows, sodass Sie sich auf die Ergebnisse konzentrieren können.",
+      "body2": "Von Startups bis hin zu Unternehmen vertrauen Teams bei wichtigen Dokumenten auf CosmicPDF. Wir sind der kontinuierlichen Innovation verpflichtet."
+    },
+    "values": {
+      "title1": "Unser",
+      "title2": "Werte",
+      "subtitle": "Die Prinzipien, die uns bei allem, was wir tun, leiten",
+      "items": {
+        "innovation": {
+          "title": "Innovation zuerst",
+          "body": "Wir erweitern die Grenzen dessen, was mit KI und Dokumententechnologie möglich ist."
+        },
+        "user": {
+          "title": "Benutzerzentriert",
+          "body": "Jede Funktion ist auf Ihren Arbeitsablauf und Ihre Produktivität ausgelegt."
+        },
+        "precision": {
+          "title": "Präzision",
+          "body": "Wir glauben daran, jedes Mal genaue und zuverlässige Ergebnisse zu liefern."
+        },
+        "simplicity": {
+          "title": "Einfachheit",
+          "body": "Komplexe Technologie, einfaches Erlebnis. Das ist unser Versprechen an Sie."
+        }
+      }
+    },
+    "faq": {
+      "title1": "Häufig gefragt",
+      "title2": "Fragen",
+      "subtitle": "Antworten auf häufige Fragen zu unserem Unternehmen",
+      "items": {
+        "founded": {
+          "q": "Wann wurde das Unternehmen gegründet?",
+          "a": "Wir wurden 2020 mit einer einfachen Mission gegründet: die Bearbeitung von Dokumenten so intuitiv zu gestalten wie ein Gespräch. Seitdem sind wir gewachsen und bedienen Millionen von Benutzern in vielen Ländern."
+        },
+        "location": {
+          "q": "Wo ist Ihr Unternehmen ansässig?",
+          "a": "Wir haben unseren Hauptsitz in San Francisco, Kalifornien, und unsere Remote-Teammitglieder sind über Nordamerika, Europa und Asien verteilt."
+        },
+        "security": {
+          "q": "Wie stellen Sie die Datensicherheit sicher?",
+          "a": "Sicherheit steht im Mittelpunkt von allem, was wir bauen. Wir verwenden eine starke Verschlüsselung, befolgen gängige Compliance-Frameworks und entwickeln Aufbewahrungsrichtlinien, um das Risiko zu reduzieren. Weitere Informationen finden Sie immer in unserer Datenschutzrichtlinie."
+        },
+        "enterprise": {
+          "q": "Bieten Sie Unternehmenslösungen an?",
+          "a": "Ja. Wir bieten Unternehmenslösungen mit dediziertem Support, Integrationen, SSO-Funktionen, erweiterten Sicherheitsfunktionen und flexiblen Bereitstellungsoptionen."
+        },
+        "ai": {
+          "q": "Was macht Ihre KI-Technologie anders?",
+          "a": "Unsere Modelle sind auf das Verstehen und Bearbeiten von Dokumenten spezialisiert und konzentrieren sich darauf, PDF-Workflows schneller und genauer zu gestalten."
+        },
+        "team": {
+          "q": "Wie kann ich Ihrem Team beitreten?",
+          "a": "Wir sind immer auf der Suche nach talentierten Menschen. Auf unserer Karriereseite finden Sie offene Stellen in den Bereichen Technik, Design und Produkt."
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Kontaktieren Sie CosmicPDF",
+    "badge": "Nehmen Sie Kontakt auf",
+    "title1": "Beginnen wir mit a",
+    "title2": "Gespräch",
+    "subtitle": "Haben Sie Fragen zu CosmicPDF? Wir sind hier, um zu helfen. Kontaktieren Sie uns und wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "send": {
+      "title1": "Schicken Sie uns eine",
+      "title2": "Nachricht",
+      "subtitle": "Füllen Sie das untenstehende Formular aus und unser Team wird sich innerhalb von 24 Stunden bei Ihnen melden."
+    },
+    "info": {
+      "title1": "Kontakt",
+      "title2": "Information",
+      "subtitle": "Möchten Sie lieber direkt Kontakt aufnehmen? Hier sind die Kanäle, die wir überwachen.",
+      "items": {
+        "email": {
+          "title": "Schicken Sie uns eine E-Mail",
+          "details": "support@cosmicpdf.com",
+          "description": "Wir antworten in der Regel innerhalb von 24 Stunden"
+        },
+        "sales": {
+          "title": "Verkäufe",
+          "details": "sales@cosmicpdf.com",
+          "description": "Fragen zu Preisen, Piloten und Beschaffung"
+        },
+        "security": {
+          "title": "Sicherheit",
+          "details": "security@cosmicpdf.com",
+          "description": "Verantwortungsvolle Offenlegung und Sicherheitsüberprüfungen"
+        },
+        "hours": {
+          "title": "Geschäftszeiten",
+          "details": "Montag – Freitag: 9:00 – 18:00 Uhr PST",
+          "description": "Der Wochenendsupport variiert je nach Plan"
+        }
+      }
+    },
+    "form": {
+      "name": "Vollständiger Name",
+      "namePlaceholder": "John Doe",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "john@example.com",
+      "subject": "Thema",
+      "subjectPlaceholder": "Wählen Sie ein Thema aus",
+      "subjectOptions": {
+        "general": "Allgemeine Anfrage",
+        "support": "Technische Unterstützung",
+        "sales": "Verkaufsfrage",
+        "partnership": "Partnerschaftsmöglichkeit",
+        "feedback": "Rückmeldung"
+      },
+      "message": "Nachricht",
+      "messagePlaceholder": "Sagen Sie uns, wie wir Ihnen helfen können...",
+      "required": "*",
+      "submit": "Nachricht senden",
+      "demoAlert": "Danke – diese statische Demo wird nirgendwo eingereicht. Verknüpfen Sie dieses Formular mit Ihrem App-Endpunkt, wenn Sie fertig sind."
+    }
+  },
+  "privacy": {
+    "pageTitle": "Datenschutzrichtlinie · CosmicPDF",
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Letzte Aktualisierung: 30. April 2026",
+    "sections": {
+      "introduction": {
+        "title": "Einführung",
+        "body": "Willkommen bei CosmicPDF. Wir respektieren Ihre Privatsphäre und verpflichten uns zum Schutz Ihrer persönlichen Daten. Diese Richtlinie beschreibt, wie wir mit Informationen umgehen, wenn Sie unsere Marketing-Website besuchen und das CosmicPDF-Produkt verwenden."
+      },
+      "collected": {
+        "title": "Informationen, die wir sammeln",
+        "intro": "Wir können folgende Kategorien von Informationen erfassen und verarbeiten:",
+        "identity": {
+          "label": "Identitätsdaten:",
+          "body": "Name und ähnliche Identifikatoren."
+        },
+        "contact": {
+          "label": "Kontaktdaten:",
+          "body": "E-Mail-Adresse und Telefonnummern, sofern angegeben."
+        },
+        "technical": {
+          "label": "Technische Daten:",
+          "body": "IP-Adresse, Browsertyp, Geräte- und Diagnosedaten."
+        },
+        "usage": {
+          "label": "Nutzungsdaten:",
+          "body": "Informationen darüber, wie Sie unsere Website und Dienste nutzen."
+        },
+        "document": {
+          "label": "Dokumentdaten:",
+          "body": "Dateien, die Sie zur Verarbeitung im Produkt hochladen."
+        }
+      },
+      "marketing": {
+        "title": "Marketingseite",
+        "body": "Dieses Repository hostet eine statische Marketing-Site. Es führt keine serverseitige Verarbeitung für Uploads durch. Jegliche Dateiübergabe sollte gemäß Ihrer Sicherheitsüberprüfung in der Produktanwendung implementiert werden."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Fragen zum Datenschutz:",
+        "email": "privatsphäre@cosmicpdf.com"
+      }
+    }
+  },
+  "terms": {
+    "pageTitle": "Nutzungsbedingungen · CosmicPDF",
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Letzte Aktualisierung: 30. April 2026",
+    "sections": {
+      "introduction": {
+        "title": "Einführung",
+        "body": "Diese Bedingungen regeln Ihre Nutzung der Websites und Dienste von CosmicPDF. Durch den Zugriff auf oder die Nutzung unserer Dienste stimmen Sie diesen Bedingungen zu."
+      },
+      "accounts": {
+        "title": "Konten",
+        "body": "Wenn Sie ein Konto erstellen, erklären Sie sich damit einverstanden, korrekte Informationen anzugeben und Ihre Anmeldeinformationen sicher aufzubewahren. Sie sind für die Aktivitäten unter Ihrem Konto verantwortlich."
+      },
+      "content": {
+        "title": "Benutzerinhalte",
+        "body": "Sie behalten die Rechte an den von Ihnen hochgeladenen Dokumenten. Sie müssen das Recht haben, die von Ihnen übermittelten Inhalte zu verarbeiten."
+      },
+      "liability": {
+        "title": "Haftungsbeschränkung",
+        "body": "Soweit gesetzlich zulässig, haftet CosmicPDF nicht für indirekte Schäden oder Folgeschäden, die sich aus Ihrer Nutzung der Dienste ergeben."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Fragen zu diesen Bedingungen:",
+        "email": "legal@cosmicpdf.com"
+      }
+    }
+  },
+  "forms": {
+    "pageTitle": "Am häufigsten verwendete Formulare · CosmicPDF",
+    "title": "Am häufigsten verwendete Formulare",
+    "subtitle": "Greifen Sie auf die am häufigsten verwendeten Formulare zu und bearbeiten Sie sie. Alle Formulare können mit unserem KI-gestützten PDF-Editor vollständig bearbeitet werden.",
+    "bullets": {
+      "templates": "Offizielle Vorlagen für gängige Arbeitsabläufe",
+      "editable": "Vollständig editierbar mit KI-Unterstützung",
+      "upload": "Laden Sie Ihre eigenen Formulare zur Bearbeitung hoch"
+    },
+    "categories": {
+      "all": "Alle",
+      "tax": "Steuerformulare",
+      "employment": "Anstellung",
+      "business": "Geschäft",
+      "government": "Regierung",
+      "immigration": "Einwanderung"
+    },
+    "editForm": "Formular bearbeiten",
+    "editAlert": "Fahren Sie in der CosmicPDF-App fort, um dieses Formular zu bearbeiten.",
+    "uploadTitle": "Laden Sie Ihr eigenes Formular hoch",
+    "uploadSubtitle": "Haben Sie ein anderes Formular? Laden Sie es hoch und beginnen Sie mit der Bearbeitung mit KI-Unterstützung",
+    "dropHere": "Legen Sie Ihr PDF hier ab",
+    "orBrowse": "oder klicken Sie zum Durchsuchen. • Maximal 50 MB",
+    "items": {
+      "941": {
+        "name": "Formular 941",
+        "title": "Vierteljährliche Bundessteuererklärung des Arbeitgebers",
+        "category": "business",
+        "description": "Wird von Arbeitgebern zur Meldung von Einkommenssteuern und Lohnsteuern verwendet, die von den Löhnen der Arbeitnehmer einbehalten werden."
+      },
+      "1040": {
+        "name": "Formular 1040",
+        "title": "US-Einkommensteuererklärung für Einzelpersonen",
+        "category": "tax",
+        "description": "Das Standardformular für die Bundeseinkommensteuer, das zur Meldung des Jahreseinkommens und zur Berechnung der geschuldeten Steuern verwendet wird."
+      },
+      "1065": {
+        "name": "Formular 1065",
+        "title": "US-Rendite des Partnerschaftseinkommens",
+        "category": "business",
+        "description": "Informationsrückgabe, die von Personengesellschaften zur Meldung von Einnahmen, Abzügen und Gutschriften verwendet wird."
+      },
+      "w-9": {
+        "name": "Formular W-9",
+        "title": "Antrag auf Steueridentifikationsnummer",
+        "category": "tax",
+        "description": "Wird von Freiberuflern und Auftragnehmern verwendet, um Kunden ihre Steueridentifikationsnummer mitzuteilen."
+      },
+      "w-4": {
+        "name": "Formular W-4",
+        "title": "Quellensteuerbescheinigung des Mitarbeiters",
+        "category": "tax",
+        "description": "Wird von Arbeitnehmern ausgefüllt, um den Arbeitgebern ihre Steuersituation mitzuteilen, damit diese ordnungsgemäß einbehalten werden können."
+      },
+      "i-9": {
+        "name": "Formular I-9",
+        "title": "Überprüfung der Beschäftigungsberechtigung",
+        "category": "employment",
+        "description": "Für alle US-amerikanischen Arbeitgeber erforderlich, um die Identität und Beschäftigungserlaubnis neuer Mitarbeiter zu überprüfen."
+      },
+      "ss-4": {
+        "name": "Formular SS-4",
+        "title": "Antrag auf Arbeitgeber-Identifikationsnummer",
+        "category": "business",
+        "description": "Wird von Unternehmen zur Beantragung einer EIN (Employer Identification Number) beim IRS verwendet."
+      },
+      "1099-nec": {
+        "name": "Formular 1099-NEC",
+        "title": "Nicht-Mitarbeiterentschädigung",
+        "category": "tax",
+        "description": "Wird zur Meldung von Zahlungen an unabhängige Auftragnehmer und Freiberufler verwendet."
+      },
+      "w-2": {
+        "name": "Formular W-2",
+        "title": "Lohn- und Steuerbescheinigung",
+        "category": "tax",
+        "description": "Meldet den Jahreslohn eines Mitarbeiters und die Höhe der von seinem Gehaltsscheck einbehaltenen Steuern."
+      },
+      "ds-11": {
+        "name": "DS-11",
+        "title": "Antrag auf einen US-Pass",
+        "category": "government",
+        "description": "Wird von Erstantragstellern und Personen verwendet, die abgelaufene Pässe verlängern."
+      },
+      "i-130": {
+        "name": "Formular I-130",
+        "title": "Petition für ausländische Verwandte",
+        "category": "immigration",
+        "description": "Wird von US-Bürgern und Personen mit ständigem Wohnsitz in den USA verwendet, um eine Beziehung zu einem Ausländer herzustellen."
+      },
+      "n-400": {
+        "name": "Formular N-400",
+        "title": "Antrag auf Einbürgerung",
+        "category": "immigration",
+        "description": "Wird von Personen mit ständigem Wohnsitz zur Beantragung der US-Staatsbürgerschaft verwendet."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Privatsphäre",
+    "terms": "Bedingungen",
+    "contact": "Kontakt",
+    "copyright": "© {year} CosmicPDF. Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "pageTitle": "Seite nicht gefunden · CosmicPDF",
+    "title": "404",
+    "message": "Wir konnten diese Seite nicht finden.",
+    "back": "Zurück nach Hause"
+  }
+}

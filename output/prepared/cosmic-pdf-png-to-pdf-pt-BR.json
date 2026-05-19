@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "png-to-pdf",
+    "locale": "pt-BR",
+    "locale_display": "br",
+    "seo": {
+      "title": "PNG para PDF · CosmicPDF",
+      "description": "PNG para PDF online com CosmicPDF — rápido, claro e desenvolvido para documentos reais."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>PNG para PDF</h1>",
+        "subtitle": "<p>PNG para PDF online com CosmicPDF — rápido, claro e desenvolvido para documentos reais.</p><p>Use CosmicPDF para png para pdf com etapas guiadas, visualizações quando disponíveis e opções de exportação que correspondem à forma como as equipes enviam PDFs hoje.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Comece",
+          "aria_label": "Comece"
+        },
+        "upload_hint_text": "Solte seu arquivo aqui",
+        "upload_browse_text": "ou clique para navegar • Continue no aplicativo CosmicPDF",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Recursos poderosos",
+        "subtitle": "Tudo que você precisa para {nome}",
+        "items": [
+          {
+            "icon": null,
+            "title": "Processamento rápido",
+            "description": "Execute PNG para PDF com pipelines otimizados e progresso claro."
+          },
+          {
+            "icon": null,
+            "title": "Preservação da qualidade",
+            "description": "Mantenha fontes, vetores e fidelidade de layout onde o formato permitir."
+          },
+          {
+            "icon": null,
+            "title": "Seguro por design",
+            "description": "Criptografia em trânsito e padrões sensatos para manuseio de documentos."
+          },
+          {
+            "icon": null,
+            "title": "Funciona no aplicativo",
+            "description": "Abra no CosmicPDF na web para finalizar o trabalho com o editor completo."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "Como funciona",
+        "subtitle": "Processo simples e eficiente em 4 etapas",
+        "items": [
+          {
+            "icon": null,
+            "title": "Carregar",
+            "description": "Adicione o arquivo que deseja usar com PNG para PDF."
+          },
+          {
+            "icon": null,
+            "title": "Escolha opções",
+            "description": "Escolha as configurações que correspondem ao seu documento."
+          },
+          {
+            "icon": null,
+            "title": "Processo",
+            "description": "Deixe o CosmicPDF executar a operação em seu arquivo."
+          },
+          {
+            "icon": null,
+            "title": "Download",
+            "description": "Salve o resultado ou continue editando no aplicativo."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Perguntas frequentes",
+        "subtitle": "Perguntas comuns sobre {nome}",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "PNG para PDF é gratuito para testar?",
+            "content": "Você pode começar no site de marketing e continuar no produto. Planos e limites são mostrados no aplicativo."
+          },
+          {
+            "title": "Onde os arquivos são processados?",
+            "content": "O processamento pesado é executado no aplicativo CosmicPDF depois que você continua em cosmicpdf.com."
+          }
+        ]
+      }
+    ]
+  }
+}

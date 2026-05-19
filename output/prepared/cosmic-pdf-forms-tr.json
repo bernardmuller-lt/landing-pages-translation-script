@@ -1,0 +1,97 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "tr",
+    "locale_display": "tr",
+    "seo": {
+      "title": "En çok kullanılan formlar · CosmicPDF",
+      "description": "En sık kullanılan formlara erişin ve bunları düzenleyin. Yapay zeka destekli PDF düzenleyicimizle tüm formlar tamamen düzenlenebilir."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title": "En Çok Kullanılan Formlar",
+        "subtitle": "En sık kullanılan formlara erişin ve bunları düzenleyin. Yapay zeka destekli PDF düzenleyicimizle tüm formlar tamamen düzenlenebilir.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "En Çok Kullanılan Formlar",
+        "subtitle": "En sık kullanılan formlara erişin ve bunları düzenleyin. Yapay zeka destekli PDF düzenleyicimizle tüm formlar tamamen düzenlenebilir.",
+        "items": [
+          {
+            "icon": null,
+            "title": "Form 941 — İşverenin Üç Aylık Federal Vergi Beyannamesi",
+            "description": "İşverenler tarafından çalışan ücretlerinden kesilen gelir vergilerini ve bordro vergilerini bildirmek için kullanılır."
+          },
+          {
+            "icon": null,
+            "title": "Form 1040 — ABD Bireysel Gelir Vergisi Beyannamesi",
+            "description": "Yıllık geliri bildirmek ve borçlu olunan vergileri hesaplamak için kullanılan standart federal gelir vergisi formu."
+          },
+          {
+            "icon": null,
+            "title": "Form 1065 — ABD Ortaklık Gelirinin İadesi",
+            "description": "Ortaklıklar tarafından geliri, kesintileri ve kredileri raporlamak için kullanılan bilgi beyanı."
+          },
+          {
+            "icon": null,
+            "title": "W-9 Formu — Vergi Mükellefi Kimlik Numarası Talebi",
+            "description": "Serbest çalışanlar ve yükleniciler tarafından müşterilere vergi mükellefi kimlik numaralarını sağlamak için kullanılır."
+          },
+          {
+            "icon": null,
+            "title": "W-4 Formu — Çalışan Stopaj Belgesi",
+            "description": "Çalışanlar tarafından, stopajın doğru şekilde yapılabilmesi için işverenlere vergi durumlarını belirtmek amacıyla doldurulur."
+          },
+          {
+            "icon": null,
+            "title": "Form I-9 — İstihdama Uygunluk Doğrulaması",
+            "description": "Tüm ABD'deki işverenlerin yeni işe alınanların kimliklerini ve istihdam yetkilerini doğrulamaları zorunludur."
+          },
+          {
+            "icon": null,
+            "title": "SS-4 Formu — İşveren Kimlik Numarası Başvurusu",
+            "description": "İşletmeler tarafından IRS'den bir EIN (İşveren Kimlik Numarası) başvurusunda bulunmak için kullanılır."
+          },
+          {
+            "icon": null,
+            "title": "Form 1099-NEC — Çalışan Olmayan Tazminat",
+            "description": "Bağımsız yüklenicilere ve serbest çalışanlara yapılan ödemeleri raporlamak için kullanılır."
+          },
+          {
+            "icon": null,
+            "title": "W-2 Formu — Ücret ve Vergi Beyanı",
+            "description": "Bir çalışanın yıllık ücretini ve maaşından kesilen vergi miktarını bildirir."
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — ABD Pasaportu Başvurusu",
+            "description": "İlk kez pasaport başvurusunda bulunacaklar ve süresi dolmuş pasaportlarını yenileyecekler tarafından kullanılır."
+          },
+          {
+            "icon": null,
+            "title": "Form I-130 — Uzaylı Akraba Dilekçesi",
+            "description": "ABD vatandaşları ve daimi ikamet edenler tarafından yabancı bir vatandaşla ilişki kurmak için kullanılır."
+          },
+          {
+            "icon": null,
+            "title": "N-400 Formu — Vatandaşlığa Kabul Başvurusu",
+            "description": "Daimi ikamet edenler tarafından ABD vatandaşlığına başvurmak için kullanılır."
+          }
+        ]
+      }
+    ]
+  }
+}

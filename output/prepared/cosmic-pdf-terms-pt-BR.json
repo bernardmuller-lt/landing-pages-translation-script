@@ -1,0 +1,45 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "terms",
+    "locale": "pt-BR",
+    "locale_display": "br",
+    "seo": {
+      "title": "Termos de Serviço · CosmicPDF",
+      "description": "Última atualização: 30 de abril de 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Introdução",
+        "content": "<p>Estes Termos regem o uso dos sites e serviços CosmicPDF. Ao acessar ou utilizar nossos serviços, você concorda com estes Termos.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "accounts",
+        "title": "Contas",
+        "content": "<p>Ao criar uma conta, você concorda em fornecer informações precisas e manter as credenciais seguras. Você é responsável pelas atividades em sua conta.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "content",
+        "title": "Conteúdo do usuário",
+        "content": "<p>Você retém os direitos sobre os documentos que carrega. Você deve ter o direito de processar o conteúdo enviado.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "liability",
+        "title": "Limitação de responsabilidade",
+        "content": "<p>Na extensão máxima permitida por lei, CosmicPDF não é responsável por danos indiretos ou consequenciais decorrentes do uso dos serviços.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Contato",
+        "content": "<p>Perguntas sobre estes Termos:</p><p>legal@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

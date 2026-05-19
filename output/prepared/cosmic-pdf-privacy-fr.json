@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "fr",
+    "locale_display": "fr",
+    "seo": {
+      "title": "Politique de confidentialité · CosmicPDF",
+      "description": "Dernière mise à jour : 30 avril 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Introduction",
+        "content": "<p>Welcome to CosmicPDF. Nous respectons votre vie privée et nous engageons à protéger vos données personnelles. Cette politique décrit la manière dont nous traitons les informations lorsque vous visitez notre site marketing et lorsque vous utilisez le produit CosmicPDF.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "Informations que nous collectons",
+        "content": "<p>Nous pouvons collecter et traiter des catégories d'informations telles que :</p><p><strong>Données d'identité :</strong> nom et identifiants similaires.</p><p><strong>Coordonnées :</strong> adresse e-mail et numéros de téléphone le cas échéant.</p><p><strong>Données techniques :</strong> Adresse IP, type de navigateur, appareil et données de diagnostic.</p><p><strong>Données d'utilisation :</strong> des informations sur la façon dont vous utilisez notre site Web et nos services.</p><p><strong>Données du document :</strong> fichiers que vous téléchargez pour traitement dans le produit.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "Site de commercialisation",
+        "content": "<p>Ce référentiel héberge un site marketing statique. Il n'exécute pas de traitement côté serveur pour les téléchargements. Tout transfert de fichier doit être implémenté dans l'application du produit en fonction de votre examen de sécurité.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Contact",
+        "content": "<p>Questions sur la confidentialité :</p><p>confidentialité@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

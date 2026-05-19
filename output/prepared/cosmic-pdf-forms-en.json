@@ -1,0 +1,304 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "en",
+    "locale_display": "en",
+    "seo": {
+      "title": "Most used forms · CosmicPDF",
+      "description": "Access and edit the most commonly used forms. All forms are fully editable with our AI-powered PDF editor."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title1": "Most Used Forms",
+        "title2": null,
+        "subtitle": "Access and edit the most commonly used forms. All forms are fully editable with our AI-powered PDF editor.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "Most Used Forms",
+        "subtitle": "Access and edit the most commonly used forms. All forms are fully editable with our AI-powered PDF editor.",
+        "items": [
+          {
+            "icon": null,
+            "title": "Form 941 — Employer's Quarterly Federal Tax Return",
+            "description": "Used by employers to report income taxes and payroll taxes withheld from employee wages."
+          },
+          {
+            "icon": null,
+            "title": "Form 1040 — U.S. Individual Income Tax Return",
+            "description": "The standard federal income tax form used to report annual income and calculate taxes owed."
+          },
+          {
+            "icon": null,
+            "title": "Form 1065 — U.S. Return of Partnership Income",
+            "description": "Information return used by partnerships to report income, deductions, and credits."
+          },
+          {
+            "icon": null,
+            "title": "Form W-9 — Request for Taxpayer Identification Number",
+            "description": "Used by freelancers and contractors to provide their taxpayer identification number to clients."
+          },
+          {
+            "icon": null,
+            "title": "Form W-4 — Employee's Withholding Certificate",
+            "description": "Completed by employees to indicate their tax situation to employers for proper withholding."
+          },
+          {
+            "icon": null,
+            "title": "Form I-9 — Employment Eligibility Verification",
+            "description": "Required for all U.S. employers to verify the identity and employment authorization of new hires."
+          },
+          {
+            "icon": null,
+            "title": "Form SS-4 — Application for Employer Identification Number",
+            "description": "Used by businesses to apply for an EIN (Employer Identification Number) from the IRS."
+          },
+          {
+            "icon": null,
+            "title": "Form 1099-NEC — Nonemployee Compensation",
+            "description": "Used to report payments made to independent contractors and freelancers."
+          },
+          {
+            "icon": null,
+            "title": "Form W-2 — Wage and Tax Statement",
+            "description": "Reports an employee's annual wages and the amount of taxes withheld from their paycheck."
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — Application for a U.S. Passport",
+            "description": "Used by first-time passport applicants and those renewing expired passports."
+          },
+          {
+            "icon": null,
+            "title": "Form I-130 — Petition for Alien Relative",
+            "description": "Used by U.S. citizens and permanent residents to establish a relationship to a foreign national."
+          },
+          {
+            "icon": null,
+            "title": "Form N-400 — Application for Naturalization",
+            "description": "Used by permanent residents to apply for U.S. citizenship."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.upload-section",
+        "fe_component": "Upload",
+        "title": "Upload Your Own Form",
+        "subtitle": "Have a different form? Upload it and start editing with AI assistance",
+        "drop_hint_text": "Drop your PDF here",
+        "browse_text": "or click to browse • Maximum 50MB"
+      },
+      {
+        "__component": "cosmic.all-tools-section",
+        "fe_component": "AllTools",
+        "title": "All Tools",
+        "subtitle": "Comprehensive suite of PDF tools for every need",
+        "categories": [
+          {
+            "title": "Security PDF",
+            "tools": [
+              {
+                "label": "Sign PDF",
+                "href": "/tools/sign-pdf",
+                "icon": "FileSignature"
+              },
+              {
+                "label": "Password Protect",
+                "href": "/tools/password-protect",
+                "icon": "Lock"
+              },
+              {
+                "label": "Share PDF",
+                "href": "/tools/share-pdf",
+                "icon": "Share2"
+              },
+              {
+                "label": "Share Files",
+                "href": "/tools/share-files",
+                "icon": "FolderOpen"
+              }
+            ]
+          },
+          {
+            "title": "Split and Merge",
+            "tools": [
+              {
+                "label": "Split PDF",
+                "href": "/tools/split-pdf",
+                "icon": "Scissors"
+              },
+              {
+                "label": "Merge PDF",
+                "href": "/tools/merge-pdf",
+                "icon": "Combine"
+              },
+              {
+                "label": "Combine PDF",
+                "href": "/tools/combine-pdf",
+                "icon": "LayoutGrid"
+              },
+              {
+                "label": "Reorder PDF",
+                "href": "/tools/reorder-pdf",
+                "icon": "ArrowUpDown"
+              },
+              {
+                "label": "Extract Pages",
+                "href": "/tools/extract-pages",
+                "icon": "FileStack"
+              }
+            ]
+          },
+          {
+            "title": "Edit PDF",
+            "tools": [
+              {
+                "label": "Edit PDF",
+                "href": "/tools/edit-pdf",
+                "icon": "Edit3"
+              },
+              {
+                "label": "Edit & Fill PDF",
+                "href": "/tools/edit-fill-pdf",
+                "icon": "FilePen"
+              },
+              {
+                "label": "Edit Scanned PDF",
+                "href": "/tools/edit-scanned-pdf",
+                "icon": "ScanLine"
+              },
+              {
+                "label": "Add Image to PDF",
+                "href": "/tools/add-image-to-pdf",
+                "icon": "ImagePlus"
+              },
+              {
+                "label": "Watermark",
+                "href": "/tools/watermark",
+                "icon": "Droplet"
+              },
+              {
+                "label": "Rotate PDF",
+                "href": "/tools/rotate-pdf",
+                "icon": "RotateCw"
+              },
+              {
+                "label": "Delete Pages",
+                "href": "/tools/delete-pages",
+                "icon": "Trash2"
+              },
+              {
+                "label": "Pages Numbering",
+                "href": "/tools/pages-numbering",
+                "icon": "Hash"
+              },
+              {
+                "label": "PDF Reader",
+                "href": "/tools/pdf-reader",
+                "icon": "FileText"
+              }
+            ]
+          },
+          {
+            "title": "Convert From PDF",
+            "tools": [
+              {
+                "label": "PDF to Word",
+                "href": "/tools/pdf-to-word",
+                "icon": "FileOutput"
+              },
+              {
+                "label": "PDF to JPG",
+                "href": "/tools/pdf-to-jpg",
+                "icon": "FileImage"
+              },
+              {
+                "label": "PDF to PNG",
+                "href": "/tools/pdf-to-png",
+                "icon": "FileImage"
+              },
+              {
+                "label": "PDF to Power Point",
+                "href": "/tools/pdf-to-powerpoint",
+                "icon": "Presentation"
+              },
+              {
+                "label": "PDF to Excel",
+                "href": "/tools/pdf-to-excel",
+                "icon": "FileSpreadsheet"
+              },
+              {
+                "label": "PDF to PDF/A",
+                "href": "/tools/pdf-to-pdfa",
+                "icon": "Archive"
+              }
+            ]
+          },
+          {
+            "title": "Convert To PDF",
+            "tools": [
+              {
+                "label": "Word to PDF",
+                "href": "/tools/word-to-pdf",
+                "icon": "FileInput"
+              },
+              {
+                "label": "JPG to PDF",
+                "href": "/tools/jpg-to-pdf",
+                "icon": "FileInput"
+              },
+              {
+                "label": "PNG to PDF",
+                "href": "/tools/png-to-pdf",
+                "icon": "FileInput"
+              },
+              {
+                "label": "Power Point to PDF",
+                "href": "/tools/powerpoint-to-pdf",
+                "icon": "FileInput"
+              },
+              {
+                "label": "Excel to PDF",
+                "href": "/tools/excel-to-pdf",
+                "icon": "FileInput"
+              },
+              {
+                "label": "PDF/A to PDF",
+                "href": "/tools/pdfa-to-pdf",
+                "icon": "FileInput"
+              }
+            ]
+          },
+          {
+            "title": "Compress",
+            "tools": [
+              {
+                "label": "Compress PDF",
+                "href": "/tools/compress-pdf",
+                "icon": "Minimize2"
+              },
+              {
+                "label": "Compress Image",
+                "href": "/tools/compress-image",
+                "icon": "Minimize2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

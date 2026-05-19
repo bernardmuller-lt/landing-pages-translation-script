@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "edit-fill-pdf",
+    "locale": "ko-KR",
+    "locale_display": "kr",
+    "seo": {
+      "title": "PDF 편집 및 채우기 · 우주PDF",
+      "description": "CosmicPDF를 통해 온라인으로 PDF 편집 및 채우기 — 빠르고 명확하며 실제 문서용으로 제작되었습니다."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>PDF 편집 및 채우기</h1>",
+        "subtitle": "<p>CosmicPDF를 통해 온라인으로 PDF 편집 및 채우기 — 빠르고 명확하며 실제 문서용으로 제작되었습니다.</p><p>CosmicPDF를 사용하여 안내된 단계, 가능한 경우 미리 보기, 현재 팀이 PDF를 제공하는 방식과 일치하는 내보내기 옵션을 통해 pdf 편집 및 채우기에 적용하세요.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "시작하기",
+          "aria_label": "시작하기"
+        },
+        "upload_hint_text": "여기에 파일을 드롭하세요.",
+        "upload_browse_text": "또는 클릭하여 찾아보세요. • CosmicPDF 앱에서 계속하세요.",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "강력한 기능",
+        "subtitle": "PDF 편집 및 채우기에게 필요한 모든 것",
+        "items": [
+          {
+            "icon": null,
+            "title": "빠른 처리",
+            "description": "최적화된 파이프라인으로 PDF 편집 및 채우기을(를) 실행하고 진행 상황을 확인하세요."
+          },
+          {
+            "icon": null,
+            "title": "품질 보존",
+            "description": "형식이 허용하는 한 글꼴, 벡터 및 레이아웃 충실도를 유지하세요."
+          },
+          {
+            "icon": null,
+            "title": "안전한 설계",
+            "description": "전송 중 암호화 및 문서 처리를 위한 합리적인 기본값."
+          },
+          {
+            "icon": null,
+            "title": "앱에서 작동",
+            "description": "웹의 CosmicPDF를 열어 전체 편집기로 작업을 완료하세요."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "작동 방식",
+        "subtitle": "4단계의 간단하고 효율적인 프로세스",
+        "items": [
+          {
+            "icon": null,
+            "title": "업로드",
+            "description": "PDF 편집 및 채우기과(와) 함께 사용하려는 파일을 추가하세요."
+          },
+          {
+            "icon": null,
+            "title": "옵션을 선택하세요",
+            "description": "문서와 일치하는 설정을 선택하세요."
+          },
+          {
+            "icon": null,
+            "title": "프로세스",
+            "description": "CosmicPDF가 파일에 대한 작업을 실행하게 하세요."
+          },
+          {
+            "icon": null,
+            "title": "다운로드",
+            "description": "결과를 저장하거나 앱에서 계속 편집하세요."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "자주 묻는 질문",
+        "subtitle": "PDF 편집 및 채우기에 대한 일반적인 질문",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "PDF 편집 및 채우기은(는) 무료로 사용해 볼 수 있나요?",
+            "content": "마케팅 사이트에서 시작하여 제품을 계속 사용할 수 있습니다. 계획과 한도가 앱에 표시됩니다."
+          },
+          {
+            "title": "파일은 어디에서 처리되나요?",
+            "content": "cosmicpdf.com에서 계속 진행하면 CosmicPDF 응용 프로그램에서 대량 처리가 실행됩니다."
+          }
+        ]
+      }
+    ]
+  }
+}

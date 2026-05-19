@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "ko-KR",
+    "locale_display": "kr",
+    "seo": {
+      "title": "개인정보 보호정책 · CosmicPDF",
+      "description": "최종 업데이트 날짜: 2026년 4월 30일"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "소개",
+        "content": "<p>CosmicPDF에 오신 것을 환영합니다. 우리는 귀하의 개인 정보를 존중하며 귀하의 개인 데이터를 보호하기 위해 최선을 다하고 있습니다. 이 정책은 귀하가 마케팅 사이트를 방문하고 CosmicPDF 제품을 사용할 때 정보를 처리하는 방법을 설명합니다.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "당사가 수집하는 정보",
+        "content": "<p>당사는 다음과 같은 범주의 정보를 수집하고 처리할 수 있습니다.</p><p><strong>신원 데이터:</strong> 이름 및 유사한 식별자.</p><p><strong>연락처 데이터:</strong> 제공된 경우 이메일 주소 및 전화번호.</p><p><strong>기술 데이터:</strong> IP 주소, 브라우저 유형, 장치 및 진단 데이터.</p><p><strong>사용 데이터:</strong> 귀하가 당사 웹 사이트 및 서비스를 사용하는 방법에 대한 정보.</p><p><strong>문서 데이터:</strong> 제품에서 처리하기 위해 업로드하는 파일입니다.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "마케팅 사이트",
+        "content": "<p>이 저장소는 정적 마케팅 사이트를 호스팅합니다. 업로드에 대한 서버측 처리를 실행하지 않습니다. 모든 파일 전달은 보안 검토에 따라 제품 응용 프로그램에서 구현되어야 합니다.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "연락하다",
+        "content": "<p>개인정보 보호에 관한 질문:</p><p>Privacy@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

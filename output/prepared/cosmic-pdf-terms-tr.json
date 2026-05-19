@@ -1,0 +1,45 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "terms",
+    "locale": "tr",
+    "locale_display": "tr",
+    "seo": {
+      "title": "Hizmet Şartları · CosmicPDF",
+      "description": "Son güncelleme: 30 Nisan 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "giriiş",
+        "content": "<p>Bu Koşullar, CosmicPDF web sitelerini ve hizmetlerini kullanımınızı yönetir. Hizmetlerimize erişerek veya bunları kullanarak bu Şartları kabul etmiş olursunuz.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "accounts",
+        "title": "Hesaplar",
+        "content": "<p>Bir hesap oluşturduğunuzda doğru bilgileri sağlamayı ve kimlik bilgilerinizi güvende tutmayı kabul edersiniz. Hesabınızın altındaki etkinliklerden siz sorumlusunuz.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "content",
+        "title": "Kullanıcı İçeriği",
+        "content": "<p>Yüklediğiniz belgelerin hakları size ait olur. Gönderdiğiniz içeriği işleme hakkına sahip olmanız gerekir.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "liability",
+        "title": "Sorumluluğun Sınırlandırılması",
+        "content": "<p>Yasaların izin verdiği azami ölçüde, CosmicPDF hizmetleri kullanımınızdan kaynaklanan dolaylı veya sonuç olarak ortaya çıkan zararlardan sorumlu değildir.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Temas etmek",
+        "content": "<p>Bu Şartlarla ilgili sorular:</p><p>legal@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

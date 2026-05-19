@@ -12,6 +12,7 @@ import { runUpload } from "./upload.js";
 import { runMetadata } from "./metadata.js";
 import { runOnboarding } from "./onboarding.js";
 import { runUpdateLocaleDisplay } from "./updateLocaleDisplay.js";
+import { runCosmicPdf } from "./cosmic-pdf/index.js";
 
 const program = new Command();
 
@@ -556,6 +557,41 @@ program
       });
     } catch (error) {
       console.error("\n❌ Metadata pipeline failed:", error);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("cosmic-pdf")
+  .description(
+    "Compile cosmic-pdf i18n bundles into Strapi API payloads",
+  )
+  .option(
+    "-l, --locale <locales...>",
+    "locale(s) to compile, comma separated (e.g. en,de,fr)",
+    commaSeparatedList,
+  )
+  .option(
+    "-s, --slug <slugs...>",
+    "page slug(s) to compile, comma separated (e.g. home,pricing,merge-pdf)",
+    commaSeparatedList,
+  )
+  .option(
+    "-e, --env <environment>",
+    "target environment (default: production)",
+    "production",
+  )
+  .option("--dry-run", "validate and print without writing files", false)
+  .action(async (options) => {
+    try {
+      await runCosmicPdf({
+        locales: options.locale,
+        slugs: options.slug,
+        environment: options.env,
+        dryRun: options.dryRun,
+      });
+    } catch (error) {
+      console.error("\n❌ Cosmic-PDF compilation failed:", error);
       process.exit(1);
     }
   });

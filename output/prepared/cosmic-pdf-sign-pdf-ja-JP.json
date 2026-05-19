@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "sign-pdf",
+    "locale": "ja-JP",
+    "locale_display": "jp",
+    "seo": {
+      "title": "PDFに署名 ・CosmicPDF",
+      "description": "CosmicPDF を使用してオンラインの PDFに署名 — 高速かつ明確で、実際のドキュメント用に構築されています。"
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>PDFに署名</h1>",
+        "subtitle": "<p>CosmicPDF を使用してオンラインの PDFに署名 — 高速かつ明確で、実際のドキュメント用に構築されています。</p><p>CosmicPDF を使用して pdfに署名 にアクセスし、ガイド付きの手順、利用可能な場合はプレビュー、チームが現在 PDF を出荷する方法に一致するエクスポート オプションを使用します。</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "始めましょう",
+          "aria_label": "始めましょう"
+        },
+        "upload_hint_text": "ここにファイルをドロップしてください",
+        "upload_browse_text": "またはクリックして参照 • CosmicPDF アプリで続行",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "強力な機能",
+        "subtitle": "PDFに署名 に必要なものすべて",
+        "items": [
+          {
+            "icon": null,
+            "title": "高速処理",
+            "description": "最適化されたパイプラインで PDFに署名 を実行し、進行状況を確認します。"
+          },
+          {
+            "icon": null,
+            "title": "品質保持",
+            "description": "形式が許す限り、フォント、ベクター、レイアウトの忠実性を維持します。"
+          },
+          {
+            "icon": null,
+            "title": "安全な設計",
+            "description": "転送中の暗号化とドキュメント処理の適切なデフォルト。"
+          },
+          {
+            "icon": null,
+            "title": "アプリ内で動作します",
+            "description": "Web 上の CosmicPDF で開き、完全なエディターでジョブを完了します。"
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "仕組み",
+        "subtitle": "4ステップのシンプルかつ効率的なプロセス",
+        "items": [
+          {
+            "icon": null,
+            "title": "アップロード",
+            "description": "使用するファイルを PDFに署名 に追加します。"
+          },
+          {
+            "icon": null,
+            "title": "オプションを選択してください",
+            "description": "ドキュメントに一致する設定を選択してください。"
+          },
+          {
+            "icon": null,
+            "title": "プロセス",
+            "description": "CosmicPDF にファイルに対する操作を実行させます。"
+          },
+          {
+            "icon": null,
+            "title": "ダウンロード",
+            "description": "結果を保存するか、アプリで編集を続行します。"
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "よくある質問",
+        "subtitle": "PDFに署名 に関するよくある質問",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "PDFに署名 は無料で試せますか?",
+            "content": "マーケティング サイトから開始して、製品で続行できます。 プランと制限はアプリに表示されます。"
+          },
+          {
+            "title": "ファイルはどこで処理されますか?",
+            "content": "cosmicpdf.com から続行すると、CosmicPDF アプリケーションで重い処理が実行されます。"
+          }
+        ]
+      }
+    ]
+  }
+}

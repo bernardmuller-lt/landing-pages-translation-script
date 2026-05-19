@@ -1,0 +1,3936 @@
+{
+  "id": 59,
+  "documentId": "lrgn0i9ad59mq8ts2y5e0uiv",
+  "environment": "production",
+  "identifier": "ai-chat",
+  "locale_display": "en",
+  "default_slug": "onboarding",
+  "createdAt": "2026-04-21T08:57:36.192Z",
+  "updatedAt": "2026-04-21T09:56:36.064Z",
+  "publishedAt": null,
+  "locale": "en",
+  "seo": {
+    "id": 2610,
+    "title": "AI Chat",
+    "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+  },
+  "events": null,
+  "campaigns": [
+    {
+      "id": 170,
+      "slug": "gemini",
+      "seo": {
+        "id": 2611,
+        "title": "AI Chat",
+        "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+      },
+      "slides": [
+        {
+          "id": 722,
+          "left_media": {
+            "id": 703,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10885,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 295,
+                "documentId": "ab16xhaay3nbouh428eav7nf",
+                "name": "Gemini_1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 715,
+                "height": 675,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Gemini_1_d9652a30b9.webp",
+                    "hash": "small_Gemini_1_d9652a30b9",
+                    "mime": "image/webp",
+                    "name": "small_Gemini_1.webp",
+                    "path": null,
+                    "size": 24.3,
+                    "width": 500,
+                    "height": 472,
+                    "sizeInBytes": 24296
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Gemini_1_d9652a30b9.webp",
+                    "hash": "thumbnail_Gemini_1_d9652a30b9",
+                    "mime": "image/webp",
+                    "name": "thumbnail_Gemini_1.webp",
+                    "path": null,
+                    "size": 5.07,
+                    "width": 165,
+                    "height": 156,
+                    "sizeInBytes": 5068
+                  }
+                },
+                "hash": "Gemini_1_d9652a30b9",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 41.65,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_1_d9652a30b9.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T07:27:22.208Z",
+                "updatedAt": "2026-04-14T07:27:22.208Z",
+                "publishedAt": "2026-04-14T07:27:22.208Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 714,
+            "description": "Chat with Google Gemini latest version. No limits, no delays. Smarter answers, instantly.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5601,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10911,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3987,
+              "heading": "<p>Get unlimited access to Google Gemini</p>"
+            },
+            "legal_text": {
+              "id": 1740,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10937,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 297,
+                "documentId": "cku5egxa16yl7ydikmiaxvx7",
+                "name": "pwrd_gemini.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 167,
+                "height": 38,
+                "formats": null,
+                "hash": "pwrd_gemini_fc7e68601b",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.35,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/pwrd_gemini_fc7e68601b.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T08:48:34.939Z",
+                "updatedAt": "2026-04-14T08:48:34.939Z",
+                "publishedAt": "2026-04-14T08:48:34.939Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 723,
+          "left_media": {
+            "id": 704,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10886,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 294,
+                "documentId": "kgd7q8utp3ctho5r4y29ijdo",
+                "name": "Gemini_2.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 713,
+                "height": 646,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Gemini_2_2b4a780c22.webp",
+                    "hash": "small_Gemini_2_2b4a780c22",
+                    "mime": "image/webp",
+                    "name": "small_Gemini_2.webp",
+                    "path": null,
+                    "size": 22.71,
+                    "width": 500,
+                    "height": 453,
+                    "sizeInBytes": 22714
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Gemini_2_2b4a780c22.webp",
+                    "hash": "thumbnail_Gemini_2_2b4a780c22",
+                    "mime": "image/webp",
+                    "name": "thumbnail_Gemini_2.webp",
+                    "path": null,
+                    "size": 4.86,
+                    "width": 172,
+                    "height": 156,
+                    "sizeInBytes": 4858
+                  }
+                },
+                "hash": "Gemini_2_2b4a780c22",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 35.42,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_2_2b4a780c22.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T07:27:22.029Z",
+                "updatedAt": "2026-04-14T07:27:22.029Z",
+                "publishedAt": "2026-04-14T07:27:22.030Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 715,
+            "description": "Ask anything and get fast, accurate responses from Google Gemini and more.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5602,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10912,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3988,
+              "heading": "<p>Get instant answers on any topic</p>"
+            },
+            "legal_text": {
+              "id": 1741,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10938,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 297,
+                "documentId": "cku5egxa16yl7ydikmiaxvx7",
+                "name": "pwrd_gemini.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 167,
+                "height": 38,
+                "formats": null,
+                "hash": "pwrd_gemini_fc7e68601b",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.35,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/pwrd_gemini_fc7e68601b.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T08:48:34.939Z",
+                "updatedAt": "2026-04-14T08:48:34.939Z",
+                "publishedAt": "2026-04-14T08:48:34.939Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 724,
+          "left_media": {
+            "id": 705,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10887,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 296,
+                "documentId": "lhqglnq287wsewo2on634c8r",
+                "name": "Gemini_3.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 941,
+                "height": 592,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Gemini_3_05f46d5da4.webp",
+                    "hash": "small_Gemini_3_05f46d5da4",
+                    "mime": "image/webp",
+                    "name": "small_Gemini_3.webp",
+                    "path": null,
+                    "size": 18.16,
+                    "width": 500,
+                    "height": 315,
+                    "sizeInBytes": 18160
+                  },
+                  "medium": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_Gemini_3_05f46d5da4.webp",
+                    "hash": "medium_Gemini_3_05f46d5da4",
+                    "mime": "image/webp",
+                    "name": "medium_Gemini_3.webp",
+                    "path": null,
+                    "size": 34.23,
+                    "width": 750,
+                    "height": 472,
+                    "sizeInBytes": 34234
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Gemini_3_05f46d5da4.webp",
+                    "hash": "thumbnail_Gemini_3_05f46d5da4",
+                    "mime": "image/webp",
+                    "name": "thumbnail_Gemini_3.webp",
+                    "path": null,
+                    "size": 5.69,
+                    "width": 245,
+                    "height": 154,
+                    "sizeInBytes": 5692
+                  }
+                },
+                "hash": "Gemini_3_05f46d5da4",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 50.53,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_3_05f46d5da4.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T07:27:22.594Z",
+                "updatedAt": "2026-04-14T07:27:22.594Z",
+                "publishedAt": "2026-04-14T07:27:22.594Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 716,
+            "description": "Use Google Gemini directly in our platform—no copy-pasting, no switching tabs, just answers, faster.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5603,
+              "href": "https://chat.aichatapp.ai/web-register",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10913,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3989,
+              "heading": "<p>Smarter answers, seamlessly integrated</p>"
+            },
+            "legal_text": {
+              "id": 1742,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10939,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 297,
+                "documentId": "cku5egxa16yl7ydikmiaxvx7",
+                "name": "pwrd_gemini.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 167,
+                "height": 38,
+                "formats": null,
+                "hash": "pwrd_gemini_fc7e68601b",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.35,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/pwrd_gemini_fc7e68601b.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T08:48:34.939Z",
+                "updatedAt": "2026-04-14T08:48:34.939Z",
+                "publishedAt": "2026-04-14T08:48:34.939Z"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "slug": "claude",
+      "seo": {
+        "id": 2612,
+        "title": "AI Chat",
+        "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+      },
+      "slides": [
+        {
+          "id": 725,
+          "left_media": {
+            "id": 706,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10888,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 298,
+                "documentId": "mlbqx42yqmx1mk0hretr38ug",
+                "name": "claude-1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 715,
+                "height": 676,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_claude_1_67d2b88266.webp",
+                    "hash": "small_claude_1_67d2b88266",
+                    "mime": "image/webp",
+                    "name": "small_claude-1.webp",
+                    "path": null,
+                    "size": 25.48,
+                    "width": 500,
+                    "height": 473,
+                    "sizeInBytes": 25480
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_claude_1_67d2b88266.webp",
+                    "hash": "thumbnail_claude_1_67d2b88266",
+                    "mime": "image/webp",
+                    "name": "thumbnail_claude-1.webp",
+                    "path": null,
+                    "size": 5.29,
+                    "width": 165,
+                    "height": 156,
+                    "sizeInBytes": 5294
+                  }
+                },
+                "hash": "claude_1_67d2b88266",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 42.34,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/claude_1_67d2b88266.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-15T11:54:25.948Z",
+                "updatedAt": "2026-04-15T11:54:25.948Z",
+                "publishedAt": "2026-04-15T11:54:25.948Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 717,
+            "description": "Chat with Claude Sonnet and other Anthropic models. No limits, no delays. Smarter answers, instantly.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5604,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10914,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3990,
+              "heading": "<p>Get unlimited access to Claude</p>"
+            },
+            "legal_text": {
+              "id": 1743,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10940,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 301,
+                "documentId": "cridrt72jyf8bcmwvnfxq4vr",
+                "name": "Pwrd-Claude1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 202,
+                "height": 38,
+                "formats": null,
+                "hash": "Pwrd_Claude1_7b3c4f7be9",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.17,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Pwrd_Claude1_7b3c4f7be9.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-15T11:56:15.842Z",
+                "updatedAt": "2026-04-15T11:56:15.842Z",
+                "publishedAt": "2026-04-15T11:56:15.842Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 726,
+          "left_media": {
+            "id": 707,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10889,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 299,
+                "documentId": "ibfvlw7icgoyrrd4usnu8teo",
+                "name": "claude-2.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 792,
+                "height": 646,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_claude_2_7b263e1d4a.webp",
+                    "hash": "small_claude_2_7b263e1d4a",
+                    "mime": "image/webp",
+                    "name": "small_claude-2.webp",
+                    "path": null,
+                    "size": 20.18,
+                    "width": 500,
+                    "height": 408,
+                    "sizeInBytes": 20178
+                  },
+                  "medium": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_claude_2_7b263e1d4a.webp",
+                    "hash": "medium_claude_2_7b263e1d4a",
+                    "mime": "image/webp",
+                    "name": "medium_claude-2.webp",
+                    "path": null,
+                    "size": 35.08,
+                    "width": 750,
+                    "height": 612,
+                    "sizeInBytes": 35082
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_claude_2_7b263e1d4a.webp",
+                    "hash": "thumbnail_claude_2_7b263e1d4a",
+                    "mime": "image/webp",
+                    "name": "thumbnail_claude-2.webp",
+                    "path": null,
+                    "size": 5.08,
+                    "width": 191,
+                    "height": 156,
+                    "sizeInBytes": 5084
+                  }
+                },
+                "hash": "claude_2_7b263e1d4a",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 37.41,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/claude_2_7b263e1d4a.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-15T11:54:26.028Z",
+                "updatedAt": "2026-04-15T11:54:26.028Z",
+                "publishedAt": "2026-04-15T11:54:26.029Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 718,
+            "description": "Ask anything and get fast, accurate responses from Claude 4 and more.\n\n",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5605,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10915,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3991,
+              "heading": "<p>Get instant answers on any topic</p>"
+            },
+            "legal_text": {
+              "id": 1744,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10941,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 301,
+                "documentId": "cridrt72jyf8bcmwvnfxq4vr",
+                "name": "Pwrd-Claude1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 202,
+                "height": 38,
+                "formats": null,
+                "hash": "Pwrd_Claude1_7b3c4f7be9",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.17,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Pwrd_Claude1_7b3c4f7be9.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-15T11:56:15.842Z",
+                "updatedAt": "2026-04-15T11:56:15.842Z",
+                "publishedAt": "2026-04-15T11:56:15.842Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 727,
+          "left_media": {
+            "id": 708,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10890,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 300,
+                "documentId": "j0lfr1z7oo5q1g3mg1xv4p6k",
+                "name": "claude-3.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 941,
+                "height": 592,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_claude_3_91f4352a33.webp",
+                    "hash": "small_claude_3_91f4352a33",
+                    "mime": "image/webp",
+                    "name": "small_claude-3.webp",
+                    "path": null,
+                    "size": 17.87,
+                    "width": 500,
+                    "height": 315,
+                    "sizeInBytes": 17874
+                  },
+                  "medium": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_claude_3_91f4352a33.webp",
+                    "hash": "medium_claude_3_91f4352a33",
+                    "mime": "image/webp",
+                    "name": "medium_claude-3.webp",
+                    "path": null,
+                    "size": 33.26,
+                    "width": 750,
+                    "height": 472,
+                    "sizeInBytes": 33256
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_claude_3_91f4352a33.webp",
+                    "hash": "thumbnail_claude_3_91f4352a33",
+                    "mime": "image/webp",
+                    "name": "thumbnail_claude-3.webp",
+                    "path": null,
+                    "size": 5.82,
+                    "width": 245,
+                    "height": 154,
+                    "sizeInBytes": 5824
+                  }
+                },
+                "hash": "claude_3_91f4352a33",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 49.67,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/claude_3_91f4352a33.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-15T11:54:26.090Z",
+                "updatedAt": "2026-04-15T11:54:26.090Z",
+                "publishedAt": "2026-04-15T11:54:26.090Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 719,
+            "description": "Use Claude 4 directly in our platform—no copy-pasting, no switching tabs, just answers, faster.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5606,
+              "href": "https://chat.aichatapp.ai/web-register",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10916,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3992,
+              "heading": "<p>Smarter answers, seamlessly integrated</p>"
+            },
+            "legal_text": {
+              "id": 1745,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10942,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 301,
+                "documentId": "cridrt72jyf8bcmwvnfxq4vr",
+                "name": "Pwrd-Claude1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 202,
+                "height": 38,
+                "formats": null,
+                "hash": "Pwrd_Claude1_7b3c4f7be9",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.17,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Pwrd_Claude1_7b3c4f7be9.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-15T11:56:15.842Z",
+                "updatedAt": "2026-04-15T11:56:15.842Z",
+                "publishedAt": "2026-04-15T11:56:15.842Z"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "slug": "gemini-3-flash",
+      "seo": {
+        "id": 2613,
+        "title": "AI Chat",
+        "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+      },
+      "slides": [
+        {
+          "id": 728,
+          "left_media": {
+            "id": 709,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10891,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 306,
+                "documentId": "gyupn2w7mwwgfbbaqgphj2gz",
+                "name": "Gemini_1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 715,
+                "height": 675,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Gemini_1_795c801af1.webp",
+                    "hash": "small_Gemini_1_795c801af1",
+                    "mime": "image/webp",
+                    "name": "small_Gemini_1.webp",
+                    "path": null,
+                    "size": 24.3,
+                    "width": 500,
+                    "height": 472,
+                    "sizeInBytes": 24296
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Gemini_1_795c801af1.webp",
+                    "hash": "thumbnail_Gemini_1_795c801af1",
+                    "mime": "image/webp",
+                    "name": "thumbnail_Gemini_1.webp",
+                    "path": null,
+                    "size": 5.07,
+                    "width": 165,
+                    "height": 156,
+                    "sizeInBytes": 5068
+                  }
+                },
+                "hash": "Gemini_1_795c801af1",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 41.65,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_1_795c801af1.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T11:30:37.200Z",
+                "updatedAt": "2026-04-16T11:30:37.200Z",
+                "publishedAt": "2026-04-16T11:30:37.200Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 720,
+            "description": "Chat with Gemini 3 Flash. No limits, no delays. Smarter answers, instantly.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5607,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10917,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3993,
+              "heading": "<p>Get unlimited access to Google Gemini 3 Flash</p>"
+            },
+            "legal_text": {
+              "id": 1746,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10943,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 325,
+                "documentId": "bdcyvqfl8qk1n4airor2tc5v",
+                "name": "Gemini_3_Pro.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 291,
+                "height": 56,
+                "formats": null,
+                "hash": "Gemini_3_Pro_5adceb4c12",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 26.84,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_3_Pro_5adceb4c12.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-20T11:41:15.173Z",
+                "updatedAt": "2026-04-20T11:41:15.173Z",
+                "publishedAt": "2026-04-20T11:41:15.174Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 729,
+          "left_media": {
+            "id": 710,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10892,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 305,
+                "documentId": "pmozhi87inp0weuuck5yrbwp",
+                "name": "Gemini_2.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 713,
+                "height": 646,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Gemini_2_d6e24ca3d3.webp",
+                    "hash": "small_Gemini_2_d6e24ca3d3",
+                    "mime": "image/webp",
+                    "name": "small_Gemini_2.webp",
+                    "path": null,
+                    "size": 22.71,
+                    "width": 500,
+                    "height": 453,
+                    "sizeInBytes": 22714
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Gemini_2_d6e24ca3d3.webp",
+                    "hash": "thumbnail_Gemini_2_d6e24ca3d3",
+                    "mime": "image/webp",
+                    "name": "thumbnail_Gemini_2.webp",
+                    "path": null,
+                    "size": 4.86,
+                    "width": 172,
+                    "height": 156,
+                    "sizeInBytes": 4858
+                  }
+                },
+                "hash": "Gemini_2_d6e24ca3d3",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 35.42,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_2_d6e24ca3d3.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T11:30:37.125Z",
+                "updatedAt": "2026-04-16T11:30:37.125Z",
+                "publishedAt": "2026-04-16T11:30:37.125Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 721,
+            "description": "Ask anything and get fast, accurate responses from Gemini 3 Flash and more.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5608,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10918,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 305,
+                "documentId": "pmozhi87inp0weuuck5yrbwp",
+                "name": "Gemini_2.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 713,
+                "height": 646,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Gemini_2_d6e24ca3d3.webp",
+                    "hash": "small_Gemini_2_d6e24ca3d3",
+                    "mime": "image/webp",
+                    "name": "small_Gemini_2.webp",
+                    "path": null,
+                    "size": 22.71,
+                    "width": 500,
+                    "height": 453,
+                    "sizeInBytes": 22714
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Gemini_2_d6e24ca3d3.webp",
+                    "hash": "thumbnail_Gemini_2_d6e24ca3d3",
+                    "mime": "image/webp",
+                    "name": "thumbnail_Gemini_2.webp",
+                    "path": null,
+                    "size": 4.86,
+                    "width": 172,
+                    "height": 156,
+                    "sizeInBytes": 4858
+                  }
+                },
+                "hash": "Gemini_2_d6e24ca3d3",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 35.42,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_2_d6e24ca3d3.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T11:30:37.125Z",
+                "updatedAt": "2026-04-16T11:30:37.125Z",
+                "publishedAt": "2026-04-16T11:30:37.125Z"
+              }
+            },
+            "title": {
+              "id": 3994,
+              "heading": "<p>Get instant answers on any topic</p>"
+            },
+            "legal_text": {
+              "id": 1747,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10944,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 325,
+                "documentId": "bdcyvqfl8qk1n4airor2tc5v",
+                "name": "Gemini_3_Pro.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 291,
+                "height": 56,
+                "formats": null,
+                "hash": "Gemini_3_Pro_5adceb4c12",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 26.84,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_3_Pro_5adceb4c12.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-20T11:41:15.173Z",
+                "updatedAt": "2026-04-20T11:41:15.173Z",
+                "publishedAt": "2026-04-20T11:41:15.174Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 730,
+          "left_media": {
+            "id": 711,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10893,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 307,
+                "documentId": "wsscor64sk9k0prpabu7uyx6",
+                "name": "Gemini_3.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 941,
+                "height": 592,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Gemini_3_b39ecaf34c.webp",
+                    "hash": "small_Gemini_3_b39ecaf34c",
+                    "mime": "image/webp",
+                    "name": "small_Gemini_3.webp",
+                    "path": null,
+                    "size": 18.16,
+                    "width": 500,
+                    "height": 315,
+                    "sizeInBytes": 18160
+                  },
+                  "medium": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_Gemini_3_b39ecaf34c.webp",
+                    "hash": "medium_Gemini_3_b39ecaf34c",
+                    "mime": "image/webp",
+                    "name": "medium_Gemini_3.webp",
+                    "path": null,
+                    "size": 34.23,
+                    "width": 750,
+                    "height": 472,
+                    "sizeInBytes": 34234
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Gemini_3_b39ecaf34c.webp",
+                    "hash": "thumbnail_Gemini_3_b39ecaf34c",
+                    "mime": "image/webp",
+                    "name": "thumbnail_Gemini_3.webp",
+                    "path": null,
+                    "size": 5.69,
+                    "width": 245,
+                    "height": 154,
+                    "sizeInBytes": 5692
+                  }
+                },
+                "hash": "Gemini_3_b39ecaf34c",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 50.53,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_3_b39ecaf34c.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T11:30:37.457Z",
+                "updatedAt": "2026-04-16T11:30:37.457Z",
+                "publishedAt": "2026-04-16T11:30:37.457Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 722,
+            "description": "Use Gemini 3 Flash directly in our platform—no copy-pasting, no switching tabs, just answers, faster.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5609,
+              "href": "https://chat.aichatapp.ai/web-register",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10919,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3995,
+              "heading": "<p>Smarter answers, seamlessly integrated</p>"
+            },
+            "legal_text": {
+              "id": 1748,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10945,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 325,
+                "documentId": "bdcyvqfl8qk1n4airor2tc5v",
+                "name": "Gemini_3_Pro.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 291,
+                "height": 56,
+                "formats": null,
+                "hash": "Gemini_3_Pro_5adceb4c12",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 26.84,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Gemini_3_Pro_5adceb4c12.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-20T11:41:15.173Z",
+                "updatedAt": "2026-04-20T11:41:15.173Z",
+                "publishedAt": "2026-04-20T11:41:15.174Z"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "slug": "nanobanana",
+      "seo": {
+        "id": 2614,
+        "title": "AI Chat",
+        "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+      },
+      "slides": [
+        {
+          "id": 731,
+          "left_media": {
+            "id": 712,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10894,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 310,
+                "documentId": "jm549mn0awpsotrzvzdszz3f",
+                "name": "NanoBnana_1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 831,
+                "height": 676,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Nano_Bnana_1_68edb3125f.webp",
+                    "hash": "small_Nano_Bnana_1_68edb3125f",
+                    "mime": "image/webp",
+                    "name": "small_NanoBnana_1.webp",
+                    "path": null,
+                    "size": 23.87,
+                    "width": 500,
+                    "height": 407,
+                    "sizeInBytes": 23866
+                  },
+                  "medium": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_Nano_Bnana_1_68edb3125f.webp",
+                    "hash": "medium_Nano_Bnana_1_68edb3125f",
+                    "mime": "image/webp",
+                    "name": "medium_NanoBnana_1.webp",
+                    "path": null,
+                    "size": 42.25,
+                    "width": 750,
+                    "height": 610,
+                    "sizeInBytes": 42250
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Nano_Bnana_1_68edb3125f.webp",
+                    "hash": "thumbnail_Nano_Bnana_1_68edb3125f",
+                    "mime": "image/webp",
+                    "name": "thumbnail_NanoBnana_1.webp",
+                    "path": null,
+                    "size": 5.96,
+                    "width": 192,
+                    "height": 156,
+                    "sizeInBytes": 5960
+                  }
+                },
+                "hash": "Nano_Bnana_1_68edb3125f",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 49.12,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Nano_Bnana_1_68edb3125f.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:24:07.656Z",
+                "updatedAt": "2026-04-16T14:24:07.656Z",
+                "publishedAt": "2026-04-16T14:24:07.657Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 723,
+            "description": "Start enjoying AI image generation with Nano Banana powered by Google Gemini. Create unique visuals effortlessly with our next-level generator",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5610,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10920,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3996,
+              "heading": "<p>Create stunning AI Images with Nano Banana 🍌&nbsp;</p>"
+            },
+            "legal_text": {
+              "id": 1749,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10946,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 297,
+                "documentId": "cku5egxa16yl7ydikmiaxvx7",
+                "name": "pwrd_gemini.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 167,
+                "height": 38,
+                "formats": null,
+                "hash": "pwrd_gemini_fc7e68601b",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.35,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/pwrd_gemini_fc7e68601b.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T08:48:34.939Z",
+                "updatedAt": "2026-04-14T08:48:34.939Z",
+                "publishedAt": "2026-04-14T08:48:34.939Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 732,
+          "left_media": {
+            "id": 713,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10895,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 309,
+                "documentId": "eiq3ae9qi0kptmei7cjtml2f",
+                "name": "NanoBnana_2.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 647,
+                "height": 640,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Nano_Bnana_2_57d457920d.webp",
+                    "hash": "small_Nano_Bnana_2_57d457920d",
+                    "mime": "image/webp",
+                    "name": "small_NanoBnana_2.webp",
+                    "path": null,
+                    "size": 37.75,
+                    "width": 500,
+                    "height": 495,
+                    "sizeInBytes": 37754
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Nano_Bnana_2_57d457920d.webp",
+                    "hash": "thumbnail_Nano_Bnana_2_57d457920d",
+                    "mime": "image/webp",
+                    "name": "thumbnail_NanoBnana_2.webp",
+                    "path": null,
+                    "size": 6.51,
+                    "width": 158,
+                    "height": 156,
+                    "sizeInBytes": 6514
+                  }
+                },
+                "hash": "Nano_Bnana_2_57d457920d",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 69.51,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Nano_Bnana_2_57d457920d.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:24:07.443Z",
+                "updatedAt": "2026-04-16T14:24:07.443Z",
+                "publishedAt": "2026-04-16T14:24:07.443Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 724,
+            "description": "Nano Banana 🍌 is capable of generating AI images in seconds — from portraits and landscapes to fantasy art, and more. Just imagine.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5611,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10921,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3997,
+              "heading": "<p>Instant High Quality AI Image Generation</p>"
+            },
+            "legal_text": {
+              "id": 1750,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10947,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 297,
+                "documentId": "cku5egxa16yl7ydikmiaxvx7",
+                "name": "pwrd_gemini.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 167,
+                "height": 38,
+                "formats": null,
+                "hash": "pwrd_gemini_fc7e68601b",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.35,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/pwrd_gemini_fc7e68601b.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T08:48:34.939Z",
+                "updatedAt": "2026-04-14T08:48:34.939Z",
+                "publishedAt": "2026-04-14T08:48:34.939Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 733,
+          "left_media": {
+            "id": 714,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10896,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 308,
+                "documentId": "e2cbhaaimy1bi0yq9908m0b0",
+                "name": "NanoBnana_3.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 651,
+                "height": 651,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Nano_Bnana_3_d74eccb1a5.webp",
+                    "hash": "small_Nano_Bnana_3_d74eccb1a5",
+                    "mime": "image/webp",
+                    "name": "small_NanoBnana_3.webp",
+                    "path": null,
+                    "size": 21.25,
+                    "width": 500,
+                    "height": 500,
+                    "sizeInBytes": 21254
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Nano_Bnana_3_d74eccb1a5.webp",
+                    "hash": "thumbnail_Nano_Bnana_3_d74eccb1a5",
+                    "mime": "image/webp",
+                    "name": "thumbnail_NanoBnana_3.webp",
+                    "path": null,
+                    "size": 4.42,
+                    "width": 156,
+                    "height": 156,
+                    "sizeInBytes": 4424
+                  }
+                },
+                "hash": "Nano_Bnana_3_d74eccb1a5",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 35.04,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Nano_Bnana_3_d74eccb1a5.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:24:07.065Z",
+                "updatedAt": "2026-04-16T14:24:07.065Z",
+                "publishedAt": "2026-04-16T14:24:07.065Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 725,
+            "description": "With Gemini 2.5 Flash Image (Nano Banana), design is easy. Logos, illustrations, photo edits — anything you dream of, made real in an instant.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5612,
+              "href": "https://chat.aichatapp.ai/web-register",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10922,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3998,
+              "heading": "<p>A new way to create stunning artwork</p>"
+            },
+            "legal_text": {
+              "id": 1751,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10948,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 297,
+                "documentId": "cku5egxa16yl7ydikmiaxvx7",
+                "name": "pwrd_gemini.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 167,
+                "height": 38,
+                "formats": null,
+                "hash": "pwrd_gemini_fc7e68601b",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.35,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/pwrd_gemini_fc7e68601b.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-14T08:48:34.939Z",
+                "updatedAt": "2026-04-14T08:48:34.939Z",
+                "publishedAt": "2026-04-14T08:48:34.939Z"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "slug": "image-generator",
+      "seo": {
+        "id": 2615,
+        "title": "AI Chat",
+        "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+      },
+      "slides": [
+        {
+          "id": 721,
+          "left_media": {
+            "id": 715,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10897,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 311,
+                "documentId": "ps5feqk3rqaslwlber1xrgzt",
+                "name": "1-Image-generation.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 545,
+                "height": 545,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_1_Image_generation_15266f83c3.webp",
+                    "hash": "small_1_Image_generation_15266f83c3",
+                    "mime": "image/webp",
+                    "name": "small_1-Image-generation.webp",
+                    "path": null,
+                    "size": 21.25,
+                    "width": 500,
+                    "height": 500,
+                    "sizeInBytes": 21248
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_1_Image_generation_15266f83c3.webp",
+                    "hash": "thumbnail_1_Image_generation_15266f83c3",
+                    "mime": "image/webp",
+                    "name": "thumbnail_1-Image-generation.webp",
+                    "path": null,
+                    "size": 4.19,
+                    "width": 156,
+                    "height": 156,
+                    "sizeInBytes": 4186
+                  }
+                },
+                "hash": "1_Image_generation_15266f83c3",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 30.64,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/1_Image_generation_15266f83c3.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:38:37.367Z",
+                "updatedAt": "2026-04-16T14:38:37.367Z",
+                "publishedAt": "2026-04-16T14:38:37.367Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 713,
+            "description": "Your creativity has no limits. Just describe your idea and AI Chat turns it into stunning visuals—no design skills needed. From imagination to image in seconds, ready to inspire, share, or build upon.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5613,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10923,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 3999,
+              "heading": "<p>Turn Your Ideas into Incredible Images🪄</p>"
+            },
+            "legal_text": {
+              "id": 1752,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10949,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": null
+            }
+          }
+        },
+        {
+          "id": 711,
+          "left_media": {
+            "id": 716,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10898,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 313,
+                "documentId": "rdad582rgcm5n4cz616vx4yq",
+                "name": "Image-generator.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 536,
+                "height": 537,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_Image_generator_619af85953.webp",
+                    "hash": "small_Image_generator_619af85953",
+                    "mime": "image/webp",
+                    "name": "small_Image-generator.webp",
+                    "path": null,
+                    "size": 21.12,
+                    "width": 499,
+                    "height": 500,
+                    "sizeInBytes": 21118
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_Image_generator_619af85953.webp",
+                    "hash": "thumbnail_Image_generator_619af85953",
+                    "mime": "image/webp",
+                    "name": "thumbnail_Image-generator.webp",
+                    "path": null,
+                    "size": 4.35,
+                    "width": 156,
+                    "height": 156,
+                    "sizeInBytes": 4352
+                  }
+                },
+                "hash": "Image_generator_619af85953",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 25.94,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/Image_generator_619af85953.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:38:37.414Z",
+                "updatedAt": "2026-04-16T14:38:37.414Z",
+                "publishedAt": "2026-04-16T14:38:37.414Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 703,
+            "description": "Browse a gallery of AI-created images: characters, landscapes, logos, and artistic styles. Get inspired and create your own with just a prompt.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5614,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10924,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4000,
+              "heading": "<p>Explore a world of AI-generated art</p>"
+            },
+            "legal_text": {
+              "id": 1753,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        },
+        {
+          "id": 712,
+          "left_media": {
+            "id": 717,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10899,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 312,
+                "documentId": "gnh1rs38iteo8bcvo6rftjtp",
+                "name": "3-Image-generation.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 543,
+                "height": 441,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_3_Image_generation_3732f0d08c.webp",
+                    "hash": "small_3_Image_generation_3732f0d08c",
+                    "mime": "image/webp",
+                    "name": "small_3-Image-generation.webp",
+                    "path": null,
+                    "size": 25.01,
+                    "width": 500,
+                    "height": 406,
+                    "sizeInBytes": 25008
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_3_Image_generation_3732f0d08c.webp",
+                    "hash": "thumbnail_3_Image_generation_3732f0d08c",
+                    "mime": "image/webp",
+                    "name": "thumbnail_3-Image-generation.webp",
+                    "path": null,
+                    "size": 6.03,
+                    "width": 192,
+                    "height": 156,
+                    "sizeInBytes": 6034
+                  }
+                },
+                "hash": "3_Image_generation_3732f0d08c",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 27.75,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/3_Image_generation_3732f0d08c.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:38:37.400Z",
+                "updatedAt": "2026-04-16T14:38:37.400Z",
+                "publishedAt": "2026-04-16T14:38:37.400Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 704,
+            "description": "Design visuals for art, social media, branding, or pure imagination. No design skills needed — just describe it and watch it come to life.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5615,
+              "href": "https://chat.aichatapp.ai/web-register",
+              "text": "Join now",
+              "aria_label": "Join now",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10925,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4001,
+              "heading": "<p>Your creativity, powered by AI</p>"
+            },
+            "legal_text": {
+              "id": 1754,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "slug": "deepseek",
+      "seo": {
+        "id": 2616,
+        "title": "AI Chat",
+        "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+      },
+      "slides": [
+        {
+          "id": 734,
+          "left_media": {
+            "id": 718,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10900,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 316,
+                "documentId": "lg8ssx5u3l48p85a9e487y5i",
+                "name": "deepseek-1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 715,
+                "height": 675,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_deepseek_1_def34e7f36.webp",
+                    "hash": "small_deepseek_1_def34e7f36",
+                    "mime": "image/webp",
+                    "name": "small_deepseek-1.webp",
+                    "path": null,
+                    "size": 24.6,
+                    "width": 500,
+                    "height": 472,
+                    "sizeInBytes": 24604
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_deepseek_1_def34e7f36.webp",
+                    "hash": "thumbnail_deepseek_1_def34e7f36",
+                    "mime": "image/webp",
+                    "name": "thumbnail_deepseek-1.webp",
+                    "path": null,
+                    "size": 5.16,
+                    "width": 165,
+                    "height": 156,
+                    "sizeInBytes": 5162
+                  }
+                },
+                "hash": "deepseek_1_def34e7f36",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 42.03,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/deepseek_1_def34e7f36.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:53:50.384Z",
+                "updatedAt": "2026-04-16T14:53:50.384Z",
+                "publishedAt": "2026-04-16T14:53:50.384Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 726,
+            "description": "Chat with DeepSeek latest version. No limits, no delays. Smarter answers, instantly.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5616,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": null
+            },
+            "logo": {
+              "id": 10926,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4002,
+              "heading": "<p>Get unlimited access to DeepSeek</p>"
+            },
+            "legal_text": {
+              "id": 1755,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10950,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 317,
+                "documentId": "ck61sqwhds291iaeq0pwro13",
+                "name": "powered-deepseek.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 203,
+                "height": 38,
+                "formats": null,
+                "hash": "powered_deepseek_8ab38e5682",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.27,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/powered_deepseek_8ab38e5682.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:58:59.699Z",
+                "updatedAt": "2026-04-16T14:58:59.699Z",
+                "publishedAt": "2026-04-16T14:58:59.700Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 735,
+          "left_media": {
+            "id": 719,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10901,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 315,
+                "documentId": "zquvsoujjiua5zglb9nyda2z",
+                "name": "deepseek-2.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 713,
+                "height": 646,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_deepseek_2_e4b6147396.webp",
+                    "hash": "small_deepseek_2_e4b6147396",
+                    "mime": "image/webp",
+                    "name": "small_deepseek-2.webp",
+                    "path": null,
+                    "size": 22.71,
+                    "width": 500,
+                    "height": 453,
+                    "sizeInBytes": 22714
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_deepseek_2_e4b6147396.webp",
+                    "hash": "thumbnail_deepseek_2_e4b6147396",
+                    "mime": "image/webp",
+                    "name": "thumbnail_deepseek-2.webp",
+                    "path": null,
+                    "size": 4.86,
+                    "width": 172,
+                    "height": 156,
+                    "sizeInBytes": 4864
+                  }
+                },
+                "hash": "deepseek_2_e4b6147396",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 35.43,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/deepseek_2_e4b6147396.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:53:50.342Z",
+                "updatedAt": "2026-04-16T14:53:50.342Z",
+                "publishedAt": "2026-04-16T14:53:50.342Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 727,
+            "description": "Ask anything and get fast, accurate responses from DeepSeek and more.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5617,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10927,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4003,
+              "heading": "<p>Get instant answers on any topic</p>"
+            },
+            "legal_text": {
+              "id": 1756,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10951,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 317,
+                "documentId": "ck61sqwhds291iaeq0pwro13",
+                "name": "powered-deepseek.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 203,
+                "height": 38,
+                "formats": null,
+                "hash": "powered_deepseek_8ab38e5682",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.27,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/powered_deepseek_8ab38e5682.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:58:59.699Z",
+                "updatedAt": "2026-04-16T14:58:59.699Z",
+                "publishedAt": "2026-04-16T14:58:59.700Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 736,
+          "left_media": {
+            "id": 720,
+            "backgroundColor": "rgb(249, 249, 249)",
+            "media": {
+              "id": 10902,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 314,
+                "documentId": "gxhqqr83obf0k1x48w6job89",
+                "name": "deepseek-3.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 941,
+                "height": 592,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_deepseek_3_62ac52c303.webp",
+                    "hash": "small_deepseek_3_62ac52c303",
+                    "mime": "image/webp",
+                    "name": "small_deepseek-3.webp",
+                    "path": null,
+                    "size": 18.25,
+                    "width": 500,
+                    "height": 315,
+                    "sizeInBytes": 18252
+                  },
+                  "medium": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_deepseek_3_62ac52c303.webp",
+                    "hash": "medium_deepseek_3_62ac52c303",
+                    "mime": "image/webp",
+                    "name": "medium_deepseek-3.webp",
+                    "path": null,
+                    "size": 34.17,
+                    "width": 750,
+                    "height": 472,
+                    "sizeInBytes": 34168
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_deepseek_3_62ac52c303.webp",
+                    "hash": "thumbnail_deepseek_3_62ac52c303",
+                    "mime": "image/webp",
+                    "name": "thumbnail_deepseek-3.webp",
+                    "path": null,
+                    "size": 5.76,
+                    "width": 245,
+                    "height": 154,
+                    "sizeInBytes": 5764
+                  }
+                },
+                "hash": "deepseek_3_62ac52c303",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 51.14,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/deepseek_3_62ac52c303.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:53:50.327Z",
+                "updatedAt": "2026-04-16T14:53:50.327Z",
+                "publishedAt": "2026-04-16T14:53:50.327Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 728,
+            "description": "Use DeepSeek directly in our platform—no copy-pasting, no switching tabs, just answers, faster.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5618,
+              "href": "https://chat.aichatapp.ai/web-register",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10928,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4004,
+              "heading": "<p>Smarter answers, seamlessly integrated</p>"
+            },
+            "legal_text": {
+              "id": 1757,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": {
+              "id": 10952,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 317,
+                "documentId": "ck61sqwhds291iaeq0pwro13",
+                "name": "powered-deepseek.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 203,
+                "height": 38,
+                "formats": null,
+                "hash": "powered_deepseek_8ab38e5682",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.27,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/powered_deepseek_8ab38e5682.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T14:58:59.699Z",
+                "updatedAt": "2026-04-16T14:58:59.699Z",
+                "publishedAt": "2026-04-16T14:58:59.700Z"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "slug": "gemini-3-pro",
+      "seo": {
+        "id": 2617,
+        "title": "AI Chat",
+        "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+      },
+      "slides": [
+        {
+          "id": 713,
+          "left_media": {
+            "id": 721,
+            "backgroundColor": null,
+            "media": {
+              "id": 10903,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 319,
+                "documentId": "phb1ppweus2r5hshtioous4s",
+                "name": "v2-slide-1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 714,
+                "height": 710,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_v2_slide_1_563d9be04c.webp",
+                    "hash": "small_v2_slide_1_563d9be04c",
+                    "mime": "image/webp",
+                    "name": "small_v2-slide-1.webp",
+                    "path": null,
+                    "size": 25.7,
+                    "width": 500,
+                    "height": 497,
+                    "sizeInBytes": 25698
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_v2_slide_1_563d9be04c.webp",
+                    "hash": "thumbnail_v2_slide_1_563d9be04c",
+                    "mime": "image/webp",
+                    "name": "thumbnail_v2-slide-1.webp",
+                    "path": null,
+                    "size": 4.81,
+                    "width": 157,
+                    "height": 156,
+                    "sizeInBytes": 4806
+                  }
+                },
+                "hash": "v2_slide_1_563d9be04c",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 41.22,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/v2_slide_1_563d9be04c.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-16T15:09:13.326Z",
+                "updatedAt": "2026-04-16T15:09:13.326Z",
+                "publishedAt": "2026-04-16T15:09:13.326Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 705,
+            "description": "Engage in limitless conversation with AI Chat. Get expert AI answers powered with GPT-5.4.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5619,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10929,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4005,
+              "heading": "<p><span style=\"color:#01b78d;\">Get unlimited access to</span> OpenAI</p>"
+            },
+            "legal_text": {
+              "id": 1758,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        },
+        {
+          "id": 714,
+          "left_media": {
+            "id": 722,
+            "backgroundColor": null,
+            "media": {
+              "id": 10904,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 324,
+                "documentId": "r90p3a7jmq38540bwy7o425p",
+                "name": "AI_Chat_image1 (en)-1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1763,
+                "height": 1056,
+                "formats": {
+                  "large": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/large_AI_Chat_image1_en_1_bb2d8a42ec.webp",
+                    "hash": "large_AI_Chat_image1_en_1_bb2d8a42ec",
+                    "mime": "image/webp",
+                    "name": "large_AI_Chat_image1 (en)-1.webp",
+                    "path": null,
+                    "size": 28.8,
+                    "width": 1000,
+                    "height": 599,
+                    "sizeInBytes": 28798
+                  },
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_AI_Chat_image1_en_1_bb2d8a42ec.webp",
+                    "hash": "small_AI_Chat_image1_en_1_bb2d8a42ec",
+                    "mime": "image/webp",
+                    "name": "small_AI_Chat_image1 (en)-1.webp",
+                    "path": null,
+                    "size": 10.82,
+                    "width": 500,
+                    "height": 299,
+                    "sizeInBytes": 10822
+                  },
+                  "medium": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_AI_Chat_image1_en_1_bb2d8a42ec.webp",
+                    "hash": "medium_AI_Chat_image1_en_1_bb2d8a42ec",
+                    "mime": "image/webp",
+                    "name": "medium_AI_Chat_image1 (en)-1.webp",
+                    "path": null,
+                    "size": 19.84,
+                    "width": 750,
+                    "height": 449,
+                    "sizeInBytes": 19842
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_AI_Chat_image1_en_1_bb2d8a42ec.webp",
+                    "hash": "thumbnail_AI_Chat_image1_en_1_bb2d8a42ec",
+                    "mime": "image/webp",
+                    "name": "thumbnail_AI_Chat_image1 (en)-1.webp",
+                    "path": null,
+                    "size": 3.48,
+                    "width": 245,
+                    "height": 147,
+                    "sizeInBytes": 3480
+                  }
+                },
+                "hash": "AI_Chat_image1_en_1_bb2d8a42ec",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 63.22,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/AI_Chat_image1_en_1_bb2d8a42ec.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-17T12:10:45.832Z",
+                "updatedAt": "2026-04-17T12:10:45.832Z",
+                "publishedAt": "2026-04-17T12:10:45.832Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 706,
+            "description": "Get expert AI-driven answers, powered by GPT-5.4, instantly and with unmatched accuracy.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5620,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10930,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4006,
+              "heading": "<p>Get Real-Time <span style=\"color:#01b78d;\">Answers</span></p>"
+            },
+            "legal_text": {
+              "id": 1759,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        },
+        {
+          "id": 715,
+          "left_media": {
+            "id": 723,
+            "backgroundColor": null,
+            "media": {
+              "id": 10905,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 323,
+                "documentId": "h673cclku4j986e0vnmv2xar",
+                "name": "EN Chat AI GIF 1 R2.webm",
+                "alternativeText": null,
+                "caption": null,
+                "width": null,
+                "height": null,
+                "formats": null,
+                "hash": "EN_Chat_AI_GIF_1_R2_b7fc053229",
+                "ext": ".webm",
+                "mime": "video/webm",
+                "size": 502.85,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/EN_Chat_AI_GIF_1_R2_b7fc053229.webm",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-17T09:34:07.509Z",
+                "updatedAt": "2026-04-17T09:34:07.509Z",
+                "publishedAt": "2026-04-17T09:34:07.509Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 707,
+            "description": "Seamless answers, anytime, anywhere as AI Chat Webapp is ready to help with anything.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5621,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10931,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4007,
+              "heading": "<p>AI that <span style=\"color:#01b78d;\">moves with You</span></p>"
+            },
+            "legal_text": {
+              "id": 1760,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        },
+        {
+          "id": 716,
+          "left_media": {
+            "id": 724,
+            "backgroundColor": null,
+            "media": {
+              "id": 10906,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 321,
+                "documentId": "oey3jo1to8mrg0mngjod1xzi",
+                "name": "onboarding 3_EN.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 538,
+                "height": 518,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_onboarding_3_EN_7271cca071.webp",
+                    "hash": "small_onboarding_3_EN_7271cca071",
+                    "mime": "image/webp",
+                    "name": "small_onboarding 3_EN.webp",
+                    "path": null,
+                    "size": 29.87,
+                    "width": 500,
+                    "height": 481,
+                    "sizeInBytes": 29874
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_onboarding_3_EN_7271cca071.webp",
+                    "hash": "thumbnail_onboarding_3_EN_7271cca071",
+                    "mime": "image/webp",
+                    "name": "thumbnail_onboarding 3_EN.webp",
+                    "path": null,
+                    "size": 5.28,
+                    "width": 162,
+                    "height": 156,
+                    "sizeInBytes": 5282
+                  }
+                },
+                "hash": "onboarding_3_EN_7271cca071",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 35.05,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_3_EN_7271cca071.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-17T07:59:33.429Z",
+                "updatedAt": "2026-04-17T07:59:33.429Z",
+                "publishedAt": "2026-04-17T07:59:33.429Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 708,
+            "description": "Step into the Future with AI Chat, Pushing the Boundaries of Innovation.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5622,
+              "href": "https://chat.aichatapp.ai/web-register",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10932,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4008,
+              "heading": "<p>Push the <span style=\"color:#01b78d;\">Limits of Innovation</span></p>"
+            },
+            "legal_text": {
+              "id": 1761,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "slug": "v2",
+      "seo": {
+        "id": 2618,
+        "title": "AI Chat",
+        "description": "An advanced multiplatform AI chat that offers OpenAi ChatGPT, Gemini, Claude and others AIs engineered to deliver sharp responses and enable a seamless user experience."
+      },
+      "slides": [
+        {
+          "id": 717,
+          "left_media": {
+            "id": 725,
+            "backgroundColor": null,
+            "media": {
+              "id": 10907,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 293,
+                "documentId": "l2tlkab15ofu83xt9nqfuoe1",
+                "name": "4a9a9fe1-onboarding-2.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 714,
+                "height": 710,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_4a9a9fe1_onboarding_2_46bf1f6745.webp",
+                    "hash": "small_4a9a9fe1_onboarding_2_46bf1f6745",
+                    "mime": "image/webp",
+                    "name": "small_4a9a9fe1-onboarding-2.webp",
+                    "path": null,
+                    "size": 25.75,
+                    "width": 500,
+                    "height": 497,
+                    "sizeInBytes": 25746
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_4a9a9fe1_onboarding_2_46bf1f6745.webp",
+                    "hash": "thumbnail_4a9a9fe1_onboarding_2_46bf1f6745",
+                    "mime": "image/webp",
+                    "name": "thumbnail_4a9a9fe1-onboarding-2.webp",
+                    "path": null,
+                    "size": 4.81,
+                    "width": 157,
+                    "height": 156,
+                    "sizeInBytes": 4810
+                  }
+                },
+                "hash": "4a9a9fe1_onboarding_2_46bf1f6745",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 42.94,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/4a9a9fe1_onboarding_2_46bf1f6745.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-13T14:52:10.012Z",
+                "updatedAt": "2026-04-13T14:52:10.012Z",
+                "publishedAt": "2026-04-13T14:52:10.013Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 709,
+            "description": "Engage in limitless conversation with AI Chat. Get expert AI answers powered with GPT-5.4.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5623,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10933,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4009,
+              "heading": "<p><span style=\"color:#01b78d;\">Get unlimited access to</span> OpenAI</p>"
+            },
+            "legal_text": {
+              "id": 1762,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        },
+        {
+          "id": 718,
+          "left_media": {
+            "id": 726,
+            "backgroundColor": null,
+            "media": {
+              "id": 10908,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 322,
+                "documentId": "pksin53er9a8c7jl33i4fpqr",
+                "name": "AI_Chat_image1 (en)-1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1763,
+                "height": 1056,
+                "formats": {
+                  "large": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/large_AI_Chat_image1_en_1_95d1eb177f.webp",
+                    "hash": "large_AI_Chat_image1_en_1_95d1eb177f",
+                    "mime": "image/webp",
+                    "name": "large_AI_Chat_image1 (en)-1.webp",
+                    "path": null,
+                    "size": 28.8,
+                    "width": 1000,
+                    "height": 599,
+                    "sizeInBytes": 28798
+                  },
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_AI_Chat_image1_en_1_95d1eb177f.webp",
+                    "hash": "small_AI_Chat_image1_en_1_95d1eb177f",
+                    "mime": "image/webp",
+                    "name": "small_AI_Chat_image1 (en)-1.webp",
+                    "path": null,
+                    "size": 10.82,
+                    "width": 500,
+                    "height": 299,
+                    "sizeInBytes": 10822
+                  },
+                  "medium": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_AI_Chat_image1_en_1_95d1eb177f.webp",
+                    "hash": "medium_AI_Chat_image1_en_1_95d1eb177f",
+                    "mime": "image/webp",
+                    "name": "medium_AI_Chat_image1 (en)-1.webp",
+                    "path": null,
+                    "size": 19.84,
+                    "width": 750,
+                    "height": 449,
+                    "sizeInBytes": 19842
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_AI_Chat_image1_en_1_95d1eb177f.webp",
+                    "hash": "thumbnail_AI_Chat_image1_en_1_95d1eb177f",
+                    "mime": "image/webp",
+                    "name": "thumbnail_AI_Chat_image1 (en)-1.webp",
+                    "path": null,
+                    "size": 3.48,
+                    "width": 245,
+                    "height": 147,
+                    "sizeInBytes": 3480
+                  }
+                },
+                "hash": "AI_Chat_image1_en_1_95d1eb177f",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 63.22,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/AI_Chat_image1_en_1_95d1eb177f.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-17T08:17:16.442Z",
+                "updatedAt": "2026-04-17T08:17:16.442Z",
+                "publishedAt": "2026-04-17T08:17:16.442Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 710,
+            "description": "Get expert AI-driven answers, powered by GPT-5.4, instantly and with unmatched accuracy.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5624,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10934,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4010,
+              "heading": "<p>Get Real-Time <span style=\"color:#01b78d;\">Answers</span></p>"
+            },
+            "legal_text": {
+              "id": 1763,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        },
+        {
+          "id": 719,
+          "left_media": {
+            "id": 727,
+            "backgroundColor": null,
+            "media": {
+              "id": 10909,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 292,
+                "documentId": "rkou7kkerkh4esrnu8o82iqw",
+                "name": "EN-Chat-AI-GIF-1-R2-Dark-11.mp4",
+                "alternativeText": null,
+                "caption": null,
+                "width": null,
+                "height": null,
+                "formats": null,
+                "hash": "EN_Chat_AI_GIF_1_R2_Dark_11_f97a850a17",
+                "ext": ".mp4",
+                "mime": "video/mp4",
+                "size": 3076.93,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/EN_Chat_AI_GIF_1_R2_Dark_11_f97a850a17.mp4",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-13T14:52:09.731Z",
+                "updatedAt": "2026-04-13T14:52:09.731Z",
+                "publishedAt": "2026-04-13T14:52:09.732Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 711,
+            "description": "Seamless answers, anytime, anywhere as AI Chat Webapp is ready to help with anything.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5625,
+              "href": "#",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10935,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4011,
+              "heading": "<p>AI that <span style=\"color:#01b78d;\">moves with You</span></p>"
+            },
+            "legal_text": {
+              "id": 1764,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        },
+        {
+          "id": 720,
+          "left_media": {
+            "id": 728,
+            "backgroundColor": null,
+            "media": {
+              "id": 10910,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 291,
+                "documentId": "ydu0yqvfikr6t28f6m122xlr",
+                "name": "onboarding-3_EN-2-1.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 538,
+                "height": 518,
+                "formats": {
+                  "small": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_onboarding_3_EN_2_1_9954c3c505.webp",
+                    "hash": "small_onboarding_3_EN_2_1_9954c3c505",
+                    "mime": "image/webp",
+                    "name": "small_onboarding-3_EN-2-1.webp",
+                    "path": null,
+                    "size": 29.87,
+                    "width": 500,
+                    "height": 481,
+                    "sizeInBytes": 29874
+                  },
+                  "thumbnail": {
+                    "ext": ".webp",
+                    "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_onboarding_3_EN_2_1_9954c3c505.webp",
+                    "hash": "thumbnail_onboarding_3_EN_2_1_9954c3c505",
+                    "mime": "image/webp",
+                    "name": "thumbnail_onboarding-3_EN-2-1.webp",
+                    "path": null,
+                    "size": 5.28,
+                    "width": 162,
+                    "height": 156,
+                    "sizeInBytes": 5282
+                  }
+                },
+                "hash": "onboarding_3_EN_2_1_9954c3c505",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 35.05,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_3_EN_2_1_9954c3c505.webp",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-04-13T14:52:09.382Z",
+                "updatedAt": "2026-04-13T14:52:09.382Z",
+                "publishedAt": "2026-04-13T14:52:09.382Z"
+              }
+            }
+          },
+          "right_text": {
+            "id": 712,
+            "description": "Step into the Future with AI Chat, Pushing the Boundaries of Innovation.",
+            "backgroundColor": null,
+            "cta": {
+              "id": 5626,
+              "href": "https://chat.aichatapp.ai/web-register",
+              "text": "Continue",
+              "aria_label": "Continue",
+              "icon": "arrow-right",
+              "wide": true
+            },
+            "logo": {
+              "id": 10936,
+              "alt": null,
+              "aria_label": null,
+              "dark": null,
+              "light": {
+                "id": 59,
+                "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+                "name": "onboarding-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 356,
+                "height": 372,
+                "formats": null,
+                "hash": "onboarding_logo_2d2babe0e4",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.26,
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2026-03-10T14:37:47.050Z",
+                "updatedAt": "2026-03-25T08:31:04.673Z",
+                "publishedAt": "2026-03-10T14:37:47.050Z"
+              }
+            },
+            "title": {
+              "id": 4012,
+              "heading": "<p>Push the <span style=\"color:#01b78d;\">Limits of Innovation</span></p>"
+            },
+            "legal_text": {
+              "id": 1765,
+              "fe_component": null,
+              "title": null,
+              "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+            },
+            "legal_image": null
+          }
+        }
+      ]
+    }
+  ],
+  "localizations": [
+    {
+      "id": 79,
+      "documentId": "lrgn0i9ad59mq8ts2y5e0uiv",
+      "environment": "production",
+      "identifier": "ai-chat",
+      "locale_display": "en",
+      "default_slug": "onboarding",
+      "createdAt": "2026-04-21T14:49:35.324Z",
+      "updatedAt": "2026-04-21T15:37:21.643Z",
+      "publishedAt": null,
+      "locale": "fr"
+    },
+    {
+      "id": 60,
+      "documentId": "lrgn0i9ad59mq8ts2y5e0uiv",
+      "environment": "production",
+      "identifier": "ai-chat",
+      "locale_display": "en",
+      "default_slug": "onboarding",
+      "createdAt": "2026-04-21T09:38:15.607Z",
+      "updatedAt": "2026-04-21T11:11:23.856Z",
+      "publishedAt": null,
+      "locale": "es"
+    },
+    {
+      "id": 74,
+      "documentId": "lrgn0i9ad59mq8ts2y5e0uiv",
+      "environment": "production",
+      "identifier": "ai-chat",
+      "locale_display": "en",
+      "default_slug": "onboarding",
+      "createdAt": "2026-04-21T14:04:10.708Z",
+      "updatedAt": "2026-04-21T14:46:17.119Z",
+      "publishedAt": null,
+      "locale": "de"
+    },
+    {
+      "id": 61,
+      "documentId": "lrgn0i9ad59mq8ts2y5e0uiv",
+      "environment": "production",
+      "identifier": "ai-chat",
+      "locale_display": "en",
+      "default_slug": "onboarding",
+      "createdAt": "2026-04-21T09:41:01.106Z",
+      "updatedAt": "2026-04-21T13:48:12.450Z",
+      "publishedAt": null,
+      "locale": "nl"
+    },
+    {
+      "id": 63,
+      "documentId": "lrgn0i9ad59mq8ts2y5e0uiv",
+      "environment": "production",
+      "identifier": "ai-chat",
+      "locale_display": "kr",
+      "default_slug": "onboarding",
+      "createdAt": "2026-04-21T12:02:40.046Z",
+      "updatedAt": "2026-04-22T09:36:51.572Z",
+      "publishedAt": null,
+      "locale": "ko-KR"
+    }
+  ],
+  "default_slides": [
+    {
+      "id": 708,
+      "left_media": {
+        "id": 699,
+        "backgroundColor": null,
+        "media": {
+          "id": 10878,
+          "alt": null,
+          "aria_label": null,
+          "dark": null,
+          "light": {
+            "id": 293,
+            "documentId": "l2tlkab15ofu83xt9nqfuoe1",
+            "name": "4a9a9fe1-onboarding-2.webp",
+            "alternativeText": null,
+            "caption": null,
+            "width": 714,
+            "height": 710,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_4a9a9fe1_onboarding_2_46bf1f6745.webp",
+                "hash": "small_4a9a9fe1_onboarding_2_46bf1f6745",
+                "mime": "image/webp",
+                "name": "small_4a9a9fe1-onboarding-2.webp",
+                "path": null,
+                "size": 25.75,
+                "width": 500,
+                "height": 497,
+                "sizeInBytes": 25746
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_4a9a9fe1_onboarding_2_46bf1f6745.webp",
+                "hash": "thumbnail_4a9a9fe1_onboarding_2_46bf1f6745",
+                "mime": "image/webp",
+                "name": "thumbnail_4a9a9fe1-onboarding-2.webp",
+                "path": null,
+                "size": 4.81,
+                "width": 157,
+                "height": 156,
+                "sizeInBytes": 4810
+              }
+            },
+            "hash": "4a9a9fe1_onboarding_2_46bf1f6745",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 42.94,
+            "url": "https://big-dog-9e75d2515f.media.strapiapp.com/4a9a9fe1_onboarding_2_46bf1f6745.webp",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2026-04-13T14:52:10.012Z",
+            "updatedAt": "2026-04-13T14:52:10.012Z",
+            "publishedAt": "2026-04-13T14:52:10.013Z"
+          }
+        }
+      },
+      "right_text": {
+        "id": 700,
+        "description": "\nEngage in limitless conversation with AI Chat, Get expert AI answers powered with GPT-5.4",
+        "backgroundColor": null,
+        "cta": {
+          "id": 5598,
+          "href": "#",
+          "text": "Continue",
+          "aria_label": "Continue",
+          "icon": "arrow-right",
+          "wide": true
+        },
+        "logo": {
+          "id": 10882,
+          "alt": null,
+          "aria_label": null,
+          "dark": null,
+          "light": {
+            "id": 59,
+            "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+            "name": "onboarding-logo.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 356,
+            "height": 372,
+            "formats": null,
+            "hash": "onboarding_logo_2d2babe0e4",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 4.26,
+            "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2026-03-10T14:37:47.050Z",
+            "updatedAt": "2026-03-25T08:31:04.673Z",
+            "publishedAt": "2026-03-10T14:37:47.050Z"
+          }
+        },
+        "title": {
+          "id": 3984,
+          "heading": "<p><span style=\"color:#01b78d;\">Get unlimited access to</span> OpenAI</p>"
+        },
+        "legal_text": {
+          "id": 1737,
+          "fe_component": null,
+          "title": null,
+          "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+        },
+        "legal_image": null
+      }
+    },
+    {
+      "id": 709,
+      "left_media": {
+        "id": 700,
+        "backgroundColor": null,
+        "media": {
+          "id": 10879,
+          "alt": null,
+          "aria_label": null,
+          "dark": null,
+          "light": {
+            "id": 289,
+            "documentId": "vfe7it6gy3ont33dhnx2lxhx",
+            "name": "onboarding1-1-1024x613.webp",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1024,
+            "height": 613,
+            "formats": {
+              "large": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/large_onboarding1_1_1024x613_0fe5dd2f13.webp",
+                "hash": "large_onboarding1_1_1024x613_0fe5dd2f13",
+                "mime": "image/webp",
+                "name": "large_onboarding1-1-1024x613.webp",
+                "path": null,
+                "size": 30.21,
+                "width": 1000,
+                "height": 599,
+                "sizeInBytes": 30206
+              },
+              "small": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_onboarding1_1_1024x613_0fe5dd2f13.webp",
+                "hash": "small_onboarding1_1_1024x613_0fe5dd2f13",
+                "mime": "image/webp",
+                "name": "small_onboarding1-1-1024x613.webp",
+                "path": null,
+                "size": 11.83,
+                "width": 500,
+                "height": 299,
+                "sizeInBytes": 11826
+              },
+              "medium": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/medium_onboarding1_1_1024x613_0fe5dd2f13.webp",
+                "hash": "medium_onboarding1_1_1024x613_0fe5dd2f13",
+                "mime": "image/webp",
+                "name": "medium_onboarding1-1-1024x613.webp",
+                "path": null,
+                "size": 21.37,
+                "width": 750,
+                "height": 449,
+                "sizeInBytes": 21374
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_onboarding1_1_1024x613_0fe5dd2f13.webp",
+                "hash": "thumbnail_onboarding1_1_1024x613_0fe5dd2f13",
+                "mime": "image/webp",
+                "name": "thumbnail_onboarding1-1-1024x613.webp",
+                "path": null,
+                "size": 3.77,
+                "width": 245,
+                "height": 147,
+                "sizeInBytes": 3772
+              }
+            },
+            "hash": "onboarding1_1_1024x613_0fe5dd2f13",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 33.81,
+            "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding1_1_1024x613_0fe5dd2f13.webp",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2026-04-13T10:53:31.552Z",
+            "updatedAt": "2026-04-13T14:51:15.852Z",
+            "publishedAt": "2026-04-13T10:53:31.552Z"
+          }
+        }
+      },
+      "right_text": {
+        "id": 701,
+        "description": "Get expert AI-driven answers, powered by GPT-5.4, instantly and with unmatched accuracy",
+        "backgroundColor": null,
+        "cta": {
+          "id": 5599,
+          "href": "#",
+          "text": "Continue",
+          "aria_label": "Continue",
+          "icon": "arrow-right",
+          "wide": true
+        },
+        "logo": {
+          "id": 10883,
+          "alt": null,
+          "aria_label": null,
+          "dark": null,
+          "light": {
+            "id": 59,
+            "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+            "name": "onboarding-logo.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 356,
+            "height": 372,
+            "formats": null,
+            "hash": "onboarding_logo_2d2babe0e4",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 4.26,
+            "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2026-03-10T14:37:47.050Z",
+            "updatedAt": "2026-03-25T08:31:04.673Z",
+            "publishedAt": "2026-03-10T14:37:47.050Z"
+          }
+        },
+        "title": {
+          "id": 3985,
+          "heading": "<p>Get Real-Time <span style=\"color:#01b78d;\">Answers</span></p>"
+        },
+        "legal_text": {
+          "id": 1738,
+          "fe_component": null,
+          "title": null,
+          "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+        },
+        "legal_image": null
+      }
+    },
+    {
+      "id": 710,
+      "left_media": {
+        "id": 701,
+        "backgroundColor": null,
+        "media": {
+          "id": 10880,
+          "alt": null,
+          "aria_label": null,
+          "dark": null,
+          "light": {
+            "id": 286,
+            "documentId": "hho6xa3d3tdrrw0za3092mpw",
+            "name": "EN-Chat-AI-GIF-1-R2-2.webm",
+            "alternativeText": null,
+            "caption": null,
+            "width": null,
+            "height": null,
+            "formats": null,
+            "hash": "EN_Chat_AI_GIF_1_R2_2_407c128761",
+            "ext": ".webm",
+            "mime": "video/webm",
+            "size": 502.85,
+            "url": "https://big-dog-9e75d2515f.media.strapiapp.com/EN_Chat_AI_GIF_1_R2_2_407c128761.webm",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2026-04-13T10:53:31.094Z",
+            "updatedAt": "2026-04-13T14:51:31.244Z",
+            "publishedAt": "2026-04-13T10:53:31.094Z"
+          }
+        }
+      },
+      "right_text": {
+        "id": 702,
+        "description": "Seamless answers, anytime, anywhere as AI Chat Webapp is ready to help with anything.",
+        "backgroundColor": null,
+        "cta": {
+          "id": 5600,
+          "href": "#",
+          "text": "Continue",
+          "aria_label": "Continue",
+          "icon": "arrow-right",
+          "wide": true
+        },
+        "logo": {
+          "id": 10884,
+          "alt": null,
+          "aria_label": null,
+          "dark": null,
+          "light": {
+            "id": 59,
+            "documentId": "vnsz7y71w484v1jkmh4xbr6j",
+            "name": "onboarding-logo.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 356,
+            "height": 372,
+            "formats": null,
+            "hash": "onboarding_logo_2d2babe0e4",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 4.26,
+            "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_logo_2d2babe0e4.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2026-03-10T14:37:47.050Z",
+            "updatedAt": "2026-03-25T08:31:04.673Z",
+            "publishedAt": "2026-03-10T14:37:47.050Z"
+          }
+        },
+        "title": {
+          "id": 3986,
+          "heading": "<p><span style=\"color:#01b78d;\">AI that</span> Moves with You</p>"
+        },
+        "legal_text": {
+          "id": 1739,
+          "fe_component": null,
+          "title": null,
+          "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+        },
+        "legal_image": null
+      }
+    },
+    {
+      "id": 707,
+      "left_media": {
+        "id": 702,
+        "backgroundColor": null,
+        "media": {
+          "id": 10881,
+          "alt": null,
+          "aria_label": null,
+          "dark": null,
+          "light": {
+            "id": 288,
+            "documentId": "vx6j3ioopf2e1l2q6p6o1ey2",
+            "name": "onboarding-3_EN.webp",
+            "alternativeText": null,
+            "caption": null,
+            "width": 538,
+            "height": 518,
+            "formats": {
+              "small": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/small_onboarding_3_EN_6eb1b9da8b.webp",
+                "hash": "small_onboarding_3_EN_6eb1b9da8b",
+                "mime": "image/webp",
+                "name": "small_onboarding-3_EN.webp",
+                "path": null,
+                "size": 29.87,
+                "width": 500,
+                "height": 481,
+                "sizeInBytes": 29874
+              },
+              "thumbnail": {
+                "ext": ".webp",
+                "url": "https://big-dog-9e75d2515f.media.strapiapp.com/thumbnail_onboarding_3_EN_6eb1b9da8b.webp",
+                "hash": "thumbnail_onboarding_3_EN_6eb1b9da8b",
+                "mime": "image/webp",
+                "name": "thumbnail_onboarding-3_EN.webp",
+                "path": null,
+                "size": 5.28,
+                "width": 162,
+                "height": 156,
+                "sizeInBytes": 5282
+              }
+            },
+            "hash": "onboarding_3_EN_6eb1b9da8b",
+            "ext": ".webp",
+            "mime": "image/webp",
+            "size": 35.05,
+            "url": "https://big-dog-9e75d2515f.media.strapiapp.com/onboarding_3_EN_6eb1b9da8b.webp",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2026-04-13T10:53:31.302Z",
+            "updatedAt": "2026-04-13T14:51:20.994Z",
+            "publishedAt": "2026-04-13T10:53:31.302Z"
+          }
+        }
+      },
+      "right_text": {
+        "id": 699,
+        "description": "Step into the Future with AI Chat, Pushing the Boundaries of Innovation.",
+        "backgroundColor": null,
+        "cta": {
+          "id": 5597,
+          "href": "https://chat.aichatapp.ai/web-register",
+          "text": "Continue",
+          "aria_label": "Continue",
+          "icon": "arrow-right",
+          "wide": true
+        },
+        "logo": null,
+        "title": {
+          "id": 3983,
+          "heading": "<p>Push the <span style=\"color:#01b78d;\">Limits of Innovation</span></p>"
+        },
+        "legal_text": {
+          "id": 1736,
+          "fe_component": null,
+          "title": null,
+          "content": "<p>By messaging AI Chat, you agree to our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/terms-and-conditions/\" aria-label=\"https://aichatapp.ai/terms-and-conditions/\" data-tooltip-position=\"top\"><u>Terms of Service</u></a> and acknowledge our <a class=\"external-link\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" aria-label=\"https://aichatapp.ai/privacy-policy-and-cookie-policy/\" data-tooltip-position=\"top\"><u>Privacy Policy</u></a>.</p>"
+        },
+        "legal_image": null
+      }
+    }
+  ]
+}

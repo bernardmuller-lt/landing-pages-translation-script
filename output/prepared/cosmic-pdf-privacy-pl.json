@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "pl",
+    "locale_display": "pl",
+    "seo": {
+      "title": "Polityka prywatności · CosmicPDF",
+      "description": "Ostatnia aktualizacja: 30 kwietnia 2026 r"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Wstęp",
+        "content": "<p>Witamy w CosmicPDF. Szanujemy Twoją prywatność i zobowiązujemy się do ochrony Twoich danych osobowych. Niniejsza polityka opisuje, w jaki sposób postępujemy z informacjami, gdy odwiedzasz naszą witrynę marketingową i gdy korzystasz z produktu CosmicPDF.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "Informacje, które zbieramy",
+        "content": "<p>Możemy gromadzić i przetwarzać takie kategorie informacji, jak:</p><p><strong>Dane identyfikacyjne:</strong> imię i nazwisko oraz podobne identyfikatory.</p><p><strong>Dane kontaktowe:</strong> adres e-mail i numery telefonów, jeśli zostały podane.</p><p><strong>Dane techniczne:</strong> Adres IP, typ przeglądarki, urządzenie i dane diagnostyczne.</p><p><strong>Dane dotyczące użytkowania:</strong> informacje o tym, jak korzystasz z naszej strony internetowej i usług.</p><p><strong>Dane dokumentu:</strong> pliki, które przesyłasz do przetwarzania w produkcie.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "Witryna marketingowa",
+        "content": "<p>W tym repozytorium znajduje się statyczna witryna marketingowa. Nie wykonuje przetwarzania po stronie serwera w przypadku przesyłania. Zgodnie z oceną bezpieczeństwa wszelkie przekazywanie plików powinno zostać zaimplementowane w aplikacji produktu.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Kontakt",
+        "content": "<p>Pytania dotyczące prywatności:</p><p>prywatność@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

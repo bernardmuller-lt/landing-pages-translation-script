@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "ja-JP",
+    "locale_display": "jp",
+    "seo": {
+      "title": "プライバシーポリシー · CosmicPDF",
+      "description": "最終更新日: 2026 年 4 月 30 日"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "導入",
+        "content": "<p>CosmicPDF へようこそ。 当社はお客様のプライバシーを尊重し、個人データの保護に努めます。 このポリシーでは、お客様が当社のマーケティング サイトにアクセスしたとき、および CosmicPDF 製品を使用したときの情報の処理方法について説明します。</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "当社が収集する情報",
+        "content": "<p>当社は、次のようなカテゴリの情報を収集および処理する場合があります。</p><p><strong>アイデンティティデータ:</strong> 名前と同様の識別子。</p><p><strong>連絡先データ:</strong> 提供されている場合は、電子メール アドレスと電話番号。</p><p><strong>技術データ:</strong> IP アドレス、ブラウザの種類、デバイスおよび診断データ。</p><p><strong>使用状況データ:</strong> 当社のウェブサイトおよびサービスの使用方法に関する情報。</p><p><strong>文書データ:</strong> 製品で処理するためにアップロードするファイル。</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "マーケティングサイト",
+        "content": "<p>このリポジトリは、静的なマーケティング サイトをホストします。 アップロードのためのサーバー側の処理は実行されません。 ファイルのハンドオフは、セキュリティ レビューに従って製品アプリケーションに実装する必要があります。</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "接触",
+        "content": "<p>プライバシーに関する質問:</p><p>プライバシー@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

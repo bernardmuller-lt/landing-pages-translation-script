@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "siteName": "CosmicPDF",
+    "defaultDescription": "CosmicPDF — AI を活用した PDF の編集、変換、安全な共有。",
+    "titleSuffix": "CosmicPDF",
+    "redirecting": "CosmicPDF へのリダイレクト",
+    "redirectingBody": "CosmicPDF アプリにリダイレクトしています…",
+    "continue": "続く"
+  },
+  "nav": {
+    "features": "特徴",
+    "pricing": "価格設定",
+    "forms": "フォーム",
+    "about": "について",
+    "getStarted": "始めましょう",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "mobileNote": "すべてのツールは、このサイトの /tools/… の下にあります。",
+    "selectLanguage": "言語を選択してください"
+  },
+  "toolCategories": {
+    "security": "セキュリティPDF",
+    "splitMerge": "分割と結合",
+    "editPdf": "PDFの編集",
+    "convertFromPdf": "PDFから変換",
+    "convertToPdf": "PDFに変換",
+    "compress": "圧縮する"
+  },
+  "toolNames": {
+    "sign-pdf": "PDFに署名",
+    "password-protect": "パスワード保護",
+    "share-pdf": "PDFを共有する",
+    "share-files": "ファイルを共有する",
+    "split-pdf": "PDFの分割",
+    "merge-pdf": "PDFを結合",
+    "combine-pdf": "PDFを結合する",
+    "reorder-pdf": "PDF を並べ替える",
+    "extract-pages": "ページの抽出",
+    "edit-pdf": "PDFの編集",
+    "edit-fill-pdf": "PDFの編集と入力",
+    "edit-scanned-pdf": "スキャンした PDF を編集する",
+    "add-image-to-pdf": "PDF に画像を追加",
+    "watermark": "透かし",
+    "rotate-pdf": "PDFを回転する",
+    "delete-pages": "ページの削除",
+    "pages-numbering": "ページ番号付け",
+    "pdf-reader": "PDFリーダー",
+    "pdf-to-word": "PDFからWordへ",
+    "pdf-to-jpg": "PDFからJPGへ",
+    "pdf-to-png": "PDFからPNGへ",
+    "pdf-to-powerpoint": "PDFからパワーポイントへ",
+    "pdf-to-excel": "PDFからExcelへ",
+    "pdf-to-pdfa": "PDF から PDF/A へ",
+    "word-to-pdf": "WordからPDFへ",
+    "jpg-to-pdf": "JPGからPDFへ",
+    "png-to-pdf": "PNGからPDFへ",
+    "powerpoint-to-pdf": "パワーポイントからPDFへ",
+    "excel-to-pdf": "ExcelからPDFへ",
+    "pdfa-to-pdf": "PDF/AからPDFへ",
+    "compress-pdf": "PDFを圧縮する",
+    "compress-image": "画像を圧縮する"
+  },
+  "tools": {
+    "pageTitleSuffix": "・CosmicPDF",
+    "categoryLabel": "カテゴリ",
+    "featuresTitle": "強力な機能",
+    "featuresSubtitle": "{name} に必要なものすべて",
+    "howItWorksTitle": "仕組み",
+    "howItWorksSubtitle": "4ステップのシンプルかつ効率的なプロセス",
+    "faqTitle": "よくある質問",
+    "faqSubtitle": "{name} に関するよくある質問",
+    "ctaTitle": "始める準備はできていますか?",
+    "ctaButton": "始めましょう",
+    "dropFile": "ここにファイルをドロップしてください",
+    "orBrowse": "またはクリックして参照 • CosmicPDF アプリで続行",
+    "templates": {
+      "tagline": "CosmicPDF を使用してオンラインの {name} — 高速かつ明確で、実際のドキュメント用に構築されています。",
+      "description": "CosmicPDF を使用して {nameLower} にアクセスし、ガイド付きの手順、利用可能な場合はプレビュー、チームが現在 PDF を出荷する方法に一致するエクスポート オプションを使用します。",
+      "features": {
+        "fast": {
+          "title": "高速処理",
+          "description": "最適化されたパイプラインで {name} を実行し、進行状況を確認します。"
+        },
+        "quality": {
+          "title": "品質保持",
+          "description": "形式が許す限り、フォント、ベクター、レイアウトの忠実性を維持します。"
+        },
+        "secure": {
+          "title": "安全な設計",
+          "description": "転送中の暗号化とドキュメント処理の適切なデフォルト。"
+        },
+        "app": {
+          "title": "アプリ内で動作します",
+          "description": "Web 上の CosmicPDF で開き、完全なエディターでジョブを完了します。"
+        }
+      },
+      "howItWorks": {
+        "upload": {
+          "title": "アップロード",
+          "description": "使用するファイルを {name} に追加します。"
+        },
+        "choose": {
+          "title": "オプションを選択してください",
+          "description": "ドキュメントに一致する設定を選択してください。"
+        },
+        "process": {
+          "title": "プロセス",
+          "description": "CosmicPDF にファイルに対する操作を実行させます。"
+        },
+        "download": {
+          "title": "ダウンロード",
+          "description": "結果を保存するか、アプリで編集を続行します。"
+        }
+      },
+      "faqs": {
+        "free": {
+          "question": "{name} は無料で試せますか?",
+          "answer": "マーケティング サイトから開始して、製品で続行できます。 プランと制限はアプリに表示されます。"
+        },
+        "where": {
+          "question": "ファイルはどこで処理されますか?",
+          "answer": "cosmicpdf.com から続行すると、CosmicPDF アプリケーションで重い処理が実行されます。"
+        }
+      }
+    }
+  },
+  "home": {
+    "pageTitle": "CosmicPDF — 現代のチームのための AI PDF 編集",
+    "hero": {
+      "badge": "高度な AI を活用",
+      "title1": "の未来",
+      "title2": "PDF編集",
+      "subtitle": "インテリジェントな AI テクノロジーでドキュメント ワークフローを変革します。 かつてないほど簡単かつ迅速に PDF を編集、署名、変換、結合できます。",
+      "cta": "編集を開始する",
+      "noCard": "クレジットカードは必要ありません",
+      "trial": "14日間の無料トライアル",
+      "dropHere": "PDFをここにドロップしてください",
+      "orBrowse": "またはクリックして参照 • 最大 50MB",
+      "pdfOnly": "PDFファイルを選択してください",
+      "tooBig": "ファイルサイズは50MB未満である必要があります"
+    },
+    "trustedBy": {
+      "label": "業界リーダーからの信頼"
+    },
+    "quickTools": {
+      "title": "AI を活用したツール",
+      "subtitle": "プロフェッショナルな文書管理に必要なものすべて",
+      "explore": "探索機能",
+      "items": {
+        "summarize": {
+          "title": "AIサマリー",
+          "description": "高度な AI を使用して、長い文書から重要な洞察を瞬時に抽出します"
+        },
+        "extract": {
+          "title": "AI抽出",
+          "description": "テーブル、フォーム、データ構造を自動的に識別して抽出します。"
+        },
+        "translate": {
+          "title": "AI翻訳",
+          "description": "書式を維持しながらドキュメントを 100 以上の言語に翻訳"
+        },
+        "ocr": {
+          "title": "OCRがある",
+          "description": "スキャンした文書を編集可能なテキストに高精度に変換します"
+        }
+      }
+    },
+    "featureShowcase": {
+      "title": "現代のチーム向けに構築",
+      "subtitle": "ビジネスニーズに合わせて拡張できる強力な機能",
+      "items": {
+        "intelligence": {
+          "title": "AI インテリジェンス",
+          "body": "高度な機械学習アルゴリズムが文書を理解し、複雑なタスクを自動化します"
+        },
+        "fast": {
+          "title": "電光石火の速さ",
+          "body": "最適化されたクラウド インフラストラクチャにより、従来のツールよりも高速にドキュメントを処理します"
+        },
+        "security": {
+          "title": "エンタープライズセキュリティ",
+          "body": "銀行レベルの暗号化と GDPR、SOC 2、および ISO 27001 標準への準拠"
+        },
+        "access": {
+          "title": "ユニバーサルアクセス",
+          "body": "デバイスやプラットフォーム間でシームレスに同期できるため、どこからでも作業できます"
+        }
+      }
+    },
+    "dashboard": {
+      "badge": "ダッシュボードの概要",
+      "title1": "強力なダッシュボード",
+      "title2": "完全なファイル管理",
+      "subtitle": "高度な整理、検索機能、スマートなファイル管理ツールを備えた 1 つの集中ハブですべての PDF ファイルにアクセスします。",
+      "features": {
+        "centralized": {
+          "title": "集中ハブ",
+          "body": "すべての PDF ファイルを 1 つの整理されたダッシュボードで管理します"
+        },
+        "trash": {
+          "title": "ゴミ箱システム",
+          "body": "復元および完全削除オプションを備えた 30 日間のゴミ箱保持"
+        },
+        "quickActions": {
+          "title": "クイックアクション",
+          "body": "ワンクリックでプレビュー、ダウンロード、編集、削除"
+        }
+      },
+      "cta": "ダッシュボードにアクセスする",
+      "ctaNote": "サインインして PDF ファイルの管理を開始します",
+      "alt": "ダッシュボードインターフェース"
+    },
+    "cta": {
+      "title1": "よりスマートに編集を始めましょう。",
+      "title2": "難しくない",
+      "subtitle": "AI を活用したツールでドキュメント ワークフローを変革した何千人ものプロフェッショナルに加わりましょう。",
+      "bullets": {
+        "trial": "14 日間の無料トライアル、クレジット カードは不要",
+        "cancel": "いつでもキャンセル可能、データはそのまま",
+        "unlimited": "無制限の文書処理"
+      },
+      "button": "始めましょう",
+      "stats": {
+        "users": {
+          "value": "50,000以上",
+          "label": "アクティブユーザー"
+        },
+        "pdfs": {
+          "value": "100万以上",
+          "label": "処理された PDF"
+        },
+        "uptime": {
+          "value": "99.9%",
+          "label": "稼働時間"
+        },
+        "rating": {
+          "value": "4.9/5",
+          "label": "ユーザー評価"
+        }
+      },
+      "quote": "このツールは、ドキュメントの扱い方を完全に変えました。 AI 機能により、毎週何時間も節約されます。",
+      "quoteAuthor": "— サラ・チェン、TechCorp プロダクト マネージャー"
+    },
+    "testimonials": {
+      "title": "何千人ものユーザーに愛されています",
+      "subtitle": "CosmicPDF について専門家の意見をご覧ください",
+      "ratingLabel": "5 つ星の評価",
+      "items": {
+        "sarah": {
+          "name": "サラ・ミッチェル",
+          "role": "マーケティングディレクター",
+          "company": "株式会社テックフロー",
+          "initials": "SM",
+          "content": "CosmicPDF は、私たちのチームがドキュメントを扱う方法を変革しました。 AI を活用したツールのおかげで毎週何時間も節約でき、インターフェイスは信じられないほど直感的です。"
+        },
+        "michael": {
+          "name": "マイケル・チェン",
+          "role": "プロダクトマネージャー",
+          "company": "スタートアップラボ",
+          "initials": "MC",
+          "content": "私が今まで使った中で最高の PDF ツール。 PDF の変換、結合、編集がこれまでになく簡単になりました。 AI 機能は生産性を大きく変えるものです。"
+        },
+        "emily": {
+          "name": "エミリー・ロドリゲス",
+          "role": "法律コンサルタント",
+          "company": "法律とパートナー",
+          "initials": "は",
+          "content": "法的文書にはセキュリティと信頼性が非常に重要です。 このプラットフォームは、複雑な PDF タスクをシンプルかつ迅速に実行しながら、両方の面で機能します。"
+        }
+      },
+      "roleAtCompany": "{会社} の {役割}"
+    },
+    "allTools": {
+      "title": "すべてのツール",
+      "subtitle": "あらゆるニーズに対応する包括的な PDF ツール スイート"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "subtitle": "CosmicPDF について知っておくべきことすべて",
+      "stillHave": "まだ質問がありますか?",
+      "contactSupport": "サポートチームにお問い合わせください",
+      "items": {
+        "ai": {
+          "q": "AIを活用した編集はどのように機能するのでしょうか?",
+          "a": "当社の高度な AI テクノロジーは、機械学習を使用して文書構造を理解し、テキストと画像を検出し、編集をインテリジェントに提案します。 フォームを自動的に認識してデータを抽出し、従来の PDF エディターよりも迅速に変更を加えることができます。"
+        },
+        "security": {
+          "q": "私のデータは安全でプライベートですか?",
+          "a": "データの転送と保存には強力な暗号化を使用します。 あなたの書類は安全に処理されます。 私たちは、一般的なコンプライアンスの期待を満たすように CosmicPDF を設計しています。 機密データをアップロードする前に、当社のプライバシー ポリシーと組織の要件を確認してください。"
+        },
+        "formats": {
+          "q": "どのようなファイル形式をサポートしていますか?",
+          "a": "主な形式として PDF をサポートしており、Word (DOCX)、Excel (XLSX)、PowerPoint (PPTX)、画像 (JPG、PNG) などとの間の変換機能を備えています。 サポートされている場合は、さまざまなファイル タイプを 1 つの PDF に結合することもできます。"
+        },
+        "offline": {
+          "q": "このツールはオフラインでも使用できますか?",
+          "a": "マーケティング サイトは静的です。 製品エクスペリエンスはクラウドベースであり、強力な AI 処理を活用します。 一部のワークフローではデスクトップ エクスペリエンスが提供される場合があります。詳細についてはアプリを参照してください。"
+        },
+        "trial": {
+          "q": "無料トライアルが終了した後はどうなりますか?",
+          "a": "試用後は、有料プランを選択するか、利用可能な場合は無料利用枠を継続することができます。 ドキュメントと作業内容は、製品の保存ルールに従って保存されます。"
+        },
+        "enterprise": {
+          "q": "チームプランまたはエンタープライズプランを提供していますか?",
+          "a": "はい。 共有ワークスペースを備えたチーム プランと、高度なセキュリティとサポートを備えたエンタープライズ オプションを提供します。 カスタム価格については営業にお問い合わせください。"
+        }
+      }
+    }
+  },
+  "pricing": {
+    "pageTitle": "価格設定 · CosmicPDF",
+    "title": "シンプルで透明性のある価格設定",
+    "subtitle": "ニーズに合わせて最適なプランをお選びください。",
+    "popular": "最も人気のある",
+    "perPeriod": "/",
+    "enterpriseNote": "あなたの組織に合わせたカスタム プランが必要ですか?",
+    "enterpriseCta": "エンタープライズ価格については営業担当者にお問い合わせください",
+    "plans": {
+      "pro": {
+        "name": "プロ",
+        "price": "$1.95",
+        "period": "7日間のトライアル",
+        "description": "無制限のアクセスを必要とする専門家向け",
+        "cta": "今すぐ始めましょう",
+        "features": {
+          "unlimited": "無制限の PDF 編集",
+          "allTools": "32 の AI を活用したツールすべて",
+          "fileSize": "ファイルサイズ制限は100MB",
+          "priority": "優先処理",
+          "ai": "高度なAI機能",
+          "support": "優先メールサポート",
+          "noWatermark": "透かしなし"
+        },
+        "billingNote": "その後、{amount} が 4 週間ごとに請求されます",
+        "billingAmount": "39,95ドル"
+      },
+      "business": {
+        "name": "仕事",
+        "price": "59,95ドル",
+        "period": "月",
+        "description": "チームとシームレスにコラボレーションする",
+        "cta": "今すぐ始めましょう",
+        "features": {
+          "everything": "プロのすべて",
+          "team": "チームメンバーは最大5名まで",
+          "workspace": "共有ワークスペース",
+          "analytics": "チーム分析",
+          "fileSize": "500MBのファイルサイズ制限",
+          "support": "献身的なサポート",
+          "admin": "管理者コントロール",
+          "api": "APIアクセス"
+        },
+        "billingNote": "年間請求額 {amount}",
+        "billingAmount": "495,95ドル",
+        "discount": "15%割引"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "CosmicPDFについて",
+    "badge": "私たちについて",
+    "title1": "ドキュメントの再定義",
+    "title2": "知能",
+    "subtitle": "私たちは、世界のドキュメントの使い方を変えるという使命を担っています。 最先端の AI により、PDF 編集が簡単かつインテリジェントになり、誰でもアクセスできるようになります。",
+    "stats": {
+      "users": {
+        "label": "アクティブユーザー",
+        "value": "200万以上"
+      },
+      "pdfs": {
+        "label": "処理された PDF",
+        "value": "5億以上"
+      },
+      "countries": {
+        "label": "国",
+        "value": "150+"
+      },
+      "uptime": {
+        "label": "稼働時間",
+        "value": "99.9%"
+      }
+    },
+    "mission": {
+      "title1": "私たちの",
+      "title2": "ミッション",
+      "body1": "私たちは、ドキュメントの操作は直観的で高速かつ強力でなければならないと考えています。 CosmicPDF は PDF ワークフローの摩擦を排除し、結果に集中できるようにします。",
+      "body2": "スタートアップから企業まで、チームは重要なドキュメントに関して CosmicPDF を信頼しています。 私たちは継続的なイノベーションに取り組んでいます。"
+    },
+    "values": {
+      "title1": "私たちの",
+      "title2": "価値観",
+      "subtitle": "私たちが行うすべてのことの指針となる原則",
+      "items": {
+        "innovation": {
+          "title": "イノベーションファースト",
+          "body": "私たちは AI とドキュメント テクノロジーで可能なことの限界を押し広げます。"
+        },
+        "user": {
+          "title": "ユーザー中心",
+          "body": "すべての機能は、ワークフローと生産性を念頭に置いて設計されています。"
+        },
+        "precision": {
+          "title": "精度",
+          "body": "私たちは、常に正確で信頼性の高い結果を提供できると信じています。"
+        },
+        "simplicity": {
+          "title": "シンプルさ",
+          "body": "複雑なテクノロジー、シンプルなエクスペリエンス。 それが私たちのあなたへの約束です。"
+        }
+      }
+    },
+    "faq": {
+      "title1": "よくある質問",
+      "title2": "質問",
+      "subtitle": "当社に関するよくある質問への回答",
+      "items": {
+        "founded": {
+          "q": "会社はいつ設立されましたか?",
+          "a": "当社は、文書編集を会話と同じくらい直観的にするというシンプルな使命を持って 2020 年に設立されました。 それ以来、当社は多くの国で何百万ものユーザーにサービスを提供するまでに成長しました。"
+        },
+        "location": {
+          "q": "あなたの会社はどこにありますか?",
+          "a": "当社はカリフォルニア州サンフランシスコに本社を置き、リモートのチームメンバーは北米、ヨーロッパ、アジアに分散しています。"
+        },
+        "security": {
+          "q": "データのセキュリティをどのように確保しますか?",
+          "a": "セキュリティは、私たちが構築するすべてのものの中核です。 当社では強力な暗号化を使用し、一般的なコンプライアンス フレームワークに従い、リスクを軽減するための保存ポリシーを設計しています。 詳細については、当社のプライバシー ポリシーを必ずご確認ください。"
+        },
+        "enterprise": {
+          "q": "エンタープライズ向けソリューションを提供していますか?",
+          "a": "はい。 当社は、専用のサポート、統合、SSO 機能、高度なセキュリティ機能、柔軟な導入オプションを備えたエンタープライズ ソリューションを提供します。"
+        },
+        "ai": {
+          "q": "あなたの AI テクノロジーは何が他と違うのでしょうか?",
+          "a": "当社のモデルは、PDF ワークフローをより高速かつ正確にすることに重点を置き、ドキュメントの理解と編集タスク向けにトレーニングされています。"
+        },
+        "team": {
+          "q": "どうすればあなたのチームに参加できますか?",
+          "a": "私たちは常に才能ある人材を探しています。 エンジニアリング、設計、製品にわたる募集職種については、採用ページをご覧ください。"
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Cosmicへのお問い合わせPDF",
+    "badge": "連絡する",
+    "title1": "始めましょう",
+    "title2": "会話",
+    "subtitle": "CosmicPDF について質問がありますか? 私たちがお手伝いします。 ご連絡いただければ、できるだけ早くご連絡いたします。",
+    "send": {
+      "title1": "をお送りください",
+      "title2": "メッセージ",
+      "subtitle": "以下のフォームにご記入いただければ、弊社チームが 24 時間以内にご連絡いたします。"
+    },
+    "info": {
+      "title1": "接触",
+      "title2": "情報",
+      "subtitle": "直接連絡したいですか? 私たちが監視しているチャンネルは次のとおりです。",
+      "items": {
+        "email": {
+          "title": "メールでお問い合わせください",
+          "details": "support@cosmicpdf.com",
+          "description": "通常 24 時間以内に返信いたします"
+        },
+        "sales": {
+          "title": "販売",
+          "details": "sales@cosmicpdf.com",
+          "description": "価格設定、パイロット、調達に関する質問"
+        },
+        "security": {
+          "title": "安全",
+          "details": "security@cosmicpdf.com",
+          "description": "責任ある開示とセキュリティレビュー"
+        },
+        "hours": {
+          "title": "営業時間",
+          "details": "月曜日～金曜日: 午前 9 時～午後 6 時（太平洋標準時）",
+          "description": "週末サポートはプランによって異なります"
+        }
+      }
+    },
+    "form": {
+      "name": "フルネーム",
+      "namePlaceholder": "ジョン・ドゥ",
+      "email": "電子メールアドレス",
+      "emailPlaceholder": "john@example.com",
+      "subject": "主題",
+      "subjectPlaceholder": "件名を選択してください",
+      "subjectOptions": {
+        "general": "一般的なお問い合わせ",
+        "support": "テクニカルサポート",
+        "sales": "営業に関する質問",
+        "partnership": "パートナーシップの機会",
+        "feedback": "フィードバック"
+      },
+      "message": "メッセージ",
+      "messagePlaceholder": "どのようにお手伝いできるか教えてください...",
+      "required": "*",
+      "submit": "メッセージを送信する",
+      "demoAlert": "ありがとう — この静的デモはどこにも提出されません。 準備ができたら、このフォームをアプリのエンドポイントに接続します。"
+    }
+  },
+  "privacy": {
+    "pageTitle": "プライバシーポリシー · CosmicPDF",
+    "title": "プライバシーポリシー",
+    "lastUpdated": "最終更新日: 2026 年 4 月 30 日",
+    "sections": {
+      "introduction": {
+        "title": "導入",
+        "body": "CosmicPDF へようこそ。 当社はお客様のプライバシーを尊重し、個人データの保護に努めます。 このポリシーでは、お客様が当社のマーケティング サイトにアクセスしたとき、および CosmicPDF 製品を使用したときの情報の処理方法について説明します。"
+      },
+      "collected": {
+        "title": "当社が収集する情報",
+        "intro": "当社は、次のようなカテゴリの情報を収集および処理する場合があります。",
+        "identity": {
+          "label": "アイデンティティデータ:",
+          "body": "名前と同様の識別子。"
+        },
+        "contact": {
+          "label": "連絡先データ:",
+          "body": "提供されている場合は、電子メール アドレスと電話番号。"
+        },
+        "technical": {
+          "label": "技術データ:",
+          "body": "IP アドレス、ブラウザの種類、デバイスおよび診断データ。"
+        },
+        "usage": {
+          "label": "使用状況データ:",
+          "body": "当社のウェブサイトおよびサービスの使用方法に関する情報。"
+        },
+        "document": {
+          "label": "文書データ:",
+          "body": "製品で処理するためにアップロードするファイル。"
+        }
+      },
+      "marketing": {
+        "title": "マーケティングサイト",
+        "body": "このリポジトリは、静的なマーケティング サイトをホストします。 アップロードのためのサーバー側の処理は実行されません。 ファイルのハンドオフは、セキュリティ レビューに従って製品アプリケーションに実装する必要があります。"
+      },
+      "contact": {
+        "title": "接触",
+        "body": "プライバシーに関する質問:",
+        "email": "プライバシー@cosmicpdf.com"
+      }
+    }
+  },
+  "terms": {
+    "pageTitle": "利用規約 · CosmicPDF",
+    "title": "利用規約",
+    "lastUpdated": "最終更新日: 2026 年 4 月 30 日",
+    "sections": {
+      "introduction": {
+        "title": "導入",
+        "body": "本規約は、CosmicPDF の Web サイトおよびサービスの使用に適用されます。 当社のサービスにアクセスまたは使用すると、これらの規約に同意したものとみなされます。"
+      },
+      "accounts": {
+        "title": "アカウント",
+        "body": "アカウントを作成すると、正確な情報を提供し、資格情報を安全に保管することに同意したことになります。 あなたは自分のアカウントでの活動に対して責任を負います。"
+      },
+      "content": {
+        "title": "ユーザーコンテンツ",
+        "body": "あなたはアップロードしたドキュメントに対する権利を保持します。 あなたは、送信したコンテンツを処理する権利を持っている必要があります。"
+      },
+      "liability": {
+        "title": "責任の制限",
+        "body": "法律で認められる最大限の範囲で、CosmicPDF は、サービスの使用から生じる間接的または結果的な損害に対して責任を負いません。"
+      },
+      "contact": {
+        "title": "接触",
+        "body": "これらの規約に関する質問:",
+        "email": "legal@cosmicpdf.com"
+      }
+    }
+  },
+  "forms": {
+    "pageTitle": "最もよく使用されるフォーム · CosmicPDF",
+    "title": "最もよく使用されるフォーム",
+    "subtitle": "最もよく使用されるフォームにアクセスして編集します。 すべてのフォームは、AI を活用した PDF エディターで完全に編集可能です。",
+    "bullets": {
+      "templates": "一般的なワークフロー用の公式スタイルのテンプレート",
+      "editable": "AI 支援により完全に編集可能",
+      "upload": "編集用に独自のフォームをアップロードする"
+    },
+    "categories": {
+      "all": "全て",
+      "tax": "納税フォーム",
+      "employment": "雇用",
+      "business": "仕事",
+      "government": "政府",
+      "immigration": "移民"
+    },
+    "editForm": "フォームの編集",
+    "editAlert": "CosmicPDF アプリでこのフォームを編集し続けます。",
+    "uploadTitle": "独自のフォームをアップロードする",
+    "uploadSubtitle": "別のフォームがありますか? アップロードして AI 支援による編集を開始",
+    "dropHere": "PDFをここにドロップしてください",
+    "orBrowse": "またはクリックして参照 • 最大 50MB",
+    "items": {
+      "941": {
+        "name": "フォーム941",
+        "title": "雇用主の四半期連邦税申告書",
+        "category": "business",
+        "description": "雇用主が従業員の給与から源泉徴収された所得税と給与税を報告するために使用されます。"
+      },
+      "1040": {
+        "name": "フォーム 1040",
+        "title": "米国の個人所得税申告書",
+        "category": "tax",
+        "description": "年間所得を報告し、支払うべき税金を計算するために使用される標準の連邦所得税フォーム。"
+      },
+      "1065": {
+        "name": "フォーム 1065",
+        "title": "米国におけるパートナーシップ収入の返還",
+        "category": "business",
+        "description": "パートナーシップが収入、控除、クレジットを報告するために使用する情報の返送。"
+      },
+      "w-9": {
+        "name": "フォーム W-9",
+        "title": "納税者番号の要求",
+        "category": "tax",
+        "description": "フリーランサーや請負業者が納税者番号をクライアントに提供するために使用します。"
+      },
+      "w-4": {
+        "name": "フォーム W-4",
+        "title": "従業員の源泉徴収票",
+        "category": "tax",
+        "description": "適切な源泉徴収を行うために従業員が雇用主に納税状況を示すために記入します。"
+      },
+      "i-9": {
+        "name": "フォーム I-9",
+        "title": "雇用資格の確認",
+        "category": "employment",
+        "description": "米国のすべての雇用主が新入社員の身元と雇用許可を確認することが義務付けられています。"
+      },
+      "ss-4": {
+        "name": "フォームSS-4",
+        "title": "雇用主識別番号の申請",
+        "category": "business",
+        "description": "企業が IRS に EIN (雇用主識別番号) を申請するために使用されます。"
+      },
+      "1099-nec": {
+        "name": "フォーム 1099-NEC",
+        "title": "非従業員補償",
+        "category": "tax",
+        "description": "独立請負業者やフリーランサーへの支払いを報告するために使用されます。"
+      },
+      "w-2": {
+        "name": "フォーム W-2",
+        "title": "賃金および税金明細書",
+        "category": "tax",
+        "description": "従業員の年間賃金と給与から源泉徴収された税金の額を報告します。"
+      },
+      "ds-11": {
+        "name": "DS-11",
+        "title": "米国パスポートの申請",
+        "category": "government",
+        "description": "初めてパスポートを申請する方や有効期限が切れたパスポートを更新する方にご利用いただけます。"
+      },
+      "i-130": {
+        "name": "フォーム I-130",
+        "title": "外国人の親族に対する請願",
+        "category": "immigration",
+        "description": "米国国民および永住者が外国人との関係を確立するために使用します。"
+      },
+      "n-400": {
+        "name": "フォーム N-400",
+        "title": "帰化申請",
+        "category": "immigration",
+        "description": "永住者が米国市民権を申請するために使用されます。"
+      }
+    }
+  },
+  "footer": {
+    "rights": "無断転載を禁じます。",
+    "privacy": "プライバシー",
+    "terms": "条項",
+    "contact": "接触",
+    "copyright": "© {年} CosmicPDF. 無断転載を禁じます。"
+  },
+  "notFound": {
+    "pageTitle": "ページが見つかりません · CosmicPDF",
+    "title": "404",
+    "message": "そのページは見つかりませんでした。",
+    "back": "家に戻る"
+  }
+}

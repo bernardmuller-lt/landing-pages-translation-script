@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "ar",
+    "locale_display": "ar",
+    "seo": {
+      "title": "سياسة الخصوصية · CosmicPDF",
+      "description": "آخر تحديث: 30 أبريل 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "مقدمة",
+        "content": "<p>مرحبًا بك في CosmicPDF. نحن نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. تصف هذه السياسة كيفية تعاملنا مع المعلومات عندما تزور موقعنا التسويقي وعندما تستخدم منتج CosmicPDF.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "المعلومات التي نجمعها",
+        "content": "<p>يجوز لنا جمع ومعالجة فئات من المعلومات مثل:</p><p><strong>بيانات الهوية:</strong> الاسم والمعرفات المماثلة.</p><p><strong>بيانات الاتصال:</strong> عنوان البريد الإلكتروني وأرقام الهواتف حيثما تم توفيرها.</p><p><strong>البيانات الفنية:</strong> عنوان IP ونوع المتصفح والجهاز وبيانات التشخيص.</p><p><strong>بيانات الاستخدام:</strong> معلومات حول كيفية استخدامك لموقعنا وخدماتنا.</p><p><strong>بيانات الوثيقة:</strong> الملفات التي تقوم بتحميلها للمعالجة في المنتج.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "موقع التسويق",
+        "content": "<p>يستضيف هذا المستودع موقع تسويق ثابت. ولا ينفذ المعالجة من جانب الخادم للتحميلات. يجب تنفيذ أي عملية تسليم للملفات في تطبيق المنتج وفقًا لمراجعة الأمان الخاصة بك.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "اتصال",
+        "content": "<p>أسئلة حول الخصوصية:</p><p>privacy@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

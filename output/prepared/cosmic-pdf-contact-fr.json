@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "fr",
+    "locale_display": "fr",
+    "seo": {
+      "title": "Contacter CosmicPDF",
+      "description": "Vous avez des questions sur CosmicPDF ? Nous sommes là pour vous aider. Contactez-nous et nous vous répondrons dans les plus brefs délais."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "Entrer en contact",
+        "title": "<h1>Commençons un <strong>Conversation</strong></h1>",
+        "subtitle": "Vous avez des questions sur CosmicPDF ? Nous sommes là pour vous aider. Contactez-nous et nous vous répondrons dans les plus brefs délais.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Contact Information",
+        "subtitle": "Vous préférez nous contacter directement ? Voici les chaînes que nous surveillons.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "Envoyez-nous un courriel",
+            "description": "support@cosmicpdf.com\nNous répondons généralement dans les 24 heures"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Ventes",
+            "description": "sales@cosmicpdf.com\nQuestions sur les prix, les projets pilotes et les achats"
+          },
+          {
+            "icon": "Shield",
+            "title": "Sécurité",
+            "description": "sécurité@cosmicpdf.com\nDivulgation responsable et examens de sécurité"
+          },
+          {
+            "icon": "Clock",
+            "title": "Heures d'ouverture",
+            "description": "Du lundi au vendredi : de 9h00 à 18h00 PST\nL'assistance le week-end varie selon le forfait"
+          }
+        ]
+      }
+    ]
+  }
+}

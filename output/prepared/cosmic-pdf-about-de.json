@@ -1,0 +1,103 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "about",
+    "locale": "de",
+    "locale_display": "de",
+    "seo": {
+      "title": "Über CosmicPDF",
+      "description": "Wir haben es uns zur Aufgabe gemacht, die Art und Weise zu verändern, wie die Welt mit Dokumenten arbeitet. Durch modernste KI machen wir die PDF-Bearbeitung mühelos, intelligent und für jedermann zugänglich."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "AboutHero",
+        "badge": "Über uns",
+        "title": "<h1>Dokument neu definieren <strong>Intelligenz</strong></h1>",
+        "subtitle": "Wir haben es uns zur Aufgabe gemacht, die Art und Weise zu verändern, wie die Welt mit Dokumenten arbeitet. Durch modernste KI machen wir die PDF-Bearbeitung mühelos, intelligent und für jedermann zugänglich.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Mission",
+        "badge": null,
+        "title": "<h2>Unser <strong>Mission</strong></h2>",
+        "subtitle": "Wir glauben, dass die Arbeit mit Dokumenten intuitiv, schnell und leistungsstark sein sollte. CosmicPDF beseitigt Reibungsverluste bei PDF-Workflows, sodass Sie sich auf die Ergebnisse konzentrieren können.",
+        "features": [],
+        "cta": null,
+        "cta_note": null,
+        "media": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "Values",
+        "title": "Unser Werte",
+        "subtitle": "Die Prinzipien, die uns bei allem, was wir tun, leiten",
+        "items": [
+          {
+            "icon": "Lightbulb",
+            "title": "Innovation zuerst",
+            "description": "Wir erweitern die Grenzen dessen, was mit KI und Dokumententechnologie möglich ist."
+          },
+          {
+            "icon": "Heart",
+            "title": "Benutzerzentriert",
+            "description": "Jede Funktion ist auf Ihren Arbeitsablauf und Ihre Produktivität ausgelegt."
+          },
+          {
+            "icon": "Target",
+            "title": "Präzision",
+            "description": "Wir glauben daran, jedes Mal genaue und zuverlässige Ergebnisse zu liefern."
+          },
+          {
+            "icon": "Minimize2",
+            "title": "Einfachheit",
+            "description": "Komplexe Technologie, einfaches Erlebnis. Das ist unser Versprechen an Sie."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "AboutFAQ",
+        "title": "<h2>Häufig gefragt <strong>Fragen</strong></h2>",
+        "subtitle": "Antworten auf häufige Fragen zu unserem Unternehmen",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Wann wurde das Unternehmen gegründet?",
+            "content": "Wir wurden 2020 mit einer einfachen Mission gegründet: die Bearbeitung von Dokumenten so intuitiv zu gestalten wie ein Gespräch. Seitdem sind wir gewachsen und bedienen Millionen von Benutzern in vielen Ländern."
+          },
+          {
+            "title": "Wo ist Ihr Unternehmen ansässig?",
+            "content": "Wir haben unseren Hauptsitz in San Francisco, Kalifornien, und unsere Remote-Teammitglieder sind über Nordamerika, Europa und Asien verteilt."
+          },
+          {
+            "title": "Wie stellen Sie die Datensicherheit sicher?",
+            "content": "Sicherheit steht im Mittelpunkt von allem, was wir bauen. Wir verwenden eine starke Verschlüsselung, befolgen gängige Compliance-Frameworks und entwickeln Aufbewahrungsrichtlinien, um das Risiko zu reduzieren. Weitere Informationen finden Sie immer in unserer Datenschutzrichtlinie."
+          },
+          {
+            "title": "Bieten Sie Unternehmenslösungen an?",
+            "content": "Ja. Wir bieten Unternehmenslösungen mit dediziertem Support, Integrationen, SSO-Funktionen, erweiterten Sicherheitsfunktionen und flexiblen Bereitstellungsoptionen."
+          },
+          {
+            "title": "Was macht Ihre KI-Technologie anders?",
+            "content": "Unsere Modelle sind auf das Verstehen und Bearbeiten von Dokumenten spezialisiert und konzentrieren sich darauf, PDF-Workflows schneller und genauer zu gestalten."
+          },
+          {
+            "title": "Wie kann ich Ihrem Team beitreten?",
+            "content": "Wir sind immer auf der Suche nach talentierten Menschen. Auf unserer Karriereseite finden Sie offene Stellen in den Bereichen Technik, Design und Produkt."
+          }
+        ]
+      }
+    ]
+  }
+}

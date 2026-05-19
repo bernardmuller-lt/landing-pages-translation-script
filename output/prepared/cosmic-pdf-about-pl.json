@@ -1,0 +1,103 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "about",
+    "locale": "pl",
+    "locale_display": "pl",
+    "seo": {
+      "title": "Informacje o CosmicPDF",
+      "description": "Mamy misję zmiany sposobu, w jaki świat pracuje z dokumentami. Dzięki najnowocześniejszej sztucznej inteligencji edycja plików PDF jest łatwa, inteligentna i dostępna dla każdego."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "AboutHero",
+        "badge": "O nas",
+        "title": "<h1>Nowa definicja dokumentu <strong>Inteligencja</strong></h1>",
+        "subtitle": "Mamy misję zmiany sposobu, w jaki świat pracuje z dokumentami. Dzięki najnowocześniejszej sztucznej inteligencji edycja plików PDF jest łatwa, inteligentna i dostępna dla każdego.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Mission",
+        "badge": null,
+        "title": "<h2>Nasz <strong>Misja</strong></h2>",
+        "subtitle": "Wierzymy, że praca z dokumentami powinna być intuicyjna, szybka i wydajna. CosmicPDF eliminuje problemy z przepływem pracy PDF, dzięki czemu możesz skupić się na wynikach.",
+        "features": [],
+        "cta": null,
+        "cta_note": null,
+        "media": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "Values",
+        "title": "Nasz Wartości",
+        "subtitle": "Zasady, którymi kierujemy się we wszystkim, co robimy",
+        "items": [
+          {
+            "icon": "Lightbulb",
+            "title": "Najpierw innowacja",
+            "description": "Przesuwamy granice tego, co jest możliwe dzięki sztucznej inteligencji i technologii dokumentów."
+          },
+          {
+            "icon": "Heart",
+            "title": "Skoncentrowany na użytkowniku",
+            "description": "Każda funkcja została zaprojektowana z myślą o przepływie pracy i produktywności."
+          },
+          {
+            "icon": "Target",
+            "title": "Precyzja",
+            "description": "Wierzymy w dostarczanie dokładnych i wiarygodnych wyników za każdym razem."
+          },
+          {
+            "icon": "Minimize2",
+            "title": "Prostota",
+            "description": "Złożona technologia, proste doświadczenie. To jest nasza obietnica dla Ciebie."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "AboutFAQ",
+        "title": "<h2>Często zadawane pytania <strong>Pytania</strong></h2>",
+        "subtitle": "Odpowiedzi na najczęściej zadawane pytania dotyczące naszej firmy",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Kiedy firma została założona?",
+            "content": "Powstaliśmy w 2020 roku z prostą misją: sprawić, aby edycja dokumentów była tak intuicyjna jak rozmowa. Od tego czasu rozwinęliśmy się, aby służyć milionom użytkowników w wielu krajach."
+          },
+          {
+            "title": "Gdzie znajduje się Twoja firma?",
+            "content": "Nasza siedziba znajduje się w San Francisco w Kalifornii, a zdalni członkowie zespołu są rozsiani po Ameryce Północnej, Europie i Azji."
+          },
+          {
+            "title": "Jak zapewnić bezpieczeństwo danych?",
+            "content": "Bezpieczeństwo jest podstawą wszystkiego, co budujemy. Stosujemy silne szyfrowanie, postępujemy zgodnie ze wspólnymi ramami zgodności i projektujemy zasady przechowywania, aby zmniejszyć ryzyko. Aby uzyskać szczegółowe informacje, zawsze zapoznaj się z naszą Polityką prywatności."
+          },
+          {
+            "title": "Czy oferujecie rozwiązania dla przedsiębiorstw?",
+            "content": "Tak. Dostarczamy rozwiązania dla przedsiębiorstw z dedykowanym wsparciem, integracją, możliwością SSO, zaawansowanymi funkcjami bezpieczeństwa i elastycznymi opcjami wdrażania."
+          },
+          {
+            "title": "Co wyróżnia Twoją technologię AI?",
+            "content": "Nasze modele są przeszkolone w zakresie zadań związanych ze zrozumieniem i edycją dokumentów, a ich celem jest przyspieszenie i zwiększenie dokładności obiegu dokumentów PDF."
+          },
+          {
+            "title": "Jak mogę dołączyć do Waszego zespołu?",
+            "content": "Zawsze poszukujemy utalentowanych osób. Sprawdź naszą stronę karier, aby znaleźć wolne stanowiska w obszarach inżynierii, projektowania i produktu."
+          }
+        ]
+      }
+    ]
+  }
+}

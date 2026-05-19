@@ -1,0 +1,105 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "about",
+    "locale": "en",
+    "locale_display": "en",
+    "seo": {
+      "title": "About CosmicPDF",
+      "description": "We're on a mission to transform how the world works with documents. Through cutting-edge AI, we make PDF editing effortless, intelligent, and accessible to everyone."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "AboutHero",
+        "badge": "About Us",
+        "title1": "Redefining Document",
+        "title2": "Intelligence",
+        "subtitle": "We're on a mission to transform how the world works with documents. Through cutting-edge AI, we make PDF editing effortless, intelligent, and accessible to everyone.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Mission",
+        "badge": null,
+        "title1": "Our",
+        "title2": "Mission",
+        "subtitle": "We believe that working with documents should be intuitive, fast, and powerful. CosmicPDF eliminates friction from PDF workflows so you can focus on outcomes.",
+        "features": [],
+        "cta": null,
+        "cta_note": null,
+        "media": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "Values",
+        "title": "Our Values",
+        "subtitle": "The principles that guide everything we do",
+        "items": [
+          {
+            "icon": "Lightbulb",
+            "title": "Innovation First",
+            "description": "We push the boundaries of what is possible with AI and document technology."
+          },
+          {
+            "icon": "Heart",
+            "title": "User-Centric",
+            "description": "Every feature is designed with your workflow and productivity in mind."
+          },
+          {
+            "icon": "Target",
+            "title": "Precision",
+            "description": "We believe in delivering accurate, reliable results every single time."
+          },
+          {
+            "icon": "Minimize2",
+            "title": "Simplicity",
+            "description": "Complex technology, simple experience. That is our promise to you."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "AboutFAQ",
+        "title": "<h2>Frequently Asked <strong>Questions</strong></h2>",
+        "subtitle": "Answers to common questions about our company",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "When was the company founded?",
+            "content": "We were founded in 2020 with a simple mission: to make document editing as intuitive as having a conversation. Since then, we have grown to serve millions of users across many countries."
+          },
+          {
+            "title": "Where is your company located?",
+            "content": "We are headquartered in San Francisco, California, with remote team members distributed across North America, Europe, and Asia."
+          },
+          {
+            "title": "How do you ensure data security?",
+            "content": "Security is at the core of everything we build. We use strong encryption, follow common compliance frameworks, and design retention policies to reduce risk. Always review our Privacy Policy for details."
+          },
+          {
+            "title": "Do you offer enterprise solutions?",
+            "content": "Yes. We provide enterprise solutions with dedicated support, integrations, SSO capabilities, advanced security features, and flexible deployment options."
+          },
+          {
+            "title": "What makes your AI technology different?",
+            "content": "Our models are trained for document understanding and editing tasks, focused on making PDF workflows faster and more accurate."
+          },
+          {
+            "title": "How can I join your team?",
+            "content": "We are always looking for talented individuals. Check our careers page for open roles across engineering, design, and product."
+          }
+        ]
+      }
+    ]
+  }
+}

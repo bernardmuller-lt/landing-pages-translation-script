@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "es",
+    "locale_display": "es",
+    "seo": {
+      "title": "Política de Privacidad · CosmicPDF",
+      "description": "Última actualización: 30 de abril de 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Introducción",
+        "content": "<p>Bienvenido a CosmicPDF. Respetamos su privacidad y nos comprometemos a proteger sus datos personales. Esta política describe cómo manejamos la información cuando visita nuestro sitio de marketing y cuando utiliza el producto CosmicPDF.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "Información que recopilamos",
+        "content": "<p>Podemos recopilar y procesar categorías de información como:</p><p><strong>Datos de identidad:</strong> nombre e identificadores similares.</p><p><strong>Datos de contacto:</strong> dirección de correo electrónico y números de teléfono cuando se proporcionen.</p><p><strong>Datos técnicos:</strong> Dirección IP, tipo de navegador, dispositivo y datos de diagnóstico.</p><p><strong>Datos de uso:</strong> información sobre cómo utiliza nuestro sitio web y nuestros servicios.</p><p><strong>Datos del documento:</strong> archivos que usted carga para su procesamiento en el producto.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "Sitio de marketing",
+        "content": "<p>Este repositorio alberga un sitio de marketing estático. No ejecuta el procesamiento del lado del servidor para las cargas. Cualquier transferencia de archivos debe implementarse en la aplicación del producto de acuerdo con su revisión de seguridad.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Contacto",
+        "content": "<p>Preguntas sobre privacidad:</p><p>privacidad@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

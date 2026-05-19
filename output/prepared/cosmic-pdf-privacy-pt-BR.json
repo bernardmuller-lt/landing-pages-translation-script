@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "pt-BR",
+    "locale_display": "br",
+    "seo": {
+      "title": "Política de Privacidade · CosmicPDF",
+      "description": "Última atualização: 30 de abril de 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Introdução",
+        "content": "<p>Bem-vindo ao CosmicPDF. Respeitamos a sua privacidade e estamos empenhados em proteger os seus dados pessoais. Esta política descreve como tratamos as informações quando você visita nosso site de marketing e quando usa o produto CosmicPDF.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "Informações que coletamos",
+        "content": "<p>Podemos coletar e processar categorias de informações como:</p><p><strong>Dados de identidade:</strong> nome e identificadores semelhantes.</p><p><strong>Dados de contato:</strong> endereço de e-mail e números de telefone, quando fornecidos.</p><p><strong>Dados Técnicos:</strong> Endereço IP, tipo de navegador, dispositivo e dados de diagnóstico.</p><p><strong>Dados de uso:</strong> informações sobre como você usa nosso site e serviços.</p><p><strong>Dados do documento:</strong> arquivos que você carrega para processamento no produto.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "Site de marketing",
+        "content": "<p>Este repositório hospeda um site de marketing estático. Ele não executa processamento no servidor para uploads. Qualquer transferência de arquivo deve ser implementada no aplicativo do produto de acordo com sua análise de segurança.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Contato",
+        "content": "<p>Perguntas sobre privacidade:</p><p>privacidade@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

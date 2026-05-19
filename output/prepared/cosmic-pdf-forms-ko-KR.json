@@ -1,0 +1,97 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "ko-KR",
+    "locale_display": "kr",
+    "seo": {
+      "title": "가장 많이 사용되는 양식 · CosmicPDF",
+      "description": "가장 일반적으로 사용되는 양식에 액세스하고 편집하세요. AI 기반 PDF 편집기를 사용하면 모든 양식을 완전히 편집할 수 있습니다."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title": "가장 많이 사용되는 양식",
+        "subtitle": "가장 일반적으로 사용되는 양식에 액세스하고 편집하세요. AI 기반 PDF 편집기를 사용하면 모든 양식을 완전히 편집할 수 있습니다.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "가장 많이 사용되는 양식",
+        "subtitle": "가장 일반적으로 사용되는 양식에 액세스하고 편집하세요. AI 기반 PDF 편집기를 사용하면 모든 양식을 완전히 편집할 수 있습니다.",
+        "items": [
+          {
+            "icon": null,
+            "title": "양식 941 — 고용주의 분기별 연방세 신고서",
+            "description": "고용주가 직원 임금에서 원천징수한 소득세 및 급여세를 신고하는 데 사용됩니다."
+          },
+          {
+            "icon": null,
+            "title": "양식 1040 — 미국 개인 소득세 신고서",
+            "description": "연간 소득을 보고하고 납부해야 할 세금을 계산하는 데 사용되는 표준 연방 소득세 양식입니다."
+          },
+          {
+            "icon": null,
+            "title": "양식 1065 — 미국 파트너십 소득 반환",
+            "description": "소득, 공제 및 세액공제를 보고하기 위해 파트너십이 사용하는 정보 보고서입니다."
+          },
+          {
+            "icon": null,
+            "title": "양식 W-9 — 납세자 식별 번호 요청",
+            "description": "프리랜서 및 계약업체가 고객에게 납세자 식별 번호를 제공하는 데 사용됩니다."
+          },
+          {
+            "icon": null,
+            "title": "양식 W-4 — 직원의 원천징수 증명서",
+            "description": "적절한 원천징수를 위해 고용주에게 자신의 세금 상황을 알리기 위해 직원이 작성합니다."
+          },
+          {
+            "icon": null,
+            "title": "I-9 양식 — 취업자격 확인",
+            "description": "모든 미국 고용주는 신규 채용자의 신원과 고용 허가를 확인해야 합니다."
+          },
+          {
+            "icon": null,
+            "title": "양식 SS-4 — 고용주 식별 번호 신청",
+            "description": "기업이 IRS에 EIN(고용주 식별 번호)을 신청하는 데 사용됩니다."
+          },
+          {
+            "icon": null,
+            "title": "양식 1099-NEC — 비직원 보상",
+            "description": "독립 계약자 및 프리랜서에게 지급된 금액을 보고하는 데 사용됩니다."
+          },
+          {
+            "icon": null,
+            "title": "양식 W-2 — 임금 및 세금 명세서",
+            "description": "직원의 연간 임금과 급여에서 원천징수된 세금 금액을 보고합니다."
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — 미국 여권 신청",
+            "description": "처음 여권을 신청하는 사람과 만료된 여권을 갱신하는 사람이 사용합니다."
+          },
+          {
+            "icon": null,
+            "title": "I-130 양식 — 외국인 친족을 위한 청원서",
+            "description": "미국 시민권자와 영주권자가 외국 국적자와 관계를 맺기 위해 사용합니다."
+          },
+          {
+            "icon": null,
+            "title": "N-400 양식 — 귀화 신청",
+            "description": "영주권자가 미국 시민권을 신청하는 데 사용됩니다."
+          }
+        ]
+      }
+    ]
+  }
+}

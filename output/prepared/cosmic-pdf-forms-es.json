@@ -1,0 +1,97 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "es",
+    "locale_display": "es",
+    "seo": {
+      "title": "Formularios más utilizados · CosmicPDF",
+      "description": "Acceda y edite los formularios más utilizados. Todos los formularios son completamente editables con nuestro editor de PDF con tecnología de inteligencia artificial."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title": "Formularios más utilizados",
+        "subtitle": "Acceda y edite los formularios más utilizados. Todos los formularios son completamente editables con nuestro editor de PDF con tecnología de inteligencia artificial.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "Formularios más utilizados",
+        "subtitle": "Acceda y edite los formularios más utilizados. Todos los formularios son completamente editables con nuestro editor de PDF con tecnología de inteligencia artificial.",
+        "items": [
+          {
+            "icon": null,
+            "title": "Modelo 941 — Declaración de impuestos federales trimestral del empleador",
+            "description": "Utilizado por los empleadores para declarar los impuestos sobre la renta y los impuestos sobre la nómina retenidos de los salarios de los empleados."
+          },
+          {
+            "icon": null,
+            "title": "Formulario 1040 — Declaración de impuestos sobre la renta individual de EE. UU.",
+            "description": "El formulario de impuesto federal sobre la renta estándar que se utiliza para informar los ingresos anuales y calcular los impuestos adeudados."
+          },
+          {
+            "icon": null,
+            "title": "Formulario 1065 — Declaración de ingresos de sociedades de EE. UU.",
+            "description": "Declaración informativa utilizada por las sociedades para reportar ingresos, deducciones y créditos."
+          },
+          {
+            "icon": null,
+            "title": "Formulario W-9 — Solicitud de Número de Identificación del Contribuyente",
+            "description": "Utilizado por autónomos y contratistas para proporcionar su número de identificación fiscal a los clientes."
+          },
+          {
+            "icon": null,
+            "title": "Formulario W-4 — Certificado de Retención del Empleado",
+            "description": "Completado por los empleados para indicar su situación fiscal a los empleadores para la adecuada retención."
+          },
+          {
+            "icon": null,
+            "title": "Formulario I-9 — Verificación de elegibilidad laboral",
+            "description": "Requerido para que todos los empleadores de EE. UU. verifiquen la identidad y la autorización de empleo de los nuevos empleados."
+          },
+          {
+            "icon": null,
+            "title": "Formulario SS-4 — Solicitud de Número de Identificación Patronal",
+            "description": "Utilizado por empresas para solicitar un EIN (Número de identificación de empleador) del IRS."
+          },
+          {
+            "icon": null,
+            "title": "Formulario 1099-NEC — Compensación para no empleados",
+            "description": "Se utiliza para informar pagos realizados a contratistas independientes y autónomos."
+          },
+          {
+            "icon": null,
+            "title": "Formulario W-2 — Declaración de salarios e impuestos",
+            "description": "Informa los salarios anuales de un empleado y la cantidad de impuestos retenidos de su cheque de pago."
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — Solicitud de pasaporte estadounidense",
+            "description": "Utilizado por quienes solicitan un pasaporte por primera vez y quienes renuevan pasaportes vencidos."
+          },
+          {
+            "icon": null,
+            "title": "Formulario I-130 — Petición de familiar extranjero",
+            "description": "Utilizado por ciudadanos estadounidenses y residentes permanentes para establecer una relación con un ciudadano extranjero."
+          },
+          {
+            "icon": null,
+            "title": "Formulario N-400 — Solicitud de Naturalización",
+            "description": "Utilizado por residentes permanentes para solicitar la ciudadanía estadounidense."
+          }
+        ]
+      }
+    ]
+  }
+}

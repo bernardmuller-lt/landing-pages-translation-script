@@ -1,0 +1,130 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "tools/excel-to-pdf",
+    "locale": "en",
+    "locale_display": "en",
+    "seo": {
+      "title": "Excel to PDF · CosmicPDF",
+      "description": "Excel to PDF online with CosmicPDF — fast, clear, and built for real documents."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title1": "Excel to PDF",
+        "title2": null,
+        "subtitle": "<p>Excel to PDF online with CosmicPDF — fast, clear, and built for real documents.</p><p>Use CosmicPDF to excel to pdf with guided steps, previews where available, and export options that match how teams ship PDFs today.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Get Started",
+          "aria_label": "Get Started",
+          "icon": null
+        },
+        "upload_hint_text": "Drop your file here",
+        "upload_browse_text": "or click to browse • Continue in the CosmicPDF app",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Powerful Features",
+        "subtitle": "Everything you need for Excel to PDF",
+        "items": [
+          {
+            "icon": null,
+            "title": "Fast processing",
+            "description": "Run Excel to PDF with optimized pipelines and clear progress."
+          },
+          {
+            "icon": null,
+            "title": "Quality preservation",
+            "description": "Keep fonts, vectors, and layout fidelity where the format allows."
+          },
+          {
+            "icon": null,
+            "title": "Secure by design",
+            "description": "Encryption in transit and sensible defaults for document handling."
+          },
+          {
+            "icon": null,
+            "title": "Works in the app",
+            "description": "Open in CosmicPDF on the web to finish the job with the full editor."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "How It Works",
+        "subtitle": "Simple and efficient process in 4 steps",
+        "items": [
+          {
+            "icon": null,
+            "title": "Upload",
+            "description": "Add the file you want to use with Excel to PDF."
+          },
+          {
+            "icon": null,
+            "title": "Choose options",
+            "description": "Pick the settings that match your document."
+          },
+          {
+            "icon": null,
+            "title": "Process",
+            "description": "Let CosmicPDF run the operation on your file."
+          },
+          {
+            "icon": null,
+            "title": "Download",
+            "description": "Save the result or continue editing in the app."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "GetStarted",
+        "badge": null,
+        "title1": "Ready to get started?",
+        "title2": null,
+        "subtitle": "Use CosmicPDF to excel to pdf with guided steps, previews where available, and export options that match how teams ship PDFs today.",
+        "cta": {
+          "href": "/tools",
+          "text": "Get Started",
+          "aria_label": "Get Started",
+          "icon": null
+        },
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Frequently Asked Questions",
+        "subtitle": "Common questions about Excel to PDF",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Is Excel to PDF free to try?",
+            "content": "You can start from the marketing site and continue in the product. Plans and limits are shown in the app."
+          },
+          {
+            "title": "Where are files processed?",
+            "content": "Heavy processing runs in the CosmicPDF application after you continue from cosmicpdf.com."
+          }
+        ]
+      }
+    ]
+  }
+}

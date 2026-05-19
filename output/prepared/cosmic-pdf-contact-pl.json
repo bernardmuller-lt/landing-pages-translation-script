@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "pl",
+    "locale_display": "pl",
+    "seo": {
+      "title": "Skontaktuj się z CosmicPDF",
+      "description": "Masz pytania dotyczące CosmicPDF? Jesteśmy tutaj, aby pomóc. Skontaktuj się z nami, a my skontaktujemy się z Tobą tak szybko, jak to możliwe."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "Skontaktuj się",
+        "title": "<h1>Zacznijmy A <strong>Rozmowa</strong></h1>",
+        "subtitle": "Masz pytania dotyczące CosmicPDF? Jesteśmy tutaj, aby pomóc. Skontaktuj się z nami, a my skontaktujemy się z Tobą tak szybko, jak to możliwe.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Kontakt Informacja",
+        "subtitle": "Wolisz skontaktować się bezpośrednio? Oto kanały, które monitorujemy.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "Napisz do nas",
+            "description": "support@cosmicpdf.com\nZwykle odpowiadamy w ciągu 24 godzin"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Obroty",
+            "description": "sales@cosmicpdf.com\nPytania dotyczące cen, programów pilotażowych i zamówień publicznych"
+          },
+          {
+            "icon": "Shield",
+            "title": "Bezpieczeństwo",
+            "description": "bezpieczeństwo@cosmicpdf.com\nOdpowiedzialne ujawnianie informacji i przeglądy bezpieczeństwa"
+          },
+          {
+            "icon": "Clock",
+            "title": "Godziny otwarcia",
+            "description": "Poniedziałek - piątek: 9:00 - 18:00 czasu PST\nPomoc weekendowa różni się w zależności od planu"
+          }
+        ]
+      }
+    ]
+  }
+}

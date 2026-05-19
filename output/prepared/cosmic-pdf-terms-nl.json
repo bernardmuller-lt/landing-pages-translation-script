@@ -1,0 +1,45 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "terms",
+    "locale": "nl",
+    "locale_display": "nl",
+    "seo": {
+      "title": "Servicevoorwaarden · CosmicPDF",
+      "description": "Laatst bijgewerkt: 30 april 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Invoering",
+        "content": "<p>Deze Voorwaarden zijn van toepassing op uw gebruik van CosmicPDF-websites en -diensten. Door onze diensten te openen of te gebruiken, gaat u akkoord met deze Voorwaarden.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "accounts",
+        "title": "Rekeningen",
+        "content": "<p>Wanneer u een account aanmaakt, gaat u ermee akkoord nauwkeurige informatie te verstrekken en de inloggegevens veilig te houden. U bent verantwoordelijk voor de activiteiten onder uw account.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "content",
+        "title": "Gebruikersinhoud",
+        "content": "<p>U behoudt de rechten op de documenten die u uploadt. U moet het recht hebben om de inhoud die u indient te verwerken.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "liability",
+        "title": "Beperking van aansprakelijkheid",
+        "content": "<p>Voor zover maximaal toegestaan ​​door de wet, is CosmicPDF niet aansprakelijk voor indirecte schade of gevolgschade die voortvloeit uit uw gebruik van de diensten.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Contact",
+        "content": "<p>Vragen over deze voorwaarden:</p><p>legal@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

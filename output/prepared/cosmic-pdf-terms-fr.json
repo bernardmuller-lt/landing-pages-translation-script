@@ -1,0 +1,45 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "terms",
+    "locale": "fr",
+    "locale_display": "fr",
+    "seo": {
+      "title": "Conditions d'utilisation · CosmicPDF",
+      "description": "Dernière mise à jour : 30 avril 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Introduction",
+        "content": "<p>Ces conditions régissent votre utilisation des sites Web et des services CosmicPDF. En accédant ou en utilisant nos services, vous acceptez ces conditions.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "accounts",
+        "title": "Comptes",
+        "content": "<p>Lorsque vous créez un compte, vous acceptez de fournir des informations exactes et de conserver vos informations d'identification en sécurité. Vous êtes responsable de l’activité sous votre compte.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "content",
+        "title": "Contenu utilisateur",
+        "content": "<p>Vous conservez les droits sur les documents que vous téléchargez. Vous devez avoir le droit de traiter le contenu que vous soumettez.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "liability",
+        "title": "Limitation de responsabilité",
+        "content": "<p>Dans la mesure permise par la loi, CosmicPDF n'est pas responsable des dommages indirects ou consécutifs découlant de votre utilisation des services.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Contact",
+        "content": "<p>Questions concernant ces Conditions :</p><p>légal@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "siteName": "CosmicPDF",
+    "defaultDescription": "CosmicPDF – AI-aangedreven PDF-bewerking, conversie en veilig delen.",
+    "titleSuffix": "CosmicPDF",
+    "redirecting": "Omleiden naar CosmicPDF",
+    "redirectingBody": "Omleiden naar de CosmicPDF-app…",
+    "continue": "Doorgaan"
+  },
+  "nav": {
+    "features": "Functies",
+    "pricing": "Prijzen",
+    "forms": "Formulieren",
+    "about": "Over",
+    "getStarted": "Aan de slag",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "mobileNote": "Alle tools staan ​​onder /tools/… op deze site.",
+    "selectLanguage": "Selecteer taal"
+  },
+  "toolCategories": {
+    "security": "Beveiligings-pdf",
+    "splitMerge": "Splitsen en samenvoegen",
+    "editPdf": "PDF bewerken",
+    "convertFromPdf": "Converteren vanuit PDF",
+    "convertToPdf": "Converteren naar PDF",
+    "compress": "Comprimeren"
+  },
+  "toolNames": {
+    "sign-pdf": "PDF ondertekenen",
+    "password-protect": "Wachtwoordbeveiliging",
+    "share-pdf": "PDF delen",
+    "share-files": "Deel bestanden",
+    "split-pdf": "PDF splitsen",
+    "merge-pdf": "PDF samenvoegen",
+    "combine-pdf": "Combineer PDF",
+    "reorder-pdf": "PDF opnieuw ordenen",
+    "extract-pages": "Pagina's extraheren",
+    "edit-pdf": "PDF bewerken",
+    "edit-fill-pdf": "Bewerk en vul PDF",
+    "edit-scanned-pdf": "Gescande PDF bewerken",
+    "add-image-to-pdf": "Afbeelding toevoegen aan PDF",
+    "watermark": "Watermerk",
+    "rotate-pdf": "PDF roteren",
+    "delete-pages": "Pagina's verwijderen",
+    "pages-numbering": "Paginanummering",
+    "pdf-reader": "PDF-lezer",
+    "pdf-to-word": "PDF naar Word",
+    "pdf-to-jpg": "PDF naar JPG",
+    "pdf-to-png": "PDF naar PNG",
+    "pdf-to-powerpoint": "PDF naar Powerpoint",
+    "pdf-to-excel": "PDF naar Excel",
+    "pdf-to-pdfa": "PDF naar PDF/A",
+    "word-to-pdf": "Word naar PDF",
+    "jpg-to-pdf": "JPG naar PDF",
+    "png-to-pdf": "PNG naar PDF",
+    "powerpoint-to-pdf": "Powerpoint naar pdf",
+    "excel-to-pdf": "Excel naar PDF",
+    "pdfa-to-pdf": "PDF/A naar PDF",
+    "compress-pdf": "PDF comprimeren",
+    "compress-image": "Comprimeer afbeelding"
+  },
+  "tools": {
+    "pageTitleSuffix": "· KosmischePDF",
+    "categoryLabel": "Categorie",
+    "featuresTitle": "Krachtige functies",
+    "featuresSubtitle": "Alles wat je nodig hebt voor {naam}",
+    "howItWorksTitle": "Hoe het werkt",
+    "howItWorksSubtitle": "Eenvoudig en efficiënt proces in 4 stappen",
+    "faqTitle": "Veelgestelde vragen",
+    "faqSubtitle": "Veelgestelde vragen over {naam}",
+    "ctaTitle": "Klaar om aan de slag te gaan?",
+    "ctaButton": "Aan de slag",
+    "dropFile": "Zet uw bestand hier neer",
+    "orBrowse": "of klik om te bladeren • Ga verder in de CosmicPDF-app",
+    "templates": {
+      "tagline": "{name} online met CosmicPDF — snel, duidelijk en gebouwd voor echte documenten.",
+      "description": "Gebruik CosmicPDF voor {nameLower} met begeleide stappen, voorbeelden waar beschikbaar en exportopties die overeenkomen met de manier waarop teams vandaag de dag PDF's verzenden.",
+      "features": {
+        "fast": {
+          "title": "Snelle verwerking",
+          "description": "Voer {name} uit met geoptimaliseerde pipelines en duidelijke voortgang."
+        },
+        "quality": {
+          "title": "Behoud van kwaliteit",
+          "description": "Houd lettertypen, vectoren en lay-outgetrouw waar het formaat dit toelaat."
+        },
+        "secure": {
+          "title": "Veilig door ontwerp",
+          "description": "Versleuteling tijdens verzending en verstandige standaardinstellingen voor documentverwerking."
+        },
+        "app": {
+          "title": "Werkt in de app",
+          "description": "Open in CosmicPDF op internet om de taak te voltooien met de volledige editor."
+        }
+      },
+      "howItWorks": {
+        "upload": {
+          "title": "Uploaden",
+          "description": "Voeg het bestand toe dat u wilt gebruiken met {name}."
+        },
+        "choose": {
+          "title": "Kies opties",
+          "description": "Kies de instellingen die bij uw document passen."
+        },
+        "process": {
+          "title": "Proces",
+          "description": "Laat CosmicPDF de bewerking op uw bestand uitvoeren."
+        },
+        "download": {
+          "title": "Downloaden",
+          "description": "Sla het resultaat op of ga verder met bewerken in de app."
+        }
+      },
+      "faqs": {
+        "free": {
+          "question": "Is {name} gratis te proberen?",
+          "answer": "U kunt beginnen vanaf de marketingsite en doorgaan in het product. Plannen en limieten worden weergegeven in de app."
+        },
+        "where": {
+          "question": "Waar worden bestanden verwerkt?",
+          "answer": "Er wordt zware verwerking uitgevoerd in de CosmicPDF-toepassing nadat u doorgaat vanaf cosmicpdf.com."
+        }
+      }
+    }
+  },
+  "home": {
+    "pageTitle": "CosmicPDF — AI PDF-bewerking voor moderne teams",
+    "hero": {
+      "badge": "Mogelijk gemaakt door geavanceerde AI",
+      "title1": "De toekomst van",
+      "title2": "PDF-bewerking",
+      "subtitle": "Transformeer uw documentworkflow met intelligente AI-technologie. Bewerk, onderteken, converteer en voeg PDF's samen met ongekend gemak en snelheid.",
+      "cta": "Begin met bewerken",
+      "noCard": "Geen creditcard vereist",
+      "trial": "Gratis proefperiode van 14 dagen",
+      "dropHere": "Zet uw PDF hier neer",
+      "orBrowse": "of klik om te bladeren • Maximaal 50 MB",
+      "pdfOnly": "Selecteer een PDF-bestand",
+      "tooBig": "De bestandsgrootte moet kleiner zijn dan 50 MB"
+    },
+    "trustedBy": {
+      "label": "Vertrouwd door marktleiders"
+    },
+    "quickTools": {
+      "title": "AI-aangedreven tools",
+      "subtitle": "Alles wat u nodig heeft voor professioneel documentbeheer",
+      "explore": "Functie verkennen",
+      "items": {
+        "summarize": {
+          "title": "AI Samenvatten",
+          "description": "Haal belangrijke inzichten onmiddellijk uit lange documenten met geavanceerde AI"
+        },
+        "extract": {
+          "title": "AI-extract",
+          "description": "Identificeer en extraheer automatisch tabellen, formulieren en gegevensstructuren"
+        },
+        "translate": {
+          "title": "AI Vertalen",
+          "description": "Vertaal documenten naar meer dan 100 talen met behoud van de opmaak"
+        },
+        "ocr": {
+          "title": "Ik heb OCR",
+          "description": "Converteer gescande documenten met hoge nauwkeurigheid naar bewerkbare tekst"
+        }
+      }
+    },
+    "featureShowcase": {
+      "title": "Gebouwd voor moderne teams",
+      "subtitle": "Krachtige functies die meegroeien met uw zakelijke behoeften",
+      "items": {
+        "intelligence": {
+          "title": "AI-intelligentie",
+          "body": "Geavanceerde machine learning-algoritmen begrijpen uw documenten en automatiseren complexe taken"
+        },
+        "fast": {
+          "title": "Bliksemsnel",
+          "body": "Verwerk documenten sneller dan traditionele tools met een geoptimaliseerde cloudinfrastructuur"
+        },
+        "security": {
+          "title": "Bedrijfsbeveiliging",
+          "body": "Encryptie op bankniveau en naleving van de AVG-, SOC 2- en ISO 27001-normen"
+        },
+        "access": {
+          "title": "Universele toegang",
+          "body": "Werk overal met naadloze synchronisatie tussen al uw apparaten en platforms"
+        }
+      }
+    },
+    "dashboard": {
+      "badge": "Dashboardoverzicht",
+      "title1": "Krachtig dashboard voor",
+      "title2": "Compleet bestandsbeheer",
+      "subtitle": "Krijg toegang tot al uw PDF-bestanden in één gecentraliseerde hub met geavanceerde organisatie-, zoekmogelijkheden en slimme tools voor bestandsbeheer.",
+      "features": {
+        "centralized": {
+          "title": "Gecentraliseerde hub",
+          "body": "Beheer al uw PDF-bestanden in één georganiseerd dashboard"
+        },
+        "trash": {
+          "title": "Prullenbak systeem",
+          "body": "30 dagen bewaren van afval met herstel- en permanente verwijderingsopties"
+        },
+        "quickActions": {
+          "title": "Snelle acties",
+          "body": "Bekijk, download, bewerk en verwijder met één klik"
+        }
+      },
+      "cta": "Toegang tot uw dashboard",
+      "ctaNote": "Meld u aan om uw PDF-bestanden te beheren",
+      "alt": "Dashboardinterface"
+    },
+    "cta": {
+      "title1": "Begin slimmer met bewerken,",
+      "title2": "niet moeilijker",
+      "subtitle": "Sluit u aan bij duizenden professionals die hun documentworkflow hebben getransformeerd met door AI aangedreven tools.",
+      "bullets": {
+        "trial": "Gratis proefperiode van 14 dagen, geen creditcard vereist",
+        "cancel": "Op elk moment opzeggen, bewaar uw gegevens",
+        "unlimited": "Onbeperkte documentverwerking"
+      },
+      "button": "Aan de slag",
+      "stats": {
+        "users": {
+          "value": "50K+",
+          "label": "Actieve gebruikers"
+        },
+        "pdfs": {
+          "value": "1M+",
+          "label": "PDF's verwerkt"
+        },
+        "uptime": {
+          "value": "99,9%",
+          "label": "Uptime"
+        },
+        "rating": {
+          "value": "4,9/5",
+          "label": "Gebruikersbeoordeling"
+        }
+      },
+      "quote": "Deze tool heeft de manier waarop we met documenten omgaan volledig getransformeerd. De AI-functies besparen ons elke week uren.",
+      "quoteAuthor": "— Sarah Chen, productmanager bij TechCorp"
+    },
+    "testimonials": {
+      "title": "Geliefd bij duizenden gebruikers",
+      "subtitle": "Bekijk wat professionals zeggen over CosmicPDF",
+      "ratingLabel": "5 sterren beoordeling",
+      "items": {
+        "sarah": {
+          "name": "Sara Mitchell",
+          "role": "Marketingdirecteur",
+          "company": "TechFlow Inc.",
+          "initials": "SM",
+          "content": "CosmicPDF heeft de manier veranderd waarop ons team met documenten omgaat. De door AI aangedreven tools besparen ons elke week uren en de interface is ongelooflijk intuïtief."
+        },
+        "michael": {
+          "name": "Michaël Chen",
+          "role": "Productmanager",
+          "company": "StartupLabs",
+          "initials": "MC",
+          "content": "De beste PDF-tool die ik ooit heb gebruikt. Het converteren, samenvoegen en bewerken van PDF's was nog nooit zo eenvoudig. De AI-functies zijn een gamechanger voor de productiviteit."
+        },
+        "emily": {
+          "name": "Emily Rodriguez",
+          "role": "Juridisch adviseur",
+          "company": "Recht & Partners",
+          "initials": "IS",
+          "content": "Veiligheid en betrouwbaarheid zijn cruciaal voor onze juridische documenten. Dit platform presteert op beide fronten en maakt complexe PDF-taken eenvoudig en snel."
+        }
+      },
+      "roleAtCompany": "{rol} bij {bedrijf}"
+    },
+    "allTools": {
+      "title": "Alle gereedschappen",
+      "subtitle": "Uitgebreide reeks PDF-tools voor elke behoefte"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Alles wat u moet weten over CosmicPDF",
+      "stillHave": "Heeft u nog vragen?",
+      "contactSupport": "Neem contact op met ons ondersteuningsteam",
+      "items": {
+        "ai": {
+          "q": "Hoe werkt de AI-aangedreven bewerking?",
+          "a": "Onze geavanceerde AI-technologie maakt gebruik van machinaal leren om de documentstructuur te begrijpen, tekst en afbeeldingen te detecteren en op intelligente wijze bewerkingen voor te stellen. Het kan formulieren automatisch herkennen, gegevens extraheren en u helpen sneller wijzigingen aan te brengen dan traditionele PDF-editors."
+        },
+        "security": {
+          "q": "Zijn mijn gegevens veilig en privé?",
+          "a": "We gebruiken sterke encryptie voor gegevensoverdracht en opslag. Uw documenten worden veilig verwerkt. We ontwerpen CosmicPDF om aan de algemene verwachtingen op het gebied van compliance te voldoen; bekijk ons ​​privacybeleid en de vereisten van uw organisatie voordat u gevoelige gegevens uploadt."
+        },
+        "formats": {
+          "q": "Welke bestandsformaten ondersteunen jullie?",
+          "a": "We ondersteunen PDF als het primaire formaat, met conversiemogelijkheden van en naar Word (DOCX), Excel (XLSX), PowerPoint (PPTX), afbeeldingen (JPG, PNG) en meer. U kunt ook verschillende bestandstypen samenvoegen tot één PDF, indien ondersteund."
+        },
+        "offline": {
+          "q": "Kan ik deze tool offline gebruiken?",
+          "a": "De marketingsite is statisch; de productervaring is cloudgebaseerd om krachtige AI-verwerking te benutten. Sommige workflows bieden mogelijk desktopervaringen. Zie de app voor meer informatie."
+        },
+        "trial": {
+          "q": "Wat gebeurt er nadat mijn gratis proefperiode is afgelopen?",
+          "a": "Na uw proefperiode kunt u een betaald abonnement kiezen of doorgaan met een gratis niveau, indien beschikbaar. Uw documenten en werk worden opgeslagen volgens de bewaarregels van het product."
+        },
+        "enterprise": {
+          "q": "Biedt u team- of ondernemingsplannen aan?",
+          "a": "Ja. We bieden teamabonnementen met gedeelde werkruimtes en bedrijfsopties met geavanceerde beveiliging en ondersteuning. Neem contact op met de verkoopafdeling voor aangepaste prijzen."
+        }
+      }
+    }
+  },
+  "pricing": {
+    "pageTitle": "Prijzen · CosmicPDF",
+    "title": "Eenvoudige, transparante prijzen",
+    "subtitle": "Kies het perfecte plan voor uw behoeften.",
+    "popular": "Meest populair",
+    "perPeriod": "/",
+    "enterpriseNote": "Een plan op maat nodig voor uw organisatie?",
+    "enterpriseCta": "Neem contact op met de verkoopafdeling voor zakelijke prijzen",
+    "plans": {
+      "pro": {
+        "name": "Pro",
+        "price": "$ 1,95",
+        "period": "7 dagen op proef",
+        "description": "Voor professionals die onbeperkte toegang nodig hebben",
+        "cta": "Begin nu",
+        "features": {
+          "unlimited": "Onbeperkte PDF-bewerkingen",
+          "allTools": "Alle 32 AI-aangedreven tools",
+          "fileSize": "Maximale bestandsgrootte van 100 MB",
+          "priority": "Prioritaire verwerking",
+          "ai": "Geavanceerde AI-functies",
+          "support": "Prioritaire e-mailondersteuning",
+          "noWatermark": "Geen watermerken"
+        },
+        "billingNote": "dan wordt {amount} elke 4 weken gefactureerd",
+        "billingAmount": "39,95$"
+      },
+      "business": {
+        "name": "Bedrijf",
+        "price": "$ 59,95",
+        "period": "maand",
+        "description": "Werk naadloos samen met uw team",
+        "cta": "Begin nu",
+        "features": {
+          "everything": "Alles in Pro",
+          "team": "Maximaal 5 teamleden",
+          "workspace": "Gedeelde werkruimte",
+          "analytics": "Teamanalyse",
+          "fileSize": "Bestandsgroottelimiet van 500 MB",
+          "support": "Toegewijde ondersteuning",
+          "admin": "Beheerdersbediening",
+          "api": "API-toegang"
+        },
+        "billingNote": "{bedrag} jaarlijks gefactureerd",
+        "billingAmount": "$ 495,95",
+        "discount": "15% korting"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "Over CosmicPDF",
+    "badge": "Over ons",
+    "title1": "Document opnieuw definiëren",
+    "title2": "Intelligentie",
+    "subtitle": "We zijn op een missie om de manier waarop de wereld met documenten werkt te transformeren. Via de allernieuwste AI maken we PDF-bewerking moeiteloos, intelligent en voor iedereen toegankelijk.",
+    "stats": {
+      "users": {
+        "label": "Actieve gebruikers",
+        "value": "2M+"
+      },
+      "pdfs": {
+        "label": "PDF's verwerkt",
+        "value": "500M+"
+      },
+      "countries": {
+        "label": "Landen",
+        "value": "150+"
+      },
+      "uptime": {
+        "label": "Uptime",
+        "value": "99,9%"
+      }
+    },
+    "mission": {
+      "title1": "Ons",
+      "title2": "Missie",
+      "body1": "Wij zijn van mening dat het werken met documenten intuïtief, snel en krachtig moet zijn. CosmicPDF elimineert wrijving bij PDF-workflows, zodat u zich kunt concentreren op de resultaten.",
+      "body2": "Van startups tot ondernemingen: teams vertrouwen op CosmicPDF voor belangrijke documenten. Wij streven naar voortdurende innovatie."
+    },
+    "values": {
+      "title1": "Ons",
+      "title2": "Waarden",
+      "subtitle": "De principes die leidend zijn bij alles wat we doen",
+      "items": {
+        "innovation": {
+          "title": "Innovatie eerst",
+          "body": "We verleggen de grenzen van wat mogelijk is met AI en documenttechnologie."
+        },
+        "user": {
+          "title": "Gebruikersgericht",
+          "body": "Elke functie is ontworpen met uw workflow en productiviteit in gedachten."
+        },
+        "precision": {
+          "title": "Precisie",
+          "body": "Wij geloven in het leveren van nauwkeurige, betrouwbare resultaten, elke keer opnieuw."
+        },
+        "simplicity": {
+          "title": "Eenvoud",
+          "body": "Complexe technologie, eenvoudige ervaring. Dat is onze belofte aan u."
+        }
+      }
+    },
+    "faq": {
+      "title1": "Veelgestelde vragen",
+      "title2": "Vragen",
+      "subtitle": "Antwoorden op veelgestelde vragen over ons bedrijf",
+      "items": {
+        "founded": {
+          "q": "Wanneer werd het bedrijf opgericht?",
+          "a": "We zijn in 2020 opgericht met een simpele missie: het bewerken van documenten net zo intuïtief maken als het voeren van een gesprek. Sindsdien zijn we gegroeid en kunnen we miljoenen gebruikers in vele landen bedienen."
+        },
+        "location": {
+          "q": "Waar is uw bedrijf gevestigd?",
+          "a": "We hebben ons hoofdkantoor in San Francisco, Californië, met externe teamleden verspreid over Noord-Amerika, Europa en Azië."
+        },
+        "security": {
+          "q": "Hoe zorg je voor gegevensbeveiliging?",
+          "a": "Beveiliging vormt de kern van alles wat we bouwen. We gebruiken sterke encryptie, volgen gemeenschappelijke compliance-frameworks en ontwerpen retentiebeleid om risico's te verminderen. Lees altijd ons privacybeleid voor meer informatie."
+        },
+        "enterprise": {
+          "q": "Biedt u bedrijfsoplossingen?",
+          "a": "Ja. Wij bieden bedrijfsoplossingen met speciale ondersteuning, integraties, SSO-mogelijkheden, geavanceerde beveiligingsfuncties en flexibele implementatieopties."
+        },
+        "ai": {
+          "q": "Wat maakt uw AI-technologie anders?",
+          "a": "Onze modellen zijn getraind voor het begrijpen van documenten en het bewerken van taken, gericht op het sneller en nauwkeuriger maken van PDF-workflows."
+        },
+        "team": {
+          "q": "Hoe kan ik lid worden van uw team?",
+          "a": "Wij zijn altijd op zoek naar getalenteerde individuen. Bekijk onze carrièrepagina voor openstaande functies op het gebied van techniek, ontwerp en product."
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Neem contact op met CosmicPDF",
+    "badge": "Neem contact op",
+    "title1": "Laten we beginnen",
+    "title2": "Gesprek",
+    "subtitle": "Heeft u vragen over CosmicPDF? Wij zijn hier om te helpen. Neem contact met ons op en we nemen zo snel mogelijk contact met u op.",
+    "send": {
+      "title1": "Stuur ons een",
+      "title2": "bericht",
+      "subtitle": "Vul het onderstaande formulier in en ons team neemt binnen 24 uur contact met u op."
+    },
+    "info": {
+      "title1": "Contact",
+      "title2": "Informatie",
+      "subtitle": "Liever direct contact opnemen? Dit zijn de kanalen die we monitoren.",
+      "items": {
+        "email": {
+          "title": "E-mail ons",
+          "details": "support@cosmicpdf.com",
+          "description": "Wij reageren doorgaans binnen 24 uur"
+        },
+        "sales": {
+          "title": "Verkoop",
+          "details": "sales@cosmicpdf.com",
+          "description": "Prijzen, pilots en inkoopvragen"
+        },
+        "security": {
+          "title": "Beveiliging",
+          "details": "security@cosmicpdf.com",
+          "description": "Verantwoorde openbaarmaking en veiligheidsbeoordelingen"
+        },
+        "hours": {
+          "title": "Kantooruren",
+          "details": "Maandag - vrijdag: 9.00 - 18.00 uur PST",
+          "description": "Weekendondersteuning varieert per abonnement"
+        }
+      }
+    },
+    "form": {
+      "name": "Volledige naam",
+      "namePlaceholder": "John Doe",
+      "email": "E-mailadres",
+      "emailPlaceholder": "john@voorbeeld.com",
+      "subject": "Onderwerp",
+      "subjectPlaceholder": "Selecteer een onderwerp",
+      "subjectOptions": {
+        "general": "Algemeen onderzoek",
+        "support": "Technische ondersteuning",
+        "sales": "Verkoop vraag",
+        "partnership": "Partnerschapsmogelijkheid",
+        "feedback": "Feedback"
+      },
+      "message": "Bericht",
+      "messagePlaceholder": "Vertel ons hoe wij u kunnen helpen...",
+      "required": "*",
+      "submit": "Bericht verzenden",
+      "demoAlert": "Bedankt — deze statische demo wordt nergens ingediend. Verbind dit formulier met uw app-eindpunt wanneer u klaar bent."
+    }
+  },
+  "privacy": {
+    "pageTitle": "Privacybeleid · CosmicPDF",
+    "title": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt: 30 april 2026",
+    "sections": {
+      "introduction": {
+        "title": "Invoering",
+        "body": "Welkom bij CosmicPDF. Wij respecteren uw privacy en doen er alles aan om uw persoonlijke gegevens te beschermen. Dit beleid beschrijft hoe we omgaan met informatie wanneer u onze marketingsite bezoekt en wanneer u het CosmicPDF-product gebruikt."
+      },
+      "collected": {
+        "title": "Informatie die we verzamelen",
+        "intro": "We kunnen categorieën informatie verzamelen en verwerken, zoals:",
+        "identity": {
+          "label": "Identiteitsgegevens:",
+          "body": "naam en soortgelijke identificatiegegevens."
+        },
+        "contact": {
+          "label": "Contactgegevens:",
+          "body": "e-mailadres en telefoonnummers, indien opgegeven."
+        },
+        "technical": {
+          "label": "Technische gegevens:",
+          "body": "IP-adres, browsertype, apparaat en diagnostische gegevens."
+        },
+        "usage": {
+          "label": "Gebruiksgegevens:",
+          "body": "informatie over hoe u onze website en diensten gebruikt."
+        },
+        "document": {
+          "label": "Documentgegevens:",
+          "body": "bestanden die u uploadt voor verwerking in het product."
+        }
+      },
+      "marketing": {
+        "title": "Marketingsite",
+        "body": "Deze repository host een statische marketingsite. Er wordt geen server-side verwerking voor uploads uitgevoerd. Elke bestandsoverdracht moet in de producttoepassing worden geïmplementeerd in overeenstemming met uw beveiligingsbeoordeling."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Vragen over privacy:",
+        "email": "privacy@cosmicpdf.com"
+      }
+    }
+  },
+  "terms": {
+    "pageTitle": "Servicevoorwaarden · CosmicPDF",
+    "title": "Servicevoorwaarden",
+    "lastUpdated": "Laatst bijgewerkt: 30 april 2026",
+    "sections": {
+      "introduction": {
+        "title": "Invoering",
+        "body": "Deze Voorwaarden zijn van toepassing op uw gebruik van CosmicPDF-websites en -diensten. Door onze diensten te openen of te gebruiken, gaat u akkoord met deze Voorwaarden."
+      },
+      "accounts": {
+        "title": "Rekeningen",
+        "body": "Wanneer u een account aanmaakt, gaat u ermee akkoord nauwkeurige informatie te verstrekken en de inloggegevens veilig te houden. U bent verantwoordelijk voor de activiteiten onder uw account."
+      },
+      "content": {
+        "title": "Gebruikersinhoud",
+        "body": "U behoudt de rechten op de documenten die u uploadt. U moet het recht hebben om de inhoud die u indient te verwerken."
+      },
+      "liability": {
+        "title": "Beperking van aansprakelijkheid",
+        "body": "Voor zover maximaal toegestaan ​​door de wet, is CosmicPDF niet aansprakelijk voor indirecte schade of gevolgschade die voortvloeit uit uw gebruik van de diensten."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Vragen over deze voorwaarden:",
+        "email": "legal@cosmicpdf.com"
+      }
+    }
+  },
+  "forms": {
+    "pageTitle": "Meest gebruikte formulieren · CosmicPDF",
+    "title": "Meest gebruikte formulieren",
+    "subtitle": "Toegang tot en bewerk de meest gebruikte formulieren. Alle formulieren zijn volledig bewerkbaar met onze AI-aangedreven PDF-editor.",
+    "bullets": {
+      "templates": "Sjablonen in officiële stijl voor algemene workflows",
+      "editable": "Volledig bewerkbaar met AI-ondersteuning",
+      "upload": "Upload uw eigen formulieren om te bewerken"
+    },
+    "categories": {
+      "all": "Alle",
+      "tax": "Belastingformulieren",
+      "employment": "Werkgelegenheid",
+      "business": "Bedrijf",
+      "government": "Regering",
+      "immigration": "Immigratie"
+    },
+    "editForm": "Formulier bewerken",
+    "editAlert": "Ga verder in de CosmicPDF-app om dit formulier te bewerken.",
+    "uploadTitle": "Upload uw eigen formulier",
+    "uploadSubtitle": "Heeft u een ander formulier? Upload het en begin met bewerken met AI-hulp",
+    "dropHere": "Zet uw PDF hier neer",
+    "orBrowse": "of klik om te bladeren • Maximaal 50 MB",
+    "items": {
+      "941": {
+        "name": "Formulier 941",
+        "title": "Driemaandelijkse federale belastingaangifte van de werkgever",
+        "category": "business",
+        "description": "Gebruikt door werkgevers om inkomstenbelastingen en loonbelastingen aan te geven die zijn ingehouden op de lonen van werknemers."
+      },
+      "1040": {
+        "name": "Formulier 1040",
+        "title": "Amerikaanse individuele inkomstenbelastingaangifte",
+        "category": "tax",
+        "description": "Het standaard federale inkomstenbelastingformulier dat wordt gebruikt om het jaarinkomen te rapporteren en de verschuldigde belastingen te berekenen."
+      },
+      "1065": {
+        "name": "Formulier 1065",
+        "title": "Amerikaanse terugkeer van partnerschapsinkomsten",
+        "category": "business",
+        "description": "Informatieretour die door partnerschappen wordt gebruikt om inkomsten, inhoudingen en tegoeden te rapporteren."
+      },
+      "w-9": {
+        "name": "Formulier W-9",
+        "title": "Verzoek om belastingbetaleridentificatienummer",
+        "category": "tax",
+        "description": "Gebruikt door freelancers en aannemers om hun belastingbetaleridentificatienummer aan klanten te verstrekken."
+      },
+      "w-4": {
+        "name": "Formulier W-4",
+        "title": "Inhoudingsverklaring van de werknemer",
+        "category": "tax",
+        "description": "Ingevuld door werknemers om hun belastingsituatie aan werkgevers door te geven voor een juiste inhouding."
+      },
+      "i-9": {
+        "name": "Formulier I-9",
+        "title": "Verificatie van geschiktheid voor werk",
+        "category": "employment",
+        "description": "Vereist voor alle Amerikaanse werkgevers om de identiteit en arbeidsvergunning van nieuwe medewerkers te verifiëren."
+      },
+      "ss-4": {
+        "name": "Formulier SS-4",
+        "title": "Aanvraag werkgeversidentificatienummer",
+        "category": "business",
+        "description": "Wordt door bedrijven gebruikt om een ​​EIN (Employer Identification Number) aan te vragen bij de IRS."
+      },
+      "1099-nec": {
+        "name": "Formulier 1099-NEC",
+        "title": "Compensatie voor niet-werknemers",
+        "category": "tax",
+        "description": "Wordt gebruikt om betalingen aan onafhankelijke contractanten en freelancers te rapporteren."
+      },
+      "w-2": {
+        "name": "Formulier W-2",
+        "title": "Loon- en belastingaangifte",
+        "category": "tax",
+        "description": "Rapporteert het jaarloon van een werknemer en het bedrag aan belastingen dat op zijn salaris is ingehouden."
+      },
+      "ds-11": {
+        "name": "DS-11",
+        "title": "Aanvraag voor een Amerikaans paspoort",
+        "category": "government",
+        "description": "Gebruikt door mensen die voor het eerst een paspoort aanvragen en door mensen die verlopen paspoorten verlengen."
+      },
+      "i-130": {
+        "name": "Formulier I-130",
+        "title": "Petitie voor buitenaards familielid",
+        "category": "immigration",
+        "description": "Gebruikt door Amerikaanse staatsburgers en permanente inwoners om een ​​relatie op te bouwen met een vreemdeling."
+      },
+      "n-400": {
+        "name": "Formulier N-400",
+        "title": "Aanvraag naturalisatie",
+        "category": "immigration",
+        "description": "Gebruikt door permanente inwoners om het Amerikaanse staatsburgerschap aan te vragen."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden.",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "contact": "Contact",
+    "copyright": "© {jaar} CosmicPDF. Alle rechten voorbehouden."
+  },
+  "notFound": {
+    "pageTitle": "Pagina niet gevonden · CosmicPDF",
+    "title": "404",
+    "message": "Wij konden die pagina niet vinden.",
+    "back": "Terug naar huis"
+  }
+}

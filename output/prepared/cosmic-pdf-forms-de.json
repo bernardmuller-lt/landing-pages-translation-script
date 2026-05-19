@@ -1,0 +1,97 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "de",
+    "locale_display": "de",
+    "seo": {
+      "title": "Am häufigsten verwendete Formulare · CosmicPDF",
+      "description": "Greifen Sie auf die am häufigsten verwendeten Formulare zu und bearbeiten Sie sie. Alle Formulare können mit unserem KI-gestützten PDF-Editor vollständig bearbeitet werden."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title": "Am häufigsten verwendete Formulare",
+        "subtitle": "Greifen Sie auf die am häufigsten verwendeten Formulare zu und bearbeiten Sie sie. Alle Formulare können mit unserem KI-gestützten PDF-Editor vollständig bearbeitet werden.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "Am häufigsten verwendete Formulare",
+        "subtitle": "Greifen Sie auf die am häufigsten verwendeten Formulare zu und bearbeiten Sie sie. Alle Formulare können mit unserem KI-gestützten PDF-Editor vollständig bearbeitet werden.",
+        "items": [
+          {
+            "icon": null,
+            "title": "Formular 941 — Vierteljährliche Bundessteuererklärung des Arbeitgebers",
+            "description": "Wird von Arbeitgebern zur Meldung von Einkommenssteuern und Lohnsteuern verwendet, die von den Löhnen der Arbeitnehmer einbehalten werden."
+          },
+          {
+            "icon": null,
+            "title": "Formular 1040 — US-Einkommensteuererklärung für Einzelpersonen",
+            "description": "Das Standardformular für die Bundeseinkommensteuer, das zur Meldung des Jahreseinkommens und zur Berechnung der geschuldeten Steuern verwendet wird."
+          },
+          {
+            "icon": null,
+            "title": "Formular 1065 — US-Rendite des Partnerschaftseinkommens",
+            "description": "Informationsrückgabe, die von Personengesellschaften zur Meldung von Einnahmen, Abzügen und Gutschriften verwendet wird."
+          },
+          {
+            "icon": null,
+            "title": "Formular W-9 — Antrag auf Steueridentifikationsnummer",
+            "description": "Wird von Freiberuflern und Auftragnehmern verwendet, um Kunden ihre Steueridentifikationsnummer mitzuteilen."
+          },
+          {
+            "icon": null,
+            "title": "Formular W-4 — Quellensteuerbescheinigung des Mitarbeiters",
+            "description": "Wird von Arbeitnehmern ausgefüllt, um den Arbeitgebern ihre Steuersituation mitzuteilen, damit diese ordnungsgemäß einbehalten werden können."
+          },
+          {
+            "icon": null,
+            "title": "Formular I-9 — Überprüfung der Beschäftigungsberechtigung",
+            "description": "Für alle US-amerikanischen Arbeitgeber erforderlich, um die Identität und Beschäftigungserlaubnis neuer Mitarbeiter zu überprüfen."
+          },
+          {
+            "icon": null,
+            "title": "Formular SS-4 — Antrag auf Arbeitgeber-Identifikationsnummer",
+            "description": "Wird von Unternehmen zur Beantragung einer EIN (Employer Identification Number) beim IRS verwendet."
+          },
+          {
+            "icon": null,
+            "title": "Formular 1099-NEC — Nicht-Mitarbeiterentschädigung",
+            "description": "Wird zur Meldung von Zahlungen an unabhängige Auftragnehmer und Freiberufler verwendet."
+          },
+          {
+            "icon": null,
+            "title": "Formular W-2 — Lohn- und Steuerbescheinigung",
+            "description": "Meldet den Jahreslohn eines Mitarbeiters und die Höhe der von seinem Gehaltsscheck einbehaltenen Steuern."
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — Antrag auf einen US-Pass",
+            "description": "Wird von Erstantragstellern und Personen verwendet, die abgelaufene Pässe verlängern."
+          },
+          {
+            "icon": null,
+            "title": "Formular I-130 — Petition für ausländische Verwandte",
+            "description": "Wird von US-Bürgern und Personen mit ständigem Wohnsitz in den USA verwendet, um eine Beziehung zu einem Ausländer herzustellen."
+          },
+          {
+            "icon": null,
+            "title": "Formular N-400 — Antrag auf Einbürgerung",
+            "description": "Wird von Personen mit ständigem Wohnsitz zur Beantragung der US-Staatsbürgerschaft verwendet."
+          }
+        ]
+      }
+    ]
+  }
+}

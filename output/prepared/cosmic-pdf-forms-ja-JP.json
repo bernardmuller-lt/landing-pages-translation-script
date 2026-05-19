@@ -1,0 +1,97 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "ja-JP",
+    "locale_display": "jp",
+    "seo": {
+      "title": "最もよく使用されるフォーム · CosmicPDF",
+      "description": "最もよく使用されるフォームにアクセスして編集します。 すべてのフォームは、AI を活用した PDF エディターで完全に編集可能です。"
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title": "最もよく使用されるフォーム",
+        "subtitle": "最もよく使用されるフォームにアクセスして編集します。 すべてのフォームは、AI を活用した PDF エディターで完全に編集可能です。",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "最もよく使用されるフォーム",
+        "subtitle": "最もよく使用されるフォームにアクセスして編集します。 すべてのフォームは、AI を活用した PDF エディターで完全に編集可能です。",
+        "items": [
+          {
+            "icon": null,
+            "title": "フォーム941 — 雇用主の四半期連邦税申告書",
+            "description": "雇用主が従業員の給与から源泉徴収された所得税と給与税を報告するために使用されます。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム 1040 — 米国の個人所得税申告書",
+            "description": "年間所得を報告し、支払うべき税金を計算するために使用される標準の連邦所得税フォーム。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム 1065 — 米国におけるパートナーシップ収入の返還",
+            "description": "パートナーシップが収入、控除、クレジットを報告するために使用する情報の返送。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム W-9 — 納税者番号の要求",
+            "description": "フリーランサーや請負業者が納税者番号をクライアントに提供するために使用します。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム W-4 — 従業員の源泉徴収票",
+            "description": "適切な源泉徴収を行うために従業員が雇用主に納税状況を示すために記入します。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム I-9 — 雇用資格の確認",
+            "description": "米国のすべての雇用主が新入社員の身元と雇用許可を確認することが義務付けられています。"
+          },
+          {
+            "icon": null,
+            "title": "フォームSS-4 — 雇用主識別番号の申請",
+            "description": "企業が IRS に EIN (雇用主識別番号) を申請するために使用されます。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム 1099-NEC — 非従業員補償",
+            "description": "独立請負業者やフリーランサーへの支払いを報告するために使用されます。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム W-2 — 賃金および税金明細書",
+            "description": "従業員の年間賃金と給与から源泉徴収された税金の額を報告します。"
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — 米国パスポートの申請",
+            "description": "初めてパスポートを申請する方や有効期限が切れたパスポートを更新する方にご利用いただけます。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム I-130 — 外国人の親族に対する請願",
+            "description": "米国国民および永住者が外国人との関係を確立するために使用します。"
+          },
+          {
+            "icon": null,
+            "title": "フォーム N-400 — 帰化申請",
+            "description": "永住者が米国市民権を申請するために使用されます。"
+          }
+        ]
+      }
+    ]
+  }
+}

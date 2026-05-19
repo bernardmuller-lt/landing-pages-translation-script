@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "extract-pages",
+    "locale": "tr",
+    "locale_display": "tr",
+    "seo": {
+      "title": "Sayfaları Çıkart · KozmikPDF",
+      "description": "Sayfaları Çıkart CosmicPDF ile çevrimiçi — hızlı, net ve gerçek belgeler için oluşturulmuş."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>Sayfaları Çıkart</h1>",
+        "subtitle": "<p>Sayfaları Çıkart CosmicPDF ile çevrimiçi — hızlı, net ve gerçek belgeler için oluşturulmuş.</p><p>Kılavuzlu adımlarla, varsa önizlemelerle ve ekiplerin PDF'leri bugün gönderme şekliyle eşleşen dışa aktarma seçenekleriyle CosmicPDF'i sayfaları çıkart'a kullanın.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Başlarken",
+          "aria_label": "Başlarken"
+        },
+        "upload_hint_text": "Dosyanızı buraya bırakın",
+        "upload_browse_text": "veya göz atmak için tıklayın • CosmicPDF uygulamasında devam edin",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Güçlü Özellikler",
+        "subtitle": "Sayfaları Çıkart için ihtiyacınız olan her şey",
+        "items": [
+          {
+            "icon": null,
+            "title": "Hızlı işlem",
+            "description": "Sayfaları Çıkart'i optimize edilmiş ardışık düzenlerle ve net ilerlemeyle çalıştırın."
+          },
+          {
+            "icon": null,
+            "title": "Kalitenin korunması",
+            "description": "Formatın izin verdiği ölçüde yazı tiplerini, vektörleri ve düzen aslına uygunluğunu koruyun."
+          },
+          {
+            "icon": null,
+            "title": "Tasarım gereği güvenli",
+            "description": "Aktarım sırasında şifreleme ve belge işleme için makul varsayılanlar."
+          },
+          {
+            "icon": null,
+            "title": "Uygulamada çalışır",
+            "description": "İşi tam düzenleyiciyle tamamlamak için web üzerinde CosmicPDF'yi açın."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "Nasıl Çalışır?",
+        "subtitle": "4 adımda basit ve etkili süreç",
+        "items": [
+          {
+            "icon": null,
+            "title": "Yüklemek",
+            "description": "Sayfaları Çıkart ile kullanmak istediğiniz dosyayı ekleyin."
+          },
+          {
+            "icon": null,
+            "title": "Seçenekleri seçin",
+            "description": "Belgenizle eşleşen ayarları seçin."
+          },
+          {
+            "icon": null,
+            "title": "İşlem",
+            "description": "CosmicPDF'in dosyanızdaki işlemi çalıştırmasına izin verin."
+          },
+          {
+            "icon": null,
+            "title": "İndirmek",
+            "description": "Sonucu kaydedin veya uygulamada düzenlemeye devam edin."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Sıkça Sorulan Sorular",
+        "subtitle": "Sayfaları Çıkart hakkında sık sorulan sorular",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Sayfaları Çıkart denemek ücretsiz mi?",
+            "content": "Pazarlama sitesinden başlayıp üründe devam edebilirsiniz. Planlar ve sınırlar uygulamada gösterilir."
+          },
+          {
+            "title": "Dosyalar nerede işlenir?",
+            "content": "cosmicpdf.com'dan devam ettikten sonra CosmicPDF uygulamasında yoğun işlemler yürütülür."
+          }
+        ]
+      }
+    ]
+  }
+}

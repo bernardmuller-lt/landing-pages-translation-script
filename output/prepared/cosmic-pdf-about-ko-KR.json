@@ -1,0 +1,103 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "about",
+    "locale": "ko-KR",
+    "locale_display": "kr",
+    "seo": {
+      "title": "코스믹PDF 소개",
+      "description": "우리는 세상이 문서를 사용하는 방식을 변화시키는 임무를 수행하고 있습니다. 최첨단 AI를 통해 모든 사람이 PDF 편집을 쉽고 지능적이며 액세스할 수 있도록 만듭니다."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "AboutHero",
+        "badge": "회사 소개",
+        "title": "<h1>문서 재정의 <strong>지능</strong></h1>",
+        "subtitle": "우리는 세상이 문서를 사용하는 방식을 변화시키는 임무를 수행하고 있습니다. 최첨단 AI를 통해 모든 사람이 PDF 편집을 쉽고 지능적이며 액세스할 수 있도록 만듭니다.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Mission",
+        "badge": null,
+        "title": "<h2>우리의 <strong>사명</strong></h2>",
+        "subtitle": "우리는 문서 작업이 직관적이고 빠르며 강력해야 한다고 믿습니다. CosmicPDF는 PDF 작업 흐름의 마찰을 제거하므로 결과에 집중할 수 있습니다.",
+        "features": [],
+        "cta": null,
+        "cta_note": null,
+        "media": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "Values",
+        "title": "우리의 가치",
+        "subtitle": "우리가 하는 모든 일의 지침이 되는 원칙",
+        "items": [
+          {
+            "icon": "Lightbulb",
+            "title": "혁신 우선",
+            "description": "우리는 AI와 문서 기술로 가능한 것의 경계를 넓힙니다."
+          },
+          {
+            "icon": "Heart",
+            "title": "사용자 중심",
+            "description": "모든 기능은 작업 흐름과 생산성을 염두에 두고 설계되었습니다."
+          },
+          {
+            "icon": "Target",
+            "title": "정도",
+            "description": "우리는 매번 정확하고 신뢰할 수 있는 결과를 제공한다고 믿습니다."
+          },
+          {
+            "icon": "Minimize2",
+            "title": "간단",
+            "description": "복잡한 기술, 단순한 경험. 이것이 바로 우리의 약속입니다."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "AboutFAQ",
+        "title": "<h2>자주 묻는 질문 <strong>질문</strong></h2>",
+        "subtitle": "우리 회사에 대한 일반적인 질문에 대한 답변",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "회사는 언제 설립되었나요?",
+            "content": "우리는 2020년 간단한 사명을 가지고 설립되었습니다: 문서 편집을 대화하는 것처럼 직관적으로 만드는 것입니다. 그 이후로 우리는 여러 국가에서 수백만 명의 사용자에게 서비스를 제공할 정도로 성장했습니다."
+          },
+          {
+            "title": "귀하의 회사는 어디에 위치해 있나요?",
+            "content": "우리는 캘리포니아 주 샌프란시스코에 본사를 두고 있으며 원격 팀원은 북미, 유럽 및 아시아 전역에 분산되어 있습니다."
+          },
+          {
+            "title": "데이터 보안을 어떻게 보장합니까?",
+            "content": "보안은 우리가 구축하는 모든 것의 핵심입니다. 우리는 강력한 암호화를 사용하고, 일반적인 규정 준수 프레임워크를 따르며, 위험을 줄이기 위한 보존 정책을 설계합니다. 자세한 내용은 항상 개인정보 보호정책을 검토하세요."
+          },
+          {
+            "title": "엔터프라이즈 솔루션을 제공합니까?",
+            "content": "예. 우리는 전용 지원, 통합, SSO 기능, 고급 보안 기능 및 유연한 배포 옵션을 갖춘 엔터프라이즈 솔루션을 제공합니다."
+          },
+          {
+            "title": "AI 기술이 다른 점은 무엇입니까?",
+            "content": "우리 모델은 문서 이해 및 편집 작업을 위해 훈련되었으며, PDF 작업 흐름을 더욱 빠르고 정확하게 만드는 데 중점을 두고 있습니다."
+          },
+          {
+            "title": "어떻게 하면 당신의 팀에 합류할 수 있나요?",
+            "content": "우리는 항상 재능 있는 인재를 찾고 있습니다. 엔지니어링, 디자인, 제품 전반에 걸쳐 채용 중인 직무를 알아보려면 채용 페이지를 확인하세요."
+          }
+        ]
+      }
+    ]
+  }
+}

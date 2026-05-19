@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "es",
+    "locale_display": "es",
+    "seo": {
+      "title": "Contacto CosmicPDF",
+      "description": "¿Tiene preguntas sobre CosmicPDF? Estamos aquí para ayudar. Comuníquese con nosotros y nos comunicaremos con usted lo antes posible."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "Ponte en contacto",
+        "title": "<h1>Empecemos un <strong>Conversación</strong></h1>",
+        "subtitle": "¿Tiene preguntas sobre CosmicPDF? Estamos aquí para ayudar. Comuníquese con nosotros y nos comunicaremos con usted lo antes posible.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Contacto Información",
+        "subtitle": "¿Prefieres comunicarte directamente? Estos son los canales que monitoreamos.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "Envíenos un correo electrónico",
+            "description": "soporte@cosmicpdf.com\nNormalmente respondemos dentro de las 24 horas."
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Ventas",
+            "description": "ventas@cosmicpdf.com\nPreguntas sobre precios, pilotos y adquisiciones"
+          },
+          {
+            "icon": "Shield",
+            "title": "Seguridad",
+            "description": "seguridad@cosmicpdf.com\nDivulgación responsable y revisiones de seguridad"
+          },
+          {
+            "icon": "Clock",
+            "title": "Horario comercial",
+            "description": "Lunes - Viernes: 9:00 a. m. - 6:00 p. m. hora del Pacífico\nEl soporte de fin de semana varía según el plan"
+          }
+        ]
+      }
+    ]
+  }
+}

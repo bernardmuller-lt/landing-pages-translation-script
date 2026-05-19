@@ -1,0 +1,97 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "pl",
+    "locale_display": "pl",
+    "seo": {
+      "title": "Najczęściej używane formularze · CosmicPDF",
+      "description": "Uzyskaj dostęp i edytuj najczęściej używane formularze. Wszystkie formularze są w pełni edytowalne za pomocą naszego edytora PDF opartego na sztucznej inteligencji."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title": "Najczęściej używane formularze",
+        "subtitle": "Uzyskaj dostęp i edytuj najczęściej używane formularze. Wszystkie formularze są w pełni edytowalne za pomocą naszego edytora PDF opartego na sztucznej inteligencji.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "Najczęściej używane formularze",
+        "subtitle": "Uzyskaj dostęp i edytuj najczęściej używane formularze. Wszystkie formularze są w pełni edytowalne za pomocą naszego edytora PDF opartego na sztucznej inteligencji.",
+        "items": [
+          {
+            "icon": null,
+            "title": "Formularz 941 — Kwartalne federalne zeznanie podatkowe pracodawcy",
+            "description": "Używane przez pracodawców do zgłaszania podatków dochodowych i podatków od wynagrodzeń potrącanych z wynagrodzeń pracowników."
+          },
+          {
+            "icon": null,
+            "title": "Formularz 1040 — Zeznanie podatkowe dotyczące podatku dochodowego od osób fizycznych w USA",
+            "description": "Standardowy formularz federalnego podatku dochodowego używany do zgłaszania rocznych dochodów i obliczania należnych podatków."
+          },
+          {
+            "icon": null,
+            "title": "Formularz 1065 — Zwrot dochodu ze spółki partnerskiej w USA",
+            "description": "Zwrot informacji używany przez spółki osobowe do zgłaszania dochodów, odliczeń i kredytów."
+          },
+          {
+            "icon": null,
+            "title": "Formularz W-9 — Wniosek o numer identyfikacyjny podatnika",
+            "description": "Używany przez freelancerów i wykonawców do podawania klientom numeru identyfikacyjnego podatnika."
+          },
+          {
+            "icon": null,
+            "title": "Formularz W-4 — Zaświadczenie o potrąceniu podatku przez pracownika",
+            "description": "Wypełniane przez pracowników w celu wskazania pracodawcom swojej sytuacji podatkowej w celu prawidłowego potrącenia podatku u źródła."
+          },
+          {
+            "icon": null,
+            "title": "Formularz I-9 — Weryfikacja uprawnień do zatrudnienia",
+            "description": "Wymagane od wszystkich pracodawców w USA, aby zweryfikowali tożsamość i zezwolenie na zatrudnienie nowych pracowników."
+          },
+          {
+            "icon": null,
+            "title": "Formularz SS-4 — Wniosek o nadanie numeru identyfikacyjnego pracodawcy",
+            "description": "Używany przez firmy do ubiegania się o EIN (numer identyfikacyjny pracodawcy) z IRS."
+          },
+          {
+            "icon": null,
+            "title": "Formularz 1099-NEC — Odszkodowanie dla osoby niebędącej pracownikiem",
+            "description": "Służy do raportowania płatności dokonanych na rzecz niezależnych wykonawców i freelancerów."
+          },
+          {
+            "icon": null,
+            "title": "Formularz W-2 — Oświadczenie o płacach i podatkach",
+            "description": "Podaje roczne wynagrodzenie pracownika i kwotę podatków potrąconych z jego wypłaty."
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — Wniosek o paszport amerykański",
+            "description": "Używany przez osoby ubiegające się o paszport po raz pierwszy i osoby odnawiające paszporty, które utraciły ważność."
+          },
+          {
+            "icon": null,
+            "title": "Formularz I-130 — Petycja w sprawie obcego krewnego",
+            "description": "Używany przez obywateli USA i stałych mieszkańców w celu nawiązania kontaktu z obcokrajowcem."
+          },
+          {
+            "icon": null,
+            "title": "Formularz N-400 — Wniosek o naturalizację",
+            "description": "Używany przez stałych mieszkańców przy ubieganiu się o obywatelstwo amerykańskie."
+          }
+        ]
+      }
+    ]
+  }
+}

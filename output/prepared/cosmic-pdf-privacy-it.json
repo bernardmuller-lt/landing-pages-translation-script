@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "it",
+    "locale_display": "it",
+    "seo": {
+      "title": "Informativa sulla privacy · CosmicPDF",
+      "description": "Ultimo aggiornamento: 30 aprile 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Introduzione",
+        "content": "<p>Benvenuti in CosmicPDF. Rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali. Questa politica descrive come gestiamo le informazioni quando visiti il ​​nostro sito di marketing e quando utilizzi il prodotto CosmicPDF.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "Informazioni che raccogliamo",
+        "content": "<p>Potremmo raccogliere ed elaborare categorie di informazioni come:</p><p><strong>Dati di identità:</strong> nome e identificatori simili.</p><p><strong>Dati di contatto:</strong> indirizzo email e numeri di telefono ove forniti.</p><p><strong>Dati tecnici:</strong> Indirizzo IP, tipo di browser, dispositivo e dati diagnostici.</p><p><strong>Dati di utilizzo:</strong> informazioni su come utilizzi il nostro sito Web e i nostri servizi.</p><p><strong>Dati del documento:</strong> file caricati per l'elaborazione nel prodotto.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "Sito di marketing",
+        "content": "<p>Questo repository ospita un sito di marketing statico. Non esegue l'elaborazione lato server per i caricamenti. Qualsiasi trasferimento di file deve essere implementato nell'applicazione del prodotto in base alla revisione della sicurezza.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Contatto",
+        "content": "<p>Domande sulla privacy:</p><p>privacy@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

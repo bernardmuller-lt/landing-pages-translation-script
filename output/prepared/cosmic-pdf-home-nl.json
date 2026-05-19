@@ -1,0 +1,238 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "home",
+    "locale": "nl",
+    "locale_display": "nl",
+    "seo": {
+      "title": "CosmicPDF — AI PDF-bewerking voor moderne teams",
+      "description": "Transformeer uw documentworkflow met intelligente AI-technologie. Bewerk, onderteken, converteer en voeg PDF's samen met ongekend gemak en snelheid."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "Hero",
+        "badge": "Mogelijk gemaakt door geavanceerde AI",
+        "title": "<h1>De toekomst van <strong>PDF-bewerking</strong></h1>",
+        "subtitle": "Transformeer uw documentworkflow met intelligente AI-technologie. Bewerk, onderteken, converteer en voeg PDF's samen met ongekend gemak en snelheid.",
+        "cta": {
+          "href": "/tools",
+          "text": "Begin met bewerken",
+          "aria_label": "Begin met bewerken"
+        },
+        "upload_hint_text": "Zet uw PDF hier neer",
+        "upload_browse_text": "of klik om te bladeren • Maximaal 50 MB",
+        "upload_error_type": "Selecteer een PDF-bestand",
+        "upload_error_size": "De bestandsgrootte moet kleiner zijn dan 50 MB",
+        "no_card_text": "Geen creditcard vereist",
+        "trial_text": "Gratis proefperiode van 14 dagen"
+      },
+      {
+        "__component": "cosmic.trusted-by-section",
+        "fe_component": "TrustedBy",
+        "label": "Vertrouwd door marktleiders",
+        "logos": []
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "QuickTools",
+        "title": "AI-aangedreven tools",
+        "subtitle": "Alles wat u nodig heeft voor professioneel documentbeheer",
+        "items": [
+          {
+            "icon": "Sparkles",
+            "title": "AI Samenvatten",
+            "description": "Haal belangrijke inzichten onmiddellijk uit lange documenten met geavanceerde AI"
+          },
+          {
+            "icon": "TableProperties",
+            "title": "AI-extract",
+            "description": "Identificeer en extraheer automatisch tabellen, formulieren en gegevensstructuren"
+          },
+          {
+            "icon": "Languages",
+            "title": "AI Vertalen",
+            "description": "Vertaal documenten naar meer dan 100 talen met behoud van de opmaak"
+          },
+          {
+            "icon": "ScanText",
+            "title": "Ik heb OCR",
+            "description": "Converteer gescande documenten met hoge nauwkeurigheid naar bewerkbare tekst"
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FeatureShowcase",
+        "title": "Gebouwd voor moderne teams",
+        "subtitle": "Krachtige functies die meegroeien met uw zakelijke behoeften",
+        "items": [
+          {
+            "icon": "Brain",
+            "title": "AI-intelligentie",
+            "description": "Geavanceerde machine learning-algoritmen begrijpen uw documenten en automatiseren complexe taken"
+          },
+          {
+            "icon": "Zap",
+            "title": "Bliksemsnel",
+            "description": "Verwerk documenten sneller dan traditionele tools met een geoptimaliseerde cloudinfrastructuur"
+          },
+          {
+            "icon": "Shield",
+            "title": "Bedrijfsbeveiliging",
+            "description": "Encryptie op bankniveau en naleving van de AVG-, SOC 2- en ISO 27001-normen"
+          },
+          {
+            "icon": "Globe",
+            "title": "Universele toegang",
+            "description": "Werk overal met naadloze synchronisatie tussen al uw apparaten en platforms"
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Dashboard",
+        "badge": "Dashboardoverzicht",
+        "title": "<h2>Krachtig dashboard voor <strong>Compleet bestandsbeheer</strong></h2>",
+        "subtitle": "Krijg toegang tot al uw PDF-bestanden in één gecentraliseerde hub met geavanceerde organisatie-, zoekmogelijkheden en slimme tools voor bestandsbeheer.",
+        "features": [
+          {
+            "icon": "LayoutDashboard",
+            "title": "Gecentraliseerde hub",
+            "subtitle": "Beheer al uw PDF-bestanden in één georganiseerd dashboard"
+          },
+          {
+            "icon": "Trash2",
+            "title": "Prullenbak systeem",
+            "subtitle": "30 dagen bewaren van afval met herstel- en permanente verwijderingsopties"
+          },
+          {
+            "icon": "MousePointerClick",
+            "title": "Snelle acties",
+            "subtitle": "Bekijk, download, bewerk en verwijder met één klik"
+          }
+        ],
+        "cta": {
+          "href": "/dashboard",
+          "text": "Toegang tot uw dashboard",
+          "aria_label": "Toegang tot uw dashboard"
+        },
+        "cta_note": "Meld u aan om uw PDF-bestanden te beheren",
+        "media": null
+      },
+      {
+        "__component": "cosmic.cta-banner-section",
+        "fe_component": "CTA",
+        "title": "<h2>Begin slimmer met bewerken, <strong>niet moeilijker</strong></h2>",
+        "subtitle": "Sluit u aan bij duizenden professionals die hun documentworkflow hebben getransformeerd met door AI aangedreven tools.",
+        "bullets": [
+          {
+            "text": "Gratis proefperiode van 14 dagen, geen creditcard vereist"
+          },
+          {
+            "text": "Op elk moment opzeggen, bewaar uw gegevens"
+          },
+          {
+            "text": "Onbeperkte documentverwerking"
+          }
+        ],
+        "cta": {
+          "href": "/register",
+          "text": "Aan de slag",
+          "aria_label": "Aan de slag"
+        },
+        "stats": [
+          {
+            "value": "50K+",
+            "label": "Actieve gebruikers"
+          },
+          {
+            "value": "1M+",
+            "label": "PDF's verwerkt"
+          },
+          {
+            "value": "99,9%",
+            "label": "Uptime"
+          },
+          {
+            "value": "4,9/5",
+            "label": "Gebruikersbeoordeling"
+          }
+        ],
+        "quote": "Deze tool heeft de manier waarop we met documenten omgaan volledig getransformeerd. De AI-functies besparen ons elke week uren.",
+        "quote_author": "— Sarah Chen, productmanager bij TechCorp"
+      },
+      {
+        "__component": "cosmic.testimonials-section",
+        "fe_component": "Testimonials",
+        "title": "Geliefd bij duizenden gebruikers",
+        "subtitle": "Bekijk wat professionals zeggen over CosmicPDF",
+        "items": [
+          {
+            "name": "Sara Mitchell",
+            "role": "Marketingdirecteur",
+            "company": "TechFlow Inc.",
+            "initials": "SM",
+            "content": "CosmicPDF heeft de manier veranderd waarop ons team met documenten omgaat. De door AI aangedreven tools besparen ons elke week uren en de interface is ongelooflijk intuïtief."
+          },
+          {
+            "name": "Michaël Chen",
+            "role": "Productmanager",
+            "company": "StartupLabs",
+            "initials": "MC",
+            "content": "De beste PDF-tool die ik ooit heb gebruikt. Het converteren, samenvoegen en bewerken van PDF's was nog nooit zo eenvoudig. De AI-functies zijn een gamechanger voor de productiviteit."
+          },
+          {
+            "name": "Emily Rodriguez",
+            "role": "Juridisch adviseur",
+            "company": "Recht & Partners",
+            "initials": "IS",
+            "content": "Veiligheid en betrouwbaarheid zijn cruciaal voor onze juridische documenten. Dit platform presteert op beide fronten en maakt complexe PDF-taken eenvoudig en snel."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "FAQ",
+        "title": "Veelgestelde vragen",
+        "subtitle": "Alles wat u moet weten over CosmicPDF",
+        "support_text": "Heeft u nog vragen?",
+        "support_link_text": "Neem contact op met ons ondersteuningsteam",
+        "support_link_href": "/contact",
+        "items": [
+          {
+            "title": "Hoe werkt de AI-aangedreven bewerking?",
+            "content": "Onze geavanceerde AI-technologie maakt gebruik van machinaal leren om de documentstructuur te begrijpen, tekst en afbeeldingen te detecteren en op intelligente wijze bewerkingen voor te stellen. Het kan formulieren automatisch herkennen, gegevens extraheren en u helpen sneller wijzigingen aan te brengen dan traditionele PDF-editors."
+          },
+          {
+            "title": "Zijn mijn gegevens veilig en privé?",
+            "content": "We gebruiken sterke encryptie voor gegevensoverdracht en opslag. Uw documenten worden veilig verwerkt. We ontwerpen CosmicPDF om aan de algemene verwachtingen op het gebied van compliance te voldoen; bekijk ons ​​privacybeleid en de vereisten van uw organisatie voordat u gevoelige gegevens uploadt."
+          },
+          {
+            "title": "Welke bestandsformaten ondersteunen jullie?",
+            "content": "We ondersteunen PDF als het primaire formaat, met conversiemogelijkheden van en naar Word (DOCX), Excel (XLSX), PowerPoint (PPTX), afbeeldingen (JPG, PNG) en meer. U kunt ook verschillende bestandstypen samenvoegen tot één PDF, indien ondersteund."
+          },
+          {
+            "title": "Kan ik deze tool offline gebruiken?",
+            "content": "De marketingsite is statisch; de productervaring is cloudgebaseerd om krachtige AI-verwerking te benutten. Sommige workflows bieden mogelijk desktopervaringen. Zie de app voor meer informatie."
+          },
+          {
+            "title": "Wat gebeurt er nadat mijn gratis proefperiode is afgelopen?",
+            "content": "Na uw proefperiode kunt u een betaald abonnement kiezen of doorgaan met een gratis niveau, indien beschikbaar. Uw documenten en werk worden opgeslagen volgens de bewaarregels van het product."
+          },
+          {
+            "title": "Biedt u team- of ondernemingsplannen aan?",
+            "content": "Ja. We bieden teamabonnementen met gedeelde werkruimtes en bedrijfsopties met geavanceerde beveiliging en ondersteuning. Neem contact op met de verkoopafdeling voor aangepaste prijzen."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.all-tools-section",
+        "fe_component": "AllTools",
+        "title": "Alle gereedschappen",
+        "subtitle": "Uitgebreide reeks PDF-tools voor elke behoefte"
+      }
+    ]
+  }
+}

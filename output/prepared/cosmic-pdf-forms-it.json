@@ -1,0 +1,97 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "it",
+    "locale_display": "it",
+    "seo": {
+      "title": "Moduli più utilizzati · CosmicPDF",
+      "description": "Accedi e modifica i moduli più comunemente utilizzati. Tutti i moduli sono completamente modificabili con il nostro editor PDF basato sull'intelligenza artificiale."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title": "Moduli più utilizzati",
+        "subtitle": "Accedi e modifica i moduli più comunemente utilizzati. Tutti i moduli sono completamente modificabili con il nostro editor PDF basato sull'intelligenza artificiale.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "Moduli più utilizzati",
+        "subtitle": "Accedi e modifica i moduli più comunemente utilizzati. Tutti i moduli sono completamente modificabili con il nostro editor PDF basato sull'intelligenza artificiale.",
+        "items": [
+          {
+            "icon": null,
+            "title": "Modulo 941 — Dichiarazione dei redditi federale trimestrale del datore di lavoro",
+            "description": "Utilizzato dai datori di lavoro per segnalare le imposte sul reddito e le imposte sui salari trattenute dai salari dei dipendenti."
+          },
+          {
+            "icon": null,
+            "title": "Modulo 1040 — Dichiarazione dei redditi delle persone fisiche negli Stati Uniti",
+            "description": "Il modulo standard dell'imposta federale sul reddito utilizzato per segnalare il reddito annuale e calcolare le imposte dovute."
+          },
+          {
+            "icon": null,
+            "title": "Modulo 1065 — Restituzione del reddito di partenariato negli Stati Uniti",
+            "description": "Restituzione delle informazioni utilizzata dalle società di persone per segnalare redditi, detrazioni e crediti."
+          },
+          {
+            "icon": null,
+            "title": "Modulo W-9 — Richiesta del codice fiscale",
+            "description": "Utilizzato da liberi professionisti e appaltatori per fornire ai clienti il ​​proprio codice fiscale."
+          },
+          {
+            "icon": null,
+            "title": "Modulo W-4 — Certificato di ritenuta d'acconto del dipendente",
+            "description": "Compilato dai dipendenti per indicare la propria situazione fiscale ai datori di lavoro per la corretta ritenuta alla fonte."
+          },
+          {
+            "icon": null,
+            "title": "Modulo I-9 — Verifica dell'idoneità all'occupazione",
+            "description": "Obbligo per tutti i datori di lavoro statunitensi di verificare l'identità e l'autorizzazione all'impiego dei nuovi assunti."
+          },
+          {
+            "icon": null,
+            "title": "Modulo SS-4 — Richiesta di numero di identificazione del datore di lavoro",
+            "description": "Utilizzato dalle aziende per richiedere un EIN (Employer Identification Number) all'IRS."
+          },
+          {
+            "icon": null,
+            "title": "Modulo 1099-NEC — Retribuzione dei non dipendenti",
+            "description": "Utilizzato per segnalare i pagamenti effettuati a collaboratori indipendenti e liberi professionisti."
+          },
+          {
+            "icon": null,
+            "title": "Modulo W-2 — Retribuzione e dichiarazione dei redditi",
+            "description": "Riporta la retribuzione annuale di un dipendente e l'importo delle tasse trattenute dalla busta paga."
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — Domanda di passaporto statunitense",
+            "description": "Utilizzato da coloro che richiedono il passaporto per la prima volta e da coloro che rinnovano passaporti scaduti."
+          },
+          {
+            "icon": null,
+            "title": "Modulo I-130 — Petizione per parente straniero",
+            "description": "Utilizzato dai cittadini statunitensi e dai residenti permanenti per stabilire una relazione con un cittadino straniero."
+          },
+          {
+            "icon": null,
+            "title": "Modulo N-400 — Domanda di naturalizzazione",
+            "description": "Utilizzato dai residenti permanenti per richiedere la cittadinanza statunitense."
+          }
+        ]
+      }
+    ]
+  }
+}

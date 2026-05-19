@@ -1,0 +1,45 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "terms",
+    "locale": "ja-JP",
+    "locale_display": "jp",
+    "seo": {
+      "title": "利用規約 · CosmicPDF",
+      "description": "最終更新日: 2026 年 4 月 30 日"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "導入",
+        "content": "<p>本規約は、CosmicPDF の Web サイトおよびサービスの使用に適用されます。 当社のサービスにアクセスまたは使用すると、これらの規約に同意したものとみなされます。</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "accounts",
+        "title": "アカウント",
+        "content": "<p>アカウントを作成すると、正確な情報を提供し、資格情報を安全に保管することに同意したことになります。 あなたは自分のアカウントでの活動に対して責任を負います。</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "content",
+        "title": "ユーザーコンテンツ",
+        "content": "<p>あなたはアップロードしたドキュメントに対する権利を保持します。 あなたは、送信したコンテンツを処理する権利を持っている必要があります。</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "liability",
+        "title": "責任の制限",
+        "content": "<p>法律で認められる最大限の範囲で、CosmicPDF は、サービスの使用から生じる間接的または結果的な損害に対して責任を負いません。</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "接触",
+        "content": "<p>これらの規約に関する質問:</p><p>legal@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

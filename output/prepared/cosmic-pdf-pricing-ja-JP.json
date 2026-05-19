@@ -1,0 +1,120 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "ja-JP",
+    "locale_display": "jp",
+    "seo": {
+      "title": "価格設定 · CosmicPDF",
+      "description": "ニーズに合わせて最適なプランをお選びください。"
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "PricingHero",
+        "badge": null,
+        "title": "シンプルで透明性のある価格設定",
+        "subtitle": "ニーズに合わせて最適なプランをお選びください。",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanPro",
+        "title": "プロ",
+        "subtitle": "無制限のアクセスを必要とする専門家向け",
+        "items": [
+          {
+            "icon": null,
+            "title": "無制限の PDF 編集",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "32 の AI を活用したツールすべて",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "ファイルサイズ制限は100MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "優先処理",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "高度なAI機能",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "優先メールサポート",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "透かしなし",
+            "description": null
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanBusiness",
+        "title": "仕事",
+        "subtitle": "チームとシームレスにコラボレーションする",
+        "items": [
+          {
+            "icon": null,
+            "title": "プロのすべて",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "チームメンバーは最大5名まで",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "共有ワークスペース",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "チーム分析",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "500MBのファイルサイズ制限",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "献身的なサポート",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "管理者コントロール",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "APIアクセス",
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+}

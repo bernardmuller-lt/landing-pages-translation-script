@@ -1,0 +1,58 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "en",
+    "locale_display": "en",
+    "seo": {
+      "title": "Contact CosmicPDF",
+      "description": "Have questions about CosmicPDF? We're here to help. Reach out and we'll get back to you as soon as possible."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "Get in Touch",
+        "title1": "Let's Start a",
+        "title2": "Conversation",
+        "subtitle": "Have questions about CosmicPDF? We're here to help. Reach out and we'll get back to you as soon as possible.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Contact Information",
+        "subtitle": "Prefer to reach out directly? Here are the channels we monitor.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "Email Us",
+            "description": "support@cosmicpdf.com\nWe typically respond within 24 hours"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Sales",
+            "description": "sales@cosmicpdf.com\nPricing, pilots, and procurement questions"
+          },
+          {
+            "icon": "Shield",
+            "title": "Security",
+            "description": "security@cosmicpdf.com\nResponsible disclosure and security reviews"
+          },
+          {
+            "icon": "Clock",
+            "title": "Business Hours",
+            "description": "Monday - Friday: 9:00 AM - 6:00 PM PST\nWeekend support varies by plan"
+          }
+        ]
+      }
+    ]
+  }
+}

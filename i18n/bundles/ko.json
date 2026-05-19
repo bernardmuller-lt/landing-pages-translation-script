@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "siteName": "CosmicPDF",
+    "defaultDescription": "CosmicPDF — AI 기반 PDF 편집, 변환 및 보안 공유.",
+    "titleSuffix": "CosmicPDF",
+    "redirecting": "CosmicPDF로 리디렉션 중",
+    "redirectingBody": "CosmicPDF 앱으로 리디렉션 중…",
+    "continue": "계속하다"
+  },
+  "nav": {
+    "features": "특징",
+    "pricing": "가격",
+    "forms": "양식",
+    "about": "에 대한",
+    "getStarted": "시작하기",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "mobileNote": "모든 도구는 이 사이트의 /tools/… 아래에 있습니다.",
+    "selectLanguage": "언어 선택"
+  },
+  "toolCategories": {
+    "security": "보안 PDF",
+    "splitMerge": "분할 및 병합",
+    "editPdf": "PDF 편집",
+    "convertFromPdf": "PDF에서 변환",
+    "convertToPdf": "PDF로 변환",
+    "compress": "압축"
+  },
+  "toolNames": {
+    "sign-pdf": "PDF에 서명",
+    "password-protect": "비밀번호 보호",
+    "share-pdf": "PDF 공유",
+    "share-files": "파일 공유",
+    "split-pdf": "PDF 분할",
+    "merge-pdf": "PDF 병합",
+    "combine-pdf": "PDF 결합",
+    "reorder-pdf": "PDF 재정렬",
+    "extract-pages": "페이지 추출",
+    "edit-pdf": "PDF 편집",
+    "edit-fill-pdf": "PDF 편집 및 채우기",
+    "edit-scanned-pdf": "스캔한 PDF 편집",
+    "add-image-to-pdf": "PDF에 이미지 추가",
+    "watermark": "양수표",
+    "rotate-pdf": "PDF 회전",
+    "delete-pages": "페이지 삭제",
+    "pages-numbering": "페이지 번호 매기기",
+    "pdf-reader": "PDF 리더",
+    "pdf-to-word": "PDF를 워드로",
+    "pdf-to-jpg": "PDF를 JPG로",
+    "pdf-to-png": "PDF를 PNG로",
+    "pdf-to-powerpoint": "PDF를 파워포인트로",
+    "pdf-to-excel": "PDF를 엑셀로",
+    "pdf-to-pdfa": "PDF를 PDF/A로",
+    "word-to-pdf": "단어를 PDF로",
+    "jpg-to-pdf": "JPG를 PDF로",
+    "png-to-pdf": "PNG를 PDF로",
+    "powerpoint-to-pdf": "파워포인트를 PDF로",
+    "excel-to-pdf": "엑셀을 PDF로",
+    "pdfa-to-pdf": "PDF/A를 PDF로",
+    "compress-pdf": "PDF 압축",
+    "compress-image": "이미지 압축"
+  },
+  "tools": {
+    "pageTitleSuffix": "· 우주PDF",
+    "categoryLabel": "범주",
+    "featuresTitle": "강력한 기능",
+    "featuresSubtitle": "{name}에게 필요한 모든 것",
+    "howItWorksTitle": "작동 방식",
+    "howItWorksSubtitle": "4단계의 간단하고 효율적인 프로세스",
+    "faqTitle": "자주 묻는 질문",
+    "faqSubtitle": "{name}에 대한 일반적인 질문",
+    "ctaTitle": "시작할 준비가 되셨나요?",
+    "ctaButton": "시작하기",
+    "dropFile": "여기에 파일을 드롭하세요.",
+    "orBrowse": "또는 클릭하여 찾아보세요. • CosmicPDF 앱에서 계속하세요.",
+    "templates": {
+      "tagline": "CosmicPDF를 통해 온라인으로 {name} — 빠르고 명확하며 실제 문서용으로 제작되었습니다.",
+      "description": "CosmicPDF를 사용하여 안내된 단계, 가능한 경우 미리 보기, 현재 팀이 PDF를 제공하는 방식과 일치하는 내보내기 옵션을 통해 {nameLower}에 적용하세요.",
+      "features": {
+        "fast": {
+          "title": "빠른 처리",
+          "description": "최적화된 파이프라인으로 {name}을(를) 실행하고 진행 상황을 확인하세요."
+        },
+        "quality": {
+          "title": "품질 보존",
+          "description": "형식이 허용하는 한 글꼴, 벡터 및 레이아웃 충실도를 유지하세요."
+        },
+        "secure": {
+          "title": "안전한 설계",
+          "description": "전송 중 암호화 및 문서 처리를 위한 합리적인 기본값."
+        },
+        "app": {
+          "title": "앱에서 작동",
+          "description": "웹의 CosmicPDF를 열어 전체 편집기로 작업을 완료하세요."
+        }
+      },
+      "howItWorks": {
+        "upload": {
+          "title": "업로드",
+          "description": "{name}과(와) 함께 사용하려는 파일을 추가하세요."
+        },
+        "choose": {
+          "title": "옵션을 선택하세요",
+          "description": "문서와 일치하는 설정을 선택하세요."
+        },
+        "process": {
+          "title": "프로세스",
+          "description": "CosmicPDF가 파일에 대한 작업을 실행하게 하세요."
+        },
+        "download": {
+          "title": "다운로드",
+          "description": "결과를 저장하거나 앱에서 계속 편집하세요."
+        }
+      },
+      "faqs": {
+        "free": {
+          "question": "{name}은(는) 무료로 사용해 볼 수 있나요?",
+          "answer": "마케팅 사이트에서 시작하여 제품을 계속 사용할 수 있습니다. 계획과 한도가 앱에 표시됩니다."
+        },
+        "where": {
+          "question": "파일은 어디에서 처리되나요?",
+          "answer": "cosmicpdf.com에서 계속 진행하면 CosmicPDF 응용 프로그램에서 대량 처리가 실행됩니다."
+        }
+      }
+    }
+  },
+  "home": {
+    "pageTitle": "CosmicPDF — 현대 팀을 위한 AI PDF 편집",
+    "hero": {
+      "badge": "고급 AI 기반",
+      "title1": "미래의",
+      "title2": "PDF 편집",
+      "subtitle": "지능형 AI 기술로 문서 작업 흐름을 혁신하세요. 전례 없는 쉽고 빠른 속도로 PDF를 편집, 서명, 변환 및 병합할 수 있습니다.",
+      "cta": "편집 시작",
+      "noCard": "신용 카드가 필요하지 않습니다",
+      "trial": "14일 무료 평가판",
+      "dropHere": "PDF를 여기에 드롭하세요.",
+      "orBrowse": "또는 클릭하여 찾아보세요. • 최대 50MB",
+      "pdfOnly": "PDF 파일을 선택하세요",
+      "tooBig": "파일 크기는 50MB 미만이어야 합니다."
+    },
+    "trustedBy": {
+      "label": "업계 리더들의 신뢰를 받는"
+    },
+    "quickTools": {
+      "title": "AI 기반 도구",
+      "subtitle": "전문적인 문서 관리에 필요한 모든 것",
+      "explore": "기능 탐색",
+      "items": {
+        "summarize": {
+          "title": "AI 요약",
+          "description": "고급 AI를 사용하여 긴 문서에서 즉시 핵심 통찰력을 추출합니다."
+        },
+        "extract": {
+          "title": "AI 추출",
+          "description": "테이블, 양식, 데이터 구조를 자동으로 식별하고 추출합니다."
+        },
+        "translate": {
+          "title": "AI 번역",
+          "description": "서식을 유지하면서 문서를 100개 이상의 언어로 번역하세요"
+        },
+        "ocr": {
+          "title": "OCR이 있어요",
+          "description": "스캔한 문서를 높은 정확도로 편집 가능한 텍스트로 변환"
+        }
+      }
+    },
+    "featureShowcase": {
+      "title": "현대적인 팀을 위해 제작됨",
+      "subtitle": "비즈니스 요구 사항에 따라 확장되는 강력한 기능",
+      "items": {
+        "intelligence": {
+          "title": "AI 인텔리전스",
+          "body": "고급 기계 학습 알고리즘이 문서를 이해하고 복잡한 작업을 자동화합니다."
+        },
+        "fast": {
+          "title": "번개처럼 빠른",
+          "body": "최적화된 클라우드 인프라로 기존 도구보다 빠르게 문서를 처리합니다."
+        },
+        "security": {
+          "title": "엔터프라이즈 보안",
+          "body": "은행 수준 암호화 및 GDPR, SOC 2 및 ISO 27001 표준 준수"
+        },
+        "access": {
+          "title": "범용 액세스",
+          "body": "장치와 플랫폼 전반에 걸친 원활한 동기화로 어디서나 작업 가능"
+        }
+      }
+    },
+    "dashboard": {
+      "badge": "대시보드 개요",
+      "title1": "강력한 대시보드",
+      "title2": "완벽한 파일 관리",
+      "subtitle": "고급 구성, 검색 기능 및 스마트 파일 관리 도구를 갖춘 하나의 중앙 허브에서 모든 PDF 파일에 액세스하세요.",
+      "features": {
+        "centralized": {
+          "title": "중앙 집중식 허브",
+          "body": "하나의 체계적인 대시보드에서 모든 PDF 파일을 관리하세요."
+        },
+        "trash": {
+          "title": "쓰레기 시스템",
+          "body": "복원 및 영구 삭제 옵션이 포함된 30일 휴지통 보관"
+        },
+        "quickActions": {
+          "title": "빠른 작업",
+          "body": "한 번의 클릭으로 미리보기, 다운로드, 편집 및 삭제"
+        }
+      },
+      "cta": "대시보드에 액세스하세요",
+      "ctaNote": "PDF 파일 관리를 시작하려면 로그인하세요.",
+      "alt": "대시보드 인터페이스"
+    },
+    "cta": {
+      "title1": "더욱 스마트하게 편집을 시작해 보세요.",
+      "title2": "더 어렵지는 않다",
+      "subtitle": "AI 기반 도구를 사용하여 문서 작업 흐름을 변화시킨 수천 명의 전문가와 함께 하세요.",
+      "bullets": {
+        "trial": "14일 무료 평가판, 신용카드 필요 없음",
+        "cancel": "언제든지 취소하고 데이터를 유지하세요",
+        "unlimited": "무제한 문서 처리"
+      },
+      "button": "시작하기",
+      "stats": {
+        "users": {
+          "value": "50K+",
+          "label": "활성 사용자"
+        },
+        "pdfs": {
+          "value": "100만+",
+          "label": "처리된 PDF"
+        },
+        "uptime": {
+          "value": "99.9%",
+          "label": "가동 시간"
+        },
+        "rating": {
+          "value": "4.9/5",
+          "label": "사용자 평가"
+        }
+      },
+      "quote": "이 도구는 문서 처리 방식을 완전히 변화시켰습니다. AI 기능은 매주 시간을 절약해 줍니다.",
+      "quoteAuthor": "— Sarah Chen, TechCorp 제품 관리자"
+    },
+    "testimonials": {
+      "title": "수천 명의 사용자에게 사랑을 받았습니다.",
+      "subtitle": "전문가들이 CosmicPDF에 대해 어떻게 말하는지 확인하세요.",
+      "ratingLabel": "별점 5개",
+      "items": {
+        "sarah": {
+          "name": "사라 미첼",
+          "role": "마케팅 이사",
+          "company": "테크플로우(주)",
+          "initials": "에스엠",
+          "content": "CosmicPDF는 우리 팀이 문서를 처리하는 방식을 변화시켰습니다. AI 기반 도구를 사용하면 매주 시간을 절약할 수 있으며 인터페이스는 놀라울 정도로 직관적입니다."
+        },
+        "michael": {
+          "name": "마이클 첸",
+          "role": "제품 관리자",
+          "company": "스타트업랩",
+          "initials": "MC",
+          "content": "내가 사용해 본 최고의 PDF 도구입니다. PDF 변환, 병합, 편집이 이렇게 쉬운 적은 없었습니다. AI 기능은 생산성 측면에서 획기적인 변화를 가져옵니다."
+        },
+        "emily": {
+          "name": "에밀리 로드리게스",
+          "role": "법률 컨설턴트",
+          "company": "법률 및 파트너",
+          "initials": "이다",
+          "content": "보안과 신뢰성은 법률 문서에 매우 중요합니다. 이 플랫폼은 복잡한 PDF 작업을 간단하고 빠르게 만드는 동시에 두 가지 측면을 모두 제공합니다."
+        }
+      },
+      "roleAtCompany": "{회사}의 {역할}"
+    },
+    "allTools": {
+      "title": "모든 도구",
+      "subtitle": "모든 요구에 맞는 포괄적인 PDF 도구 제품군"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "subtitle": "CosmicPDF에 대해 알아야 할 모든 것",
+      "stillHave": "아직도 질문이 있으신가요?",
+      "contactSupport": "지원팀에 문의하세요",
+      "items": {
+        "ai": {
+          "q": "AI 기반 편집은 어떻게 작동하나요?",
+          "a": "당사의 고급 AI 기술은 기계 학습을 사용하여 문서 구조를 이해하고 텍스트와 이미지를 감지하며 지능적으로 편집 내용을 제안합니다. 자동으로 양식을 인식하고 데이터를 추출하며 기존 PDF 편집기보다 빠르게 변경할 수 있습니다."
+        },
+        "security": {
+          "q": "내 데이터는 안전하고 비공개인가요?",
+          "a": "우리는 데이터 전송 및 저장에 강력한 암호화를 사용합니다. 귀하의 서류는 안전하게 처리됩니다. 우리는 일반적인 규정 준수 기대치를 충족하도록 CosmicPDF를 설계합니다. 민감한 데이터를 업로드하기 전에 당사의 개인정보 보호정책과 조직의 요구 사항을 검토하세요."
+        },
+        "formats": {
+          "q": "어떤 파일 형식을 지원합니까?",
+          "a": "우리는 Word(DOCX), Excel(XLSX), PowerPoint(PPTX), 이미지(JPG, PNG) 등과의 변환 기능을 통해 PDF를 기본 형식으로 지원합니다. 지원되는 경우 다양한 파일 형식을 단일 PDF로 병합할 수도 있습니다."
+        },
+        "offline": {
+          "q": "이 도구를 오프라인으로 사용할 수 있나요?",
+          "a": "마케팅 사이트는 정적입니다. 제품 경험은 클라우드 기반으로 강력한 AI 처리를 활용합니다. 일부 워크플로에서는 데스크톱 환경을 제공할 수 있습니다. 자세한 내용은 앱을 참조하세요."
+        },
+        "trial": {
+          "q": "무료 평가판이 종료되면 어떻게 되나요?",
+          "a": "평가판을 사용한 후에는 유료 요금제를 선택하거나 가능한 경우 무료 등급을 계속 사용할 수 있습니다. 귀하의 문서와 작업물은 제품의 보관 규칙에 따라 저장됩니다."
+        },
+        "enterprise": {
+          "q": "팀 또는 기업 요금제를 제공하나요?",
+          "a": "예. 우리는 고급 보안 및 지원을 갖춘 공유 작업 공간과 엔터프라이즈 옵션이 포함된 팀 플랜을 제공합니다. 맞춤형 가격은 영업팀에 문의하세요."
+        }
+      }
+    }
+  },
+  "pricing": {
+    "pageTitle": "가격 · CosmicPDF",
+    "title": "간단하고 투명한 가격",
+    "subtitle": "귀하의 필요에 맞는 완벽한 계획을 선택하십시오.",
+    "popular": "가장 인기있는",
+    "perPeriod": "/",
+    "enterpriseNote": "귀하의 조직에 맞는 맞춤형 계획이 필요하십니까?",
+    "enterpriseCta": "엔터프라이즈 가격은 영업팀에 문의하세요.",
+    "plans": {
+      "pro": {
+        "name": "찬성",
+        "price": "$1,95",
+        "period": "7일 평가판",
+        "description": "무제한 액세스가 필요한 전문가용",
+        "cta": "지금 시작하세요",
+        "features": {
+          "unlimited": "무제한 PDF 편집",
+          "allTools": "AI 기반 도구 32개 모두",
+          "fileSize": "100MB 파일 크기 제한",
+          "priority": "우선 처리",
+          "ai": "고급 AI 기능",
+          "support": "우선 이메일 지원",
+          "noWatermark": "워터마크 없음"
+        },
+        "billingNote": "그러면 4주마다 {amount}가 청구됩니다.",
+        "billingAmount": "39,95$"
+      },
+      "business": {
+        "name": "사업",
+        "price": "$59,95",
+        "period": "월",
+        "description": "팀과 원활하게 협업하세요",
+        "cta": "지금 시작하세요",
+        "features": {
+          "everything": "프로의 모든 것",
+          "team": "최대 5명의 팀원",
+          "workspace": "공유 작업 공간",
+          "analytics": "팀 분석",
+          "fileSize": "500MB 파일 크기 제한",
+          "support": "전담 지원",
+          "admin": "관리 제어",
+          "api": "API 액세스"
+        },
+        "billingNote": "매년 청구되는 {amount}",
+        "billingAmount": "$495,95",
+        "discount": "15% 할인"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "코스믹PDF 소개",
+    "badge": "회사 소개",
+    "title1": "문서 재정의",
+    "title2": "지능",
+    "subtitle": "우리는 세상이 문서를 사용하는 방식을 변화시키는 임무를 수행하고 있습니다. 최첨단 AI를 통해 모든 사람이 PDF 편집을 쉽고 지능적이며 액세스할 수 있도록 만듭니다.",
+    "stats": {
+      "users": {
+        "label": "활성 사용자",
+        "value": "2M+"
+      },
+      "pdfs": {
+        "label": "처리된 PDF",
+        "value": "5억+"
+      },
+      "countries": {
+        "label": "국가",
+        "value": "150+"
+      },
+      "uptime": {
+        "label": "가동 시간",
+        "value": "99.9%"
+      }
+    },
+    "mission": {
+      "title1": "우리의",
+      "title2": "사명",
+      "body1": "우리는 문서 작업이 직관적이고 빠르며 강력해야 한다고 믿습니다. CosmicPDF는 PDF 작업 흐름의 마찰을 제거하므로 결과에 집중할 수 있습니다.",
+      "body2": "스타트업부터 기업까지 팀은 중요한 문서에 대해 CosmicPDF를 신뢰합니다. 우리는 지속적인 혁신을 위해 최선을 다하고 있습니다."
+    },
+    "values": {
+      "title1": "우리의",
+      "title2": "가치",
+      "subtitle": "우리가 하는 모든 일의 지침이 되는 원칙",
+      "items": {
+        "innovation": {
+          "title": "혁신 우선",
+          "body": "우리는 AI와 문서 기술로 가능한 것의 경계를 넓힙니다."
+        },
+        "user": {
+          "title": "사용자 중심",
+          "body": "모든 기능은 작업 흐름과 생산성을 염두에 두고 설계되었습니다."
+        },
+        "precision": {
+          "title": "정도",
+          "body": "우리는 매번 정확하고 신뢰할 수 있는 결과를 제공한다고 믿습니다."
+        },
+        "simplicity": {
+          "title": "간단",
+          "body": "복잡한 기술, 단순한 경험. 이것이 바로 우리의 약속입니다."
+        }
+      }
+    },
+    "faq": {
+      "title1": "자주 묻는 질문",
+      "title2": "질문",
+      "subtitle": "우리 회사에 대한 일반적인 질문에 대한 답변",
+      "items": {
+        "founded": {
+          "q": "회사는 언제 설립되었나요?",
+          "a": "우리는 2020년 간단한 사명을 가지고 설립되었습니다: 문서 편집을 대화하는 것처럼 직관적으로 만드는 것입니다. 그 이후로 우리는 여러 국가에서 수백만 명의 사용자에게 서비스를 제공할 정도로 성장했습니다."
+        },
+        "location": {
+          "q": "귀하의 회사는 어디에 위치해 있나요?",
+          "a": "우리는 캘리포니아 주 샌프란시스코에 본사를 두고 있으며 원격 팀원은 북미, 유럽 및 아시아 전역에 분산되어 있습니다."
+        },
+        "security": {
+          "q": "데이터 보안을 어떻게 보장합니까?",
+          "a": "보안은 우리가 구축하는 모든 것의 핵심입니다. 우리는 강력한 암호화를 사용하고, 일반적인 규정 준수 프레임워크를 따르며, 위험을 줄이기 위한 보존 정책을 설계합니다. 자세한 내용은 항상 개인정보 보호정책을 검토하세요."
+        },
+        "enterprise": {
+          "q": "엔터프라이즈 솔루션을 제공합니까?",
+          "a": "예. 우리는 전용 지원, 통합, SSO 기능, 고급 보안 기능 및 유연한 배포 옵션을 갖춘 엔터프라이즈 솔루션을 제공합니다."
+        },
+        "ai": {
+          "q": "AI 기술이 다른 점은 무엇입니까?",
+          "a": "우리 모델은 문서 이해 및 편집 작업을 위해 훈련되었으며, PDF 작업 흐름을 더욱 빠르고 정확하게 만드는 데 중점을 두고 있습니다."
+        },
+        "team": {
+          "q": "어떻게 하면 당신의 팀에 합류할 수 있나요?",
+          "a": "우리는 항상 재능 있는 인재를 찾고 있습니다. 엔지니어링, 디자인, 제품 전반에 걸쳐 채용 중인 직무를 알아보려면 채용 페이지를 확인하세요."
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "CosmicPDF에 문의하세요",
+    "badge": "연락하세요",
+    "title1": "시작하자",
+    "title2": "대화",
+    "subtitle": "CosmicPDF에 대해 질문이 있나요? 우리가 도와드리겠습니다. 연락주시면 최대한 빨리 연락드리겠습니다.",
+    "send": {
+      "title1": "우리에게 보내세요",
+      "title2": "메시지",
+      "subtitle": "아래 양식을 작성하시면 저희 팀이 24시간 이내에 연락을 드릴 것입니다."
+    },
+    "info": {
+      "title1": "연락하다",
+      "title2": "정보",
+      "subtitle": "직접 연락하고 싶으신가요? 우리가 모니터링하는 채널은 다음과 같습니다.",
+      "items": {
+        "email": {
+          "title": "이메일을 보내주세요",
+          "details": "support@cosmicpdf.com",
+          "description": "우리는 일반적으로 24시간 이내에 응답합니다."
+        },
+        "sales": {
+          "title": "매상",
+          "details": "sales@cosmicpdf.com",
+          "description": "가격, 파일럿 및 조달 질문"
+        },
+        "security": {
+          "title": "보안",
+          "details": "security@cosmicpdf.com",
+          "description": "책임 있는 공개 및 보안 검토"
+        },
+        "hours": {
+          "title": "영업시간",
+          "details": "월요일~금요일: 오전 9시~오후 6시(PST)",
+          "description": "주말 지원은 요금제에 따라 다릅니다."
+        }
+      }
+    },
+    "form": {
+      "name": "성명",
+      "namePlaceholder": "존 도",
+      "email": "이메일 주소",
+      "emailPlaceholder": "존@example.com",
+      "subject": "주제",
+      "subjectPlaceholder": "과목을 선택하세요",
+      "subjectOptions": {
+        "general": "일반문의",
+        "support": "기술지원",
+        "sales": "판매 질문",
+        "partnership": "파트너십 기회",
+        "feedback": "피드백"
+      },
+      "message": "메시지",
+      "messagePlaceholder": "우리가 어떻게 도와드릴 수 있는지 알려주세요...",
+      "required": "*",
+      "submit": "메시지 보내기",
+      "demoAlert": "감사합니다. 이 정적 데모는 어디에도 제출되지 않습니다. 준비가 되면 이 양식을 앱 엔드포인트에 연결하세요."
+    }
+  },
+  "privacy": {
+    "pageTitle": "개인정보 보호정책 · CosmicPDF",
+    "title": "개인 정보 보호 정책",
+    "lastUpdated": "최종 업데이트 날짜: 2026년 4월 30일",
+    "sections": {
+      "introduction": {
+        "title": "소개",
+        "body": "CosmicPDF에 오신 것을 환영합니다. 우리는 귀하의 개인 정보를 존중하며 귀하의 개인 데이터를 보호하기 위해 최선을 다하고 있습니다. 이 정책은 귀하가 마케팅 사이트를 방문하고 CosmicPDF 제품을 사용할 때 정보를 처리하는 방법을 설명합니다."
+      },
+      "collected": {
+        "title": "당사가 수집하는 정보",
+        "intro": "당사는 다음과 같은 범주의 정보를 수집하고 처리할 수 있습니다.",
+        "identity": {
+          "label": "신원 데이터:",
+          "body": "이름 및 유사한 식별자."
+        },
+        "contact": {
+          "label": "연락처 데이터:",
+          "body": "제공된 경우 이메일 주소 및 전화번호."
+        },
+        "technical": {
+          "label": "기술 데이터:",
+          "body": "IP 주소, 브라우저 유형, 장치 및 진단 데이터."
+        },
+        "usage": {
+          "label": "사용 데이터:",
+          "body": "귀하가 당사 웹 사이트 및 서비스를 사용하는 방법에 대한 정보."
+        },
+        "document": {
+          "label": "문서 데이터:",
+          "body": "제품에서 처리하기 위해 업로드하는 파일입니다."
+        }
+      },
+      "marketing": {
+        "title": "마케팅 사이트",
+        "body": "이 저장소는 정적 마케팅 사이트를 호스팅합니다. 업로드에 대한 서버측 처리를 실행하지 않습니다. 모든 파일 전달은 보안 검토에 따라 제품 응용 프로그램에서 구현되어야 합니다."
+      },
+      "contact": {
+        "title": "연락하다",
+        "body": "개인정보 보호에 관한 질문:",
+        "email": "Privacy@cosmicpdf.com"
+      }
+    }
+  },
+  "terms": {
+    "pageTitle": "서비스 약관 · CosmicPDF",
+    "title": "서비스 약관",
+    "lastUpdated": "최종 업데이트 날짜: 2026년 4월 30일",
+    "sections": {
+      "introduction": {
+        "title": "소개",
+        "body": "본 약관은 귀하의 CosmicPDF 웹사이트 및 서비스 사용에 적용됩니다. 당사 서비스에 액세스하거나 이를 사용함으로써 귀하는 본 약관에 동의하게 됩니다."
+      },
+      "accounts": {
+        "title": "계정",
+        "body": "귀하는 계정을 생성할 때 정확한 정보를 제공하고 자격 증명을 안전하게 유지하는 데 동의합니다. 귀하는 귀하의 계정에 따른 활동에 대한 책임이 있습니다."
+      },
+      "content": {
+        "title": "사용자 콘텐츠",
+        "body": "귀하는 귀하가 업로드한 문서에 대한 권리를 보유합니다. 귀하는 제출한 콘텐츠를 처리할 권리가 있어야 합니다."
+      },
+      "liability": {
+        "title": "책임의 제한",
+        "body": "법이 허용하는 최대 한도 내에서 CosmicPDF는 귀하의 서비스 사용으로 인해 발생하는 간접적 또는 결과적 손해에 대해 책임을 지지 않습니다."
+      },
+      "contact": {
+        "title": "연락하다",
+        "body": "본 약관에 관한 질문:",
+        "email": "legal@cosmicpdf.com"
+      }
+    }
+  },
+  "forms": {
+    "pageTitle": "가장 많이 사용되는 양식 · CosmicPDF",
+    "title": "가장 많이 사용되는 양식",
+    "subtitle": "가장 일반적으로 사용되는 양식에 액세스하고 편집하세요. AI 기반 PDF 편집기를 사용하면 모든 양식을 완전히 편집할 수 있습니다.",
+    "bullets": {
+      "templates": "일반적인 워크플로를 위한 공식 스타일 템플릿",
+      "editable": "AI 지원으로 완전히 편집 가능",
+      "upload": "편집을 위해 자신만의 양식을 업로드하세요."
+    },
+    "categories": {
+      "all": "모두",
+      "tax": "세금 양식",
+      "employment": "고용",
+      "business": "사업",
+      "government": "정부",
+      "immigration": "이민"
+    },
+    "editForm": "양식 편집",
+    "editAlert": "이 양식을 편집하려면 CosmicPDF 앱을 계속 사용하세요.",
+    "uploadTitle": "나만의 양식 업로드",
+    "uploadSubtitle": "다른 형태가 있나요? 업로드하고 AI 지원으로 편집을 시작하세요",
+    "dropHere": "PDF를 여기에 드롭하세요.",
+    "orBrowse": "또는 클릭하여 찾아보세요. • 최대 50MB",
+    "items": {
+      "941": {
+        "name": "양식 941",
+        "title": "고용주의 분기별 연방세 신고서",
+        "category": "business",
+        "description": "고용주가 직원 임금에서 원천징수한 소득세 및 급여세를 신고하는 데 사용됩니다."
+      },
+      "1040": {
+        "name": "양식 1040",
+        "title": "미국 개인 소득세 신고서",
+        "category": "tax",
+        "description": "연간 소득을 보고하고 납부해야 할 세금을 계산하는 데 사용되는 표준 연방 소득세 양식입니다."
+      },
+      "1065": {
+        "name": "양식 1065",
+        "title": "미국 파트너십 소득 반환",
+        "category": "business",
+        "description": "소득, 공제 및 세액공제를 보고하기 위해 파트너십이 사용하는 정보 보고서입니다."
+      },
+      "w-9": {
+        "name": "양식 W-9",
+        "title": "납세자 식별 번호 요청",
+        "category": "tax",
+        "description": "프리랜서 및 계약업체가 고객에게 납세자 식별 번호를 제공하는 데 사용됩니다."
+      },
+      "w-4": {
+        "name": "양식 W-4",
+        "title": "직원의 원천징수 증명서",
+        "category": "tax",
+        "description": "적절한 원천징수를 위해 고용주에게 자신의 세금 상황을 알리기 위해 직원이 작성합니다."
+      },
+      "i-9": {
+        "name": "I-9 양식",
+        "title": "취업자격 확인",
+        "category": "employment",
+        "description": "모든 미국 고용주는 신규 채용자의 신원과 고용 허가를 확인해야 합니다."
+      },
+      "ss-4": {
+        "name": "양식 SS-4",
+        "title": "고용주 식별 번호 신청",
+        "category": "business",
+        "description": "기업이 IRS에 EIN(고용주 식별 번호)을 신청하는 데 사용됩니다."
+      },
+      "1099-nec": {
+        "name": "양식 1099-NEC",
+        "title": "비직원 보상",
+        "category": "tax",
+        "description": "독립 계약자 및 프리랜서에게 지급된 금액을 보고하는 데 사용됩니다."
+      },
+      "w-2": {
+        "name": "양식 W-2",
+        "title": "임금 및 세금 명세서",
+        "category": "tax",
+        "description": "직원의 연간 임금과 급여에서 원천징수된 세금 금액을 보고합니다."
+      },
+      "ds-11": {
+        "name": "DS-11",
+        "title": "미국 여권 신청",
+        "category": "government",
+        "description": "처음 여권을 신청하는 사람과 만료된 여권을 갱신하는 사람이 사용합니다."
+      },
+      "i-130": {
+        "name": "I-130 양식",
+        "title": "외국인 친족을 위한 청원서",
+        "category": "immigration",
+        "description": "미국 시민권자와 영주권자가 외국 국적자와 관계를 맺기 위해 사용합니다."
+      },
+      "n-400": {
+        "name": "N-400 양식",
+        "title": "귀화 신청",
+        "category": "immigration",
+        "description": "영주권자가 미국 시민권을 신청하는 데 사용됩니다."
+      }
+    }
+  },
+  "footer": {
+    "rights": "모든 권리 보유.",
+    "privacy": "은둔",
+    "terms": "자귀",
+    "contact": "연락하다",
+    "copyright": "© {연도} CosmicPDF. 모든 권리 보유."
+  },
+  "notFound": {
+    "pageTitle": "페이지를 찾을 수 없습니다 · CosmicPDF",
+    "title": "404",
+    "message": "해당 페이지를 찾을 수 없습니다.",
+    "back": "집으로 돌아가기"
+  }
+}

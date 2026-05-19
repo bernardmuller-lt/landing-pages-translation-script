@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "nl",
+    "locale_display": "nl",
+    "seo": {
+      "title": "Neem contact op met CosmicPDF",
+      "description": "Heeft u vragen over CosmicPDF? Wij zijn hier om te helpen. Neem contact met ons op en we nemen zo snel mogelijk contact met u op."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "Neem contact op",
+        "title": "<h1>Laten we beginnen <strong>Gesprek</strong></h1>",
+        "subtitle": "Heeft u vragen over CosmicPDF? Wij zijn hier om te helpen. Neem contact met ons op en we nemen zo snel mogelijk contact met u op.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Contact Informatie",
+        "subtitle": "Liever direct contact opnemen? Dit zijn de kanalen die we monitoren.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "E-mail ons",
+            "description": "support@cosmicpdf.com\nWij reageren doorgaans binnen 24 uur"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Verkoop",
+            "description": "sales@cosmicpdf.com\nPrijzen, pilots en inkoopvragen"
+          },
+          {
+            "icon": "Shield",
+            "title": "Beveiliging",
+            "description": "security@cosmicpdf.com\nVerantwoorde openbaarmaking en veiligheidsbeoordelingen"
+          },
+          {
+            "icon": "Clock",
+            "title": "Kantooruren",
+            "description": "Maandag - vrijdag: 9.00 - 18.00 uur PST\nWeekendondersteuning varieert per abonnement"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "it",
+    "locale_display": "it",
+    "seo": {
+      "title": "Contatta CosmicPDF",
+      "description": "Hai domande su CosmicPDF? Siamo qui per aiutarti. Contattaci e ti risponderemo il prima possibile."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "Mettiti in contatto",
+        "title": "<h1>Iniziamo a <strong>Conversazione</strong></h1>",
+        "subtitle": "Hai domande su CosmicPDF? Siamo qui per aiutarti. Contattaci e ti risponderemo il prima possibile.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Contatto Informazioni",
+        "subtitle": "Preferisci contattarci direttamente? Ecco i canali che monitoriamo.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "Inviaci un'e-mail",
+            "description": "support@cosmicpdf.com\nNormalmente rispondiamo entro 24 ore"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Salde",
+            "description": "sales@cosmicpdf.com\nDomande su prezzi, progetti pilota e appalti"
+          },
+          {
+            "icon": "Shield",
+            "title": "Sicurezza",
+            "description": "sicurezza@cosmicpdf.com\nDivulgazione responsabile e revisioni della sicurezza"
+          },
+          {
+            "icon": "Clock",
+            "title": "Orari di lavoro",
+            "description": "Dal lunedì al venerdì: dalle 9:00 alle 18:00 PST\nIl supporto nel fine settimana varia in base al piano"
+          }
+        ]
+      }
+    ]
+  }
+}

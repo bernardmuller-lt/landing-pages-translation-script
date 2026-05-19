@@ -1,0 +1,103 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "about",
+    "locale": "ja-JP",
+    "locale_display": "jp",
+    "seo": {
+      "title": "CosmicPDFについて",
+      "description": "私たちは、世界のドキュメントの使い方を変えるという使命を担っています。 最先端の AI により、PDF 編集が簡単かつインテリジェントになり、誰でもアクセスできるようになります。"
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "AboutHero",
+        "badge": "私たちについて",
+        "title": "<h1>ドキュメントの再定義 <strong>知能</strong></h1>",
+        "subtitle": "私たちは、世界のドキュメントの使い方を変えるという使命を担っています。 最先端の AI により、PDF 編集が簡単かつインテリジェントになり、誰でもアクセスできるようになります。",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Mission",
+        "badge": null,
+        "title": "<h2>私たちの <strong>ミッション</strong></h2>",
+        "subtitle": "私たちは、ドキュメントの操作は直観的で高速かつ強力でなければならないと考えています。 CosmicPDF は PDF ワークフローの摩擦を排除し、結果に集中できるようにします。",
+        "features": [],
+        "cta": null,
+        "cta_note": null,
+        "media": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "Values",
+        "title": "私たちの 価値観",
+        "subtitle": "私たちが行うすべてのことの指針となる原則",
+        "items": [
+          {
+            "icon": "Lightbulb",
+            "title": "イノベーションファースト",
+            "description": "私たちは AI とドキュメント テクノロジーで可能なことの限界を押し広げます。"
+          },
+          {
+            "icon": "Heart",
+            "title": "ユーザー中心",
+            "description": "すべての機能は、ワークフローと生産性を念頭に置いて設計されています。"
+          },
+          {
+            "icon": "Target",
+            "title": "精度",
+            "description": "私たちは、常に正確で信頼性の高い結果を提供できると信じています。"
+          },
+          {
+            "icon": "Minimize2",
+            "title": "シンプルさ",
+            "description": "複雑なテクノロジー、シンプルなエクスペリエンス。 それが私たちのあなたへの約束です。"
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "AboutFAQ",
+        "title": "<h2>よくある質問 <strong>質問</strong></h2>",
+        "subtitle": "当社に関するよくある質問への回答",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "会社はいつ設立されましたか?",
+            "content": "当社は、文書編集を会話と同じくらい直観的にするというシンプルな使命を持って 2020 年に設立されました。 それ以来、当社は多くの国で何百万ものユーザーにサービスを提供するまでに成長しました。"
+          },
+          {
+            "title": "あなたの会社はどこにありますか?",
+            "content": "当社はカリフォルニア州サンフランシスコに本社を置き、リモートのチームメンバーは北米、ヨーロッパ、アジアに分散しています。"
+          },
+          {
+            "title": "データのセキュリティをどのように確保しますか?",
+            "content": "セキュリティは、私たちが構築するすべてのものの中核です。 当社では強力な暗号化を使用し、一般的なコンプライアンス フレームワークに従い、リスクを軽減するための保存ポリシーを設計しています。 詳細については、当社のプライバシー ポリシーを必ずご確認ください。"
+          },
+          {
+            "title": "エンタープライズ向けソリューションを提供していますか?",
+            "content": "はい。 当社は、専用のサポート、統合、SSO 機能、高度なセキュリティ機能、柔軟な導入オプションを備えたエンタープライズ ソリューションを提供します。"
+          },
+          {
+            "title": "あなたの AI テクノロジーは何が他と違うのでしょうか?",
+            "content": "当社のモデルは、PDF ワークフローをより高速かつ正確にすることに重点を置き、ドキュメントの理解と編集タスク向けにトレーニングされています。"
+          },
+          {
+            "title": "どうすればあなたのチームに参加できますか?",
+            "content": "私たちは常に才能ある人材を探しています。 エンジニアリング、設計、製品にわたる募集職種については、採用ページをご覧ください。"
+          }
+        ]
+      }
+    ]
+  }
+}

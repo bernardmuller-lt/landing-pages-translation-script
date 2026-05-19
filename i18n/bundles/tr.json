@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "siteName": "CosmicPDF",
+    "defaultDescription": "CosmicPDF — Yapay zeka destekli PDF düzenleme, dönüştürme ve güvenli paylaşım.",
+    "titleSuffix": "CosmicPDF",
+    "redirecting": "CosmicPDF'e yönlendiriliyorsunuz",
+    "redirectingBody": "CosmicPDF uygulamasına yönlendiriliyorsunuz…",
+    "continue": "Devam etmek"
+  },
+  "nav": {
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "forms": "Formlar",
+    "about": "Hakkında",
+    "getStarted": "Başlarken",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "mobileNote": "Tüm araçlar bu sitede /tools/… altında bulunur.",
+    "selectLanguage": "Dil seçin"
+  },
+  "toolCategories": {
+    "security": "Güvenlik PDF'si",
+    "splitMerge": "Böl ve Birleştir",
+    "editPdf": "PDF'yi düzenle",
+    "convertFromPdf": "PDF'den Dönüştür",
+    "convertToPdf": "PDF'ye Dönüştür",
+    "compress": "Kompres"
+  },
+  "toolNames": {
+    "sign-pdf": "PDF'yi imzala",
+    "password-protect": "Şifre Koruması",
+    "share-pdf": "PDF'yi paylaş",
+    "share-files": "Dosyaları Paylaş",
+    "split-pdf": "PDF'yi böl",
+    "merge-pdf": "PDF'yi birleştir",
+    "combine-pdf": "PDF'yi birleştir",
+    "reorder-pdf": "PDF'yi yeniden sırala",
+    "extract-pages": "Sayfaları Çıkart",
+    "edit-pdf": "PDF'yi düzenle",
+    "edit-fill-pdf": "PDF'yi Düzenle ve Doldur",
+    "edit-scanned-pdf": "Taranan PDF'yi Düzenle",
+    "add-image-to-pdf": "PDF'ye Resim Ekle",
+    "watermark": "Filigran",
+    "rotate-pdf": "PDF'yi döndür",
+    "delete-pages": "Sayfaları Sil",
+    "pages-numbering": "Sayfa Numaralandırma",
+    "pdf-reader": "PDF Okuyucu",
+    "pdf-to-word": "PDF'den Word'e",
+    "pdf-to-jpg": "PDF'den JPG'ye",
+    "pdf-to-png": "PDF'den PNG'ye",
+    "pdf-to-powerpoint": "PDF'den Power Point'e",
+    "pdf-to-excel": "PDF'den Excel'e",
+    "pdf-to-pdfa": "PDF'den PDF/A'ya",
+    "word-to-pdf": "Word'den PDF'ye",
+    "jpg-to-pdf": "JPG'den PDF'ye",
+    "png-to-pdf": "PNG'den PDF'ye",
+    "powerpoint-to-pdf": "Power Point'ten PDF'ye",
+    "excel-to-pdf": "Excel'den PDF'ye",
+    "pdfa-to-pdf": "PDF/A'dan PDF'ye",
+    "compress-pdf": "PDF'yi sıkıştır",
+    "compress-image": "Görüntüyü Sıkıştır"
+  },
+  "tools": {
+    "pageTitleSuffix": "· KozmikPDF",
+    "categoryLabel": "Kategori",
+    "featuresTitle": "Güçlü Özellikler",
+    "featuresSubtitle": "{name} için ihtiyacınız olan her şey",
+    "howItWorksTitle": "Nasıl Çalışır?",
+    "howItWorksSubtitle": "4 adımda basit ve etkili süreç",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "faqSubtitle": "{name} hakkında sık sorulan sorular",
+    "ctaTitle": "Başlamaya hazır mısınız?",
+    "ctaButton": "Başlarken",
+    "dropFile": "Dosyanızı buraya bırakın",
+    "orBrowse": "veya göz atmak için tıklayın • CosmicPDF uygulamasında devam edin",
+    "templates": {
+      "tagline": "{name} CosmicPDF ile çevrimiçi — hızlı, net ve gerçek belgeler için oluşturulmuş.",
+      "description": "Kılavuzlu adımlarla, varsa önizlemelerle ve ekiplerin PDF'leri bugün gönderme şekliyle eşleşen dışa aktarma seçenekleriyle CosmicPDF'i {nameLower}'a kullanın.",
+      "features": {
+        "fast": {
+          "title": "Hızlı işlem",
+          "description": "{name}'i optimize edilmiş ardışık düzenlerle ve net ilerlemeyle çalıştırın."
+        },
+        "quality": {
+          "title": "Kalitenin korunması",
+          "description": "Formatın izin verdiği ölçüde yazı tiplerini, vektörleri ve düzen aslına uygunluğunu koruyun."
+        },
+        "secure": {
+          "title": "Tasarım gereği güvenli",
+          "description": "Aktarım sırasında şifreleme ve belge işleme için makul varsayılanlar."
+        },
+        "app": {
+          "title": "Uygulamada çalışır",
+          "description": "İşi tam düzenleyiciyle tamamlamak için web üzerinde CosmicPDF'yi açın."
+        }
+      },
+      "howItWorks": {
+        "upload": {
+          "title": "Yüklemek",
+          "description": "{name} ile kullanmak istediğiniz dosyayı ekleyin."
+        },
+        "choose": {
+          "title": "Seçenekleri seçin",
+          "description": "Belgenizle eşleşen ayarları seçin."
+        },
+        "process": {
+          "title": "İşlem",
+          "description": "CosmicPDF'in dosyanızdaki işlemi çalıştırmasına izin verin."
+        },
+        "download": {
+          "title": "İndirmek",
+          "description": "Sonucu kaydedin veya uygulamada düzenlemeye devam edin."
+        }
+      },
+      "faqs": {
+        "free": {
+          "question": "{name} denemek ücretsiz mi?",
+          "answer": "Pazarlama sitesinden başlayıp üründe devam edebilirsiniz. Planlar ve sınırlar uygulamada gösterilir."
+        },
+        "where": {
+          "question": "Dosyalar nerede işlenir?",
+          "answer": "cosmicpdf.com'dan devam ettikten sonra CosmicPDF uygulamasında yoğun işlemler yürütülür."
+        }
+      }
+    }
+  },
+  "home": {
+    "pageTitle": "CosmicPDF — Modern ekipler için AI PDF düzenleme",
+    "hero": {
+      "badge": "Gelişmiş Yapay Zeka tarafından desteklenmektedir",
+      "title1": "Geleceği",
+      "title2": "PDF Düzenleme",
+      "subtitle": "Akıllı yapay zeka teknolojisiyle belge iş akışınızı dönüştürün. PDF'leri benzeri görülmemiş bir kolaylıkla ve hızla düzenleyin, imzalayın, dönüştürün ve birleştirin.",
+      "cta": "Düzenlemeye Başla",
+      "noCard": "Kredi kartına gerek yok",
+      "trial": "14 günlük ücretsiz deneme",
+      "dropHere": "PDF'nizi buraya bırakın",
+      "orBrowse": "veya göz atmak için tıklayın • Maksimum 50MB",
+      "pdfOnly": "Lütfen bir PDF dosyası seçin",
+      "tooBig": "Dosya boyutu 50 MB'tan az olmalıdır"
+    },
+    "trustedBy": {
+      "label": "Sektör liderlerinin güvendiği"
+    },
+    "quickTools": {
+      "title": "Yapay Zeka Destekli Araçlar",
+      "subtitle": "Profesyonel belge yönetimi için ihtiyacınız olan her şey",
+      "explore": "Özelliği keşfedin",
+      "items": {
+        "summarize": {
+          "title": "Yapay Zeka Özeti",
+          "description": "Gelişmiş yapay zeka ile uzun belgelerden önemli bilgileri anında çıkarın"
+        },
+        "extract": {
+          "title": "Yapay Zeka Özü",
+          "description": "Tabloları, formları ve veri yapılarını otomatik olarak tanımlayın ve çıkarın"
+        },
+        "translate": {
+          "title": "Yapay Zeka Çevirisi",
+          "description": "Biçimlendirmeyi koruyarak belgeleri 100'den fazla dile çevirin"
+        },
+        "ocr": {
+          "title": "OCR'ım var",
+          "description": "Taranan belgeleri yüksek doğrulukla düzenlenebilir metne dönüştürün"
+        }
+      }
+    },
+    "featureShowcase": {
+      "title": "Modern takımlar için tasarlandı",
+      "subtitle": "İş ihtiyaçlarınıza göre ölçeklenen güçlü özellikler",
+      "items": {
+        "intelligence": {
+          "title": "Yapay Zeka İstihbaratı",
+          "body": "Gelişmiş makine öğrenimi algoritmaları belgelerinizi anlar ve karmaşık görevleri otomatikleştirir"
+        },
+        "fast": {
+          "title": "Yıldırım Hızında",
+          "body": "Optimize edilmiş bulut altyapısıyla belgeleri geleneksel araçlara göre daha hızlı işleyin"
+        },
+        "security": {
+          "title": "Kurumsal Güvenlik",
+          "body": "Banka düzeyinde şifreleme ve GDPR, SOC 2 ve ISO 27001 standartlarıyla uyumluluk"
+        },
+        "access": {
+          "title": "Evrensel Erişim",
+          "body": "Cihazlarınız ve platformlarınız arasında kesintisiz senkronizasyonla her yerden çalışın"
+        }
+      }
+    },
+    "dashboard": {
+      "badge": "Kontrol Paneline Genel Bakış",
+      "title1": "için Güçlü Kontrol Paneli",
+      "title2": "Eksiksiz Dosya Yönetimi",
+      "subtitle": "Gelişmiş organizasyon, arama yetenekleri ve akıllı dosya yönetimi araçlarıyla tüm PDF dosyalarınıza tek bir merkezi merkezden erişin.",
+      "features": {
+        "centralized": {
+          "title": "Merkezi Merkez",
+          "body": "Tüm PDF dosyalarınızı tek bir organize kontrol panelinde yönetin"
+        },
+        "trash": {
+          "title": "Çöp Sistemi",
+          "body": "Geri yükleme ve kalıcı silme seçenekleriyle 30 günlük çöp saklama"
+        },
+        "quickActions": {
+          "title": "Hızlı Eylemler",
+          "body": "Tek tıklamayla önizleyin, indirin, düzenleyin ve silin"
+        }
+      },
+      "cta": "Kontrol Panelinize Erişin",
+      "ctaNote": "PDF dosyalarınızı yönetmeye başlamak için oturum açın",
+      "alt": "Kontrol paneli arayüzü"
+    },
+    "cta": {
+      "title1": "Daha akıllıca düzenlemeye başlayın,",
+      "title2": "daha zor değil",
+      "subtitle": "Yapay zeka destekli araçlarla belge iş akışlarını dönüştüren binlerce profesyonele katılın.",
+      "bullets": {
+        "trial": "14 günlük ücretsiz deneme, kredi kartına gerek yok",
+        "cancel": "İstediğiniz zaman iptal edin, verilerinizi koruyun",
+        "unlimited": "Sınırsız belge işleme"
+      },
+      "button": "Başlarken",
+      "stats": {
+        "users": {
+          "value": "50.000+",
+          "label": "Aktif kullanıcılar"
+        },
+        "pdfs": {
+          "value": "1 milyonun üzerinde",
+          "label": "İşlenen PDF'ler"
+        },
+        "uptime": {
+          "value": "%99,9",
+          "label": "Çalışma süresi"
+        },
+        "rating": {
+          "value": "4,9/5",
+          "label": "Kullanıcı derecelendirmesi"
+        }
+      },
+      "quote": "Bu araç, belgeleri işleme şeklimizi tamamen değiştirdi. Yapay zeka özellikleri bize her hafta saatlerce tasarruf sağlıyor.",
+      "quoteAuthor": "— Sarah Chen, TechCorp Ürün Müdürü"
+    },
+    "testimonials": {
+      "title": "Binlerce Kullanıcı Tarafından Sevildi",
+      "subtitle": "Profesyonellerin CosmicPDF hakkında neler söylediklerini görün",
+      "ratingLabel": "5 yıldız derecelendirmesi",
+      "items": {
+        "sarah": {
+          "name": "Sarah Mitchell",
+          "role": "Pazarlama Direktörü",
+          "company": "TechFlow Inc.",
+          "initials": "SM",
+          "content": "CosmicPDF, ekibimizin belgeleri işleme biçimini değiştirdi. Yapay zeka destekli araçlar her hafta saatlerce tasarruf etmemizi sağlıyor ve arayüz inanılmaz derecede sezgisel."
+        },
+        "michael": {
+          "name": "Michael Chen",
+          "role": "Ürün Müdürü",
+          "company": "StartupLab'lar",
+          "initials": "MC",
+          "content": "Şu ana kadar kullandığım en iyi PDF aracı. PDF'leri dönüştürmek, birleştirmek ve düzenlemek hiç bu kadar kolay olmamıştı. Yapay zeka özellikleri üretkenlik açısından oyunun kurallarını değiştiriyor."
+        },
+        "emily": {
+          "name": "Emily Rodriguez",
+          "role": "Hukuk Danışmanı",
+          "company": "Hukuk ve Ortaklar",
+          "initials": "IS",
+          "content": "Yasal belgelerimiz için güvenlik ve güvenilirlik çok önemlidir. Bu platform, karmaşık PDF görevlerini basit ve hızlı hale getirirken her iki yönde de hizmet verir."
+        }
+      },
+      "roleAtCompany": "{şirket} şirketinde {role}"
+    },
+    "allTools": {
+      "title": "Tüm Araçlar",
+      "subtitle": "Her ihtiyaca uygun kapsamlı PDF araçları paketi"
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "subtitle": "CosmicPDF hakkında bilmeniz gereken her şey",
+      "stillHave": "Hala sorularınız mı var?",
+      "contactSupport": "Destek ekibimizle iletişime geçin",
+      "items": {
+        "ai": {
+          "q": "Yapay zeka destekli düzenleme nasıl çalışır?",
+          "a": "Gelişmiş yapay zeka teknolojimiz, belge yapısını anlamak, metin ve görüntüleri tespit etmek ve akıllıca düzenlemeler önermek için makine öğrenimini kullanır. Formları otomatik olarak tanıyabilir, verileri çıkarabilir ve geleneksel PDF düzenleyicilerinden daha hızlı değişiklik yapmanıza yardımcı olabilir."
+        },
+        "security": {
+          "q": "Verilerim güvenli ve gizli mi?",
+          "a": "Veri aktarımı ve depolama için güçlü şifreleme kullanıyoruz. Belgeleriniz güvenli bir şekilde işlenir. CosmicPDF'yi ortak uyumluluk beklentilerini karşılayacak şekilde tasarlıyoruz; Hassas verileri yüklemeden önce Gizlilik Politikamızı ve kuruluşunuzun gereksinimlerini inceleyin."
+        },
+        "formats": {
+          "q": "Hangi dosya formatlarını destekliyorsunuz?",
+          "a": "Word (DOCX), Excel (XLSX), PowerPoint (PPTX), resimler (JPG, PNG) ve daha fazlasına dönüştürme yetenekleriyle birincil format olarak PDF'yi destekliyoruz. Ayrıca desteklendiği takdirde farklı dosya türlerini tek bir PDF'de birleştirebilirsiniz."
+        },
+        "offline": {
+          "q": "Bu aracı çevrimdışı kullanabilir miyim?",
+          "a": "Pazarlama sitesi statiktir; ürün deneyimi, güçlü yapay zeka işlemlerinden yararlanmak için bulut tabanlıdır. Bazı iş akışları masaüstü deneyimleri sunabilir; ayrıntılar için uygulamaya bakın."
+        },
+        "trial": {
+          "q": "Ücretsiz denemem sona erdikten sonra ne olacak?",
+          "a": "Deneme sürenizin ardından ücretli bir plan seçebilir veya uygun olduğunda ücretsiz bir katmanla devam edebilirsiniz. Belgeleriniz ve çalışmalarınız ürünün saklama kurallarına göre kaydedilir."
+        },
+        "enterprise": {
+          "q": "Ekip veya kurumsal planlar sunuyor musunuz?",
+          "a": "Evet. Paylaşılan çalışma alanlarına sahip ekip planları ve gelişmiş güvenlik ve desteğe sahip kurumsal seçenekler sunuyoruz. Özel fiyatlandırma için satış ekibiyle iletişime geçin."
+        }
+      }
+    }
+  },
+  "pricing": {
+    "pageTitle": "Fiyatlandırma · CosmicPDF",
+    "title": "Basit, Şeffaf Fiyatlandırma",
+    "subtitle": "İhtiyaçlarınıza uygun mükemmel planı seçin.",
+    "popular": "En Popüler",
+    "perPeriod": "/",
+    "enterpriseNote": "Kuruluşunuz için özel bir plana mı ihtiyacınız var?",
+    "enterpriseCta": "Kurumsal fiyatlandırma için satış ekibiyle iletişime geçin",
+    "plans": {
+      "pro": {
+        "name": "Profesyonel",
+        "price": "1,95$",
+        "period": "7 günlük deneme",
+        "description": "Sınırsız erişime ihtiyaç duyan profesyoneller için",
+        "cta": "Şimdi Başla",
+        "features": {
+          "unlimited": "Sınırsız PDF düzenlemesi",
+          "allTools": "Yapay zeka destekli 32 aracın tümü",
+          "fileSize": "100 MB dosya boyutu sınırı",
+          "priority": "Öncelikli işleme",
+          "ai": "Gelişmiş yapay zeka özellikleri",
+          "support": "Öncelikli e-posta desteği",
+          "noWatermark": "Filigran yok"
+        },
+        "billingNote": "o zaman her 4 haftada bir {amount} faturalandırılacak",
+        "billingAmount": "39,95$"
+      },
+      "business": {
+        "name": "İşletme",
+        "price": "59,95$",
+        "period": "ay",
+        "description": "Ekibinizle sorunsuz bir şekilde işbirliği yapın",
+        "cta": "Şimdi Başla",
+        "features": {
+          "everything": "Pro'daki her şey",
+          "team": "En fazla 5 ekip üyesi",
+          "workspace": "Paylaşılan çalışma alanı",
+          "analytics": "Ekip analitiği",
+          "fileSize": "500 MB dosya boyutu sınırı",
+          "support": "Özel destek",
+          "admin": "Yönetici kontrolleri",
+          "api": "API erişimi"
+        },
+        "billingNote": "{amount} yıllık olarak faturalandırılır",
+        "billingAmount": "$495,95",
+        "discount": "%15 indirim"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "CosmicPDF Hakkında",
+    "badge": "Hakkımızda",
+    "title1": "Belgeyi Yeniden Tanımlamak",
+    "title2": "İstihbarat",
+    "subtitle": "Dünyanın belgelerle çalışma şeklini değiştirme misyonundayız. Son teknoloji yapay zeka sayesinde PDF düzenlemeyi zahmetsiz, akıllı ve herkes için erişilebilir hale getiriyoruz.",
+    "stats": {
+      "users": {
+        "label": "Aktif Kullanıcılar",
+        "value": "2 milyonun üzerinde"
+      },
+      "pdfs": {
+        "label": "İşlenen PDF'ler",
+        "value": "500M+"
+      },
+      "countries": {
+        "label": "Ülkeler",
+        "value": "150+"
+      },
+      "uptime": {
+        "label": "Çalışma süresi",
+        "value": "%99,9"
+      }
+    },
+    "mission": {
+      "title1": "Bizim",
+      "title2": "Misyon",
+      "body1": "Belgelerle çalışmanın sezgisel, hızlı ve güçlü olması gerektiğine inanıyoruz. CosmicPDF, PDF iş akışlarındaki sorunları ortadan kaldırır, böylece sonuçlara odaklanabilirsiniz.",
+      "body2": "Yeni kurulan şirketlerden şirketlere kadar ekipler önemli belgeler için CosmicPDF'e güveniyor. Sürekli yeniliğe kendimizi adadık."
+    },
+    "values": {
+      "title1": "Bizim",
+      "title2": "Değerler",
+      "subtitle": "Yaptığımız her şeye rehberlik eden ilkeler",
+      "items": {
+        "innovation": {
+          "title": "Önce İnovasyon",
+          "body": "Yapay zeka ve belge teknolojisiyle mümkün olanın sınırlarını zorluyoruz."
+        },
+        "user": {
+          "title": "Kullanıcı Odaklı",
+          "body": "Her özellik iş akışınız ve üretkenliğiniz göz önünde bulundurularak tasarlanmıştır."
+        },
+        "precision": {
+          "title": "Kesinlik",
+          "body": "Her seferinde doğru, güvenilir sonuçlar sunmaya inanıyoruz."
+        },
+        "simplicity": {
+          "title": "Sadelik",
+          "body": "Karmaşık teknoloji, basit deneyim. Bu bizim size sözümüzdür."
+        }
+      }
+    },
+    "faq": {
+      "title1": "Sık Sorulan Sorular",
+      "title2": "Sorular",
+      "subtitle": "Şirketimizle ilgili sık sorulan soruların yanıtları",
+      "items": {
+        "founded": {
+          "q": "Şirket ne zaman kuruldu?",
+          "a": "2020 yılında basit bir misyonla kurulduk: belge düzenlemeyi sohbet etmek kadar sezgisel hale getirmek. O zamandan beri birçok ülkede milyonlarca kullanıcıya hizmet verecek şekilde büyüdük."
+        },
+        "location": {
+          "q": "Şirketiniz nerede bulunuyor?",
+          "a": "Merkezimiz San Francisco, California'da olup, uzak ekip üyelerimiz Kuzey Amerika, Avrupa ve Asya'ya dağılmıştır."
+        },
+        "security": {
+          "q": "Veri güvenliğini nasıl sağlıyorsunuz?",
+          "a": "Güvenlik, inşa ettiğimiz her şeyin merkezinde yer alır. Riski azaltmak için güçlü şifreleme kullanıyor, ortak uyumluluk çerçevelerini takip ediyor ve saklama politikaları tasarlıyoruz. Ayrıntılar için her zaman Gizlilik Politikamızı inceleyin."
+        },
+        "enterprise": {
+          "q": "Kurumsal çözümler sunuyor musunuz?",
+          "a": "Evet. Özel destek, entegrasyonlar, SSO yetenekleri, gelişmiş güvenlik özellikleri ve esnek dağıtım seçenekleriyle kurumsal çözümler sunuyoruz."
+        },
+        "ai": {
+          "q": "Yapay zeka teknolojinizi farklı kılan nedir?",
+          "a": "Modellerimiz belge anlama ve düzenleme görevleri için eğitilmiştir ve PDF iş akışlarını daha hızlı ve daha doğru hale getirmeye odaklanmıştır."
+        },
+        "team": {
+          "q": "Ekibinize nasıl katılabilirim?",
+          "a": "Her zaman yetenekli bireyler arıyoruz. Check our careers page for open roles across engineering, design, and product."
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "CosmicPDF ile iletişime geçin",
+    "badge": "İletişime Geçin",
+    "title1": "Hadi başlayalım",
+    "title2": "Konuşma",
+    "subtitle": "CosmicPDF hakkında sorularınız mı var? Yardım etmek için buradayız. Bize ulaşın, en kısa sürede size geri dönüş yapalım.",
+    "send": {
+      "title1": "Bize bir gönder",
+      "title2": "mesaj",
+      "subtitle": "Aşağıdaki formu doldurun, ekibimiz 24 saat içinde size geri dönüş yapacaktır."
+    },
+    "info": {
+      "title1": "Temas etmek",
+      "title2": "Bilgi",
+      "subtitle": "Doğrudan ulaşmayı mı tercih edersiniz? İşte izlediğimiz kanallar.",
+      "items": {
+        "email": {
+          "title": "Bize e-posta gönderin",
+          "details": "support@cosmicpdf.com",
+          "description": "Genellikle 24 saat içinde yanıt veririz"
+        },
+        "sales": {
+          "title": "Satış",
+          "details": "sales@cosmicpdf.com",
+          "description": "Fiyatlandırma, pilot uygulamalar ve satın alma soruları"
+        },
+        "security": {
+          "title": "Güvenlik",
+          "details": "güvenlik@cosmicpdf.com",
+          "description": "Sorumlu açıklama ve güvenlik incelemeleri"
+        },
+        "hours": {
+          "title": "Çalışma Saatleri",
+          "details": "Pazartesi - Cuma: 09:00 - 18:00 PST",
+          "description": "Hafta sonu desteği plana göre değişir"
+        }
+      }
+    },
+    "form": {
+      "name": "Ad Soyad",
+      "namePlaceholder": "John Doe",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "john@example.com",
+      "subject": "Ders",
+      "subjectPlaceholder": "Bir konu seçin",
+      "subjectOptions": {
+        "general": "Genel Sorgulama",
+        "support": "Teknik Destek",
+        "sales": "Satış Sorusu",
+        "partnership": "Ortaklık Fırsatı",
+        "feedback": "Geri bildirim"
+      },
+      "message": "Mesaj",
+      "messagePlaceholder": "Size nasıl yardımcı olabileceğimizi bize bildirin...",
+      "required": "*",
+      "submit": "Mesaj Gönder",
+      "demoAlert": "Teşekkürler — bu statik demo hiçbir yere gönderilmez. Hazır olduğunuzda bu formu uygulamanızın uç noktasına bağlayın."
+    }
+  },
+  "privacy": {
+    "pageTitle": "Gizlilik Politikası · CosmicPDF",
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: 30 Nisan 2026",
+    "sections": {
+      "introduction": {
+        "title": "giriiş",
+        "body": "CosmicPDF'e hoş geldiniz. Gizliliğinize saygı duyuyoruz ve kişisel verilerinizi korumaya kararlıyız. Bu politika, pazarlama sitemizi ziyaret ettiğinizde ve CosmicPDF ürününü kullandığınızda bilgileri nasıl ele aldığımızı açıklamaktadır."
+      },
+      "collected": {
+        "title": "Topladığımız Bilgiler",
+        "intro": "Aşağıdaki gibi bilgi kategorilerini toplayabilir ve işleyebiliriz:",
+        "identity": {
+          "label": "Kimlik Verileri:",
+          "body": "isim ve benzeri tanımlayıcılar."
+        },
+        "contact": {
+          "label": "İletişim Verileri:",
+          "body": "sağlanan e-posta adresi ve telefon numaraları."
+        },
+        "technical": {
+          "label": "Teknik Veriler:",
+          "body": "IP adresi, tarayıcı türü, cihaz ve teşhis verileri."
+        },
+        "usage": {
+          "label": "Kullanım Verileri:",
+          "body": "Web sitemizi ve hizmetlerimizi nasıl kullandığınız hakkında bilgi."
+        },
+        "document": {
+          "label": "Belge Verileri:",
+          "body": "Üründe işlenmek üzere yüklediğiniz dosyalar."
+        }
+      },
+      "marketing": {
+        "title": "Pazarlama Sitesi",
+        "body": "Bu depo statik bir pazarlama sitesine ev sahipliği yapıyor. Yüklemeler için sunucu tarafı işlemeyi yürütmez. Güvenlik incelemenize göre ürün uygulamasında herhangi bir dosya aktarımı uygulanmalıdır."
+      },
+      "contact": {
+        "title": "Temas etmek",
+        "body": "Gizlilikle ilgili sorular:",
+        "email": "gizlilik@cosmicpdf.com"
+      }
+    }
+  },
+  "terms": {
+    "pageTitle": "Hizmet Şartları · CosmicPDF",
+    "title": "Hizmet Şartları",
+    "lastUpdated": "Son güncelleme: 30 Nisan 2026",
+    "sections": {
+      "introduction": {
+        "title": "giriiş",
+        "body": "Bu Koşullar, CosmicPDF web sitelerini ve hizmetlerini kullanımınızı yönetir. Hizmetlerimize erişerek veya bunları kullanarak bu Şartları kabul etmiş olursunuz."
+      },
+      "accounts": {
+        "title": "Hesaplar",
+        "body": "Bir hesap oluşturduğunuzda doğru bilgileri sağlamayı ve kimlik bilgilerinizi güvende tutmayı kabul edersiniz. Hesabınızın altındaki etkinliklerden siz sorumlusunuz."
+      },
+      "content": {
+        "title": "Kullanıcı İçeriği",
+        "body": "Yüklediğiniz belgelerin hakları size ait olur. Gönderdiğiniz içeriği işleme hakkına sahip olmanız gerekir."
+      },
+      "liability": {
+        "title": "Sorumluluğun Sınırlandırılması",
+        "body": "Yasaların izin verdiği azami ölçüde, CosmicPDF hizmetleri kullanımınızdan kaynaklanan dolaylı veya sonuç olarak ortaya çıkan zararlardan sorumlu değildir."
+      },
+      "contact": {
+        "title": "Temas etmek",
+        "body": "Bu Şartlarla ilgili sorular:",
+        "email": "legal@cosmicpdf.com"
+      }
+    }
+  },
+  "forms": {
+    "pageTitle": "En çok kullanılan formlar · CosmicPDF",
+    "title": "En Çok Kullanılan Formlar",
+    "subtitle": "En sık kullanılan formlara erişin ve bunları düzenleyin. Yapay zeka destekli PDF düzenleyicimizle tüm formlar tamamen düzenlenebilir.",
+    "bullets": {
+      "templates": "Yaygın iş akışları için resmi stilde şablonlar",
+      "editable": "Yapay zeka yardımı ile tamamen düzenlenebilir",
+      "upload": "Düzenlemek için kendi formlarınızı yükleyin"
+    },
+    "categories": {
+      "all": "Tüm",
+      "tax": "Vergi Formları",
+      "employment": "İstihdam",
+      "business": "İşletme",
+      "government": "Devlet",
+      "immigration": "Göçmenlik"
+    },
+    "editForm": "Formu Düzenle",
+    "editAlert": "Bu formu düzenlemek için CosmicPDF uygulamasında devam edin.",
+    "uploadTitle": "Kendi Formunuzu Yükleyin",
+    "uploadSubtitle": "Farklı bir formunuz mu var? Yükleyin ve AI yardımıyla düzenlemeye başlayın",
+    "dropHere": "PDF'nizi buraya bırakın",
+    "orBrowse": "veya göz atmak için tıklayın • Maksimum 50MB",
+    "items": {
+      "941": {
+        "name": "Form 941",
+        "title": "İşverenin Üç Aylık Federal Vergi Beyannamesi",
+        "category": "business",
+        "description": "İşverenler tarafından çalışan ücretlerinden kesilen gelir vergilerini ve bordro vergilerini bildirmek için kullanılır."
+      },
+      "1040": {
+        "name": "Form 1040",
+        "title": "ABD Bireysel Gelir Vergisi Beyannamesi",
+        "category": "tax",
+        "description": "Yıllık geliri bildirmek ve borçlu olunan vergileri hesaplamak için kullanılan standart federal gelir vergisi formu."
+      },
+      "1065": {
+        "name": "Form 1065",
+        "title": "ABD Ortaklık Gelirinin İadesi",
+        "category": "business",
+        "description": "Ortaklıklar tarafından geliri, kesintileri ve kredileri raporlamak için kullanılan bilgi beyanı."
+      },
+      "w-9": {
+        "name": "W-9 Formu",
+        "title": "Vergi Mükellefi Kimlik Numarası Talebi",
+        "category": "tax",
+        "description": "Serbest çalışanlar ve yükleniciler tarafından müşterilere vergi mükellefi kimlik numaralarını sağlamak için kullanılır."
+      },
+      "w-4": {
+        "name": "W-4 Formu",
+        "title": "Çalışan Stopaj Belgesi",
+        "category": "tax",
+        "description": "Çalışanlar tarafından, stopajın doğru şekilde yapılabilmesi için işverenlere vergi durumlarını belirtmek amacıyla doldurulur."
+      },
+      "i-9": {
+        "name": "Form I-9",
+        "title": "İstihdama Uygunluk Doğrulaması",
+        "category": "employment",
+        "description": "Tüm ABD'deki işverenlerin yeni işe alınanların kimliklerini ve istihdam yetkilerini doğrulamaları zorunludur."
+      },
+      "ss-4": {
+        "name": "SS-4 Formu",
+        "title": "İşveren Kimlik Numarası Başvurusu",
+        "category": "business",
+        "description": "İşletmeler tarafından IRS'den bir EIN (İşveren Kimlik Numarası) başvurusunda bulunmak için kullanılır."
+      },
+      "1099-nec": {
+        "name": "Form 1099-NEC",
+        "title": "Çalışan Olmayan Tazminat",
+        "category": "tax",
+        "description": "Bağımsız yüklenicilere ve serbest çalışanlara yapılan ödemeleri raporlamak için kullanılır."
+      },
+      "w-2": {
+        "name": "W-2 Formu",
+        "title": "Ücret ve Vergi Beyanı",
+        "category": "tax",
+        "description": "Bir çalışanın yıllık ücretini ve maaşından kesilen vergi miktarını bildirir."
+      },
+      "ds-11": {
+        "name": "DS-11",
+        "title": "ABD Pasaportu Başvurusu",
+        "category": "government",
+        "description": "İlk kez pasaport başvurusunda bulunacaklar ve süresi dolmuş pasaportlarını yenileyecekler tarafından kullanılır."
+      },
+      "i-130": {
+        "name": "Form I-130",
+        "title": "Uzaylı Akraba Dilekçesi",
+        "category": "immigration",
+        "description": "ABD vatandaşları ve daimi ikamet edenler tarafından yabancı bir vatandaşla ilişki kurmak için kullanılır."
+      },
+      "n-400": {
+        "name": "N-400 Formu",
+        "title": "Vatandaşlığa Kabul Başvurusu",
+        "category": "immigration",
+        "description": "Daimi ikamet edenler tarafından ABD vatandaşlığına başvurmak için kullanılır."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Her hakkı saklıdır.",
+    "privacy": "Mahremiyet",
+    "terms": "Şartlar",
+    "contact": "Temas etmek",
+    "copyright": "© {yıl} CosmicPDF. Her hakkı saklıdır."
+  },
+  "notFound": {
+    "pageTitle": "Sayfa bulunamadı · CosmicPDF",
+    "title": "404",
+    "message": "O sayfayı bulamadık.",
+    "back": "Eve dön"
+  }
+}

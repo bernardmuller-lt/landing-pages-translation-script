@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pdfa-to-pdf",
+    "locale": "es",
+    "locale_display": "es",
+    "seo": {
+      "title": "PDF/A a PDF · CósmicoPDF",
+      "description": "PDF/A a PDF en línea con CosmicPDF: rápido, claro y diseñado para documentos reales."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>PDF/A a PDF</h1>",
+        "subtitle": "<p>PDF/A a PDF en línea con CosmicPDF: rápido, claro y diseñado para documentos reales.</p><p>Utilice CosmicPDF para pdf/a a pdf con pasos guiados, vistas previas cuando estén disponibles y opciones de exportación que coincidan con la forma en que los equipos envían archivos PDF hoy.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Empezar",
+          "aria_label": "Empezar"
+        },
+        "upload_hint_text": "Deja tu archivo aquí",
+        "upload_browse_text": "o haga clic para navegar • Continuar en la aplicación CosmicPDF",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Funciones potentes",
+        "subtitle": "Todo lo que necesitas para {nombre}",
+        "items": [
+          {
+            "icon": null,
+            "title": "Procesamiento rápido",
+            "description": "Ejecute PDF/A a PDF con canalizaciones optimizadas y un progreso claro."
+          },
+          {
+            "icon": null,
+            "title": "Preservación de la calidad",
+            "description": "Mantenga la fidelidad de las fuentes, los vectores y el diseño cuando el formato lo permita."
+          },
+          {
+            "icon": null,
+            "title": "Seguro por diseño",
+            "description": "Cifrado en tránsito y valores predeterminados sensatos para el manejo de documentos."
+          },
+          {
+            "icon": null,
+            "title": "Funciona en la aplicación",
+            "description": "Ábralo en CosmicPDF en la web para finalizar el trabajo con el editor completo."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "Cómo funciona",
+        "subtitle": "Proceso simple y eficiente en 4 pasos",
+        "items": [
+          {
+            "icon": null,
+            "title": "Subir",
+            "description": "Agrega el archivo que deseas usar con {nombre}."
+          },
+          {
+            "icon": null,
+            "title": "Elige opciones",
+            "description": "Elija la configuración que coincida con su documento."
+          },
+          {
+            "icon": null,
+            "title": "Proceso",
+            "description": "Deje que CosmicPDF ejecute la operación en su archivo."
+          },
+          {
+            "icon": null,
+            "title": "Descargar",
+            "description": "Guarde el resultado o continúe editando en la aplicación."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Preguntas frecuentes",
+        "subtitle": "Preguntas comunes sobre {nombre}",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "¿Puede probar {nombre} gratis?",
+            "content": "Puede comenzar desde el sitio de marketing y continuar en el producto. Los planes y límites se muestran en la aplicación."
+          },
+          {
+            "title": "¿Dónde se procesan los archivos?",
+            "content": "El procesamiento pesado se ejecuta en la aplicación CosmicPDF después de continuar desde cosmicpdf.com."
+          }
+        ]
+      }
+    ]
+  }
+}

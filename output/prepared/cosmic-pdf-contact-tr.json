@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "tr",
+    "locale_display": "tr",
+    "seo": {
+      "title": "CosmicPDF ile iletişime geçin",
+      "description": "CosmicPDF hakkında sorularınız mı var? Yardım etmek için buradayız. Bize ulaşın, en kısa sürede size geri dönüş yapalım."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "İletişime Geçin",
+        "title": "<h1>Hadi başlayalım <strong>Konuşma</strong></h1>",
+        "subtitle": "CosmicPDF hakkında sorularınız mı var? Yardım etmek için buradayız. Bize ulaşın, en kısa sürede size geri dönüş yapalım.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Temas etmek Bilgi",
+        "subtitle": "Doğrudan ulaşmayı mı tercih edersiniz? İşte izlediğimiz kanallar.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "Bize e-posta gönderin",
+            "description": "support@cosmicpdf.com\nGenellikle 24 saat içinde yanıt veririz"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Satış",
+            "description": "sales@cosmicpdf.com\nFiyatlandırma, pilot uygulamalar ve satın alma soruları"
+          },
+          {
+            "icon": "Shield",
+            "title": "Güvenlik",
+            "description": "güvenlik@cosmicpdf.com\nSorumlu açıklama ve güvenlik incelemeleri"
+          },
+          {
+            "icon": "Clock",
+            "title": "Çalışma Saatleri",
+            "description": "Pazartesi - Cuma: 09:00 - 18:00 PST\nHafta sonu desteği plana göre değişir"
+          }
+        ]
+      }
+    ]
+  }
+}

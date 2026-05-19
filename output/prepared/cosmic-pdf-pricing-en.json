@@ -1,0 +1,143 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "en",
+    "locale_display": "en",
+    "seo": {
+      "title": "Pricing · CosmicPDF",
+      "description": "Choose the perfect plan for your needs."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.pricing-section",
+        "fe_component": "Pricing",
+        "title": "Simple, Transparent Pricing",
+        "subtitle": "Choose the perfect plan for your needs.",
+        "popular_label": "Most Popular",
+        "per_period_separator": "/",
+        "enterprise_note": "Need a custom plan for your organization?",
+        "enterprise_cta": "Contact sales for enterprise pricing",
+        "plans": [
+          {
+            "name": "Pro",
+            "description": "For professionals who need unlimited access",
+            "price": "$1,95",
+            "period": "7-day trial",
+            "is_popular": true,
+            "cta": {
+              "href": "/register",
+              "text": "Start Now",
+              "aria_label": "Start Now",
+              "icon": null
+            },
+            "features": [
+              {
+                "text": "Unlimited PDF edits"
+              },
+              {
+                "text": "All 32 AI-powered tools"
+              },
+              {
+                "text": "100 MB file size limit"
+              },
+              {
+                "text": "Priority processing"
+              },
+              {
+                "text": "Advanced AI features"
+              },
+              {
+                "text": "Priority email support"
+              },
+              {
+                "text": "No watermarks"
+              }
+            ],
+            "billing_note": "then {amount} will be billed every 4 weeks",
+            "billing_amount": "39,95$",
+            "discount": null
+          },
+          {
+            "name": "Business",
+            "description": "Collaborate with your team seamlessly",
+            "price": "$59,95",
+            "period": "month",
+            "is_popular": false,
+            "cta": {
+              "href": "/register",
+              "text": "Start Now",
+              "aria_label": "Start Now",
+              "icon": null
+            },
+            "features": [
+              {
+                "text": "Everything in Pro"
+              },
+              {
+                "text": "Up to 5 team members"
+              },
+              {
+                "text": "Shared workspace"
+              },
+              {
+                "text": "Team analytics"
+              },
+              {
+                "text": "500 MB file size limit"
+              },
+              {
+                "text": "Dedicated support"
+              },
+              {
+                "text": "Admin controls"
+              },
+              {
+                "text": "API access"
+              }
+            ],
+            "billing_note": "{amount} billed annually",
+            "billing_amount": "$495,95",
+            "discount": "15% discount"
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "FAQ",
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about CosmicPDF",
+        "support_text": "Still have questions?",
+        "support_link_text": "Contact our support team",
+        "support_link_href": "/contact",
+        "items": [
+          {
+            "title": "How does the AI-powered editing work?",
+            "content": "Our advanced AI technology uses machine learning to understand document structure, detect text and images, and intelligently suggest edits. It can automatically recognize forms, extract data, and help you make changes faster than traditional PDF editors."
+          },
+          {
+            "title": "Is my data secure and private?",
+            "content": "We use strong encryption for data transfers and storage. Your documents are processed securely. We design CosmicPDF to meet common compliance expectations; review our Privacy Policy and your organization’s requirements before uploading sensitive data."
+          },
+          {
+            "title": "What file formats do you support?",
+            "content": "We support PDF as the primary format, with conversion capabilities to and from Word (DOCX), Excel (XLSX), PowerPoint (PPTX), images (JPG, PNG), and more. You can also merge different file types into a single PDF where supported."
+          },
+          {
+            "title": "Can I use this tool offline?",
+            "content": "The marketing site is static; the product experience is cloud-based to leverage powerful AI processing. Some workflows may offer desktop experiences—see the app for details."
+          },
+          {
+            "title": "What happens after my free trial ends?",
+            "content": "After your trial, you can choose a paid plan or continue on a free tier where available. Your documents and work are saved according to the product’s retention rules."
+          },
+          {
+            "title": "Do you offer team or enterprise plans?",
+            "content": "Yes. We offer team plans with shared workspaces and enterprise options with advanced security and support. Contact sales for custom pricing."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "forms",
+    "locale": "nl",
+    "locale_display": "nl",
+    "seo": {
+      "title": "Meest gebruikte formulieren · CosmicPDF",
+      "description": "Toegang tot en bewerk de meest gebruikte formulieren. Alle formulieren zijn volledig bewerkbaar met onze AI-aangedreven PDF-editor."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "FormsHero",
+        "badge": null,
+        "title": "Meest gebruikte formulieren",
+        "subtitle": "Toegang tot en bewerk de meest gebruikte formulieren. Alle formulieren zijn volledig bewerkbaar met onze AI-aangedreven PDF-editor.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FormItems",
+        "title": "Meest gebruikte formulieren",
+        "subtitle": "Toegang tot en bewerk de meest gebruikte formulieren. Alle formulieren zijn volledig bewerkbaar met onze AI-aangedreven PDF-editor.",
+        "items": [
+          {
+            "icon": null,
+            "title": "Formulier 941 — Driemaandelijkse federale belastingaangifte van de werkgever",
+            "description": "Gebruikt door werkgevers om inkomstenbelastingen en loonbelastingen aan te geven die zijn ingehouden op de lonen van werknemers."
+          },
+          {
+            "icon": null,
+            "title": "Formulier 1040 — Amerikaanse individuele inkomstenbelastingaangifte",
+            "description": "Het standaard federale inkomstenbelastingformulier dat wordt gebruikt om het jaarinkomen te rapporteren en de verschuldigde belastingen te berekenen."
+          },
+          {
+            "icon": null,
+            "title": "Formulier 1065 — Amerikaanse terugkeer van partnerschapsinkomsten",
+            "description": "Informatieretour die door partnerschappen wordt gebruikt om inkomsten, inhoudingen en tegoeden te rapporteren."
+          },
+          {
+            "icon": null,
+            "title": "Formulier W-9 — Verzoek om belastingbetaleridentificatienummer",
+            "description": "Gebruikt door freelancers en aannemers om hun belastingbetaleridentificatienummer aan klanten te verstrekken."
+          },
+          {
+            "icon": null,
+            "title": "Formulier W-4 — Inhoudingsverklaring van de werknemer",
+            "description": "Ingevuld door werknemers om hun belastingsituatie aan werkgevers door te geven voor een juiste inhouding."
+          },
+          {
+            "icon": null,
+            "title": "Formulier I-9 — Verificatie van geschiktheid voor werk",
+            "description": "Vereist voor alle Amerikaanse werkgevers om de identiteit en arbeidsvergunning van nieuwe medewerkers te verifiëren."
+          },
+          {
+            "icon": null,
+            "title": "Formulier SS-4 — Aanvraag werkgeversidentificatienummer",
+            "description": "Wordt door bedrijven gebruikt om een ​​EIN (Employer Identification Number) aan te vragen bij de IRS."
+          },
+          {
+            "icon": null,
+            "title": "Formulier 1099-NEC — Compensatie voor niet-werknemers",
+            "description": "Wordt gebruikt om betalingen aan onafhankelijke contractanten en freelancers te rapporteren."
+          },
+          {
+            "icon": null,
+            "title": "Formulier W-2 — Loon- en belastingaangifte",
+            "description": "Rapporteert het jaarloon van een werknemer en het bedrag aan belastingen dat op zijn salaris is ingehouden."
+          },
+          {
+            "icon": null,
+            "title": "DS-11 — Aanvraag voor een Amerikaans paspoort",
+            "description": "Gebruikt door mensen die voor het eerst een paspoort aanvragen en door mensen die verlopen paspoorten verlengen."
+          },
+          {
+            "icon": null,
+            "title": "Formulier I-130 — Petitie voor buitenaards familielid",
+            "description": "Gebruikt door Amerikaanse staatsburgers en permanente inwoners om een ​​relatie op te bouwen met een vreemdeling."
+          },
+          {
+            "icon": null,
+            "title": "Formulier N-400 — Aanvraag naturalisatie",
+            "description": "Gebruikt door permanente inwoners om het Amerikaanse staatsburgerschap aan te vragen."
+          }
+        ]
+      }
+    ]
+  }
+}

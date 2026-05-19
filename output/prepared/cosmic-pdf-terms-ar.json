@@ -1,0 +1,45 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "terms",
+    "locale": "ar",
+    "locale_display": "ar",
+    "seo": {
+      "title": "شروط الخدمة · CosmicPDF",
+      "description": "آخر تحديث: 30 أبريل 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "مقدمة",
+        "content": "<p>تحكم هذه الشروط استخدامك لمواقع وخدمات CosmicPDF. من خلال الوصول إلى خدماتنا أو استخدامها، فإنك توافق على هذه الشروط.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "accounts",
+        "title": "الحسابات",
+        "content": "<p>عند إنشاء حساب، فإنك توافق على تقديم معلومات دقيقة والحفاظ على أمان بيانات الاعتماد. أنت مسؤول عن النشاط ضمن حسابك.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "content",
+        "title": "محتوى المستخدم",
+        "content": "<p>أنت تحتفظ بحقوق المستندات التي تقوم بتحميلها. يجب أن يكون لديك الحق في معالجة المحتوى الذي ترسله.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "liability",
+        "title": "حدود المسؤولية",
+        "content": "<p>إلى الحد الأقصى الذي يسمح به القانون، لا تتحمل CosmicPDF مسؤولية الأضرار غير المباشرة أو التبعية الناشئة عن استخدامك للخدمات.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "اتصال",
+        "content": "<p>أسئلة حول هذه الشروط:</p><p>legal@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

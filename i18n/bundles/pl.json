@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "siteName": "CosmicPDF",
+    "defaultDescription": "CosmicPDF — edycja, konwersja i bezpieczne udostępnianie plików PDF w oparciu o sztuczną inteligencję.",
+    "titleSuffix": "CosmicPDF",
+    "redirecting": "Przekierowanie do CosmicPDF",
+    "redirectingBody": "Przekierowywanie do aplikacji CosmicPDF…",
+    "continue": "Kontynuować"
+  },
+  "nav": {
+    "features": "Cechy",
+    "pricing": "Wycena",
+    "forms": "Formularze",
+    "about": "O",
+    "getStarted": "Rozpocznij",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "mobileNote": "Wszystkie narzędzia znajdują się w katalogu /tools/… na tej stronie.",
+    "selectLanguage": "Wybierz język"
+  },
+  "toolCategories": {
+    "security": "Bezpieczeństwo w formacie PDF",
+    "splitMerge": "Podziel i połącz",
+    "editPdf": "Edytuj PDF",
+    "convertFromPdf": "Konwertuj z pliku PDF",
+    "convertToPdf": "Konwertuj na format PDF",
+    "compress": "Kompres"
+  },
+  "toolNames": {
+    "sign-pdf": "Podpisz PDF",
+    "password-protect": "Ochrona hasłem",
+    "share-pdf": "Udostępnij PDF",
+    "share-files": "Udostępnij pliki",
+    "split-pdf": "Podziel plik PDF",
+    "merge-pdf": "Scal PDF",
+    "combine-pdf": "Połącz PDF",
+    "reorder-pdf": "Zmień kolejność plików PDF",
+    "extract-pages": "Wyodrębnij strony",
+    "edit-pdf": "Edytuj PDF",
+    "edit-fill-pdf": "Edytuj i wypełnij plik PDF",
+    "edit-scanned-pdf": "Edytuj zeskanowany plik PDF",
+    "add-image-to-pdf": "Dodaj obraz do pliku PDF",
+    "watermark": "Filigran",
+    "rotate-pdf": "Obróć plik PDF",
+    "delete-pages": "Usuń strony",
+    "pages-numbering": "Numeracja stron",
+    "pdf-reader": "Czytnik PDF",
+    "pdf-to-word": "PDF do Worda",
+    "pdf-to-jpg": "PDF do JPG",
+    "pdf-to-png": "PDF do PNG",
+    "pdf-to-powerpoint": "PDF do Power Pointa",
+    "pdf-to-excel": "PDF do Excela",
+    "pdf-to-pdfa": "PDF do PDF/A",
+    "word-to-pdf": "Słowo do pliku PDF",
+    "jpg-to-pdf": "JPG do PDF",
+    "png-to-pdf": "PNG do PDF",
+    "powerpoint-to-pdf": "Power Point do pliku PDF",
+    "excel-to-pdf": "Excela do PDF",
+    "pdfa-to-pdf": "PDF/A do PDF",
+    "compress-pdf": "Kompresuj PDF",
+    "compress-image": "Kompresuj obraz"
+  },
+  "tools": {
+    "pageTitleSuffix": "· KosmicznyPDF",
+    "categoryLabel": "Kategoria",
+    "featuresTitle": "Potężne funkcje",
+    "featuresSubtitle": "Wszystko, czego potrzebujesz dla {name}",
+    "howItWorksTitle": "Jak to działa",
+    "howItWorksSubtitle": "Prosty i skuteczny proces w 4 krokach",
+    "faqTitle": "Często zadawane pytania",
+    "faqSubtitle": "Często zadawane pytania na temat: {name}",
+    "ctaTitle": "Gotowy, aby zacząć?",
+    "ctaButton": "Rozpocznij",
+    "dropFile": "Upuść tutaj swój plik",
+    "orBrowse": "lub kliknij, aby przeglądać • Kontynuuj w aplikacji CosmicPDF",
+    "templates": {
+      "tagline": "{name} online w CosmicPDF — szybki, przejrzysty i stworzony z myślą o prawdziwych dokumentach.",
+      "description": "Użyj CosmicPDF do {nameLower}, korzystając z instrukcji, podglądów, jeśli są dostępne, i opcji eksportu dostosowanych do dzisiejszego sposobu, w jaki zespoły wysyłają pliki PDF.",
+      "features": {
+        "fast": {
+          "title": "Szybkie przetwarzanie",
+          "description": "Uruchom {name} ze zoptymalizowanymi potokami i wyraźnym postępem."
+        },
+        "quality": {
+          "title": "Zachowanie jakości",
+          "description": "Zachowaj wierność czcionek, wektorów i układu, jeśli pozwala na to format."
+        },
+        "secure": {
+          "title": "Bezpieczne zgodnie z projektem",
+          "description": "Szyfrowanie podczas przesyłania i rozsądne ustawienia domyślne dotyczące obsługi dokumentów."
+        },
+        "app": {
+          "title": "Działa w aplikacji",
+          "description": "Otwórz w CosmicPDF w Internecie, aby dokończyć pracę w pełnym edytorze."
+        }
+      },
+      "howItWorks": {
+        "upload": {
+          "title": "Wgrywać",
+          "description": "Dodaj plik, którego chcesz używać z {name}."
+        },
+        "choose": {
+          "title": "Wybierz opcje",
+          "description": "Wybierz ustawienia pasujące do Twojego dokumentu."
+        },
+        "process": {
+          "title": "Proces",
+          "description": "Pozwól CosmicPDF uruchomić operację na Twoim pliku."
+        },
+        "download": {
+          "title": "Pobierać",
+          "description": "Zapisz wynik lub kontynuuj edycję w aplikacji."
+        }
+      },
+      "faqs": {
+        "free": {
+          "question": "Czy {name} może wypróbować bezpłatnie?",
+          "answer": "Możesz zacząć od witryny marketingowej i kontynuować w produkcie. Plany i limity są wyświetlane w aplikacji."
+        },
+        "where": {
+          "question": "Gdzie przetwarzane są pliki?",
+          "answer": "Po przejściu na stronę cosmicpdf.com w aplikacji CosmicPDF uruchamiane jest intensywne przetwarzanie."
+        }
+      }
+    }
+  },
+  "home": {
+    "pageTitle": "CosmicPDF — edycja plików PDF AI dla nowoczesnych zespołów",
+    "hero": {
+      "badge": "Obsługiwane przez zaawansowaną sztuczną inteligencję",
+      "title1": "Przyszłość",
+      "title2": "Edycja PDF",
+      "subtitle": "Zmień przepływ dokumentów dzięki inteligentnej technologii AI. Edytuj, podpisuj, konwertuj i łącz pliki PDF z niespotykaną łatwością i szybkością.",
+      "cta": "Rozpocznij edycję",
+      "noCard": "Nie jest wymagana karta kredytowa",
+      "trial": "Bezpłatny 14-dniowy okres próbny",
+      "dropHere": "Upuść tutaj swój plik PDF",
+      "orBrowse": "lub kliknij, aby przeglądać • Maksymalnie 50 MB",
+      "pdfOnly": "Proszę wybrać plik PDF",
+      "tooBig": "Rozmiar pliku musi być mniejszy niż 50 MB"
+    },
+    "trustedBy": {
+      "label": "Zaufali nam liderzy branży"
+    },
+    "quickTools": {
+      "title": "Narzędzia zasilane sztuczną inteligencją",
+      "subtitle": "Wszystko, czego potrzebujesz do profesjonalnego zarządzania dokumentami",
+      "explore": "Przeglądaj funkcję",
+      "items": {
+        "summarize": {
+          "title": "Podsumowanie AI",
+          "description": "Błyskawicznie wyodrębniaj kluczowe informacje z długich dokumentów dzięki zaawansowanej sztucznej inteligencji"
+        },
+        "extract": {
+          "title": "Ekstrakt AI",
+          "description": "Automatycznie identyfikuj i wyodrębniaj tabele, formularze i struktury danych"
+        },
+        "translate": {
+          "title": "Tłumacz AI",
+          "description": "Tłumacz dokumenty na ponad 100 języków, zachowując formatowanie"
+        },
+        "ocr": {
+          "title": "Mam OCR",
+          "description": "Konwertuj zeskanowane dokumenty na edytowalny tekst z dużą dokładnością"
+        }
+      }
+    },
+    "featureShowcase": {
+      "title": "Stworzony dla nowoczesnych zespołów",
+      "subtitle": "Zaawansowane funkcje, które można skalować zgodnie z potrzebami biznesowymi",
+      "items": {
+        "intelligence": {
+          "title": "Inteligencja AI",
+          "body": "Zaawansowane algorytmy uczenia maszynowego rozumieją Twoje dokumenty i automatyzują złożone zadania"
+        },
+        "fast": {
+          "title": "Błyskawicznie szybki",
+          "body": "Przetwarzaj dokumenty szybciej niż tradycyjne narzędzia dzięki zoptymalizowanej infrastrukturze chmurowej"
+        },
+        "security": {
+          "title": "Bezpieczeństwo przedsiębiorstwa",
+          "body": "Szyfrowanie na poziomie banku i zgodność ze standardami RODO, SOC 2 i ISO 27001"
+        },
+        "access": {
+          "title": "Uniwersalny dostęp",
+          "body": "Pracuj z dowolnego miejsca dzięki płynnej synchronizacji między urządzeniami i platformami"
+        }
+      }
+    },
+    "dashboard": {
+      "badge": "Przegląd panelu",
+      "title1": "Potężny pulpit nawigacyjny dla",
+      "title2": "Pełne zarządzanie plikami",
+      "subtitle": "Uzyskaj dostęp do wszystkich plików PDF w jednym scentralizowanym centrum z zaawansowaną organizacją, funkcjami wyszukiwania i inteligentnymi narzędziami do zarządzania plikami.",
+      "features": {
+        "centralized": {
+          "title": "Scentralizowane centrum",
+          "body": "Zarządzaj wszystkimi plikami PDF w jednym zorganizowanym panelu"
+        },
+        "trash": {
+          "title": "System śmieci",
+          "body": "30-dniowe przechowywanie kosza z opcjami przywracania i trwałego usuwania"
+        },
+        "quickActions": {
+          "title": "Szybkie działania",
+          "body": "Przeglądaj, pobieraj, edytuj i usuwaj jednym kliknięciem"
+        }
+      },
+      "cta": "Uzyskaj dostęp do swojego pulpitu nawigacyjnego",
+      "ctaNote": "Zaloguj się, aby rozpocząć zarządzanie plikami PDF",
+      "alt": "Interfejs pulpitu nawigacyjnego"
+    },
+    "cta": {
+      "title1": "Zacznij edytować mądrzej,",
+      "title2": "nie trudniej",
+      "subtitle": "Dołącz do tysięcy profesjonalistów, którzy zmienili swój obieg dokumentów dzięki narzędziom opartym na sztucznej inteligencji.",
+      "bullets": {
+        "trial": "Bezpłatny 14-dniowy okres próbny, nie wymaga karty kredytowej",
+        "cancel": "Anuluj w dowolnym momencie, zachowaj swoje dane",
+        "unlimited": "Nielimitowane przetwarzanie dokumentów"
+      },
+      "button": "Rozpocznij",
+      "stats": {
+        "users": {
+          "value": "50 tys.+",
+          "label": "Aktywni użytkownicy"
+        },
+        "pdfs": {
+          "value": "1M+",
+          "label": "Przetworzone pliki PDF"
+        },
+        "uptime": {
+          "value": "99,9%",
+          "label": "Czas pracy"
+        },
+        "rating": {
+          "value": "4,9/5",
+          "label": "Ocena użytkownika"
+        }
+      },
+      "quote": "To narzędzie całkowicie zmieniło sposób, w jaki obchodzimy się z dokumentami. Funkcje AI oszczędzają nam godziny co tydzień.",
+      "quoteAuthor": "— Sarah Chen, menedżer produktu w TechCorp"
+    },
+    "testimonials": {
+      "title": "Uwielbiany przez tysiące użytkowników",
+      "subtitle": "Zobacz, co profesjonaliści mówią o CosmicPDF",
+      "ratingLabel": "5 gwiazdek",
+      "items": {
+        "sarah": {
+          "name": "Sarah Mitchell",
+          "role": "Dyrektor Marketingu",
+          "company": "TechFlow Inc.",
+          "initials": "SM",
+          "content": "CosmicPDF zmienił sposób, w jaki nasz zespół obsługuje dokumenty. Narzędzia oparte na sztucznej inteligencji pozwalają nam zaoszczędzić wiele godzin tygodniowo, a interfejs jest niezwykle intuicyjny."
+        },
+        "michael": {
+          "name": "Michaela Chena",
+          "role": "Menedżer produktu",
+          "company": "StartupLabs",
+          "initials": "MC",
+          "content": "Najlepsze narzędzie PDF, jakiego kiedykolwiek używałem. Konwertowanie, łączenie i edytowanie plików PDF nigdy nie było tak proste. Funkcje AI rewolucjonizują zasady produktywności."
+        },
+        "emily": {
+          "name": "Emily Rodriguez",
+          "role": "Konsultant prawny",
+          "company": "Prawo i partnerzy",
+          "initials": "JEST",
+          "content": "Bezpieczeństwo i niezawodność są kluczowe dla naszych dokumentów prawnych. Platforma ta działa na obu frontach, jednocześnie sprawiając, że złożone zadania związane z plikami PDF są proste i szybkie."
+        }
+      },
+      "roleAtCompany": "{rola} w {firmie}"
+    },
+    "allTools": {
+      "title": "Wszystkie narzędzia",
+      "subtitle": "Kompleksowy pakiet narzędzi PDF na każdą potrzebę"
+    },
+    "faq": {
+      "title": "Często zadawane pytania",
+      "subtitle": "Wszystko, co musisz wiedzieć o CosmicPDF",
+      "stillHave": "Nadal masz pytania?",
+      "contactSupport": "Skontaktuj się z naszym zespołem wsparcia",
+      "items": {
+        "ai": {
+          "q": "Jak działa edycja oparta na sztucznej inteligencji?",
+          "a": "Nasza zaawansowana technologia sztucznej inteligencji wykorzystuje uczenie maszynowe do zrozumienia struktury dokumentu, wykrywania tekstu i obrazów oraz inteligentnego sugerowania zmian. Może automatycznie rozpoznawać formularze, wyodrębniać dane i pomagać w szybszym wprowadzaniu zmian niż tradycyjne edytory PDF."
+        },
+        "security": {
+          "q": "Czy moje dane są bezpieczne i prywatne?",
+          "a": "Używamy silnego szyfrowania do przesyłania i przechowywania danych. Twoje dokumenty są przetwarzane bezpiecznie. Projektujemy CosmicPDF tak, aby spełniał powszechne oczekiwania dotyczące zgodności; przed przesłaniem wrażliwych danych zapoznaj się z naszą Polityką prywatności i wymaganiami swojej organizacji."
+        },
+        "formats": {
+          "q": "Jakie formaty plików obsługujecie?",
+          "a": "Obsługujemy format PDF jako podstawowy format z możliwością konwersji do i z programów Word (DOCX), Excel (XLSX), PowerPoint (PPTX), obrazów (JPG, PNG) i innych. Możesz także scalić różne typy plików w jeden plik PDF, jeśli jest to obsługiwane."
+        },
+        "offline": {
+          "q": "Czy mogę używać tego narzędzia w trybie offline?",
+          "a": "Witryna marketingowa jest statyczna; korzystanie z produktu opiera się na chmurze, co pozwala na wykorzystanie zaawansowanego przetwarzania AI. Niektóre przepływy pracy mogą oferować środowisko komputerowe — szczegółowe informacje można znaleźć w aplikacji."
+        },
+        "trial": {
+          "q": "Co się stanie po zakończeniu mojego bezpłatnego okresu próbnego?",
+          "a": "Po okresie próbnym możesz wybrać plan płatny lub kontynuować korzystanie z poziomu bezpłatnego, jeśli jest dostępny. Twoje dokumenty i praca są zapisywane zgodnie z zasadami przechowywania produktu."
+        },
+        "enterprise": {
+          "q": "Czy oferujecie plany zespołowe lub korporacyjne?",
+          "a": "Tak. Oferujemy plany zespołowe ze współdzielonymi obszarami roboczymi i opcjami dla przedsiębiorstw z zaawansowanymi zabezpieczeniami i wsparciem. Skontaktuj się z działem sprzedaży, aby uzyskać niestandardowe ceny."
+        }
+      }
+    }
+  },
+  "pricing": {
+    "pageTitle": "Cennik · CosmicPDF",
+    "title": "Proste i przejrzyste ceny",
+    "subtitle": "Wybierz idealny plan dla swoich potrzeb.",
+    "popular": "Najpopularniejsze",
+    "perPeriod": "/",
+    "enterpriseNote": "Potrzebujesz niestandardowego planu dla swojej organizacji?",
+    "enterpriseCta": "Skontaktuj się z działem sprzedaży, aby uzyskać ceny dla przedsiębiorstw",
+    "plans": {
+      "pro": {
+        "name": "Zawodowiec",
+        "price": "1,95 dolarów",
+        "period": "7-dniowy okres próbny",
+        "description": "Dla profesjonalistów, którzy potrzebują nieograniczonego dostępu",
+        "cta": "Zacznij teraz",
+        "features": {
+          "unlimited": "Nieograniczone edycje plików PDF",
+          "allTools": "Wszystkie 32 narzędzia oparte na sztucznej inteligencji",
+          "fileSize": "Limit rozmiaru pliku 100 MB",
+          "priority": "Przetwarzanie priorytetowe",
+          "ai": "Zaawansowane funkcje sztucznej inteligencji",
+          "support": "Priorytetowa pomoc e-mailowa",
+          "noWatermark": "Brak znaków wodnych"
+        },
+        "billingNote": "wówczas opłata w wysokości {amount} będzie pobierana co 4 tygodnie",
+        "billingAmount": "39,95 $"
+      },
+      "business": {
+        "name": "Biznes",
+        "price": "59,95 dolarów",
+        "period": "miesiąc",
+        "description": "Bezproblemowo współpracuj ze swoim zespołem",
+        "cta": "Zacznij teraz",
+        "features": {
+          "everything": "Wszystko w Pro",
+          "team": "Do 5 członków zespołu",
+          "workspace": "Wspólna przestrzeń robocza",
+          "analytics": "Analityka zespołu",
+          "fileSize": "Limit rozmiaru pliku 500 MB",
+          "support": "Dedykowane wsparcie",
+          "admin": "Kontrola administracyjna",
+          "api": "Dostęp do API"
+        },
+        "billingNote": "{kwota} rozliczana rocznie",
+        "billingAmount": "495,95 dolarów",
+        "discount": "15% zniżki"
+      }
+    }
+  },
+  "about": {
+    "pageTitle": "Informacje o CosmicPDF",
+    "badge": "O nas",
+    "title1": "Nowa definicja dokumentu",
+    "title2": "Inteligencja",
+    "subtitle": "Mamy misję zmiany sposobu, w jaki świat pracuje z dokumentami. Dzięki najnowocześniejszej sztucznej inteligencji edycja plików PDF jest łatwa, inteligentna i dostępna dla każdego.",
+    "stats": {
+      "users": {
+        "label": "Aktywni użytkownicy",
+        "value": "2M+"
+      },
+      "pdfs": {
+        "label": "Przetworzone pliki PDF",
+        "value": "500M+"
+      },
+      "countries": {
+        "label": "Kraje",
+        "value": "150+"
+      },
+      "uptime": {
+        "label": "Czas pracy",
+        "value": "99,9%"
+      }
+    },
+    "mission": {
+      "title1": "Nasz",
+      "title2": "Misja",
+      "body1": "Wierzymy, że praca z dokumentami powinna być intuicyjna, szybka i wydajna. CosmicPDF eliminuje problemy z przepływem pracy PDF, dzięki czemu możesz skupić się na wynikach.",
+      "body2": "Od start-upów po przedsiębiorstwa — zespoły ufają CosmicPDF w zakresie ważnych dokumentów. Zależy nam na ciągłych innowacjach."
+    },
+    "values": {
+      "title1": "Nasz",
+      "title2": "Wartości",
+      "subtitle": "Zasady, którymi kierujemy się we wszystkim, co robimy",
+      "items": {
+        "innovation": {
+          "title": "Najpierw innowacja",
+          "body": "Przesuwamy granice tego, co jest możliwe dzięki sztucznej inteligencji i technologii dokumentów."
+        },
+        "user": {
+          "title": "Skoncentrowany na użytkowniku",
+          "body": "Każda funkcja została zaprojektowana z myślą o przepływie pracy i produktywności."
+        },
+        "precision": {
+          "title": "Precyzja",
+          "body": "Wierzymy w dostarczanie dokładnych i wiarygodnych wyników za każdym razem."
+        },
+        "simplicity": {
+          "title": "Prostota",
+          "body": "Złożona technologia, proste doświadczenie. To jest nasza obietnica dla Ciebie."
+        }
+      }
+    },
+    "faq": {
+      "title1": "Często zadawane pytania",
+      "title2": "Pytania",
+      "subtitle": "Odpowiedzi na najczęściej zadawane pytania dotyczące naszej firmy",
+      "items": {
+        "founded": {
+          "q": "Kiedy firma została założona?",
+          "a": "Powstaliśmy w 2020 roku z prostą misją: sprawić, aby edycja dokumentów była tak intuicyjna jak rozmowa. Od tego czasu rozwinęliśmy się, aby służyć milionom użytkowników w wielu krajach."
+        },
+        "location": {
+          "q": "Gdzie znajduje się Twoja firma?",
+          "a": "Nasza siedziba znajduje się w San Francisco w Kalifornii, a zdalni członkowie zespołu są rozsiani po Ameryce Północnej, Europie i Azji."
+        },
+        "security": {
+          "q": "Jak zapewnić bezpieczeństwo danych?",
+          "a": "Bezpieczeństwo jest podstawą wszystkiego, co budujemy. Stosujemy silne szyfrowanie, postępujemy zgodnie ze wspólnymi ramami zgodności i projektujemy zasady przechowywania, aby zmniejszyć ryzyko. Aby uzyskać szczegółowe informacje, zawsze zapoznaj się z naszą Polityką prywatności."
+        },
+        "enterprise": {
+          "q": "Czy oferujecie rozwiązania dla przedsiębiorstw?",
+          "a": "Tak. Dostarczamy rozwiązania dla przedsiębiorstw z dedykowanym wsparciem, integracją, możliwością SSO, zaawansowanymi funkcjami bezpieczeństwa i elastycznymi opcjami wdrażania."
+        },
+        "ai": {
+          "q": "Co wyróżnia Twoją technologię AI?",
+          "a": "Nasze modele są przeszkolone w zakresie zadań związanych ze zrozumieniem i edycją dokumentów, a ich celem jest przyspieszenie i zwiększenie dokładności obiegu dokumentów PDF."
+        },
+        "team": {
+          "q": "Jak mogę dołączyć do Waszego zespołu?",
+          "a": "Zawsze poszukujemy utalentowanych osób. Sprawdź naszą stronę karier, aby znaleźć wolne stanowiska w obszarach inżynierii, projektowania i produktu."
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Skontaktuj się z CosmicPDF",
+    "badge": "Skontaktuj się",
+    "title1": "Zacznijmy A",
+    "title2": "Rozmowa",
+    "subtitle": "Masz pytania dotyczące CosmicPDF? Jesteśmy tutaj, aby pomóc. Skontaktuj się z nami, a my skontaktujemy się z Tobą tak szybko, jak to możliwe.",
+    "send": {
+      "title1": "Wyślij nam",
+      "title2": "wiadomość",
+      "subtitle": "Wypełnij poniższy formularz, a nasz zespół skontaktuje się z Tobą w ciągu 24 godzin."
+    },
+    "info": {
+      "title1": "Kontakt",
+      "title2": "Informacja",
+      "subtitle": "Wolisz skontaktować się bezpośrednio? Oto kanały, które monitorujemy.",
+      "items": {
+        "email": {
+          "title": "Napisz do nas",
+          "details": "support@cosmicpdf.com",
+          "description": "Zwykle odpowiadamy w ciągu 24 godzin"
+        },
+        "sales": {
+          "title": "Obroty",
+          "details": "sales@cosmicpdf.com",
+          "description": "Pytania dotyczące cen, programów pilotażowych i zamówień publicznych"
+        },
+        "security": {
+          "title": "Bezpieczeństwo",
+          "details": "bezpieczeństwo@cosmicpdf.com",
+          "description": "Odpowiedzialne ujawnianie informacji i przeglądy bezpieczeństwa"
+        },
+        "hours": {
+          "title": "Godziny otwarcia",
+          "details": "Poniedziałek - piątek: 9:00 - 18:00 czasu PST",
+          "description": "Pomoc weekendowa różni się w zależności od planu"
+        }
+      }
+    },
+    "form": {
+      "name": "Pełne imię i nazwisko",
+      "namePlaceholder": "nieznany z nazwiska",
+      "email": "Adres e-mail",
+      "emailPlaceholder": "jan@example.com",
+      "subject": "Temat",
+      "subjectPlaceholder": "Wybierz temat",
+      "subjectOptions": {
+        "general": "Zapytanie ogólne",
+        "support": "Wsparcie techniczne",
+        "sales": "Pytanie dotyczące sprzedaży",
+        "partnership": "Szansa na partnerstwo",
+        "feedback": "Informacja zwrotna"
+      },
+      "message": "Wiadomość",
+      "messagePlaceholder": "Powiedz nam jak możemy Ci pomóc...",
+      "required": "*",
+      "submit": "Wyślij wiadomość",
+      "demoAlert": "Dziękujemy — tej statycznej wersji demonstracyjnej nie można nigdzie przesłać. Gdy będzie gotowy, połącz ten formularz z punktem końcowym aplikacji."
+    }
+  },
+  "privacy": {
+    "pageTitle": "Polityka prywatności · CosmicPDF",
+    "title": "Polityka prywatności",
+    "lastUpdated": "Ostatnia aktualizacja: 30 kwietnia 2026 r",
+    "sections": {
+      "introduction": {
+        "title": "Wstęp",
+        "body": "Witamy w CosmicPDF. Szanujemy Twoją prywatność i zobowiązujemy się do ochrony Twoich danych osobowych. Niniejsza polityka opisuje, w jaki sposób postępujemy z informacjami, gdy odwiedzasz naszą witrynę marketingową i gdy korzystasz z produktu CosmicPDF."
+      },
+      "collected": {
+        "title": "Informacje, które zbieramy",
+        "intro": "Możemy gromadzić i przetwarzać takie kategorie informacji, jak:",
+        "identity": {
+          "label": "Dane identyfikacyjne:",
+          "body": "imię i nazwisko oraz podobne identyfikatory."
+        },
+        "contact": {
+          "label": "Dane kontaktowe:",
+          "body": "adres e-mail i numery telefonów, jeśli zostały podane."
+        },
+        "technical": {
+          "label": "Dane techniczne:",
+          "body": "Adres IP, typ przeglądarki, urządzenie i dane diagnostyczne."
+        },
+        "usage": {
+          "label": "Dane dotyczące użytkowania:",
+          "body": "informacje o tym, jak korzystasz z naszej strony internetowej i usług."
+        },
+        "document": {
+          "label": "Dane dokumentu:",
+          "body": "pliki, które przesyłasz do przetwarzania w produkcie."
+        }
+      },
+      "marketing": {
+        "title": "Witryna marketingowa",
+        "body": "W tym repozytorium znajduje się statyczna witryna marketingowa. Nie wykonuje przetwarzania po stronie serwera w przypadku przesyłania. Zgodnie z oceną bezpieczeństwa wszelkie przekazywanie plików powinno zostać zaimplementowane w aplikacji produktu."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Pytania dotyczące prywatności:",
+        "email": "prywatność@cosmicpdf.com"
+      }
+    }
+  },
+  "terms": {
+    "pageTitle": "Warunki świadczenia usług · CosmicPDF",
+    "title": "Warunki świadczenia usług",
+    "lastUpdated": "Ostatnia aktualizacja: 30 kwietnia 2026 r",
+    "sections": {
+      "introduction": {
+        "title": "Wstęp",
+        "body": "Niniejsze Warunki regulują korzystanie z witryn i usług CosmicPDF. Uzyskując dostęp do naszych usług lub korzystając z nich, wyrażasz zgodę na niniejsze Warunki."
+      },
+      "accounts": {
+        "title": "Konta",
+        "body": "Tworząc konto, wyrażasz zgodę na podanie dokładnych informacji i zabezpieczenie danych uwierzytelniających. Jesteś odpowiedzialny za aktywność na swoim koncie."
+      },
+      "content": {
+        "title": "Treść użytkownika",
+        "body": "Zachowujesz prawa do przesłanych dokumentów. Musisz mieć prawo do przetwarzania przesłanych treści."
+      },
+      "liability": {
+        "title": "Ograniczenie odpowiedzialności",
+        "body": "W maksymalnym zakresie dozwolonym przez prawo CosmicPDF nie ponosi odpowiedzialności za szkody pośrednie lub wtórne powstałe w wyniku korzystania z usług."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Pytania dotyczące niniejszych Warunków:",
+        "email": "legal@cosmicpdf.com"
+      }
+    }
+  },
+  "forms": {
+    "pageTitle": "Najczęściej używane formularze · CosmicPDF",
+    "title": "Najczęściej używane formularze",
+    "subtitle": "Uzyskaj dostęp i edytuj najczęściej używane formularze. Wszystkie formularze są w pełni edytowalne za pomocą naszego edytora PDF opartego na sztucznej inteligencji.",
+    "bullets": {
+      "templates": "Oficjalne szablony dla typowych przepływów pracy",
+      "editable": "W pełni edytowalne przy pomocy AI",
+      "upload": "Prześlij własne formularze do edycji"
+    },
+    "categories": {
+      "all": "Wszystko",
+      "tax": "Formularze podatkowe",
+      "employment": "Zatrudnienie",
+      "business": "Biznes",
+      "government": "Rząd",
+      "immigration": "Imigracja"
+    },
+    "editForm": "Edytuj formularz",
+    "editAlert": "Kontynuuj w aplikacji CosmicPDF, aby edytować ten formularz.",
+    "uploadTitle": "Prześlij swój własny formularz",
+    "uploadSubtitle": "Masz inną formę? Prześlij go i rozpocznij edycję przy pomocy sztucznej inteligencji",
+    "dropHere": "Upuść tutaj swój plik PDF",
+    "orBrowse": "lub kliknij, aby przeglądać • Maksymalnie 50 MB",
+    "items": {
+      "941": {
+        "name": "Formularz 941",
+        "title": "Kwartalne federalne zeznanie podatkowe pracodawcy",
+        "category": "business",
+        "description": "Używane przez pracodawców do zgłaszania podatków dochodowych i podatków od wynagrodzeń potrącanych z wynagrodzeń pracowników."
+      },
+      "1040": {
+        "name": "Formularz 1040",
+        "title": "Zeznanie podatkowe dotyczące podatku dochodowego od osób fizycznych w USA",
+        "category": "tax",
+        "description": "Standardowy formularz federalnego podatku dochodowego używany do zgłaszania rocznych dochodów i obliczania należnych podatków."
+      },
+      "1065": {
+        "name": "Formularz 1065",
+        "title": "Zwrot dochodu ze spółki partnerskiej w USA",
+        "category": "business",
+        "description": "Zwrot informacji używany przez spółki osobowe do zgłaszania dochodów, odliczeń i kredytów."
+      },
+      "w-9": {
+        "name": "Formularz W-9",
+        "title": "Wniosek o numer identyfikacyjny podatnika",
+        "category": "tax",
+        "description": "Używany przez freelancerów i wykonawców do podawania klientom numeru identyfikacyjnego podatnika."
+      },
+      "w-4": {
+        "name": "Formularz W-4",
+        "title": "Zaświadczenie o potrąceniu podatku przez pracownika",
+        "category": "tax",
+        "description": "Wypełniane przez pracowników w celu wskazania pracodawcom swojej sytuacji podatkowej w celu prawidłowego potrącenia podatku u źródła."
+      },
+      "i-9": {
+        "name": "Formularz I-9",
+        "title": "Weryfikacja uprawnień do zatrudnienia",
+        "category": "employment",
+        "description": "Wymagane od wszystkich pracodawców w USA, aby zweryfikowali tożsamość i zezwolenie na zatrudnienie nowych pracowników."
+      },
+      "ss-4": {
+        "name": "Formularz SS-4",
+        "title": "Wniosek o nadanie numeru identyfikacyjnego pracodawcy",
+        "category": "business",
+        "description": "Używany przez firmy do ubiegania się o EIN (numer identyfikacyjny pracodawcy) z IRS."
+      },
+      "1099-nec": {
+        "name": "Formularz 1099-NEC",
+        "title": "Odszkodowanie dla osoby niebędącej pracownikiem",
+        "category": "tax",
+        "description": "Służy do raportowania płatności dokonanych na rzecz niezależnych wykonawców i freelancerów."
+      },
+      "w-2": {
+        "name": "Formularz W-2",
+        "title": "Oświadczenie o płacach i podatkach",
+        "category": "tax",
+        "description": "Podaje roczne wynagrodzenie pracownika i kwotę podatków potrąconych z jego wypłaty."
+      },
+      "ds-11": {
+        "name": "DS-11",
+        "title": "Wniosek o paszport amerykański",
+        "category": "government",
+        "description": "Używany przez osoby ubiegające się o paszport po raz pierwszy i osoby odnawiające paszporty, które utraciły ważność."
+      },
+      "i-130": {
+        "name": "Formularz I-130",
+        "title": "Petycja w sprawie obcego krewnego",
+        "category": "immigration",
+        "description": "Używany przez obywateli USA i stałych mieszkańców w celu nawiązania kontaktu z obcokrajowcem."
+      },
+      "n-400": {
+        "name": "Formularz N-400",
+        "title": "Wniosek o naturalizację",
+        "category": "immigration",
+        "description": "Używany przez stałych mieszkańców przy ubieganiu się o obywatelstwo amerykańskie."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "privacy": "Prywatność",
+    "terms": "Warunki",
+    "contact": "Kontakt",
+    "copyright": "© {rok} CosmicPDF. Wszelkie prawa zastrzeżone."
+  },
+  "notFound": {
+    "pageTitle": "Nie znaleziono strony · CosmicPDF",
+    "title": "404",
+    "message": "Nie mogliśmy znaleźć tej strony.",
+    "back": "Powrót do domu"
+  }
+}

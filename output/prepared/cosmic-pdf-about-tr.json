@@ -1,0 +1,103 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "about",
+    "locale": "tr",
+    "locale_display": "tr",
+    "seo": {
+      "title": "CosmicPDF Hakkında",
+      "description": "Dünyanın belgelerle çalışma şeklini değiştirme misyonundayız. Son teknoloji yapay zeka sayesinde PDF düzenlemeyi zahmetsiz, akıllı ve herkes için erişilebilir hale getiriyoruz."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "AboutHero",
+        "badge": "Hakkımızda",
+        "title": "<h1>Belgeyi Yeniden Tanımlamak <strong>İstihbarat</strong></h1>",
+        "subtitle": "Dünyanın belgelerle çalışma şeklini değiştirme misyonundayız. Son teknoloji yapay zeka sayesinde PDF düzenlemeyi zahmetsiz, akıllı ve herkes için erişilebilir hale getiriyoruz.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Mission",
+        "badge": null,
+        "title": "<h2>Bizim <strong>Misyon</strong></h2>",
+        "subtitle": "Belgelerle çalışmanın sezgisel, hızlı ve güçlü olması gerektiğine inanıyoruz. CosmicPDF, PDF iş akışlarındaki sorunları ortadan kaldırır, böylece sonuçlara odaklanabilirsiniz.",
+        "features": [],
+        "cta": null,
+        "cta_note": null,
+        "media": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "Values",
+        "title": "Bizim Değerler",
+        "subtitle": "Yaptığımız her şeye rehberlik eden ilkeler",
+        "items": [
+          {
+            "icon": "Lightbulb",
+            "title": "Önce İnovasyon",
+            "description": "Yapay zeka ve belge teknolojisiyle mümkün olanın sınırlarını zorluyoruz."
+          },
+          {
+            "icon": "Heart",
+            "title": "Kullanıcı Odaklı",
+            "description": "Her özellik iş akışınız ve üretkenliğiniz göz önünde bulundurularak tasarlanmıştır."
+          },
+          {
+            "icon": "Target",
+            "title": "Kesinlik",
+            "description": "Her seferinde doğru, güvenilir sonuçlar sunmaya inanıyoruz."
+          },
+          {
+            "icon": "Minimize2",
+            "title": "Sadelik",
+            "description": "Karmaşık teknoloji, basit deneyim. Bu bizim size sözümüzdür."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "AboutFAQ",
+        "title": "<h2>Sık Sorulan Sorular <strong>Sorular</strong></h2>",
+        "subtitle": "Şirketimizle ilgili sık sorulan soruların yanıtları",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Şirket ne zaman kuruldu?",
+            "content": "2020 yılında basit bir misyonla kurulduk: belge düzenlemeyi sohbet etmek kadar sezgisel hale getirmek. O zamandan beri birçok ülkede milyonlarca kullanıcıya hizmet verecek şekilde büyüdük."
+          },
+          {
+            "title": "Şirketiniz nerede bulunuyor?",
+            "content": "Merkezimiz San Francisco, California'da olup, uzak ekip üyelerimiz Kuzey Amerika, Avrupa ve Asya'ya dağılmıştır."
+          },
+          {
+            "title": "Veri güvenliğini nasıl sağlıyorsunuz?",
+            "content": "Güvenlik, inşa ettiğimiz her şeyin merkezinde yer alır. Riski azaltmak için güçlü şifreleme kullanıyor, ortak uyumluluk çerçevelerini takip ediyor ve saklama politikaları tasarlıyoruz. Ayrıntılar için her zaman Gizlilik Politikamızı inceleyin."
+          },
+          {
+            "title": "Kurumsal çözümler sunuyor musunuz?",
+            "content": "Evet. Özel destek, entegrasyonlar, SSO yetenekleri, gelişmiş güvenlik özellikleri ve esnek dağıtım seçenekleriyle kurumsal çözümler sunuyoruz."
+          },
+          {
+            "title": "Yapay zeka teknolojinizi farklı kılan nedir?",
+            "content": "Modellerimiz belge anlama ve düzenleme görevleri için eğitilmiştir ve PDF iş akışlarını daha hızlı ve daha doğru hale getirmeye odaklanmıştır."
+          },
+          {
+            "title": "Ekibinize nasıl katılabilirim?",
+            "content": "Her zaman yetenekli bireyler arıyoruz. Check our careers page for open roles across engineering, design, and product."
+          }
+        ]
+      }
+    ]
+  }
+}

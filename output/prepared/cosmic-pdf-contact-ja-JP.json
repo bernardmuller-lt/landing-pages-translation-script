@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "ja-JP",
+    "locale_display": "jp",
+    "seo": {
+      "title": "Cosmicへのお問い合わせPDF",
+      "description": "CosmicPDF について質問がありますか? 私たちがお手伝いします。 ご連絡いただければ、できるだけ早くご連絡いたします。"
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "連絡する",
+        "title": "<h1>始めましょう <strong>会話</strong></h1>",
+        "subtitle": "CosmicPDF について質問がありますか? 私たちがお手伝いします。 ご連絡いただければ、できるだけ早くご連絡いたします。",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "接触 情報",
+        "subtitle": "直接連絡したいですか? 私たちが監視しているチャンネルは次のとおりです。",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "メールでお問い合わせください",
+            "description": "support@cosmicpdf.com\n通常 24 時間以内に返信いたします"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "販売",
+            "description": "sales@cosmicpdf.com\n価格設定、パイロット、調達に関する質問"
+          },
+          {
+            "icon": "Shield",
+            "title": "安全",
+            "description": "security@cosmicpdf.com\n責任ある開示とセキュリティレビュー"
+          },
+          {
+            "icon": "Clock",
+            "title": "営業時間",
+            "description": "月曜日～金曜日: 午前 9 時～午後 6 時（太平洋標準時）\n週末サポートはプランによって異なります"
+          }
+        ]
+      }
+    ]
+  }
+}

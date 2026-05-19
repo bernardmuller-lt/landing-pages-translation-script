@@ -1,0 +1,120 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "ar",
+    "locale_display": "ar",
+    "seo": {
+      "title": "التسعير · CosmicPDF",
+      "description": "اختر الخطة المثالية لاحتياجاتك."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "PricingHero",
+        "badge": null,
+        "title": "تسعير بسيط وشفاف",
+        "subtitle": "اختر الخطة المثالية لاحتياجاتك.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanPro",
+        "title": "برو",
+        "subtitle": "للمحترفين الذين يحتاجون إلى وصول غير محدود",
+        "items": [
+          {
+            "icon": null,
+            "title": "تعديلات غير محدودة على ملفات PDF",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "جميع الأدوات التي تعمل بالذكاء الاصطناعي والبالغ عددها 32 أداة",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "حد حجم الملف 100 ميجابايت",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "معالجة الأولوية",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "ميزات الذكاء الاصطناعي المتقدمة",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "دعم البريد الإلكتروني الأولوية",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "لا علامات مائية",
+            "description": null
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanBusiness",
+        "title": "عمل",
+        "subtitle": "تعاون مع فريقك بسلاسة",
+        "items": [
+          {
+            "icon": null,
+            "title": "كل شيء في برو",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "ما يصل إلى 5 أعضاء الفريق",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "مساحة عمل مشتركة",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "تحليلات الفريق",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "حد حجم الملف 500 ميجابايت",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "دعم مخصص",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "ضوابط المشرف",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "الوصول إلى واجهة برمجة التطبيقات",
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+}

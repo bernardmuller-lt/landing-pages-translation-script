@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "tr",
+    "locale_display": "tr",
+    "seo": {
+      "title": "Gizlilik Politikası · CosmicPDF",
+      "description": "Son güncelleme: 30 Nisan 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "giriiş",
+        "content": "<p>CosmicPDF'e hoş geldiniz. Gizliliğinize saygı duyuyoruz ve kişisel verilerinizi korumaya kararlıyız. Bu politika, pazarlama sitemizi ziyaret ettiğinizde ve CosmicPDF ürününü kullandığınızda bilgileri nasıl ele aldığımızı açıklamaktadır.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "Topladığımız Bilgiler",
+        "content": "<p>Aşağıdaki gibi bilgi kategorilerini toplayabilir ve işleyebiliriz:</p><p><strong>Kimlik Verileri:</strong> isim ve benzeri tanımlayıcılar.</p><p><strong>İletişim Verileri:</strong> sağlanan e-posta adresi ve telefon numaraları.</p><p><strong>Teknik Veriler:</strong> IP adresi, tarayıcı türü, cihaz ve teşhis verileri.</p><p><strong>Kullanım Verileri:</strong> Web sitemizi ve hizmetlerimizi nasıl kullandığınız hakkında bilgi.</p><p><strong>Belge Verileri:</strong> Üründe işlenmek üzere yüklediğiniz dosyalar.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "Pazarlama Sitesi",
+        "content": "<p>Bu depo statik bir pazarlama sitesine ev sahipliği yapıyor. Yüklemeler için sunucu tarafı işlemeyi yürütmez. Güvenlik incelemenize göre ürün uygulamasında herhangi bir dosya aktarımı uygulanmalıdır.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Temas etmek",
+        "content": "<p>Gizlilikle ilgili sorular:</p><p>gizlilik@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

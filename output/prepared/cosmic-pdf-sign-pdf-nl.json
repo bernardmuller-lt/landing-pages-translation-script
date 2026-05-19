@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "sign-pdf",
+    "locale": "nl",
+    "locale_display": "nl",
+    "seo": {
+      "title": "PDF ondertekenen · KosmischePDF",
+      "description": "PDF ondertekenen online met CosmicPDF — snel, duidelijk en gebouwd voor echte documenten."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>PDF ondertekenen</h1>",
+        "subtitle": "<p>PDF ondertekenen online met CosmicPDF — snel, duidelijk en gebouwd voor echte documenten.</p><p>Gebruik CosmicPDF voor pdf ondertekenen met begeleide stappen, voorbeelden waar beschikbaar en exportopties die overeenkomen met de manier waarop teams vandaag de dag PDF's verzenden.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Aan de slag",
+          "aria_label": "Aan de slag"
+        },
+        "upload_hint_text": "Zet uw bestand hier neer",
+        "upload_browse_text": "of klik om te bladeren • Ga verder in de CosmicPDF-app",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Krachtige functies",
+        "subtitle": "Alles wat je nodig hebt voor {naam}",
+        "items": [
+          {
+            "icon": null,
+            "title": "Snelle verwerking",
+            "description": "Voer PDF ondertekenen uit met geoptimaliseerde pipelines en duidelijke voortgang."
+          },
+          {
+            "icon": null,
+            "title": "Behoud van kwaliteit",
+            "description": "Houd lettertypen, vectoren en lay-outgetrouw waar het formaat dit toelaat."
+          },
+          {
+            "icon": null,
+            "title": "Veilig door ontwerp",
+            "description": "Versleuteling tijdens verzending en verstandige standaardinstellingen voor documentverwerking."
+          },
+          {
+            "icon": null,
+            "title": "Werkt in de app",
+            "description": "Open in CosmicPDF op internet om de taak te voltooien met de volledige editor."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "Hoe het werkt",
+        "subtitle": "Eenvoudig en efficiënt proces in 4 stappen",
+        "items": [
+          {
+            "icon": null,
+            "title": "Uploaden",
+            "description": "Voeg het bestand toe dat u wilt gebruiken met PDF ondertekenen."
+          },
+          {
+            "icon": null,
+            "title": "Kies opties",
+            "description": "Kies de instellingen die bij uw document passen."
+          },
+          {
+            "icon": null,
+            "title": "Proces",
+            "description": "Laat CosmicPDF de bewerking op uw bestand uitvoeren."
+          },
+          {
+            "icon": null,
+            "title": "Downloaden",
+            "description": "Sla het resultaat op of ga verder met bewerken in de app."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Veelgestelde vragen",
+        "subtitle": "Veelgestelde vragen over {naam}",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Is PDF ondertekenen gratis te proberen?",
+            "content": "U kunt beginnen vanaf de marketingsite en doorgaan in het product. Plannen en limieten worden weergegeven in de app."
+          },
+          {
+            "title": "Waar worden bestanden verwerkt?",
+            "content": "Er wordt zware verwerking uitgevoerd in de CosmicPDF-toepassing nadat u doorgaat vanaf cosmicpdf.com."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "pt-BR",
+    "locale_display": "br",
+    "seo": {
+      "title": "Entre em contato com CosmicPDF",
+      "description": "Tem dúvidas sobre o CosmicPDF? Estamos aqui para ajudar. Entre em contato e entraremos em contato com você o mais breve possível."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "Entre em contato",
+        "title": "<h1>Vamos começar um <strong>Conversa</strong></h1>",
+        "subtitle": "Tem dúvidas sobre o CosmicPDF? Estamos aqui para ajudar. Entre em contato e entraremos em contato com você o mais breve possível.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Contato Informação",
+        "subtitle": "Prefere entrar em contato diretamente? Aqui estão os canais que monitoramos.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "Envie-nos um e-mail",
+            "description": "suporte@cosmicpdf.com\nNormalmente respondemos dentro de 24 horas"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Vendas",
+            "description": "vendas@cosmicpdf.com\nPerguntas sobre preços, pilotos e aquisições"
+          },
+          {
+            "icon": "Shield",
+            "title": "Segurança",
+            "description": "segurança@cosmicpdf.com\nDivulgação responsável e análises de segurança"
+          },
+          {
+            "icon": "Clock",
+            "title": "Horário comercial",
+            "description": "Segunda a sexta: 9h00 - 18h00 PST\nO suporte de fim de semana varia de acordo com o plano"
+          }
+        ]
+      }
+    ]
+  }
+}

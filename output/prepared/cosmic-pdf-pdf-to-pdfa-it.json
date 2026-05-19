@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pdf-to-pdfa",
+    "locale": "it",
+    "locale_display": "it",
+    "seo": {
+      "title": "Da PDF a PDF/A · PDF cosmico",
+      "description": "Da PDF a PDF/A online con CosmicPDF: veloce, chiaro e pensato per documenti reali."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>Da PDF a PDF/A</h1>",
+        "subtitle": "<p>Da PDF a PDF/A online con CosmicPDF: veloce, chiaro e pensato per documenti reali.</p><p>Utilizza CosmicPDF per da pdf a pdf/a con passaggi guidati, anteprime ove disponibili e opzioni di esportazione che corrispondono al modo in cui i team spediscono i PDF oggi.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Inizia",
+          "aria_label": "Inizia"
+        },
+        "upload_hint_text": "Rilascia il tuo file qui",
+        "upload_browse_text": "oppure fai clic per sfogliare • Continua nell'app CosmicPDF",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Funzionalità potenti",
+        "subtitle": "Tutto ciò di cui hai bisogno per Da PDF a PDF/A",
+        "items": [
+          {
+            "icon": null,
+            "title": "Elaborazione veloce",
+            "description": "Esegui Da PDF a PDF/A con pipeline ottimizzate e progressi evidenti."
+          },
+          {
+            "icon": null,
+            "title": "Conservazione della qualità",
+            "description": "Mantieni la fedeltà dei caratteri, dei vettori e del layout laddove il formato lo consente."
+          },
+          {
+            "icon": null,
+            "title": "Sicuro fin dalla progettazione",
+            "description": "Crittografia in transito e impostazioni predefinite ragionevoli per la gestione dei documenti."
+          },
+          {
+            "icon": null,
+            "title": "Funziona nell'app",
+            "description": "Apri in CosmicPDF sul Web per completare il lavoro con l'editor completo."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "Come funziona",
+        "subtitle": "Processo semplice ed efficiente in 4 passaggi",
+        "items": [
+          {
+            "icon": null,
+            "title": "Caricamento",
+            "description": "Aggiungi il file che desideri utilizzare con {nome}."
+          },
+          {
+            "icon": null,
+            "title": "Scegli le opzioni",
+            "description": "Scegli le impostazioni che corrispondono al tuo documento."
+          },
+          {
+            "icon": null,
+            "title": "Processo",
+            "description": "Lascia che CosmicPDF esegua l'operazione sul tuo file."
+          },
+          {
+            "icon": null,
+            "title": "Scaricamento",
+            "description": "Salva il risultato o continua a modificare nell'app."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Domande frequenti",
+        "subtitle": "Domande comuni su Da PDF a PDF/A",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "La prova di Da PDF a PDF/A è gratuita?",
+            "content": "Puoi iniziare dal sito di marketing e continuare nel prodotto. Piani e limiti sono mostrati nell'app."
+          },
+          {
+            "title": "Dove vengono elaborati i file?",
+            "content": "L'elaborazione pesante viene eseguita nell'applicazione CosmicPDF dopo aver continuato da cosmicpdf.com."
+          }
+        ]
+      }
+    ]
+  }
+}

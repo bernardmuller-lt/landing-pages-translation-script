@@ -258,6 +258,172 @@ const SupportSectionSchema = z.object({
   cta: CTASchema,
 });
 
+// ─── Cosmic PDF section schemas ──────────────────────────────────────────────
+
+const CosmicHeroSectionSchema = z.object({
+  __component: z.literal("cosmic.hero-section"),
+  fe_component: z.string(),
+  badge: z.string().nullable(),
+  title1: z.string().nullable(),
+  title2: z.string().nullable(),
+  subtitle: z.string().nullable(),
+  cta: CTASchema.nullable(),
+  upload_hint_text: z.string().nullable(),
+  upload_browse_text: z.string().nullable(),
+  upload_error_type: z.string().nullable(),
+  upload_error_size: z.string().nullable(),
+  no_card_text: z.string().nullable(),
+  trial_text: z.string().nullable(),
+});
+
+const CosmicTrustedBySectionSchema = z.object({
+  __component: z.literal("cosmic.trusted-by-section"),
+  fe_component: z.string(),
+  label: z.string(),
+  logos: z.array(z.any()),
+});
+
+const CosmicCardGridItemSchema = z.object({
+  icon: z.string().nullable(),
+  title: z.string(),
+  description: z.string().nullable(),
+  badge: z.string().nullable().optional(),
+  item_id: z.string().nullable().optional(),
+});
+
+const CosmicCardGridSectionSchema = z.object({
+  __component: z.literal("cosmic.card-grid-section"),
+  fe_component: z.string(),
+  title: z.string().nullable(),
+  subtitle: z.string().nullable(),
+  items: z.array(CosmicCardGridItemSchema),
+});
+
+const CosmicListItemSchema = z.object({
+  icon: z.string().nullable(),
+  title: z.string(),
+  subtitle: z.string().nullable(),
+});
+
+const CosmicPromoSectionSchema = z.object({
+  __component: z.literal("cosmic.promo-section"),
+  fe_component: z.string(),
+  badge: z.string().nullable(),
+  title1: z.string().nullable(),
+  title2: z.string().nullable(),
+  subtitle: z.string().nullable(),
+  features: z.array(CosmicListItemSchema),
+  cta: CTASchema.nullable(),
+  cta_note: z.string().nullable(),
+  media: z.any().nullable(),
+});
+
+const CosmicBulletItemSchema = z.object({
+  text: z.string(),
+});
+
+const CosmicStatItemSchema = z.object({
+  value: z.string(),
+  label: z.string(),
+});
+
+const CosmicCtaBannerSectionSchema = z.object({
+  __component: z.literal("cosmic.cta-banner-section"),
+  fe_component: z.string(),
+  title1: z.string().nullable(),
+  title2: z.string().nullable(),
+  subtitle: z.string().nullable(),
+  bullets: z.array(CosmicBulletItemSchema),
+  cta: CTASchema,
+  stats: z.array(CosmicStatItemSchema),
+  quote: z.string().nullable(),
+  quote_author: z.string().nullable(),
+});
+
+const CosmicTestimonialSchema = z.object({
+  name: z.string(),
+  role: z.string(),
+  company: z.string(),
+  initials: z.string(),
+  content: z.string(),
+});
+
+const CosmicTestimonialsSectionSchema = z.object({
+  __component: z.literal("cosmic.testimonials-section"),
+  fe_component: z.string(),
+  title: z.string(),
+  subtitle: z.string(),
+  items: z.array(CosmicTestimonialSchema),
+});
+
+const CosmicFaqSectionSchema = z.object({
+  __component: z.literal("cosmic.faq-section"),
+  fe_component: z.string(),
+  title: z.string().nullable(),
+  subtitle: z.string().nullable(),
+  support_text: z.string().nullable(),
+  support_link_text: z.string().nullable(),
+  support_link_href: z.string().nullable(),
+  items: z.array(FAQItemSchema),
+});
+
+const CosmicPricingFeatureSchema = z.object({
+  text: z.string(),
+});
+
+const CosmicPricingPlanSchema = z.object({
+  name: z.string(),
+  description: z.string(),
+  price: z.string(),
+  period: z.string(),
+  is_popular: z.boolean(),
+  cta: CTASchema,
+  features: z.array(CosmicPricingFeatureSchema),
+  billing_note: z.string().nullable(),
+  billing_amount: z.string().nullable(),
+  discount: z.string().nullable(),
+});
+
+const CosmicPricingSectionSchema = z.object({
+  __component: z.literal("cosmic.pricing-section"),
+  fe_component: z.string(),
+  title: z.string().nullable(),
+  subtitle: z.string().nullable(),
+  popular_label: z.string().nullable(),
+  per_period_separator: z.string().nullable(),
+  enterprise_note: z.string().nullable(),
+  enterprise_cta: z.string().nullable(),
+  plans: z.array(CosmicPricingPlanSchema),
+});
+
+const CosmicUploadSectionSchema = z.object({
+  __component: z.literal("cosmic.upload-section"),
+  fe_component: z.string(),
+  title: z.string().nullable(),
+  subtitle: z.string().nullable(),
+  drop_hint_text: z.string().nullable(),
+  browse_text: z.string().nullable(),
+});
+
+const CosmicAllToolsToolSchema = z.object({
+  label: z.string(),
+  href: z.string(),
+  icon: z.string(),
+});
+
+const CosmicAllToolsCategorySchema = z.object({
+  title: z.string(),
+  tools: z.array(CosmicAllToolsToolSchema),
+});
+
+const CosmicAllToolsSectionSchema = z.object({
+  __component: z.literal("cosmic.all-tools-section"),
+  fe_component: z.string(),
+  title: z.string(),
+  subtitle: z.string(),
+  categories: z.array(CosmicAllToolsCategorySchema),
+});
+
 const SectionSchema = z.discriminatedUnion("__component", [
   HeroSectionSchema,
   CarouselSectionSchema,
@@ -272,6 +438,16 @@ const SectionSchema = z.discriminatedUnion("__component", [
   FAQSectionSchema,
   LegalSectionSchema,
   SupportSectionSchema,
+  CosmicHeroSectionSchema,
+  CosmicTrustedBySectionSchema,
+  CosmicCardGridSectionSchema,
+  CosmicPromoSectionSchema,
+  CosmicCtaBannerSectionSchema,
+  CosmicTestimonialsSectionSchema,
+  CosmicFaqSectionSchema,
+  CosmicPricingSectionSchema,
+  CosmicUploadSectionSchema,
+  CosmicAllToolsSectionSchema,
 ]);
 
 /**

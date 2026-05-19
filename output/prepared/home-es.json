@@ -1,6 +1,6 @@
 {
   "data": {
-    "environment": "staging",
+    "environment": "test",
     "identifier": "ai-chat",
     "slug": "home",
     "locale": "es",

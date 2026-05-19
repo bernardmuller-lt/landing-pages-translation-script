@@ -1,0 +1,120 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "pl",
+    "locale_display": "pl",
+    "seo": {
+      "title": "Cennik · CosmicPDF",
+      "description": "Wybierz idealny plan dla swoich potrzeb."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "PricingHero",
+        "badge": null,
+        "title": "Proste i przejrzyste ceny",
+        "subtitle": "Wybierz idealny plan dla swoich potrzeb.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanPro",
+        "title": "Zawodowiec",
+        "subtitle": "Dla profesjonalistów, którzy potrzebują nieograniczonego dostępu",
+        "items": [
+          {
+            "icon": null,
+            "title": "Nieograniczone edycje plików PDF",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Wszystkie 32 narzędzia oparte na sztucznej inteligencji",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Limit rozmiaru pliku 100 MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Przetwarzanie priorytetowe",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Zaawansowane funkcje sztucznej inteligencji",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Priorytetowa pomoc e-mailowa",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Brak znaków wodnych",
+            "description": null
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanBusiness",
+        "title": "Biznes",
+        "subtitle": "Bezproblemowo współpracuj ze swoim zespołem",
+        "items": [
+          {
+            "icon": null,
+            "title": "Wszystko w Pro",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Do 5 członków zespołu",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Wspólna przestrzeń robocza",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Analityka zespołu",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Limit rozmiaru pliku 500 MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Dedykowane wsparcie",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Kontrola administracyjna",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Dostęp do API",
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+}

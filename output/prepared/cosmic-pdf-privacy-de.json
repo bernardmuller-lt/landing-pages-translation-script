@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "privacy",
+    "locale": "de",
+    "locale_display": "de",
+    "seo": {
+      "title": "Datenschutzrichtlinie · CosmicPDF",
+      "description": "Letzte Aktualisierung: 30. April 2026"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Einführung",
+        "content": "<p>Willkommen bei CosmicPDF. Wir respektieren Ihre Privatsphäre und verpflichten uns zum Schutz Ihrer persönlichen Daten. Diese Richtlinie beschreibt, wie wir mit Informationen umgehen, wenn Sie unsere Marketing-Website besuchen und das CosmicPDF-Produkt verwenden.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "collected",
+        "title": "Informationen, die wir sammeln",
+        "content": "<p>Wir können folgende Kategorien von Informationen erfassen und verarbeiten:</p><p><strong>Identitätsdaten:</strong> Name und ähnliche Identifikatoren.</p><p><strong>Kontaktdaten:</strong> E-Mail-Adresse und Telefonnummern, sofern angegeben.</p><p><strong>Technische Daten:</strong> IP-Adresse, Browsertyp, Geräte- und Diagnosedaten.</p><p><strong>Nutzungsdaten:</strong> Informationen darüber, wie Sie unsere Website und Dienste nutzen.</p><p><strong>Dokumentdaten:</strong> Dateien, die Sie zur Verarbeitung im Produkt hochladen.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "marketing",
+        "title": "Marketingseite",
+        "content": "<p>Dieses Repository hostet eine statische Marketing-Site. Es führt keine serverseitige Verarbeitung für Uploads durch. Jegliche Dateiübergabe sollte gemäß Ihrer Sicherheitsüberprüfung in der Produktanwendung implementiert werden.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Kontakt",
+        "content": "<p>Fragen zum Datenschutz:</p><p>privatsphäre@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}

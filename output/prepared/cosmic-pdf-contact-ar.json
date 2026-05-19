@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "ar",
+    "locale_display": "ar",
+    "seo": {
+      "title": "اتصل بـ CosmicPDF",
+      "description": "هل لديك أسئلة حول CosmicPDF؟ نحن هنا للمساعدة. تواصل معنا وسنرد عليك في أقرب وقت ممكن."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "تواصل معنا",
+        "title": "<h1>لنبدأ أ <strong>محادثة</strong></h1>",
+        "subtitle": "هل لديك أسئلة حول CosmicPDF؟ نحن هنا للمساعدة. تواصل معنا وسنرد عليك في أقرب وقت ممكن.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "اتصال معلومة",
+        "subtitle": "هل تفضل التواصل مباشرة؟ وإليكم القنوات التي نراقبها.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "راسلنا عبر البريد الإلكتروني",
+            "description": "support@cosmicpdf.com\nنرد عادةً خلال 24 ساعة"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "مبيعات",
+            "description": "sales@cosmicpdf.com\nأسئلة التسعير والطيارين والمشتريات"
+          },
+          {
+            "icon": "Shield",
+            "title": "حماية",
+            "description": "security@cosmicpdf.com\nالكشف المسؤول والمراجعات الأمنية"
+          },
+          {
+            "icon": "Clock",
+            "title": "ساعات العمل",
+            "description": "الاثنين - الجمعة: 9:00 صباحًا - 6:00 مساءً بتوقيت المحيط الهادئ\nيختلف دعم عطلة نهاية الأسبوع حسب الخطة"
+          }
+        ]
+      }
+    ]
+  }
+}

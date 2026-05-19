@@ -1,0 +1,57 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "contact",
+    "locale": "de",
+    "locale_display": "de",
+    "seo": {
+      "title": "Kontaktieren Sie CosmicPDF",
+      "description": "Haben Sie Fragen zu CosmicPDF? Wir sind hier, um zu helfen. Kontaktieren Sie uns und wir werden uns so schnell wie möglich bei Ihnen melden."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ContactHero",
+        "badge": "Nehmen Sie Kontakt auf",
+        "title": "<h1>Beginnen wir mit a <strong>Gespräch</strong></h1>",
+        "subtitle": "Haben Sie Fragen zu CosmicPDF? Wir sind hier, um zu helfen. Kontaktieren Sie uns und wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ContactInfo",
+        "title": "Kontakt Information",
+        "subtitle": "Möchten Sie lieber direkt Kontakt aufnehmen? Hier sind die Kanäle, die wir überwachen.",
+        "items": [
+          {
+            "icon": "Mail",
+            "title": "Schicken Sie uns eine E-Mail",
+            "description": "support@cosmicpdf.com\nWir antworten in der Regel innerhalb von 24 Stunden"
+          },
+          {
+            "icon": "DollarSign",
+            "title": "Verkäufe",
+            "description": "sales@cosmicpdf.com\nFragen zu Preisen, Piloten und Beschaffung"
+          },
+          {
+            "icon": "Shield",
+            "title": "Sicherheit",
+            "description": "security@cosmicpdf.com\nVerantwortungsvolle Offenlegung und Sicherheitsüberprüfungen"
+          },
+          {
+            "icon": "Clock",
+            "title": "Geschäftszeiten",
+            "description": "Montag – Freitag: 9:00 – 18:00 Uhr PST\nDer Wochenendsupport variiert je nach Plan"
+          }
+        ]
+      }
+    ]
+  }
+}

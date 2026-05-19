@@ -1,0 +1,108 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "word-to-pdf",
+    "locale": "de",
+    "locale_display": "de",
+    "seo": {
+      "title": "Word zu PDF · CosmicPDF",
+      "description": "Word zu PDF online mit CosmicPDF – schnell, klar und für echte Dokumente konzipiert."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "ToolHero",
+        "badge": null,
+        "title": "<h1>Word zu PDF</h1>",
+        "subtitle": "<p>Word zu PDF online mit CosmicPDF – schnell, klar und für echte Dokumente konzipiert.</p><p>Verwenden Sie CosmicPDF für word zu pdf mit geführten Schritten, Vorschauen (sofern verfügbar) und Exportoptionen, die der heutigen Art und Weise entsprechen, wie Teams PDFs versenden.</p>",
+        "cta": {
+          "href": "/tools",
+          "text": "Legen Sie los",
+          "aria_label": "Legen Sie los"
+        },
+        "upload_hint_text": "Legen Sie Ihre Datei hier ab",
+        "upload_browse_text": "oder klicken Sie zum Durchsuchen. • Fahren Sie in der CosmicPDF-App fort",
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolFeatures",
+        "title": "Leistungsstarke Funktionen",
+        "subtitle": "Alles, was Sie für {Name} brauchen",
+        "items": [
+          {
+            "icon": null,
+            "title": "Schnelle Bearbeitung",
+            "description": "Führen Sie Word zu PDF mit optimierten Pipelines und klarem Fortschritt aus."
+          },
+          {
+            "icon": null,
+            "title": "Qualitätserhaltung",
+            "description": "Behalten Sie Schriftarten, Vektoren und Layouttreue bei, sofern das Format dies zulässt."
+          },
+          {
+            "icon": null,
+            "title": "Sicher durch Design",
+            "description": "Verschlüsselung bei der Übertragung und sinnvolle Standardeinstellungen für die Dokumentenverarbeitung."
+          },
+          {
+            "icon": null,
+            "title": "Funktioniert in der App",
+            "description": "Öffnen Sie CosmicPDF im Internet, um den Job mit dem vollständigen Editor abzuschließen."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "ToolHowItWorks",
+        "title": "Wie es funktioniert",
+        "subtitle": "Einfacher und effizienter Prozess in 4 Schritten",
+        "items": [
+          {
+            "icon": null,
+            "title": "Hochladen",
+            "description": "Fügen Sie die Datei, die Sie verwenden möchten, mit Word zu PDF hinzu."
+          },
+          {
+            "icon": null,
+            "title": "Wählen Sie Optionen",
+            "description": "Wählen Sie die Einstellungen aus, die zu Ihrem Dokument passen."
+          },
+          {
+            "icon": null,
+            "title": "Verfahren",
+            "description": "Lassen Sie CosmicPDF den Vorgang für Ihre Datei ausführen."
+          },
+          {
+            "icon": null,
+            "title": "Herunterladen",
+            "description": "Speichern Sie das Ergebnis oder setzen Sie die Bearbeitung in der App fort."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "ToolFAQ",
+        "title": "Häufig gestellte Fragen",
+        "subtitle": "Häufige Fragen zu Word zu PDF",
+        "support_text": null,
+        "support_link_text": null,
+        "support_link_href": null,
+        "items": [
+          {
+            "title": "Kann Word zu PDF kostenlos getestet werden?",
+            "content": "Sie können auf der Marketingseite beginnen und im Produkt fortfahren. Pläne und Limits werden in der App angezeigt."
+          },
+          {
+            "title": "Wo werden Dateien verarbeitet?",
+            "content": "Nachdem Sie von cosmicpdf.com aus fortfahren, wird in der CosmicPDF-Anwendung eine umfangreiche Verarbeitung ausgeführt."
+          }
+        ]
+      }
+    ]
+  }
+}

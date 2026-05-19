@@ -1,0 +1,120 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "nl",
+    "locale_display": "nl",
+    "seo": {
+      "title": "Prijzen · CosmicPDF",
+      "description": "Kies het perfecte plan voor uw behoeften."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "PricingHero",
+        "badge": null,
+        "title": "Eenvoudige, transparante prijzen",
+        "subtitle": "Kies het perfecte plan voor uw behoeften.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanPro",
+        "title": "Pro",
+        "subtitle": "Voor professionals die onbeperkte toegang nodig hebben",
+        "items": [
+          {
+            "icon": null,
+            "title": "Onbeperkte PDF-bewerkingen",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Alle 32 AI-aangedreven tools",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Maximale bestandsgrootte van 100 MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Prioritaire verwerking",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Geavanceerde AI-functies",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Prioritaire e-mailondersteuning",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Geen watermerken",
+            "description": null
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanBusiness",
+        "title": "Bedrijf",
+        "subtitle": "Werk naadloos samen met uw team",
+        "items": [
+          {
+            "icon": null,
+            "title": "Alles in Pro",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Maximaal 5 teamleden",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Gedeelde werkruimte",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Teamanalyse",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Bestandsgroottelimiet van 500 MB",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Toegewijde ondersteuning",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "Beheerdersbediening",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "API-toegang",
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+}

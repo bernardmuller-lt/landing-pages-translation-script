@@ -1,0 +1,120 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "pricing",
+    "locale": "ko-KR",
+    "locale_display": "kr",
+    "seo": {
+      "title": "가격 · CosmicPDF",
+      "description": "귀하의 필요에 맞는 완벽한 계획을 선택하십시오."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "PricingHero",
+        "badge": null,
+        "title": "간단하고 투명한 가격",
+        "subtitle": "귀하의 필요에 맞는 완벽한 계획을 선택하십시오.",
+        "cta": null,
+        "upload_hint_text": null,
+        "upload_browse_text": null,
+        "upload_error_type": null,
+        "upload_error_size": null,
+        "no_card_text": null,
+        "trial_text": null
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanPro",
+        "title": "찬성",
+        "subtitle": "무제한 액세스가 필요한 전문가용",
+        "items": [
+          {
+            "icon": null,
+            "title": "무제한 PDF 편집",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "AI 기반 도구 32개 모두",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "100MB 파일 크기 제한",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "우선 처리",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "고급 AI 기능",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "우선 이메일 지원",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "워터마크 없음",
+            "description": null
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "PlanBusiness",
+        "title": "사업",
+        "subtitle": "팀과 원활하게 협업하세요",
+        "items": [
+          {
+            "icon": null,
+            "title": "프로의 모든 것",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "최대 5명의 팀원",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "공유 작업 공간",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "팀 분석",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "500MB 파일 크기 제한",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "전담 지원",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "관리 제어",
+            "description": null
+          },
+          {
+            "icon": null,
+            "title": "API 액세스",
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "home",
+    "locale": "fr",
+    "locale_display": "fr",
+    "seo": {
+      "title": "CosmicPDF — Édition PDF IA pour les équipes modernes",
+      "description": "Transformez votre flux de travail documentaire grâce à la technologie d'IA intelligente. Modifiez, signez, convertissez et fusionnez des PDF avec une facilité et une rapidité sans précédent."
+    },
+    "sections": [
+      {
+        "__component": "cosmic.hero-section",
+        "fe_component": "Hero",
+        "badge": "Propulsé par une IA avancée",
+        "title": "<h1>L'avenir de <strong>Édition de PDF</strong></h1>",
+        "subtitle": "Transformez votre flux de travail documentaire grâce à la technologie d'IA intelligente. Modifiez, signez, convertissez et fusionnez des PDF avec une facilité et une rapidité sans précédent.",
+        "cta": {
+          "href": "/tools",
+          "text": "Commencer l'édition",
+          "aria_label": "Commencer l'édition"
+        },
+        "upload_hint_text": "Déposez votre PDF ici",
+        "upload_browse_text": "ou cliquez pour parcourir • Maximum 50 Mo",
+        "upload_error_type": "Veuillez sélectionner un fichier PDF",
+        "upload_error_size": "La taille du fichier doit être inférieure à 50 Mo",
+        "no_card_text": "Aucune carte de crédit requise",
+        "trial_text": "Essai gratuit de 14 jours"
+      },
+      {
+        "__component": "cosmic.trusted-by-section",
+        "fe_component": "TrustedBy",
+        "label": "Approuvé par les leaders de l'industrie",
+        "logos": []
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "QuickTools",
+        "title": "Outils basés sur l'IA",
+        "subtitle": "Tout ce dont vous avez besoin pour une gestion professionnelle des documents",
+        "items": [
+          {
+            "icon": "Sparkles",
+            "title": "Résumé de l'IA",
+            "description": "Extrayez instantanément des informations clés à partir de documents longs grâce à l'IA avancée"
+          },
+          {
+            "icon": "TableProperties",
+            "title": "Extrait d'IA",
+            "description": "Identifiez et extrayez automatiquement les tables, les formulaires et les structures de données"
+          },
+          {
+            "icon": "Languages",
+            "title": "Traduction par l'IA",
+            "description": "Traduisez des documents dans plus de 100 langues tout en préservant le formatage"
+          },
+          {
+            "icon": "ScanText",
+            "title": "J'ai l'OCR",
+            "description": "Convertissez les documents numérisés en texte modifiable avec une grande précision"
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.card-grid-section",
+        "fe_component": "FeatureShowcase",
+        "title": "Conçu pour les équipes modernes",
+        "subtitle": "Des fonctionnalités puissantes qui s'adaptent aux besoins de votre entreprise",
+        "items": [
+          {
+            "icon": "Brain",
+            "title": "Intelligence artificielle",
+            "description": "Les algorithmes avancés d'apprentissage automatique comprennent vos documents et automatisent les tâches complexes"
+          },
+          {
+            "icon": "Zap",
+            "title": "Rapide comme l'éclair",
+            "description": "Traitez les documents plus rapidement que les outils traditionnels grâce à une infrastructure cloud optimisée"
+          },
+          {
+            "icon": "Shield",
+            "title": "Sécurité d'entreprise",
+            "description": "Chiffrement au niveau bancaire et conformité aux normes RGPD, SOC 2 et ISO 27001"
+          },
+          {
+            "icon": "Globe",
+            "title": "Accès universel",
+            "description": "Travaillez de n'importe où avec une synchronisation transparente sur vos appareils et plates-formes"
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.promo-section",
+        "fe_component": "Dashboard",
+        "badge": "Aperçu du tableau de bord",
+        "title": "<h2>Tableau de bord puissant pour <strong>Gestion complète des fichiers</strong></h2>",
+        "subtitle": "Accédez à tous vos fichiers PDF dans un hub centralisé doté d'une organisation avancée, de fonctionnalités de recherche et d'outils intelligents de gestion de fichiers.",
+        "features": [
+          {
+            "icon": "LayoutDashboard",
+            "title": "Hub centralisé",
+            "subtitle": "Gérez tous vos fichiers PDF dans un seul tableau de bord organisé"
+          },
+          {
+            "icon": "Trash2",
+            "title": "Système de poubelle",
+            "subtitle": "Rétention de la corbeille pendant 30 jours avec options de restauration et de suppression permanente"
+          },
+          {
+            "icon": "MousePointerClick",
+            "title": "Actions rapides",
+            "subtitle": "Prévisualisez, téléchargez, modifiez et supprimez en un seul clic"
+          }
+        ],
+        "cta": {
+          "href": "/dashboard",
+          "text": "Accédez à votre tableau de bord",
+          "aria_label": "Accédez à votre tableau de bord"
+        },
+        "cta_note": "Connectez-vous pour commencer à gérer vos fichiers PDF",
+        "media": null
+      },
+      {
+        "__component": "cosmic.cta-banner-section",
+        "fe_component": "CTA",
+        "title": "<h2>Commencez à éditer plus intelligemment, <strong>pas plus dur</strong></h2>",
+        "subtitle": "Rejoignez des milliers de professionnels qui ont transformé leur flux de travail documentaire grâce à des outils basés sur l'IA.",
+        "bullets": [
+          {
+            "text": "Essai gratuit de 14 jours, aucune carte de crédit requise"
+          },
+          {
+            "text": "Annulez à tout moment, conservez vos données"
+          },
+          {
+            "text": "Traitement illimité des documents"
+          }
+        ],
+        "cta": {
+          "href": "/register",
+          "text": "Commencer",
+          "aria_label": "Commencer"
+        },
+        "stats": [
+          {
+            "value": "50 000+",
+            "label": "Utilisateurs actifs"
+          },
+          {
+            "value": "1M+",
+            "label": "PDF traités"
+          },
+          {
+            "value": "99,9%",
+            "label": "Temps de disponibilité"
+          },
+          {
+            "value": "4.9/5",
+            "label": "Évaluation des utilisateurs"
+          }
+        ],
+        "quote": "Cet outil a complètement transformé la façon dont nous traitons les documents. Les fonctionnalités d’IA nous font gagner des heures chaque semaine.",
+        "quote_author": "— Sarah Chen, chef de produit chez TechCorp"
+      },
+      {
+        "__component": "cosmic.testimonials-section",
+        "fe_component": "Testimonials",
+        "title": "Apprécié par des milliers d'utilisateurs",
+        "subtitle": "Découvrez ce que les professionnels disent de CosmicPDF",
+        "items": [
+          {
+            "name": "Sarah Mitchell",
+            "role": "Directeur marketing",
+            "company": "TechFlow Inc.",
+            "initials": "SM",
+            "content": "CosmicPDF a transformé la façon dont notre équipe gère les documents. Les outils basés sur l'IA nous font gagner des heures chaque semaine et l'interface est incroyablement intuitive."
+          },
+          {
+            "name": "Michael Chen",
+            "role": "Chef de produit",
+            "company": "Laboratoires de démarrage",
+            "initials": "MC",
+            "content": "Le meilleur outil PDF que j'ai jamais utilisé. Convertir, fusionner et éditer des PDF n'a jamais été aussi simple. Les fonctionnalités d’IA changent la donne en termes de productivité."
+          },
+          {
+            "name": "Emilie Rodriguez",
+            "role": "Consultant juridique",
+            "company": "Droit & Associés",
+            "initials": "EST",
+            "content": "La sécurité et la fiabilité sont cruciales pour nos documents juridiques. Cette plate-forme offre sur les deux fronts tout en rendant les tâches PDF complexes simples et rapides."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.faq-section",
+        "fe_component": "FAQ",
+        "title": "Foire aux questions",
+        "subtitle": "Tout ce que vous devez savoir sur CosmicPDF",
+        "support_text": "Vous avez encore des questions ?",
+        "support_link_text": "Contactez notre équipe d'assistance",
+        "support_link_href": "/contact",
+        "items": [
+          {
+            "title": "Comment fonctionne l'édition basée sur l'IA ?",
+            "content": "Notre technologie avancée d’IA utilise l’apprentissage automatique pour comprendre la structure des documents, détecter le texte et les images et suggérer intelligemment des modifications. Il peut reconnaître automatiquement les formulaires, extraire des données et vous aider à apporter des modifications plus rapidement que les éditeurs PDF traditionnels."
+          },
+          {
+            "title": "Mes données sont-elles sécurisées et privées ?",
+            "content": "Nous utilisons un cryptage fort pour les transferts et le stockage des données. Vos documents sont traités en toute sécurité. Nous concevons CosmicPDF pour répondre aux attentes courantes en matière de conformité ; consultez notre politique de confidentialité et les exigences de votre organisation avant de télécharger des données sensibles."
+          },
+          {
+            "title": "Quels formats de fichiers prenez-vous en charge ?",
+            "content": "Nous prenons en charge le format PDF comme format principal, avec des capacités de conversion vers et depuis Word (DOCX), Excel (XLSX), PowerPoint (PPTX), les images (JPG, PNG), etc. Vous pouvez également fusionner différents types de fichiers en un seul PDF lorsque cela est pris en charge."
+          },
+          {
+            "title": "Puis-je utiliser cet outil hors ligne ?",
+            "content": "Le site marketing est statique ; l'expérience produit est basée sur le cloud pour tirer parti du puissant traitement de l'IA. Certains flux de travail peuvent offrir des expériences de bureau : consultez l'application pour plus de détails."
+          },
+          {
+            "title": "Que se passe-t-il une fois mon essai gratuit terminé ?",
+            "content": "Après votre essai, vous pouvez choisir un forfait payant ou continuer avec un niveau gratuit lorsqu'il est disponible. Vos documents et travaux sont sauvegardés selon les règles de conservation du produit."
+          },
+          {
+            "title": "Proposez-vous des forfaits d'équipe ou d'entreprise ?",
+            "content": "Oui. Nous proposons des forfaits d'équipe avec des espaces de travail partagés et des options d'entreprise avec une sécurité et une assistance avancées. Contactez le service commercial pour obtenir des tarifs personnalisés."
+          }
+        ]
+      },
+      {
+        "__component": "cosmic.all-tools-section",
+        "fe_component": "AllTools",
+        "title": "Tous les outils",
+        "subtitle": "Suite complète d'outils PDF pour tous les besoins"
+      }
+    ]
+  }
+}

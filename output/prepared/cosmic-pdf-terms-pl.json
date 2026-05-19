@@ -1,0 +1,45 @@
+{
+  "data": {
+    "environment": "production",
+    "identifier": "cosmic-pdf",
+    "slug": "terms",
+    "locale": "pl",
+    "locale_display": "pl",
+    "seo": {
+      "title": "Warunki świadczenia usług · CosmicPDF",
+      "description": "Ostatnia aktualizacja: 30 kwietnia 2026 r"
+    },
+    "sections": [
+      {
+        "__component": "shared.legal",
+        "fe_component": "introduction",
+        "title": "Wstęp",
+        "content": "<p>Niniejsze Warunki regulują korzystanie z witryn i usług CosmicPDF. Uzyskując dostęp do naszych usług lub korzystając z nich, wyrażasz zgodę na niniejsze Warunki.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "accounts",
+        "title": "Konta",
+        "content": "<p>Tworząc konto, wyrażasz zgodę na podanie dokładnych informacji i zabezpieczenie danych uwierzytelniających. Jesteś odpowiedzialny za aktywność na swoim koncie.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "content",
+        "title": "Treść użytkownika",
+        "content": "<p>Zachowujesz prawa do przesłanych dokumentów. Musisz mieć prawo do przetwarzania przesłanych treści.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "liability",
+        "title": "Ograniczenie odpowiedzialności",
+        "content": "<p>W maksymalnym zakresie dozwolonym przez prawo CosmicPDF nie ponosi odpowiedzialności za szkody pośrednie lub wtórne powstałe w wyniku korzystania z usług.</p>"
+      },
+      {
+        "__component": "shared.legal",
+        "fe_component": "contact",
+        "title": "Kontakt",
+        "content": "<p>Pytania dotyczące niniejszych Warunków:</p><p>legal@cosmicpdf.com</p>"
+      }
+    ]
+  }
+}
